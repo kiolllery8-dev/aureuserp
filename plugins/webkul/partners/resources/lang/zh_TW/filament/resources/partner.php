@@ -1,6 +1,9 @@
 <?php
 
 return [
+    'model-label' => '聯絡人',
+    'plural-model-label' => '聯絡人',
+
     'global-search' => [
         'email' => '電子郵件',
         'phone' => '電話',

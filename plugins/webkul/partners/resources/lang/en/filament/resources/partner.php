@@ -1,6 +1,9 @@
 <?php
 
 return [
+    'model-label' => 'Contact',
+    'plural-model-label' => 'Contacts',
+
     'global-search' => [
         'email' => 'Email',
         'phone' => 'Phone',
