@@ -16,7 +16,7 @@ return [
 
         'reverse' => [
             'label'         => '貸項通知單',
-            'modal-heading' => '新增Credit Note',
+            'modal-heading' => '新增Credit 備註',
         ],
     ],
 ];

@@ -6,7 +6,7 @@ return [
     'table' => [
         'columns' => [
             'product'         => '商品',
-            'lot'             => 'Lot/Serial Number',
+            'lot'             => '批號/Serial 編號',
             'quantity'        => '數量',
             'unit-of-measure' => '計量單位',
         ],

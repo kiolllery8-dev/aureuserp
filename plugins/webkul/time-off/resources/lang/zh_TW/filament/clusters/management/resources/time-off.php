@@ -10,7 +10,7 @@ return [
     ],
 
     'global-search' => [
-        'employee'      => 'Employee',
+        'employee'      => '員工',
         'time-off-type' => '假別',
         'date-from'     => '開始日期',
         'date-to'       => '結束日期',
@@ -22,13 +22,13 @@ return [
             'department-name'   => 'Department名稱',
             'time-off-type'     => '假別',
             'date'              => '日期',
-            'dates'             => 'Dates',
+            'dates'             => '日期',
             'request-date-from' => '申請開始日',
             'request-date-to'   => '申請結束日',
             'description'       => '描述',
             'period'            => 'Period',
             'half-day'          => 'Half Day',
-            'requested-days'    => 'Requested (Days/Hours)',
+            'requested-days'    => 'Requested (天數/Hours)',
             'description'       => '描述',
             'attachment'        => '附件',
             'day'               => ':day day',
@@ -38,7 +38,7 @@ return [
 
     'table' => [
         'columns' => [
-            'employee-name'  => 'Employee',
+            'employee-name'  => '員工',
             'time-off-type'  => '假別',
             'description'    => '描述',
             'date-from'      => '開始日期',
@@ -48,7 +48,7 @@ return [
         ],
 
         'groups' => [
-            'employee-name' => 'Employee',
+            'employee-name' => '員工',
             'time-off-type' => '假別',
             'status'        => '狀態',
             'start-date'    => '開始日期',
@@ -64,14 +64,14 @@ return [
                     'approve'  => '核准',
                 ],
                 'notification' => [
-                    'title' => 'Time Off approved',
+                    'title' => '請假 approved',
                     'body'  => 'The time off has been approved成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Time Off已刪除',
+                    'title' => '請假已刪除',
                     'body'  => 'The time off has been已刪除成功.',
                 ],
             ],
@@ -79,7 +79,7 @@ return [
             'refused' => [
                 'title'        => 'Refuse',
                 'notification' => [
-                    'title' => 'Time Off refused',
+                    'title' => '請假 refused',
                     'body'  => 'The time off has been refused成功.',
                 ],
             ],
@@ -88,7 +88,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Time Off已刪除',
+                    'title' => '請假已刪除',
                     'body'  => 'The time off has been已刪除成功.',
                 ],
             ],
@@ -101,13 +101,13 @@ return [
             'department-name'   => 'Department名稱',
             'time-off-type'     => '假別',
             'date'              => '日期',
-            'dates'             => 'Dates',
+            'dates'             => '日期',
             'request-date-from' => '申請開始日',
             'request-date-to'   => '申請結束日',
             'description'       => '描述',
             'period'            => 'Period',
             'half-day'          => 'Half Day',
-            'requested-days'    => 'Requested (Days/Hours)',
+            'requested-days'    => 'Requested (天數/Hours)',
             'attachment'        => '附件',
             'day'               => ':day day',
             'days'              => ':days day(s)',

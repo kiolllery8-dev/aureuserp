@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'breadcrumb'           => 'Your Applicant',
+    'breadcrumb'           => 'Your 應徵者',
     'hello'                => 'Hello,',
     'application_received' => 'We confirm we成功 received your application for the job ":job_position" :company.',
     'response_soon'        => 'We will come back to you shortly.',

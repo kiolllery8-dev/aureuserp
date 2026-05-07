@@ -10,7 +10,7 @@ return [
     ],
 
     'global-search' => [
-        'employee'      => 'Employee',
+        'employee'      => '員工',
         'time-off-type' => '假別',
         'date-from'     => '開始日期',
         'date-to'       => '結束日期',
@@ -19,7 +19,7 @@ return [
     'form' => [
         'fields' => [
             'name'                => '名稱',
-            'name-placeholder'    => 'Time Off類型 (From validity start to validity end/no limit)',
+            'name-placeholder'    => '請假類型 (From validity start to validity end/no limit)',
             'time-off-type'       => '假別',
             'employee-name'       => '員工姓名',
             'allocation-type'     => '假期分配類型',
@@ -28,14 +28,14 @@ return [
             'date-to'             => '結束日期',
             'date-to-placeholder' => 'No Limit',
             'allocation'          => '假期額度',
-            'allocation-suffix'   => 'Number of Days',
+            'allocation-suffix'   => '編號 of 天數',
             'reason'              => 'Reason',
         ],
     ],
 
     'table' => [
         'columns' => [
-            'employee-name'   => 'Employee',
+            'employee-name'   => '員工',
             'time-off-type'   => '假別',
             'amount'          => '金額',
             'allocation-type' => '假期分配類型',
@@ -111,7 +111,7 @@ return [
                 'title'   => 'Allocation狀態',
                 'entries' => [
                     'date-to-placeholder' => 'No Limit',
-                    'allocation'          => 'Number of Day(s)',
+                    'allocation'          => '編號 of Day(s)',
                     'allocation-value'    => ':days number of days',
                     'state'               => '狀態',
                 ],

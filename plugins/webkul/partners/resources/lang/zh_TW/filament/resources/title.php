@@ -22,7 +22,7 @@ return [
             'edit' => [
                 'notification' => [
                     'title' => 'Title已更新',
-                    'body'  => 'The Title has been已更新成功.',
+                    'body'  => 'The 標題 has been已更新成功.',
                 ],
             ],
 

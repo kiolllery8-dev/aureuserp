@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'breadcrumb'        => 'Your Applicant :applicant',
-    'greeting'          => 'Dear Applicant,',
+    'breadcrumb'        => 'Your 應徵者 :applicant',
+    'greeting'          => 'Dear 應徵者,',
     'thank-you-message' => 'We would like to thank you for your interest and the time you have invested.',
     'future-endeavors'  => 'We wish you all the best in your future endeavors.',
     'best-regards'      => 'Best regards,',
@@ -10,6 +10,6 @@ return [
     'resume-on-record'  => 'We will, however, keep your resume on記錄 and get in touch with you about future opportunities that may be a better fit for your skills and experience.',
     'admin-details'     => [
         'name'  => ':name',
-        'email' => 'Email: :email',
+        'email' => '電子郵件: :email',
     ],
 ];

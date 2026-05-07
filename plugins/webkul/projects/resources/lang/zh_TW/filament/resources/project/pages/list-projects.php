@@ -2,10 +2,10 @@
 
 return [
     'tabs' => [
-        'my-projects'          => 'My Projects',
-        'my-favorite-projects' => 'My Favorites',
-        'unassigned-projects'  => 'Unassigned Projects',
-        'archived-projects'    => 'Archived Projects',
+        'my-projects'          => 'My 專案',
+        'my-favorite-projects' => 'My 最愛',
+        'unassigned-projects'  => 'Unassigned 專案',
+        'archived-projects'    => '已封存 專案',
     ],
 
     'header-actions' => [

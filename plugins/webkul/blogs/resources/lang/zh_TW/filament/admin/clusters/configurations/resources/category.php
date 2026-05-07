@@ -9,15 +9,15 @@ return [
     'form' => [
         'fields' => [
             'name'             => '名稱',
-            'name-placeholder' => 'Category title ...',
-            'sub-title'        => 'Sub Title',
+            'name-placeholder' => '分類 title ...',
+            'sub-title'        => 'Sub 標題',
         ],
     ],
 
     'table' => [
         'columns' => [
             'name'       => '名稱',
-            'sub-title'  => 'Sub Title',
+            'sub-title'  => 'Sub 標題',
             'posts'      => '文章',
             'created-at' => '建立時間',
         ],
@@ -39,7 +39,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Category restored',
+                    'title' => '分類 restored',
                     'body'  => 'The category has been restored成功.',
                 ],
             ],
@@ -54,12 +54,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Category force已刪除',
-                        'body'  => 'The Category has been force已刪除成功.',
+                        'title' => '分類 force已刪除',
+                        'body'  => 'The 分類 has been force已刪除成功.',
                     ],
                     'error' => [
-                        'title' => 'Category  could not be已刪除',
-                        'body'  => 'The Category  cannot be已刪除 because it is currently in use.',
+                        'title' => '分類  could not be已刪除',
+                        'body'  => 'The 分類  cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -77,7 +77,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Categories restored',
+                    'title' => '分類 restored',
                     'body'  => 'The categories has been restored成功.',
                 ],
             ],
@@ -91,7 +91,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Categories force已刪除',
+                    'title' => '分類 force已刪除',
                     'body'  => 'The categories has been force已刪除成功.',
                 ],
             ],

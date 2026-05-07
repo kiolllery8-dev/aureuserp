@@ -5,10 +5,10 @@ return [
 
     'form' => [
         'date'                   => '日期',
-        'employee'               => 'Employee',
+        'employee'               => '員工',
         'description'            => '描述',
         'time-spent'             => '花費時間',
-        'time-spent-helper-text' => 'Time spent in hours (Eg. 1.5 hours means 1 hour 30 minutes)',
+        'time-spent-helper-text' => '時間 spent in hours (Eg. 1.5 hours means 1 hour 30 minutes)',
     ],
 
     'table' => [
@@ -25,10 +25,10 @@ return [
 
         'columns' => [
             'date'                   => '日期',
-            'employee'               => 'Employee',
+            'employee'               => '員工',
             'description'            => '描述',
             'time-spent'             => '花費時間',
-            'time-spent-on-subtasks' => 'Time Spent on Subtasks',
+            'time-spent-on-subtasks' => '時間 Spent on Subtasks',
             'total-time-spent'       => 'Total時間 Spent',
             'remaining-time'         => 'Remaining時間',
         ],

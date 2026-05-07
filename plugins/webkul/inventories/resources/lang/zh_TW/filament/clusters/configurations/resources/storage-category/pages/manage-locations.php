@@ -9,7 +9,7 @@ return [
                 'label' => '新增Location',
 
                 'notification' => [
-                    'title' => 'Location Created',
+                    'title' => '位置 Created',
                     'body'  => 'The location has been已建立.',
                 ],
             ],

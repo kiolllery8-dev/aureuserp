@@ -10,7 +10,7 @@ return [
         'starred'         => 'Starred',
         'purchase-orders' => '採購單',
         'orders'          => 'RFQs',
-        'draft-orders'    => 'Draft RFQs',
+        'draft-orders'    => '草稿 RFQs',
         'waiting-orders'  => 'Waiting RFQs',
         'late-orders'     => 'Late RFQs',
     ],

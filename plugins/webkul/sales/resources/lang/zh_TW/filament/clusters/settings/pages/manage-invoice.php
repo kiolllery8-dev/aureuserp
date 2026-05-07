@@ -11,7 +11,7 @@ return [
 
     'form' => [
         'invoice-policy' => [
-            'label'      => 'Invoice Policy',
+            'label'      => '發票 Policy',
             'label-help' => 'Define how invoices are generated from sales orders.',
             'options'    => [
                 'order'    => 'Generate invoice based on ordered quantities',

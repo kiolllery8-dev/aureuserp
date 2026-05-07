@@ -7,7 +7,7 @@ return [
         'approved'        => '已核准',
         'currently-valid' => 'Currently Valid',
         'my-team'         => 'My Team',
-        'my-department'   => 'My Department',
+        'my-department'   => 'My 部門',
         'refused'         => 'Refused',
     ],
 ];

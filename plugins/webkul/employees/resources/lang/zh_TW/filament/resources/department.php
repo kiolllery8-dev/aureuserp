@@ -21,10 +21,10 @@ return [
                 'fields' => [
                     'name'                => '名稱',
                     'manager'             => '主管',
-                    'parent-department'   => 'Parent Department',
-                    'manager-placeholder' => 'Select Manager',
+                    'parent-department'   => 'Parent 部門',
+                    'manager-placeholder' => 'Select 主管',
                     'company'             => '公司',
-                    'company-placeholder' => 'Select Company',
+                    'company-placeholder' => 'Select 公司',
                     'color'               => '顏色',
                 ],
             ],
@@ -62,7 +62,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Department restored',
+                    'title' => '部門 restored',
                     'body'  => 'The department has been restored成功.',
                 ],
             ],
@@ -76,7 +76,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Department force已刪除',
+                    'title' => '部門 force已刪除',
                     'body'  => 'The department has been force已刪除成功.',
                 ],
             ],
@@ -85,7 +85,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Departments restored',
+                    'title' => '部門 restored',
                     'body'  => 'The departments has been restored成功.',
                 ],
             ],
@@ -99,7 +99,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Departments force已刪除',
+                    'title' => '部門 force已刪除',
                     'body'  => 'The departments has been force已刪除成功.',
                 ],
             ],
@@ -116,7 +116,7 @@ return [
                     'manager'         => '主管',
                     'company'         => '公司',
                     'color'           => '顏色',
-                    'hierarchy-title' => 'Department Organization',
+                    'hierarchy-title' => '部門 Organization',
                 ],
             ],
         ],

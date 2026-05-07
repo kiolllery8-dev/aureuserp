@@ -5,25 +5,25 @@ return [
 
     'form' => [
         'default-taxes' => [
-            'label'       => 'Default Taxes',
-            'helper-text' => 'Default will be applied on products if no tax is selected',
+            'label'       => '預設 稅',
+            'helper-text' => '預設 will be applied on products if no tax is selected',
         ],
 
         'sales-tax' => [
-            'label' => 'Sales Tax',
+            'label' => 'Sales 稅',
         ],
 
         'purchase-tax' => [
-            'label' => 'Purchase Tax',
+            'label' => 'Purchase 稅',
         ],
 
         'prices' => [
-            'label' => 'Prices',
+            'label' => '價格',
         ],
 
         'rounding-method' => [
-            'label'       => 'Rounding Method',
-            'helper-text' => 'Method used to round tax amounts',
+            'label'       => 'Rounding 方式',
+            'helper-text' => '方式 used to round tax amounts',
 
             'options' => [
                 'round-per-line' => 'Round Per Line',
@@ -32,7 +32,7 @@ return [
         ],
 
         'fiscal-country' => [
-            'label' => 'Fiscal Country',
+            'label' => 'Fiscal 國家',
         ],
     ],
 ];

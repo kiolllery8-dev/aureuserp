@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '新增Internal Transfer',
+    'title' => '新增Internal 調撥',
 
     'notification' => [
         'title' => 'Internal Transfer已建立',

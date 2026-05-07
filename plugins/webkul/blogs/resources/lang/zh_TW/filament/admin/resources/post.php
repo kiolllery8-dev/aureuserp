@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Blog Posts',
+        'title' => 'Blog 文章',
         'group' => '網址',
     ],
 
@@ -17,8 +17,8 @@ return [
 
                 'fields' => [
                     'title'             => '標題',
-                    'sub-title'         => 'Sub Title',
-                    'title-placeholder' => 'Post title ...',
+                    'sub-title'         => 'Sub 標題',
+                    'title-placeholder' => '文章 title ...',
                     'slug'              => 'Slug',
                     'content'           => 'Content',
                     'banner'            => 'Banner',
@@ -29,9 +29,9 @@ return [
                 'title' => 'SEO',
 
                 'fields' => [
-                    'meta-title'       => 'Meta Title',
+                    'meta-title'       => 'Meta 標題',
                     'meta-keywords'    => 'Meta Keywords',
-                    'meta-description' => 'Meta Description',
+                    'meta-description' => 'Meta 描述',
                 ],
             ],
 
@@ -85,7 +85,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Post restored',
+                    'title' => '文章 restored',
                     'body'  => 'The post has been restored成功.',
                 ],
             ],
@@ -99,7 +99,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Post force已刪除',
+                    'title' => '文章 force已刪除',
                     'body'  => 'The post has been force已刪除成功.',
                 ],
             ],
@@ -108,7 +108,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Posts restored',
+                    'title' => '文章 restored',
                     'body'  => 'The posts has been restored成功.',
                 ],
             ],
@@ -122,7 +122,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Posts force已刪除',
+                    'title' => '文章 force已刪除',
                     'body'  => 'The posts has been force已刪除成功.',
                 ],
             ],
@@ -146,9 +146,9 @@ return [
                 'title' => 'SEO',
 
                 'entries' => [
-                    'meta-title'       => 'Meta Title',
+                    'meta-title'       => 'Meta 標題',
                     'meta-keywords'    => 'Meta Keywords',
-                    'meta-description' => 'Meta Description',
+                    'meta-description' => 'Meta 描述',
                 ],
             ],
 

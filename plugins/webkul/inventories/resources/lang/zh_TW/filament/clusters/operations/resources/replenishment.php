@@ -22,7 +22,7 @@ return [
             'min'               => 'Min',
             'max'               => 'Max',
             'multiple-quantity' => 'Multiple數量',
-            'to-order'          => 'To Order',
+            'to-order'          => 'To 訂單',
             'uom'               => '計量單位',
             'company'           => '公司',
         ],

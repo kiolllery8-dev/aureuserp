@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Quantities',
+        'title' => '數量',
         'group' => 'Adjustments',
     ],
 
@@ -22,7 +22,7 @@ return [
         'columns' => [
             'location'           => '位置',
             'product'            => '商品',
-            'product-category'   => 'Product Category',
+            'product-category'   => '商品 分類',
             'lot'                => '批號 / 序號',
             'storage-category'   => '儲存分類',
             'available-quantity' => '可用數量',
@@ -47,7 +47,7 @@ return [
 
         'groups' => [
             'product'          => '商品',
-            'product-category' => 'Product Category',
+            'product-category' => '商品 分類',
             'location'         => '位置',
             'storage-category' => '儲存分類',
             'lot'              => '批號 / 序號',
@@ -58,7 +58,7 @@ return [
         'filters' => [
             'product'             => '商品',
             'uom'                 => '計量單位',
-            'product-category'    => 'Product Category',
+            'product-category'    => '商品 分類',
             'location'            => '位置',
             'storage-category'    => '儲存分類',
             'lot'                 => '批號 / 序號',
@@ -80,7 +80,7 @@ return [
                 'label' => '新增Quantity',
 
                 'notification' => [
-                    'title' => 'Quantity added',
+                    'title' => '數量 added',
                     'body'  => 'The quantity has been added成功.',
                 ],
 
@@ -98,7 +98,7 @@ return [
                 'label' => '套用',
 
                 'notification' => [
-                    'title' => 'Quantity changes applied',
+                    'title' => '數量 changes applied',
                     'body'  => 'The quantity changes has been applied成功.',
                 ],
             ],
@@ -107,7 +107,7 @@ return [
                 'label' => 'Clear',
 
                 'notification' => [
-                    'title' => 'Quantity changes cleared',
+                    'title' => '數量 changes cleared',
                     'body'  => 'The quantity changes have been cleared成功.',
                 ],
             ],

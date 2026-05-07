@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'label' => 'Confirm Order',
+    'label' => 'Confirm 訂單',
 
     'action' => [
         'notification' => [
             'success' => [
-                'title' => 'Order confirmed',
+                'title' => '訂單 confirmed',
                 'body'  => 'The order has been confirmed成功.',
             ],
         ],

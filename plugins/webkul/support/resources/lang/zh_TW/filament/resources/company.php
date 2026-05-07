@@ -18,10 +18,10 @@ return [
                 'title'  => 'Company資料',
                 'fields' => [
                     'name'                  => '公司名稱',
-                    'registration-number'   => 'Registration Number',
-                    'company-id'            => 'Company ID',
+                    'registration-number'   => 'Registration 編號',
+                    'company-id'            => '公司 ID',
                     'tax-id'                => '統一編號',
-                    'tax-id-tooltip'        => 'The Tax ID is a unique identifier for your company.',
+                    'tax-id-tooltip'        => 'The 稅 ID is a unique identifier for your company.',
                     'website'               => '網址',
                 ],
             ],
@@ -40,7 +40,7 @@ return [
                     'code'           => '代碼',
                     'country-name'   => '國家名稱',
                     'state-required' => '須填寫州/省',
-                    'zip-required'   => 'Zip Required',
+                    'zip-required'   => 'Zip 必填',
                     'create-country' => '新增國家',
                     'state'          => '狀態',
                     'state-name'     => '州/省名稱',
@@ -55,13 +55,13 @@ return [
                 'fields' => [
                     'default-currency'        => '預設幣別',
                     'currency-name'           => '幣別名稱',
-                    'currency-full-name'      => 'Currency Full名稱',
+                    'currency-full-name'      => '幣別 Full名稱',
                     'currency-symbol'         => '幣別符號',
-                    'currency-iso-numeric'    => 'Currency ISO Numeric',
-                    'currency-decimal-places' => 'Currency Decimal Places',
-                    'currency-rounding'       => 'Currency Rounding',
+                    'currency-iso-numeric'    => '幣別 ISO Numeric',
+                    'currency-decimal-places' => '幣別 Decimal Places',
+                    'currency-rounding'       => '幣別 Rounding',
                     'currency-status'         => 'Currency狀態',
-                    'company-foundation-date' => 'Company Foundation日期',
+                    'company-foundation-date' => '公司 Foundation日期',
                     'currency-create'         => '新增幣別',
                     'status'                  => '狀態',
                 ],
@@ -70,7 +70,7 @@ return [
             'branding' => [
                 'title'  => 'Branding',
                 'fields' => [
-                    'company-logo' => 'Company Logo',
+                    'company-logo' => '公司 Logo',
                     'color'        => '顏色',
                 ],
             ],
@@ -120,7 +120,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Company edited',
+                    'title' => '公司 edited',
                     'body'  => 'The company has been edited成功.',
                 ],
             ],
@@ -134,7 +134,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Company restored',
+                    'title' => '公司 restored',
                     'body'  => 'The company has been restored成功.',
                 ],
             ],
@@ -143,7 +143,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Companies restored',
+                    'title' => '公司 restored',
                     'body'  => 'The companies has been restored成功.',
                 ],
             ],
@@ -157,7 +157,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Companies force已刪除',
+                    'title' => '公司 force已刪除',
                     'body'  => 'The companies has been force已刪除成功.',
                 ],
             ],
@@ -179,10 +179,10 @@ return [
                 'title'   => 'Company資料',
                 'entries' => [
                     'name'                  => '公司名稱',
-                    'registration-number'   => 'Registration Number',
-                    'company-id'            => 'Company ID',
+                    'registration-number'   => 'Registration 編號',
+                    'company-id'            => '公司 ID',
                     'tax-id'                => '統一編號',
-                    'tax-id-tooltip'        => 'The Tax ID is a unique identifier for your company.',
+                    'tax-id-tooltip'        => 'The 稅 ID is a unique identifier for your company.',
                     'website'               => '網址',
                 ],
             ],
@@ -201,7 +201,7 @@ return [
                     'code'           => '代碼',
                     'country-name'   => '國家名稱',
                     'state-required' => '須填寫州/省',
-                    'zip-required'   => 'Zip Required',
+                    'zip-required'   => 'Zip 必填',
                     'create-country' => '新增國家',
                     'state'          => '狀態',
                     'state-name'     => '州/省名稱',
@@ -216,13 +216,13 @@ return [
                 'entries' => [
                     'default-currency'        => '預設幣別',
                     'currency-name'           => '幣別名稱',
-                    'currency-full-name'      => 'Currency Full名稱',
+                    'currency-full-name'      => '幣別 Full名稱',
                     'currency-symbol'         => '幣別符號',
-                    'currency-iso-numeric'    => 'Currency ISO Numeric',
-                    'currency-decimal-places' => 'Currency Decimal Places',
-                    'currency-rounding'       => 'Currency Rounding',
+                    'currency-iso-numeric'    => '幣別 ISO Numeric',
+                    'currency-decimal-places' => '幣別 Decimal Places',
+                    'currency-rounding'       => '幣別 Rounding',
                     'currency-status'         => 'Currency狀態',
-                    'company-foundation-date' => 'Company Foundation日期',
+                    'company-foundation-date' => '公司 Foundation日期',
                     'currency-create'         => '新增幣別',
                     'status'                  => '狀態',
                 ],
@@ -231,7 +231,7 @@ return [
             'branding' => [
                 'title'   => 'Branding',
                 'entries' => [
-                    'company-logo' => 'Company Logo',
+                    'company-logo' => '公司 Logo',
                     'color'        => '顏色',
                 ],
             ],

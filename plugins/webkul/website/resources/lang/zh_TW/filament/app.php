@@ -43,7 +43,7 @@ return [
         'description' => 'Designed to optimize and streamline business operations, Aureus ERP is suitable for enterprises of all sizes.',
         'description_2' => 'The platform emphasizes reporting for insights, security, localization flexibility, and integration with CRMs, BI tools, and APIs.',
         'useful_links' => 'Useful Links',
-        'contact_us' => 'Contact Us',
+        'contact_us' => '聯絡人 Us',
         'follow_us' => 'Follow Us',
         'copyright' => 'Copyright',
         'powered_by' => 'Powered by',
@@ -64,6 +64,6 @@ return [
         'blog' => '部落格',
         'blogs' => '部落格',
         'contact' => '聯絡人',
-        'contact-us' => 'Contact Us',
+        'contact-us' => '聯絡人 Us',
     ],
 ];

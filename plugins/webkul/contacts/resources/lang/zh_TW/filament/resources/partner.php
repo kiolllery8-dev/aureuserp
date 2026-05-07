@@ -7,7 +7,7 @@ return [
     ],
 
     'global-search' => [
-        'project-manager' => 'Project Manager',
+        'project-manager' => '專案 主管',
         'customer'        => '客戶',
     ],
 ];

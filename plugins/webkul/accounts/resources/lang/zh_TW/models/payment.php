@@ -11,7 +11,7 @@ return [
         'payment-reference' => '付款參考',
         'amount'            => '金額',
         'partner'           => '夥伴',
-        'partner-bank'      => 'Partner Bank',
+        'partner-bank'      => '夥伴 銀行',
         'payment-method'    => '付款方式',
         'currency'          => '幣別',
     ],

@@ -6,10 +6,10 @@ return [
     'form' => [
         'enable-locations'                      => '位置',
         'enable-locations-helper-text'          => 'Track product location in your warehouse',
-        'configure-locations'                   => 'Configure Locations',
-        'enable-multi-steps-routes'             => 'Multi Steps Routes',
+        'configure-locations'                   => 'Configure 位置',
+        'enable-multi-steps-routes'             => 'Multi Steps 路徑',
         'enable-multi-steps-routes-helper-text' => 'Use your own routes to manage the transfer of products between warehouses',
-        'configure-routes'                      => 'Configure Warehouse Routes',
+        'configure-routes'                      => 'Configure 倉庫 路徑',
     ],
 
     'before-save' => [

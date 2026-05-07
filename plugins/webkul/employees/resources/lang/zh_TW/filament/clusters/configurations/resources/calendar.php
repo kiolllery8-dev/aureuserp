@@ -5,7 +5,7 @@ return [
 
     'navigation' => [
         'title' => 'Working Schedules',
-        'group' => 'Employee',
+        'group' => '員工',
     ],
 
     'groups' => [
@@ -30,11 +30,11 @@ return [
             ],
 
             'configuration' => [
-                'title'  => 'Work Hours Configuration',
+                'title'  => 'Work Hours 組態設定',
                 'fields' => [
                     'hours-per-day'                   => 'Hours Per Day',
                     'hours-per-day-suffix'            => 'Hours',
-                    'full-time-required-hours'        => 'Full時間 Required Hours',
+                    'full-time-required-hours'        => 'Full時間 必填 Hours',
                     'full-time-required-hours-suffix' => 'Hours Per Week',
                 ],
             ],
@@ -153,11 +153,11 @@ return [
             ],
 
             'configuration' => [
-                'title'   => 'Work Hours Configuration',
+                'title'   => 'Work Hours 組態設定',
                 'entries' => [
                     'hours-per-day'                   => 'Hours Per Day',
                     'hours-per-day-suffix'            => ' Hours',
-                    'full-time-required-hours'        => 'Full時間 Required Hours',
+                    'full-time-required-hours'        => 'Full時間 必填 Hours',
                     'full-time-required-hours-suffix' => ' Hours Per Week',
                 ],
             ],

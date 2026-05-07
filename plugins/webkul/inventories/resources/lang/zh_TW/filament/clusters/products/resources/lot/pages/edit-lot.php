@@ -19,7 +19,7 @@ return [
                 ],
 
                 'error' => [
-                    'title' => 'Lot could not be已刪除',
+                    'title' => '批號 could not be已刪除',
                     'body'  => 'The lot cannot be已刪除 because it is currently in use.',
                 ],
             ],

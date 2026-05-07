@@ -11,7 +11,7 @@ return [
 
         'error' => [
             'notification' => [
-                'title' => 'Department update失敗',
+                'title' => '部門 update失敗',
                 'body'  => 'There was an error updating the department.',
             ],
         ],

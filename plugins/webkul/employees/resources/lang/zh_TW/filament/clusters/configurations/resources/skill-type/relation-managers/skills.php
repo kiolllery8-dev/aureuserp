@@ -30,7 +30,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Skill restored',
+                    'title' => '技能 restored',
                     'body'  => 'The skill has been restored成功.',
                 ],
             ],
@@ -53,14 +53,14 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Skills force已刪除',
+                    'title' => '技能 force已刪除',
                     'body'  => 'The skills has been force已刪除成功.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Skills force restored',
+                    'title' => '技能 force restored',
                     'body'  => 'The skills has been force restored成功.',
                 ],
             ],

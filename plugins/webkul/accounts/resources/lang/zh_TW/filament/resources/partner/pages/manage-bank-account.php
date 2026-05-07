@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => 'Bank Accounts',
+    'title' => '銀行 帳戶',
 
     'table' => [
         'header-actions' => [
             'create' => [
-                'title' => '新增Bank Account',
+                'title' => '新增Bank 帳戶',
             ]
         ]
     ]

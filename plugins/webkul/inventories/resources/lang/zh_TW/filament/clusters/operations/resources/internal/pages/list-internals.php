@@ -3,7 +3,7 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增Internal Transfer',
+            'label' => '新增Internal 調撥',
 
             'notification' => [
                 'title' => 'Internal Transfer已建立',

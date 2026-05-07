@@ -6,7 +6,7 @@ return [
     'tabs' => [
         'trigger-manual'    => 'Trigger Manual',
         'trigger-automatic' => 'Trigger Automatic',
-        'to-order'          => 'To Order',
+        'to-order'          => 'To 訂單',
         'not-snoozed'       => 'Not Snoozed',
     ],
 ];

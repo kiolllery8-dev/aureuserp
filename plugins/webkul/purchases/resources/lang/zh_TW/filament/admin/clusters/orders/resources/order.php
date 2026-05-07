@@ -14,14 +14,14 @@ return [
 
                 'fields' => [
                     'vendor'                   => '供應商',
-                    'vendor-reference'         => 'Vendor Reference',
+                    'vendor-reference'         => '供應商 參考編號',
                     'vendor-reference-tooltip' => 'The reference number of the sales order or bid provided by the vendor. It is used for matching when receiving products, as this reference is typically included in the vendor\'s delivery order.',
                     'agreement'                => 'Agreement',
                     'currency'                 => '幣別',
                     'confirmation-date'        => 'Confirmation日期',
                     'order-deadline'           => '訂單期限',
                     'expected-arrival'         => 'Expected Arrival',
-                    'confirmed-by-vendor'      => 'Confirmed by Vendor',
+                    'confirmed-by-vendor'      => 'Confirmed by 供應商',
                 ],
             ],
         ],
@@ -57,7 +57,7 @@ return [
                             ],
 
                             'blanket-order-qty-limit' => [
-                                'title' => 'Quantity Exceeds Blanket Order Limit',
+                                'title' => '數量 Exceeds Blanket 訂單 Limit',
                                 'body'  => 'The product quantity (:product_qty) exceeds the available quantity (:available_qty) from the blanket order.',
                             ],
                         ],
@@ -80,7 +80,7 @@ return [
                         'delete-action' => [
                             'error' => [
                                 'title' => 'Cannot 刪除Product',
-                                'body'  => 'Products cannot be已刪除 from a confirmed purchase order.',
+                                'body'  => '商品 cannot be已刪除 from a confirmed purchase order.',
                             ],
                         ],
                     ],
@@ -107,7 +107,7 @@ return [
                     'company'           => '公司',
                     'source-document'   => '來源單據',
                     'incoterm'          => '貿易條件',
-                    'incoterm-tooltip'  => 'International Commercial Terms (Incoterms) are a set of standardized trade terms used in global transactions to define responsibilities between buyers and sellers.',
+                    'incoterm-tooltip'  => 'International Commercial 條件 (Incoterms) are a set of standardized trade terms used in global transactions to define responsibilities between buyers and sellers.',
                     'incoterm-location' => '貿易條件地點',
                     'payment-term'      => '付款條件',
                     'fiscal-position'   => '稅務情境',
@@ -122,9 +122,9 @@ return [
 
     'table' => [
         'columns' => [
-            'favorite'         => 'Favorite',
+            'favorite'         => '最愛',
             'priority'         => '優先順序',
-            'vendor-reference' => 'Vendor Reference',
+            'vendor-reference' => '供應商 參考編號',
             'reference'        => '參考編號',
             'vendor'           => '供應商',
             'buyer'            => '買家',
@@ -148,7 +148,7 @@ return [
 
         'filters' => [
             'status'           => '狀態',
-            'vendor-reference' => 'Vendor Reference',
+            'vendor-reference' => '供應商 參考編號',
             'reference'        => '參考編號',
             'untaxed-amount'   => '未稅金額',
             'total-amount'     => '總金額',
@@ -172,7 +172,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Order could not be已刪除',
+                        'title' => '訂單 could not be已刪除',
                         'body'  => 'The order cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -188,7 +188,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Orders could not be已刪除',
+                        'title' => '訂單 could not be已刪除',
                         'body'  => 'The orders cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -204,14 +204,14 @@ return [
                 'entries' => [
                     'purchase-order'           => '採購單',
                     'vendor'                   => '供應商',
-                    'vendor-reference'         => 'Vendor Reference',
+                    'vendor-reference'         => '供應商 參考編號',
                     'vendor-reference-tooltip' => 'The reference number of the sales order or bid provided by the vendor. It is used for matching when receiving products, as this reference is typically included in the vendor\'s delivery order.',
                     'agreement'                => 'Agreement',
                     'currency'                 => '幣別',
                     'confirmation-date'        => 'Confirmation日期',
                     'order-deadline'           => '訂單期限',
                     'expected-arrival'         => 'Expected Arrival',
-                    'confirmed-by-vendor'      => 'Confirmed by Vendor',
+                    'confirmed-by-vendor'      => 'Confirmed by 供應商',
                 ],
             ],
         ],
@@ -259,7 +259,7 @@ return [
                     'company'           => '公司',
                     'source-document'   => '來源單據',
                     'incoterm'          => '貿易條件',
-                    'incoterm-tooltip'  => 'International Commercial Terms (Incoterms) are a set of standardized trade terms used in global transactions to define responsibilities between buyers and sellers.',
+                    'incoterm-tooltip'  => 'International Commercial 條件 (Incoterms) are a set of standardized trade terms used in global transactions to define responsibilities between buyers and sellers.',
                     'incoterm-location' => '貿易條件地點',
                     'payment-term'      => '付款條件',
                     'fiscal-position'   => '稅務情境',

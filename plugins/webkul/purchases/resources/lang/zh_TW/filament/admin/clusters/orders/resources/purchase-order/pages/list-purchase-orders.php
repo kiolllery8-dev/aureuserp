@@ -6,10 +6,10 @@ return [
     ],
 
     'tabs' => [
-        'my-orders'      => 'My Orders',
+        'my-orders'      => 'My 訂單',
         'starred'        => 'Starred',
-        'waiting-bills'  => 'Waiting Bills',
-        'received-bills' => 'Bills Received',
+        'waiting-bills'  => 'Waiting 進貨單',
+        'received-bills' => '進貨單 Received',
     ],
 
     'header-actions' => [

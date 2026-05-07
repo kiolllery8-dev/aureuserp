@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'title' => 'Orders To Upsell',
+    'title' => '訂單 To Upsell',
 
     'navigation' => [
-        'title' => 'Orders To Upsell',
+        'title' => '訂單 To Upsell',
     ],
 ];

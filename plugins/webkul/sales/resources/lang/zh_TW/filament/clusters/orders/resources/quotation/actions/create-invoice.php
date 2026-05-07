@@ -10,7 +10,7 @@ return [
     'notification' => [
         'invoice-created' => [
             'title' => 'Invoice已建立',
-            'body'  => 'Invoice has been已建立成功.',
+            'body'  => '發票 has been已建立成功.',
         ],
 
         'no-invoiceable-lines' => [

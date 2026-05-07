@@ -16,7 +16,7 @@ return [
 
         'tabs' => [
             'due-terms' => [
-                'title' => 'Due Terms',
+                'title' => 'Due 條件',
 
                 'repeater' => [
                     'due-terms' => [
@@ -24,7 +24,7 @@ return [
                             'value'                  => '值',
                             'due'                    => 'Due',
                             'delay-type'             => 'Delay類型',
-                            'days-on-the-next-month' => 'Days on the next month',
+                            'days-on-the-next-month' => '天數 on the next month',
                             'days'                   => '天數',
                         ],
                     ],
@@ -43,10 +43,10 @@ return [
 
         'groups' => [
             'company-name'        => '公司名稱',
-            'discount-days'       => 'Discount Days',
+            'discount-days'       => 'Discount 天數',
             'early-pay-discount'  => 'Early Pay Discount',
             'payment-term'        => '付款條件',
-            'display-on-invoice'  => 'Display on Invoice',
+            'display-on-invoice'  => 'Display on 發票',
             'early-discount'      => 'Early Discount',
             'discount-percentage' => '折扣百分比',
         ],
@@ -54,14 +54,14 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Payment Term restored',
+                    'title' => '付款 條件 restored',
                     'body'  => 'The payment term has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Payment Term已刪除',
+                    'title' => '付款 Term已刪除',
                     'body'  => 'The payment term has been已刪除成功.',
                 ],
             ],
@@ -69,12 +69,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Payment Term force已刪除',
+                        'title' => '付款 條件 force已刪除',
                         'body'  => 'The payment term has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Payment Term force deletion失敗',
+                        'title' => '付款 條件 force deletion失敗',
                         'body'  => 'The payment term could not be force已刪除 because it is associated journal entries.',
                     ],
                 ],
@@ -84,27 +84,27 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Payment Terms restored',
-                    'body'  => 'The payment Terms has been restored成功.',
+                    'title' => '付款 條件 restored',
+                    'body'  => 'The payment 條件 has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Payment Terms已刪除',
-                    'body'  => 'The payment Terms has been已刪除成功.',
+                    'title' => '付款 Terms已刪除',
+                    'body'  => 'The payment 條件 has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Payment Terms force已刪除',
-                        'body'  => 'The payment Terms has been force已刪除成功.',
+                        'title' => '付款 條件 force已刪除',
+                        'body'  => 'The payment 條件 has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Payment Terms force deletion失敗',
+                        'title' => '付款 條件 force deletion失敗',
                         'body'  => 'The payment terms could not be force已刪除 because they have associated journal entries.',
                     ],
                 ],
@@ -128,7 +128,7 @@ return [
 
         'tabs' => [
             'due-terms' => [
-                'title' => 'Due Terms',
+                'title' => 'Due 條件',
 
                 'repeater' => [
                     'due-terms' => [
@@ -136,7 +136,7 @@ return [
                             'value'                  => '值',
                             'due'                    => 'Due',
                             'delay-type'             => 'Delay類型',
-                            'days-on-the-next-month' => 'Days on the next month',
+                            'days-on-the-next-month' => '天數 on the next month',
                             'days'                   => '天數',
                         ],
                     ],

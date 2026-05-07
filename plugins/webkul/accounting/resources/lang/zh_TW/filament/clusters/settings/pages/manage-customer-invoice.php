@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理Customer Invoice',
+    'title' => '管理Customer 發票',
 
     'form' => [
         'cash-rounding' => [
@@ -10,7 +10,7 @@ return [
         ],
 
         'incoterm' => [
-            'label' => 'Default Incoterm',
+            'label' => '預設 Incoterm',
         ],
     ],
 ];

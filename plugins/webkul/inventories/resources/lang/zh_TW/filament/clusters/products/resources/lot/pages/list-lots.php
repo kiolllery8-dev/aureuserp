@@ -3,12 +3,12 @@
 return [
     'tabs' => [
         'all'      => '全部',
-        'internal' => 'Internal Locations',
+        'internal' => 'Internal 位置',
     ],
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Lot / Serial Number',
+            'label' => '新增Lot / Serial 編號',
 
             'notification' => [
                 'title' => 'Package已建立',

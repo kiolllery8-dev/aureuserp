@@ -9,9 +9,9 @@ return [
 
     'tabs' => [
 
-        'all' => 'All Companies',
+        'all' => 'All 公司',
 
-        'archived' => 'Archived Companies',
+        'archived' => '已封存 公司',
 
     ],
 ];

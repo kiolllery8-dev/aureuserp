@@ -9,63 +9,63 @@ return [
         'balance-sheet' => [
             'navigation' => [
                 'title' => 'Balance Sheet',
-                'group' => 'Statement Reports',
+                'group' => 'Statement 報表',
             ],
             'actions' => [
                 'export-excel' => 'Export to Excel',
                 'export-pdf'   => 'Export to PDF',
             ],
             'filters' => [
-                'date-range' => 'Date Range',
+                'date-range' => '日期 Range',
                 'journals'   => '帳本',
             ],
             'content' => [
                 'sections' => [
                     'assets' => [
                         'title'       => '資產',
-                        'total-label' => 'Total ASSETS',
+                        'total-label' => '總計 ASSETS',
                         'subsections' => [
                             'current-assets' => [
                                 'title'       => 'Current Assets',
-                                'total-label' => 'Total Current Assets',
+                                'total-label' => '總計 Current Assets',
                             ],
                             'fixed-assets' => [
                                 'title'       => 'Fixed Assets',
-                                'total-label' => 'Total Fixed Assets',
+                                'total-label' => '總計 Fixed Assets',
                             ],
                             'non-current-assets' => [
                                 'title'       => 'Non-current Assets',
-                                'total-label' => 'Total Non-current Assets',
+                                'total-label' => '總計 Non-current Assets',
                             ],
                         ],
                     ],
                     'liabilities' => [
                         'title'       => 'LIABILITIES',
-                        'total-label' => 'Total LIABILITIES',
+                        'total-label' => '總計 LIABILITIES',
                         'subsections' => [
                             'current-liabilities' => [
                                 'title'       => 'Current Liabilities',
-                                'total-label' => 'Total Current Liabilities',
+                                'total-label' => '總計 Current Liabilities',
                             ],
                             'non-current-liabilities' => [
                                 'title'       => 'Non-current Liabilities',
-                                'total-label' => 'Total Non-current Liabilities',
+                                'total-label' => '總計 Non-current Liabilities',
                             ],
                         ],
                     ],
                     'equity' => [
                         'title'       => '權益',
-                        'total-label' => 'Total EQUITY',
+                        'total-label' => '總計 EQUITY',
                         'subsections' => [
                             'unallocated-earnings' => [
                                 'title'          => 'Unallocated Earnings',
                                 'current-year'   => 'Current Year Unallocated Earnings',
                                 'previous-years' => 'Previous Years Unallocated Earnings',
-                                'total-label'    => 'Total Unallocated Earnings',
+                                'total-label'    => '總計 Unallocated Earnings',
                             ],
                             'retained-earnings' => [
                                 'title'       => 'Retained Earnings',
-                                'total-label' => 'Total Retained Earnings',
+                                'total-label' => '總計 Retained Earnings',
                             ],
                         ],
                     ],
@@ -76,26 +76,26 @@ return [
         'profit-loss' => [
             'navigation' => [
                 'title' => 'Profit & Loss',
-                'group' => 'Statement Reports',
+                'group' => 'Statement 報表',
             ],
             'actions' => [
                 'export-excel' => 'Export to Excel',
                 'export-pdf'   => 'Export to PDF',
             ],
             'filters' => [
-                'date-range' => 'Date Range',
+                'date-range' => '日期 Range',
                 'journals'   => '帳本',
             ],
             'content' => [
                 'sections' => [
                     'revenue' => [
                         'title'         => '收入',
-                        'total-label'   => 'Total Revenue',
+                        'total-label'   => '總計 Revenue',
                         'empty-message' => 'No revenue accounts with transactions in this period',
                     ],
                     'expenses' => [
                         'title'         => '費用',
-                        'total-label'   => 'Total Expenses',
+                        'total-label'   => '總計 Expenses',
                         'empty-message' => 'No expense accounts with transactions in this period',
                     ],
                 ],
@@ -104,42 +104,42 @@ return [
         'general-ledger' => [
             'navigation' => [
                 'title' => 'General Ledger',
-                'group' => 'Audit Reports',
+                'group' => 'Audit 報表',
             ],
             'actions' => [
                 'export-excel' => 'Export to Excel',
                 'export-pdf'   => 'Export to PDF',
             ],
             'filters' => [
-                'date-range' => 'Date Range',
+                'date-range' => '日期 Range',
                 'journals'   => '帳本',
             ],
         ],
         'trial-balance' => [
             'navigation' => [
                 'title' => 'Trial Balance',
-                'group' => 'Audit Reports',
+                'group' => 'Audit 報表',
             ],
             'actions' => [
                 'export-excel' => 'Export to Excel',
                 'export-pdf'   => 'Export to PDF',
             ],
             'filters' => [
-                'date-range' => 'Date Range',
+                'date-range' => '日期 Range',
                 'journals'   => '帳本',
             ],
         ],
         'partner-ledger' => [
             'navigation' => [
-                'title' => 'Partner Ledger',
-                'group' => 'Partner Reports',
+                'title' => '夥伴 Ledger',
+                'group' => '夥伴 報表',
             ],
             'actions' => [
                 'export-excel' => 'Export Excel',
                 'export-pdf'   => 'Export PDF',
             ],
             'filters' => [
-                'date-range' => 'Date Range',
+                'date-range' => '日期 Range',
                 'partners'   => '夥伴',
                 'journals'   => '帳本',
             ],
@@ -147,7 +147,7 @@ return [
         'aged-receivable' => [
             'navigation' => [
                 'title' => 'Aged Receivable',
-                'group' => 'Partner Reports',
+                'group' => '夥伴 報表',
             ],
             'actions' => [
                 'export-excel' => 'Export Excel',
@@ -163,10 +163,10 @@ return [
                 'options'       => [
                     'due-date'       => '到期日',
                     'invoice-date'   => '開立日期',
-                    'days-30'        => '30 Days',
-                    'days-60'        => '60 Days',
-                    'days-90'        => '90 Days',
-                    'posted-entries' => 'Posted Entries',
+                    'days-30'        => '30 天數',
+                    'days-60'        => '60 天數',
+                    'days-90'        => '90 天數',
+                    'posted-entries' => '已過帳 Entries',
                     'all-entries'    => 'All Entries',
                 ],
             ],
@@ -174,7 +174,7 @@ return [
         'aged-payable' => [
             'navigation' => [
                 'title' => 'Aged Payable',
-                'group' => 'Partner Reports',
+                'group' => '夥伴 報表',
             ],
             'actions' => [
                 'export-excel' => 'Export Excel',
@@ -190,10 +190,10 @@ return [
                 'options'       => [
                     'due-date'       => '到期日',
                     'invoice-date'   => '開立日期',
-                    'days-30'        => '30 Days',
-                    'days-60'        => '60 Days',
-                    'days-90'        => '90 Days',
-                    'posted-entries' => 'Posted Entries',
+                    'days-30'        => '30 天數',
+                    'days-60'        => '60 天數',
+                    'days-90'        => '90 天數',
+                    'posted-entries' => '已過帳 Entries',
                     'all-entries'    => 'All Entries',
                 ],
             ],

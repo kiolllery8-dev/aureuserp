@@ -69,7 +69,7 @@ return [
 
     'table' => [
         'columns' => [
-            'favorite'        => 'Favorite',
+            'favorite'        => '最愛',
             'name'            => '名稱',
             'variants'        => '規格',
             'images'          => '圖片',
@@ -103,7 +103,7 @@ return [
             'company'     => '公司',
             'price'       => '價格',
             'cost'        => '成本',
-            'is-favorite' => 'Is Favorite',
+            'is-favorite' => 'Is 最愛',
             'weight'      => '重量',
             'volume'      => '體積',
             'tags'        => '標籤',
@@ -116,7 +116,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Product restored',
+                    'title' => '商品 restored',
                     'body'  => 'The product has been restored成功.',
                 ],
             ],
@@ -131,12 +131,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Product force已刪除',
+                        'title' => '商品 force已刪除',
                         'body'  => 'The product has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Product could not be已刪除',
+                        'title' => '商品 could not be已刪除',
                         'body'  => 'The product cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -149,7 +149,7 @@ return [
 
                 'form' => [
                     'fields' => [
-                        'quantity' => 'Number of Labels',
+                        'quantity' => '編號 of Labels',
                         'format'   => 'Format',
 
                         'format-options' => [
@@ -165,7 +165,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Products restored',
+                    'title' => '商品 restored',
                     'body'  => 'The products has been restored成功.',
                 ],
             ],
@@ -180,12 +180,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Products force已刪除',
+                        'title' => '商品 force已刪除',
                         'body'  => 'The products has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Products could not be已刪除',
+                        'title' => '商品 could not be已刪除',
                         'body'  => 'The products cannot be已刪除 because they are currently in use.',
                     ],
                 ],

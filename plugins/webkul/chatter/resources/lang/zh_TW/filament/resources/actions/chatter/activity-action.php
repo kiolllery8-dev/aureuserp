@@ -2,7 +2,7 @@
 
 return [
     'setup' => [
-        'title'               => 'Schedule Activity',
+        'title'               => 'Schedule 活動',
         'submit-action-title' => '排程',
 
         'form' => [
@@ -21,7 +21,7 @@ return [
         'actions' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Activity Created',
+                    'title' => '活動 Created',
                     'body'  => 'The activity has been已建立.',
                 ],
 
@@ -31,7 +31,7 @@ return [
                 ],
 
                 'error' => [
-                    'title' => 'Activity creation失敗',
+                    'title' => '活動 creation失敗',
                     'body'  => 'Failed to create activity ',
                 ],
             ],

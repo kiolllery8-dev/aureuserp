@@ -44,11 +44,11 @@ return [
                 'notification' => [
                     'success' => [
                         'title' => 'Category已刪除',
-                        'body'  => 'The Category has been已刪除成功.',
+                        'body'  => 'The 分類 has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Category could not be已刪除',
+                        'title' => '分類 could not be已刪除',
                         'body'  => 'The category cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -64,7 +64,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Categories could not be已刪除',
+                        'title' => '分類 could not be已刪除',
                         'body'  => 'The categories cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -79,9 +79,9 @@ return [
 
                 'entries' => [
                     'name'        => '名稱',
-                    'parent'      => 'Parent Category',
+                    'parent'      => 'Parent 分類',
                     'full_name'   => 'Full Category名稱',
-                    'parent_path' => 'Category Path',
+                    'parent_path' => '分類 Path',
                 ],
             ],
 

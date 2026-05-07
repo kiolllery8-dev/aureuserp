@@ -22,9 +22,9 @@ return [
             ],
 
             'invoice-policy' => [
-                'title'            => 'Invoice Policy',
+                'title'            => '發票 Policy',
                 'ordered-policy'   => 'You can invoice goods before they are delivered.',
-                'delivered-policy' => 'Invoice after delivery, based on quantities delivered, not ordered.',
+                'delivered-policy' => '發票 after delivery, based on quantities delivered, not ordered.',
             ],
 
             'images' => [
@@ -44,7 +44,7 @@ return [
             ],
 
             'category-and-tags' => [
-                'title' => 'Category & Tags',
+                'title' => '分類 & 標籤',
 
                 'fields' => [
                     'category' => '分類',
@@ -100,7 +100,7 @@ return [
             'company'     => '公司',
             'price'       => '價格',
             'cost'        => '成本',
-            'is-favorite' => 'Is Favorite',
+            'is-favorite' => 'Is 最愛',
             'weight'      => '重量',
             'volume'      => '體積',
             'tags'        => '標籤',
@@ -113,7 +113,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Product restored',
+                    'title' => '商品 restored',
                     'body'  => 'The product has been restored成功.',
                 ],
             ],
@@ -127,7 +127,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Product force已刪除',
+                    'title' => '商品 force已刪除',
                     'body'  => 'The product has been force已刪除成功.',
                 ],
             ],
@@ -136,7 +136,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Products restored',
+                    'title' => '商品 restored',
                     'body'  => 'The products has been restored成功.',
                 ],
             ],
@@ -150,7 +150,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Products force已刪除',
+                    'title' => '商品 force已刪除',
                     'body'  => 'The products has been force已刪除成功.',
                 ],
             ],
@@ -228,7 +228,7 @@ return [
                             'responsible' => '負責人',
                             'weight'      => '重量',
                             'volume'      => '體積',
-                            'sale-delay'  => 'Customer Lead時間 (Days)',
+                            'sale-delay'  => '客戶 Lead時間 (天數)',
                         ],
                     ],
 
@@ -236,10 +236,10 @@ return [
                         'title' => 'Traceability',
 
                         'entries' => [
-                            'expiration-date'  => 'Expiration日期 (Days)',
-                            'best-before-date' => 'Best Before日期 (Days)',
-                            'removal-date'     => 'Removal日期 (Days)',
-                            'alert-date'       => 'Alert日期 (Days)',
+                            'expiration-date'  => 'Expiration日期 (天數)',
+                            'best-before-date' => 'Best Before日期 (天數)',
+                            'removal-date'     => 'Removal日期 (天數)',
+                            'alert-date'       => 'Alert日期 (天數)',
                         ],
                     ],
                 ],

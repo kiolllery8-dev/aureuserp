@@ -19,7 +19,7 @@ return [
                 ],
 
                 'error' => [
-                    'title' => 'Internal Transfer could not be已刪除',
+                    'title' => 'Internal 調撥 could not be已刪除',
                     'body'  => 'The internal transfer cannot be已刪除 because it is currently in use.',
                 ],
             ],

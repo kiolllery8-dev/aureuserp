@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'title' => '路徑',
-        'group' => 'Warehouse Management',
+        'group' => '倉庫 Management',
     ],
 
     'form' => [
@@ -25,7 +25,7 @@ return [
                 'fields' => [
                     'products'                        => '商品',
                     'products-hint-tooltip'           => 'If selected, this route will be available for selection on the product.',
-                    'product-categories'              => 'Product Categories',
+                    'product-categories'              => '商品 分類',
                     'product-categories-hint-tooltip' => 'If selected, this route will be available for selection on the product category.',
                     'warehouses'                      => '倉庫',
                     'warehouses-hint-tooltip'         => 'When a warehouse is assigned to this route, it will be considered the default route for products moving through that warehouse.',
@@ -64,7 +64,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Route restored',
+                    'title' => '路徑 restored',
                     'body'  => 'The route has been restored成功.',
                 ],
             ],
@@ -79,12 +79,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Route force已刪除',
+                        'title' => '路徑 force已刪除',
                         'body'  => 'The route has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Route could not be已刪除',
+                        'title' => '路徑 could not be已刪除',
                         'body'  => 'The route cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -94,7 +94,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Routes restored',
+                    'title' => '路徑 restored',
                     'body'  => 'The routes has been restored成功.',
                 ],
             ],
@@ -109,12 +109,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Routes force已刪除',
+                        'title' => '路徑 force已刪除',
                         'body'  => 'The routes has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Routes could not be已刪除',
+                        'title' => '路徑 could not be已刪除',
                         'body'  => 'The routes cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -141,7 +141,7 @@ return [
                 'entries' => [
                     'products'                        => '商品',
                     'products-hint-tooltip'           => 'If selected, this route will be available for selection on the product.',
-                    'product-categories'              => 'Product Categories',
+                    'product-categories'              => '商品 分類',
                     'product-categories-hint-tooltip' => 'If selected, this route will be available for selection on the product category.',
                     'warehouses'                      => '倉庫',
                     'warehouses-hint-tooltip'         => 'When a warehouse is assigned to this route, it will be considered the default route for products moving through that warehouse.',

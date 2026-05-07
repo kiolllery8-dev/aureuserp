@@ -33,7 +33,7 @@ return [
 
         'filters' => [
             'name'       => '名稱',
-            'employee'   => 'Employee',
+            'employee'   => '員工',
             'created-by' => '建立者',
             'updated-at' => '更新時間',
             'created-at' => '建立時間',

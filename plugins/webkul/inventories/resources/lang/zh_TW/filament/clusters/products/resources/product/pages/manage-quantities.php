@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'title' => 'Quantities',
+    'title' => '數量',
 
     'tabs' => [
-        'internal-locations' => 'Internal Locations',
-        'transit-locations'  => 'Transit Locations',
+        'internal-locations' => 'Internal 位置',
+        'transit-locations'  => 'Transit 位置',
         'on-hand'            => '現有',
         'to-count'           => 'To Count',
         'to-apply'           => 'To Apply',
@@ -47,7 +47,7 @@ return [
                 'label' => '新增Quantity',
 
                 'notification' => [
-                    'title' => 'Quantity added',
+                    'title' => '數量 added',
                     'body'  => 'The quantity has been added成功.',
                 ],
 

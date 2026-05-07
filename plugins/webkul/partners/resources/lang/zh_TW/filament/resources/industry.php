@@ -24,7 +24,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Industry restored',
+                    'title' => '產業 restored',
                     'body'  => 'The industry has been restored成功.',
                 ],
             ],
@@ -38,7 +38,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Industry force已刪除',
+                    'title' => '產業 force已刪除',
                     'body'  => 'The industry has been force已刪除成功.',
                 ],
             ],
@@ -47,7 +47,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Industries restored',
+                    'title' => '產業 restored',
                     'body'  => 'The industries has been restored成功.',
                 ],
             ],
@@ -61,7 +61,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Industries force已刪除',
+                    'title' => '產業 force已刪除',
                     'body'  => 'The industries has been force已刪除成功.',
                 ],
             ],

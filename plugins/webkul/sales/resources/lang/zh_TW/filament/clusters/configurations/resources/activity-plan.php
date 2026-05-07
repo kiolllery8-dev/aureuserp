@@ -54,7 +54,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Activity Plan restored',
+                    'title' => '活動 Plan restored',
                     'body'  => 'The activity plan has been restored成功.',
                 ],
             ],
@@ -68,7 +68,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Activity Plan force已刪除',
+                    'title' => '活動 Plan force已刪除',
                     'body'  => 'The activity plan has been force已刪除成功.',
                 ],
             ],
@@ -77,21 +77,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Activity Plans restored',
+                    'title' => '活動 Plans restored',
                     'body'  => 'The activity plans has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Activity Plans已刪除',
+                    'title' => '活動 Plans已刪除',
                     'body'  => 'The activity plans has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Activity Plans force已刪除',
+                    'title' => '活動 Plans force已刪除',
                     'body'  => 'The activity plans has been force已刪除成功.',
                 ],
             ],
@@ -100,7 +100,7 @@ return [
         'empty-state' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Activity Plan已建立',
+                    'title' => '活動 Plan已建立',
                     'body'  => 'The activity plan has been已建立成功.',
                 ],
             ],

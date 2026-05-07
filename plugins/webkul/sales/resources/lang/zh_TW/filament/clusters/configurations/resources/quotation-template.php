@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Quotation Template',
+    'title' => '報價單 Template',
 
     'navigation' => [
-        'title'  => 'Quotation Template',
+        'title'  => '報價單 Template',
         'group'  => '銷貨訂單',
     ],
 
@@ -33,17 +33,17 @@ return [
 
                 'fields' => [
                     'name'               => '名稱',
-                    'quotation-validity' => 'Quotation Validity',
-                    'sale-journal'       => 'Sale Journal',
+                    'quotation-validity' => '報價單 Validity',
+                    'sale-journal'       => 'Sale 帳本',
                 ],
             ],
 
             'signature-and-payment' => [
-                'title' => 'Signature & Payments',
+                'title' => 'Signature & 付款',
 
                 'fields' => [
                     'online-signature'      => 'Online Signature',
-                    'online-payment'        => 'Online Payment',
+                    'online-payment'        => 'Online 付款',
                     'prepayment-percentage' => 'Prepayment Percentage',
                 ],
             ],
@@ -55,10 +55,10 @@ return [
             'created-by'            => '建立者',
             'company'               => '公司',
             'name'                  => '名稱',
-            'number-of-days'        => 'Number of days',
-            'journal'               => 'Sale Journal',
-            'signature-required'    => 'Signature Required',
-            'payment-required'      => 'Payment Required',
+            'number-of-days'        => '編號 of days',
+            'journal'               => 'Sale 帳本',
+            'signature-required'    => 'Signature 必填',
+            'payment-required'      => '付款 必填',
             'prepayment-percentage' => 'Prepayment Percentage',
         ],
         'groups'  => [
@@ -76,7 +76,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Quotation template已刪除',
+                    'title' => '報價單 template已刪除',
                     'body'  => 'The quotation template has been已刪除成功.',
                 ],
             ],
@@ -85,7 +85,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Quotation template已刪除',
+                    'title' => '報價單 template已刪除',
                     'body'  => 'The quotation template has been已刪除成功.',
                 ],
             ],
@@ -106,7 +106,7 @@ return [
                 'title' => '一般資料',
             ],
             'signature_and_payment' => [
-                'title' => 'Signature & Payment',
+                'title' => 'Signature & 付款',
             ],
         ],
         'entries' => [
@@ -115,12 +115,12 @@ return [
             'quantity'              => '數量',
             'unit-price'            => '單價',
             'section-name'          => 'Section名稱',
-            'note-title'            => 'Note Title',
+            'note-title'            => '備註 標題',
             'name'                  => 'Template名稱',
-            'quotation-validity'    => 'Quotation Validity',
-            'sale-journal'          => 'Sale Journal',
+            'quotation-validity'    => '報價單 Validity',
+            'sale-journal'          => 'Sale 帳本',
             'online-signature'      => 'Online Signature',
-            'online-payment'        => 'Online Payment',
+            'online-payment'        => 'Online 付款',
             'prepayment-percentage' => 'Prepayment Percentage',
         ],
     ],

@@ -13,7 +13,7 @@ return [
                 'account-name'  => 'Account名稱',
                 'accounting'    => '會計',
                 'account-type'  => '帳戶類型',
-                'default-taxes' => 'Default Taxes',
+                'default-taxes' => '預設 稅',
                 'tags'          => '標籤',
                 'journals'      => '帳本',
                 'currency'      => '幣別',
@@ -63,7 +63,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Account deletion失敗',
+                        'title' => '帳戶 deletion失敗',
                         'body'  => 'The account could not be已刪除 because it has associated journal items.',
                     ],
                 ],
@@ -79,7 +79,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Accounts deletion失敗',
+                        'title' => '帳戶 deletion失敗',
                         'body'  => 'The accounts could not be已刪除 because they have associated journal items.',
                     ],
                 ],
@@ -94,7 +94,7 @@ return [
                 'account-name'  => 'Account名稱',
                 'accounting'    => '會計',
                 'account-type'  => '帳戶類型',
-                'default-taxes' => 'Default Taxes',
+                'default-taxes' => '預設 稅',
                 'tags'          => '標籤',
                 'journals'      => '帳本',
                 'currency'      => '幣別',

@@ -18,7 +18,7 @@ return [
             ],
 
             'success' => [
-                'title' => 'Order canceled',
+                'title' => '訂單 canceled',
                 'body'  => 'The order has been canceled成功.',
             ],
         ],

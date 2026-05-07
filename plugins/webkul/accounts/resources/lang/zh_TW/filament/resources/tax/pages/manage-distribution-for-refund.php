@@ -2,6 +2,6 @@
 
 return [
     'navigation' => [
-        'title' => '管理Distribution For Refund',
+        'title' => '管理Distribution For 退款',
     ],
 ];

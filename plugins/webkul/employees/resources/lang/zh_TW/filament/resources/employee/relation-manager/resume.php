@@ -31,8 +31,8 @@ return [
         ],
 
         'groups' => [
-            'group-by-type'         => 'Group By類型',
-            'group-by-display-type' => 'Group By Display類型',
+            'group-by-type'         => '群組依據類型',
+            'group-by-display-type' => '群組依據 Display類型',
         ],
 
         'header-actions' => [
@@ -50,21 +50,21 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Skill Level已更新',
+                    'title' => '技能 Level已更新',
                     'body'  => 'The skill level has been已更新成功.',
                 ],
             ],
 
             'create' => [
                 'notification' => [
-                    'title' => 'Skill Level已建立',
+                    'title' => '技能 Level已建立',
                     'body'  => 'The skill level has been已建立成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Skill Level已刪除',
+                    'title' => '技能 Level已刪除',
                     'body'  => 'The skill level has been已刪除成功.',
                 ],
             ],

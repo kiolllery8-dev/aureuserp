@@ -12,7 +12,7 @@ return [
     'form' => [
         'fields' => [
             'name'                => '名稱',
-            'name-placeholder'    => 'Time Off類型 (From validity start to validity end/no limit)',
+            'name-placeholder'    => '請假類型 (From validity start to validity end/no limit)',
             'time-off-type'       => '假別',
             'allocation-type'     => '假期分配類型',
             'validity-period'     => 'Validity Period',
@@ -20,7 +20,7 @@ return [
             'date-to'             => '結束日期',
             'date-to-placeholder' => 'No Limit',
             'allocation'          => '假期額度',
-            'allocation-suffix'   => 'Number of Days',
+            'allocation-suffix'   => '編號 of 天數',
             'reason'              => 'Reason',
         ],
     ],
@@ -102,7 +102,7 @@ return [
                 'title'   => 'Allocation狀態',
                 'entries' => [
                     'date-to-placeholder' => 'No Limit',
-                    'allocation'          => 'Number of Day(s)',
+                    'allocation'          => '編號 of Day(s)',
                     'allocation-value'    => ':days number of days',
                     'state'               => '狀態',
                 ],

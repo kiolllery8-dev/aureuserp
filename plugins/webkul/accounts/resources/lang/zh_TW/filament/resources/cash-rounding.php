@@ -6,9 +6,9 @@ return [
             'name'               => '名稱',
             'rounding-precision' => 'Rounding Precision',
             'rounding-strategy'  => 'Rounding Strategy',
-            'profit-account'     => 'Profit Account',
-            'loss-account'       => 'Loss Account',
-            'rounding-method'    => 'Rounding Method',
+            'profit-account'     => 'Profit 帳戶',
+            'loss-account'       => 'Loss 帳戶',
+            'rounding-method'    => 'Rounding 方式',
         ],
     ],
 
@@ -16,19 +16,19 @@ return [
         'columns' => [
             'name'                 => '名稱',
             'rounding-strategy'    => 'Rounding Strategy',
-            'rounding-method'      => 'Rounding Method',
+            'rounding-method'      => 'Rounding 方式',
             'created-by'           => '建立者',
-            'profit-account'       => 'Profit Account',
-            'loss-account'         => 'Loss Account',
+            'profit-account'       => 'Profit 帳戶',
+            'loss-account'         => 'Loss 帳戶',
         ],
 
         'groups' => [
             'name'              => '名稱',
             'rounding-strategy' => 'Rounding Strategy',
-            'rounding-method'   => 'Rounding Method',
+            'rounding-method'   => 'Rounding 方式',
             'created-by'        => '建立者',
-            'profit-account'    => 'Profit Account',
-            'loss-account'      => 'Loss Account',
+            'profit-account'    => 'Profit 帳戶',
+            'loss-account'      => 'Loss 帳戶',
         ],
 
         'actions' => [
@@ -55,9 +55,9 @@ return [
             'name'               => '名稱',
             'rounding-precision' => 'Rounding Precision',
             'rounding-strategy'  => 'Rounding Strategy',
-            'profit-account'     => 'Profit Account',
-            'loss-account'       => 'Loss Account',
-            'rounding-method'    => 'Rounding Method',
+            'profit-account'     => 'Profit 帳戶',
+            'loss-account'       => 'Loss 帳戶',
+            'rounding-method'    => 'Rounding 方式',
         ],
     ],
 ];

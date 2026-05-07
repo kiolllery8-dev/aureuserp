@@ -9,7 +9,7 @@
             'form' => [
                 'fields' => [
                     'recipients'  => 'Recipients',
-                    'notify-user' => 'Notify User',
+                    'notify-user' => 'Notify 使用者',
                     'add-a-note'  => '新增a note',
                 ],
             ],

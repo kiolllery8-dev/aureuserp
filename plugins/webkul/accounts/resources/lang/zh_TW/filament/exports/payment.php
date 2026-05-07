@@ -7,7 +7,7 @@ return [
         'journal'         => '帳本',
         'payment-method'  => '付款方式',
         'partner'         => '夥伴',
-        'amount-currency' => 'Amount Currency',
+        'amount-currency' => '金額 幣別',
         'amount'          => '金額',
         'state'           => '狀態',
         'company'         => '公司',

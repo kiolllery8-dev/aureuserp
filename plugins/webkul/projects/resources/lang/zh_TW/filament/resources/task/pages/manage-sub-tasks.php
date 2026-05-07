@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => 'Sub Tasks',
+    'title' => 'Sub 任務',
 
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => '新增Sub Task',
+                'label' => '新增Sub 任務',
 
                 'notification' => [
                     'title' => 'Task已建立',
@@ -18,7 +18,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Task restored',
+                    'title' => '任務 restored',
                     'body'  => 'The task has been restored成功.',
                 ],
             ],
@@ -32,7 +32,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Task force已刪除',
+                    'title' => '任務 force已刪除',
                     'body'  => 'The task has been force已刪除成功.',
                 ],
             ],

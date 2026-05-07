@@ -15,7 +15,7 @@ return [
                 ],
 
                 'error' => [
-                    'title' => 'Category could not be已刪除',
+                    'title' => '分類 could not be已刪除',
                     'body'  => 'The category cannot be已刪除 because it is currently in use.',
                 ],
             ],

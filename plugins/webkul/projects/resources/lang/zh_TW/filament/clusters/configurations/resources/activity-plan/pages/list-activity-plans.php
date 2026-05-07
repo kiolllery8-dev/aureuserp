@@ -11,7 +11,7 @@ return [
             'label' => '新增Activity Plan',
 
             'notification' => [
-                'title' => 'Activity Plan已建立',
+                'title' => '活動 Plan已建立',
                 'body'  => 'The activity plan has been已建立成功.',
             ],
         ],

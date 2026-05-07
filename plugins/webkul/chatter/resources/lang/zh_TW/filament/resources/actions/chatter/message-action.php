@@ -7,11 +7,11 @@ return [
 
         'form' => [
             'fields' => [
-                'hide-subject'            => 'Hide Subject',
+                'hide-subject'            => 'Hide 主旨',
                 'add-subject'             => '新增Subject',
                 'subject'                 => '主旨',
                 'write-message-here'      => 'Write your message here',
-                'attachments-helper-text' => 'Max file size: 10MB. Allowed types: Images, PDF, Word, Excel, Text',
+                'attachments-helper-text' => 'Max file size: 10MB. Allowed types: 圖片, PDF, Word, Excel, Text',
             ],
         ],
 

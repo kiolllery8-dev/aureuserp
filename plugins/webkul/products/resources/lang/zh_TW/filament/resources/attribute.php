@@ -46,7 +46,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Attribute restored',
+                    'title' => '屬性 restored',
                     'body'  => 'The attribute has been restored成功.',
                 ],
             ],
@@ -61,12 +61,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Attribute force已刪除',
+                        'title' => '屬性 force已刪除',
                         'body'  => 'The attribute has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Attribute could not be已刪除',
+                        'title' => '屬性 could not be已刪除',
                         'body'  => 'The attribute cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -76,7 +76,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Attributes restored',
+                    'title' => '屬性 restored',
                     'body'  => 'The attributes has been restored成功.',
                 ],
             ],
@@ -91,12 +91,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Attributes force已刪除',
+                        'title' => '屬性 force已刪除',
                         'body'  => 'The attributes has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Attributes could not be已刪除',
+                        'title' => '屬性 could not be已刪除',
                         'body'  => 'The attributes cannot be已刪除 because they are currently in use.',
                     ],
                 ],

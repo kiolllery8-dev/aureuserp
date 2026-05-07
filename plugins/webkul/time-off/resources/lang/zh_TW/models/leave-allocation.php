@@ -5,8 +5,8 @@ return [
 
     'log-attributes' => [
         'time_off_type'                        => '假別',
-        'employee'                             => 'Employee',
-        'employee_company'                     => 'Employee Company',
+        'employee'                             => '員工',
+        'employee_company'                     => '員工 公司',
         'approver'                             => 'Approver',
         'second_approver'                      => 'Second Approver',
         'department'                           => '部門',
@@ -21,12 +21,12 @@ return [
         'last_called'                          => 'Last Called',
         'actual_last_called'                   => 'Actual Last Called',
         'next_call'                            => 'Next Call',
-        'carried_over_days_expiration_date'    => 'Carried Over Days Expiration日期',
+        'carried_over_days_expiration_date'    => 'Carried Over 天數 Expiration日期',
         'notes'                                => '備註',
         'already_accrued'                      => 'Already Accrued',
-        'number_of_days'                       => 'Number Of Days',
-        'number_of_hours_display'              => 'Number Of Hours Display',
+        'number_of_days'                       => '編號 Of 天數',
+        'number_of_hours_display'              => '編號 Of Hours Display',
         'yearly_accrued_amount'                => 'Yearly Accrued金額',
-        'expiring_carryover_days'              => 'Expiring Carryover Days',
+        'expiring_carryover_days'              => 'Expiring Carryover 天數',
     ],
 ];

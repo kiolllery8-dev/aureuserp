@@ -7,7 +7,7 @@ return [
     'future-endeavors'  => 'We wanted to let you know that, although your resume is competitive, our hiring team reviewed your application and <b>did not select it for further consideration</b>.',
     'admin-details'     => [
         'name'  => '-- <br><strong>:name</strong>',
-        'email' => 'Email: :email',
-        'phone' => 'Phone: :phone',
+        'email' => '電子郵件: :email',
+        'phone' => '電話: :phone',
     ],
 ];

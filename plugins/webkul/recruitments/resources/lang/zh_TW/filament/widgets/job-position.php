@@ -2,10 +2,10 @@
 
 return [
     'heading' => [
-        'title' => 'Job Position Overview',
+        'title' => 'Job Position 總覽',
     ],
 
-    'active-job-applications' => 'Active Job Applications',
-    'total-applications'      => 'Total Applications',
-    'hired-candidate'         => 'Hired Candidates',
+    'active-job-applications' => '啟用中 Job Applications',
+    'total-applications'      => '總計 Applications',
+    'hired-candidate'         => 'Hired 應徵者',
 ];

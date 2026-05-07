@@ -10,7 +10,7 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Work Location',
+            'label' => '新增Work 位置',
 
             'notification' => [
                 'title' => 'Work Location已建立',

@@ -21,7 +21,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Receipt could not be已刪除',
+                        'title' => '進貨 could not be已刪除',
                         'body'  => 'The receipt cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -37,7 +37,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Receipts could not be已刪除',
+                        'title' => '進貨 could not be已刪除',
                         'body'  => 'The receipts cannot be已刪除 because they are currently in use.',
                     ],
                 ],

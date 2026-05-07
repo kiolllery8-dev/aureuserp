@@ -19,12 +19,12 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Package Deleted',
+                    'title' => '包裝 Deleted',
                     'body'  => 'The package has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Package could not be已刪除',
+                    'title' => '包裝 could not be已刪除',
                     'body'  => 'The package cannot be已刪除 because it is currently in use.',
                 ],
             ],

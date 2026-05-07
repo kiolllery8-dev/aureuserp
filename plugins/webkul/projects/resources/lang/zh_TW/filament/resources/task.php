@@ -21,7 +21,7 @@ return [
 
                 'fields' => [
                     'title'             => '標題',
-                    'title-placeholder' => 'Task Title...',
+                    'title-placeholder' => '任務 標題...',
                     'tags'              => '標籤',
                     'name'              => '名稱',
                     'color'             => '顏色',
@@ -46,7 +46,7 @@ return [
                     'milestone-hint-text'         => 'Automatically deliver your services upon reaching a milestone by linking it to a sales order item.',
                     'name'                        => '名稱',
                     'deadline'                    => '截止日',
-                    'is-completed'                => 'Is Completed',
+                    'is-completed'                => 'Is 已完成',
                     'customer'                    => '客戶',
                     'assignees'                   => '指派對象',
                     'allocated-hours'             => 'Allocated Hours',
@@ -65,13 +65,13 @@ return [
             'update-state'        => 'Update State',
             'title'               => '標題',
             'project'             => '專案',
-            'project-placeholder' => 'Private Task',
+            'project-placeholder' => '私人 任務',
             'milestone'           => '里程碑',
             'customer'            => '客戶',
             'assignees'           => '指派對象',
             'allocated-time'      => 'Allocated時間',
             'time-spent'          => '花費時間',
-            'time-remaining'      => 'Time Remaining',
+            'time-remaining'      => '時間 Remaining',
             'progress'            => 'Progress',
             'deadline'            => '截止日',
             'tags'                => '標籤',
@@ -96,7 +96,7 @@ return [
             'state'             => '狀態',
             'tags'              => '標籤',
             'allocated-hours'   => 'Allocated Hours',
-            'total-hours-spent' => 'Total Hours Spent',
+            'total-hours-spent' => '總計 Hours Spent',
             'remaining-hours'   => 'Remaining Hours',
             'overtime'          => 'Overtime',
             'progress'          => 'Progress',
@@ -115,7 +115,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Task restored',
+                    'title' => '任務 restored',
                     'body'  => 'The task has been restored成功.',
                 ],
             ],
@@ -129,7 +129,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Task force已刪除',
+                    'title' => '任務 force已刪除',
                     'body'  => 'The task has been force已刪除成功.',
                 ],
             ],
@@ -138,7 +138,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Tasks restored',
+                    'title' => '任務 restored',
                     'body'  => 'The tasks has been restored成功.',
                 ],
             ],
@@ -152,7 +152,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Tasks force已刪除',
+                    'title' => '任務 force已刪除',
                     'body'  => 'The tasks has been force已刪除成功.',
                 ],
             ],
@@ -187,13 +187,13 @@ return [
             ],
 
             'time-tracking' => [
-                'title' => 'Time Tracking',
+                'title' => '時間 Tracking',
 
                 'entries' => [
                     'allocated-time'        => 'Allocated時間',
                     'time-spent'            => '花費時間',
                     'time-spent-suffix'     => ' Hours',
-                    'time-remaining'        => 'Time Remaining',
+                    'time-remaining'        => '時間 Remaining',
                     'time-remaining-suffix' => ' Hours',
                     'progress'              => 'Progress',
                 ],
@@ -217,7 +217,7 @@ return [
                 'title' => '統計',
 
                 'entries' => [
-                    'sub-tasks'         => 'Sub Tasks',
+                    'sub-tasks'         => 'Sub 任務',
                     'timesheet-entries' => 'Timesheet Entries',
                 ],
             ],

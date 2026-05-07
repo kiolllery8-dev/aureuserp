@@ -15,7 +15,7 @@ return [
 
                 'fields' => [
                     'stage-name'   => 'Stage名稱',
-                    'sort'         => 'Sequence Order',
+                    'sort'         => 'Sequence 訂單',
                     'requirements' => 'Requirements',
                 ],
             ],
@@ -40,8 +40,8 @@ return [
                 'fields' => [
                     'job-positions' => '職位',
                     'folded'        => 'Folded',
-                    'hired-stage'   => 'Hired Stage',
-                    'default-stage' => 'Default Stage',
+                    'hired-stage'   => 'Hired 階段',
+                    'default-stage' => '預設 階段',
                 ],
             ],
         ],
@@ -51,8 +51,8 @@ return [
         'columns' => [
             'id'                 => '編號',
             'name'               => 'Stage名稱',
-            'hired-stage'        => 'Hired Stage',
-            'default-stage'      => 'Default Stage',
+            'hired-stage'        => 'Hired 階段',
+            'default-stage'      => '預設 階段',
             'folded'             => 'Folded',
             'job-positions'      => '職位',
             'created-by'         => '建立者',
@@ -89,12 +89,12 @@ return [
                 'notification' => [
                     'success' => [
                         'title' => 'Stages已刪除',
-                        'body'  => 'The Stages has been已刪除成功.',
+                        'body'  => 'The 階段 has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Stages could not be已刪除',
-                        'body'  => 'The Stages cannot be已刪除 because it is currently in use.',
+                        'title' => '階段 could not be已刪除',
+                        'body'  => 'The 階段 cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -104,7 +104,7 @@ return [
             'delete' => [
                 'notification' => [
                     'title' => 'Stages已刪除',
-                    'body'  => 'The Stages has been已刪除成功.',
+                    'body'  => 'The 階段 has been已刪除成功.',
                 ],
             ],
         ],
@@ -123,7 +123,7 @@ return [
 
                 'entries' => [
                     'stage-name'   => 'Stage名稱',
-                    'sort'         => 'Sequence Order',
+                    'sort'         => 'Sequence 訂單',
                     'requirements' => 'Requirements',
                 ],
             ],
@@ -148,8 +148,8 @@ return [
                 'entries' => [
                     'job-positions'      => '職位',
                     'folded'             => 'Folded',
-                    'hired-stage'        => 'Hired Stage',
-                    'default-stage'      => 'Default Stage',
+                    'hired-stage'        => 'Hired 階段',
+                    'default-stage'      => '預設 階段',
                 ],
             ],
         ],

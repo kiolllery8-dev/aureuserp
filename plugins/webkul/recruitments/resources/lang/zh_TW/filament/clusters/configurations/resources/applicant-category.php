@@ -28,7 +28,7 @@ return [
 
         'filters' => [
             'name'       => '名稱',
-            'employee'   => 'Employee',
+            'employee'   => '員工',
             'created-by' => '建立者',
             'updated-at' => '更新時間',
             'created-at' => '建立時間',
@@ -53,8 +53,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Applicant Categories已刪除',
-                    'body'  => 'The applicant Categories has been已刪除成功.',
+                    'title' => '應徵者 Categories已刪除',
+                    'body'  => 'The applicant 分類 has been已刪除成功.',
                 ],
             ],
         ],

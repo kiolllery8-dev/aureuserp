@@ -45,12 +45,12 @@ return [
 
                 'fieldsets' => [
                     'customer-invoices' => [
-                        'title' => 'Customer Invoices',
+                        'title' => '客戶 發票',
 
                         'fields' => [
-                            'invoice-sending-method'   => 'Invoice Sending Method',
+                            'invoice-sending-method'   => '發票 Sending 方式',
                             'invoice-edi-format-store' => 'eInvoice Format',
-                            'peppol-eas'               => 'Peppol Address',
+                            'peppol-eas'               => 'Peppol 地址',
                             'endpoint'                 => 'Endpoint',
                         ],
                     ],
@@ -59,8 +59,8 @@ return [
                         'title' => 'Accounting Entries',
 
                         'fields' => [
-                            'account-receivable' => 'Account Receivable',
-                            'account-payable'    => 'Account Payable',
+                            'account-receivable' => '帳戶 Receivable',
+                            'account-payable'    => '帳戶 Payable',
                         ],
                     ],
 
@@ -68,7 +68,7 @@ return [
                         'title' => 'Automation',
 
                         'fields' => [
-                            'auto-post-bills' => 'Auto Post Bills',
+                            'auto-post-bills' => 'Auto 文章 進貨單',
                             'ignore-abnormal-invoice-amount' => 'Ignore Abnormal Invoice金額',
                             'ignore-abnormal-invoice-date' => 'Ignore Abnormal Invoice日期',
                         ],
@@ -77,7 +77,7 @@ return [
             ],
 
             'internal-notes' => [
-                'title' => 'Internal Notes',
+                'title' => 'Internal 備註',
             ],
         ],
     ],
@@ -121,12 +121,12 @@ return [
 
                 'fieldsets' => [
                     'customer-invoices' => [
-                        'title' => 'Customer Invoices',
+                        'title' => '客戶 發票',
 
                         'entries' => [
-                            'invoice-sending-method'   => 'Invoice Sending Method',
+                            'invoice-sending-method'   => '發票 Sending 方式',
                             'invoice-edi-format-store' => 'eInvoice Format',
-                            'peppol-eas'               => 'Peppol Address',
+                            'peppol-eas'               => 'Peppol 地址',
                             'endpoint'                 => 'Endpoint',
                         ],
                     ],
@@ -135,8 +135,8 @@ return [
                         'title' => 'Accounting Entries',
 
                         'entries' => [
-                            'account-receivable' => 'Account Receivable',
-                            'account-payable'    => 'Account Payable',
+                            'account-receivable' => '帳戶 Receivable',
+                            'account-payable'    => '帳戶 Payable',
                         ],
                     ],
 
@@ -144,7 +144,7 @@ return [
                         'title' => 'Automation',
 
                         'entries' => [
-                            'auto-post-bills' => 'Auto Post Bills',
+                            'auto-post-bills' => 'Auto 文章 進貨單',
                             'ignore-abnormal-invoice-amount' => 'Ignore Abnormal Invoice金額',
                             'ignore-abnormal-invoice-date' => 'Ignore Abnormal Invoice日期',
                         ],
@@ -153,7 +153,7 @@ return [
             ],
 
             'internal-notes' => [
-                'title' => 'Internal Notes',
+                'title' => 'Internal 備註',
             ],
         ],
     ],

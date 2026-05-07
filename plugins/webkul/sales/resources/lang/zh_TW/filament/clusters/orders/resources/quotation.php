@@ -29,7 +29,7 @@ return [
 
         'tabs' => [
             'order-line' => [
-                'title' => 'Order Line',
+                'title' => '訂單 Line',
 
                 'repeater' => [
                     'products' => [
@@ -38,8 +38,8 @@ return [
 
                         'columns'     => [
                             'product'             => '商品',
-                            'product-variants'    => 'Product Variants',
-                            'product-simple'      => 'Product Simple',
+                            'product-variants'    => '商品 規格',
+                            'product-simple'      => '商品 Simple',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
                             'lead-time'           => 'Lead時間',
@@ -58,13 +58,13 @@ return [
 
                         'fields'      => [
                             'product'             => '商品',
-                            'product-variants'    => 'Product Variants',
-                            'product-simple'      => 'Product Simple',
+                            'product-variants'    => '商品 規格',
+                            'product-simple'      => '商品 Simple',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
                             'lead-time'           => 'Lead時間',
-                            'qty-delivered'       => 'Quantity Delivered',
-                            'qty-invoiced'        => 'Quantity Invoiced',
+                            'qty-delivered'       => '數量 Delivered',
+                            'qty-invoiced'        => '數量 Invoiced',
                             'packaging-qty'       => 'Packaging數量',
                             'packaging'           => '包裝',
                             'unit-price'          => '單價',
@@ -86,13 +86,13 @@ return [
                         'delete-action' => [
                             'error' => [
                                 'title' => 'Cannot 刪除Product',
-                                'body'  => 'Products cannot be已刪除 from a confirmed sales order.',
+                                'body'  => '商品 cannot be已刪除 from a confirmed sales order.',
                             ],
                         ],
                     ],
 
                     'product-optional' => [
-                        'title'       => 'Optional Products',
+                        'title'       => '選填 商品',
                         'add-product' => '新增商品',
 
                         'columns' => [
@@ -119,21 +119,21 @@ return [
 
                                 'notifications' => [
                                     'product-added' => [
-                                        'title' => 'Product added',
+                                        'title' => '商品 added',
                                         'body'  => 'The product has been added成功.',
                                     ],
 
                                     'product-not-found' => [
-                                        'title' => 'Product Not Found',
+                                        'title' => '商品 Not Found',
                                     ],
 
                                     'product-already-exists' => [
-                                        'title' => 'Product Already Exists',
+                                        'title' => '商品 Already Exists',
                                         'body'  => 'This product is already in the order lines. Please update the existing line instead.',
                                     ],
 
                                     'missing-product-data' => [
-                                        'title' => 'Missing Product Data',
+                                        'title' => 'Missing 商品 Data',
                                         'body'  => 'Unable to process the selected product.',
                                     ],
                                 ],
@@ -151,7 +151,7 @@ return [
 
                         'fields' => [
                             'sales-person'       => '業務',
-                            'customer-reference' => 'Customer Reference',
+                            'customer-reference' => '客戶 參考編號',
                             'tags'               => '標籤',
                         ],
                     ],
@@ -202,19 +202,19 @@ return [
             'sales-person'       => '業務',
             'sales-team'         => '業務團隊',
             'untaxed-amount'     => '未稅金額',
-            'amount-tax'         => 'Amount Tax',
+            'amount-tax'         => '金額 稅',
             'amount-total'       => 'Amount總計',
-            'customer-reference' => 'Customer Reference',
+            'customer-reference' => '客戶 參考編號',
         ],
 
         'filters' => [
             'sales-person'     => '業務',
-            'utm-source'       => 'UTM Source',
+            'utm-source'       => 'UTM 來源',
             'company'          => '公司',
             'customer'         => '客戶',
             'journal'          => '帳本',
-            'invoice-address'  => 'Invoice Address',
-            'shipping-address' => 'Shipping Address',
+            'invoice-address'  => '發票 地址',
+            'shipping-address' => 'Shipping 地址',
             'fiscal-position'  => '稅務情境',
             'payment-term'     => '付款條件',
             'currency'         => '幣別',
@@ -237,7 +237,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Quotation restored',
+                    'title' => '報價單 restored',
                     'body'  => 'The quotation has been restored成功.',
                 ],
             ],
@@ -251,7 +251,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Quotation force已刪除',
+                    'title' => '報價單 force已刪除',
                     'body'  => 'The quotation has been force已刪除成功.',
                 ],
             ],
@@ -260,7 +260,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Quotations restored',
+                    'title' => '報價單 restored',
                     'body'  => 'The quotations has been restored成功.',
                 ],
             ],
@@ -274,7 +274,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Quotations force已刪除',
+                    'title' => '報價單 force已刪除',
                     'body'  => 'The quotations has been force已刪除成功.',
                 ],
             ],
@@ -306,7 +306,7 @@ return [
 
         'tabs' => [
             'order-line' => [
-                'title' => 'Order Line',
+                'title' => '訂單 Line',
 
                 'repeater' => [
                     'products' => [
@@ -314,8 +314,8 @@ return [
                         'add-product' => '新增商品',
                         'entries'     => [
                             'product'             => '商品',
-                            'product-variants'    => 'Product Variants',
-                            'product-simple'      => 'Product Simple',
+                            'product-variants'    => '商品 規格',
+                            'product-simple'      => '商品 Simple',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
                             'lead-time'           => 'Lead時間',
@@ -333,7 +333,7 @@ return [
                     ],
 
                     'product-optional' => [
-                        'title'       => 'Optional Products',
+                        'title'       => '選填 商品',
                         'add-product' => '新增商品',
                         'entries'     => [
                             'product'             => '商品',
@@ -351,7 +351,7 @@ return [
 
                                 'notifications' => [
                                     'product-added' => [
-                                        'title' => 'Product added',
+                                        'title' => '商品 added',
                                         'body'  => 'The product has been added成功.',
                                     ],
                                 ],
@@ -369,7 +369,7 @@ return [
 
                         'entries' => [
                             'sales-person'       => '業務',
-                            'customer-reference' => 'Customer Reference',
+                            'customer-reference' => '客戶 參考編號',
                             'tags'               => '標籤',
                         ],
                     ],

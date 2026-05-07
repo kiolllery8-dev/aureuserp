@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'title' => 'Rules',
-        'group' => 'Warehouse Management',
+        'group' => '倉庫 Management',
     ],
 
     'form' => [
@@ -17,10 +17,10 @@ return [
                     'operation-type'              => '作業類型',
                     'source-location'             => '從哪裡',
                     'destination-location'        => '送到哪裡',
-                    'supply-method'               => 'Supply Method',
-                    'supply-method-hint-tooltip'  => 'Take From Stock: Products are sourced directly from the available stock in the source location.<br/>Trigger Another Rule: The system ignores available stock and searches for a stock rule to replenish the source location.<br/>Take From Stock, if Unavailable, Trigger Another Rule: Products are first taken from available stock. If none is available, the system applies a stock rule to bring products into the source location.',
+                    'supply-method'               => 'Supply 方式',
+                    'supply-method-hint-tooltip'  => 'Take From Stock: 商品 are sourced directly from the available stock in the source location.<br/>Trigger Another Rule: The system ignores available stock and searches for a stock rule to replenish the source location.<br/>Take From Stock, if Unavailable, Trigger Another Rule: 商品 are first taken from available stock. If none is available, the system applies a stock rule to bring products into the source location.',
                     'automatic-move'              => 'Automatic Move',
-                    'automatic-move-hint-tooltip' => 'Manual Operation: Creates a separate stock move after the current one.<br/>Automatic No Step Added: Directly replaces the location in the original move without adding an extra step.',
+                    'automatic-move-hint-tooltip' => 'Manual 作業: Creates a separate stock move after the current one.<br/>Automatic No Step Added: Directly replaces the location in the original move without adding an extra step.',
 
                     'action-information' => [
                         'pull' => 'When products are required in <b>:sourceLocation</b>, :operation is generated from <b>:destinationLocation</b> to meet the demand.',
@@ -34,9 +34,9 @@ return [
                 'title'  => '設定',
 
                 'fields' => [
-                    'partner-address'              => 'Partner Address',
-                    'partner-address-hint-tooltip' => 'Address where goods should be delivered. Optional.',
-                    'lead-time'                    => 'Lead時間 (Days)',
+                    'partner-address'              => '夥伴 地址',
+                    'partner-address-hint-tooltip' => '地址 where goods should be delivered. 選填.',
+                    'lead-time'                    => 'Lead時間 (天數)',
                     'lead-time-hint-tooltip'       => 'The expected transfer date will be calculated using this lead time.',
                 ],
 
@@ -54,10 +54,10 @@ return [
                         'title'  => 'Propagation',
 
                         'fields' => [
-                            'propagation-procurement-group'              => 'Propagation of Procurement Group',
+                            'propagation-procurement-group'              => 'Propagation of Procurement 群組',
                             'propagation-procurement-group-hint-tooltip' => 'If selected, canceling the move已建立 by this rule will also cancel the subsequent move.',
                             'cancel-next-move'                           => 'Cancel Next Move',
-                            'warehouse-to-propagate'                     => 'Warehouse to Propagate',
+                            'warehouse-to-propagate'                     => '倉庫 to Propagate',
                             'warehouse-to-propagate-hint-tooltip'        => 'The warehouse assigned to the已建立 move or procurement, which may differ from the warehouse this rule applies to (e.g., for resupply rules from another warehouse).',
                         ],
                     ],
@@ -182,7 +182,7 @@ return [
                     'destination-location' => '送到哪裡',
                     'route'                => '路徑',
                     'company'              => '公司',
-                    'partner-address'      => 'Partner Address',
+                    'partner-address'      => '夥伴 地址',
                     'lead-time'            => 'Lead時間',
                     'action-information'   => 'Action資料',
                 ],

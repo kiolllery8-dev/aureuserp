@@ -13,7 +13,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Task restored',
+                    'title' => '任務 restored',
                     'body'  => 'The task has been restored成功.',
                 ],
             ],
@@ -27,7 +27,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Task force已刪除',
+                    'title' => '任務 force已刪除',
                     'body'  => 'The task has been force已刪除成功.',
                 ],
             ],
@@ -35,11 +35,11 @@ return [
     ],
 
     'tabs' => [
-        'open-tasks'       => 'Open Tasks',
-        'my-tasks'         => 'My Tasks',
-        'unassigned-tasks' => 'Unassigned Tasks',
-        'closed-tasks'     => 'Closed Tasks',
-        'starred-tasks'    => 'Starred Tasks',
-        'archived-tasks'   => 'Archived Tasks',
+        'open-tasks'       => 'Open 任務',
+        'my-tasks'         => 'My 任務',
+        'unassigned-tasks' => 'Unassigned 任務',
+        'closed-tasks'     => '已關閉 任務',
+        'starred-tasks'    => 'Starred 任務',
+        'archived-tasks'   => '已封存 任務',
     ],
 ];

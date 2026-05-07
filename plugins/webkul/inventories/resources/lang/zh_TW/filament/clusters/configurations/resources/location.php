@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'title' => '位置',
-        'group' => 'Warehouse Management',
+        'group' => '倉庫 Management',
     ],
 
     'form' => [
@@ -14,9 +14,9 @@ return [
                 'fields' => [
                     'location'                     => '位置',
                     'location-placeholder'         => 'eg. Spare Stock',
-                    'parent-location'              => 'Parent Location',
+                    'parent-location'              => 'Parent 位置',
                     'parent-location-hint-tooltip' => 'The main location that encompasses this location. For example, the \'Dispatch Zone\' is part of the \'Gate 1\' parent location.',
-                    'external-notes'               => 'External Notes',
+                    'external-notes'               => 'External 備註',
                 ],
             ],
 
@@ -27,11 +27,11 @@ return [
                     'location-type'                 => 'Location類型',
                     'company'                       => '公司',
                     'storage-category'              => '儲存分類',
-                    'is-scrap'                      => 'Is a Scrap Location?',
+                    'is-scrap'                      => 'Is a Scrap 位置?',
                     'is-scrap-hint-tooltip'         => 'Select this checkbox to designate this location for storing scrapped or damaged goods.',
-                    'is-dock'                       => 'Is a Dock Location?',
+                    'is-dock'                       => 'Is a Dock 位置?',
                     'is-dock-hint-tooltip'          => 'Select this checkbox to designate this location for storing goods that are ready for shipment.',
-                    'is-replenish'                  => 'Is a Replenish Location?',
+                    'is-replenish'                  => 'Is a Replenish 位置?',
                     'is-replenish-hint-tooltip'     => 'Enable this function to retrieve all quantities needed for replenishment at this location.',
                     'logistics'                     => '物流',
                     'removal-strategy'              => 'Removal Strategy',
@@ -39,9 +39,9 @@ return [
                     'cyclic-counting'               => 'Cyclic Counting',
                     'inventory-frequency'           => 'Inventory Frequency',
                     'last-inventory'                => 'Last Inventory',
-                    'last-inventory-hint-tooltip'   => 'Date of the last inventory at this location.',
+                    'last-inventory-hint-tooltip'   => '日期 of the last inventory at this location.',
                     'next-expected'                 => 'Next expected',
-                    'next-expected-hint-tooltip'    => 'Date for next planned inventory based on cyclic schedule.',
+                    'next-expected-hint-tooltip'    => '日期 for next planned inventory based on cyclic schedule.',
                 ],
             ],
 
@@ -85,7 +85,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Location restored',
+                    'title' => '位置 restored',
                     'body'  => 'The location has been restored成功.',
                 ],
             ],
@@ -100,12 +100,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Location force已刪除',
+                        'title' => '位置 force已刪除',
                         'body'  => 'The location has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Location could not be已刪除',
+                        'title' => '位置 could not be已刪除',
                         'body'  => 'The location cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -119,7 +119,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Locations restored',
+                    'title' => '位置 restored',
                     'body'  => 'The locations has been restored成功.',
                 ],
             ],
@@ -134,12 +134,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Locations force已刪除',
+                        'title' => '位置 force已刪除',
                         'body'  => 'The locations has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Locations could not be已刪除',
+                        'title' => '位置 could not be已刪除',
                         'body'  => 'The locations cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -155,9 +155,9 @@ return [
                 'entries' => [
                     'location'                     => '位置',
                     'location-placeholder'         => 'eg. Spare Stock',
-                    'parent-location'              => 'Parent Location',
+                    'parent-location'              => 'Parent 位置',
                     'parent-location-hint-tooltip' => 'The main location that encompasses this location. For example, the \'Dispatch Zone\' is part of the \'Gate 1\' parent location.',
-                    'external-notes'               => 'External Notes',
+                    'external-notes'               => 'External 備註',
                 ],
             ],
 
@@ -168,11 +168,11 @@ return [
                     'location-type'                 => 'Location類型',
                     'company'                       => '公司',
                     'storage-category'              => '儲存分類',
-                    'is-scrap'                      => 'Is a Scrap Location?',
+                    'is-scrap'                      => 'Is a Scrap 位置?',
                     'is-scrap-hint-tooltip'         => 'Select this checkbox to designate this location for storing scrapped or damaged goods.',
-                    'is-dock'                       => 'Is a Dock Location?',
+                    'is-dock'                       => 'Is a Dock 位置?',
                     'is-dock-hint-tooltip'          => 'Select this checkbox to designate this location for storing goods that are ready for shipment.',
-                    'is-replenish'                  => 'Is a Replenish Location?',
+                    'is-replenish'                  => 'Is a Replenish 位置?',
                     'is-replenish-hint-tooltip'     => 'Enable this function to retrieve all quantities needed for replenishment at this location.',
                     'logistics'                     => '物流',
                     'removal-strategy'              => 'Removal Strategy',
@@ -180,9 +180,9 @@ return [
                     'cyclic-counting'               => 'Cyclic Counting',
                     'inventory-frequency'           => 'Inventory Frequency',
                     'last-inventory'                => 'Last Inventory',
-                    'last-inventory-hint-tooltip'   => 'Date of the last inventory at this location.',
+                    'last-inventory-hint-tooltip'   => '日期 of the last inventory at this location.',
                     'next-expected'                 => 'Next expected',
-                    'next-expected-hint-tooltip'    => 'Date for next planned inventory based on cyclic schedule.',
+                    'next-expected-hint-tooltip'    => '日期 for next planned inventory based on cyclic schedule.',
                 ],
             ],
 

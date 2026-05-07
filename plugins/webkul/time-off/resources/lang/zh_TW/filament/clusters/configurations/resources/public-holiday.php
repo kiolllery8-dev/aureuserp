@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => 'Public Holidays',
+    'title' => '公開 Holidays',
 
-    'model-label' => 'Public holiday',
+    'model-label' => '公開 holiday',
 
     'navigation' => [
-        'title' => 'Public Holidays',
+        'title' => '公開 Holidays',
     ],
 
     'form' => [
@@ -51,14 +51,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Public holiday已更新',
+                    'title' => '公開 holiday已更新',
                     'body'  => 'The public holiday has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Public holiday已刪除',
+                    'title' => '公開 holiday已刪除',
                     'body'  => 'The public holiday has been已刪除成功.',
                 ],
             ],
@@ -67,7 +67,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Public holidays已刪除',
+                    'title' => '公開 holidays已刪除',
                     'body'  => 'The public holidays has been已刪除成功.',
                 ],
             ],

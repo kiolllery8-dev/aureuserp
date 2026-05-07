@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Mandatory Days',
+    'title' => 'Mandatory 天數',
 
     'model-label' => 'Mandatory Day',
 

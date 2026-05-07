@@ -39,7 +39,7 @@ return [
                 'title' => '其他資料',
 
                 'fields' => [
-                    'durations-days' => 'Duration (Days)',
+                    'durations-days' => 'Duration (天數)',
                     'display-type'   => '顯示類型',
                 ],
             ],
@@ -66,7 +66,7 @@ return [
             'assignment'    => '指派',
             'assigned-to'   => '指派給',
             'interval'      => 'Interval',
-            'delay-unit'    => 'Delay Unit',
+            'delay-unit'    => 'Delay 單位',
             'delay-from'    => 'Delay From',
             'created-by'    => '建立者',
             'created-at'    => '建立時間',
@@ -167,7 +167,7 @@ return [
                 'title' => '其他資料',
 
                 'entries' => [
-                    'durations-days' => 'Duration (Days)',
+                    'durations-days' => 'Duration (天數)',
                     'display-type'   => '顯示類型',
                 ],
             ],

@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Lots / Serial Numbers',
+        'title' => '批號 / Serial 編號',
         'group' => '庫存',
     ],
 
@@ -61,7 +61,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Lot could not be已刪除',
+                        'title' => '批號 could not be已刪除',
                         'body'  => 'The lot cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -81,7 +81,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Lots could not be已刪除',
+                        'title' => '批號 could not be已刪除',
                         'body'  => 'The lots cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -92,7 +92,7 @@ return [
     'infolist' => [
         'sections' => [
             'general' => [
-                'title' => 'Lot Details',
+                'title' => '批號 Details',
 
                 'entries' => [
                     'name'        => 'Lot名稱',

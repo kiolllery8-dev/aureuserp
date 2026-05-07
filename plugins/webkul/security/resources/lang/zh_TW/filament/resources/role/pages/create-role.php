@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Role Created',
+        'title' => '角色 Created',
         'body'  => 'The role was已建立成功.',
     ],
 ];

@@ -19,7 +19,7 @@ return [
                 'fields' => [
                     'receive-from'         => 'Receive From',
                     'contact'              => '聯絡人',
-                    'delivery-address'     => 'Delivery Address',
+                    'delivery-address'     => '出貨 地址',
                     'operation-type'       => '作業類型',
                     'source-location'      => '從哪裡',
                     'destination-location' => '送到哪裡',
@@ -33,7 +33,7 @@ return [
 
                 'columns' => [
                     'product'        => '商品',
-                    'final-location' => 'Final Location',
+                    'final-location' => 'Final 位置',
                     'description'    => '描述',
                     'scheduled-at'   => '排定時間',
                     'deadline'       => '截止日',
@@ -46,7 +46,7 @@ return [
 
                 'fields' => [
                     'product'        => '商品',
-                    'final-location' => 'Final Location',
+                    'final-location' => 'Final 位置',
                     'description'    => '描述',
                     'scheduled-at'   => '排定時間',
                     'deadline'       => '截止日',
@@ -57,14 +57,14 @@ return [
                     'picked'         => 'Picked',
 
                     'lines' => [
-                        'modal-heading' => '管理Stock Moves',
+                        'modal-heading' => '管理庫存異動s',
                         'add-line'      => '新增明細',
 
                         'fields' => [
-                            'lot'       => 'Lot/Serial Number',
+                            'lot'       => '批號/Serial 編號',
                             'pick-from' => 'Pick From',
                             'location'  => 'Store To',
-                            'package'   => 'Destination Package',
+                            'package'   => 'Destination 包裝',
                             'quantity'  => '數量',
                             'uom'       => '計量單位',
                         ],
@@ -82,7 +82,7 @@ return [
                     'scheduled-at'                 => '排定時間',
                     'scheduled-at-hint-tooltip'    => 'The scheduled time for processing the first part of the shipment. Manually setting a value here will apply it as the expected date for all stock moves.',
                     'source-document'              => '來源單據',
-                    'source-document-hint-tooltip' => 'Reference of the document',
+                    'source-document-hint-tooltip' => '參考編號 of the document',
                 ],
             ],
 
@@ -98,7 +98,7 @@ return [
 
     'table' => [
         'columns' => [
-            'favorite'        => 'Favorite',
+            'favorite'        => '最愛',
             'reference'       => '參考編號',
             'from'            => 'From',
             'to'              => 'To',
@@ -106,7 +106,7 @@ return [
             'responsible'     => '負責人',
             'scheduled-at'    => '排定時間',
             'deadline'        => '截止日',
-            'closed-at'       => 'Closed At',
+            'closed-at'       => '已關閉 At',
             'source-document' => '來源單據',
             'operation-type'  => '作業類型',
             'company'         => '公司',
@@ -134,7 +134,7 @@ return [
             'destination-location' => '送到哪裡',
             'deadline'             => '截止日',
             'scheduled-at'         => '排定時間',
-            'closed-at'            => 'Closed At',
+            'closed-at'            => '已關閉 At',
             'created-at'           => '建立時間',
             'updated-at'           => '更新時間',
             'company'              => '公司',
@@ -160,7 +160,7 @@ return [
                 'title'   => '作業',
                 'entries' => [
                     'product'        => '商品',
-                    'final-location' => 'Final Location',
+                    'final-location' => 'Final 位置',
                     'description'    => '描述',
                     'scheduled-at'   => '排定時間',
                     'deadline'       => '截止日',
@@ -188,7 +188,7 @@ return [
 
     'tabs' => [
         'todo'     => 'To Do',
-        'my'       => 'My Transfers',
+        'my'       => 'My 調撥',
         'starred'  => 'Starred',
         'draft'    => '草稿',
         'waiting'  => 'Waiting',
@@ -199,7 +199,7 @@ return [
 
     'notifications' => [
         'uom-precision-warning' => [
-            'title' => 'Unit of Measure Precision Warning',
+            'title' => '單位 of Measure Precision Warning',
             'body'  => 'You are using a unit of measure smaller than the one used to stock this product. This can lead to rounding issues on reserved quantities. Consider using the smallest unit of measure for stock valuation, or reduce the rounding precision of your base unit.',
         ],
     ],

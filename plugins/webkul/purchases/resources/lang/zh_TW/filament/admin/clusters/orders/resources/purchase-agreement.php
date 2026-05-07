@@ -125,7 +125,7 @@ return [
 
                     'warning' => [
                         'title' => 'Purchase Agreement cannot be已刪除',
-                        'body'  => 'Only purchase agreements in Draft or Cancelled state can be已刪除.',
+                        'body'  => 'Only purchase agreements in 草稿 or 已取消 state can be已刪除.',
                     ],
                 ],
             ],
@@ -160,7 +160,7 @@ return [
 
                     'warning' => [
                         'title' => 'Purchase Agreement cannot be已刪除',
-                        'body'  => 'Only purchase agreements in Draft or Cancelled state can be已刪除.',
+                        'body'  => 'Only purchase agreements in 草稿 or 已取消 state can be已刪除.',
                     ],
                 ],
             ],

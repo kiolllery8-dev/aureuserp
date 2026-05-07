@@ -7,7 +7,7 @@ return [
     ],
 
     'global-search' => [
-        'project-manager' => 'Project Manager',
+        'project-manager' => '專案 主管',
         'customer'        => '客戶',
     ],
 
@@ -27,7 +27,7 @@ return [
                 'title' => '其他資料',
 
                 'fields' => [
-                    'project-manager'             => 'Project Manager',
+                    'project-manager'             => '專案 主管',
                     'customer'                    => '客戶',
                     'start-date'                  => '開始日期',
                     'end-date'                    => '結束日期',
@@ -47,10 +47,10 @@ return [
                     'private-description'          => 'Invited internal users only.',
                     'internal-description'         => 'All internal users can see.',
                     'public-description'           => 'Invited portal users and all internal users.',
-                    'time-management'              => 'Time Management',
+                    'time-management'              => '時間 Management',
                     'allow-timesheets'             => 'Allow時間sheets',
                     'allow-timesheets-helper-text' => 'Log time on tasks and track progress',
-                    'task-management'              => 'Task Management',
+                    'task-management'              => '任務 Management',
                     'allow-milestones'             => 'Allow Milestones',
                     'allow-milestones-helper-text' => 'Monitor key milestones that are essential for achieving success.',
                 ],
@@ -66,12 +66,12 @@ return [
             'end-date'        => '結束日期',
             'planned-date'    => 'Planned日期',
             'remaining-hours' => 'Remaining Hours',
-            'project-manager' => 'Project Manager',
+            'project-manager' => '專案 主管',
         ],
 
         'groups' => [
             'stage'           => '階段',
-            'project-manager' => 'Project Manager',
+            'project-manager' => '專案 主管',
             'customer'        => '客戶',
             'created-at'      => '建立時間',
         ],
@@ -88,7 +88,7 @@ return [
             'updated-at'       => '更新時間',
             'stage'            => '階段',
             'customer'         => '客戶',
-            'project-manager'  => 'Project Manager',
+            'project-manager'  => '專案 主管',
             'company'          => '公司',
             'creator'          => '建立者',
             'tags'             => '標籤',
@@ -100,7 +100,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Project restored',
+                    'title' => '專案 restored',
                     'body'  => 'The project has been restored成功.',
                 ],
             ],
@@ -117,12 +117,12 @@ return [
                 'notification' => [
 
                     'success' => [
-                        'title' => 'Project permanently已刪除',
+                        'title' => '專案 permanently已刪除',
                         'body'  => 'The project has been permanently已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Project cannot be permanently已刪除',
+                        'title' => '專案 cannot be permanently已刪除',
                         'body'  => 'The project is associated with other記錄s.',
                     ],
 
@@ -148,14 +148,14 @@ return [
                 'title' => '其他資料',
 
                 'entries' => [
-                    'project-manager'        => 'Project Manager',
+                    'project-manager'        => '專案 主管',
                     'customer'               => '客戶',
                     'project-timeline'       => 'Project時間line',
                     'allocated-hours'        => 'Allocated Hours',
                     'allocated-hours-suffix' => ' Hours',
                     'remaining-hours'        => 'Remaining Hours',
                     'remaining-hours-suffix' => ' Hours',
-                    'current-stage'          => 'Current Stage',
+                    'current-stage'          => 'Current 階段',
                     'tags'                   => '標籤',
                 ],
             ],
@@ -164,7 +164,7 @@ return [
                 'title' => '統計',
 
                 'entries' => [
-                    'total-tasks'         => 'Total Tasks',
+                    'total-tasks'         => '總計 任務',
                     'milestones-progress' => 'Milestones Progress',
                 ],
             ],
@@ -180,12 +180,12 @@ return [
             ],
 
             'settings' => [
-                'title' => 'Project Settings',
+                'title' => '專案 設定',
 
                 'entries' => [
                     'visibility'         => 'Visibility',
-                    'timesheets-enabled' => 'Timesheets Enabled',
-                    'milestones-enabled' => 'Milestones Enabled',
+                    'timesheets-enabled' => 'Timesheets 啟用',
+                    'milestones-enabled' => 'Milestones 啟用',
                 ],
             ],
         ],

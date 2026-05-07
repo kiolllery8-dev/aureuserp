@@ -8,7 +8,7 @@ return [
             'applicability' => 'Applicability',
             'name'          => '名稱',
             'status'        => '狀態',
-            'tax-negate'    => 'Tax Negate',
+            'tax-negate'    => '稅 Negate',
         ],
     ],
 
@@ -20,7 +20,7 @@ return [
             'applicability' => 'Applicability',
             'name'          => '名稱',
             'status'        => '狀態',
-            'tax-negate'    => 'Tax Negate',
+            'tax-negate'    => '稅 Negate',
             'created-at'    => '建立時間',
             'updated-at'    => '更新時間',
             'deleted-at'    => '刪除時間',
@@ -28,7 +28,7 @@ return [
 
         'filters' => [
             'bank'           => '銀行',
-            'account-holder' => 'Account Holder',
+            'account-holder' => '帳戶 Holder',
             'creator'        => '建立者',
             'can-send-money' => 'Can Send Money',
         ],
@@ -43,15 +43,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Account Tag已更新',
-                    'body'  => 'The account Tag has been已更新成功.',
+                    'title' => '帳戶 Tag已更新',
+                    'body'  => 'The account 標籤 has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Account Tag已刪除',
-                    'body'  => 'The account Tag has been已刪除成功.',
+                    'title' => '帳戶 Tag已刪除',
+                    'body'  => 'The account 標籤 has been已刪除成功.',
                 ],
             ],
         ],
@@ -59,8 +59,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Account Tags已刪除',
-                    'body'  => 'The account Tags has been已刪除成功.',
+                    'title' => '帳戶 Tags已刪除',
+                    'body'  => 'The account 標籤 has been已刪除成功.',
                 ],
             ],
         ],
@@ -73,7 +73,7 @@ return [
             'applicability' => 'Applicability',
             'name'          => '名稱',
             'status'        => '狀態',
-            'tax-negate'    => 'Tax Negate',
+            'tax-negate'    => '稅 Negate',
         ],
     ],
 ];

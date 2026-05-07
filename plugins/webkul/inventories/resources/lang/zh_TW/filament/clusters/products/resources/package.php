@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Packages',
+        'title' => '包裝',
         'group' => '庫存',
     ],
 
@@ -60,7 +60,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Package could not be已刪除',
+                        'title' => '包裝 could not be已刪除',
                         'body'  => 'The package cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -84,7 +84,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Packages could not be已刪除',
+                        'title' => '包裝 could not be已刪除',
                         'body'  => 'The packages cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -95,7 +95,7 @@ return [
     'infolist' => [
         'sections' => [
             'general' => [
-                'title' => 'Package Details',
+                'title' => '包裝 Details',
 
                 'entries' => [
                     'name'         => 'Package名稱',

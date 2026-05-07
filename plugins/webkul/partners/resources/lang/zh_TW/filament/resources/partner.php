@@ -51,8 +51,8 @@ return [
                 'fields' => [
                     'responsible'           => '負責人',
                     'responsible-hint-text' => 'This is internal salesperson responsible for this customer',
-                    'company-id'            => 'Company ID',
-                    'company-id-hint-text'  => 'The company\'s registry number, used if different from the Tax ID. It必須唯一 among all partners within the same country.',
+                    'company-id'            => '公司 ID',
+                    'company-id-hint-text'  => 'The company\'s registry number, used if different from the 稅 ID. It必須唯一 among all partners within the same country.',
                     'reference'             => '參考編號',
                     'industry'              => '產業',
                 ],
@@ -84,7 +84,7 @@ return [
             'mobile'           => '行動電話',
             'job-title'        => '職稱',
             'website'          => '網址',
-            'company-registry' => 'Company Registry',
+            'company-registry' => '公司 Registry',
             'responsible'      => '負責人',
             'reference'        => '參考編號',
             'parent'           => '上層',
@@ -104,7 +104,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Contact restored',
+                    'title' => '聯絡人 restored',
                     'body'  => 'The contact has been restored成功.',
                 ],
             ],
@@ -119,12 +119,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Contact force已刪除',
+                        'title' => '聯絡人 force已刪除',
                         'body'  => 'The contact has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Contact could not be已刪除',
+                        'title' => '聯絡人 could not be已刪除',
                         'body'  => 'The contact cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -134,7 +134,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Contacts restored',
+                    'title' => '聯絡人 restored',
                     'body'  => 'The contacts has been restored成功.',
                 ],
             ],
@@ -149,12 +149,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Contacts force已刪除',
+                        'title' => '聯絡人 force已刪除',
                         'body'  => 'The contacts has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Contacts could not be已刪除',
+                        'title' => '聯絡人 could not be已刪除',
                         'body'  => 'The contacts cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -206,8 +206,8 @@ return [
                 'fields' => [
                     'responsible'           => '負責人',
                     'responsible-hint-text' => 'This is internal salesperson responsible for this customer',
-                    'company-id'            => 'Company ID',
-                    'company-id-hint-text'  => 'The registry number of the company. Use it if it is different from the Tax ID. It必須唯一 across all partners of a same country',
+                    'company-id'            => '公司 ID',
+                    'company-id-hint-text'  => 'The registry number of the company. Use it if it is different from the 稅 ID. It必須唯一 across all partners of a same country',
                     'reference'             => '參考編號',
                     'industry'              => '產業',
                 ],

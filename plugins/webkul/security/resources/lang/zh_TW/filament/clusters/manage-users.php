@@ -11,7 +11,7 @@ return [
 
     'form' => [
         'enable-user-invitation' => [
-            'label'       => 'Enable User Invitation',
+            'label'       => 'Enable 使用者 Invitation',
             'helper-text' => 'Allow users to invite other users to the application.',
         ],
 
@@ -21,12 +21,12 @@ return [
         ],
 
         'default-role' => [
-            'label'       => 'Default Role',
+            'label'       => '預設 角色',
             'helper-text' => 'The default role assigned to new users.',
         ],
 
         'default-company' => [
-            'label'       => 'Default Company',
+            'label'       => '預設 公司',
             'helper-text' => 'The default company assigned to new users.',
         ],
     ],

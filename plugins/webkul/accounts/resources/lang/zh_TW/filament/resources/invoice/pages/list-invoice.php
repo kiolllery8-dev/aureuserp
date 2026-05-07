@@ -10,7 +10,7 @@ return [
         'refund'      => '退款',
         'to-check'    => 'To Check',
         'to-pay'      => 'To Pay',
-        'in-payment'  => 'In Payment',
+        'in-payment'  => 'In 付款',
         'unpaid'      => '未付款',
         'overdue'     => 'Overdue',
     ],

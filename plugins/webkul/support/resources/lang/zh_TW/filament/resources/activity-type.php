@@ -17,7 +17,7 @@ return [
                     'name'                => '活動類型',
                     'name-tooltip'        => 'Enter the official activity type name',
                     'action'              => '動作',
-                    'default-user'        => 'Default User',
+                    'default-user'        => '預設 使用者',
                     'summary'             => '摘要',
                     'note'                => '備註',
                 ],
@@ -28,9 +28,9 @@ return [
 
                 'fields' => [
                     'delay-count'            => 'Delay Count',
-                    'delay-unit'             => 'Delay Unit',
+                    'delay-unit'             => 'Delay 單位',
                     'delay-form'             => 'Delay Form',
-                    'delay-form-helper-text' => 'Source of delay calculation',
+                    'delay-form-helper-text' => '來源 of delay calculation',
                 ],
             ],
 
@@ -47,11 +47,11 @@ return [
             ],
 
             'status-and-configuration-information' => [
-                'title' => 'Status & Configuration',
+                'title' => '狀態 & 組態設定',
 
                 'fields' => [
                     'status'               => '狀態',
-                    'keep-done-activities' => 'Keep Done Activities',
+                    'keep-done-activities' => 'Keep Done 活動',
                 ],
             ],
         ],
@@ -71,15 +71,15 @@ return [
 
         'groups' => [
             'name'             => '名稱',
-            'action-category'  => 'Action Category',
+            'action-category'  => '動作 分類',
             'status'           => '狀態',
             'delay-count'      => 'Delay Count',
-            'delay-unit'       => 'Delay Unit',
-            'delay-source'     => 'Delay Source',
+            'delay-unit'       => 'Delay 單位',
+            'delay-source'     => 'Delay 來源',
             'associated-model' => 'Associated Model',
             'chaining-type'    => 'Chaining類型',
             'decoration-type'  => 'Decoration類型',
-            'default-user'     => 'Default User',
+            'default-user'     => '預設 使用者',
             'creation-date'    => 'Creation日期',
             'last-update'      => 'Last Update',
         ],
@@ -93,14 +93,14 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Activity type restored',
+                    'title' => '活動 type restored',
                     'body'  => 'The activity type has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Activity type已刪除',
+                    'title' => '活動 type已刪除',
                     'body'  => 'The activity type has been已刪除成功.',
                 ],
             ],
@@ -108,12 +108,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Activity type force已刪除',
-                        'body'  => 'The Activity type has been force已刪除成功.',
+                        'title' => '活動 type force已刪除',
+                        'body'  => 'The 活動 type has been force已刪除成功.',
                     ],
                     'error' => [
-                        'title' => 'Activity type  could not be已刪除',
-                        'body'  => 'The Activity type  cannot be已刪除 because it is currently in use.',
+                        'title' => '活動 type  could not be已刪除',
+                        'body'  => 'The 活動 type  cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -122,21 +122,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Activity types restored',
+                    'title' => '活動 types restored',
                     'body'  => 'The activity types has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Activity types已刪除',
+                    'title' => '活動 types已刪除',
                     'body'  => 'The activity types has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Activity types force已刪除',
+                    'title' => '活動 types force已刪除',
                     'body'  => 'The activity types has been force已刪除成功.',
                 ],
             ],
@@ -152,7 +152,7 @@ return [
                     'name'                => '活動類型',
                     'name-tooltip'        => 'Enter the official activity type name',
                     'action'              => '動作',
-                    'default-user'        => 'Default User',
+                    'default-user'        => '預設 使用者',
                     'plugin'              => 'Plugin',
                     'summary'             => '摘要',
                     'note'                => '備註',
@@ -164,9 +164,9 @@ return [
 
                 'entries' => [
                     'delay-count'            => 'Delay Count',
-                    'delay-unit'             => 'Delay Unit',
+                    'delay-unit'             => 'Delay 單位',
                     'delay-form'             => 'Delay Form',
-                    'delay-form-helper-text' => 'Source of delay calculation',
+                    'delay-form-helper-text' => '來源 of delay calculation',
                 ],
             ],
 
@@ -183,11 +183,11 @@ return [
             ],
 
             'status-and-configuration-information' => [
-                'title' => 'Status & Configuration',
+                'title' => '狀態 & 組態設定',
 
                 'entries' => [
                     'status'               => '狀態',
-                    'keep-done-activities' => 'Keep Done Activities',
+                    'keep-done-activities' => 'Keep Done 活動',
                 ],
             ],
         ],

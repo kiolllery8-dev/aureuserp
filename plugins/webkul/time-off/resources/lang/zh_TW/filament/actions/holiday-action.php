@@ -4,7 +4,7 @@ return [
     'title' => 'Holidays',
     'form'  => [
         'placeholders' => [
-            'public-holiday'    => 'Public Holidays',
+            'public-holiday'    => '公開 Holidays',
             'mandatory-holiday' => 'Mandatory Holidays',
         ],
     ],

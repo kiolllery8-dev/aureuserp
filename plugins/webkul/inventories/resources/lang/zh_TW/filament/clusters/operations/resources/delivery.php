@@ -21,7 +21,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Delivery could not be已刪除',
+                        'title' => '出貨 could not be已刪除',
                         'body'  => 'The delivery cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -37,7 +37,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Deliveries could not be已刪除',
+                        'title' => '出貨 could not be已刪除',
                         'body'  => 'The deliveries cannot be已刪除 because they are currently in use.',
                     ],
                 ],

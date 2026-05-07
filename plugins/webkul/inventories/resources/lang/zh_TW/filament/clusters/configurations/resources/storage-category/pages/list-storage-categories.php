@@ -8,7 +8,7 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Storage Category',
+            'label' => '新增Storage 分類',
 
             'notification' => [
                 'title' => 'Storage Category已建立',

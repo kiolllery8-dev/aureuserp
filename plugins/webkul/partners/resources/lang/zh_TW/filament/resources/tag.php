@@ -24,7 +24,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Tag restored',
+                    'title' => '標籤 restored',
                     'body'  => 'The tag has been restored成功.',
                 ],
             ],
@@ -38,7 +38,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Tag force已刪除',
+                    'title' => '標籤 force已刪除',
                     'body'  => 'The tag has been force已刪除成功.',
                 ],
             ],
@@ -47,7 +47,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Tags restored',
+                    'title' => '標籤 restored',
                     'body'  => 'The tags has been restored成功.',
                 ],
             ],
@@ -61,7 +61,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Tags force已刪除',
+                    'title' => '標籤 force已刪除',
                     'body'  => 'The tags has been force已刪除成功.',
                 ],
             ],

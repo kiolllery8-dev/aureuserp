@@ -6,19 +6,19 @@ return [
             'fields' => [
                 'name'            => '名稱',
                 'tax-type'        => 'Tax類型',
-                'tax-computation' => 'Tax Computation',
-                'tax-scope'       => 'Tax Scope',
+                'tax-computation' => '稅 Computation',
+                'tax-scope'       => '稅 Scope',
                 'status'          => '狀態',
                 'amount'          => '金額',
             ],
 
             'repeater' => [
                 'invoice-repartition-lines' => [
-                    'label' => 'Invoice Repartition Lines',
+                    'label' => '發票 Repartition Lines',
                 ],
 
                 'refund-repartition-lines' => [
-                    'label' => 'Refund Repartition Lines',
+                    'label' => '退款 Repartition Lines',
                 ],
 
                 'fields' => [
@@ -30,21 +30,21 @@ return [
 
             'field-set' => [
                 'advanced-options' => [
-                    'title' => 'Advanced Options',
+                    'title' => 'Advanced 選項',
 
                     'fields' => [
-                        'invoice-label'       => 'Invoice label',
+                        'invoice-label'       => '發票 label',
                         'tax-group'           => '稅務群組',
                         'country'             => '國家',
                         'include-in-price'    => 'Included in價格',
-                        'include-base-amount' => 'Affect Base of Subsequent Taxes',
-                        'is-base-affected'    => 'Base Affected by Previous Taxes',
+                        'include-base-amount' => 'Affect Base of Subsequent 稅',
+                        'is-base-affected'    => 'Base Affected by Previous 稅',
                     ],
                 ],
 
                 'fields' => [
                     'description' => '描述',
-                    'legal-notes' => 'Legal Notes',
+                    'legal-notes' => 'Legal 備註',
                 ],
             ],
         ],
@@ -58,11 +58,11 @@ return [
             'tax-group'              => '稅務群組',
             'country'                => '國家',
             'tax-type'               => 'Tax類型',
-            'tax-scope'              => 'Tax Scope',
+            'tax-scope'              => '稅 Scope',
             'amount-type'            => 'Amount類型',
-            'invoice-label'          => 'Invoice Label',
-            'tax-exigibility'        => 'Tax Exigibility',
-            'price-include-override' => 'Price Include Override',
+            'invoice-label'          => '發票 Label',
+            'tax-exigibility'        => '稅 Exigibility',
+            'price-include-override' => '價格 Include Override',
             'amount'                 => '金額',
             'status'                 => '狀態',
             'include-base-amount'    => 'Include Base金額',
@@ -75,8 +75,8 @@ return [
             'tax-group'    => '稅務群組',
             'country'      => '國家',
             'created-by'   => '建立者',
-            'type-tax-use' => 'Type Tax Use',
-            'tax-scope'    => 'Tax Scope',
+            'type-tax-use' => '類型 稅 Use',
+            'tax-scope'    => '稅 Scope',
             'amount-type'  => 'Amount類型',
         ],
 
@@ -85,11 +85,11 @@ return [
                 'notification' => [
                     'success' => [
                         'title' => 'Tax已刪除',
-                        'body'  => 'The Tax has been已刪除成功.',
+                        'body'  => 'The 稅 has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Tax could not be已刪除',
+                        'title' => '稅 could not be已刪除',
                         'body'  => 'The tax cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -105,7 +105,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Taxes could not be已刪除',
+                        'title' => '稅 could not be已刪除',
                         'body'  => 'The taxes cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -136,18 +136,18 @@ return [
             'entries' => [
                 'name'            => '名稱',
                 'tax-type'        => 'Tax類型',
-                'tax-computation' => 'Tax Computation',
-                'tax-scope'       => 'Tax Scope',
+                'tax-computation' => '稅 Computation',
+                'tax-scope'       => '稅 Scope',
                 'status'          => '狀態',
                 'amount'          => '金額',
             ],
 
             'field-set' => [
                 'advanced-options' => [
-                    'title' => 'Advanced Options',
+                    'title' => 'Advanced 選項',
 
                     'entries' => [
-                        'invoice-label'       => 'Invoice label',
+                        'invoice-label'       => '發票 label',
                         'tax-group'           => '稅務群組',
                         'country'             => '國家',
                         'include-in-price'    => 'Include in price',
@@ -157,10 +157,10 @@ return [
                 ],
 
                 'description-and-legal-notes' => [
-                    'title'   => 'Description & Invoice Legal Notes',
+                    'title'   => '描述 & 發票 Legal 備註',
                     'entries' => [
                         'description' => '描述',
-                        'legal-notes' => 'Legal Notes',
+                        'legal-notes' => 'Legal 備註',
                     ],
                 ],
             ],

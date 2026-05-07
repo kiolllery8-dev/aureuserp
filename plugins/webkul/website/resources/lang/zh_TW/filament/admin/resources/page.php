@@ -13,7 +13,7 @@ return [
 
                 'fields' => [
                     'title'             => '標題',
-                    'title-placeholder' => 'Page title ...',
+                    'title-placeholder' => '頁面 title ...',
                     'slug'              => 'Slug',
                     'content'           => 'Content',
                 ],
@@ -23,9 +23,9 @@ return [
                 'title' => 'SEO',
 
                 'fields' => [
-                    'meta-title'       => 'Meta Title',
+                    'meta-title'       => 'Meta 標題',
                     'meta-keywords'    => 'Meta Keywords',
-                    'meta-description' => 'Meta Description',
+                    'meta-description' => 'Meta 描述',
                 ],
             ],
 
@@ -33,8 +33,8 @@ return [
                 'title' => '設定',
 
                 'fields' => [
-                    'is-header-visible' => 'Is Visible Header Menu',
-                    'is-footer-visible' => 'Is Visible Footer Menu',
+                    'is-header-visible' => 'Is 顯示 Header Menu',
+                    'is-footer-visible' => 'Is 顯示 Footer Menu',
                 ],
             ],
         ],
@@ -46,8 +46,8 @@ return [
             'slug'              => 'Slug',
             'creator'           => '建立者',
             'is-published'      => 'Is Published',
-            'is-header-visible' => 'Is Visible Header Menu',
-            'is-footer-visible' => 'Is Visible Footer Menu',
+            'is-header-visible' => 'Is 顯示 Header Menu',
+            'is-footer-visible' => 'Is 顯示 Footer Menu',
             'created-at'        => '建立時間',
             'updated-at'        => '更新時間',
         ],
@@ -71,7 +71,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Page restored',
+                    'title' => '頁面 restored',
                     'body'  => 'The page has been restored成功.',
                 ],
             ],
@@ -85,7 +85,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Page force已刪除',
+                    'title' => '頁面 force已刪除',
                     'body'  => 'The page has been force已刪除成功.',
                 ],
             ],
@@ -94,7 +94,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Pages restored',
+                    'title' => '頁面 restored',
                     'body'  => 'The pages has been restored成功.',
                 ],
             ],
@@ -108,7 +108,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Pages force已刪除',
+                    'title' => '頁面 force已刪除',
                     'body'  => 'The pages has been force已刪除成功.',
                 ],
             ],
@@ -132,9 +132,9 @@ return [
                 'title' => 'SEO',
 
                 'entries' => [
-                    'meta-title'       => 'Meta Title',
+                    'meta-title'       => 'Meta 標題',
                     'meta-keywords'    => 'Meta Keywords',
-                    'meta-description' => 'Meta Description',
+                    'meta-description' => 'Meta 描述',
                 ],
             ],
 
@@ -155,8 +155,8 @@ return [
                 'title' => '設定',
 
                 'entries' => [
-                    'is-header-visible' => 'Is Visible Header Menu',
-                    'is-footer-visible' => 'Is Visible Footer Menu',
+                    'is-header-visible' => 'Is 顯示 Header Menu',
+                    'is-footer-visible' => 'Is 顯示 Footer Menu',
                 ],
             ],
         ],

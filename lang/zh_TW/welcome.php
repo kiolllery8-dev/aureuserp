@@ -41,14 +41,14 @@ return [
             'description' => '管理employees, attendance, time-off requests, and recruitment processes efficiently.',
         ],
         'projects' => [
-            'title' => 'Project Management',
+            'title' => '專案 Management',
             'description' => 'Plan, track, and deliver projects on time with our integrated project management tools.',
         ],
     ],
     
     'stats' => [
         'modules' => 'Integrated Modules',
-        'users' => 'Active Users',
+        'users' => '啟用中 使用者',
         'transactions' => 'Daily Transactions',
         'uptime' => 'System Uptime',
     ],
@@ -64,8 +64,8 @@ return [
         'powered_by' => 'Powered by Laravel',
         'links' => [
             'privacy' => 'Privacy Policy',
-            'terms' => 'Terms of Service',
-            'contact' => 'Contact Us',
+            'terms' => '條件 of Service',
+            'contact' => '聯絡人 Us',
         ],
     ],
 ];

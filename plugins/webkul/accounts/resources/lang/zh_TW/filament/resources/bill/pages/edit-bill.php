@@ -10,12 +10,12 @@ return [
         'delete' => [
             'notification' => [
                 'title' => 'Bill已刪除',
-                'body'  => 'Bill has been已刪除成功.',
+                'body'  => '進貨單 has been已刪除成功.',
             ],
         ],
 
         'preview' => [
-            'modal-heading' => 'Preview Bill',
+            'modal-heading' => 'Preview 進貨單',
         ],
 
         'reverse' => [

@@ -5,7 +5,7 @@ return [
         'label'   => '資產',
         'options' => [
             'receivable'  => '應收帳款',
-            'cash'        => 'Bank and Cash',
+            'cash'        => '銀行 and Cash',
             'current'     => 'Current Assets',
             'non-current' => 'Non-current Assets',
             'prepayments' => 'Prepayments',
@@ -44,7 +44,7 @@ return [
         'options' => [
             'expense'      => '費用',
             'depreciation' => 'Depreciation',
-            'direct-cost'  => 'Cost of Revenue',
+            'direct-cost'  => '成本 of Revenue',
         ],
     ],
 

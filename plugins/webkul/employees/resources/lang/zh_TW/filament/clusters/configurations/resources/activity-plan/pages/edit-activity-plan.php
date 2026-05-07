@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Activity Plan已更新',
+        'title' => '活動 Plan已更新',
         'body'  => 'The activity plan has been已更新成功.',
     ],
 

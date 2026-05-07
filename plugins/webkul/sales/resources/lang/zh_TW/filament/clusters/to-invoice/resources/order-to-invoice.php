@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'title' => 'Orders To Invoice',
+    'title' => '訂單 To 發票',
 
     'navigation' => [
-        'title' => 'Orders To Invoice',
+        'title' => '訂單 To 發票',
     ],
 ];

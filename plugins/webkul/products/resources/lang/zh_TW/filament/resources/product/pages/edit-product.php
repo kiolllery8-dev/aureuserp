@@ -12,7 +12,7 @@ return [
 
             'form' => [
                 'fields' => [
-                    'quantity' => 'Number of Labels',
+                    'quantity' => '編號 of Labels',
                     'format'   => 'Format',
 
                     'format-options' => [

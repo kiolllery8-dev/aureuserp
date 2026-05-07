@@ -2,5 +2,5 @@
 
 return [
     'manual'     => 'Manual',
-    'stock-move' => 'Stock Move',
+    'stock-move' => '庫存異動',
 ];

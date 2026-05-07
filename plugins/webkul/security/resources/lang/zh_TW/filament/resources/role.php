@@ -10,7 +10,7 @@ return [
 
     'notification' => [
         'system-role-delete' => [
-            'title' => 'System Role Cannot Be Deleted',
+            'title' => 'System 角色 Cannot Be Deleted',
             'body'  => 'This is a system role and cannot be已刪除.',
         ],
     ],

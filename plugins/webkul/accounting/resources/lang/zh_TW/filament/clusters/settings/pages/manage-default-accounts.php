@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理Default Accounts',
+    'title' => '管理Default 帳戶',
 
     'form' => [
         'exchange-difference-entries' => [
@@ -23,29 +23,29 @@ return [
         ],
 
         'bank-transfer-and-payments' => [
-            'label' => 'Bank Transfer and Payments',
+            'label' => '銀行 調撥 and 付款',
 
             'fields' => [
                 'bank-suspense-account' => [
-                    'label' => 'Bank Suspense Account',
+                    'label' => '銀行 Suspense 帳戶',
                 ],
 
                 'transfer-account' => [
-                    'label' => 'Transfer Account',
+                    'label' => '調撥 帳戶',
                 ],
             ],
         ],
 
         'product-accounts' => [
-            'label' => 'Product Accounts',
+            'label' => '商品 帳戶',
 
             'fields' => [
                 'income-account' => [
-                    'label' => 'Income Account',
+                    'label' => 'Income 帳戶',
                 ],
 
                 'expense-account' => [
-                    'label' => 'Expense Account',
+                    'label' => 'Expense 帳戶',
                 ],
             ],
         ],

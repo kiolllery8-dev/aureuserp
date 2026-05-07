@@ -8,12 +8,12 @@ return [
         'form' => [
             'fields' => [
                 'files'                  => '檔案',
-                'attachment-helper-text' => 'Max file size: 10MB. Allowed types: Images, PDF, Word, Excel, Text',
+                'attachment-helper-text' => 'Max file size: 10MB. Allowed types: 圖片, PDF, Word, Excel, Text',
 
                 'actions' => [
                     'delete' => [
                         'title' => 'File已刪除',
-                        'body'  => 'File has been已刪除成功.',
+                        'body'  => '檔案 has been已刪除成功.',
                     ],
                 ],
             ],

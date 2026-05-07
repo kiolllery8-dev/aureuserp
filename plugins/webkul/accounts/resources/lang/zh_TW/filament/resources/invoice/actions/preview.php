@@ -4,7 +4,7 @@ return [
     'title' => 'Preview',
 
     'modal' => [
-        'title' => 'Preview Invoice',
+        'title' => 'Preview 發票',
 
         'action' => [
             'close' => [

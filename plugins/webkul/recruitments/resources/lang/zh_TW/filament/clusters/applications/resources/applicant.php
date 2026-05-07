@@ -9,8 +9,8 @@ return [
 
     'global-search' => [
         'department' => '部門',
-        'work-email' => 'Work Email',
-        'work-phone' => 'Work Phone',
+        'work-email' => 'Work 電子郵件',
+        'work-phone' => 'Work 電話',
     ],
 
     'form' => [
@@ -23,7 +23,7 @@ return [
                     'evaluation-very-good'      => 'Evaluation: Very Good',
                     'evaluation-very-excellent' => 'Evaluation: Very Excellent',
                     'hired'                     => 'Hired',
-                    'candidate-name'            => 'Candidate name',
+                    'candidate-name'            => '應徵者 name',
                     'email'                     => 'Emails',
                     'phone'                     => '電話',
                     'linkedin-profile'          => 'Linkedin Profile',
@@ -61,7 +61,7 @@ return [
             ],
 
             'source-and-medium' => [
-                'title' => 'Source & Medium',
+                'title' => '來源 & Medium',
 
                 'fields' => [
                     'source' => '來源',
@@ -99,10 +99,10 @@ return [
             'priority'                => '優先順序',
             'salary-proposed-extra'   => 'Salary Proposed Extra',
             'salary-expected-extra'   => 'Salary Expected Extra',
-            'applicant-notes'         => 'Applicant Notes',
+            'applicant-notes'         => '應徵者 備註',
             'create-date'             => 'Applied On',
             'date-closed'             => 'Hired日期',
-            'date-last-stage-updated' => 'Last Stage Updated',
+            'date-last-stage-updated' => 'Last 階段 Updated',
             'stage'                   => '階段',
             'job-position'            => '職位',
         ],
@@ -110,7 +110,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Applicant Deleted',
+                    'title' => '應徵者 Deleted',
                     'body'  => 'The applicant was成功已刪除.',
                 ],
             ],
@@ -123,7 +123,7 @@ return [
             'responsible'    => '負責人',
             'creation-date'  => 'Creation日期',
             'hired-date'     => 'Hired日期',
-            'last-stage'     => 'Last Stage',
+            'last-stage'     => 'Last 階段',
             'refuse-reason'  => 'Refuse Reason',
         ],
 
@@ -144,7 +144,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Employees restored',
+                    'title' => '員工 restored',
                     'body'  => 'The employees has been restored成功.',
                 ],
             ],
@@ -161,7 +161,7 @@ return [
                     'evaluation-very-good'      => 'Evaluation: Very Good',
                     'evaluation-very-excellent' => 'Evaluation: Very Excellent',
                     'hired'                     => 'Hired',
-                    'candidate-name'            => 'Candidate name',
+                    'candidate-name'            => '應徵者 name',
                     'email'                     => 'Emails',
                     'phone'                     => '電話',
                     'linkedin-profile'          => 'Linkedin Profile',
@@ -198,7 +198,7 @@ return [
             ],
 
             'source-and-medium' => [
-                'title' => 'Source & Medium',
+                'title' => '來源 & Medium',
 
                 'entries' => [
                     'source' => '來源',

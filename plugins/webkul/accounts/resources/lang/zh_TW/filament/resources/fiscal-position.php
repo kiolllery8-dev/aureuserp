@@ -12,7 +12,7 @@ return [
             'name'                   => '名稱',
             'foreign-vat'            => 'Foreign VAT',
             'country'                => '國家',
-            'country-group'          => 'Country Group',
+            'country-group'          => '國家 群組',
             'zip-from'               => 'Zip From',
             'zip-to'                 => 'Zip To',
             'detect-automatically'   => 'Detect Automatically',
@@ -23,8 +23,8 @@ return [
             'account-mapping' => [
                 'table' => [
                     'columns' => [
-                        'source-account'      => 'Source Account',
-                        'destination-account' => 'Destination Account',
+                        'source-account'      => '來源 帳戶',
+                        'destination-account' => 'Destination 帳戶',
                     ],
                 ],
 
@@ -32,8 +32,8 @@ return [
             'tax-mapping' => [
                 'table' => [
                     'columns' => [
-                        'tax-source'      => 'Tax Source',
-                        'tax-destination' => 'Tax Destination',
+                        'tax-source'      => '稅 來源',
+                        'tax-destination' => '稅 Destination',
                     ],
                 ],
             ],
@@ -45,7 +45,7 @@ return [
             'name'                 => '名稱',
             'company'              => '公司',
             'country'              => '國家',
-            'country-group'        => 'Country Group',
+            'country-group'        => '國家 群組',
             'created-by'           => '建立者',
             'zip-from'             => 'Zip From',
             'zip-to'               => 'Zip To',
@@ -56,7 +56,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Payment Term已刪除',
+                    'title' => '付款 Term已刪除',
                     'body'  => 'The payment term has been已刪除成功.',
                 ],
             ],
@@ -77,7 +77,7 @@ return [
             'name'                 => '名稱',
             'foreign-vat'          => 'Foreign VAT',
             'country'              => '國家',
-            'country-group'        => 'Country Group',
+            'country-group'        => '國家 群組',
             'zip-from'             => 'Zip From',
             'zip-to'               => 'Zip To',
             'detect-automatically' => 'Detect Automatically',

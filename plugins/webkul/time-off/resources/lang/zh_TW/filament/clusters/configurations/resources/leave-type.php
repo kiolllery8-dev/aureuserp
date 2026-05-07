@@ -14,12 +14,12 @@ return [
                     'name'                => '標題',
                     'approval'            => 'Approval',
                     'requires-allocation' => 'Requires Allocation',
-                    'employee-requests'   => 'Employee Requests',
-                    'display-option'      => 'Display Option',
+                    'employee-requests'   => '員工 Requests',
+                    'display-option'      => 'Display 選項',
                 ],
             ],
             'display-option' => [
-                'title'  => 'Display Option',
+                'title'  => 'Display 選項',
                 'fields' => [
                     'color' => '顏色',
                 ],
@@ -30,7 +30,7 @@ return [
                 'fields' => [
                     'notified-time-off-officers'          => 'Notified時間 Off Officers',
                     'take-time-off-in'                    => 'Take時間 Off In',
-                    'public-holiday-included'             => 'Public Holiday Included',
+                    'public-holiday-included'             => '公開 Holiday Included',
                     'allow-to-attach-supporting-document' => 'Allow to Attach Supporting Document',
                     'show-on-dashboard'                   => 'Show on Dashboard',
                     'allow-negative-cap'                  => 'Allow Negative Cap',
@@ -48,19 +48,19 @@ return [
             'company-name'              => '公司',
             'color'                     => '顏色',
             'notified-time-officers'    => 'Notified時間 Officers',
-            'time-off-approval'         => 'Time Off Approval',
+            'time-off-approval'         => '請假 Approval',
             'requires-allocation'       => 'Requires Allocation',
             'allocation-approval'       => 'Allocation Approval',
-            'employee-request'          => 'Employee Request',
+            'employee-request'          => '員工 Request',
         ],
 
         'filters' => [
             'name'                => '名稱',
             'company-name'        => '公司',
-            'time-off-approval'   => 'Time Off Approval',
+            'time-off-approval'   => '請假 Approval',
             'requires-allocation' => 'Requires Allocation',
             'time-type'           => 'Time類型',
-            'request-unit'        => 'Request Unit',
+            'request-unit'        => 'Request 單位',
             'created-by'          => '建立者',
         ],
 
@@ -117,12 +117,12 @@ return [
                     'name'                => '標題',
                     'approval'            => 'Approval',
                     'requires-allocation' => 'Requires Allocation',
-                    'employee-requests'   => 'Employee Requests',
-                    'display-option'      => 'Display Option',
+                    'employee-requests'   => '員工 Requests',
+                    'display-option'      => 'Display 選項',
                 ],
             ],
             'display-option' => [
-                'title'   => 'Display Option',
+                'title'   => 'Display 選項',
                 'entries' => [
                     'color' => '顏色',
                 ],
@@ -133,7 +133,7 @@ return [
                 'entries' => [
                     'notified-time-off-officers'          => 'Notified時間 Off Officers',
                     'take-time-off-in'                    => 'Take時間 Off In',
-                    'public-holiday-included'             => 'Public Holiday Included',
+                    'public-holiday-included'             => '公開 Holiday Included',
                     'allow-to-attach-supporting-document' => 'Allow to Attach Supporting Document',
                     'show-on-dashboard'                   => 'Show on Dashboard',
                     'kind-off-time'                       => 'Kind of時間',

@@ -3,7 +3,7 @@
 return [
     'tabs' => [
         'my-team'       => 'My Team',
-        'my-department' => 'My Department',
+        'my-department' => 'My 部門',
         'archived'      => '已封存',
         'newly-hired'   => 'Newly Hired',
     ],

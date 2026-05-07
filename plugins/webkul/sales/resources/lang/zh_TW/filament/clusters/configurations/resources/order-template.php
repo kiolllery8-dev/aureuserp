@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Order Template Products',
+    'title' => '訂單 Template 商品',
 
     'navigation' => [
-        'title' => 'Order Template Products',
+        'title' => '訂單 Template 商品',
         'group' => '銷貨訂單',
     ],
 
@@ -15,10 +15,10 @@ return [
     'form' => [
         'fields' => [
             'sort'           => 'Sort',
-            'order-template' => 'Order Template',
+            'order-template' => '訂單 Template',
             'company'        => '公司',
             'product'        => '商品',
-            'product-uom'    => 'Product UOM',
+            'product-uom'    => '商品 UOM',
             'creator'        => '建立者',
             'display-type'   => '顯示類型',
             'name'           => '名稱',
@@ -29,10 +29,10 @@ return [
     'table' => [
         'columns' => [
             'sort'           => 'Sort',
-            'order-template' => 'Order Template',
+            'order-template' => '訂單 Template',
             'company'        => '公司',
             'product'        => '商品',
-            'product-uom'    => 'Product UOM',
+            'product-uom'    => '商品 UOM',
             'created-by'     => '建立者',
             'display-type'   => '顯示類型',
             'name'           => '名稱',
@@ -44,14 +44,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Order Template Products已更新',
+                    'title' => '訂單 Template Products已更新',
                     'body'  => 'The order template products has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Order Template Products已刪除',
+                    'title' => '訂單 Template Products已刪除',
                     'body'  => 'The order template products has been已刪除成功.',
                 ],
             ],
@@ -59,7 +59,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Order Template Products已刪除',
+                    'title' => '訂單 Template Products已刪除',
                     'body'  => 'The order template products has been已刪除成功.',
                 ],
             ],
@@ -68,11 +68,11 @@ return [
 
     'infolist' => [
         'entries' => [
-            'sort'           => 'Sort Order',
-            'order-template' => 'Order Template',
+            'sort'           => 'Sort 訂單',
+            'order-template' => '訂單 Template',
             'company'        => '公司',
             'product'        => '商品',
-            'product-uom'    => 'Product UOM',
+            'product-uom'    => '商品 UOM',
             'display-type'   => '顯示類型',
             'name'           => '名稱',
             'quantity'       => '數量',

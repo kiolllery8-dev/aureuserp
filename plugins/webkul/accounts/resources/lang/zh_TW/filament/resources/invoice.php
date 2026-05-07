@@ -20,7 +20,7 @@ return [
                 'title'  => '一般',
 
                 'fields' => [
-                    'customer-invoice' => 'Customer Invoice',
+                    'customer-invoice' => '客戶 發票',
                     'customer'         => '客戶',
                     'invoice-date'     => '開立日期',
                     'due-date'         => '到期日',
@@ -33,7 +33,7 @@ return [
 
         'tabs' => [
             'invoice-lines' => [
-                'title' => 'Invoice Lines',
+                'title' => '發票 Lines',
 
                 'repeater' => [
                     'products' => [
@@ -71,10 +71,10 @@ return [
                         'title'  => '發票',
 
                         'fields' => [
-                            'customer-reference' => 'Customer Reference',
+                            'customer-reference' => '客戶 參考編號',
                             'sales-person'       => '業務',
                             'payment-reference'  => '付款參考',
-                            'recipient-bank'     => 'Recipient Bank',
+                            'recipient-bank'     => 'Recipient 銀行',
                             'delivery-date'      => 'Delivery日期',
                         ],
                     ],
@@ -88,10 +88,10 @@ return [
                             'incoterm-location'       => '貿易條件地點',
                             'fiscal-position'         => '稅務情境',
                             'fiscal-position-tooltip' => 'Fiscal positions are used to adapt taxes and accounts based on the customer location.',
-                            'cash-rounding'           => 'Cash Rounding Method',
+                            'cash-rounding'           => 'Cash Rounding 方式',
                             'cash-rounding-tooltip'   => 'Specifies the smallest cash-payable unit of the currency.',
                             'payment-method'          => '付款方式',
-                            'auto-post'               => 'Auto Post',
+                            'auto-post'               => 'Auto 文章',
                             'checked'                 => '已核對',
                         ],
                     ],
@@ -118,11 +118,11 @@ return [
             'source-document'  => '來源單據',
             'reference'        => '參考編號',
             'sales-person'     => '業務',
-            'tax-excluded'     => 'Tax Excluded',
+            'tax-excluded'     => '稅 Excluded',
             'tax'              => '稅',
             'total'            => '總計',
-            'amount-due'       => 'Amount Due',
-            'invoice-currency' => 'Invoice Currency',
+            'amount-due'       => '金額 Due',
+            'invoice-currency' => '發票 幣別',
         ],
 
         'summarizers' => [
@@ -131,12 +131,12 @@ return [
 
         'groups' => [
             'name'                         => '名稱',
-            'invoice-partner-display-name' => 'Invoice Partner Display名稱',
+            'invoice-partner-display-name' => '發票 夥伴 Display名稱',
             'invoice-date'                 => '開立日期',
             'checked'                      => '已核對',
             'date'                         => '日期',
-            'invoice-due-date'             => 'Invoice Due日期',
-            'invoice-origin'               => 'Invoice Origin',
+            'invoice-due-date'             => '發票 Due日期',
+            'invoice-origin'               => '發票 Origin',
             'sales-person'                 => '業務',
             'currency'                     => '幣別',
             'created-at'                   => '建立時間',
@@ -145,10 +145,10 @@ return [
 
         'filters' => [
             'number'                       => '編號',
-            'invoice-partner-display-name' => 'Invoice Partner Display名稱',
+            'invoice-partner-display-name' => '發票 夥伴 Display名稱',
             'invoice-date'                 => '開立日期',
-            'invoice-due-date'             => 'Invoice Due日期',
-            'invoice-origin'               => 'Invoice Origin',
+            'invoice-due-date'             => '發票 Due日期',
+            'invoice-origin'               => '發票 Origin',
             'reference'                    => '參考編號',
             'payment-reference'            => '付款參考',
             'narration'                    => 'Narration',
@@ -162,9 +162,9 @@ return [
             'amount-untaxed'               => '未稅金額',
             'amount-tax'                   => '稅額',
             'amount-total'                 => '總金額',
-            'amount-residual'              => 'Amount Due',
+            'amount-residual'              => '金額 Due',
             'checked'                      => '已核對',
-            'posted-before'                => 'Posted Before',
+            'posted-before'                => '已過帳 Before',
             'is-move-sent'                 => '已寄出',
             'created-at'                   => '建立時間',
             'updated-at'                   => '更新時間',
@@ -200,7 +200,7 @@ return [
             'general' => [
                 'title'   => '一般',
                 'entries' => [
-                    'customer-invoice' => 'Customer Invoice',
+                    'customer-invoice' => '客戶 發票',
                     'customer'         => '客戶',
                     'invoice-date'     => '開立日期',
                     'due-date'         => '到期日',
@@ -213,7 +213,7 @@ return [
 
         'tabs' => [
             'invoice-lines' => [
-                'title' => 'Invoice Lines',
+                'title' => '發票 Lines',
 
                 'repeater' => [
                     'products' => [
@@ -239,10 +239,10 @@ return [
                         'title'   => '發票',
 
                         'entries' => [
-                            'customer-reference' => 'Customer Reference',
+                            'customer-reference' => '客戶 參考編號',
                             'sales-person'       => '業務',
                             'payment-reference'  => '付款參考',
-                            'recipient-bank'     => 'Recipient Bank',
+                            'recipient-bank'     => 'Recipient 銀行',
                             'delivery-date'      => 'Delivery日期',
                         ],
                     ],
@@ -255,9 +255,9 @@ return [
                             'incoterm'          => '貿易條件',
                             'incoterm-location' => '貿易條件地點',
                             'payment-method'    => '付款方式',
-                            'cash-rounding'     => 'Cash Rounding Method',
+                            'cash-rounding'     => 'Cash Rounding 方式',
                             'fiscal-position'   => '稅務情境',
-                            'auto-post'         => 'Auto Post',
+                            'auto-post'         => 'Auto 文章',
                             'checked'           => '已核對',
                         ],
                     ],

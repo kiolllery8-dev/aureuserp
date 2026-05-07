@@ -2,8 +2,8 @@
 
 return [
     'on-demand' => 'Ask at launch',
-    'other'     => 'Default user',
+    'other'     => '預設 user',
     'coach'     => 'Coach',
     'manager'   => '主管',
-    'employee'  => 'Employee',
+    'employee'  => '員工',
 ];

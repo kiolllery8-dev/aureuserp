@@ -5,7 +5,7 @@ return [
         'notification' => [
             'delete' => [
                 'title' => '刪除Quotation Template',
-                'body'  => 'Quotation template has been已刪除成功.',
+                'body'  => '報價單 template has been已刪除成功.',
             ],
         ],
     ],

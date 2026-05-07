@@ -26,7 +26,7 @@ return [
                 'title' => 'User已刪除',
                 'body'  => 'The user has been已刪除成功.',
                 'error' => [
-                    'title' => 'User Cannot Be Deleted',
+                    'title' => '使用者 Cannot Be Deleted',
                     'body'  => 'This is a default user or you cannot delete yourself.',
                 ],
             ],

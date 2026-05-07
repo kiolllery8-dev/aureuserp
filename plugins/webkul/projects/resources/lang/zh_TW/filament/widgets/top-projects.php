@@ -2,7 +2,7 @@
 
 return [
     'heading' => [
-        'title' => 'Top Projects',
+        'title' => 'Top 專案',
     ],
 
     'table-columns' => [

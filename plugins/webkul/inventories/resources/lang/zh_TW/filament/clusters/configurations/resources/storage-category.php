@@ -2,8 +2,8 @@
 
 return [
     'navigation' => [
-        'title' => 'Storage Categories',
-        'group' => 'Warehouse Management',
+        'title' => 'Storage 分類',
+        'group' => '倉庫 Management',
     ],
 
     'form' => [
@@ -14,7 +14,7 @@ return [
                 'fields' => [
                     'name'               => '名稱',
                     'allow-new-products' => 'Allow 新增Products',
-                    'max-weight'         => 'Max Weight',
+                    'max-weight'         => 'Max 重量',
                     'company'            => '公司',
                 ],
             ],
@@ -25,7 +25,7 @@ return [
         'columns' => [
             'name'               => '名稱',
             'allow-new-products' => 'Allow 新增Products',
-            'max-weight'         => 'Max Weight',
+            'max-weight'         => 'Max 重量',
             'company'            => '公司',
             'deleted-at'         => '刪除時間',
             'created-at'         => '建立時間',
@@ -65,7 +65,7 @@ return [
                 'entries' => [
                     'name'               => '名稱',
                     'allow-new-products' => 'Allow 新增Products',
-                    'max-weight'         => 'Max Weight',
+                    'max-weight'         => 'Max 重量',
                     'company'            => '公司',
                 ],
             ],

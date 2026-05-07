@@ -29,7 +29,7 @@ return [
                 ],
 
                 'error' => [
-                    'title' => 'Package could not be已刪除',
+                    'title' => '包裝 could not be已刪除',
                     'body'  => 'The package cannot be已刪除 because it is currently in use.',
                 ],
             ],

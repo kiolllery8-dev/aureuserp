@@ -8,7 +8,7 @@ return [
 
                 'fields' => [
                     'name'  => '名稱',
-                    'code'  => 'Bank Identifier代碼',
+                    'code'  => '銀行 Identifier代碼',
                     'email' => '電子郵件',
                     'phone' => '電話',
                 ],
@@ -33,7 +33,7 @@ return [
     'table' => [
         'columns' => [
             'name'           => '名稱',
-            'code'           => 'Bank Identifier代碼',
+            'code'           => '銀行 Identifier代碼',
             'country'        => '國家',
             'created-at'     => '建立時間',
             'updated-at'     => '更新時間',
@@ -55,7 +55,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Bank restored',
+                    'title' => '銀行 restored',
                     'body'  => 'The bank has been restored成功.',
                 ],
             ],
@@ -69,7 +69,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Bank force已刪除',
+                    'title' => '銀行 force已刪除',
                     'body'  => 'The bank has been force已刪除成功.',
                 ],
             ],
@@ -78,7 +78,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Banks restored',
+                    'title' => '銀行 restored',
                     'body'  => 'The banks has been restored成功.',
                 ],
             ],
@@ -92,7 +92,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Banks force已刪除',
+                    'title' => '銀行 force已刪除',
                     'body'  => 'The banks has been force已刪除成功.',
                 ],
             ],

@@ -2,7 +2,7 @@
 
 return [
     'heading' => [
-        'title' => 'Time Off Requests',
+        'title' => '請假 Requests',
     ],
 
     'modal-actions' => [
@@ -12,7 +12,7 @@ return [
             'duration-display-with-weekend' => ':count working day (+ :weekend weekend day)|:count working days (+ :weekend weekend days)',
 
             'notification' => [
-                'title' => 'Time Off Updated',
+                'title' => '請假 Updated',
                 'body'  => 'Your time off request has been已更新成功.',
             ],
         ],
@@ -33,29 +33,29 @@ return [
 
     'view-action' => [
         'title'       => '檢視',
-        'description' => '檢視Time Off Request',
+        'description' => '檢視請假 Request',
     ],
 
     'header-actions' => [
         'create' => [
-            'title'       => '新增Time Off',
-            'description' => '新增Time Off Request',
+            'title'       => '新增請假',
+            'description' => '新增請假 Request',
 
             'notification' => [
-                'title' => 'Time Off Created',
-                'body'  => 'Time off request has been已建立成功.',
+                'title' => '請假 Created',
+                'body'  => '時間 off request has been已建立成功.',
             ],
 
             'employee-not-found' => [
                 'notification' => [
-                    'title' => 'Employee Not Found',
+                    'title' => '員工 Not Found',
                     'body'  => 'Please add an employee to your profile before creating a time off request.',
                 ],
             ],
 
             'success' => [
                 'notification' => [
-                    'title' => 'Time Off Created',
+                    'title' => '請假 Created',
                     'body'  => 'Your time off request has been已建立成功.',
                 ],
             ],
@@ -63,7 +63,7 @@ return [
     ],
 
     'form' => [
-        'title'       => 'Time Off Request',
+        'title'       => '請假 Request',
         'description' => '新增or edit your time off request with the following details:',
 
         'fields' => [
@@ -75,7 +75,7 @@ return [
             'period'                    => 'Period',
             'half-day'                  => 'Half Day',
             'half-day-helper'           => 'Toggle for half-day leave.',
-            'requested-days'            => 'Requested (Days/Hours)',
+            'requested-days'            => 'Requested (天數/Hours)',
             'description'               => '描述',
             'description-placeholder'   => 'No description provided',
             'description-helper'        => 'Provide a brief description of your time off request.',
@@ -85,7 +85,7 @@ return [
     ],
 
     'infolist' => [
-        'title'       => 'Time Off Details',
+        'title'       => '請假 Details',
         'description' => 'Here are the details of your time off request:',
         'entries'     => [
             'time-off-type'           => '假別',

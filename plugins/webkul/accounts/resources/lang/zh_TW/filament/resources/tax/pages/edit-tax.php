@@ -15,7 +15,7 @@ return [
                 ],
 
                 'error' => [
-                    'title' => 'Tax could not be已刪除',
+                    'title' => '稅 could not be已刪除',
                     'body'  => 'The tax cannot be已刪除 because it is currently in use.',
                 ],
 

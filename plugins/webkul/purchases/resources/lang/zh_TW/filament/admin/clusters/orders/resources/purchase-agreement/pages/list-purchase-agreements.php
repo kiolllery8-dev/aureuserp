@@ -7,7 +7,7 @@ return [
 
     'tabs' => [
         'my-agreements'      => 'My Agreements',
-        'blanket-orders'     => 'Blanket Orders',
+        'blanket-orders'     => 'Blanket 訂單',
         'purchase-templates' => 'Purchase Templates',
         'draft'              => '草稿',
         'done'               => '完成',

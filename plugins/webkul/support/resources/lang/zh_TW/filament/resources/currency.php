@@ -23,7 +23,7 @@ return [
             ],
 
             'format-information' => [
-                'title' => 'Format Configuration',
+                'title' => 'Format 組態設定',
 
                 'fields' => [
                     'decimal-places'        => 'Decimal Places',
@@ -33,7 +33,7 @@ return [
             ],
 
             'status-and-configuration-information' => [
-                'title' => 'Status & Configuration',
+                'title' => '狀態 & 組態設定',
 
                 'fields' => [
                     'status' => '狀態',
@@ -41,12 +41,12 @@ return [
             ],
 
             'rates' => [
-                'title'       => 'Currency Rates',
+                'title'       => '幣別 Rates',
                 'description' => '管理historic exchange rates for this currency relative to the base currency (USD).',
 
                 'fields' => [
                     'name'              => '日期',
-                    'unit-per-currency' => 'Unit Per :currency',
+                    'unit-per-currency' => '單位 Per :currency',
                     'currency-per-unit' => ':currency Per Unit',
                 ],
 
@@ -93,7 +93,7 @@ return [
                     ],
 
                     'error' => [
-                        'title' => 'Currency could not be已刪除',
+                        'title' => '幣別 could not be已刪除',
                         'body'  => 'The currency cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -124,7 +124,7 @@ return [
             ],
 
             'format-information' => [
-                'title' => 'Format Configuration',
+                'title' => 'Format 組態設定',
 
                 'entries' => [
                     'decimal-places' => 'Decimal Places',
@@ -133,7 +133,7 @@ return [
             ],
 
             'status-and-configuration-information' => [
-                'title' => 'Status & Configuration',
+                'title' => '狀態 & 組態設定',
 
                 'entries' => [
                     'status' => '狀態',
@@ -141,11 +141,11 @@ return [
             ],
 
             'rates' => [
-                'title'       => 'Currency Rates',
+                'title'       => '幣別 Rates',
 
                 'entries' => [
                     'name'              => '日期',
-                    'unit-per-currency' => 'Unit Per :currency',
+                    'unit-per-currency' => '單位 Per :currency',
                     'currency-per-unit' => ':currency Per Unit',
                 ],
             ],

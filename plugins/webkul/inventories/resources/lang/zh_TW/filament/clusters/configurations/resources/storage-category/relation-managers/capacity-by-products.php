@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Capacity By Products',
+    'title' => 'Capacity By 商品',
 
     'form' => [
         'product' => '商品',
@@ -14,7 +14,7 @@ return [
                 'label' => '新增Product Capacity',
 
                 'notification' => [
-                    'title' => 'Product Capacity已建立',
+                    'title' => '商品 Capacity已建立',
                     'body'  => 'The product capacity been added成功.',
                 ],
             ],
@@ -28,14 +28,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Product Capacity已更新',
+                    'title' => '商品 Capacity已更新',
                     'body'  => 'The product capacity has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Product Capacity已刪除',
+                    'title' => '商品 Capacity已刪除',
                     'body'  => 'The product capacity has been已刪除成功.',
                 ],
             ],

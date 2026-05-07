@@ -2,7 +2,7 @@
 
 return [
     'heading' => [
-        'title' => 'Time Off Analysis',
+        'title' => '請假 Analysis',
     ],
 
     'label' => '總覽',

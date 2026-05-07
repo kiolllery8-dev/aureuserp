@@ -34,7 +34,7 @@ return [
                         'title' => '物流',
 
                         'entries' => [
-                            'routes'     => 'Warehouse Routes',
+                            'routes'     => '倉庫 路徑',
                             'route_name' => 'Route名稱',
                         ],
                     ],

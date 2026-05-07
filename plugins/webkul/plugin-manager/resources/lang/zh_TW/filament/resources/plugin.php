@@ -68,14 +68,14 @@ return [
         ],
         'name'         => 'Plugin名稱',
         'version'      => 'Version',
-        'dependencies' => 'Required Plugins',
+        'dependencies' => '必填 Plugins',
         'dependents'   => 'Plugins That Depend On This',
         'is_installed' => 'Installation狀態',
         'license'      => 'License',
         'summary'      => '描述',
 
         'dependencies-repeater' => [
-            'title'        => 'Required Plugins',
+            'title'        => '必填 Plugins',
             'name'         => 'Plugin名稱',
             'is_installed' => 'Installed',
             'placeholder'  => 'No dependencies required',

@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'label' => 'Set to Draft',
+    'label' => 'Set to 草稿',
 
     'action' => [
         'notification' => [
             'success' => [
-                'title' => 'Order marked as draft',
+                'title' => '訂單 marked as draft',
                 'body'  => 'The order has been marked as draft成功.',
             ],
         ],

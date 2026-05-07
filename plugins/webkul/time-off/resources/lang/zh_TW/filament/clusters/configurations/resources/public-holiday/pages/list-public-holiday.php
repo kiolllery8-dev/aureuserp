@@ -7,7 +7,7 @@ return [
 
             'notification' => [
                 'created' => [
-                    'title' => 'Public Holiday已建立',
+                    'title' => '公開 Holiday已建立',
                     'body'  => 'The public holiday has been已建立成功.',
                 ],
             ],

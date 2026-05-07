@@ -2,7 +2,7 @@
 
 return [
     'tabs' => [
-        'archived-departments' => 'Archived Departments',
+        'archived-departments' => '已封存 部門',
     ],
 
     'header-actions' => [

@@ -19,7 +19,7 @@ return [
                 ],
 
                 'error' => [
-                    'title' => 'Delivery could not be已刪除',
+                    'title' => '出貨 could not be已刪除',
                     'body'  => 'The delivery cannot be已刪除 because it is currently in use.',
                 ],
             ],

@@ -20,11 +20,11 @@ return [
                 'title' => 'Employment資料',
 
                 'fields' => [
-                    'job-position-title'         => 'Job Position Title',
+                    'job-position-title'         => 'Job Position 標題',
                     'job-position-title-tooltip' => 'Enter the official job position title',
                     'department'                 => '部門',
-                    'department-modal-title'     => 'Department Create',
-                    'job-location'               => 'Job Location',
+                    'department-modal-title'     => '部門 Create',
+                    'job-location'               => 'Job 位置',
                     'industry'                   => '產業',
                     'company'                    => '公司',
                     'employment-type'            => '雇用類型',
@@ -35,10 +35,10 @@ return [
             ],
 
             'job-description' => [
-                'title' => 'Job Description',
+                'title' => 'Job 描述',
 
                 'fields' => [
-                    'job-description'  => 'Job Description',
+                    'job-description'  => 'Job 描述',
                     'job-requirements' => 'Job Requirements',
                 ],
             ],
@@ -50,7 +50,7 @@ return [
                     'recruitment-target' => 'Recruitment Target',
                     'date-from'          => '開始日期',
                     'date-to'            => '結束日期',
-                    'expected-skills'    => 'Expected Skills',
+                    'expected-skills'    => 'Expected 技能',
                     'employment-type'    => '雇用類型',
                     'status'             => '狀態',
                 ],
@@ -73,8 +73,8 @@ return [
             'department'         => '部門',
             'job-position'       => '職位',
             'company'            => '公司',
-            'expected-employees' => 'Expected Employees',
-            'current-employees'  => 'Current Employees',
+            'expected-employees' => 'Expected 員工',
+            'current-employees'  => 'Current 員工',
             'status'             => '狀態',
             'created-by'         => '建立者',
             'created-at'         => '建立時間',
@@ -157,11 +157,11 @@ return [
                 'title' => 'Employment資料',
 
                 'entries' => [
-                    'job-position-title' => 'Job Position Title',
+                    'job-position-title' => 'Job Position 標題',
                     'department'         => '部門',
                     'company'            => '公司',
                     'employment-type'    => '雇用類型',
-                    'job-location'       => 'Job Location',
+                    'job-location'       => 'Job 位置',
                     'industry'           => '產業',
                     'manager'            => '主管',
                     'recruiter'          => 'Recruiter',
@@ -169,10 +169,10 @@ return [
                 ],
             ],
             'job-description' => [
-                'title' => 'Job Description',
+                'title' => 'Job 描述',
 
                 'entries' => [
-                    'job-description'  => 'Job Description',
+                    'job-description'  => 'Job 描述',
                     'job-requirements' => 'Job Requirements',
                 ],
             ],
@@ -180,8 +180,8 @@ return [
                 'title' => 'Workforce Planning',
 
                 'entries' => [
-                    'expected-employees' => 'Expected Employees',
-                    'current-employees'  => 'Current Employees',
+                    'expected-employees' => 'Expected 員工',
+                    'current-employees'  => 'Current 員工',
                     'date-from'          => '開始日期',
                     'date-to'            => '結束日期',
                     'recruitment-target' => 'Recruitment Target',

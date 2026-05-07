@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'title' => '作業類型',
-        'group' => 'Warehouse Management',
+        'group' => '倉庫 Management',
     ],
 
     'form' => [
@@ -33,7 +33,7 @@ return [
                     'sequence-prefix'                    => 'Sequence Prefix',
                     'generate-shipping-labels'           => 'Generate Shipping Labels',
                     'warehouse'                          => '倉庫',
-                    'show-reception-report'              => 'Show Reception Report at Validation',
+                    'show-reception-report'              => 'Show Reception 報表 at Validation',
                     'show-reception-report-hint-tooltip' => 'If selected, the system will automatically display the reception report upon validation, provided there are moves to allocate.',
                     'company'                            => '公司',
                     'return-type'                        => 'Return類型',
@@ -44,13 +44,13 @@ return [
 
                 'fieldsets' => [
                     'lots' => [
-                        'title'  => 'Lots/Serial Numbers',
+                        'title'  => '批號/Serial 編號',
 
                         'fields' => [
                             'create-new'                => '新增New',
-                            'create-new-hint-tooltip'   => 'If selected, the system will assume you intend to create new Lots/Serial Numbers, allowing you to enter them in a text field.',
+                            'create-new-hint-tooltip'   => 'If selected, the system will assume you intend to create new 批號/Serial 編號, allowing you to enter them in a text field.',
                             'use-existing'              => 'Use Existing',
-                            'use-existing-hint-tooltip' => 'If selected, you can choose the Lots/Serial Numbers or opt not to assign any. This allows stock to be已建立 without a lot or without restrictions on the lot used.',
+                            'use-existing-hint-tooltip' => 'If selected, you can choose the 批號/Serial 編號 or opt not to assign any. This allows stock to be已建立 without a lot or without restrictions on the lot used.',
                         ],
                     ],
 
@@ -66,10 +66,10 @@ return [
                     ],
 
                     'packages' => [
-                        'title'  => 'Packages',
+                        'title'  => '包裝',
 
                         'fields' => [
-                            'show-entire-package'              => 'Move Entire Package',
+                            'show-entire-package'              => 'Move Entire 包裝',
                             'show-entire-package-hint-tooltip' => 'If selected, you can move entire packages.',
                         ],
                     ],
@@ -84,25 +84,25 @@ return [
                         'title'  => 'Print on Validation',
 
                         'fields' => [
-                            'delivery-slip'              => 'Delivery Slip',
+                            'delivery-slip'              => '出貨 Slip',
                             'delivery-slip-hint-tooltip' => 'If selected, the system will automatically print the delivery slip when the picking is validated.',
 
                             'return-slip'              => 'Return Slip',
                             'return-slip-hint-tooltip' => 'If selected, the system will automatically print the return slip when the picking is validated.',
 
-                            'product-labels'              => 'Product Labels',
+                            'product-labels'              => '商品 Labels',
                             'product-labels-hint-tooltip' => 'If selected, the system will automatically print the product labels when the picking is validated.',
 
-                            'lots-labels'              => 'Lot/SN Labels',
+                            'lots-labels'              => '批號/SN Labels',
                             'lots-labels-hint-tooltip' => 'If selected, the system will automatically print the lot/serial number labels when the picking is validated.',
 
-                            'reception-report'              => 'Reception Report',
+                            'reception-report'              => 'Reception 報表',
                             'reception-report-hint-tooltip' => 'If selected, the system will automatically print the reception report when the picking is validated and contains assigned moves.',
 
-                            'reception-report-labels'              => 'Reception Report Labels',
+                            'reception-report-labels'              => 'Reception 報表 Labels',
                             'reception-report-labels-hint-tooltip' => 'If selected, the system will automatically print the reception report labels when the picking is validated.',
 
-                            'package-content'              => 'Package Content',
+                            'package-content'              => '包裝 Content',
                             'package-content-hint-tooltip' => 'If selected, the system will automatically print the package details and their contents when the picking is validated.',
                         ],
                     ],
@@ -111,7 +111,7 @@ return [
                         'title'  => 'Print on "Put in Pack"',
 
                         'fields' => [
-                            'package-label'              => 'Package Label',
+                            'package-label'              => '包裝 Label',
                             'package-label-hint-tooltip' => 'If selected, the system will automatically print the package label when the "Put in Pack" button is used.',
                         ],
                     ],
@@ -240,8 +240,8 @@ return [
                     'sequence_code'              => 'Sequence代碼',
                     'print_label'                => 'Print Label',
                     'warehouse'                  => '倉庫',
-                    'reservation_method'         => 'Reservation Method',
-                    'auto_show_reception_report' => 'Auto Show Reception Report',
+                    'reservation_method'         => 'Reservation 方式',
+                    'auto_show_reception_report' => 'Auto Show Reception 報表',
                     'company'                    => '公司',
                     'return_operation_type'      => 'Return Operation類型',
                     'create_backorder'           => '新增Backorder',
@@ -254,7 +254,7 @@ return [
 
                         'entries' => [
                             'use_create_lots'   => 'Use 新增Lots',
-                            'use_existing_lots' => 'Use Existing Lots',
+                            'use_existing_lots' => 'Use Existing 批號',
                         ],
                     ],
 
@@ -276,13 +276,13 @@ return [
                         'title' => 'Print on Validation',
 
                         'entries' => [
-                            'auto_print_delivery_slip'           => 'Auto Print Delivery Slip',
+                            'auto_print_delivery_slip'           => 'Auto Print 出貨 Slip',
                             'auto_print_return_slip'             => 'Auto Print Return Slip',
-                            'auto_print_product_labels'          => 'Auto Print Product Labels',
-                            'auto_print_lot_labels'              => 'Auto Print Lot Labels',
-                            'auto_print_reception_report'        => 'Auto Print Reception Report',
-                            'auto_print_reception_report_labels' => 'Auto Print Reception Report Labels',
-                            'auto_print_packages'                => 'Auto Print Packages',
+                            'auto_print_product_labels'          => 'Auto Print 商品 Labels',
+                            'auto_print_lot_labels'              => 'Auto Print 批號 Labels',
+                            'auto_print_reception_report'        => 'Auto Print Reception 報表',
+                            'auto_print_reception_report_labels' => 'Auto Print Reception 報表 Labels',
+                            'auto_print_packages'                => 'Auto Print 包裝',
                         ],
                     ],
 
@@ -290,7 +290,7 @@ return [
                         'title' => 'Print on Pack',
 
                         'entries' => [
-                            'auto_print_package_label' => 'Auto Print Package Label',
+                            'auto_print_package_label' => 'Auto Print 包裝 Label',
                         ],
                     ],
                 ],

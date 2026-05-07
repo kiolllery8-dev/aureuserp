@@ -2,6 +2,6 @@
 
 return [
     'navigation' => [
-        'title' => 'Vendor Bills',
+        'title' => '供應商 進貨單',
     ],
 ];

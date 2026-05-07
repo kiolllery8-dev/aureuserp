@@ -2,7 +2,7 @@
 
 return [
     'create-employee' => '新增Employee',
-    'goto-employee'   => 'Go to Employee',
+    'goto-employee'   => 'Go to 員工',
 
     'notification' => [
         'title' => 'Applicant已更新',
@@ -26,22 +26,22 @@ return [
         'refuse' => [
             'title'        => 'Refuse Reason',
             'notification' => [
-                'title' => 'Applicant refused',
+                'title' => '應徵者 refused',
                 'body'  => 'The applicant has been refused成功.',
             ],
         ],
 
         'reopen' => [
-            'title'        => 'Reopen Applicant',
+            'title'        => 'Reopen 應徵者',
             'notification' => [
-                'title' => 'Applicant reopened',
+                'title' => '應徵者 reopened',
                 'body'  => 'The applicant has been reopened成功.',
             ],
         ],
 
         'state' => [
             'notification' => [
-                'title' => 'Applicant state已更新',
+                'title' => '應徵者 state已更新',
                 'body'  => 'The applicant state has been已更新成功.',
             ],
         ],
@@ -56,7 +56,7 @@ return [
             'subject' => 'Your Job Application: :job_position',
         ],
         'interviewer-assigned' => [
-            'subject' => 'You have been assigned to the Applicant :applicant.',
+            'subject' => 'You have been assigned to the 應徵者 :applicant.',
         ],
     ],
 ];

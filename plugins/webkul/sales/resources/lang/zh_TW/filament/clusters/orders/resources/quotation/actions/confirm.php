@@ -5,8 +5,8 @@ return [
 
     'notification' => [
         'confirmed' => [
-            'title' => 'Quotation confirmed',
-            'body'  => 'Quotation has been confirmed and converted to sale成功.',
+            'title' => '報價單 confirmed',
+            'body'  => '報價單 has been confirmed and converted to sale成功.',
         ],
 
         'error' => [

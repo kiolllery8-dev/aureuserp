@@ -2,7 +2,7 @@
 
 return [
     'heading' => [
-        'title' => 'Applicant Overview',
+        'title' => '應徵者 總覽',
     ],
 
     'ongoing'  => 'Ongoing',

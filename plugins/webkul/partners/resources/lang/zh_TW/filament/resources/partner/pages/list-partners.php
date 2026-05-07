@@ -10,7 +10,7 @@ return [
     ],
 
     'tabs' => [
-        'individuals' => 'Individuals',
+        'individuals' => '個人',
         'companies'   => '公司',
         'employees'   => '員工',
         'archived'    => '已封存',

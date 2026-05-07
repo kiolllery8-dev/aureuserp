@@ -12,7 +12,7 @@ return [
                 'fields' => [
                     'name'              => '名稱',
                     'code'              => '代碼',
-                    'code-helper-text'  => 'Code must start with a letter or underscore, and can only contain letters, numbers, and underscores.',
+                    'code-helper-text'  => '代碼 must start with a letter or underscore, and can only contain letters, numbers, and underscores.',
                 ],
             ],
 
@@ -25,7 +25,7 @@ return [
             ],
 
             'form-settings' => [
-                'title' => 'Form Settings',
+                'title' => 'Form 設定',
 
                 'field-sets' => [
                     'validations' => [
@@ -40,10 +40,10 @@ return [
                     ],
 
                     'additional-settings' => [
-                        'title' => 'Additional Settings',
+                        'title' => 'Additional 設定',
 
                         'fields' => [
-                            'setting'     => 'Setting',
+                            'setting'     => '設定',
                             'value'       => '值',
                             'color'       => '顏色',
                             'add-setting' => '新增Setting',
@@ -94,14 +94,14 @@ return [
                         'prohibited-if'        => 'Prohibited If',
                         'prohibited-unless'    => 'Prohibited Unless',
                         'prohibits'            => 'Prohibits',
-                        'required'             => 'Required',
-                        'required-if'          => 'Required If',
-                        'required-if-accepted' => 'Required If Accepted',
-                        'required-unless'      => 'Required Unless',
-                        'required-with'        => 'Required With',
-                        'required-with-all'    => 'Required With All',
-                        'required-without'     => 'Required Without',
-                        'required-without-all' => 'Required Without All',
+                        'required'             => '必填',
+                        'required-if'          => '必填 If',
+                        'required-if-accepted' => '必填 If Accepted',
+                        'required-unless'      => '必填 Unless',
+                        'required-with'        => '必填 With',
+                        'required-with-all'    => '必填 With All',
+                        'required-without'     => '必填 Without',
+                        'required-without-all' => '必填 Without All',
                         'rules'                => 'Custom Rules',
                         'unique'               => 'Unique',
                     ],
@@ -118,7 +118,7 @@ return [
                         'ipv4'              => 'IPv4',
                         'ipv6'              => 'IPv6',
                         'length'            => 'Length',
-                        'mac-address'       => 'MAC Address',
+                        'mac-address'       => 'MAC 地址',
                         'max-length'        => 'Max Length',
                         'min-length'        => 'Min Length',
                         'regex'             => 'Regex',
@@ -179,7 +179,7 @@ return [
                     ],
 
                     'color' => [
-                        'hex-color' => 'Hex Color',
+                        'hex-color' => 'Hex 顏色',
                     ],
                 ],
 
@@ -200,12 +200,12 @@ return [
                         'placeholder'       => 'Placeholder',
                         'prefix'            => 'Prefix',
                         'prefix-icon'       => 'Prefix Icon',
-                        'prefix-icon-color' => 'Prefix Icon Color',
+                        'prefix-icon-color' => 'Prefix Icon 顏色',
                         'read-only'         => 'Read Only',
                         'step'              => 'Step',
                         'suffix'            => 'Suffix',
                         'suffix-icon'       => 'Suffix Icon',
-                        'suffix-icon-color' => 'Suffix Icon Color',
+                        'suffix-icon-color' => 'Suffix Icon 顏色',
                     ],
 
                     'textarea' => [
@@ -234,7 +234,7 @@ return [
                         'id'                        => '編號',
                         'loading-message'           => 'Loading Message',
                         'no-search-results-message' => 'No Search Results Message',
-                        'options-limit'             => 'Options Limit',
+                        'options-limit'             => '選項 Limit',
                         'preload'                   => 'Preload',
                         'searchable'                => 'Searchable',
                         'search-debounce'           => 'Search Debounce',
@@ -271,9 +271,9 @@ return [
                         'hint-color'  => '提示顏色',
                         'hint-icon'   => '提示圖示',
                         'id'          => '編號',
-                        'off-color'   => 'Off Color',
+                        'off-color'   => 'Off 顏色',
                         'off-icon'    => 'Off Icon',
-                        'on-color'    => 'On Color',
+                        'on-color'    => 'On 顏色',
                         'on-icon'     => 'On Icon',
                     ],
 
@@ -356,33 +356,33 @@ return [
 
                     'file' => [
                         'accepted-file-types'                   => 'Accepted File類型s',
-                        'append-files'                          => 'Append Files',
+                        'append-files'                          => 'Append 檔案',
                         'deletable'                             => 'Deletable',
                         'directory'                             => 'Directory',
                         'downloadable'                          => 'Downloadable',
                         'fetch-file-information'                => 'Fetch File資料',
-                        'file-attachments-directory'            => 'File Attachments Directory',
-                        'file-attachments-visibility'           => 'File Attachments Visibility',
+                        'file-attachments-directory'            => '檔案 Attachments Directory',
+                        'file-attachments-visibility'           => '檔案 Attachments Visibility',
                         'image'                                 => '圖片',
-                        'image-crop-aspect-ratio'               => 'Image Crop Aspect Ratio',
-                        'image-editor'                          => 'Image Editor',
-                        'image-editor-aspect-ratios'            => 'Image Editor Aspect Ratios',
-                        'image-editor-empty-fill-color'         => 'Image Editor Empty Fill Color',
-                        'image-editor-mode'                     => 'Image Editor Mode',
-                        'image-preview-height'                  => 'Image Preview Height',
-                        'image-resize-mode'                     => 'Image Resize Mode',
-                        'image-resize-target-height'            => 'Image Resize Target Height',
-                        'image-resize-target-width'             => 'Image Resize Target Width',
+                        'image-crop-aspect-ratio'               => '圖片 Crop Aspect Ratio',
+                        'image-editor'                          => '圖片 Editor',
+                        'image-editor-aspect-ratios'            => '圖片 Editor Aspect Ratios',
+                        'image-editor-empty-fill-color'         => '圖片 Editor Empty Fill 顏色',
+                        'image-editor-mode'                     => '圖片 Editor Mode',
+                        'image-preview-height'                  => '圖片 Preview Height',
+                        'image-resize-mode'                     => '圖片 Resize Mode',
+                        'image-resize-target-height'            => '圖片 Resize Target Height',
+                        'image-resize-target-width'             => '圖片 Resize Target Width',
                         'loading-indicator-position'            => 'Loading Indicator Position',
-                        'move-files'                            => 'Move Files',
+                        'move-files'                            => 'Move 檔案',
                         'openable'                              => 'Openable',
-                        'orient-images-from-exif'               => 'Orient Images from EXIF',
+                        'orient-images-from-exif'               => 'Orient 圖片 from EXIF',
                         'panel-aspect-ratio'                    => 'Panel Aspect Ratio',
                         'panel-layout'                          => 'Panel Layout',
                         'previewable'                           => 'Previewable',
-                        'remove-uploaded-file-button-position'  => '移除Uploaded File Button Position',
+                        'remove-uploaded-file-button-position'  => '移除Uploaded 檔案 Button Position',
                         'reorderable'                           => 'Reorderable',
-                        'store-files'                           => 'Store Files',
+                        'store-files'                           => 'Store 檔案',
                         'upload-button-position'                => 'Upload Button Position',
                         'uploading-message'                     => 'Uploading Message',
                         'upload-progress-indicator-position'    => 'Upload Progress Indicator Position',
@@ -392,15 +392,15 @@ return [
             ],
 
             'table-settings' => [
-                'title' => 'Table Settings',
+                'title' => 'Table 設定',
 
                 'fields' => [
                     'use-in-table'  => 'Use in Table',
-                    'setting'       => 'Setting',
+                    'setting'       => '設定',
                     'value'         => '值',
                     'color'         => '顏色',
                     'alignment'     => 'Alignment',
-                    'font-weight'   => 'Font Weight',
+                    'font-weight'   => 'Font 重量',
                     'icon-position' => 'Icon Position',
                     'size'          => 'Size',
                     'add-setting'   => '新增Setting',
@@ -463,7 +463,7 @@ return [
                         'groupable'              => 'Groupable',
                         'grow'                   => 'Grow',
                         'icon'                   => 'Icon',
-                        'icon-color'             => 'Icon Color',
+                        'icon-color'             => 'Icon 顏色',
                         'icon-position'          => 'Icon Position',
                         'label'                  => '標籤',
                         'limit'                  => 'Limit',
@@ -500,13 +500,13 @@ return [
             ],
 
             'infolist-settings' => [
-                'title' => 'Infolist Settings',
+                'title' => 'Infolist 設定',
 
                 'fields' => [
-                    'setting'       => 'Setting',
+                    'setting'       => '設定',
                     'value'         => '值',
                     'color'         => '顏色',
-                    'font-weight'   => 'Font Weight',
+                    'font-weight'   => 'Font 重量',
                     'icon-position' => 'Icon Position',
                     'size'          => 'Size',
                     'add-setting'   => '新增Setting',
@@ -559,7 +559,7 @@ return [
                         'groupable'              => 'Groupable',
                         'grow'                   => 'Grow',
                         'icon'                   => 'Icon',
-                        'icon-color'             => 'Icon Color',
+                        'icon-color'             => 'Icon 顏色',
                         'icon-position'          => 'Icon Position',
                         'label'                  => '標籤',
                         'limit'                  => 'Limit',
@@ -613,16 +613,16 @@ return [
                         'boolean'     => 'Boolean',
                         'false-icon'  => 'False Icon',
                         'true-icon'   => 'True Icon',
-                        'true-color'  => 'True Color',
-                        'false-color' => 'False Color',
+                        'true-color'  => 'True 顏色',
+                        'false-color' => 'False 顏色',
                     ],
 
                     'toggle' => [
                         'boolean'     => 'Boolean',
                         'false-icon'  => 'False Icon',
                         'true-icon'   => 'True Icon',
-                        'true-color'  => 'True Color',
-                        'false-color' => 'False Color',
+                        'true-color'  => 'True 顏色',
+                        'false-color' => 'False 顏色',
                     ],
                 ],
             ],
@@ -634,7 +634,7 @@ return [
                     'type'           => '類型',
                     'input-type'     => 'Input類型',
                     'is-multiselect' => 'Is Multiselect',
-                    'sort-order'     => 'Sort Order',
+                    'sort-order'     => 'Sort 訂單',
 
                     'type-options' => [
                         'text'          => 'Text Input',
@@ -647,7 +647,7 @@ return [
                         'datetime'      => 'Date時間 Picker',
                         'editor'        => 'Rich Text Editor',
                         'markdown'      => 'Markdown Editor',
-                        'color'         => 'Color Picker',
+                        'color'         => '顏色 Picker',
                     ],
 
                     'input-type-options' => [
@@ -700,7 +700,7 @@ return [
                 'datetime'      => 'Date時間 Picker',
                 'editor'        => 'Rich Text Editor',
                 'markdown'      => 'Markdown Editor',
-                'color'         => 'Color Picker',
+                'color'         => '顏色 Picker',
             ],
         ],
 

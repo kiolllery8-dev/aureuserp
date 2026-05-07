@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Sources',
+    'title' => '來源',
 
     'navigation' => [
-        'title' => 'Sources',
+        'title' => '來源',
         'group' => 'UTMs',
     ],
 
@@ -60,7 +60,7 @@ return [
             'delete' => [
                 'notification' => [
                     'title' => 'Sources已刪除',
-                    'body'  => 'The Sources has been已刪除成功.',
+                    'body'  => 'The 來源 has been已刪除成功.',
                 ],
             ],
         ],

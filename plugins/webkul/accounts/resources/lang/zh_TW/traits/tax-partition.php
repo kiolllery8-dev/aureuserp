@@ -8,7 +8,7 @@ return [
         'document-type'     => 'Document類型',
         'account'           => '帳戶',
         'tax'               => '稅',
-        'tax-closing-entry' => 'Tax Closing Entry',
+        'tax-closing-entry' => '稅 Closing Entry',
     ],
 
     'table' => [
@@ -19,20 +19,20 @@ return [
             'company'           => '公司',
             'repartition-type'  => 'Repartition類型',
             'document-type'     => 'Document類型',
-            'tax-closing-entry' => 'Tax Closing Entry',
+            'tax-closing-entry' => '稅 Closing Entry',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Tax Partition已更新',
+                    'title' => '稅 Partition已更新',
                     'body'  => 'The tax partition has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Tax Partition Term已刪除',
+                    'title' => '稅 Partition Term已刪除',
                     'body'  => 'The tax Partition term has been已刪除成功.',
                 ],
             ],
@@ -41,7 +41,7 @@ return [
         'header-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Tax Partition Term已建立',
+                    'title' => '稅 Partition Term已建立',
                     'body'  => 'The tax Partition term has been已建立成功.',
                 ],
             ],
