@@ -18,6 +18,7 @@ return [
                     'company'    => 'Company',
                     'avatar'     => 'Avatar',
                     'tax-id'     => 'Tax ID',
+            'tax-id-helper' => '8-digit company tax ID, or Taiwan ID number',
                     'job-title'  => 'Job Title',
                     'phone'      => 'Phone',
                     'mobile'     => 'Mobile',

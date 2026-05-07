@@ -18,6 +18,7 @@ return [
                     'company'    => '公司',
                     'avatar'     => 'Avatar',
                     'tax-id'     => '統一編號',
+            'tax-id-helper' => '公司填 8 碼數字；個人填身分證字號（1 碼英文+9 碼數字）',
                     'job-title'  => '職稱',
                     'phone'      => '電話',
                     'mobile'     => '行動電話',

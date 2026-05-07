@@ -177,8 +177,13 @@ class PartnerResource extends Resource
                             ->schema([
                                 TextInput::make('tax_id')
                                     ->label(__('partners::filament/resources/partner.form.sections.general.fields.tax-id'))
-                                    ->placeholder('e.g. 29ABCDE1234F1Z5')
-                                    ->maxLength(255),
+                                    ->placeholder('例：12345678（公司）／A123456789（個人）')
+                                    ->helperText(__('partners::filament/resources/partner.form.sections.general.fields.tax-id-helper'))
+                                    ->maxLength(20)
+                                    ->rule(['nullable', 'regex:/^([0-9]{8}|[A-Z][0-9]{9}|[A-Z]{2}[0-9]{8})$/'])
+                                    ->validationMessages([
+                                        'regex' => '統一編號須為 8 碼數字（公司）；個人請填 1 碼英文+9 碼數字（身分證號）。',
+                                    ]),
                                 TextInput::make('job_title')
                                     ->label(__('partners::filament/resources/partner.form.sections.general.fields.job-title'))
                                     ->placeholder('e.g. CEO')
