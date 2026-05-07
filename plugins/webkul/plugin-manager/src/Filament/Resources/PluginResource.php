@@ -81,7 +81,31 @@ class PluginResource extends Resource
                                 ->weight('semibold')
                                 ->searchable()
                                 ->size(TextSize::Large)
-                                ->formatStateUsing(fn (string $state) => ucfirst($state))
+                                ->formatStateUsing(fn (string $state) => [
+                                    'accounting'   => '會計',
+                                    'accounts'     => '帳號',
+                                    'analytics'    => '分析',
+                                    'blogs'        => '部落格',
+                                    'chatter'      => '訊息中心',
+                                    'contacts'     => '聯絡人',
+                                    'employees'    => '員工',
+                                    'fields'       => '自訂欄位',
+                                    'inventories'  => '庫存',
+                                    'invoices'     => '發票',
+                                    'partners'     => '夥伴',
+                                    'payments'     => '付款',
+                                    'products'     => '商品',
+                                    'projects'     => '專案',
+                                    'purchases'    => '採購',
+                                    'recruitments' => '招募',
+                                    'sales'        => '銷售',
+                                    'security'     => '權限管理',
+                                    'support'      => '客服',
+                                    'table-views'  => '檢視',
+                                    'time-off'     => '請假',
+                                    'timesheets'   => '工時表',
+                                    'website'      => '網站',
+                                ][$state] ?? ucfirst($state))
                                 ->grow(false),
 
                             TextColumn::make('latest_version')

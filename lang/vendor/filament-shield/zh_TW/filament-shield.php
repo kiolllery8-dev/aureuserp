@@ -7,8 +7,8 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'column.name' => '角色名',
-    'column.guard_name' => '守衛',
+    'column.name' => '名稱',
+    'column.guard_name' => 'Guard Name',
     'column.roles' => '角色',
     'column.permissions' => '權限',
     'column.updated_at' => '更新時間',
@@ -19,11 +19,11 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'field.name' => '角色名',
-    'field.guard_name' => '守衛',
+    'field.name' => '名稱',
+    'field.guard_name' => 'Guard Name',
     'field.permissions' => '權限',
-    'field.select_all.name' => '全選',
-    'field.select_all.message' => '啟用當前為該角色 <span class="text-primary font-medium">啟用的</span> 所有權限',
+    'field.select_all.name' => 'Select All',
+    'field.select_all.message' => 'Enable all Permissions currently <span class="text-primary font-medium">Enabled</span> for this role',
 
     /*
     |--------------------------------------------------------------------------
@@ -43,11 +43,11 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'section' => '實體',
-    'resources' => '資源',
-    'widgets' => '小工具',
-    'pages' => '頁面',
-    'custom' => '自訂',
+    'section' => 'Entities',
+    'resources' => 'Resources',
+    'widgets' => 'Widgets',
+    'pages' => 'Pages',
+    'custom' => 'Custom Permissions',
 
     /*
     |--------------------------------------------------------------------------
@@ -55,7 +55,7 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'forbidden' => '無權訪問',
+    'forbidden' => 'You do not have permission to access',
 
     /*
     |--------------------------------------------------------------------------
@@ -65,16 +65,16 @@ return [
 
     'resource_permission_prefixes_labels' => [
         'view' => '檢視',
-        'view_any' => '列表',
-        'create' => '建立',
-        'update' => '編輯',
+        'view_any' => '檢視Any',
+        'create' => '新增',
+        'update' => '更新',
         'delete' => '刪除',
-        'delete_any' => '批量刪除',
-        'force_delete' => '永久刪除',
-        'force_delete_any' => '批量永久刪除',
+        'delete_any' => '刪除Any',
+        'force_delete' => 'Force Delete',
+        'force_delete_any' => 'Force 刪除Any',
         'restore' => '還原',
-        'reorder' => '重新排序',
-        'restore_any' => '批量還原',
-        'replicate' => '複製',
+        'reorder' => 'Reorder',
+        'restore_any' => 'Restore Any',
+        'replicate' => 'Replicate',
     ],
 ];

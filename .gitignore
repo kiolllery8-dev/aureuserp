@@ -1,4 +1,6 @@
 /.phpunit.cache
+/database/database.sqlite
+/database/*.sqlite-journal
 /node_modules
 /npm-debug.log
 /public/build

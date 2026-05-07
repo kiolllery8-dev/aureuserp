@@ -1,0 +1,97 @@
+<?php
+
+return [
+    'title' => '分錄項目',
+
+    'navigation' => [
+        'title' => '分錄項目',
+    ],
+
+    'table' => [
+        'total'   => '總計',
+        'columns' => [
+            'number'          => 'Number',
+            'date'            => '日期',
+            'account'         => '科目',
+            'partner'         => '夥伴',
+            'label'           => 'Label',
+            'reference'       => '參考',
+            'journal'         => '日記帳',
+            'debit'           => 'Debit',
+            'credit'          => 'Credit',
+            'balance'         => 'Balance',
+            'currency'        => '幣別',
+            'company'         => '公司',
+            'status'          => '狀態',
+            'amount-currency' => 'Amount Currency',
+            'amount-residual' => 'Amount Residual',
+            'reconciled'      => 'Reconciled',
+            'due-date'        => '到期日',
+        ],
+
+        'groups' => [
+            'journal-entry' => '分錄',
+            'account'       => '科目',
+            'partner'       => '夥伴',
+            'journal'       => '日記帳',
+            'date'          => '日期',
+            'invoice-date'  => 'Invoice Date',
+            'matching'      => 'Matching',
+            'status'        => '狀態',
+            'company'       => '公司',
+        ],
+
+        'filters' => [
+            'number'          => 'Number',
+            'label'           => 'Label',
+            'reference'       => '參考',
+            'matching-number' => 'Matching Number',
+            'account'         => '科目',
+            'partner'         => '夥伴',
+            'journal'         => '日記帳',
+            'currency'        => '幣別',
+            'company'         => '公司',
+            'date'            => '日期',
+            'invoice-date'    => 'Invoice Date',
+            'due-date'        => '到期日',
+            'discount-date'   => 'Discount Date',
+            'debit'           => 'Debit',
+            'credit'          => 'Credit',
+            'balance'         => 'Balance',
+            'amount-currency' => 'Amount Currency',
+            'amount-residual' => 'Amount Residual',
+            'quantity'        => '數量',
+            'price-unit'      => 'Price Unit',
+            'discount'        => '折扣',
+            'reconciled'      => 'Reconciled',
+            'imported'        => 'Imported',
+            'down-payment'    => 'Down Payment',
+            'created-at'      => '建立時間',
+            'updated-at'      => '更新時間',
+        ],
+
+        'saved-filters' => [
+            'label'         => 'Saved Filters',
+            'unposted'      => 'Unposted',
+            'posted'        => '已過帳',
+            'to-check'      => 'To Check',
+            'unreconciled'  => 'Unreconciled',
+            'with-residual' => 'With Residual',
+            'sales'         => '銷售',
+            'purchases'     => '採購',
+            'bank'          => '銀行',
+            'cash'          => '現金',
+            'credit'        => 'Credit',
+            'miscellaneous' => 'Miscellaneous',
+            'payable'       => '應付帳款',
+            'receivable'    => '應收帳款',
+            'pl-accounts'   => 'P&L Accounts',
+        ],
+
+        'toolbar-actions' => [
+            'export' => [
+                'label' => '匯出',
+            ],
+        ],
+    ],
+];

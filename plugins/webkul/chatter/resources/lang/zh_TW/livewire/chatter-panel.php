@@ -1,0 +1,75 @@
+<?php
+
+return [
+    'heading' => '訊息中心',
+
+    'placeholders' => [
+        'no-record-found' => 'No記錄 found.',
+        'loading'         => 'Loading Chatter...',
+    ],
+
+    'activity-infolist' => [
+        'title' => '活動',
+    ],
+
+    'cancel-activity-plan-action' => [
+        'title' => 'Cancel Activity',
+    ],
+
+    'delete-message-action' => [
+        'title' => '刪除Message',
+    ],
+
+    'edit-activity' => [
+        'title' => '編輯Activity',
+
+        'form' => [
+            'fields' => [
+                'activity-plan' => 'Activity Plan',
+                'plan-date'     => 'Plan Date',
+                'plan-summary'  => 'Plan Summary',
+                'activity-type' => 'Activity Type',
+                'due-date'      => '到期日',
+                'summary'       => '摘要',
+                'assigned-to'   => 'Assigned To',
+            ],
+        ],
+
+        'action' => [
+            'notification' => [
+                'success' => [
+                    'title' => 'Activity updated',
+                    'body'  => 'The activity has been updated成功.',
+                ],
+            ],
+        ],
+    ],
+
+    'process-message' => [
+        'original-note' => '<br><div><span class="font-bold">Original Note</span>: :body</div>',
+        'original-note' => '<br><div><span class="font-bold">Original Note</span>: :body</div>',
+        'feedback'      => '<div><span class="font-bold">Feedback</span>: <p>:feedback</p></div>',
+    ],
+
+    'mark-as-done' => [
+        'title' => 'Mark as done',
+        'form'  => [
+            'fields' => [
+                'feedback' => 'Feedback',
+            ],
+        ],
+
+        'footer-actions' => [
+            'label' => 'Done & Schedule Next',
+
+            'actions' => [
+                'notification' => [
+                    'mark-as-done' => [
+                        'title' => 'Activity mark as done',
+                        'body'  => 'The activity mark as done成功.',
+                    ],
+                ],
+            ],
+        ],
+    ],
+];
