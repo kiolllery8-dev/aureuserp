@@ -1,0 +1,57 @@
+name: Deploy to home
+
+on:
+  push:
+    branches: [zh-tw]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-erp
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, Linux, X64]
+    steps:
+      - name: Pull latest into /opt/erp/src
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd /opt/erp/src
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/kiolllery8-dev/aureuserp.git"
+          git fetch --all -q
+          git reset --hard origin/zh-tw -q
+          git rev-parse --short HEAD
+
+      - name: Composer install (no-dev, optimized)
+        run: |
+          docker run --rm \
+            -v /opt/erp/src:/var/www/html \
+            -w /var/www/html \
+            --user $(id -u):$(id -g) \
+            erp-erp:latest \
+            composer install --no-interaction --no-dev --prefer-dist --optimize-autoloader --no-progress 2>&1 | tail -5
+
+      - name: Run pending migrations
+        run: |
+          docker exec erp php artisan migrate --force 2>&1 | tail -5
+
+      - name: Clear caches and reload
+        run: |
+          docker exec erp php artisan optimize:clear 2>&1 | tail -2
+          docker exec erp chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+          docker exec erp chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+          docker exec erp chown www-data:www-data /var/www/html/.env
+          docker exec erp chmod 640 /var/www/html/.env
+          docker restart erp 2>&1 | tail -1
+          sleep 6
+
+      - name: Smoke test
+        run: |
+          R=$(curl -sk --resolve erp.aloomoo.cc:443:127.0.0.1 \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/135.0.0.0" \
+            -o /dev/null -w '%{http_code}' \
+            https://erp.aloomoo.cc/admin/login) || true
+          echo "loopback HTTPS=$R"
+          [ "$R" = "200" ] && echo "PASS" && exit 0
+          echo "FAIL: $R" && exit 1
