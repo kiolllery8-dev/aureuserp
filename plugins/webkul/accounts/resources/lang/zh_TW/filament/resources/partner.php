@@ -50,7 +50,7 @@ return [
                         'fields' => [
                             'invoice-sending-method'   => '發票寄送方式',
                             'invoice-edi-format-store' => '電子發票格式',
-                            'peppol-eas'               => 'Peppol Address',
+                            'peppol-eas'               => 'Peppol 地址',
                             'endpoint'                 => '端點',
                         ],
                     ],
@@ -126,7 +126,7 @@ return [
                         'entries' => [
                             'invoice-sending-method'   => '發票寄送方式',
                             'invoice-edi-format-store' => '電子發票格式',
-                            'peppol-eas'               => 'Peppol Address',
+                            'peppol-eas'               => 'Peppol 地址',
                             'endpoint'                 => '端點',
                         ],
                     ],

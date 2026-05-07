@@ -19,7 +19,7 @@ return [
                 'title'  => '一般',
                 'fields' => [
                     'customer'       => '客戶',
-                    'expiration'     => 'Expiration',
+                    'expiration'     => '到期',
                     'quotation-date' => '報價日期',
                     'order-date'     => '訂單日期',
                     'payment-term'   => '付款條件',
@@ -214,7 +214,7 @@ return [
             'customer'         => '客戶',
             'journal'          => '帳本',
             'invoice-address'  => '發票地址',
-            'shipping-address' => 'Shipping Address',
+            'shipping-address' => '送貨地址',
             'fiscal-position'  => '稅務情境',
             'payment-term'     => '付款條件',
             'currency'         => '幣別',
@@ -297,7 +297,7 @@ return [
                 'entries' => [
                     'sale-order'     => '銷貨訂單',
                     'customer'       => '客戶',
-                    'expiration'     => 'Expiration',
+                    'expiration'     => '到期',
                     'quotation-date' => '報價日期',
                     'payment-term'   => '付款條件',
                 ],

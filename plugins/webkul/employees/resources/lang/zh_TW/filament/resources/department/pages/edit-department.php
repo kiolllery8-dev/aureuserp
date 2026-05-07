@@ -12,7 +12,7 @@ return [
         'error' => [
             'notification' => [
                 'title' => 'Department update失敗',
-                'body'  => 'There was an error updating the department.',
+                'body'  => '更新部門時發生錯誤。',
             ],
         ],
     ],

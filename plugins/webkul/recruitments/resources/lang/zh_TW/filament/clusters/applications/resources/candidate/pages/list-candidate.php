@@ -8,7 +8,7 @@ return [
         'hired'                  => '已錄用',
         'refused'                => '已拒絕',
         'archived'               => '已封存',
-        'blocked'                => 'Blocked',
+        'blocked'                => '已封鎖',
         'directly-available'     => '立即可用',
         'created-recently'       => '最近建立',
         'stage-updated-recently' => '階段最近更新',

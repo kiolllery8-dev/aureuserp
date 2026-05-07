@@ -6,8 +6,8 @@ return [
             'name'               => '名稱',
             'rounding-precision' => '進位精度',
             'rounding-strategy'  => '進位策略',
-            'profit-account'     => 'Profit Account',
-            'loss-account'       => 'Loss Account',
+            'profit-account'     => '利潤科目',
+            'loss-account'       => '損失科目',
             'rounding-method'    => '進位方式',
         ],
     ],
@@ -18,8 +18,8 @@ return [
             'rounding-strategy'    => '進位策略',
             'rounding-method'      => '進位方式',
             'created-by'           => '建立者',
-            'profit-account'       => 'Profit Account',
-            'loss-account'         => 'Loss Account',
+            'profit-account'       => '利潤科目',
+            'loss-account'         => '損失科目',
         ],
 
         'groups' => [
@@ -27,8 +27,8 @@ return [
             'rounding-strategy' => '進位策略',
             'rounding-method'   => '進位方式',
             'created-by'        => '建立者',
-            'profit-account'    => 'Profit Account',
-            'loss-account'      => 'Loss Account',
+            'profit-account'    => '利潤科目',
+            'loss-account'      => '損失科目',
         ],
 
         'actions' => [
@@ -55,8 +55,8 @@ return [
             'name'               => '名稱',
             'rounding-precision' => '進位精度',
             'rounding-strategy'  => '進位策略',
-            'profit-account'     => 'Profit Account',
-            'loss-account'       => 'Loss Account',
+            'profit-account'     => '利潤科目',
+            'loss-account'       => '損失科目',
             'rounding-method'    => '進位方式',
         ],
     ],

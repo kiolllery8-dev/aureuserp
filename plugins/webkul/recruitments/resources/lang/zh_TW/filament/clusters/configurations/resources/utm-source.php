@@ -5,7 +5,7 @@ return [
 
     'navigation' => [
         'title' => '來源',
-        'group' => 'UTM',
+        'group' => 'UTM 追蹤',
     ],
 
     'groups' => [

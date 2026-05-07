@@ -5,7 +5,7 @@ return [
 
     'navigation' => [
         'title' => '媒介',
-        'group' => 'UTM',
+        'group' => 'UTM 追蹤',
     ],
 
     'form' => [

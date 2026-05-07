@@ -8,7 +8,7 @@ return [
         'fields' => [
             'to'      => '至',
             'subject' => '主旨',
-            'message' => 'Message',
+            'message' => '訊息',
         ],
     ],
 

@@ -38,7 +38,7 @@ return [
             'skill-level'     => '等級',
             'skill-type'      => '技能類別',
             'user'            => '使用者',
-            'proficiency'     => 'Proficiency',
+            'proficiency'     => '熟練度',
             'created-by'      => '建立者',
             'created-at'      => '建立時間',
         ],

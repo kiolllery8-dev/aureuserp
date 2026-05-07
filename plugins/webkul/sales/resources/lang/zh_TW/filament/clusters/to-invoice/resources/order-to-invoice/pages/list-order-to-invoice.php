@@ -2,7 +2,7 @@
 
 return [
     'tabs' => [
-        'my-orders' => 'My Orders',
+        'my-orders' => '我的訂單',
         'archived'  => '已封存',
     ],
 ];

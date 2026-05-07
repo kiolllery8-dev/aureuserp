@@ -10,7 +10,7 @@ return [
         ],
 
         'error' => [
-            'title' => 'Error',
+            'title' => '錯誤',
             'body'  => '確認報價時發生錯誤。',
         ],
     ],

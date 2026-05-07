@@ -153,7 +153,7 @@ return [
                         'body'  => 'The company has been force已刪除成功.',
                     ],
                     'error' => [
-                        'title' => 'Unable to force delete company',
+                        'title' => '無法強制刪除公司',
                         'body'  => 'This company is associated with existing記錄s and cannot be已刪除.',
                     ],
                 ],
@@ -180,7 +180,7 @@ return [
                     'title' => 'Companies force已刪除',
                     'body'  => 'The companies has been force已刪除成功.',
                     'error' => [
-                        'title' => 'Unable to force delete companies',
+                        'title' => '無法強制刪除公司',
                         'body'  => 'One or more companies are associated with existing記錄s and cannot be已刪除.',
                     ],
                 ],

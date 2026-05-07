@@ -64,7 +64,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Route restored',
+                    'title' => '路線已還原',
                     'body'  => 'The route has been restored成功.',
                 ],
             ],
@@ -94,7 +94,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Routes restored',
+                    'title' => '路線已還原',
                     'body'  => 'The routes has been restored成功.',
                 ],
             ],

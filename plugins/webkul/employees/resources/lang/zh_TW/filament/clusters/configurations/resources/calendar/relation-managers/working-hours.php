@@ -22,8 +22,8 @@ return [
                 'fields' => [
                     'day-period' => '時段',
                     'week-type'  => 'Week類型',
-                    'work-from'  => 'Work From',
-                    'work-to'    => 'Work To',
+                    'work-from'  => '工作起',
+                    'work-to'    => '工作迄',
                 ],
             ],
 
@@ -52,8 +52,8 @@ return [
             'name'          => 'Attendance名稱',
             'day-of-week'   => '週幾',
             'day-period'    => '時段',
-            'work-from'     => 'Work From',
-            'work-to'       => 'Work To',
+            'work-from'     => '工作起',
+            'work-to'       => '工作迄',
             'starting-date' => 'Starting日期',
             'ending-date'   => 'Ending日期',
             'display-type'  => '顯示類型',
@@ -150,8 +150,8 @@ return [
                 'entries' => [
                     'day-period' => '時段',
                     'week-type'  => 'Week類型',
-                    'work-from'  => 'Work From',
-                    'work-to'    => 'Work To',
+                    'work-from'  => '工作起',
+                    'work-to'    => '工作迄',
                 ],
             ],
 

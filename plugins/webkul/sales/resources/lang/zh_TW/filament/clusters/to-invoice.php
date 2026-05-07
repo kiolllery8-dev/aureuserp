@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'To Invoice',
+        'title' => '待開立',
         'group' => '銷售',
     ],
 ];

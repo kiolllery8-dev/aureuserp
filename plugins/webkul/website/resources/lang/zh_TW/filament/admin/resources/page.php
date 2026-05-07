@@ -20,12 +20,12 @@ return [
             ],
 
             'seo' => [
-                'title' => 'SEO',
+                'title' => 'SEO 設定',
 
                 'fields' => [
-                    'meta-title'       => 'Meta Title',
+                    'meta-title'       => 'Meta 標題',
                     'meta-keywords'    => 'Meta 關鍵字',
-                    'meta-description' => 'Meta Description',
+                    'meta-description' => 'Meta 描述',
                 ],
             ],
 
@@ -45,7 +45,7 @@ return [
             'title'             => '標題',
             'slug'              => '網址代稱',
             'creator'           => '建立者',
-            'is-published'      => 'Is Published',
+            'is-published'      => '已發佈',
             'is-header-visible' => '顯示於頁首選單',
             'is-footer-visible' => '顯示於頁尾選單',
             'created-at'        => '建立時間',
@@ -57,7 +57,7 @@ return [
         ],
 
         'filters' => [
-            'is-published' => 'Is Published',
+            'is-published' => '已發佈',
             'creator'      => '建立者',
         ],
 
@@ -129,12 +129,12 @@ return [
             ],
 
             'seo' => [
-                'title' => 'SEO',
+                'title' => 'SEO 設定',
 
                 'entries' => [
-                    'meta-title'       => 'Meta Title',
+                    'meta-title'       => 'Meta 標題',
                     'meta-keywords'    => 'Meta 關鍵字',
-                    'meta-description' => 'Meta Description',
+                    'meta-description' => 'Meta 描述',
                 ],
             ],
 

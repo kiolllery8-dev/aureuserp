@@ -26,7 +26,7 @@ return [
         'not_installed'       => '未安裝',
         'active_status'       => 'Active狀態',
         'author'              => '作者',
-        'webkul'              => 'Webkul',
+        'webkul'              => 'Webkul 公司',
         'third_party'         => '第三方',
     ],
 

@@ -17,9 +17,9 @@ return [
                     'operation-type'              => '作業類型',
                     'source-location'             => '從哪裡',
                     'destination-location'        => '送到哪裡',
-                    'supply-method'               => 'Supply Method',
+                    'supply-method'               => '供應方式',
                     'supply-method-hint-tooltip'  => '從庫存取：直接從來源位置現有庫存取貨。<br/>觸發其他規則：系統忽略現有庫存，改尋找補貨規則。<br/>從庫存取，沒有時觸發其他規則：先從現有庫存取，沒有再套用補貨規則。',
-                    'automatic-move'              => 'Automatic Move',
+                    'automatic-move'              => '自動移動',
                     'automatic-move-hint-tooltip' => '手動作業：在目前移動後建立另一筆庫存移動。<br/>自動，未新增步驟：直接取代原有移動的位置而不另加步驟。',
 
                     'action-information' => [

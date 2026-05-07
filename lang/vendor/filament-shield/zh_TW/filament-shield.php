@@ -23,7 +23,7 @@ return [
     'field.guard_name' => 'Guard名稱',
     'field.permissions' => '權限',
     'field.select_all.name' => '全選',
-    'field.select_all.message' => 'Enable all Permissions currently <span class="text-primary font-medium">Enabled</span> for this role',
+    'field.select_all.message' => '啟用此角色目前 <span class="text-primary font-medium">已啟用</span> 的所有權限',
 
     /*
     |--------------------------------------------------------------------------
@@ -55,7 +55,7 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'forbidden' => 'You do not have permission to access',
+    'forbidden' => '您沒有存取權限',
 
     /*
     |--------------------------------------------------------------------------

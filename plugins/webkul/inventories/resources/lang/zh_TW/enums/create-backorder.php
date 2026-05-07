@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'ask'    => 'Ask',
+    'ask'    => '詢問',
     'always' => '總是',
     'never'  => '從未',
 ];

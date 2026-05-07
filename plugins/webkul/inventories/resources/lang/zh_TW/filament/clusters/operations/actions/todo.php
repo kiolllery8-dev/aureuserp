@@ -6,7 +6,7 @@ return [
     'notification' => [
         'warning' => [
             'title' => '收貨無移動',
-            'body'  => 'The receipt has no moves to mark as todo.',
+            'body'  => '收貨沒有可標記為待辦的移動。',
         ],
 
         'success' => [

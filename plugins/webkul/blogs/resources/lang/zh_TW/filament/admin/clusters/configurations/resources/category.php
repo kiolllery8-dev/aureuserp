@@ -23,7 +23,7 @@ return [
         ],
 
         'filters' => [
-            'is-published' => 'Is Published',
+            'is-published' => '已發佈',
             'author'       => '作者',
             'creator'      => '建立者',
             'category'     => '分類',

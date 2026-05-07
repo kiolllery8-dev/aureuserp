@@ -4,7 +4,7 @@ return [
     'form' => [
         'fields' => [
             'web'     => '網頁',
-            'sanctum' => 'Sanctum',
+            'sanctum' => 'Sanctum 認證',
         ],
     ],
 

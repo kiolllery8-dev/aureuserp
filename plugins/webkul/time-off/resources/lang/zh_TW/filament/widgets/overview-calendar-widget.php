@@ -61,7 +61,7 @@ return [
             'request-date-from'       => '申請開始日',
             'request-date-to'         => '申請結束日',
             'description'             => '說明',
-            'description-placeholder' => 'No description provided',
+            'description-placeholder' => '未提供說明',
             'duration'                => '持續時間',
             'status'                  => '狀態',
         ],

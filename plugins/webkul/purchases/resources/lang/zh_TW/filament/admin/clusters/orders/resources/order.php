@@ -20,7 +20,7 @@ return [
                     'currency'                 => '幣別',
                     'confirmation-date'        => 'Confirmation日期',
                     'order-deadline'           => '訂單期限',
-                    'expected-arrival'         => 'Expected Arrival',
+                    'expected-arrival'         => '預計到貨',
                     'confirmed-by-vendor'      => '供應商已確認',
                 ],
             ],
@@ -37,7 +37,7 @@ return [
 
                         'fields' => [
                             'product'             => '商品',
-                            'expected-arrival'    => 'Expected Arrival',
+                            'expected-arrival'    => '預計到貨',
                             'quantity'            => '數量',
                             'received'            => '已收到',
                             'billed'              => '已開立',
@@ -64,7 +64,7 @@ return [
 
                         'columns' => [
                             'product'             => '商品',
-                            'expected-arrival'    => 'Expected Arrival',
+                            'expected-arrival'    => '預計到貨',
                             'quantity'            => '數量',
                             'received'            => '已收到',
                             'billed'              => '已開立',
@@ -210,7 +210,7 @@ return [
                     'currency'                 => '幣別',
                     'confirmation-date'        => 'Confirmation日期',
                     'order-deadline'           => '訂單期限',
-                    'expected-arrival'         => 'Expected Arrival',
+                    'expected-arrival'         => '預計到貨',
                     'confirmed-by-vendor'      => '供應商已確認',
                 ],
             ],
@@ -227,7 +227,7 @@ return [
 
                         'entries' => [
                             'product'             => '商品',
-                            'expected-arrival'    => 'Expected Arrival',
+                            'expected-arrival'    => '預計到貨',
                             'quantity'            => '數量',
                             'received'            => '已收到',
                             'billed'              => '已開立',

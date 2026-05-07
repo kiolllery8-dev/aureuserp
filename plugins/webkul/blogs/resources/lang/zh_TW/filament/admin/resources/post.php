@@ -26,12 +26,12 @@ return [
             ],
 
             'seo' => [
-                'title' => 'SEO',
+                'title' => 'SEO 設定',
 
                 'fields' => [
-                    'meta-title'       => 'Meta Title',
+                    'meta-title'       => 'Meta 標題',
                     'meta-keywords'    => 'Meta 關鍵字',
-                    'meta-description' => 'Meta Description',
+                    'meta-description' => 'Meta 描述',
                 ],
             ],
 
@@ -43,7 +43,7 @@ return [
                     'tags'         => '標籤',
                     'name'         => '名稱',
                     'color'        => '顏色',
-                    'is-published' => 'Is Published',
+                    'is-published' => '已發佈',
                 ],
             ],
         ],
@@ -56,7 +56,7 @@ return [
             'author'       => '作者',
             'category'     => '分類',
             'creator'      => '建立者',
-            'is-published' => 'Is Published',
+            'is-published' => '已發佈',
             'created-at'   => '建立時間',
             'updated-at'   => '更新時間',
         ],
@@ -68,7 +68,7 @@ return [
         ],
 
         'filters' => [
-            'is-published' => 'Is Published',
+            'is-published' => '已發佈',
             'author'       => '作者',
             'creator'      => '建立者',
             'category'     => '分類',
@@ -143,12 +143,12 @@ return [
             ],
 
             'seo' => [
-                'title' => 'SEO',
+                'title' => 'SEO 設定',
 
                 'entries' => [
-                    'meta-title'       => 'Meta Title',
+                    'meta-title'       => 'Meta 標題',
                     'meta-keywords'    => 'Meta 關鍵字',
-                    'meta-description' => 'Meta Description',
+                    'meta-description' => 'Meta 描述',
                 ],
             ],
 
@@ -173,7 +173,7 @@ return [
                     'tags'         => '標籤',
                     'name'         => '名稱',
                     'color'        => '顏色',
-                    'is-published' => 'Is Published',
+                    'is-published' => '已發佈',
                 ],
             ],
         ],

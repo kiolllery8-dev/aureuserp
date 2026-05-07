@@ -2,5 +2,5 @@
 
 return [
     'alert' => '提醒',
-    'error' => 'Error',
+    'error' => '錯誤',
 ];

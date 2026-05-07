@@ -18,8 +18,8 @@ return [
 
                 'fields' => [
                     'vendor'                => '供應商',
-                    'valid-from'            => 'Valid From',
-                    'valid-to'              => 'Valid Until',
+                    'valid-from'            => '有效起',
+                    'valid-to'              => '有效迄',
                     'buyer'                 => '買家',
                     'reference'             => '參考編號',
                     'reference-placeholder' => '例：PO/123',
@@ -68,8 +68,8 @@ return [
             'agreement-type' => 'Agreement類型',
             'buyer'          => '買家',
             'company'        => '公司',
-            'valid-from'     => 'Valid From',
-            'valid-to'       => 'Valid Until',
+            'valid-from'     => '有效起',
+            'valid-to'       => '有效迄',
             'reference'      => '參考編號',
             'status'         => '狀態',
         ],
@@ -88,8 +88,8 @@ return [
             'agreement-type' => 'Agreement類型',
             'buyer'          => '買家',
             'company'        => '公司',
-            'valid-from'     => 'Valid From',
-            'valid-to'       => 'Valid Until',
+            'valid-from'     => '有效起',
+            'valid-to'       => '有效迄',
             'reference'      => '參考編號',
             'status'         => '狀態',
             'created-at'     => '建立時間',
@@ -174,8 +174,8 @@ return [
 
                 'entries' => [
                     'vendor'                => '供應商',
-                    'valid-from'            => 'Valid From',
-                    'valid-to'              => 'Valid Until',
+                    'valid-from'            => '有效起',
+                    'valid-to'              => '有效迄',
                     'buyer'                 => '買家',
                     'reference'             => '參考編號',
                     'reference-placeholder' => '例：PO/123',

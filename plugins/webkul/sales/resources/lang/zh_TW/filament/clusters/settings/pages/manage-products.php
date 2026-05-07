@@ -17,7 +17,7 @@ return [
             'uom-help'                      => '允許商品設定計量單位',
             'packagings'                    => '包裝',
             'packagings-help'               => '允許商品有多種包裝',
-            'deliver-content-by-email'      => 'Deliver Content by Email',
+            'deliver-content-by-email'      => '以電子郵件交付內容',
             'deliver-content-by-email-help' => '允許以電子郵件交付商品內容',
         ],
     ],

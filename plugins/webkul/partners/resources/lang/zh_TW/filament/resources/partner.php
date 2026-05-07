@@ -54,7 +54,7 @@ return [
 
                 'fields' => [
                     'responsible'           => '負責人',
-                    'responsible-hint-text' => 'This is internal salesperson responsible for this customer',
+                    'responsible-hint-text' => '此為負責此客戶的內部業務人員',
                     'company-id'            => '公司識別碼',
                     'company-id-hint-text'  => 'The company\'s registry number, used if different from the Tax ID. It必須唯一 among all partners within the same country.',
                     'reference'             => '參考編號',
@@ -209,7 +209,7 @@ return [
 
                 'fields' => [
                     'responsible'           => '負責人',
-                    'responsible-hint-text' => 'This is internal salesperson responsible for this customer',
+                    'responsible-hint-text' => '此為負責此客戶的內部業務人員',
                     'company-id'            => '公司識別碼',
                     'company-id-hint-text'  => 'The registry number of the company. Use it if it is different from the Tax ID. It必須唯一 across all partners of a same country',
                     'reference'             => '參考編號',

@@ -26,7 +26,7 @@ return [
                     ],
 
                     'message' => [
-                        'body' => 'The RFQ has been acknowledged by vendor.',
+                        'body' => '供應商已確認此報價邀請。',
                     ],
                 ],
 
@@ -39,7 +39,7 @@ return [
                     ],
 
                     'message' => [
-                        'body' => 'The RFQ has been declined by vendor.',
+                        'body' => '供應商已拒絕此報價邀請。',
                     ],
                 ],
 

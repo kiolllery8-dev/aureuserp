@@ -91,12 +91,12 @@ return [
                     'revenue' => [
                         'title'         => '收入',
                         'total-label'   => '總收入',
-                        'empty-message' => 'No revenue accounts with transactions in this period',
+                        'empty-message' => '此期間無收入科目交易',
                     ],
                     'expenses' => [
                         'title'         => '費用',
                         'total-label'   => '總費用',
-                        'empty-message' => 'No expense accounts with transactions in this period',
+                        'empty-message' => '此期間無費用科目交易',
                     ],
                 ],
             ],

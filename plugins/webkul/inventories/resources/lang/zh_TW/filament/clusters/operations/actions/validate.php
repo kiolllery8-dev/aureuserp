@@ -15,7 +15,7 @@ return [
         'warning' => [
             'lines-missing' => [
                 'title' => '沒有保留數量',
-                'body'  => 'No quantities are reserved for the transfer.',
+                'body'  => '此移轉未預留任何數量。',
             ],
 
             'lot-missing' => [
@@ -25,12 +25,12 @@ return [
 
             'serial-qty' => [
                 'title' => '序號已被指派',
-                'body'  => 'The serial number has already been assigned to another product.',
+                'body'  => '此序號已指派給其他商品。',
             ],
 
             'partial-package' => [
-                'title' => 'Can not move same package content',
-                'body'  => 'You cannot move the same package contents more than once within a single transfer or split the package between two locations.',
+                'title' => '無法重複移動同一包裝內容',
+                'body'  => '同一移轉中不可重複移動同一包裝內容，也不可將包裝拆成兩個位置。',
             ],
         ],
     ],

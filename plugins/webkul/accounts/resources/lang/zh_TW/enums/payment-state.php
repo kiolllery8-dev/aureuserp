@@ -6,6 +6,6 @@ return [
     'paid'             => '已付款',
     'partial'          => '部分',
     'reversed'         => '已沖銷',
-    'blocked'          => 'Blocked',
+    'blocked'          => '已封鎖',
     'invoicing-legacy' => '舊版發票',
 ];

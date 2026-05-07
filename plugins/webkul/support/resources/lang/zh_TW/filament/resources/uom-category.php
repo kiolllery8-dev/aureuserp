@@ -20,7 +20,7 @@ return [
                 'title' => '計量單位',
 
                 'fields' => [
-                    'uoms'     => 'Units',
+                    'uoms'     => '單位',
                     'type'     => '類型',
                     'name'     => '名稱',
                     'factor'   => '因子',
@@ -37,7 +37,7 @@ return [
     'table' => [
         'columns' => [
             'name'       => '名稱',
-            'uoms-count' => 'Units',
+            'uoms-count' => '單位',
             'created-at' => '建立時間',
             'updated-at' => '更新時間',
         ],

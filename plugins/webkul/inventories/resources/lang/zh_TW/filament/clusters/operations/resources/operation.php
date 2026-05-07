@@ -64,7 +64,7 @@ return [
                             'lot'       => '批次／序號',
                             'pick-from' => '揀貨自',
                             'location'  => '存放至',
-                            'package'   => 'Destination Package',
+                            'package'   => '目的包裝',
                             'quantity'  => '數量',
                             'uom'       => '計量單位',
                         ],
@@ -191,16 +191,16 @@ return [
         'my'       => '我的移轉',
         'starred'  => '已加星標',
         'draft'    => '草稿',
-        'waiting'  => 'Waiting',
-        'ready'    => 'Ready',
+        'waiting'  => '等候',
+        'ready'    => '就緒',
         'done'     => '完成',
         'canceled' => '已取消',
     ],
 
     'notifications' => [
         'uom-precision-warning' => [
-            'title' => 'Unit of Measure Precision Warning',
-            'body'  => 'You are using a unit of measure smaller than the one used to stock this product. This can lead to rounding issues on reserved quantities. Consider using the smallest unit of measure for stock valuation, or reduce the rounding precision of your base unit.',
+            'title' => '單位精度警告',
+            'body'  => '您使用的單位比此商品的庫存單位還小，可能導致預留數量的進位問題。建議用最小單位進行庫存計價，或降低基礎單位的進位精度。',
         ],
     ],
 ];

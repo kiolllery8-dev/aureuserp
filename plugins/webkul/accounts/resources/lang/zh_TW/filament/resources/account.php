@@ -19,7 +19,7 @@ return [
                 'currency'      => '幣別',
                 'deprecated'    => '已停用',
                 'reconcile'     => '允許對帳',
-                'non-trade'     => 'Non Trade',
+                'non-trade'     => '非貿易',
                 'companies'     => '公司',
             ],
         ],
@@ -44,7 +44,7 @@ return [
             'allow-reconcile'  => '允許對帳',
             'currency'         => '幣別',
             'account-journals' => '帳本',
-            'non-trade'        => 'Non Trade',
+            'non-trade'        => '非貿易',
         ],
 
         'actions' => [
@@ -100,7 +100,7 @@ return [
                 'currency'      => '幣別',
                 'deprecated'    => '已停用',
                 'reconcile'     => '對帳',
-                'non-trade'     => 'Non Trade',
+                'non-trade'     => '非貿易',
             ],
         ],
     ],

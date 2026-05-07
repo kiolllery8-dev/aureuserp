@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'start' => 'At the start of the accrual period',
-    'end'   => 'At the end of the accrual period',
+    'start' => '累計期間開始時',
+    'end'   => '累計期間結束時',
 ];

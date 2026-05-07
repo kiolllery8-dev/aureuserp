@@ -13,7 +13,7 @@ return [
             'notification' => [
                 'warning' => [
                     'title' => '庫存不足',
-                    'body'  => 'The scrap has insufficient stock to validate.',
+                    'body'  => '庫存不足以驗證此報廢。',
                 ],
 
                 'success' => [

@@ -2,6 +2,6 @@
 
 return [
     'user-invitation' => [
-        'subject' => 'You’re Invited to Join Our :app',
+        'subject' => '您受邀加入我們的 :app',
     ],
 ];

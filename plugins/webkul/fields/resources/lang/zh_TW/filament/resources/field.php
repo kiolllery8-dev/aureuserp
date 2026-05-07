@@ -51,8 +51,8 @@ return [
                             'color-options' => [
                                 'danger'    => '危險',
                                 'info'      => '資訊',
-                                'primary'   => 'Primary',
-                                'secondary' => 'Secondary',
+                                'primary'   => '主要',
+                                'secondary' => '次要',
                                 'warning'   => '警告',
                                 'success'   => '成功',
                             ],
@@ -109,22 +109,22 @@ return [
                     'text' => [
                         'alpha-dash'        => '字母與短橫',
                         'alpha-num'         => '字母與數字',
-                        'ascii'             => 'ASCII',
+                        'ascii'             => 'ASCII 字元',
                         'doesnt-end-with'   => "不以…結尾",
                         'doesnt-start-with' => "不以…開頭",
                         'ends-with'         => '以…結尾',
                         'filled'            => '已填寫',
-                        'ip'                => 'IP',
-                        'ipv4'              => 'IPv4',
-                        'ipv6'              => 'IPv6',
+                        'ip'                => 'IP 位址',
+                        'ipv4'              => 'IPv4 位址',
+                        'ipv6'              => 'IPv6 位址',
                         'length'            => '長度',
                         'mac-address'       => 'MAC 位址',
                         'max-length'        => '最大長度',
                         'min-length'        => '最小長度',
                         'regex'             => '正規式',
                         'starts-with'       => '以…開頭',
-                        'ulid'              => 'ULID',
-                        'uuid'              => 'UUID',
+                        'ulid'              => 'ULID 識別碼',
+                        'uuid'              => 'UUID 識別碼',
                     ],
 
                     'textarea' => [
@@ -136,9 +136,9 @@ return [
                     'select' => [
                         'different'  => '不同',
                         'exists'     => '存在',
-                        'in'         => 'In',
+                        'in'         => '進',
                         'not-in'     => '不在其中',
-                        'same'       => 'Same',
+                        'same'       => '相同',
                     ],
 
                     'radio' => [],
@@ -154,7 +154,7 @@ return [
                     ],
 
                     'checkbox-list' => [
-                        'in'        => 'In',
+                        'in'        => '進',
                         'max-items' => '最多項目',
                         'min-items' => '最少項目',
                     ],
@@ -233,7 +233,7 @@ return [
                         'hint-icon'                 => '提示圖示',
                         'id'                        => '編號',
                         'loading-message'           => '載入訊息',
-                        'no-search-results-message' => 'No Search Results Message',
+                        'no-search-results-message' => '無搜尋結果訊息',
                         'options-limit'             => '選項上限',
                         'preload'                   => '預先載入',
                         'searchable'                => '可搜尋',
@@ -290,7 +290,7 @@ return [
                         'id'                        => '編號',
                         'max-items'                 => '最多項目',
                         'min-items'                 => '最少項目',
-                        'no-search-results-message' => 'No Search Results Message',
+                        'no-search-results-message' => '無搜尋結果訊息',
                         'searchable'                => '可搜尋',
                     ],
 
@@ -348,10 +348,10 @@ return [
                         'hint'        => '提示',
                         'hint-color'  => '提示顏色',
                         'hint-icon'   => '提示圖示',
-                        'hsl'         => 'HSL',
+                        'hsl'         => 'HSL 色彩',
                         'id'          => '編號',
-                        'rgb'         => 'RGB',
-                        'rgba'        => 'RGBA',
+                        'rgb'         => 'RGB 色彩',
+                        'rgba'        => 'RGBA 色彩',
                     ],
 
                     'file' => [
@@ -408,8 +408,8 @@ return [
                     'color-options' => [
                         'danger'    => '危險',
                         'info'      => '資訊',
-                        'primary'   => 'Primary',
-                        'secondary' => 'Secondary',
+                        'primary'   => '主要',
+                        'secondary' => '次要',
                         'warning'   => '警告',
                         'success'   => '成功',
                     ],
@@ -494,7 +494,7 @@ return [
                         'date'              => '日期',
                         'date-time'         => 'Date時間',
                         'date-time-tooltip' => 'Date時間 Tooltip',
-                        'since'             => 'Since',
+                        'since'             => '自',
                     ],
                 ],
             ],
@@ -514,8 +514,8 @@ return [
                     'color-options' => [
                         'danger'    => '危險',
                         'info'      => '資訊',
-                        'primary'   => 'Primary',
-                        'secondary' => 'Secondary',
+                        'primary'   => '主要',
+                        'secondary' => '次要',
                         'warning'   => '警告',
                         'success'   => '成功',
                     ],
@@ -590,7 +590,7 @@ return [
                         'date'              => '日期',
                         'date-time'         => 'Date時間',
                         'date-time-tooltip' => 'Date時間 Tooltip',
-                        'since'             => 'Since',
+                        'since'             => '自',
                     ],
 
                     'checkbox-list' => [

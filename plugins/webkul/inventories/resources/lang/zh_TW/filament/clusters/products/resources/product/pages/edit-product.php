@@ -5,12 +5,12 @@ return [
         'notification' => [
             'error' => [
                 'tracking-update' => [
-                    'title' => 'Error updating tracking',
+                    'title' => '更新追蹤發生錯誤',
                     'body'  => '已使用過的商品無法變更庫存追蹤方式。',
                 ],
 
                 'track-by-update' => [
-                    'title' => 'Error updating tracking',
+                    'title' => '更新追蹤發生錯誤',
                     'body'  => '庫存中有商品沒有批次／序號，可透過盤點調整指派。',
                 ],
             ],

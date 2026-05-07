@@ -18,7 +18,7 @@ return [
 
                 'fields' => [
                     'name'                   => '名稱',
-                    'name-placeholder'       => 'e.g. LOT/0001/20121',
+                    'name-placeholder'       => '例：LOT/0001/20121',
                     'product'                => '商品',
                     'product-hint-tooltip'   => '與此批次／序號關聯的商品。若已移動則無法變更。',
                     'reference'              => '參考編號',

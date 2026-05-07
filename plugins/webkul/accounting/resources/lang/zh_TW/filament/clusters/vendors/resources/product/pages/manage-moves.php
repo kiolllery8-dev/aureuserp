@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'IN/OUT',
+    'title' => '進／出',
 
     'table' => [
         'columns' => [

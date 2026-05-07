@@ -2,5 +2,5 @@
 
 return [
     'immediately'    => '立即',
-    'end-of-accrual' => 'After this accrual period',
+    'end-of-accrual' => '此累計期間後',
 ];
