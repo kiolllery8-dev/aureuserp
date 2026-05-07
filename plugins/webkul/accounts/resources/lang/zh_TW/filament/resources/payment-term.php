@@ -4,10 +4,10 @@ return [
     'form' => [
         'sections' => [
             'fields' => [
-                'payment-term'         => 'Payment Term',
+                'payment-term'         => '付款條件',
                 'early-discount'       => 'Early Discount',
                 'discount-days-prefix' => 'if paid within',
-                'discount-days-suffix' => 'days',
+                'discount-days-suffix' => '天數',
                 'reduced-tax'          => 'Reduced tax',
                 'note'                 => '備註',
                 'status'               => '狀態',
@@ -21,11 +21,11 @@ return [
                 'repeater' => [
                     'due-terms' => [
                         'fields' => [
-                            'value'                  => 'Value',
+                            'value'                  => '值',
                             'due'                    => 'Due',
-                            'delay-type'             => 'Delay Type',
+                            'delay-type'             => 'Delay類型',
                             'days-on-the-next-month' => 'Days on the next month',
-                            'days'                   => 'Days',
+                            'days'                   => '天數',
                         ],
                     ],
                 ],
@@ -35,20 +35,20 @@ return [
 
     'table' => [
         'columns' => [
-            'payment-term' => 'Payment Term',
+            'payment-term' => '付款條件',
             'company'      => '公司',
             'created-at'   => '建立時間',
             'updated-at'   => '更新時間',
         ],
 
         'groups' => [
-            'company-name'        => 'Company Name',
+            'company-name'        => '公司名稱',
             'discount-days'       => 'Discount Days',
             'early-pay-discount'  => 'Early Pay Discount',
-            'payment-term'        => 'Payment Term',
+            'payment-term'        => '付款條件',
             'display-on-invoice'  => 'Display on Invoice',
             'early-discount'      => 'Early Discount',
-            'discount-percentage' => 'Discount Percentage',
+            'discount-percentage' => '折扣百分比',
         ],
 
         'actions' => [
@@ -61,21 +61,21 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Payment Term deleted',
-                    'body'  => 'The payment term has been deleted成功.',
+                    'title' => 'Payment Term已刪除',
+                    'body'  => 'The payment term has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Payment Term force deleted',
-                        'body'  => 'The payment term has been force deleted成功.',
+                        'title' => 'Payment Term force已刪除',
+                        'body'  => 'The payment term has been force已刪除成功.',
                     ],
 
                     'error' => [
                         'title' => 'Payment Term force deletion失敗',
-                        'body'  => 'The payment term could not be force deleted because it is associated journal entries.',
+                        'body'  => 'The payment term could not be force已刪除 because it is associated journal entries.',
                     ],
                 ],
             ],
@@ -91,21 +91,21 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Payment Terms deleted',
-                    'body'  => 'The payment Terms has been deleted成功.',
+                    'title' => 'Payment Terms已刪除',
+                    'body'  => 'The payment Terms has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Payment Terms force deleted',
-                        'body'  => 'The payment Terms has been force deleted成功.',
+                        'title' => 'Payment Terms force已刪除',
+                        'body'  => 'The payment Terms has been force已刪除成功.',
                     ],
 
                     'error' => [
                         'title' => 'Payment Terms force deletion失敗',
-                        'body'  => 'The payment terms could not be force deleted because they have associated journal entries.',
+                        'body'  => 'The payment terms could not be force已刪除 because they have associated journal entries.',
                     ],
                 ],
             ],
@@ -115,11 +115,11 @@ return [
     'infolist' => [
         'sections' => [
             'entries' => [
-                'payment-term'         => 'Payment Term',
+                'payment-term'         => '付款條件',
                 'early-discount'       => 'Early Discount',
-                'discount-percentage'  => 'Discount Percentage',
+                'discount-percentage'  => '折扣百分比',
                 'discount-days-prefix' => 'if paid within',
-                'discount-days-suffix' => 'days',
+                'discount-days-suffix' => '天數',
                 'reduced-tax'          => 'Reduced tax',
                 'note'                 => '備註',
                 'status'               => '狀態',
@@ -133,11 +133,11 @@ return [
                 'repeater' => [
                     'due-terms' => [
                         'entries' => [
-                            'value'                  => 'Value',
+                            'value'                  => '值',
                             'due'                    => 'Due',
-                            'delay-type'             => 'Delay Type',
+                            'delay-type'             => 'Delay類型',
                             'days-on-the-next-month' => 'Days on the next month',
-                            'days'                   => 'Days',
+                            'days'                   => '天數',
                         ],
                     ],
                 ],

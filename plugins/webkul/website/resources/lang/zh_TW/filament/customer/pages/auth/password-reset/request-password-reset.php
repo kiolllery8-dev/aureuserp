@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title'         => 'Forgot password',
-    'heading'       => 'Forgot password',
+    'title'         => '忘記密碼',
+    'heading'       => '忘記密碼',
     'notifications' => [
         'throttled' => [
             'title' => 'Too many attempts. Try again in :seconds seconds.',
@@ -11,7 +11,7 @@ return [
     ],
     'form' => [
         'email' => [
-            'label' => 'Email address',
+            'label' => '電子郵件',
         ],
         'actions' => [
             'request' => [

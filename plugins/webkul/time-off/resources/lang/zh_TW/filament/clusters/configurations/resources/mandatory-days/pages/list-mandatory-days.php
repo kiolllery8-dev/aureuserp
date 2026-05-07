@@ -7,8 +7,8 @@ return [
 
             'notification' => [
                 'created' => [
-                    'title' => 'Mandatory day created',
-                    'body'  => 'The mandatory day has been created成功.',
+                    'title' => 'Mandatory day已建立',
+                    'body'  => 'The mandatory day has been已建立成功.',
                 ],
             ],
         ],

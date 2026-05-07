@@ -20,11 +20,11 @@ return [
     ],
 
     'filters' => [
-        'installation_status' => 'Installation Status',
+        'installation_status' => 'Installation狀態',
         'all_plugins'         => 'All Plugins',
         'installed'           => 'Installed',
         'not_installed'       => 'Not Installed',
-        'active_status'       => 'Active Status',
+        'active_status'       => 'Active狀態',
         'author'              => '作者',
         'webkul'              => 'Webkul',
         'third_party'         => 'Third Party',
@@ -63,27 +63,27 @@ return [
 
     'infolist' => [
         'section'  => [
-            'plugin'       => ' Plugin Information',
+            'plugin'       => ' Plugin資料',
             'dependencies' => 'Dependencies',
         ],
-        'name'         => 'Plugin Name',
+        'name'         => 'Plugin名稱',
         'version'      => 'Version',
         'dependencies' => 'Required Plugins',
         'dependents'   => 'Plugins That Depend On This',
-        'is_installed' => 'Installation Status',
+        'is_installed' => 'Installation狀態',
         'license'      => 'License',
         'summary'      => '描述',
 
         'dependencies-repeater' => [
             'title'        => 'Required Plugins',
-            'name'         => 'Plugin Name',
+            'name'         => 'Plugin名稱',
             'is_installed' => 'Installed',
             'placeholder'  => 'No dependencies required',
         ],
 
         'dependents-repeater' => [
             'title'        => 'Plugins That Depend On This',
-            'name'         => 'Plugin Name',
+            'name'         => 'Plugin名稱',
             'is_installed' => 'Installed',
             'placeholder'  => 'No dependents',
         ],

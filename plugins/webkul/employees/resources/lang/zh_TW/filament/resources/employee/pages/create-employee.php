@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Employee created',
-        'body'  => 'The employee has been created成功.',
+        'title' => 'Employee已建立',
+        'body'  => 'The employee has been已建立成功.',
     ],
 ];

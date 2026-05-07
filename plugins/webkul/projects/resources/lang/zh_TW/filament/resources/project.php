@@ -18,13 +18,13 @@ return [
 
                 'fields' => [
                     'name'             => '名稱',
-                    'name-placeholder' => 'Project Name...',
+                    'name-placeholder' => 'Project名稱...',
                     'description'      => '描述',
                 ],
             ],
 
             'additional' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
 
                 'fields' => [
                     'project-manager'             => 'Project Manager',
@@ -48,7 +48,7 @@ return [
                     'internal-description'         => 'All internal users can see.',
                     'public-description'           => 'Invited portal users and all internal users.',
                     'time-management'              => 'Time Management',
-                    'allow-timesheets'             => 'Allow Timesheets',
+                    'allow-timesheets'             => 'Allow時間sheets',
                     'allow-timesheets-helper-text' => 'Log time on tasks and track progress',
                     'task-management'              => 'Task Management',
                     'allow-milestones'             => 'Allow Milestones',
@@ -64,7 +64,7 @@ return [
             'customer'        => '客戶',
             'start-date'      => '開始日期',
             'end-date'        => '結束日期',
-            'planned-date'    => 'Planned Date',
+            'planned-date'    => 'Planned日期',
             'remaining-hours' => 'Remaining Hours',
             'project-manager' => 'Project Manager',
         ],
@@ -81,7 +81,7 @@ return [
             'visibility'       => 'Visibility',
             'start-date'       => '開始日期',
             'end-date'         => '結束日期',
-            'allow-timesheets' => 'Allow Timesheets',
+            'allow-timesheets' => 'Allow時間sheets',
             'allow-milestones' => 'Allow Milestones',
             'allocated-hours'  => 'Allocated Hours',
             'created-at'       => '建立時間',
@@ -90,7 +90,7 @@ return [
             'customer'         => '客戶',
             'project-manager'  => 'Project Manager',
             'company'          => '公司',
-            'creator'          => 'Creator',
+            'creator'          => '建立者',
             'tags'             => '標籤',
         ],
 
@@ -107,8 +107,8 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Project deleted',
-                    'body'  => 'The project has been deleted成功.',
+                    'title' => 'Project已刪除',
+                    'body'  => 'The project has been已刪除成功.',
                 ],
             ],
 
@@ -117,12 +117,12 @@ return [
                 'notification' => [
 
                     'success' => [
-                        'title' => 'Project permanently deleted',
-                        'body'  => 'The project has been permanently deleted成功.',
+                        'title' => 'Project permanently已刪除',
+                        'body'  => 'The project has been permanently已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Project cannot be permanently deleted',
+                        'title' => 'Project cannot be permanently已刪除',
                         'body'  => 'The project is associated with other記錄s.',
                     ],
 
@@ -139,18 +139,18 @@ return [
 
                 'entries' => [
                     'name'             => '名稱',
-                    'name-placeholder' => 'Project Name...',
+                    'name-placeholder' => 'Project名稱...',
                     'description'      => '描述',
                 ],
             ],
 
             'additional' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
 
                 'entries' => [
                     'project-manager'        => 'Project Manager',
                     'customer'               => '客戶',
-                    'project-timeline'       => 'Project Timeline',
+                    'project-timeline'       => 'Project時間line',
                     'allocated-hours'        => 'Allocated Hours',
                     'allocated-hours-suffix' => ' Hours',
                     'remaining-hours'        => 'Remaining Hours',
@@ -161,7 +161,7 @@ return [
             ],
 
             'statistics' => [
-                'title' => 'Statistics',
+                'title' => '統計',
 
                 'entries' => [
                     'total-tasks'         => 'Total Tasks',
@@ -170,12 +170,12 @@ return [
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'created-at'   => '建立時間',
                     'created-by'   => '建立者',
-                    'last-updated' => 'Last Updated',
+                    'last-updated' => '最後更新',
                 ],
             ],
 

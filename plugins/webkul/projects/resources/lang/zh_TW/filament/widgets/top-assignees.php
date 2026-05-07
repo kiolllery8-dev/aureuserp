@@ -7,7 +7,7 @@ return [
 
     'table-columns' => [
         'user'        => '使用者',
-        'hours-spent' => 'Hours Spent',
+        'hours-spent' => '工時',
         'tasks'       => '任務',
     ],
 ];

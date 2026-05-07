@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Location updated',
-        'body'  => 'The location has been updated成功.',
+        'title' => 'Location已更新',
+        'body'  => 'The location has been已更新成功.',
     ],
 
     'header-actions' => [
@@ -13,8 +13,8 @@ return [
 
         'delete' => [
             'notification' => [
-                'title' => 'Location deleted',
-                'body'  => 'The location has been deleted成功.',
+                'title' => 'Location已刪除',
+                'body'  => 'The location has been已刪除成功.',
             ],
         ],
     ],

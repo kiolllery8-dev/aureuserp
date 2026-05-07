@@ -5,14 +5,14 @@ return [
 
     'log-attributes' => [
         'date'              => '日期',
-        'payment-type'      => 'Payment Type',
-        'partner-type'      => 'Partner Type',
+        'payment-type'      => 'Payment類型',
+        'partner-type'      => 'Partner類型',
         'memo'              => 'Memo',
-        'payment-reference' => 'Payment Reference',
+        'payment-reference' => '付款參考',
         'amount'            => '金額',
         'partner'           => '夥伴',
         'partner-bank'      => 'Partner Bank',
-        'payment-method'    => 'Payment Method',
+        'payment-method'    => '付款方式',
         'currency'          => '幣別',
     ],
 ];

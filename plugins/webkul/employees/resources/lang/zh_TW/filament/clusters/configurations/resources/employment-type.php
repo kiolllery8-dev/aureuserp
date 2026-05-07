@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'title' => 'Employment Types',
+    'title' => 'Employment類型s',
 
     'navigation' => [
-        'title' => 'Employment Types',
+        'title' => 'Employment類型s',
         'group' => '招募',
     ],
 
     'form' => [
         'fields' => [
-            'name'    => 'Employment Type',
+            'name'    => '雇用類型',
             'code'    => '代碼',
             'country' => '國家',
         ],
@@ -18,8 +18,8 @@ return [
 
     'table' => [
         'columns' => [
-            'id'         => 'ID',
-            'name'       => 'Employment Type',
+            'id'         => '編號',
+            'name'       => '雇用類型',
             'code'       => '代碼',
             'country'    => '國家',
             'created-by' => '建立者',
@@ -28,7 +28,7 @@ return [
         ],
 
         'filters' => [
-            'name'       => 'Employment Type',
+            'name'       => '雇用類型',
             'country'    => '國家',
             'created-by' => '建立者',
             'updated-at' => '更新時間',
@@ -36,7 +36,7 @@ return [
         ],
 
         'groups' => [
-            'name'       => 'Employment Type',
+            'name'       => '雇用類型',
             'country'    => '國家',
             'code'       => '代碼',
             'created-by' => '建立者',
@@ -47,15 +47,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Employment Type',
-                    'body'  => 'The Employment Type has been edited成功.',
+                    'title' => '雇用類型',
+                    'body'  => 'The Employment類型 has been edited成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Employment Type deleted',
-                    'body'  => 'The Employment Type has been deleted成功.',
+                    'title' => 'Employment類型已刪除',
+                    'body'  => 'The Employment類型 has been已刪除成功.',
                 ],
             ],
         ],
@@ -63,8 +63,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Employment Types deleted',
-                    'body'  => 'The Employment Types has been deleted成功.',
+                    'title' => 'Employment類型s已刪除',
+                    'body'  => 'The Employment類型s has been已刪除成功.',
                 ],
             ],
         ],
@@ -72,8 +72,8 @@ return [
         'empty-state-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Employment Types',
-                    'body'  => 'The Employment Types has been created成功.',
+                    'title' => 'Employment類型s',
+                    'body'  => 'The Employment類型s has been已建立成功.',
                 ],
             ],
         ],
@@ -81,7 +81,7 @@ return [
 
     'infolist' => [
         'entries' => [
-            'name'    => 'Employment Type',
+            'name'    => '雇用類型',
             'code'    => '代碼',
             'country' => '國家',
         ],

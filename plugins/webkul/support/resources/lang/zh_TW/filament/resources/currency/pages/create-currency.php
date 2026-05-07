@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Create Currency',
+    'title' => '新增幣別',
 
     'notification' => [
-        'title' => 'Currency created',
-        'body'  => 'The currency has been created成功.',
+        'title' => 'Currency已建立',
+        'body'  => 'The currency has been已建立成功.',
     ],
 ];

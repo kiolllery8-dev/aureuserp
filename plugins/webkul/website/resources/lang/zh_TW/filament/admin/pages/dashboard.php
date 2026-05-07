@@ -3,9 +3,9 @@
 return [
     'stats-overview' => 'Stats Overview',
 
-    'from-date' => 'From Date',
+    'from-date' => '起始日期',
 
-    'to-date' => 'To Date',
+    'to-date' => '截止日期',
 
     'author' => '作者',
 

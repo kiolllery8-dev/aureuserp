@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'notification' => [
             'delete' => [
-                'title' => 'Order Template Product deleted',
-                'body'  => 'Order Template Product has been deleted成功',
+                'title' => 'Order Template Product已刪除',
+                'body'  => 'Order Template Product has been已刪除成功',
             ],
         ],
     ],

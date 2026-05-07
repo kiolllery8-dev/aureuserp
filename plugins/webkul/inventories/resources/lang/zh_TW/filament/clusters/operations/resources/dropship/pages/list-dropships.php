@@ -6,8 +6,8 @@ return [
             'label' => '新增Dropship',
 
             'notification' => [
-                'title' => 'Dropship created',
-                'body'  => 'The dropship has been created成功.',
+                'title' => 'Dropship已建立',
+                'body'  => 'The dropship has been已建立成功.',
             ],
         ],
     ],

@@ -6,7 +6,7 @@ return [
     'log-attributes' => [
         'title'             => '標題',
         'description'       => '描述',
-        'color'             => 'Color',
+        'color'             => '顏色',
         'priority'          => '優先順序',
         'state'             => '狀態',
         'sort'              => 'Sort Order',
@@ -19,6 +19,6 @@ return [
         'partner'           => '夥伴',
         'parent'            => 'Parent Task',
         'company'           => '公司',
-        'creator'           => 'Creator',
+        'creator'           => '建立者',
     ],
 ];

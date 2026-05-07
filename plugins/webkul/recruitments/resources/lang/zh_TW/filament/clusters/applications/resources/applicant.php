@@ -31,7 +31,7 @@ return [
                     'interviewer'               => 'Interviewer',
                     'tags'                      => '標籤',
                     'notes'                     => '備註',
-                    'hired-date'                => 'Hired Date',
+                    'hired-date'                => 'Hired日期',
                     'job-position'              => '職位',
                 ],
             ],
@@ -41,7 +41,7 @@ return [
 
                 'fields' => [
                     'degree'            => 'Degree',
-                    'availability-date' => 'Availability Date',
+                    'availability-date' => 'Availability日期',
                 ],
             ],
 
@@ -64,7 +64,7 @@ return [
                 'title' => 'Source & Medium',
 
                 'fields' => [
-                    'source' => 'Source',
+                    'source' => '來源',
                     'medium' => '中',
                 ],
             ],
@@ -73,13 +73,13 @@ return [
 
     'table' => [
         'columns' => [
-            'partner-name'       => 'Partner Name',
+            'partner-name'       => 'Partner名稱',
             'applied-on'         => 'Applied On',
             'job-position'       => '職位',
             'stage'              => '階段',
-            'candidate-name'     => 'Candidate Name',
+            'candidate-name'     => 'Candidate名稱',
             'evaluation'         => 'Evaluation',
-            'application-status' => 'Application Status',
+            'application-status' => 'Application狀態',
             'tags'               => '標籤',
             'refuse-reason'      => 'Refuse Reason',
             'email'              => '電子郵件',
@@ -87,13 +87,13 @@ return [
             'interviewer'        => 'Interviewer',
             'candidate-phone'    => '電話',
             'medium'             => '中',
-            'source'             => 'Source',
+            'source'             => '來源',
             'salary-expected'    => 'Expected Salary',
-            'availability-date'  => 'Availability Date',
+            'availability-date'  => 'Availability日期',
         ],
 
         'filters' => [
-            'source'                  => 'Source',
+            'source'                  => '來源',
             'medium'                  => '中',
             'candidate'               => '應徵者',
             'priority'                => '優先順序',
@@ -101,7 +101,7 @@ return [
             'salary-expected-extra'   => 'Salary Expected Extra',
             'applicant-notes'         => 'Applicant Notes',
             'create-date'             => 'Applied On',
-            'date-closed'             => 'Hired Date',
+            'date-closed'             => 'Hired日期',
             'date-last-stage-updated' => 'Last Stage Updated',
             'stage'                   => '階段',
             'job-position'            => '職位',
@@ -111,7 +111,7 @@ return [
             'delete' => [
                 'notification' => [
                     'title' => 'Applicant Deleted',
-                    'body'  => 'The applicant was成功 deleted.',
+                    'body'  => 'The applicant was成功已刪除.',
                 ],
             ],
         ],
@@ -119,10 +119,10 @@ return [
         'groups' => [
             'stage'          => '階段',
             'job-position'   => '職位',
-            'candidate-name' => 'Candidate Name',
-            'responsible'    => 'Responsible',
-            'creation-date'  => 'Creation Date',
-            'hired-date'     => 'Hired Date',
+            'candidate-name' => 'Candidate名稱',
+            'responsible'    => '負責人',
+            'creation-date'  => 'Creation日期',
+            'hired-date'     => 'Hired日期',
             'last-stage'     => 'Last Stage',
             'refuse-reason'  => 'Refuse Reason',
         ],
@@ -130,15 +130,15 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Employees deleted',
-                    'body'  => 'The employees has been deleted成功.',
+                    'title' => 'Employees已刪除',
+                    'body'  => 'The employees has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Employees deleted',
-                    'body'  => 'The employees has been deleted成功.',
+                    'title' => 'Employees已刪除',
+                    'body'  => 'The employees has been已刪除成功.',
                 ],
             ],
 
@@ -178,7 +178,7 @@ return [
 
                 'entries' => [
                     'degree'            => 'Degree',
-                    'availability-date' => 'Availability Date',
+                    'availability-date' => 'Availability日期',
                 ],
             ],
 
@@ -201,7 +201,7 @@ return [
                 'title' => 'Source & Medium',
 
                 'entries' => [
-                    'source' => 'Source',
+                    'source' => '來源',
                     'medium' => '中',
                 ],
             ],

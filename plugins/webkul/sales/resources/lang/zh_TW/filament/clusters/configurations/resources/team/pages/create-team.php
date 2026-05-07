@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Sales Team created',
-        'body'  => 'The sales team has been created成功.',
+        'title' => 'Sales Team已建立',
+        'body'  => 'The sales team has been已建立成功.',
     ],
 ];

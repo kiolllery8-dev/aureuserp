@@ -3,7 +3,7 @@
 return [
     'tabs' => [
         'my-department' => 'My Department',
-        'archived'      => 'Archived',
+        'archived'      => '已封存',
     ],
 
     'header-actions' => [

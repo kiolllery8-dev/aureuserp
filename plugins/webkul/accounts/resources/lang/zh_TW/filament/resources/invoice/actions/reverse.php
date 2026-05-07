@@ -4,11 +4,11 @@ return [
     'title' => 'Reverse',
 
     'modal' => [
-        'heading' => 'Create Reverse',
+        'heading' => '新增Reverse',
 
         'form' => [
             'reason'  => 'Reason displayed on Reverse',
-            'journal' => '日記帳',
+            'journal' => '帳本',
             'date'    => '日期',
         ],
     ],

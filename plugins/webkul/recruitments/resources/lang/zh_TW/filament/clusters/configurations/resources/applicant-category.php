@@ -12,15 +12,15 @@ return [
         'fields' => [
             'name'             => '名稱',
             'name-placeholder' => 'Enter the name of the tags',
-            'color'            => 'Color',
+            'color'            => '顏色',
         ],
     ],
 
     'table' => [
         'columns' => [
-            'id'         => 'ID',
+            'id'         => '編號',
             'name'       => '名稱',
-            'color'      => 'Color',
+            'color'      => '顏色',
             'created-by' => '建立者',
             'created-at' => '建立時間',
             'updated-at' => '更新時間',
@@ -37,15 +37,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Tags updated',
-                    'body'  => 'The tags has been updated成功.',
+                    'title' => 'Tags已更新',
+                    'body'  => 'The tags has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Tags deleted',
-                    'body'  => 'The tags has been deleted成功.',
+                    'title' => 'Tags已刪除',
+                    'body'  => 'The tags has been已刪除成功.',
                 ],
             ],
         ],
@@ -53,8 +53,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Applicant Categories deleted',
-                    'body'  => 'The applicant Categories has been deleted成功.',
+                    'title' => 'Applicant Categories已刪除',
+                    'body'  => 'The applicant Categories has been已刪除成功.',
                 ],
             ],
         ],
@@ -62,8 +62,8 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Tags created',
-                    'body'  => 'The tags has been created成功.',
+                    'title' => 'Tags已建立',
+                    'body'  => 'The tags has been已建立成功.',
                 ],
             ],
         ],
@@ -71,6 +71,6 @@ return [
 
     'infolist' => [
         'name'  => '名稱',
-        'color' => 'Color',
+        'color' => '顏色',
     ],
 ];

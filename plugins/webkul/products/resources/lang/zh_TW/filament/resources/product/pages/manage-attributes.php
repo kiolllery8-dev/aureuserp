@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Attributes',
+    'title' => '屬性',
 
     'form' => [
-        'attribute' => 'Attribute',
+        'attribute' => '屬性',
         'values'    => 'Values',
     ],
 
@@ -13,32 +13,32 @@ return [
 
         'header-actions' => [
             'create' => [
-                'label' => 'Add Attribute',
+                'label' => '新增Attribute',
 
                 'notification' => [
-                    'title' => 'Attribute created',
-                    'body'  => 'The attribute has been created成功.',
+                    'title' => 'Attribute已建立',
+                    'body'  => 'The attribute has been已建立成功.',
                 ],
             ],
         ],
 
         'columns' => [
-            'attribute' => 'Attribute',
+            'attribute' => '屬性',
             'values'    => 'Values',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Attribute updated',
-                    'body'  => 'The attribute has been updated成功.',
+                    'title' => 'Attribute已更新',
+                    'body'  => 'The attribute has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Attribute deleted',
-                    'body'  => 'The attribute has been deleted成功.',
+                    'title' => 'Attribute已刪除',
+                    'body'  => 'The attribute has been已刪除成功.',
                 ],
             ],
         ],

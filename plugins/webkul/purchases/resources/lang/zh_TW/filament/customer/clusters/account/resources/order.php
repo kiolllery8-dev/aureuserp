@@ -3,9 +3,9 @@
 return [
     'table' => [
         'columns' => [
-            'reference'         => '參考',
-            'total-amount'      => 'Total Amount',
-            'confirmation-date' => 'Confirmation Date',
+            'reference'         => '參考編號',
+            'total-amount'      => '總金額',
+            'confirmation-date' => 'Confirmation日期',
             'status'            => '狀態',
         ],
     ],
@@ -13,7 +13,7 @@ return [
     'infolist' => [
         'settings' => [
             'entries' => [
-                'buyer' => 'Buyer',
+                'buyer' => '買家',
             ],
 
             'actions' => [
@@ -53,13 +53,13 @@ return [
             'entries' => [
                 'purchase-order'        => 'Purchase Order #:id',
                 'quotation'             => 'Request for Quotation #:id',
-                'order-date'            => 'Order Date',
+                'order-date'            => '訂單日期',
                 'from'                  => 'From',
-                'confirmation-date'     => 'Confirmation Date',
-                'receipt-date'          => 'Receipt Date',
+                'confirmation-date'     => 'Confirmation日期',
+                'receipt-date'          => 'Receipt日期',
                 'products'              => '商品',
-                'untaxed-amount'        => 'Untaxed Amount',
-                'tax-amount'            => 'Tax Amount',
+                'untaxed-amount'        => '未稅金額',
+                'tax-amount'            => '稅額',
                 'total'                 => '總計',
                 'communication-history' => 'Communication History',
             ],

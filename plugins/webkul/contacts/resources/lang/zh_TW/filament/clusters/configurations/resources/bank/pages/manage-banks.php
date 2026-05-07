@@ -6,14 +6,14 @@ return [
             'label' => '新增Bank',
 
             'notification' => [
-                'title' => 'Bank created',
-                'body'  => 'The bank has been created成功.',
+                'title' => 'Bank已建立',
+                'body'  => 'The bank has been已建立成功.',
             ],
         ],
     ],
 
     'tabs' => [
         'all'      => '全部',
-        'archived' => 'Archived',
+        'archived' => '已封存',
     ],
 ];

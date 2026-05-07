@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Stage created',
-        'body'  => 'The stage has been created成功.',
+        'title' => 'Stage已建立',
+        'body'  => 'The stage has been已建立成功.',
     ],
 ];

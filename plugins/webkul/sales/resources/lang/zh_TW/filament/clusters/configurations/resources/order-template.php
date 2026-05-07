@@ -19,8 +19,8 @@ return [
             'company'        => '公司',
             'product'        => '商品',
             'product-uom'    => 'Product UOM',
-            'creator'        => 'Creator',
-            'display-type'   => 'Display Type',
+            'creator'        => '建立者',
+            'display-type'   => '顯示類型',
             'name'           => '名稱',
             'quantity'       => '數量',
         ],
@@ -34,7 +34,7 @@ return [
             'product'        => '商品',
             'product-uom'    => 'Product UOM',
             'created-by'     => '建立者',
-            'display-type'   => 'Display Type',
+            'display-type'   => '顯示類型',
             'name'           => '名稱',
             'quantity'       => '數量',
             'created-at'     => '建立時間',
@@ -44,23 +44,23 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Order Template Products updated',
-                    'body'  => 'The order template products has been updated成功.',
+                    'title' => 'Order Template Products已更新',
+                    'body'  => 'The order template products has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Order Template Products deleted',
-                    'body'  => 'The order template products has been deleted成功.',
+                    'title' => 'Order Template Products已刪除',
+                    'body'  => 'The order template products has been已刪除成功.',
                 ],
             ],
         ],
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Order Template Products deleted',
-                    'body'  => 'The order template products has been deleted成功.',
+                    'title' => 'Order Template Products已刪除',
+                    'body'  => 'The order template products has been已刪除成功.',
                 ],
             ],
         ],
@@ -73,7 +73,7 @@ return [
             'company'        => '公司',
             'product'        => '商品',
             'product-uom'    => 'Product UOM',
-            'display-type'   => 'Display Type',
+            'display-type'   => '顯示類型',
             'name'           => '名稱',
             'quantity'       => '數量',
         ],

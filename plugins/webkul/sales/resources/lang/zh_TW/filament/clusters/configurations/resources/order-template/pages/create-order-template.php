@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Order Template Product created',
-        'body'  => 'The Order Template Product has been created成功',
+        'title' => 'Order Template Product已建立',
+        'body'  => 'The Order Template Product has been已建立成功',
     ],
 ];

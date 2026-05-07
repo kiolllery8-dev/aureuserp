@@ -1,14 +1,14 @@
 <?php
 
 return [
-    'label' => 'Add New',
+    'label' => '新增New',
 
     'form' => [
         'name'                  => '名稱',
-        'color'                 => 'Color',
+        'color'                 => '顏色',
         'icon'                  => 'Icon',
-        'add-to-favorites'      => 'Add To Favorites',
-        'add-to-favorites-help' => 'Add this filter to your favorites',
+        'add-to-favorites'      => '新增To Favorites',
+        'add-to-favorites-help' => '新增this filter to your favorites',
         'make-public'           => 'Make Public',
         'make-public-help'      => 'Make this filter available to all users',
         'options'               => [

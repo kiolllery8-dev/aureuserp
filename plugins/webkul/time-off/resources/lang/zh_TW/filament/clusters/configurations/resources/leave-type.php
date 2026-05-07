@@ -21,22 +21,22 @@ return [
             'display-option' => [
                 'title'  => 'Display Option',
                 'fields' => [
-                    'color' => 'Color',
+                    'color' => '顏色',
                 ],
             ],
             'configuration' => [
                 'title' => '組態設定',
 
                 'fields' => [
-                    'notified-time-off-officers'          => 'Notified Time Off Officers',
-                    'take-time-off-in'                    => 'Take Time Off In',
+                    'notified-time-off-officers'          => 'Notified時間 Off Officers',
+                    'take-time-off-in'                    => 'Take時間 Off In',
                     'public-holiday-included'             => 'Public Holiday Included',
                     'allow-to-attach-supporting-document' => 'Allow to Attach Supporting Document',
                     'show-on-dashboard'                   => 'Show on Dashboard',
                     'allow-negative-cap'                  => 'Allow Negative Cap',
-                    'kind-off-time'                       => 'Kind of Time',
+                    'kind-off-time'                       => 'Kind of時間',
                     'max-negative-cap'                    => 'Max Negative Cap',
-                    'kind-of-time'                        => 'Kind of Time Off',
+                    'kind-of-time'                        => 'Kind of時間 Off',
                 ],
             ],
         ],
@@ -46,8 +46,8 @@ return [
         'columns' => [
             'name'                      => '名稱',
             'company-name'              => '公司',
-            'color'                     => 'Color',
-            'notified-time-officers'    => 'Notified Time Officers',
+            'color'                     => '顏色',
+            'notified-time-officers'    => 'Notified時間 Officers',
             'time-off-approval'         => 'Time Off Approval',
             'requires-allocation'       => 'Requires Allocation',
             'allocation-approval'       => 'Allocation Approval',
@@ -59,7 +59,7 @@ return [
             'company-name'        => '公司',
             'time-off-approval'   => 'Time Off Approval',
             'requires-allocation' => 'Requires Allocation',
-            'time-type'           => 'Time Type',
+            'time-type'           => 'Time類型',
             'request-unit'        => 'Request Unit',
             'created-by'          => '建立者',
         ],
@@ -67,13 +67,13 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Leave Type deleted',
-                    'body'  => 'The Leave type has been deleted成功.',
+                    'title' => 'Leave類型已刪除',
+                    'body'  => 'The Leave type has been已刪除成功.',
                 ],
             ],
             'restore' => [
                 'notification' => [
-                    'title' => 'Leave Type restored',
+                    'title' => 'Leave類型 restored',
                     'body'  => 'The Leave type has been restored成功.',
                 ],
             ],
@@ -82,27 +82,27 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Leave Type restored',
-                    'body'  => 'The Leave Type has been restored成功.',
+                    'title' => 'Leave類型 restored',
+                    'body'  => 'The Leave類型 has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Leave Type deleted',
-                    'body'  => 'The Leave Type has been deleted成功.',
+                    'title' => 'Leave類型已刪除',
+                    'body'  => 'The Leave類型 has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Leave Type force deleted',
-                        'body'  => 'The Leave Type has been force deleted成功.',
+                        'title' => 'Leave類型 force已刪除',
+                        'body'  => 'The Leave類型 has been force已刪除成功.',
                     ],
                     'error' => [
-                        'title' => 'Leave Type could not be deleted',
-                        'body'  => 'The Leave Type cannot be deleted because it is currently in use.',
+                        'title' => 'Leave類型 could not be已刪除',
+                        'body'  => 'The Leave類型 cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -124,21 +124,21 @@ return [
             'display-option' => [
                 'title'   => 'Display Option',
                 'entries' => [
-                    'color' => 'Color',
+                    'color' => '顏色',
                 ],
             ],
             'configuration' => [
                 'title' => '組態設定',
 
                 'entries' => [
-                    'notified-time-off-officers'          => 'Notified Time Off Officers',
-                    'take-time-off-in'                    => 'Take Time Off In',
+                    'notified-time-off-officers'          => 'Notified時間 Off Officers',
+                    'take-time-off-in'                    => 'Take時間 Off In',
                     'public-holiday-included'             => 'Public Holiday Included',
                     'allow-to-attach-supporting-document' => 'Allow to Attach Supporting Document',
                     'show-on-dashboard'                   => 'Show on Dashboard',
-                    'kind-off-time'                       => 'Kind of Time',
+                    'kind-off-time'                       => 'Kind of時間',
                     'max-negative-cap'                    => 'Max Negative Cap',
-                    'kind-of-time'                        => 'Kind of Time Off',
+                    'kind-of-time'                        => 'Kind of時間 Off',
                 ],
             ],
         ],

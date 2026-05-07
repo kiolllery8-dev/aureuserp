@@ -3,8 +3,8 @@
 return [
     'notification' => [
         'success' => [
-            'title' => 'Payment term created',
-            'body'  => 'The payment term has been created成功.',
+            'title' => 'Payment term已建立',
+            'body'  => 'The payment term has been已建立成功.',
         ],
 
         'validation-error' => [

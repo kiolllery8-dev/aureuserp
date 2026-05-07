@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'model-label' => '財務立場',
+    'model-label' => '稅務情境',
 
     'navigation' => [
         'title' => 'Fiscal Positions',

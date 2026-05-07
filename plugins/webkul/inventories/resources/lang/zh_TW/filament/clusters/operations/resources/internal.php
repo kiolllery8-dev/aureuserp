@@ -15,13 +15,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Internal Transfer deleted',
-                        'body'  => 'The internal transfer ras been deleted成功.',
+                        'title' => 'Internal Transfer已刪除',
+                        'body'  => 'The internal transfer ras been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Internal Transfer could not be deleted',
-                        'body'  => 'The internal transfer cannot be deleted because it is currently in use.',
+                        'title' => 'Internal Transfer could not be已刪除',
+                        'body'  => 'The internal transfer cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -31,13 +31,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Internal Transfers deleted',
-                        'body'  => 'The internal transfers has been deleted成功.',
+                        'title' => 'Internal Transfers已刪除',
+                        'body'  => 'The internal transfers has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Internal Transfers could not be deleted',
-                        'body'  => 'The internal transfers cannot be deleted because they are currently in use.',
+                        'title' => 'Internal Transfers could not be已刪除',
+                        'body'  => 'The internal transfers cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],

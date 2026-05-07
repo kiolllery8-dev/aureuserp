@@ -10,7 +10,7 @@ return [
     'table' => [
         'columns' => [
             'name'         => '名稱',
-            'manager-name' => 'Manager',
+            'manager-name' => '主管',
             'company-name' => '公司',
         ],
 

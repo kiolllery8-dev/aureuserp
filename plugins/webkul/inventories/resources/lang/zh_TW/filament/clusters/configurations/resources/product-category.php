@@ -13,7 +13,7 @@ return [
 
                 'fieldsets' => [
                     'logistics' => [
-                        'title' => 'Logistics',
+                        'title' => '物流',
 
                         'fields' => [
                             'routes' => '路徑',
@@ -31,11 +31,11 @@ return [
 
                 'subsections' => [
                     'logistics' => [
-                        'title' => 'Logistics',
+                        'title' => '物流',
 
                         'entries' => [
                             'routes'     => 'Warehouse Routes',
-                            'route_name' => 'Route Name',
+                            'route_name' => 'Route名稱',
                         ],
                     ],
                 ],

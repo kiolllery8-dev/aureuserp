@@ -6,8 +6,8 @@ return [
             'label' => '新增Packaging',
 
             'notification' => [
-                'title' => 'Packaging created',
-                'body'  => 'The packaging has been created成功.',
+                'title' => 'Packaging已建立',
+                'body'  => 'The packaging has been已建立成功.',
             ],
         ],
     ],

@@ -7,7 +7,7 @@ return [
     ],
 
     'global-search' => [
-        'ref'     => '參考',
+        'ref'     => '參考編號',
         'product' => '商品',
     ],
 
@@ -21,7 +21,7 @@ return [
                     'name-placeholder'       => 'e.g. LOT/0001/20121',
                     'product'                => '商品',
                     'product-hint-tooltip'   => 'The product associated with this lot/serial number. It cannot be changed if it has already been moved.',
-                    'reference'              => '參考',
+                    'reference'              => '參考編號',
                     'reference-hint-tooltip' => 'An internal reference number, if different from the manufacturer\'s lot/serial number.',
                     'description'            => '描述',
                 ],
@@ -33,8 +33,8 @@ return [
         'columns' => [
             'name'         => '名稱',
             'product'      => '商品',
-            'on-hand-qty'  => 'On Hand Quantity',
-            'reference'    => '內部參考',
+            'on-hand-qty'  => '現有數量',
+            'reference'    => '內部編號',
             'created-at'   => '建立時間',
             'updated-at'   => '更新時間',
         ],
@@ -48,7 +48,7 @@ return [
         'filters' => [
             'product'  => '商品',
             'location' => '位置',
-            'creator'  => 'Creator',
+            'creator'  => '建立者',
             'company'  => '公司',
         ],
 
@@ -56,13 +56,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Lot deleted',
-                        'body'  => 'The lot has been deleted成功.',
+                        'title' => 'Lot已刪除',
+                        'body'  => 'The lot has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Lot could not be deleted',
-                        'body'  => 'The lot cannot be deleted because it is currently in use.',
+                        'title' => 'Lot could not be已刪除',
+                        'body'  => 'The lot cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -76,13 +76,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Lots deleted',
-                        'body'  => 'The lots has been deleted成功.',
+                        'title' => 'Lots已刪除',
+                        'body'  => 'The lots has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Lots could not be deleted',
-                        'body'  => 'The lots cannot be deleted because they are currently in use.',
+                        'title' => 'Lots could not be已刪除',
+                        'body'  => 'The lots cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],
@@ -95,24 +95,24 @@ return [
                 'title' => 'Lot Details',
 
                 'entries' => [
-                    'name'        => 'Lot Name',
+                    'name'        => 'Lot名稱',
                     'product'     => '商品',
-                    'reference'   => '參考',
+                    'reference'   => '參考編號',
                     'description' => '描述',
-                    'on-hand-qty' => 'On-Hand Quantity',
+                    'on-hand-qty' => 'On-Hand數量',
                     'company'     => '公司',
                     'created-at'  => '建立時間',
-                    'updated-at'  => 'Last Updated',
+                    'updated-at'  => '最後更新',
                 ],
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'created-by'   => '建立者',
                     'created-at'   => '建立時間',
-                    'last-updated' => 'Last Updated',
+                    'last-updated' => '最後更新',
                 ],
             ],
         ],

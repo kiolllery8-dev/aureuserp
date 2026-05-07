@@ -4,6 +4,6 @@ return [
     'on-demand' => 'Ask at launch',
     'other'     => 'Default user',
     'coach'     => 'Coach',
-    'manager'   => 'Manager',
+    'manager'   => '主管',
     'employee'  => 'Employee',
 ];

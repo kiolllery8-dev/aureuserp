@@ -2,10 +2,10 @@
 
 return [
     'tabs' => [
-        'goods'                => 'Goods',
-        'services'             => 'Services',
+        'goods'                => '商品',
+        'services'             => '服務',
         'favorites'            => 'Favorites',
-        'archived'             => 'Archived',
+        'archived'             => '已封存',
     ],
 
     'header-actions' => [
@@ -13,8 +13,8 @@ return [
             'label' => '新增Product',
 
             'notification' => [
-                'title' => 'Product created',
-                'body'  => 'The product has been created成功.',
+                'title' => 'Product已建立',
+                'body'  => 'The product has been已建立成功.',
             ],
         ],
     ],

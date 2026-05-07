@@ -20,7 +20,7 @@ return [
                 ],
             ],
             'addition-information' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
 
                 'fields' => [
                     'created-by' => '建立者',
@@ -32,7 +32,7 @@ return [
 
     'table' => [
         'columns' => [
-            'id'              => 'ID',
+            'id'              => '編號',
             'employee'        => 'Employee',
             'skill'           => '技能',
             'skill-level'     => 'Level',
@@ -74,7 +74,7 @@ return [
             ],
 
             'additional-information' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
 
                 'entries' => [
                     'created-by' => '建立者',

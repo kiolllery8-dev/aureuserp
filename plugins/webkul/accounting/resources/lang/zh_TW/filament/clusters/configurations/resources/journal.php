@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'model-label' => '日記帳',
+    'model-label' => '帳本',
 
     'navigation' => [
-        'title' => '日記帳',
+        'title' => '帳本',
         'group' => '會計',
     ],
 ];

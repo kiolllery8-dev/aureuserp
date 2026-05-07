@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'dashboard'   => '儀表板',
-        'contact'     => 'Contact',
+        'contact'     => '聯絡人',
         'sale'        => '銷售',
         'purchase'    => '採購',
         'invoice'     => '發票',

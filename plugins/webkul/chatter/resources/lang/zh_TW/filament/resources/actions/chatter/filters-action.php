@@ -30,7 +30,7 @@ return [
     'sort-options' => [
         'created_at_desc' => 'Newest first',
         'created_at_asc'  => 'Oldest first',
-        'updated_at_desc' => 'Recently updated',
+        'updated_at_desc' => 'Recently已更新',
         'priority'        => '優先順序',
     ],
     'actions' => [

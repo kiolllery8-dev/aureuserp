@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Create Order',
+    'title' => '新增Order',
 
     'notification' => [
-        'title' => 'Order created',
-        'body'  => 'The order has been created成功.',
+        'title' => 'Order已建立',
+        'body'  => 'The order has been已建立成功.',
     ],
 ];

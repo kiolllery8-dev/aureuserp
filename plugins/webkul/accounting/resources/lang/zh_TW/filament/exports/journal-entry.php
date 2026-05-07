@@ -2,16 +2,16 @@
 
 return [
     'columns' => [
-        'invoice-date' => 'Invoice Date',
+        'invoice-date' => '開立日期',
         'date'         => '日期',
-        'number'       => 'Number',
+        'number'       => '編號',
         'partner'      => '夥伴',
-        'reference'    => '參考',
-        'journal'      => '日記帳',
+        'reference'    => '參考編號',
+        'journal'      => '帳本',
         'company'      => '公司',
         'total'        => '總計',
         'state'        => '狀態',
-        'checked'      => 'Checked',
+        'checked'      => '已核對',
     ],
 
     'values' => [

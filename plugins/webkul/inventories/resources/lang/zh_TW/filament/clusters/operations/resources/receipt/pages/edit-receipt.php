@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Receipt updated',
-        'body'  => 'The receipt has been updated成功.',
+        'title' => 'Receipt已更新',
+        'body'  => 'The receipt has been已更新成功.',
     ],
 
     'header-actions' => [
@@ -14,13 +14,13 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Receipt deleted',
-                    'body'  => 'The receipt has been deleted成功.',
+                    'title' => 'Receipt已刪除',
+                    'body'  => 'The receipt has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Receipt could not be deleted',
-                    'body'  => 'The Receipt cannot be deleted because it is currently in use.',
+                    'title' => 'Receipt could not be已刪除',
+                    'body'  => 'The Receipt cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

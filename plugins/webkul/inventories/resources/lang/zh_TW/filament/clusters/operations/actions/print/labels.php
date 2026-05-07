@@ -13,8 +13,8 @@ return [
             'quantity'      => '數量',
 
             'quantity-type-options' => [
-                'operation' => 'Operation Quantity',
-                'custom'    => 'Custom Quantity',
+                'operation' => 'Operation數量',
+                'custom'    => 'Custom數量',
                 'per-slot'  => 'One per lot/SN',
                 'per-unit'  => 'One per unit',
             ],

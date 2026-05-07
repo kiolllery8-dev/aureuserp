@@ -10,12 +10,12 @@ return [
             'notification' => [
                 'success' => [
                     'title' => 'Order Deleted',
-                    'body'  => 'The order has been deleted成功.',
+                    'body'  => 'The order has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Order could not be deleted',
-                    'body'  => 'The order cannot be deleted because it is currently in use.',
+                    'title' => 'Order could not be已刪除',
+                    'body'  => 'The order cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

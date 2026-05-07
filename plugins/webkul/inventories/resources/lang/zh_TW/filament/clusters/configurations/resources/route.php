@@ -29,7 +29,7 @@ return [
                     'product-categories-hint-tooltip' => 'If selected, this route will be available for selection on the product category.',
                     'warehouses'                      => '倉庫',
                     'warehouses-hint-tooltip'         => 'When a warehouse is assigned to this route, it will be considered the default route for products moving through that warehouse.',
-                    'packaging'                       => 'Packaging',
+                    'packaging'                       => '包裝',
                     'packaging-hint-tooltip'          => 'If selected, this route will be available for selection on the packaging.',
                 ],
             ],
@@ -40,7 +40,7 @@ return [
         'columns' => [
             'route'      => '路徑',
             'company'    => '公司',
-            'deleted-at' => 'Deleted At',
+            'deleted-at' => '刪除時間',
             'created-at' => '建立時間',
             'updated-at' => '更新時間',
         ],
@@ -57,8 +57,8 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Route updated',
-                    'body'  => 'The route has been updated成功.',
+                    'title' => 'Route已更新',
+                    'body'  => 'The route has been已更新成功.',
                 ],
             ],
 
@@ -71,21 +71,21 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Route deleted',
-                    'body'  => 'The route has been deleted成功.',
+                    'title' => 'Route已刪除',
+                    'body'  => 'The route has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Route force deleted',
-                        'body'  => 'The route has been force deleted成功.',
+                        'title' => 'Route force已刪除',
+                        'body'  => 'The route has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Route could not be deleted',
-                        'body'  => 'The route cannot be deleted because it is currently in use.',
+                        'title' => 'Route could not be已刪除',
+                        'body'  => 'The route cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -101,21 +101,21 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Routes deleted',
-                    'body'  => 'The routes has been deleted成功.',
+                    'title' => 'Routes已刪除',
+                    'body'  => 'The routes has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Routes force deleted',
-                        'body'  => 'The routes has been force deleted成功.',
+                        'title' => 'Routes force已刪除',
+                        'body'  => 'The routes has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Routes could not be deleted',
-                        'body'  => 'The routes cannot be deleted because they are currently in use.',
+                        'title' => 'Routes could not be已刪除',
+                        'body'  => 'The routes cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],
@@ -145,18 +145,18 @@ return [
                     'product-categories-hint-tooltip' => 'If selected, this route will be available for selection on the product category.',
                     'warehouses'                      => '倉庫',
                     'warehouses-hint-tooltip'         => 'When a warehouse is assigned to this route, it will be considered the default route for products moving through that warehouse.',
-                    'packaging'                       => 'Packaging',
+                    'packaging'                       => '包裝',
                     'packaging-hint-tooltip'          => 'If selected, this route will be available for selection on the packaging.',
                 ],
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'created-by'   => '建立者',
                     'created-at'   => '建立時間',
-                    'last-updated' => 'Last Updated',
+                    'last-updated' => '最後更新',
                 ],
             ],
         ],

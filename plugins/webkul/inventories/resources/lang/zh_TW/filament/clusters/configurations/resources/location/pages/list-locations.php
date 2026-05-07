@@ -7,7 +7,7 @@ return [
         'customer'   => '客戶',
         'production' => 'Production',
         'vendor'     => '供應商',
-        'archived'   => 'Archived',
+        'archived'   => '已封存',
     ],
 
     'header-actions' => [
@@ -15,8 +15,8 @@ return [
             'label' => '新增Location',
 
             'notification' => [
-                'title' => 'Location created',
-                'body'  => 'The location has been created成功.',
+                'title' => 'Location已建立',
+                'body'  => 'The location has been已建立成功.',
             ],
         ],
     ],

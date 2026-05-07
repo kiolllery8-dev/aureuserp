@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Route created',
-        'body'  => 'The route has been created成功.',
+        'title' => 'Route已建立',
+        'body'  => 'The route has been已建立成功.',
     ],
 ];

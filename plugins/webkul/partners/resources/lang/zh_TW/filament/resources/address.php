@@ -10,8 +10,8 @@ return [
         'type'    => '類型',
         'address' => '地址',
         'city'    => '城市',
-        'street1' => 'Street 1',
-        'street2' => 'Street 2',
+        'street1' => '地址 1',
+        'street2' => '地址 2',
         'state'   => '狀態',
         'zip'     => '郵遞區號',
         'code'    => '代碼',
@@ -21,22 +21,22 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => 'Add Address',
+                'label' => '新增Address',
 
                 'notification' => [
-                    'title' => 'Address created',
-                    'body'  => 'The address has been created成功.',
+                    'title' => 'Address已建立',
+                    'body'  => 'The address has been已建立成功.',
                 ],
             ],
         ],
 
         'columns' => [
             'type'    => '類型',
-            'name'    => 'Contact Name',
+            'name'    => 'Contact名稱',
             'address' => '地址',
             'city'    => '城市',
-            'street1' => 'Street 1',
-            'street2' => 'Street 2',
+            'street1' => '地址 1',
+            'street2' => '地址 2',
             'state'   => '狀態',
             'zip'     => '郵遞區號',
             'country' => '國家',
@@ -45,15 +45,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Address updated',
-                    'body'  => 'The address has been updated成功.',
+                    'title' => 'Address已更新',
+                    'body'  => 'The address has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Address deleted',
-                    'body'  => 'The address has been deleted成功.',
+                    'title' => 'Address已刪除',
+                    'body'  => 'The address has been已刪除成功.',
                 ],
             ],
         ],
@@ -61,8 +61,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Addresses deleted',
-                    'body'  => 'The addresses has been deleted成功.',
+                    'title' => 'Addresses已刪除',
+                    'body'  => 'The addresses has been已刪除成功.',
                 ],
             ],
         ],

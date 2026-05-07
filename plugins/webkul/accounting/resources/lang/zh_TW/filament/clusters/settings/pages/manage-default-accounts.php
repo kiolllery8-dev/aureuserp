@@ -9,7 +9,7 @@ return [
 
             'fields' => [
                 'journal' => [
-                    'label' => '日記帳',
+                    'label' => '帳本',
                 ],
 
                 'gain' => [

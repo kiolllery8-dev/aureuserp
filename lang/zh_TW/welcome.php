@@ -6,8 +6,8 @@ return [
     
     'nav' => [
         'dashboard' => '儀表板',
-        'login' => 'Log in',
-        'register' => 'Register',
+        'login' => '登入',
+        'register' => '註冊',
     ],
     
     'hero' => [

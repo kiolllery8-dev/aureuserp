@@ -14,9 +14,9 @@ return [
                 'title' => '一般資料',
 
                 'fields' => [
-                    'name'                => 'Activity Type',
+                    'name'                => '活動類型',
                     'name-tooltip'        => 'Enter the official activity type name',
-                    'action'              => 'Action',
+                    'action'              => '動作',
                     'default-user'        => 'Default User',
                     'summary'             => '摘要',
                     'note'                => '備註',
@@ -24,7 +24,7 @@ return [
             ],
 
             'delay-information' => [
-                'title' => 'Delay Information',
+                'title' => 'Delay資料',
 
                 'fields' => [
                     'delay-count'            => 'Delay Count',
@@ -35,12 +35,12 @@ return [
             ],
 
             'advanced-information' => [
-                'title' => 'Advanced Information',
+                'title' => 'Advanced資料',
 
                 'fields' => [
                     'icon'                => 'Icon',
-                    'decoration-type'     => 'Decoration Type',
-                    'chaining-type'       => 'Chaining Type',
+                    'decoration-type'     => 'Decoration類型',
+                    'chaining-type'       => 'Chaining類型',
                     'suggest'             => 'Suggest',
                     'trigger'             => 'Trigger',
                 ],
@@ -59,11 +59,11 @@ return [
 
     'table' => [
         'columns' => [
-            'name'       => 'Activity Type',
+            'name'       => '活動類型',
             'summary'    => '摘要',
             'planned-in' => 'Planned In',
             'type'       => '類型',
-            'action'     => 'Action',
+            'action'     => '動作',
             'status'     => '狀態',
             'created-at' => '建立時間',
             'updated-at' => '更新時間',
@@ -77,15 +77,15 @@ return [
             'delay-unit'       => 'Delay Unit',
             'delay-source'     => 'Delay Source',
             'associated-model' => 'Associated Model',
-            'chaining-type'    => 'Chaining Type',
-            'decoration-type'  => 'Decoration Type',
+            'chaining-type'    => 'Chaining類型',
+            'decoration-type'  => 'Decoration類型',
             'default-user'     => 'Default User',
-            'creation-date'    => 'Creation Date',
+            'creation-date'    => 'Creation日期',
             'last-update'      => 'Last Update',
         ],
 
         'filters' => [
-            'action'    => 'Action',
+            'action'    => '動作',
             'status'    => '狀態',
             'has-delay' => 'Has Delay',
         ],
@@ -100,20 +100,20 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Activity type deleted',
-                    'body'  => 'The activity type has been deleted成功.',
+                    'title' => 'Activity type已刪除',
+                    'body'  => 'The activity type has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Activity type force deleted',
-                        'body'  => 'The Activity type has been force deleted成功.',
+                        'title' => 'Activity type force已刪除',
+                        'body'  => 'The Activity type has been force已刪除成功.',
                     ],
                     'error' => [
-                        'title' => 'Activity type  could not be deleted',
-                        'body'  => 'The Activity type  cannot be deleted because it is currently in use.',
+                        'title' => 'Activity type  could not be已刪除',
+                        'body'  => 'The Activity type  cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -129,15 +129,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Activity types deleted',
-                    'body'  => 'The activity types has been deleted成功.',
+                    'title' => 'Activity types已刪除',
+                    'body'  => 'The activity types has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Activity types force deleted',
-                    'body'  => 'The activity types has been force deleted成功.',
+                    'title' => 'Activity types force已刪除',
+                    'body'  => 'The activity types has been force已刪除成功.',
                 ],
             ],
         ],
@@ -149,9 +149,9 @@ return [
                 'title' => '一般資料',
 
                 'entries' => [
-                    'name'                => 'Activity Type',
+                    'name'                => '活動類型',
                     'name-tooltip'        => 'Enter the official activity type name',
-                    'action'              => 'Action',
+                    'action'              => '動作',
                     'default-user'        => 'Default User',
                     'plugin'              => 'Plugin',
                     'summary'             => '摘要',
@@ -160,7 +160,7 @@ return [
             ],
 
             'delay-information' => [
-                'title' => 'Delay Information',
+                'title' => 'Delay資料',
 
                 'entries' => [
                     'delay-count'            => 'Delay Count',
@@ -171,12 +171,12 @@ return [
             ],
 
             'advanced-information' => [
-                'title' => 'Advanced Information',
+                'title' => 'Advanced資料',
 
                 'entries' => [
                     'icon'                => 'Icon',
-                    'decoration-type'     => 'Decoration Type',
-                    'chaining-type'       => 'Chaining Type',
+                    'decoration-type'     => 'Decoration類型',
+                    'chaining-type'       => 'Chaining類型',
                     'suggest'             => 'Suggest',
                     'trigger'             => 'Trigger',
                 ],

@@ -1,14 +1,14 @@
 <?php
 
 return [
-    'create-employee'       => 'Create employee',
+    'create-employee'       => '新增employee',
     'goto-employee-tooltip' => 'Go to employee',
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Candidate deleted',
-                'body'  => 'The candidate has been deleted成功.',
+                'title' => 'Candidate已刪除',
+                'body'  => 'The candidate has been已刪除成功.',
             ],
         ],
     ],

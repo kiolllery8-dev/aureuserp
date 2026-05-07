@@ -3,7 +3,7 @@
 return [
     'tabs' => [
         'my-posts' => 'My Pages',
-        'archived' => 'Archived',
+        'archived' => '已封存',
     ],
 
     'header-actions' => [
@@ -11,8 +11,8 @@ return [
             'label' => '新增Page',
 
             'notification' => [
-                'title' => 'Page created',
-                'body'  => 'The page has been created成功.',
+                'title' => 'Page已建立',
+                'body'  => 'The page has been已建立成功.',
             ],
         ],
     ],

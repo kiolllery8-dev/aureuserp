@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'title' => 'Create Invoice',
+    'title' => '新增Invoice',
 
     'modal' => [
-        'heading' => 'Create Invoice',
+        'heading' => '新增Invoice',
     ],
 
     'notification' => [
         'invoice-created' => [
-            'title' => 'Invoice created',
-            'body'  => 'Invoice has been created成功.',
+            'title' => 'Invoice已建立',
+            'body'  => 'Invoice has been已建立成功.',
         ],
 
         'no-invoiceable-lines' => [
@@ -21,7 +21,7 @@ return [
 
     'form' => [
         'fields' => [
-            'create-invoice' => 'Create Invoice',
+            'create-invoice' => '新增Invoice',
         ],
     ],
 ];

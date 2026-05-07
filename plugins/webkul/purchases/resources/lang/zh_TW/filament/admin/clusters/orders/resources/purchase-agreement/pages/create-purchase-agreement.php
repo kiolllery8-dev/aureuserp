@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'title' => 'Create Purchase Agreement',
+    'title' => '新增Purchase Agreement',
 
     'notification' => [
-        'title' => 'Purchase Agreement created',
-        'body'  => 'The purchase agreement has been created成功.',
+        'title' => 'Purchase Agreement已建立',
+        'body'  => 'The purchase agreement has been已建立成功.',
     ],
 
     'confirmation' => [

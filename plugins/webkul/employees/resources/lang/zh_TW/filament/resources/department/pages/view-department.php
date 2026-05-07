@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Department deleted',
-                'body'  => 'The department has been deleted成功.',
+                'title' => 'Department已刪除',
+                'body'  => 'The department has been已刪除成功.',
             ],
         ],
     ],

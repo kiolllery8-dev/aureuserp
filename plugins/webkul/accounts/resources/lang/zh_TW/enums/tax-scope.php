@@ -2,5 +2,5 @@
 
 return [
     'service' => 'Service',
-    'consu'   => 'Goods',
+    'consu'   => '商品',
 ];

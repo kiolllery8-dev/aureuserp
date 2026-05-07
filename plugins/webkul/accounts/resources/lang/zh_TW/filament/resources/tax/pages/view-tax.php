@@ -5,13 +5,13 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Tax deleted',
-                    'body'  => 'The tax has been deleted成功.',
+                    'title' => 'Tax已刪除',
+                    'body'  => 'The tax has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Tax could not be deleted',
-                    'body'  => 'The tax cannot be deleted because it is currently in use.',
+                    'title' => 'Tax could not be已刪除',
+                    'body'  => 'The tax cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

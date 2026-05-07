@@ -3,6 +3,6 @@
 return [
     'notification' => [
         'title' => 'Accrual Plan Created',
-        'body'  => 'The accrual plan has been created成功.',
+        'body'  => 'The accrual plan has been已建立成功.',
     ],
 ];

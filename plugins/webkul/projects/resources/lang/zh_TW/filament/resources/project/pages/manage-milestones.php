@@ -6,11 +6,11 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => 'Add Project Milestone',
+                'label' => '新增Project Milestone',
 
                 'notification' => [
-                    'title' => 'Milestone created',
-                    'body'  => 'The milestone has been created成功.',
+                    'title' => 'Milestone已建立',
+                    'body'  => 'The milestone has been已建立成功.',
                 ],
             ],
         ],

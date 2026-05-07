@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Warehouse updated',
-        'body'  => 'The warehouse has been updated成功.',
+        'title' => 'Warehouse已更新',
+        'body'  => 'The warehouse has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Warehouse deleted',
-                'body'  => 'The warehouse has been deleted成功.',
+                'title' => 'Warehouse已刪除',
+                'body'  => 'The warehouse has been已刪除成功.',
             ],
         ],
     ],

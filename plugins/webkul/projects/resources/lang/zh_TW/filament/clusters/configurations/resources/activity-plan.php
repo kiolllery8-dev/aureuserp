@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Activity Plans',
+        'title' => '活動計畫',
     ],
 
     'form' => [
@@ -35,15 +35,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Activity Plan deleted',
-                    'body'  => 'The activity plan has been deleted成功.',
+                    'title' => '活動計畫已刪除',
+                    'body'  => 'The activity plan has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Activity Plan force deleted',
-                    'body'  => 'The activity plan has been force deleted成功.',
+                    'title' => 'Activity Plan force已刪除',
+                    'body'  => 'The activity plan has been force已刪除成功.',
                 ],
             ],
         ],
@@ -58,15 +58,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Activity Plans deleted',
-                    'body'  => 'The activity plans has been deleted成功.',
+                    'title' => 'Activity Plans已刪除',
+                    'body'  => 'The activity plans has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Activity Plans force deleted',
-                    'body'  => 'The activity plans has been force deleted成功.',
+                    'title' => 'Activity Plans force已刪除',
+                    'body'  => 'The activity plans has been force已刪除成功.',
                 ],
             ],
         ],
@@ -74,8 +74,8 @@ return [
         'empty-state' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Activity Plan created',
-                    'body'  => 'The activity plan has been created成功.',
+                    'title' => 'Activity Plan已建立',
+                    'body'  => 'The activity plan has been已建立成功.',
                 ],
             ],
         ],

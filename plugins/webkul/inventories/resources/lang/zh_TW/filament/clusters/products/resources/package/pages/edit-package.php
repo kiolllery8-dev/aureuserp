@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Package updated',
-        'body'  => 'The package has been updated成功.',
+        'title' => 'Package已更新',
+        'body'  => 'The package has been已更新成功.',
     ],
 
     'header-actions' => [
@@ -24,13 +24,13 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Package deleted',
-                    'body'  => 'The package has been deleted成功.',
+                    'title' => 'Package已刪除',
+                    'body'  => 'The package has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Package could not be deleted',
-                    'body'  => 'The package cannot be deleted because it is currently in use.',
+                    'title' => 'Package could not be已刪除',
+                    'body'  => 'The package cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

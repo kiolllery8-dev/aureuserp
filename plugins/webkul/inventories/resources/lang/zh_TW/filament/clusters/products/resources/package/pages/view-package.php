@@ -20,12 +20,12 @@ return [
             'notification' => [
                 'success' => [
                     'title' => 'Package Deleted',
-                    'body'  => 'The package has been deleted成功.',
+                    'body'  => 'The package has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Package could not be deleted',
-                    'body'  => 'The package cannot be deleted because it is currently in use.',
+                    'title' => 'Package could not be已刪除',
+                    'body'  => 'The package cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

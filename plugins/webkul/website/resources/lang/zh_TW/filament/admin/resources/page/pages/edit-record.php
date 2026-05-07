@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Page updated',
-        'body'  => 'The page has been updated成功.',
+        'title' => 'Page已更新',
+        'body'  => 'The page has been已更新成功.',
     ],
 
     'header-actions' => [
@@ -20,15 +20,15 @@ return [
             'label' => '發佈',
 
             'notification' => [
-                'title' => 'Page published',
-                'body'  => 'The page has been published成功.',
+                'title' => 'Page已發佈',
+                'body'  => 'The page has been已發佈成功.',
             ],
         ],
 
         'delete' => [
             'notification' => [
-                'title' => 'Page deleted',
-                'body'  => 'The page has been deleted成功.',
+                'title' => 'Page已刪除',
+                'body'  => 'The page has been已刪除成功.',
             ],
         ],
     ],

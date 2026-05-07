@@ -7,18 +7,18 @@ return [
         'date'                   => '日期',
         'employee'               => 'Employee',
         'description'            => '描述',
-        'time-spent'             => 'Time Spent',
+        'time-spent'             => '花費時間',
         'time-spent-helper-text' => 'Time spent in hours (Eg. 1.5 hours means 1 hour 30 minutes)',
     ],
 
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => 'Add Timesheet',
+                'label' => '新增Timesheet',
 
                 'notification' => [
-                    'title' => 'Timesheet created',
-                    'body'  => 'The timesheet has been created成功.',
+                    'title' => 'Timesheet已建立',
+                    'body'  => 'The timesheet has been已建立成功.',
                 ],
             ],
         ],
@@ -27,24 +27,24 @@ return [
             'date'                   => '日期',
             'employee'               => 'Employee',
             'description'            => '描述',
-            'time-spent'             => 'Time Spent',
+            'time-spent'             => '花費時間',
             'time-spent-on-subtasks' => 'Time Spent on Subtasks',
-            'total-time-spent'       => 'Total Time Spent',
-            'remaining-time'         => 'Remaining Time',
+            'total-time-spent'       => 'Total時間 Spent',
+            'remaining-time'         => 'Remaining時間',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Timesheet updated',
-                    'body'  => 'The timesheet has been updated成功.',
+                    'title' => 'Timesheet已更新',
+                    'body'  => 'The timesheet has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Timesheet deleted',
-                    'body'  => 'The timesheet has been deleted成功.',
+                    'title' => 'Timesheet已刪除',
+                    'body'  => 'The timesheet has been已刪除成功.',
                 ],
             ],
         ],

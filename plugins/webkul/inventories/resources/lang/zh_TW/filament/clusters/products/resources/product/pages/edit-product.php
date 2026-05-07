@@ -19,14 +19,14 @@ return [
 
     'header-actions' => [
         'update-quantity' => [
-            'label'                     => 'Update Quantity',
-            'modal-heading'             => 'Update Product Quantity',
+            'label'                     => 'Update數量',
+            'modal-heading'             => 'Update Product數量',
             'modal-submit-action-label' => '更新',
 
             'form' => [
                 'fields' => [
                     'product'     => '商品',
-                    'on-hand-qty' => 'On Hand Quantity',
+                    'on-hand-qty' => '現有數量',
                 ],
             ],
         ],

@@ -4,7 +4,7 @@ return [
     'tabs' => [
         'my-team'       => 'My Team',
         'my-department' => 'My Department',
-        'archived'      => 'Archived',
+        'archived'      => '已封存',
         'newly-hired'   => 'Newly Hired',
     ],
 

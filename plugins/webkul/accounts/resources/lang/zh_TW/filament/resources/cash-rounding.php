@@ -34,8 +34,8 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Cash Rounding deleted',
-                    'body'  => 'The cash rounding has been deleted成功.',
+                    'title' => 'Cash Rounding已刪除',
+                    'body'  => 'The cash rounding has been已刪除成功.',
                 ],
             ],
         ],
@@ -43,8 +43,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Cash Rounding deleted',
-                    'body'  => 'The cash rounding has been deleted成功.',
+                    'title' => 'Cash Rounding已刪除',
+                    'body'  => 'The cash rounding has been已刪除成功.',
                 ],
             ],
         ],

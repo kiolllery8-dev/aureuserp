@@ -2,6 +2,6 @@
 
 return [
     'navigation' => [
-        'title' => '分錄',
+        'title' => '帳目記錄',
     ],
 ];

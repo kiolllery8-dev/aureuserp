@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Create Delivery',
+    'title' => '新增Delivery',
 
     'notification' => [
-        'title' => 'Delivery created',
-        'body'  => 'The delivery has been created成功.',
+        'title' => 'Delivery已建立',
+        'body'  => 'The delivery has been已建立成功.',
     ],
 ];

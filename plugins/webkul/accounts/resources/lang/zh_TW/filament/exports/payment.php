@@ -4,8 +4,8 @@ return [
     'columns' => [
         'date'            => '日期',
         'name'            => '名稱',
-        'journal'         => '日記帳',
-        'payment-method'  => 'Payment Method',
+        'journal'         => '帳本',
+        'payment-method'  => '付款方式',
         'partner'         => '夥伴',
         'amount-currency' => 'Amount Currency',
         'amount'          => '金額',

@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Allocation updated',
-        'body'  => 'The allocation has been updated成功.',
+        'title' => 'Allocation已更新',
+        'body'  => 'The allocation has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Allocation deleted',
-                'body'  => 'The allocation has been deleted成功.',
+                'title' => 'Allocation已刪除',
+                'body'  => 'The allocation has been已刪除成功.',
             ],
         ],
         'approved' => [

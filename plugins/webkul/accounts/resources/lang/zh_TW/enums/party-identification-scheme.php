@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'sirene'                           => 'System Information et Repertoire des Entreprise et des Etablissements: SIRENE',
+    'sirene'                           => 'System資料 et Repertoire des Entreprise et des Etablissements: SIRENE',
     'swedish-org-number'               => 'Organisationsnummer (Swedish legal entities)',
     'siret-code'                       => 'SIRET-CODE',
     'duns-number'                      => 'Data Universal Numbering System (D-U-N-S Number)',
-    'ean-location-code'                => 'EAN Location Code',
+    'ean-location-code'                => 'EAN Location代碼',
     'danish-chamber-of-commerce'       => 'DANISH CHAMBER OF COMMERCE Scheme (EDIRA compliant)',
     'ediforum-italia'                  => 'FTI - Ediforum Italia, (EDIRA compliant)',
     'netherlands-chamber-of-commerce'  => 'Association of Chambers of Commerce and Industry in the Netherlands, (EDIRA compliant)',
@@ -17,7 +17,7 @@ return [
     'digstorg'                         => 'DIGSTORG',
     'japan-corporate-number'           => 'Corporate Number of The Social Security and Tax Number System',
     'dutch-originator-id'              => 'Dutch Originator\'s Identification Number',
-    'estonia-business-register'        => 'Centre of Registers and Information Systems of the Ministry of Justice',
+    'estonia-business-register'        => 'Centre of Registers and資料 Systems of the Ministry of Justice',
     'norway-business-register'         => 'Enhetsregisteret ved Bronnoysundregisterne',
     'ubl-be-party-id'                  => 'UBL.BE party identifier',
     'singapore-uen'                    => 'Singapore UEN identifier',

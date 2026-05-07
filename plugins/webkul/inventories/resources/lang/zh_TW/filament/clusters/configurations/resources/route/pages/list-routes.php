@@ -3,7 +3,7 @@
 return [
     'tabs' => [
         'all'      => '全部',
-        'archived' => 'Archived',
+        'archived' => '已封存',
     ],
 
     'header-actions' => [
@@ -11,8 +11,8 @@ return [
             'label' => '新增Route',
 
             'notification' => [
-                'title' => 'Route created',
-                'body'  => 'The route has been created成功.',
+                'title' => 'Route已建立',
+                'body'  => 'The route has been已建立成功.',
             ],
         ],
     ],

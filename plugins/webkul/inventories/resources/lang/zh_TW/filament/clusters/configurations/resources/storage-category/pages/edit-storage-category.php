@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Storage Category updated',
-        'body'  => 'The storage category has been updated成功.',
+        'title' => 'Storage Category已更新',
+        'body'  => 'The storage category has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Storage Category deleted',
-                'body'  => 'The storage category has been deleted成功.',
+                'title' => 'Storage Category已刪除',
+                'body'  => 'The storage category has been已刪除成功.',
             ],
         ],
     ],

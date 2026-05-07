@@ -19,7 +19,7 @@ return [
             'is-completed' => 'Is Completed',
             'completed-at' => 'Completed At',
             'project'      => '專案',
-            'creator'      => 'Creator',
+            'creator'      => '建立者',
             'created-at'   => '建立時間',
             'updated-at'   => '更新時間',
         ],
@@ -34,7 +34,7 @@ return [
         'filters' => [
             'is-completed' => 'Is Completed',
             'project'      => '專案',
-            'creator'      => 'Creator',
+            'creator'      => '建立者',
         ],
 
         'actions' => [
@@ -47,8 +47,8 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Milestone deleted',
-                    'body'  => 'The milestone has been deleted成功.',
+                    'title' => 'Milestone已刪除',
+                    'body'  => 'The milestone has been已刪除成功.',
                 ],
             ],
         ],
@@ -56,8 +56,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Milestones deleted',
-                    'body'  => 'The milestones has been deleted成功.',
+                    'title' => 'Milestones已刪除',
+                    'body'  => 'The milestones has been已刪除成功.',
                 ],
             ],
         ],

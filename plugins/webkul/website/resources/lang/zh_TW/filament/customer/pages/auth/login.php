@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title'    => 'Login',
-    'heading'  => 'Login',
+    'title'    => '登入',
+    'heading'  => '登入',
     'messages' => [
         'failed' => 'These credentials do not match our記錄s.',
     ],
@@ -14,27 +14,27 @@ return [
     ],
     'form' => [
         'email' => [
-            'label' => 'Email address',
+            'label' => '電子郵件',
         ],
         'password' => [
             'label' => 'Password',
         ],
         'remember' => [
-            'label' => 'Remember me',
+            'label' => '記住我',
         ],
         'actions' => [
             'authenticate' => [
-                'label' => 'Sign in',
+                'label' => '登入',
             ],
         ],
     ],
     'actions' => [
         'register' => [
             'before' => 'Don\'t have an account?',
-            'label'  => 'Create account',
+            'label'  => '新增account',
         ],
         'request_password_reset' => [
-            'label' => 'Forgot password?',
+            'label' => '忘記密碼?',
         ],
     ],
 ];

@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Activity Type updated',
-        'body'  => 'The activity type has been updated成功.',
+        'title' => 'Activity類型已更新',
+        'body'  => 'The activity type has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Activity type deleted',
-                'body'  => 'The activity type has been deleted成功.',
+                'title' => 'Activity type已刪除',
+                'body'  => 'The activity type has been已刪除成功.',
             ],
         ],
     ],

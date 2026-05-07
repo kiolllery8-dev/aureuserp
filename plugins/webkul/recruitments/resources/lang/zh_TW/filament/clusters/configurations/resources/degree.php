@@ -24,7 +24,7 @@ return [
 
     'table' => [
         'columns' => [
-            'id'         => 'ID',
+            'id'         => '編號',
             'name'       => '名稱',
             'created-by' => '建立者',
             'created-at' => '建立時間',
@@ -42,15 +42,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Degree updated',
-                    'body'  => 'The degree has been updated成功.',
+                    'title' => 'Degree已更新',
+                    'body'  => 'The degree has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Degree deleted',
-                    'body'  => 'The degree has been deleted成功.',
+                    'title' => 'Degree已刪除',
+                    'body'  => 'The degree has been已刪除成功.',
                 ],
             ],
         ],
@@ -58,8 +58,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Degrees deleted',
-                    'body'  => 'The degrees has been deleted成功.',
+                    'title' => 'Degrees已刪除',
+                    'body'  => 'The degrees has been已刪除成功.',
                 ],
             ],
         ],
@@ -67,8 +67,8 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Degree created',
-                    'body'  => 'The degree has been created成功.',
+                    'title' => 'Degree已建立',
+                    'body'  => 'The degree has been已建立成功.',
                 ],
             ],
         ],

@@ -14,7 +14,7 @@ return [
                 'title' => '一般資料',
 
                 'fields' => [
-                    'stage-name'   => 'Stage Name',
+                    'stage-name'   => 'Stage名稱',
                     'sort'         => 'Sequence Order',
                     'requirements' => 'Requirements',
                 ],
@@ -35,7 +35,7 @@ return [
             ],
 
             'additional-information' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
 
                 'fields' => [
                     'job-positions' => '職位',
@@ -49,8 +49,8 @@ return [
 
     'table' => [
         'columns' => [
-            'id'                 => 'ID',
-            'name'               => 'Stage Name',
+            'id'                 => '編號',
+            'name'               => 'Stage名稱',
             'hired-stage'        => 'Hired Stage',
             'default-stage'      => 'Default Stage',
             'folded'             => 'Folded',
@@ -61,7 +61,7 @@ return [
         ],
 
         'filters' => [
-            'name'         => 'Stage Name',
+            'name'         => 'Stage名稱',
             'job-position' => '職位',
             'folded'       => 'Folded',
             'gray-label'   => 'Gray Label',
@@ -74,7 +74,7 @@ return [
 
         'groups' => [
             'job-position' => '職位',
-            'stage-name'   => 'Stage Name',
+            'stage-name'   => 'Stage名稱',
             'folded'       => 'Folded',
             'gray-label'   => 'Gray Label',
             'red-label'    => 'Red Label',
@@ -88,13 +88,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Stages deleted',
-                        'body'  => 'The Stages has been deleted成功.',
+                        'title' => 'Stages已刪除',
+                        'body'  => 'The Stages has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Stages could not be deleted',
-                        'body'  => 'The Stages cannot be deleted because it is currently in use.',
+                        'title' => 'Stages could not be已刪除',
+                        'body'  => 'The Stages cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -103,8 +103,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Stages deleted',
-                    'body'  => 'The Stages has been deleted成功.',
+                    'title' => 'Stages已刪除',
+                    'body'  => 'The Stages has been已刪除成功.',
                 ],
             ],
         ],
@@ -122,7 +122,7 @@ return [
                 'title' => '一般資料',
 
                 'entries' => [
-                    'stage-name'   => 'Stage Name',
+                    'stage-name'   => 'Stage名稱',
                     'sort'         => 'Sequence Order',
                     'requirements' => 'Requirements',
                 ],
@@ -143,7 +143,7 @@ return [
             ],
 
             'additional-information' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
 
                 'entries' => [
                     'job-positions'      => '職位',

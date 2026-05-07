@@ -5,11 +5,11 @@ return [
 
     'form' => [
         'fields' => [
-            'journal'              => '日記帳',
+            'journal'              => '帳本',
             'amount'               => '金額',
             'currency'             => '幣別',
             'payment-method-line'  => 'Payment Method Line',
-            'payment-date'         => 'Payment Date',
+            'payment-date'         => '付款日期',
             'partner-bank-account' => 'Partner Bank Account',
             'communication'        => 'Memo',
         ],

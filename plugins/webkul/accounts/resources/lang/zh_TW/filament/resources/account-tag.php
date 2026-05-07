@@ -3,7 +3,7 @@
 return [
     'form' => [
         'fields' => [
-            'color'         => 'Color',
+            'color'         => '顏色',
             'country'       => '國家',
             'applicability' => 'Applicability',
             'name'          => '名稱',
@@ -14,7 +14,7 @@ return [
 
     'table' => [
         'columns' => [
-            'color'         => 'Color',
+            'color'         => '顏色',
             'country'       => '國家',
             'created-by'    => '建立者',
             'applicability' => 'Applicability',
@@ -23,13 +23,13 @@ return [
             'tax-negate'    => 'Tax Negate',
             'created-at'    => '建立時間',
             'updated-at'    => '更新時間',
-            'deleted-at'    => 'Deleted At',
+            'deleted-at'    => '刪除時間',
         ],
 
         'filters' => [
             'bank'           => '銀行',
             'account-holder' => 'Account Holder',
-            'creator'        => 'Creator',
+            'creator'        => '建立者',
             'can-send-money' => 'Can Send Money',
         ],
 
@@ -43,15 +43,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Account Tag updated',
-                    'body'  => 'The account Tag has been updated成功.',
+                    'title' => 'Account Tag已更新',
+                    'body'  => 'The account Tag has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Account Tag deleted',
-                    'body'  => 'The account Tag has been deleted成功.',
+                    'title' => 'Account Tag已刪除',
+                    'body'  => 'The account Tag has been已刪除成功.',
                 ],
             ],
         ],
@@ -59,8 +59,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Account Tags deleted',
-                    'body'  => 'The account Tags has been deleted成功.',
+                    'title' => 'Account Tags已刪除',
+                    'body'  => 'The account Tags has been已刪除成功.',
                 ],
             ],
         ],
@@ -68,7 +68,7 @@ return [
 
     'infolist' => [
         'entries' => [
-            'color'         => 'Color',
+            'color'         => '顏色',
             'country'       => '國家',
             'applicability' => 'Applicability',
             'name'          => '名稱',

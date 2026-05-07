@@ -8,11 +8,11 @@ return [
                 'type'         => '類型',
                 'name'         => '名稱',
                 'type'         => '類型',
-                'create-type'  => 'Create Type',
+                'create-type'  => '新增Type',
                 'duration'     => 'Duration',
                 'start-date'   => '開始日期',
                 'end-date'     => '結束日期',
-                'display-type' => 'Display Type',
+                'display-type' => '顯示類型',
                 'description'  => '描述',
             ],
         ],
@@ -23,7 +23,7 @@ return [
             'title'        => '標題',
             'start-date'   => '開始日期',
             'end-date'     => '結束日期',
-            'display-type' => 'Display Type',
+            'display-type' => '顯示類型',
             'description'  => '描述',
             'created-by'   => '建立者',
             'created-at'   => '建立時間',
@@ -31,18 +31,18 @@ return [
         ],
 
         'groups' => [
-            'group-by-type'         => 'Group By Type',
-            'group-by-display-type' => 'Group By Display Type',
+            'group-by-type'         => 'Group By類型',
+            'group-by-display-type' => 'Group By Display類型',
         ],
 
         'header-actions' => [
-            'add-resume' => 'Add Resume',
+            'add-resume' => '新增Resume',
         ],
 
         'filters' => [
             'type'            => '類型',
-            'start-date-from' => 'Start Date From',
-            'start-date-to'   => 'Start Date To',
+            'start-date-from' => 'Start日期 From',
+            'start-date-to'   => 'Start日期 To',
             'created-from'    => 'Created From',
             'created-to'      => 'Created To',
         ],
@@ -50,22 +50,22 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Skill Level updated',
-                    'body'  => 'The skill level has been updated成功.',
+                    'title' => 'Skill Level已更新',
+                    'body'  => 'The skill level has been已更新成功.',
                 ],
             ],
 
             'create' => [
                 'notification' => [
-                    'title' => 'Skill Level created',
-                    'body'  => 'The skill level has been created成功.',
+                    'title' => 'Skill Level已建立',
+                    'body'  => 'The skill level has been已建立成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Skill Level deleted',
-                    'body'  => 'The skill level has been deleted成功.',
+                    'title' => 'Skill Level已刪除',
+                    'body'  => 'The skill level has been已刪除成功.',
                 ],
             ],
         ],
@@ -73,8 +73,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Skills deleted',
-                    'body'  => 'The skills has been deleted成功.',
+                    'title' => 'Skills已刪除',
+                    'body'  => 'The skills has been已刪除成功.',
                 ],
             ],
         ],
@@ -83,7 +83,7 @@ return [
     'infolist' => [
         'entries' => [
             'title'        => '標題',
-            'display-type' => 'Display Type',
+            'display-type' => '顯示類型',
             'type'         => '類型',
             'description'  => '描述',
             'duration'     => 'Duration',

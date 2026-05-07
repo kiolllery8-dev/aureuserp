@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Delivery updated',
-        'body'  => 'The delivery has been updated成功.',
+        'title' => 'Delivery已更新',
+        'body'  => 'The delivery has been已更新成功.',
     ],
 
     'header-actions' => [
@@ -14,13 +14,13 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Delivery deleted',
-                    'body'  => 'The delivery has been deleted成功.',
+                    'title' => 'Delivery已刪除',
+                    'body'  => 'The delivery has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Delivery could not be deleted',
-                    'body'  => 'The delivery cannot be deleted because it is currently in use.',
+                    'title' => 'Delivery could not be已刪除',
+                    'body'  => 'The delivery cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

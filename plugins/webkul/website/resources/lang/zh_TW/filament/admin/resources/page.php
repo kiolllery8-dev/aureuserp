@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Pages',
+        'title' => '頁面',
         'group' => '網址',
     ],
 
@@ -64,8 +64,8 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Page updated',
-                    'body'  => 'The page has been updated成功.',
+                    'title' => 'Page已更新',
+                    'body'  => 'The page has been已更新成功.',
                 ],
             ],
 
@@ -78,15 +78,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Page deleted',
-                    'body'  => 'The page has been deleted成功.',
+                    'title' => 'Page已刪除',
+                    'body'  => 'The page has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Page force deleted',
-                    'body'  => 'The page has been force deleted成功.',
+                    'title' => 'Page force已刪除',
+                    'body'  => 'The page has been force已刪除成功.',
                 ],
             ],
         ],
@@ -101,15 +101,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Pages deleted',
-                    'body'  => 'The pages has been deleted成功.',
+                    'title' => 'Pages已刪除',
+                    'body'  => 'The pages has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Pages force deleted',
-                    'body'  => 'The pages has been force deleted成功.',
+                    'title' => 'Pages force已刪除',
+                    'body'  => 'The pages has been force已刪除成功.',
                 ],
             ],
         ],
@@ -139,7 +139,7 @@ return [
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'author'          => '作者',

@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Internal Transfer updated',
-        'body'  => 'The internal transfer has been updated成功.',
+        'title' => 'Internal Transfer已更新',
+        'body'  => 'The internal transfer has been已更新成功.',
     ],
 
     'header-actions' => [
@@ -14,13 +14,13 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Internal Transfer deleted',
-                    'body'  => 'The internal transfer has been deleted成功.',
+                    'title' => 'Internal Transfer已刪除',
+                    'body'  => 'The internal transfer has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Internal Transfer could not be deleted',
-                    'body'  => 'The internal transfer cannot be deleted because it is currently in use.',
+                    'title' => 'Internal Transfer could not be已刪除',
+                    'body'  => 'The internal transfer cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

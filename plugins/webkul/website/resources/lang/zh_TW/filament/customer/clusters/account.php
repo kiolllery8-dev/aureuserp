@@ -2,6 +2,6 @@
 
 return [
     'navigation' => [
-        'title' => '科目',
+        'title' => '帳戶',
     ],
 ];

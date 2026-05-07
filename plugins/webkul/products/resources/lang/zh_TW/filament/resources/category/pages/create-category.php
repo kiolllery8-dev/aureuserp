@@ -2,14 +2,14 @@
 
 return [
     'notification' => [
-        'title' => 'Category created',
-        'body'  => 'The category has been created成功.',
+        'title' => 'Category已建立',
+        'body'  => 'The category has been已建立成功.',
     ],
 
     'create' => [
         'notification' => [
             'error' => [
-                'title' => 'Category updated失敗',
+                'title' => 'Category已更新失敗',
             ],
         ],
     ],

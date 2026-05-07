@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Credit note updated',
-        'body'  => 'The credit note has been updated成功.',
+        'title' => 'Credit note已更新',
+        'body'  => 'The credit note has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Credit note deleted',
-                'body'  => 'Credit note has been deleted成功.',
+                'title' => 'Credit note已刪除',
+                'body'  => 'Credit note has been已刪除成功.',
             ],
         ],
 

@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Cash rounding created',
-        'body'  => 'The cash rounding has been created成功.',
+        'title' => 'Cash rounding已建立',
+        'body'  => 'The cash rounding has been已建立成功.',
     ],
 ];

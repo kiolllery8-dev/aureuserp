@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Operation Type updated',
-        'body'  => 'The operation type has been updated成功.',
+        'title' => 'Operation類型已更新',
+        'body'  => 'The operation type has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Operation Type deleted',
-                'body'  => 'The operation type has been deleted成功.',
+                'title' => 'Operation類型已刪除',
+                'body'  => 'The operation type has been已刪除成功.',
             ],
         ],
     ],

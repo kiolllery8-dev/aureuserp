@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Cash rounding deleted',
-                'body'  => 'The cash rounding has been deleted成功.',
+                'title' => 'Cash rounding已刪除',
+                'body'  => 'The cash rounding has been已刪除成功.',
             ],
         ],
     ],

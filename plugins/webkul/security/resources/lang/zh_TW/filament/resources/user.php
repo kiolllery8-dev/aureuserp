@@ -45,7 +45,7 @@ return [
             ],
 
             'lang-and-status' => [
-                'title'  => 'Language & Status',
+                'title'  => 'Language &狀態',
                 'fields' => [
                     'language' => 'Preferred Language',
                     'status'   => '狀態',
@@ -93,8 +93,8 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'User deleted',
-                    'body'  => 'The user has been deleted成功.',
+                    'title' => 'User已刪除',
+                    'body'  => 'The user has been已刪除成功.',
                     'error' => [
                         'title' => 'User Cannot Be Deleted',
                         'body'  => 'This is a default user or you cannot delete yourself.',
@@ -120,18 +120,18 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Users deleted',
-                    'body'  => 'The users has been deleted成功.',
+                    'title' => 'Users已刪除',
+                    'body'  => 'The users has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Users force deleted',
-                    'body'  => 'The users has been force deleted成功.',
+                    'title' => 'Users force已刪除',
+                    'body'  => 'The users has been force已刪除成功.',
                     'error' => [
-                        'title' => 'User could not be deleted',
-                        'body'  => 'The user cannot be deleted because it is currently in use.',
+                        'title' => 'User could not be已刪除',
+                        'body'  => 'The user cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -140,8 +140,8 @@ return [
         'empty-state-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Users created',
-                    'body'  => 'The users has been created成功.',
+                    'title' => 'Users已建立',
+                    'body'  => 'The users has been已建立成功.',
                 ],
             ],
         ],
@@ -174,7 +174,7 @@ return [
             ],
 
             'lang-and-status' => [
-                'title'   => 'Language & Status',
+                'title'   => 'Language &狀態',
                 'entries' => [
                     'language' => 'Preferred Language',
                     'status'   => '狀態',

@@ -15,9 +15,9 @@ return [
                         'title' => '銷售',
 
                         'fields' => [
-                            'sales-person'   => 'Sales Person',
-                            'payment-terms'  => 'Payment Terms',
-                            'payment-method' => 'Payment Method',
+                            'sales-person'   => '業務',
+                            'payment-terms'  => '付款條件',
+                            'payment-method' => '付款方式',
                         ],
                     ],
 
@@ -25,16 +25,16 @@ return [
                         'title' => '採購',
 
                         'fields' => [
-                            'payment-terms'  => 'Payment Terms',
-                            'payment-method' => 'Payment Method',
+                            'payment-terms'  => '付款條件',
+                            'payment-method' => '付款方式',
                         ],
                     ],
 
                     'fiscal-information' => [
-                        'title' => 'Fiscal Information',
+                        'title' => 'Fiscal資料',
 
                         'fields' => [
-                            'fiscal-position'    => '財務立場',
+                            'fiscal-position'    => '稅務情境',
                         ],
                     ],
                 ],
@@ -69,8 +69,8 @@ return [
 
                         'fields' => [
                             'auto-post-bills' => 'Auto Post Bills',
-                            'ignore-abnormal-invoice-amount' => 'Ignore Abnormal Invoice Amount',
-                            'ignore-abnormal-invoice-date' => 'Ignore Abnormal Invoice Date',
+                            'ignore-abnormal-invoice-amount' => 'Ignore Abnormal Invoice金額',
+                            'ignore-abnormal-invoice-date' => 'Ignore Abnormal Invoice日期',
                         ],
                     ]
                 ],
@@ -91,9 +91,9 @@ return [
                         'title' => '銷售',
 
                         'entries' => [
-                            'sales-person'   => 'Sales Person',
-                            'payment-terms'  => 'Payment Terms',
-                            'payment-method' => 'Payment Method',
+                            'sales-person'   => '業務',
+                            'payment-terms'  => '付款條件',
+                            'payment-method' => '付款方式',
                         ],
                     ],
 
@@ -101,16 +101,16 @@ return [
                         'title' => '採購',
 
                         'entries' => [
-                            'payment-terms'  => 'Payment Terms',
-                            'payment-method' => 'Payment Method',
+                            'payment-terms'  => '付款條件',
+                            'payment-method' => '付款方式',
                         ],
                     ],
 
                     'fiscal-information' => [
-                        'title' => 'Fiscal Information',
+                        'title' => 'Fiscal資料',
 
                         'entries' => [
-                            'fiscal-position'    => '財務立場',
+                            'fiscal-position'    => '稅務情境',
                         ],
                     ],
                 ],
@@ -145,8 +145,8 @@ return [
 
                         'entries' => [
                             'auto-post-bills' => 'Auto Post Bills',
-                            'ignore-abnormal-invoice-amount' => 'Ignore Abnormal Invoice Amount',
-                            'ignore-abnormal-invoice-date' => 'Ignore Abnormal Invoice Date',
+                            'ignore-abnormal-invoice-amount' => 'Ignore Abnormal Invoice金額',
+                            'ignore-abnormal-invoice-date' => 'Ignore Abnormal Invoice日期',
                         ],
                     ]
                 ],

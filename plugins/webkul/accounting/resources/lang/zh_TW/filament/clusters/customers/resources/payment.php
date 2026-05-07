@@ -10,6 +10,6 @@ return [
     ],
 
     'record-sub-navigation' => [
-        'journal-entry' => '分錄',
+        'journal-entry' => '帳目記錄',
     ],
 ];

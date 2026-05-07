@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Leave Type created',
-        'body'  => 'The leave type has been created成功.',
+        'title' => 'Leave類型已建立',
+        'body'  => 'The leave type has been已建立成功.',
     ],
 ];

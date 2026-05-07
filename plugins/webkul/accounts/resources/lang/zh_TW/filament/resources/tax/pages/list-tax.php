@@ -5,7 +5,7 @@ return [
         'sale'      => '銷售',
         'purchase'  => '採購',
         'tax-scope' => 'Tax Scope',
-        'goods'     => 'Goods',
+        'goods'     => '商品',
         'active'    => '啟用中',
         'in-active' => 'In active',
     ],

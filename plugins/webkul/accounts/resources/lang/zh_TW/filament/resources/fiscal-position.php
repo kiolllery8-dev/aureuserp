@@ -56,8 +56,8 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Payment Term deleted',
-                    'body'  => 'The payment term has been deleted成功.',
+                    'title' => 'Payment Term已刪除',
+                    'body'  => 'The payment term has been已刪除成功.',
                 ],
             ],
         ],
@@ -65,8 +65,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Fiscal Position deleted',
-                    'body'  => 'The fiscal Position has been deleted成功.',
+                    'title' => 'Fiscal Position已刪除',
+                    'body'  => 'The fiscal Position has been已刪除成功.',
                 ],
             ],
         ],

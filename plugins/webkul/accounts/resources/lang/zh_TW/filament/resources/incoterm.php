@@ -23,15 +23,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Incoterm updated',
-                    'body'  => 'The incoterm has been updated成功.',
+                    'title' => 'Incoterm已更新',
+                    'body'  => 'The incoterm has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Incoterm deleted',
-                    'body'  => 'The incoterm has been deleted成功.',
+                    'title' => 'Incoterm已刪除',
+                    'body'  => 'The incoterm has been已刪除成功.',
                 ],
             ],
 
@@ -53,15 +53,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Incoterms deleted',
-                    'body'  => 'The incoterms has been deleted成功.',
+                    'title' => 'Incoterms已刪除',
+                    'body'  => 'The incoterms has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Incoterms force deleted',
-                    'body'  => 'The incoterms has been force deleted成功.',
+                    'title' => 'Incoterms force已刪除',
+                    'body'  => 'The incoterms has been force已刪除成功.',
                 ],
             ],
         ],

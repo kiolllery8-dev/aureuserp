@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Storage Category created',
-        'body'  => 'The storage category has been created成功.',
+        'title' => 'Storage Category已建立',
+        'body'  => 'The storage category has been已建立成功.',
     ],
 ];

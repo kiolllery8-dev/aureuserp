@@ -3,12 +3,12 @@
 return [
     'tabs' => [
         'all'      => '全部',
-        'archived' => 'Archived',
+        'archived' => '已封存',
     ],
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Activity Type',
+            'label' => '新增Activity類型',
         ],
     ],
 ];

@@ -9,10 +9,10 @@ return [
     'form' => [
         'fields' => [
             'name'                    => '標題',
-            'is-based-on-worked-time' => 'Is Based on Worked Time',
-            'accrued-gain-time'       => 'Accrued Gain Time',
-            'carry-over-time'         => 'Carry Over Time',
-            'carry-over-date'         => 'Carry Over Date',
+            'is-based-on-worked-time' => 'Is Based on Worked時間',
+            'accrued-gain-time'       => 'Accrued Gain時間',
+            'carry-over-time'         => 'Carry Over時間',
+            'carry-over-date'         => 'Carry Over日期',
             'status'                  => '狀態',
         ],
     ],
@@ -26,8 +26,8 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Accrual Plan deleted',
-                    'body'  => 'The Accrual Plan has been deleted成功.',
+                    'title' => 'Accrual Plan已刪除',
+                    'body'  => 'The Accrual Plan has been已刪除成功.',
                 ],
             ],
         ],
@@ -35,8 +35,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Accrual Plan deleted',
-                    'body'  => 'The Accrual Plan has been deleted成功.',
+                    'title' => 'Accrual Plan已刪除',
+                    'body'  => 'The Accrual Plan has been已刪除成功.',
                 ],
             ],
         ],
@@ -44,14 +44,14 @@ return [
 
     'infolist' => [
         'sections' => [
-            'basic-information' => 'Basic Information',
+            'basic-information' => 'Basic資料',
         ],
 
         'entries' => [
             'name'                    => '名稱',
-            'is-based-on-worked-time' => 'Is Based on Worked Time',
-            'accrued-gain-time'       => 'Accrued Gain Time',
-            'carry-over-time'         => 'Carry Over Time',
+            'is-based-on-worked-time' => 'Is Based on Worked時間',
+            'accrued-gain-time'       => 'Accrued Gain時間',
+            'carry-over-time'         => 'Carry Over時間',
             'carry-over-day'          => 'Carry Over Day',
             'carry-over-month'        => 'Carry Over Month',
         ],

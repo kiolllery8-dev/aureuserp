@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'list-price'     => 'List Price',
-    'standard-price' => 'Standard Price',
-    'price-rules'    => 'Other Price Rules',
+    'list-price'     => '標價',
+    'standard-price' => 'Standard價格',
+    'price-rules'    => 'Other價格 Rules',
 ];

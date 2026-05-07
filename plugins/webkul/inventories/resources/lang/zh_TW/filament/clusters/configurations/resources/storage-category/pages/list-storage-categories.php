@@ -3,7 +3,7 @@
 return [
     'tabs' => [
         'all'      => '全部',
-        'archived' => 'Archived',
+        'archived' => '已封存',
     ],
 
     'header-actions' => [
@@ -11,8 +11,8 @@ return [
             'label' => '新增Storage Category',
 
             'notification' => [
-                'title' => 'Storage Category created',
-                'body'  => 'The storage category has been created成功.',
+                'title' => 'Storage Category已建立',
+                'body'  => 'The storage category has been已建立成功.',
             ],
         ],
     ],

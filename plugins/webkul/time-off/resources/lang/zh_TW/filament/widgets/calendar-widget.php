@@ -13,7 +13,7 @@ return [
 
             'notification' => [
                 'title' => 'Time Off Updated',
-                'body'  => 'Your time off request has been updated成功.',
+                'body'  => 'Your time off request has been已更新成功.',
             ],
         ],
 
@@ -39,11 +39,11 @@ return [
     'header-actions' => [
         'create' => [
             'title'       => '新增Time Off',
-            'description' => 'Create Time Off Request',
+            'description' => '新增Time Off Request',
 
             'notification' => [
                 'title' => 'Time Off Created',
-                'body'  => 'Time off request has been created成功.',
+                'body'  => 'Time off request has been已建立成功.',
             ],
 
             'employee-not-found' => [
@@ -56,7 +56,7 @@ return [
             'success' => [
                 'notification' => [
                     'title' => 'Time Off Created',
-                    'body'  => 'Your time off request has been created成功.',
+                    'body'  => 'Your time off request has been已建立成功.',
                 ],
             ],
         ],
@@ -64,14 +64,14 @@ return [
 
     'form' => [
         'title'       => 'Time Off Request',
-        'description' => 'Create or edit your time off request with the following details:',
+        'description' => '新增or edit your time off request with the following details:',
 
         'fields' => [
-            'time-off-type'             => 'Time Off Type',
+            'time-off-type'             => '假別',
             'time-off-type-placeholder' => 'Select a time off type',
             'time-off-type-helper'      => 'Select the type of time off you are requesting.',
-            'request-date-from'         => 'Request Date From',
-            'request-date-to'           => 'Request Date To',
+            'request-date-from'         => '申請開始日',
+            'request-date-to'           => '申請結束日',
             'period'                    => 'Period',
             'half-day'                  => 'Half Day',
             'half-day-helper'           => 'Toggle for half-day leave.',
@@ -88,9 +88,9 @@ return [
         'title'       => 'Time Off Details',
         'description' => 'Here are the details of your time off request:',
         'entries'     => [
-            'time-off-type'           => 'Time Off Type',
-            'request-date-from'       => 'Request Date From',
-            'request-date-to'         => 'Request Date To',
+            'time-off-type'           => '假別',
+            'request-date-from'       => '申請開始日',
+            'request-date-to'         => '申請結束日',
             'description'             => '描述',
             'description-placeholder' => 'No description provided',
             'duration'                => 'Duration',

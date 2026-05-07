@@ -27,15 +27,15 @@ return [
         'actions' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Skill Level created',
-                    'body'  => 'The skill level has been created成功.',
+                    'title' => 'Skill Level已建立',
+                    'body'  => 'The skill level has been已建立成功.',
                 ],
             ],
 
             'edit' => [
                 'notification' => [
-                    'title' => 'Skill Level updated',
-                    'body'  => 'The skill level has been updated成功.',
+                    'title' => 'Skill Level已更新',
+                    'body'  => 'The skill level has been已更新成功.',
                 ],
             ],
 
@@ -48,8 +48,8 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Skill Level deleted',
-                    'body'  => 'The skill level has been deleted成功.',
+                    'title' => 'Skill Level已刪除',
+                    'body'  => 'The skill level has been已刪除成功.',
                 ],
             ],
         ],
@@ -57,15 +57,15 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Skill Levels deleted',
-                    'body'  => 'The skills has been deleted成功.',
+                    'title' => 'Skill Levels已刪除',
+                    'body'  => 'The skills has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Skill Levels force deleted',
-                    'body'  => 'The skills has been force deleted成功.',
+                    'title' => 'Skill Levels force已刪除',
+                    'body'  => 'The skills has been force已刪除成功.',
                 ],
             ],
 

@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Scrap updated',
-        'body'  => 'The scrap has been updated成功.',
+        'title' => 'Scrap已更新',
+        'body'  => 'The scrap has been已更新成功.',
     ],
 
     'header-actions' => [
@@ -26,13 +26,13 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Scrap deleted',
-                    'body'  => 'The scrap has been deleted成功.',
+                    'title' => 'Scrap已刪除',
+                    'body'  => 'The scrap has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Scraps could not be deleted',
-                    'body'  => 'The scraps cannot be deleted because they are currently in use.',
+                    'title' => 'Scraps could not be已刪除',
+                    'body'  => 'The scraps cannot be已刪除 because they are currently in use.',
                 ],
             ],
         ],

@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title'         => 'Register',
-    'heading'       => 'Register',
+    'title'         => '註冊',
+    'heading'       => '註冊',
     'notifications' => [
         'throttled' => [
             'title' => 'Too many attempts. Try again in :seconds seconds.',
@@ -14,7 +14,7 @@ return [
             'label' => '名稱',
         ],
         'email' => [
-            'label' => 'Email address',
+            'label' => '電子郵件',
         ],
         'password' => [
             'label'                => 'Password',
@@ -25,14 +25,14 @@ return [
         ],
         'actions' => [
             'register' => [
-                'label' => 'Create account',
+                'label' => '新增account',
             ],
         ],
     ],
     'actions' => [
         'login' => [
             'before' => 'Already have an account?',
-            'label'  => 'Log in',
+            'label'  => '登入',
         ],
     ],
 ];

@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Attribute updated',
-        'body'  => 'The attribute has been updated成功.',
+        'title' => 'Attribute已更新',
+        'body'  => 'The attribute has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Attribute deleted',
-                'body'  => 'The attribute has been deleted成功.',
+                'title' => 'Attribute已刪除',
+                'body'  => 'The attribute has been已刪除成功.',
             ],
         ],
     ],

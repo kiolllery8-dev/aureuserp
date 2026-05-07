@@ -16,7 +16,7 @@ return [
 
                     'fields' => [
                         'name'  => '名稱',
-                        'code'  => 'Bank Identifier Code',
+                        'code'  => 'Bank Identifier代碼',
                         'email' => '電子郵件',
                         'phone' => '電話',
                     ],
@@ -28,8 +28,8 @@ return [
                     'fields' => [
                         'address' => '地址',
                         'city'    => '城市',
-                        'street1' => 'Street 1',
-                        'street2' => 'Street 2',
+                        'street1' => '地址 1',
+                        'street2' => '地址 2',
                         'state'   => '狀態',
                         'zip'     => '郵遞區號',
                         'country' => '國家',
@@ -49,13 +49,13 @@ return [
             'send-money'     => 'Can Send Money',
             'created-at'     => '建立時間',
             'updated-at'     => '更新時間',
-            'deleted-at'     => 'Deleted At',
+            'deleted-at'     => '刪除時間',
         ],
 
         'filters' => [
             'bank'           => '銀行',
             'account-holder' => 'Account Holder',
-            'creator'        => 'Creator',
+            'creator'        => '建立者',
             'can-send-money' => 'Can Send Money',
         ],
 
@@ -68,8 +68,8 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Bank account updated',
-                    'body'  => 'The bank account has been updated成功.',
+                    'title' => 'Bank account已更新',
+                    'body'  => 'The bank account has been已更新成功.',
                 ],
             ],
 
@@ -82,15 +82,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Bank account deleted',
-                    'body'  => 'The bank account has been deleted成功.',
+                    'title' => 'Bank account已刪除',
+                    'body'  => 'The bank account has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Bank account force deleted',
-                    'body'  => 'The bank account has been force deleted成功.',
+                    'title' => 'Bank account force已刪除',
+                    'body'  => 'The bank account has been force已刪除成功.',
                 ],
             ],
         ],
@@ -105,15 +105,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Bank accounts deleted',
-                    'body'  => 'The bank accounts has been deleted成功.',
+                    'title' => 'Bank accounts已刪除',
+                    'body'  => 'The bank accounts has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Bank accounts force deleted',
-                    'body'  => 'The bank accounts has been force deleted成功.',
+                    'title' => 'Bank accounts force已刪除',
+                    'body'  => 'The bank accounts has been force已刪除成功.',
                 ],
             ],
         ],

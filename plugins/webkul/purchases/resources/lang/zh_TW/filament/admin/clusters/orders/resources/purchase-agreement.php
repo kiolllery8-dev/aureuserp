@@ -20,10 +20,10 @@ return [
                     'vendor'                => '供應商',
                     'valid-from'            => 'Valid From',
                     'valid-to'              => 'Valid Until',
-                    'buyer'                 => 'Buyer',
-                    'reference'             => '參考',
+                    'buyer'                 => '買家',
+                    'reference'             => '參考編號',
                     'reference-placeholder' => 'eg. PO/123',
-                    'agreement-type'        => 'Agreement Type',
+                    'agreement-type'        => 'Agreement類型',
                     'company'               => '公司',
                     'currency'              => '幣別',
                 ],
@@ -52,11 +52,11 @@ return [
             ],
 
             'additional' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
             ],
 
             'terms' => [
-                'title' => 'Terms and Conditions',
+                'title' => '條款',
             ],
         ],
     ],
@@ -65,17 +65,17 @@ return [
         'columns' => [
             'agreement'      => 'Agreement',
             'vendor'         => '供應商',
-            'agreement-type' => 'Agreement Type',
-            'buyer'          => 'Buyer',
+            'agreement-type' => 'Agreement類型',
+            'buyer'          => '買家',
             'company'        => '公司',
             'valid-from'     => 'Valid From',
             'valid-to'       => 'Valid Until',
-            'reference'      => '參考',
+            'reference'      => '參考編號',
             'status'         => '狀態',
         ],
 
         'groups' => [
-            'agreement-type' => 'Agreement Type',
+            'agreement-type' => 'Agreement類型',
             'vendor'         => '供應商',
             'state'          => '狀態',
             'created-at'     => '建立時間',
@@ -85,12 +85,12 @@ return [
         'filters' => [
             'agreement'      => 'Agreement',
             'vendor'         => '供應商',
-            'agreement-type' => 'Agreement Type',
-            'buyer'          => 'Buyer',
+            'agreement-type' => 'Agreement類型',
+            'buyer'          => '買家',
             'company'        => '公司',
             'valid-from'     => 'Valid From',
             'valid-to'       => 'Valid Until',
-            'reference'      => '參考',
+            'reference'      => '參考編號',
             'status'         => '狀態',
             'created-at'     => '建立時間',
             'updated-at'     => '更新時間',
@@ -99,8 +99,8 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Purchase Agreement deleted',
-                    'body'  => 'The purchase agreement has been deleted成功.',
+                    'title' => 'Purchase Agreement已刪除',
+                    'body'  => 'The purchase agreement has been已刪除成功.',
                 ],
             ],
 
@@ -114,18 +114,18 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Purchase Agreement permanently deleted',
-                        'body'  => 'The purchase agreement has been permanently deleted成功.',
+                        'title' => 'Purchase Agreement permanently已刪除',
+                        'body'  => 'The purchase agreement has been permanently已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Purchase Agreement could not be deleted',
-                        'body'  => 'The The purchase agreement cannot be deleted because it is currently in use.',
+                        'title' => 'Purchase Agreement could not be已刪除',
+                        'body'  => 'The The purchase agreement cannot be已刪除 because it is currently in use.',
                     ],
 
                     'warning' => [
-                        'title' => 'Purchase Agreement cannot be deleted',
-                        'body'  => 'Only purchase agreements in Draft or Cancelled state can be deleted.',
+                        'title' => 'Purchase Agreement cannot be已刪除',
+                        'body'  => 'Only purchase agreements in Draft or Cancelled state can be已刪除.',
                     ],
                 ],
             ],
@@ -134,8 +134,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Purchase Agreements deleted',
-                    'body'  => 'The purchase agreements has been deleted成功.',
+                    'title' => 'Purchase Agreements已刪除',
+                    'body'  => 'The purchase agreements has been已刪除成功.',
                 ],
             ],
 
@@ -149,18 +149,18 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Purchase Agreements permanently deleted',
-                        'body'  => 'The purchase agreements has been permanently deleted成功.',
+                        'title' => 'Purchase Agreements permanently已刪除',
+                        'body'  => 'The purchase agreements has been permanently已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Purchase Agreements could not be deleted',
-                        'body'  => 'The purchase agreements cannot be deleted because they are currently in use.',
+                        'title' => 'Purchase Agreements could not be已刪除',
+                        'body'  => 'The purchase agreements cannot be已刪除 because they are currently in use.',
                     ],
 
                     'warning' => [
-                        'title' => 'Purchase Agreement cannot be deleted',
-                        'body'  => 'Only purchase agreements in Draft or Cancelled state can be deleted.',
+                        'title' => 'Purchase Agreement cannot be已刪除',
+                        'body'  => 'Only purchase agreements in Draft or Cancelled state can be已刪除.',
                     ],
                 ],
             ],
@@ -176,10 +176,10 @@ return [
                     'vendor'                => '供應商',
                     'valid-from'            => 'Valid From',
                     'valid-to'              => 'Valid Until',
-                    'buyer'                 => 'Buyer',
-                    'reference'             => '參考',
+                    'buyer'                 => '買家',
+                    'reference'             => '參考編號',
                     'reference-placeholder' => 'eg. PO/123',
-                    'agreement-type'        => 'Agreement Type',
+                    'agreement-type'        => 'Agreement類型',
                     'company'               => '公司',
                     'currency'              => '幣別',
                 ],
@@ -210,11 +210,11 @@ return [
             ],
 
             'additional' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
             ],
 
             'terms' => [
-                'title' => 'Terms and Conditions',
+                'title' => '條款',
             ],
         ],
     ],

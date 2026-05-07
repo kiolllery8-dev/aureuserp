@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'label' => 'Confirm Receipt Date',
+    'label' => 'Confirm Receipt日期',
 
     'action' => [
         'notification' => [

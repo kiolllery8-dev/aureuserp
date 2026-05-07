@@ -13,7 +13,7 @@ return [
                 'fields' => [
                     'name'               => '名稱',
                     'name-placeholder'   => 'eg. Central Warehouse',
-                    'code'               => 'Short Name',
+                    'code'               => 'Short名稱',
                     'code-placeholder'   => 'eg. CW',
                     'code-hint-tooltip'  => 'The short name serves as an identifier for the warehouse.',
                     'company'            => '公司',
@@ -37,7 +37,7 @@ return [
             ],
 
             'additional' => [
-                'title'  => 'Additional Information',
+                'title'  => '其他資料',
             ],
         ],
     ],
@@ -45,10 +45,10 @@ return [
     'table' => [
         'columns' => [
             'name'       => '名稱',
-            'code'       => 'Short Name',
+            'code'       => 'Short名稱',
             'company'    => '公司',
             'address'    => '地址',
-            'deleted-at' => 'deleted At',
+            'deleted-at' => '刪除時間',
             'created-at' => '建立時間',
             'updated-at' => '更新時間',
         ],
@@ -74,21 +74,21 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Warehouse deleted',
-                    'body'  => 'The warehouse has been deleted成功.',
+                    'title' => 'Warehouse已刪除',
+                    'body'  => 'The warehouse has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Warehouse force deleted',
-                        'body'  => 'The warehouse has been force deleted成功.',
+                        'title' => 'Warehouse force已刪除',
+                        'body'  => 'The warehouse has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Warehouse could not be deleted',
-                        'body'  => 'The warehouse cannot be deleted because it is currently in use.',
+                        'title' => 'Warehouse could not be已刪除',
+                        'body'  => 'The warehouse cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -104,21 +104,21 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Warehouses deleted',
-                    'body'  => 'The warehouses has been deleted成功.',
+                    'title' => 'Warehouses已刪除',
+                    'body'  => 'The warehouses has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Warehouses force deleted',
-                        'body'  => 'The warehouses has been force deleted成功.',
+                        'title' => 'Warehouses force已刪除',
+                        'body'  => 'The warehouses has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Warehouses could not be deleted',
-                        'body'  => 'The warehouses cannot be deleted because they are currently in use.',
+                        'title' => 'Warehouses could not be已刪除',
+                        'body'  => 'The warehouses cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],
@@ -131,8 +131,8 @@ return [
                 'title' => '一般資料',
 
                 'entries' => [
-                    'name'    => 'Warehouse Name',
-                    'code'    => 'Warehouse Code',
+                    'name'    => 'Warehouse名稱',
+                    'code'    => 'Warehouse代碼',
                     'company' => '公司',
                     'address' => '地址',
                 ],
@@ -151,12 +151,12 @@ return [
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'created-by'   => '建立者',
                     'created-at'   => '建立時間',
-                    'last-updated' => 'Last Updated',
+                    'last-updated' => '最後更新',
                 ],
             ],
         ],

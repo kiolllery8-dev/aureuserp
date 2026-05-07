@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'subject'          => 'Subject',
+    'subject'          => '主旨',
     'changes-made'     => 'Changes Made',
     'modified'         => 'The <b>:field</b> has been',
     'preview'          => 'Preview',

@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Tags created',
-        'body'  => 'The tags has been created成功.',
+        'title' => 'Tags已建立',
+        'body'  => 'The tags has been已建立成功.',
     ],
 
     'header-actions' => [

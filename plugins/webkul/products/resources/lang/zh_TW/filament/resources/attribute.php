@@ -17,8 +17,8 @@ return [
 
                 'fields' => [
                     'name'        => '名稱',
-                    'color'       => 'Color',
-                    'extra-price' => 'Extra Price',
+                    'color'       => '顏色',
+                    'extra-price' => 'Extra價格',
                 ],
             ],
         ],
@@ -28,7 +28,7 @@ return [
         'columns' => [
             'name'        => '名稱',
             'type'        => '類型',
-            'deleted-at'  => 'Deleted At',
+            'deleted-at'  => '刪除時間',
             'created-at'  => '建立時間',
             'updated-at'  => '更新時間',
         ],
@@ -53,21 +53,21 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Attribute deleted',
-                    'body'  => 'The attribute has been deleted成功.',
+                    'title' => 'Attribute已刪除',
+                    'body'  => 'The attribute has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Attribute force deleted',
-                        'body'  => 'The attribute has been force deleted成功.',
+                        'title' => 'Attribute force已刪除',
+                        'body'  => 'The attribute has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Attribute could not be deleted',
-                        'body'  => 'The attribute cannot be deleted because it is currently in use.',
+                        'title' => 'Attribute could not be已刪除',
+                        'body'  => 'The attribute cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -83,21 +83,21 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Attributes deleted',
-                    'body'  => 'The attributes has been deleted成功.',
+                    'title' => 'Attributes已刪除',
+                    'body'  => 'The attributes has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Attributes force deleted',
-                        'body'  => 'The attributes has been force deleted成功.',
+                        'title' => 'Attributes force已刪除',
+                        'body'  => 'The attributes has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Attributes could not be deleted',
-                        'body'  => 'The attributes cannot be deleted because they are currently in use.',
+                        'title' => 'Attributes could not be已刪除',
+                        'body'  => 'The attributes cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],
@@ -116,7 +116,7 @@ return [
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'creator'    => '建立者',

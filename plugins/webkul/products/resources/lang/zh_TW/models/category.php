@@ -5,9 +5,9 @@ return [
 
     'log-attributes' => [
         'name'                 => '名稱',
-        'full_name'            => 'Full Name',
+        'full_name'            => '姓名',
         'parent_path'          => 'Parent Path',
         'parent'               => 'Parent Category',
-        'creator'              => 'Creator',
+        'creator'              => '建立者',
     ],
 ];

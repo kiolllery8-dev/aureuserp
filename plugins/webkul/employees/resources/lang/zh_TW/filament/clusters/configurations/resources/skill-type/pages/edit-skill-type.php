@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Skill Type updated',
-        'body'  => 'The skill type has been updated成功.',
+        'title' => 'Skill類型已更新',
+        'body'  => 'The skill type has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Skill Type deleted',
-                'body'  => 'The skill type has been deleted成功.',
+                'title' => 'Skill類型已刪除',
+                'body'  => 'The skill type has been已刪除成功.',
             ],
         ],
     ],

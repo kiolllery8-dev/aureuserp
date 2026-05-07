@@ -6,8 +6,8 @@ return [
             'label' => '新增Tag',
 
             'notification' => [
-                'title' => 'Tag created',
-                'body'  => 'The tag has been created成功.',
+                'title' => 'Tag已建立',
+                'body'  => 'The tag has been已建立成功.',
             ],
         ],
     ],

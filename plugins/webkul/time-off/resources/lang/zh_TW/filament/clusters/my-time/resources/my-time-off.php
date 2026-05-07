@@ -3,19 +3,19 @@
 return [
     'title' => '請假',
 
-    'model-label' => 'My Time off',
+    'model-label' => 'My時間 off',
 
     'navigation' => [
-        'title' => 'My Time off',
+        'title' => 'My時間 off',
     ],
 
     'form' => [
         'fields' => [
-            'time-off-type'     => 'Time off Type',
+            'time-off-type'     => '假別',
             'date'              => '日期',
             'dates'             => 'Dates',
-            'request-date-from' => 'Request Date From',
-            'request-date-to'   => 'Request Date To',
+            'request-date-from' => '申請開始日',
+            'request-date-to'   => '申請結束日',
             'description'       => '描述',
             'period'            => 'Period',
             'half-day'          => 'Half Day',
@@ -30,17 +30,17 @@ return [
     'table' => [
         'columns' => [
             'employee-name'  => 'Employee',
-            'time-off-type'  => 'Time Off Type',
+            'time-off-type'  => '假別',
             'description'    => '描述',
-            'date-from'      => 'Date From',
-            'date-to'        => 'Date To',
+            'date-from'      => '開始日期',
+            'date-to'        => '結束日期',
             'duration'       => 'Duration',
             'status'         => '狀態',
         ],
 
         'groups' => [
             'employee-name' => 'Employee',
-            'time-off-type' => 'Time Off Type',
+            'time-off-type' => '假別',
             'status'        => '狀態',
             'start-date'    => '開始日期',
             'start-to'      => '結束日期',
@@ -62,8 +62,8 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Time Off deleted',
-                    'body'  => 'The time off has been deleted成功.',
+                    'title' => 'Time Off已刪除',
+                    'body'  => 'The time off has been已刪除成功.',
                 ],
             ],
 
@@ -79,8 +79,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Time Offs deleted',
-                    'body'  => 'The time offs has been deleted成功.',
+                    'title' => 'Time Offs已刪除',
+                    'body'  => 'The time offs has been已刪除成功.',
                 ],
             ],
         ],
@@ -88,11 +88,11 @@ return [
 
     'infolist' => [
         'entries' => [
-            'time-off-type'     => 'Time off Type',
+            'time-off-type'     => '假別',
             'date'              => '日期',
             'dates'             => 'Dates',
-            'request-date-from' => 'Request Date From',
-            'request-date-to'   => 'Request Date To',
+            'request-date-from' => '申請開始日',
+            'request-date-to'   => '申請結束日',
             'description'       => '描述',
             'period'            => 'Period',
             'half-day'          => 'Half Day',

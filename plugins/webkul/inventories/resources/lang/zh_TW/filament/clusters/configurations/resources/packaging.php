@@ -7,21 +7,21 @@ return [
     ],
 
     'form' => [
-        'package-type' => 'Package Type',
+        'package-type' => '包裝類型',
         'routes'       => '路徑',
     ],
 
     'table' => [
         'columns' => [
-            'package-type' => 'Package Type',
+            'package-type' => '包裝類型',
         ],
 
         'groups' => [
-            'package-type' => 'Package Type',
+            'package-type' => '包裝類型',
         ],
 
         'filters' => [
-            'package-type' => 'Package Type',
+            'package-type' => '包裝類型',
         ],
     ],
 
@@ -29,16 +29,16 @@ return [
         'sections' => [
             'general' => [
                 'entries' => [
-                    'package_type' => 'Package Type',
+                    'package_type' => '包裝類型',
                 ],
             ],
 
             'routing' => [
-                'title' => 'Routing Information',
+                'title' => 'Routing資料',
 
                 'entries' => [
                     'routes'     => 'Warehouse Routes',
-                    'route_name' => 'Route Name',
+                    'route_name' => 'Route名稱',
                 ],
             ],
         ],

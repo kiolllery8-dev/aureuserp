@@ -6,11 +6,11 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => 'Add Rule',
+                'label' => '新增Rule',
 
                 'notification' => [
-                    'title' => 'Rule created',
-                    'body'  => 'The rule has been created成功.',
+                    'title' => 'Rule已建立',
+                    'body'  => 'The rule has been已建立成功.',
                 ],
             ],
         ],

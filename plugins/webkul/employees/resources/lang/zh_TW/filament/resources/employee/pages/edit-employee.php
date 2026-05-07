@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Employee updated',
-        'body'  => 'The employee has been updated成功.',
+        'title' => 'Employee已更新',
+        'body'  => 'The employee has been已更新成功.',
     ],
 
     'header-actions' => [
@@ -11,8 +11,8 @@ return [
             'label' => '新增Employee',
 
             'notification' => [
-                'title' => 'Employee deleted',
-                'body'  => 'The employee has been deleted成功.',
+                'title' => 'Employee已刪除',
+                'body'  => 'The employee has been已刪除成功.',
             ],
         ],
     ],

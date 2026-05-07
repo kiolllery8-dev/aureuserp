@@ -4,39 +4,39 @@ return [
     'title' => 'Capacity By Packages',
 
     'form' => [
-        'package-type' => 'Package Type',
+        'package-type' => '包裝類型',
         'qty'          => '數量',
     ],
 
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => 'Add Package Type Capacity',
+                'label' => '新增Package類型 Capacity',
 
                 'notification' => [
-                    'title' => 'Package Type Capacity created',
+                    'title' => 'Package類型 Capacity已建立',
                     'body'  => 'The package type capacity been added成功.',
                 ],
             ],
         ],
 
         'columns' => [
-            'package-type' => 'Package Type',
+            'package-type' => '包裝類型',
             'qty'          => '數量',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Package Type Capacity updated',
-                    'body'  => 'The package type capacity has been updated成功.',
+                    'title' => 'Package類型 Capacity已更新',
+                    'body'  => 'The package type capacity has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Package Type Capacity deleted',
-                    'body'  => 'The package type capacity has been deleted成功.',
+                    'title' => 'Package類型 Capacity已刪除',
+                    'body'  => 'The package type capacity has been已刪除成功.',
                 ],
             ],
         ],

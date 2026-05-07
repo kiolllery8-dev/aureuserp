@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Leave Type updated',
-        'body'  => 'The leave type has been updated成功.',
+        'title' => 'Leave類型已更新',
+        'body'  => 'The leave type has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Leave Type deleted',
-                'body'  => 'The leave type has been deleted成功.',
+                'title' => 'Leave類型已刪除',
+                'body'  => 'The leave type has been已刪除成功.',
             ],
         ],
     ],

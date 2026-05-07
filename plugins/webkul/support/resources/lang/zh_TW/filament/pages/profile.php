@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'title'                   => 'Profile',
-    'heading'                 => 'Profile',
+    'title'                   => '個人資料',
+    'heading'                 => '個人資料',
     'subheading'              => '管理your account settings and preferences.',
-    'information_section'     => 'Profile Information',
+    'information_section'     => 'Profile資料',
     'information_description' => "Update your account's profile information and email address.",
 
     'notification' => [
         'success' => [
             'title' => 'Profile Updated',
-            'body'  => 'Your profile has been updated成功.',
+            'body'  => 'Your profile has been已更新成功.',
         ],
 
         'error' => [
@@ -52,7 +52,7 @@ return [
         'notification' => [
             'success' => [
                 'title' => 'Password Updated',
-                'body'  => 'Your password has been updated成功.',
+                'body'  => 'Your password has been已更新成功.',
             ],
 
             'error' => [

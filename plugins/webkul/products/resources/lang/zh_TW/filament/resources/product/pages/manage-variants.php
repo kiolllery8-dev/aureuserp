@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'title' => 'Variants',
+    'title' => '規格',
 
     'form' => [
         'date'                   => '日期',
         'employee'               => 'Employee',
         'description'            => '描述',
-        'time-spent'             => 'Time Spent',
+        'time-spent'             => '花費時間',
         'time-spent-helper-text' => 'Time spent in hours (Eg. 1.5 hours means 1 hour 30 minutes)',
     ],
 
@@ -16,18 +16,18 @@ return [
             'date'                   => '日期',
             'employee'               => 'Employee',
             'description'            => '描述',
-            'time-spent'             => 'Time Spent',
+            'time-spent'             => '花費時間',
             'time-spent-on-subtasks' => 'Time Spent on Subtasks',
-            'total-time-spent'       => 'Total Time Spent',
-            'remaining-time'         => 'Remaining Time',
+            'total-time-spent'       => 'Total時間 Spent',
+            'remaining-time'         => 'Remaining時間',
             'variant-values'         => 'Variant Values',
         ],
 
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Variant deleted',
-                    'body'  => 'The variant has been deleted成功.',
+                    'title' => 'Variant已刪除',
+                    'body'  => 'The variant has been已刪除成功.',
                 ],
             ],
 

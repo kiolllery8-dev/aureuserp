@@ -6,7 +6,7 @@ return [
     'tabs' => [
         'internal-locations' => 'Internal Locations',
         'transit-locations'  => 'Transit Locations',
-        'on-hand'            => 'On Hand',
+        'on-hand'            => '現有',
         'to-count'           => 'To Count',
         'to-apply'           => 'To Apply',
     ],
@@ -15,10 +15,10 @@ return [
         'fields' => [
             'product'          => '商品',
             'location'         => '位置',
-            'package'          => 'Package',
-            'lot'              => 'Lot / Serial Numbers',
-            'on-hand-qty'      => 'On Hand Quantity',
-            'storage-category' => 'Storage Category',
+            'package'          => '包裝',
+            'lot'              => '批號 / 序號',
+            'on-hand-qty'      => '現有數量',
+            'storage-category' => '儲存分類',
         ],
     ],
 
@@ -26,25 +26,25 @@ return [
         'columns' => [
             'product'           => '商品',
             'location'          => '位置',
-            'lot'               => 'Lot / Serial Numbers',
-            'storage-category'  => 'Storage Category',
+            'lot'               => '批號 / 序號',
+            'storage-category'  => '儲存分類',
             'quantity'          => '數量',
-            'package'           => 'Package',
-            'on-hand'           => 'On Hand Quantity',
-            'unit'              => 'Unit',
-            'reserved-quantity' => 'Reserved Quantity',
+            'package'           => '包裝',
+            'on-hand'           => '現有數量',
+            'unit'              => '單位',
+            'reserved-quantity' => '預留數量',
 
             'on-hand-before-state-updated' => [
                 'notification' => [
-                    'title' => 'Quantity updated',
-                    'body'  => 'The quantity has been updated成功.',
+                    'title' => 'Quantity已更新',
+                    'body'  => 'The quantity has been已更新成功.',
                 ],
             ],
         ],
 
         'header-actions' => [
             'create' => [
-                'label' => 'Add Quantity',
+                'label' => '新增Quantity',
 
                 'notification' => [
                     'title' => 'Quantity added',
@@ -53,7 +53,7 @@ return [
 
                 'before' => [
                     'notification' => [
-                        'title' => 'Quantity already exists',
+                        'title' => 'Quantity已存在',
                         'body'  => 'Already has a quantity for the same configuration. Please update the quantity instead.',
                     ],
                 ],
@@ -63,8 +63,8 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Quantity deleted',
-                    'body'  => 'The quantity has been deleted成功.',
+                    'title' => 'Quantity已刪除',
+                    'body'  => 'The quantity has been已刪除成功.',
                 ],
             ],
         ],

@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Activity type deleted',
-                'body'  => 'The activity type has been deleted成功.',
+                'title' => 'Activity type已刪除',
+                'body'  => 'The activity type has been已刪除成功.',
             ],
         ],
     ],

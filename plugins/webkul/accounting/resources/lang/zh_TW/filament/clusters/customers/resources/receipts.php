@@ -11,8 +11,8 @@ return [
         'fieldset' => [
             'title'  => 'Recipient',
             'fields' => [
-                'reference'         => '參考',
-                'payment-reference' => 'Payment Reference',
+                'reference'         => '參考編號',
+                'payment-reference' => '付款參考',
             ],
         ],
     ],

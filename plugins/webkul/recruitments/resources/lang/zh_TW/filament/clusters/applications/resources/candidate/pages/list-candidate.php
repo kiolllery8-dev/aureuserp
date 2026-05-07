@@ -7,7 +7,7 @@ return [
         'in-progress'            => '處理中',
         'hired'                  => 'Hired',
         'refused'                => 'Refused',
-        'archived'               => 'Archived',
+        'archived'               => '已封存',
         'blocked'                => 'Blocked',
         'directly-available'     => 'Directly Available',
         'created-recently'       => 'Created Recently',

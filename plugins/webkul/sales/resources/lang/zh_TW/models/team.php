@@ -4,7 +4,7 @@ return [
     'title'          => 'Team',
 
     'log-attributes' => [
-        'name'            => 'Team Name',
+        'name'            => 'Team名稱',
         'company'         => '公司',
         'team_leader'     => 'Team Leader',
         'creator'         => '建立者',

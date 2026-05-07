@@ -3,7 +3,7 @@
 return [
     'global-search' => [
         'vendor'    => '供應商',
-        'reference' => '參考',
+        'reference' => '參考編號',
         'amount'    => '金額',
     ],
 
@@ -18,8 +18,8 @@ return [
                     'vendor-reference-tooltip' => 'The reference number of the sales order or bid provided by the vendor. It is used for matching when receiving products, as this reference is typically included in the vendor\'s delivery order.',
                     'agreement'                => 'Agreement',
                     'currency'                 => '幣別',
-                    'confirmation-date'        => 'Confirmation Date',
-                    'order-deadline'           => 'Order Deadline',
+                    'confirmation-date'        => 'Confirmation日期',
+                    'order-deadline'           => '訂單期限',
                     'expected-arrival'         => 'Expected Arrival',
                     'confirmed-by-vendor'      => 'Confirmed by Vendor',
                 ],
@@ -33,7 +33,7 @@ return [
                 'repeater' => [
                     'products' => [
                         'title'            => '商品',
-                        'add-product-line' => 'Add Product',
+                        'add-product-line' => '新增商品',
 
                         'fields' => [
                             'product'             => '商品',
@@ -41,18 +41,18 @@ return [
                             'quantity'            => '數量',
                             'received'            => 'Received',
                             'billed'              => 'Billed',
-                            'unit'                => 'Unit',
+                            'unit'                => '單位',
                             'packaging-qty'       => 'Packaging Qty',
-                            'packaging'           => 'Packaging',
+                            'packaging'           => '包裝',
                             'taxes'               => '稅',
-                            'discount-percentage' => 'Discount (%)',
+                            'discount-percentage' => '折扣 (%)',
                             'unit-price'          => '單價',
                             'amount'              => '金額',
                         ],
 
                         'notifications' => [
                             'quantity-below-received' => [
-                                'title' => 'Cannot Reduce Quantity',
+                                'title' => 'Cannot Reduce數量',
                                 'body'  => 'You cannot reduce the quantity below the received quantity (:qty).',
                             ],
 
@@ -68,11 +68,11 @@ return [
                             'quantity'            => '數量',
                             'received'            => 'Received',
                             'billed'              => 'Billed',
-                            'unit'                => 'Unit',
+                            'unit'                => '單位',
                             'packaging-qty'       => 'Packaging Qty',
-                            'packaging'           => 'Packaging',
+                            'packaging'           => '包裝',
                             'taxes'               => '稅',
-                            'discount-percentage' => 'Discount (%)',
+                            'discount-percentage' => '折扣 (%)',
                             'unit-price'          => '單價',
                             'amount'              => '金額',
                         ],
@@ -80,19 +80,19 @@ return [
                         'delete-action' => [
                             'error' => [
                                 'title' => 'Cannot 刪除Product',
-                                'body'  => 'Products cannot be deleted from a confirmed purchase order.',
+                                'body'  => 'Products cannot be已刪除 from a confirmed purchase order.',
                             ],
                         ],
                     ],
 
                     'section' => [
-                        'title' => 'Add Section',
+                        'title' => '新增Section',
 
                         'fields' => [],
                     ],
 
                     'note' => [
-                        'title' => 'Add Note',
+                        'title' => '新增Note',
 
                         'fields' => [],
                     ],
@@ -100,22 +100,22 @@ return [
             ],
 
             'additional' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
 
                 'fields' => [
-                    'buyer'             => 'Buyer',
+                    'buyer'             => '買家',
                     'company'           => '公司',
-                    'source-document'   => 'Source Document',
-                    'incoterm'          => 'Incoterm',
+                    'source-document'   => '來源單據',
+                    'incoterm'          => '貿易條件',
                     'incoterm-tooltip'  => 'International Commercial Terms (Incoterms) are a set of standardized trade terms used in global transactions to define responsibilities between buyers and sellers.',
-                    'incoterm-location' => 'Incoterm Location',
-                    'payment-term'      => 'Payment Term',
-                    'fiscal-position'   => '財務立場',
+                    'incoterm-location' => '貿易條件地點',
+                    'payment-term'      => '付款條件',
+                    'fiscal-position'   => '稅務情境',
                 ],
             ],
 
             'terms' => [
-                'title' => 'Terms and Conditions',
+                'title' => '條款',
             ],
         ],
     ],
@@ -125,22 +125,22 @@ return [
             'favorite'         => 'Favorite',
             'priority'         => '優先順序',
             'vendor-reference' => 'Vendor Reference',
-            'reference'        => '參考',
+            'reference'        => '參考編號',
             'vendor'           => '供應商',
-            'buyer'            => 'Buyer',
+            'buyer'            => '買家',
             'company'          => '公司',
-            'order-deadline'   => 'Order Deadline',
-            'source-document'  => 'Source Document',
-            'untaxed-amount'   => 'Untaxed Amount',
-            'total-amount'     => 'Total Amount',
+            'order-deadline'   => '訂單期限',
+            'source-document'  => '來源單據',
+            'untaxed-amount'   => '未稅金額',
+            'total-amount'     => '總金額',
             'status'           => '狀態',
-            'billing-status'   => 'Billing Status',
+            'billing-status'   => 'Billing狀態',
             'currency'         => '幣別',
         ],
 
         'groups' => [
             'vendor'     => '供應商',
-            'buyer'      => 'Buyer',
+            'buyer'      => '買家',
             'state'      => '狀態',
             'created-at' => '建立時間',
             'updated-at' => '更新時間',
@@ -149,15 +149,15 @@ return [
         'filters' => [
             'status'           => '狀態',
             'vendor-reference' => 'Vendor Reference',
-            'reference'        => '參考',
-            'untaxed-amount'   => 'Untaxed Amount',
-            'total-amount'     => 'Total Amount',
-            'order-deadline'   => 'Order Deadline',
+            'reference'        => '參考編號',
+            'untaxed-amount'   => '未稅金額',
+            'total-amount'     => '總金額',
+            'order-deadline'   => '訂單期限',
             'vendor'           => '供應商',
-            'buyer'            => 'Buyer',
+            'buyer'            => '買家',
             'company'          => '公司',
-            'payment-term'     => 'Payment Term',
-            'incoterm'         => 'Incoterm',
+            'payment-term'     => '付款條件',
+            'incoterm'         => '貿易條件',
             'status'           => '狀態',
             'created-at'       => '建立時間',
             'updated-at'       => '更新時間',
@@ -167,13 +167,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Order deleted',
-                        'body'  => 'The order has been deleted成功.',
+                        'title' => 'Order已刪除',
+                        'body'  => 'The order has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Order could not be deleted',
-                        'body'  => 'The order cannot be deleted because it is currently in use.',
+                        'title' => 'Order could not be已刪除',
+                        'body'  => 'The order cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -183,13 +183,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Orders deleted',
-                        'body'  => 'The orders has been deleted成功.',
+                        'title' => 'Orders已刪除',
+                        'body'  => 'The orders has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Orders could not be deleted',
-                        'body'  => 'The orders cannot be deleted because they are currently in use.',
+                        'title' => 'Orders could not be已刪除',
+                        'body'  => 'The orders cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],
@@ -208,8 +208,8 @@ return [
                     'vendor-reference-tooltip' => 'The reference number of the sales order or bid provided by the vendor. It is used for matching when receiving products, as this reference is typically included in the vendor\'s delivery order.',
                     'agreement'                => 'Agreement',
                     'currency'                 => '幣別',
-                    'confirmation-date'        => 'Confirmation Date',
-                    'order-deadline'           => 'Order Deadline',
+                    'confirmation-date'        => 'Confirmation日期',
+                    'order-deadline'           => '訂單期限',
                     'expected-arrival'         => 'Expected Arrival',
                     'confirmed-by-vendor'      => 'Confirmed by Vendor',
                 ],
@@ -223,7 +223,7 @@ return [
                 'repeater' => [
                     'products' => [
                         'title'            => '商品',
-                        'add-product-line' => 'Add Product',
+                        'add-product-line' => '新增商品',
 
                         'entries' => [
                             'product'             => '商品',
@@ -231,43 +231,43 @@ return [
                             'quantity'            => '數量',
                             'received'            => 'Received',
                             'billed'              => 'Billed',
-                            'unit'                => 'Unit',
+                            'unit'                => '單位',
                             'packaging-qty'       => 'Packaging Qty',
-                            'packaging'           => 'Packaging',
+                            'packaging'           => '包裝',
                             'taxes'               => '稅',
-                            'discount-percentage' => 'Discount (%)',
+                            'discount-percentage' => '折扣 (%)',
                             'unit-price'          => '單價',
                             'amount'              => '金額',
                         ],
                     ],
 
                     'section' => [
-                        'title' => 'Add Section',
+                        'title' => '新增Section',
                     ],
 
                     'note' => [
-                        'title' => 'Add Note',
+                        'title' => '新增Note',
                     ],
                 ],
             ],
 
             'additional' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
 
                 'entries' => [
-                    'buyer'             => 'Buyer',
+                    'buyer'             => '買家',
                     'company'           => '公司',
-                    'source-document'   => 'Source Document',
-                    'incoterm'          => 'Incoterm',
+                    'source-document'   => '來源單據',
+                    'incoterm'          => '貿易條件',
                     'incoterm-tooltip'  => 'International Commercial Terms (Incoterms) are a set of standardized trade terms used in global transactions to define responsibilities between buyers and sellers.',
-                    'incoterm-location' => 'Incoterm Location',
-                    'payment-term'      => 'Payment Term',
-                    'fiscal-position'   => '財務立場',
+                    'incoterm-location' => '貿易條件地點',
+                    'payment-term'      => '付款條件',
+                    'fiscal-position'   => '稅務情境',
                 ],
             ],
 
             'terms' => [
-                'title' => 'Terms and Conditions',
+                'title' => '條款',
             ],
         ],
     ],

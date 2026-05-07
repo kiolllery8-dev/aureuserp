@@ -7,23 +7,23 @@ return [
                 'title' => 'Activity Details',
 
                 'fields' => [
-                    'activity-type' => 'Activity Type',
+                    'activity-type' => '活動類型',
                     'summary'       => '摘要',
                     'note'          => '備註',
                 ],
             ],
 
             'assignment' => [
-                'title' => 'Assignment',
+                'title' => '指派',
 
                 'fields' => [
-                    'assignment' => 'Assignment',
+                    'assignment' => '指派',
                     'assignee'   => 'Assignee',
                 ],
             ],
 
             'delay-information' => [
-                'title' => 'Delay Information',
+                'title' => 'Delay資料',
 
                 'fields' => [
                     'delay-count'            => 'Delay Count',
@@ -37,10 +37,10 @@ return [
 
     'table' => [
         'columns' => [
-            'activity-type' => 'Activity Type',
+            'activity-type' => '活動類型',
             'summary'       => '摘要',
-            'assignment'    => 'Assignment',
-            'assigned-to'   => 'Assigned To',
+            'assignment'    => '指派',
+            'assigned-to'   => '指派給',
             'interval'      => 'Interval',
             'delay-unit'    => 'Delay Unit',
             'delay-from'    => 'Delay From',
@@ -50,9 +50,9 @@ return [
         ],
 
         'groups' => [
-            'activity-type' => 'Activity Type',
-            'assignment'    => 'Assignment',
-            'assigned-to'   => 'Assigned To',
+            'activity-type' => '活動類型',
+            'assignment'    => '指派',
+            'assigned-to'   => '指派給',
             'interval'      => 'Interval',
             'delay-unit'    => 'Delay Unit',
             'delay-from'    => 'Delay From',
@@ -62,23 +62,23 @@ return [
         ],
 
         'filters' => [
-            'activity-type'   => 'Activity Type',
-            'activity-status' => 'Activity Status',
+            'activity-type'   => '活動類型',
+            'activity-status' => 'Activity狀態',
             'has-delay'       => 'Has Delay',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Activity template updated',
-                    'body'  => 'The activity template has been updated成功.',
+                    'title' => 'Activity template已更新',
+                    'body'  => 'The activity template has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Activity template deleted',
-                    'body'  => 'The activity template has been deleted成功.',
+                    'title' => 'Activity template已刪除',
+                    'body'  => 'The activity template has been已刪除成功.',
                 ],
             ],
         ],
@@ -86,8 +86,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Activity templates deleted',
-                    'body'  => 'The activity templates has been deleted成功.',
+                    'title' => 'Activity templates已刪除',
+                    'body'  => 'The activity templates has been已刪除成功.',
                 ],
             ],
         ],

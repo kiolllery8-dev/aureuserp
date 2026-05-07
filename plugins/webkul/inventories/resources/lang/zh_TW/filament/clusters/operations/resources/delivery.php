@@ -16,13 +16,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Delivery deleted',
-                        'body'  => 'The delivery ras been deleted成功.',
+                        'title' => 'Delivery已刪除',
+                        'body'  => 'The delivery ras been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Delivery could not be deleted',
-                        'body'  => 'The delivery cannot be deleted because it is currently in use.',
+                        'title' => 'Delivery could not be已刪除',
+                        'body'  => 'The delivery cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -32,13 +32,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Deliveries deleted',
-                        'body'  => 'The deliveries has been deleted成功.',
+                        'title' => 'Deliveries已刪除',
+                        'body'  => 'The deliveries has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Deliveries could not be deleted',
-                        'body'  => 'The deliveries cannot be deleted because they are currently in use.',
+                        'title' => 'Deliveries could not be已刪除',
+                        'body'  => 'The deliveries cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],

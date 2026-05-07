@@ -8,7 +8,7 @@ return [
     */
 
     'column.name' => '名稱',
-    'column.guard_name' => 'Guard Name',
+    'column.guard_name' => 'Guard名稱',
     'column.roles' => '角色',
     'column.permissions' => '權限',
     'column.updated_at' => '更新時間',
@@ -20,9 +20,9 @@ return [
     */
 
     'field.name' => '名稱',
-    'field.guard_name' => 'Guard Name',
+    'field.guard_name' => 'Guard名稱',
     'field.permissions' => '權限',
-    'field.select_all.name' => 'Select All',
+    'field.select_all.name' => '全選',
     'field.select_all.message' => 'Enable all Permissions currently <span class="text-primary font-medium">Enabled</span> for this role',
 
     /*
@@ -46,7 +46,7 @@ return [
     'section' => 'Entities',
     'resources' => 'Resources',
     'widgets' => 'Widgets',
-    'pages' => 'Pages',
+    'pages' => '頁面',
     'custom' => 'Custom Permissions',
 
     /*

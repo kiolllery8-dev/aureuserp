@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Stage updated',
-        'body'  => 'The stage has been updated成功.',
+        'title' => 'Stage已更新',
+        'body'  => 'The stage has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Stage deleted',
-                'body'  => 'The stage has been deleted成功.',
+                'title' => 'Stage已刪除',
+                'body'  => 'The stage has been已刪除成功.',
             ],
         ],
     ],

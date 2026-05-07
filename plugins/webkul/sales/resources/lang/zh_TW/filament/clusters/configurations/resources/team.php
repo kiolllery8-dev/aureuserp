@@ -10,7 +10,7 @@ return [
     'form' => [
         'sections' => [
             'fields' => [
-                'name'     => 'Sales Team',
+                'name'     => '業務團隊',
                 'status'   => '狀態',
                 'fieldset' => [
                     'team-details' => [
@@ -20,7 +20,7 @@ return [
                             'company'                => '公司',
                             'invoiced-target'        => 'Invoiced Target',
                             'invoiced-target-suffix' => '/ Month',
-                            'color'                  => 'Color',
+                            'color'                  => '顏色',
                             'members'                => 'Members',
                         ],
                     ],
@@ -31,13 +31,13 @@ return [
 
     'table' => [
         'columns' => [
-            'id'              => 'ID',
+            'id'              => '編號',
             'company'         => '公司',
             'team-leader'     => 'Team Leader',
             'name'            => '名稱',
             'status'          => '狀態',
             'invoiced-target' => 'Invoiced Target',
-            'color'           => 'Color',
+            'color'           => '顏色',
             'created-by'      => '建立者',
             'created-at'      => '建立時間',
             'updated-at'      => '更新時間',
@@ -70,15 +70,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Sales Team deleted',
-                    'body'  => 'The sales Team has been deleted成功.',
+                    'title' => 'Sales Team已刪除',
+                    'body'  => 'The sales Team has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Sales Team force deleted',
-                    'body'  => 'The sales Team has been force deleted成功.',
+                    'title' => 'Sales Team force已刪除',
+                    'body'  => 'The sales Team has been force已刪除成功.',
                 ],
             ],
         ],
@@ -93,15 +93,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Sales Teams deleted',
-                    'body'  => 'The sales Teams has been deleted成功.',
+                    'title' => 'Sales Teams已刪除',
+                    'body'  => 'The sales Teams has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Sales Teams force deleted',
-                    'body'  => 'The sales Teams has been force deleted成功.',
+                    'title' => 'Sales Teams force已刪除',
+                    'body'  => 'The sales Teams has been force已刪除成功.',
                 ],
             ],
         ],
@@ -109,8 +109,8 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Sales Teams created',
-                    'body'  => 'The sales Teams has been created成功.',
+                    'title' => 'Sales Teams已建立',
+                    'body'  => 'The sales Teams has been已建立成功.',
                 ],
             ],
         ],
@@ -119,7 +119,7 @@ return [
     'infolist' => [
         'sections' => [
             'entries' => [
-                'name'     => 'Sales Team',
+                'name'     => '業務團隊',
                 'status'   => '狀態',
                 'fieldset' => [
                     'team-details' => [
@@ -129,7 +129,7 @@ return [
                             'company'                => '公司',
                             'invoiced-target'        => 'Invoiced Target',
                             'invoiced-target-suffix' => '/ Month',
-                            'color'                  => 'Color',
+                            'color'                  => '顏色',
                             'members'                => 'Members',
                         ],
                     ],

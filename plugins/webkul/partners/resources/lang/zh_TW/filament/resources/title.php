@@ -3,33 +3,33 @@
 return [
     'form' => [
         'name'       => '名稱',
-        'short-name' => 'Short Name',
+        'short-name' => 'Short名稱',
     ],
 
     'table' => [
         'columns' => [
             'name'       => '名稱',
-            'short-name' => 'Short Name',
+            'short-name' => 'Short名稱',
             'created-at' => '建立時間',
             'updated-at' => '更新時間',
         ],
 
         'filters' => [
-            'creator' => 'Creator',
+            'creator' => '建立者',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Title updated',
-                    'body'  => 'The Title has been updated成功.',
+                    'title' => 'Title已更新',
+                    'body'  => 'The Title has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Title deleted',
-                    'body'  => 'The title has been deleted成功.',
+                    'title' => 'Title已刪除',
+                    'body'  => 'The title has been已刪除成功.',
                 ],
             ],
         ],
@@ -37,8 +37,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Titles deleted',
-                    'body'  => 'The titles has been deleted成功.',
+                    'title' => 'Titles已刪除',
+                    'body'  => 'The titles has been已刪除成功.',
                 ],
             ],
         ],

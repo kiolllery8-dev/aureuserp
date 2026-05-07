@@ -6,14 +6,14 @@ return [
     'table' => [
         'columns' => [
             'date'                 => '日期',
-            'reference'            => '參考',
+            'reference'            => '參考編號',
             'product'              => '商品',
-            'package'              => 'Package',
-            'lot'                  => 'Lot / Serial Numbers',
-            'source-location'      => 'Source Location',
-            'destination-location' => 'Destination Location',
+            'package'              => '包裝',
+            'lot'                  => '批號 / 序號',
+            'source-location'      => '從哪裡',
+            'destination-location' => '送到哪裡',
             'quantity'             => '數量',
-            'unit'                 => 'Unit',
+            'unit'                 => '單位',
             'state'                => '狀態',
             'done-by'              => 'Done By',
         ],
@@ -21,8 +21,8 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Move deleted',
-                    'body'  => 'The move has been deleted成功.',
+                    'title' => 'Move已刪除',
+                    'body'  => 'The move has been已刪除成功.',
                 ],
             ],
         ],

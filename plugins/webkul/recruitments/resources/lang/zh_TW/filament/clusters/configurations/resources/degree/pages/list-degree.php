@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Degree created',
-        'body'  => 'The degree has been created成功.',
+        'title' => 'Degree已建立',
+        'body'  => 'The degree has been已建立成功.',
     ],
 ];

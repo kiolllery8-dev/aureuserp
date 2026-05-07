@@ -6,11 +6,11 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => 'Add Product',
+                'label' => '新增商品',
 
                 'notification' => [
-                    'title' => 'Product created',
-                    'body'  => 'The product has been created成功.',
+                    'title' => 'Product已建立',
+                    'body'  => 'The product has been已建立成功.',
                 ],
             ],
         ],

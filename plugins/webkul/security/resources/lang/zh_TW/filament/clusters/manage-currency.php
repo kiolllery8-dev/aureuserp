@@ -11,7 +11,7 @@ return [
 
     'form' => [
         'default-currency' => [
-            'label'       => 'Default Currency',
+            'label'       => '預設幣別',
             'helper-text' => 'The default currency used in the application.',
         ],
     ],

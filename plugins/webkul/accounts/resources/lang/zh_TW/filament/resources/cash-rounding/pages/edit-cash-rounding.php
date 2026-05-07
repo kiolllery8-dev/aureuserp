@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Cash rounding updated',
-        'body'  => 'The cash rounding has been updated成功.',
+        'title' => 'Cash rounding已更新',
+        'body'  => 'The cash rounding has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Cash rounding deleted',
-                'body'  => 'The cash rounding has been deleted成功.',
+                'title' => 'Cash rounding已刪除',
+                'body'  => 'The cash rounding has been已刪除成功.',
             ],
         ],
     ],

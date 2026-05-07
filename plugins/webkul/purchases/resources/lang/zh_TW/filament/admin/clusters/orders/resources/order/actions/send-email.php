@@ -7,7 +7,7 @@ return [
     'form' => [
         'fields' => [
             'to'      => 'To',
-            'subject' => 'Subject',
+            'subject' => '主旨',
             'message' => 'Message',
         ],
     ],

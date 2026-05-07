@@ -22,7 +22,7 @@ return [
 
     'table' => [
         'columns' => [
-            'id'         => 'ID',
+            'id'         => '編號',
             'name'       => '名稱',
             'template'   => 'Template',
             'created-by' => '建立者',
@@ -41,15 +41,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Refuse reason updated',
-                    'body'  => 'The refuse reason has been updated成功.',
+                    'title' => 'Refuse reason已更新',
+                    'body'  => 'The refuse reason has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Refuse reason deleted',
-                    'body'  => 'The refuse reason has been deleted成功.',
+                    'title' => 'Refuse reason已刪除',
+                    'body'  => 'The refuse reason has been已刪除成功.',
                 ],
             ],
         ],
@@ -57,8 +57,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Refuse reasons deleted',
-                    'body'  => 'The refuse reasons has been deleted成功.',
+                    'title' => 'Refuse reasons已刪除',
+                    'body'  => 'The refuse reasons has been已刪除成功.',
                 ],
             ],
         ],
@@ -66,8 +66,8 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Refuse reason created',
-                    'body'  => 'The refuse reason has been created成功.',
+                    'title' => 'Refuse reason已建立',
+                    'body'  => 'The refuse reason has been已建立成功.',
                 ],
             ],
         ],

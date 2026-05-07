@@ -6,8 +6,8 @@ return [
             'label' => '新增Medium',
 
             'notification' => [
-                'title' => 'Medium created',
-                'body'  => 'The medium has been created成功.',
+                'title' => 'Medium已建立',
+                'body'  => 'The medium has been已建立成功.',
             ],
         ],
     ],

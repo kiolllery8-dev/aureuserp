@@ -15,9 +15,9 @@ return [
                 'fields' => [
                     'customer-invoice' => 'Customer Credit Note',
                     'customer'         => '客戶',
-                    'invoice-date'     => 'Invoice Date',
+                    'invoice-date'     => '開立日期',
                     'due-date'         => '到期日',
-                    'payment-term'     => 'Payment Term',
+                    'payment-term'     => '付款條件',
                 ],
             ],
         ],
@@ -29,16 +29,16 @@ return [
                 'repeater' => [
                     'products' => [
                         'title'       => '商品',
-                        'add-product' => 'Add Product',
+                        'add-product' => '新增商品',
 
                         'fields' => [
                             'product'             => '商品',
                             'quantity'            => '數量',
-                            'unit'                => 'Unit',
+                            'unit'                => '單位',
                             'taxes'               => '稅',
-                            'discount-percentage' => 'Discount Percentage',
+                            'discount-percentage' => '折扣百分比',
                             'unit-price'          => '單價',
-                            'sub-total'           => 'Sub Total',
+                            'sub-total'           => '小計',
                         ],
                     ],
                 ],
@@ -51,10 +51,10 @@ return [
                         'title'  => '發票',
                         'fields' => [
                             'customer-reference' => 'Customer Reference',
-                            'sales-person'       => 'Sales Person',
-                            'payment-reference'  => 'Payment Reference',
+                            'sales-person'       => '業務',
+                            'payment-reference'  => '付款參考',
                             'recipient-bank'     => 'Recipient Bank',
-                            'delivery-date'      => 'Delivery Date',
+                            'delivery-date'      => 'Delivery日期',
                         ],
                     ],
 
@@ -62,16 +62,16 @@ return [
                         'title' => '會計',
 
                         'fields' => [
-                            'incoterm'          => 'Incoterm',
-                            'incoterm-location' => 'Incoterm Location',
-                            'payment-method'    => 'Payment Method',
+                            'incoterm'          => '貿易條件',
+                            'incoterm-location' => '貿易條件地點',
+                            'payment-method'    => '付款方式',
                             'auto-post'         => 'Auto Post',
-                            'checked'           => 'Checked',
+                            'checked'           => '已核對',
                         ],
                     ],
 
                     'additional-information' => [
-                        'title'  => 'Additional Information',
+                        'title'  => '其他資料',
                         'fields' => [
                             'company'  => '公司',
                             'currency' => '幣別',
@@ -83,14 +83,14 @@ return [
                         'fields' => [
                             'campaign' => 'Campaign',
                             'medium'   => '中',
-                            'source'   => 'Source',
+                            'source'   => '來源',
                         ],
                     ],
                 ],
             ],
 
             'term-and-conditions' => [
-                'title' => 'Term & Conditions',
+                'title' => '條款',
             ],
         ],
     ],
@@ -102,9 +102,9 @@ return [
                 'entries' => [
                     'customer-invoice' => 'Customer Credit Note',
                     'customer'         => '客戶',
-                    'invoice-date'     => 'Invoice Date',
+                    'invoice-date'     => '開立日期',
                     'due-date'         => '到期日',
-                    'payment-term'     => 'Payment Term',
+                    'payment-term'     => '付款條件',
                 ],
             ],
         ],
@@ -120,9 +120,9 @@ return [
                             'quantity'            => '數量',
                             'unit'                => '計量單位',
                             'taxes'               => '稅',
-                            'discount-percentage' => 'Discount Percentage',
+                            'discount-percentage' => '折扣百分比',
                             'unit-price'          => '單價',
-                            'sub-total'           => 'Sub Total',
+                            'sub-total'           => '小計',
                             'total'               => '總計',
                         ],
                     ],
@@ -136,10 +136,10 @@ return [
                         'title'   => '發票',
                         'entries' => [
                             'customer-reference' => 'Customer Reference',
-                            'sales-person'       => 'Sales Person',
-                            'payment-reference'  => 'Payment Reference',
+                            'sales-person'       => '業務',
+                            'payment-reference'  => '付款參考',
                             'recipient-bank'     => 'Recipient Bank',
-                            'delivery-date'      => 'Delivery Date',
+                            'delivery-date'      => 'Delivery日期',
                         ],
                     ],
 
@@ -147,16 +147,16 @@ return [
                         'title' => '會計',
 
                         'fieldset' => [
-                            'incoterm'          => 'Incoterm',
-                            'incoterm-location' => 'Incoterm Location',
-                            'payment-method'    => 'Payment Method',
+                            'incoterm'          => '貿易條件',
+                            'incoterm-location' => '貿易條件地點',
+                            'payment-method'    => '付款方式',
                             'auto-post'         => 'Auto Post',
-                            'checked'           => 'Checked',
+                            'checked'           => '已核對',
                         ],
                     ],
 
                     'additional-information' => [
-                        'title'   => 'Additional Information',
+                        'title'   => '其他資料',
                         'entries' => [
                             'company'  => '公司',
                             'currency' => '幣別',
@@ -168,14 +168,14 @@ return [
                         'entries' => [
                             'campaign' => 'Campaign',
                             'medium'   => '中',
-                            'source'   => 'Source',
+                            'source'   => '來源',
                         ],
                     ],
                 ],
             ],
 
             'term-and-conditions' => [
-                'title' => 'Term & Conditions',
+                'title' => '條款',
             ],
         ],
     ],

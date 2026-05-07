@@ -4,14 +4,14 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Bill deleted',
-                'body'  => 'Bill has been deleted成功.',
+                'title' => 'Bill已刪除',
+                'body'  => 'Bill has been已刪除成功.',
             ],
         ],
 
         'reverse' => [
             'label'         => '退款',
-            'modal-heading' => 'Create Refund',
+            'modal-heading' => '新增Refund',
         ],
     ],
 ];

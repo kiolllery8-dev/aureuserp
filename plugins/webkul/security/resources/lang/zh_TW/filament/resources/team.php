@@ -23,15 +23,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Team updated',
-                    'body'  => 'The team has been updated成功.',
+                    'title' => 'Team已更新',
+                    'body'  => 'The team has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Team deleted',
-                    'body'  => 'The team has been deleted成功.',
+                    'title' => 'Team已刪除',
+                    'body'  => 'The team has been已刪除成功.',
                 ],
             ],
         ],
@@ -39,8 +39,8 @@ return [
         'empty-state-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Teams created',
-                    'body'  => 'The teams has been created成功.',
+                    'title' => 'Teams已建立',
+                    'body'  => 'The teams has been已建立成功.',
                 ],
             ],
         ],
@@ -50,11 +50,11 @@ return [
         'sections' => [
             'entries' => [
                 'name'          => '名稱',
-                'job-title'     => 'Job Title',
+                'job-title'     => '職稱',
                 'work-email'    => 'Work Email',
                 'work-mobile'   => 'Work Mobile',
                 'work-phone'    => 'Work Phone',
-                'manager'       => 'Manager',
+                'manager'       => '主管',
                 'department'    => '部門',
                 'job-position'  => '職位',
                 'team-tags'     => 'Team Tags',

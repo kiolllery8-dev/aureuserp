@@ -24,16 +24,16 @@ return [
                 'title'  => '設定',
 
                 'fields' => [
-                    'location-type'                 => 'Location Type',
+                    'location-type'                 => 'Location類型',
                     'company'                       => '公司',
-                    'storage-category'              => 'Storage Category',
+                    'storage-category'              => '儲存分類',
                     'is-scrap'                      => 'Is a Scrap Location?',
                     'is-scrap-hint-tooltip'         => 'Select this checkbox to designate this location for storing scrapped or damaged goods.',
                     'is-dock'                       => 'Is a Dock Location?',
                     'is-dock-hint-tooltip'          => 'Select this checkbox to designate this location for storing goods that are ready for shipment.',
                     'is-replenish'                  => 'Is a Replenish Location?',
                     'is-replenish-hint-tooltip'     => 'Enable this function to retrieve all quantities needed for replenishment at this location.',
-                    'logistics'                     => 'Logistics',
+                    'logistics'                     => '物流',
                     'removal-strategy'              => 'Removal Strategy',
                     'removal-strategy-hint-tooltip' => 'Specifies the default method for determining the exact shelf, lot, and location from which to pick products. This method can be enforced at the product category level, with a fallback to parent locations if not set here.',
                     'cyclic-counting'               => 'Cyclic Counting',
@@ -46,7 +46,7 @@ return [
             ],
 
             'additional' => [
-                'title'  => 'Additional Information',
+                'title'  => '其他資料',
             ],
         ],
     ],
@@ -55,9 +55,9 @@ return [
         'columns' => [
             'location'         => '位置',
             'type'             => '類型',
-            'storage-category' => 'Storage Category',
+            'storage-category' => '儲存分類',
             'company'          => '公司',
-            'deleted-at'       => 'deleted At',
+            'deleted-at'       => '刪除時間',
             'created-at'       => '建立時間',
             'updated-at'       => '更新時間',
         ],
@@ -78,8 +78,8 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Location updated',
-                    'body'  => 'The location has been updated成功.',
+                    'title' => 'Location已更新',
+                    'body'  => 'The location has been已更新成功.',
                 ],
             ],
 
@@ -92,21 +92,21 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Location deleted',
-                    'body'  => 'The location has been deleted成功.',
+                    'title' => 'Location已刪除',
+                    'body'  => 'The location has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Location force deleted',
-                        'body'  => 'The location has been force deleted成功.',
+                        'title' => 'Location force已刪除',
+                        'body'  => 'The location has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Location could not be deleted',
-                        'body'  => 'The location cannot be deleted because it is currently in use.',
+                        'title' => 'Location could not be已刪除',
+                        'body'  => 'The location cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -126,21 +126,21 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Locations deleted',
-                    'body'  => 'The locations has been deleted成功.',
+                    'title' => 'Locations已刪除',
+                    'body'  => 'The locations has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Locations force deleted',
-                        'body'  => 'The locations has been force deleted成功.',
+                        'title' => 'Locations force已刪除',
+                        'body'  => 'The locations has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Locations could not be deleted',
-                        'body'  => 'The locations cannot be deleted because they are currently in use.',
+                        'title' => 'Locations could not be已刪除',
+                        'body'  => 'The locations cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],
@@ -165,16 +165,16 @@ return [
                 'title'  => '設定',
 
                 'entries' => [
-                    'location-type'                 => 'Location Type',
+                    'location-type'                 => 'Location類型',
                     'company'                       => '公司',
-                    'storage-category'              => 'Storage Category',
+                    'storage-category'              => '儲存分類',
                     'is-scrap'                      => 'Is a Scrap Location?',
                     'is-scrap-hint-tooltip'         => 'Select this checkbox to designate this location for storing scrapped or damaged goods.',
                     'is-dock'                       => 'Is a Dock Location?',
                     'is-dock-hint-tooltip'          => 'Select this checkbox to designate this location for storing goods that are ready for shipment.',
                     'is-replenish'                  => 'Is a Replenish Location?',
                     'is-replenish-hint-tooltip'     => 'Enable this function to retrieve all quantities needed for replenishment at this location.',
-                    'logistics'                     => 'Logistics',
+                    'logistics'                     => '物流',
                     'removal-strategy'              => 'Removal Strategy',
                     'removal-strategy-hint-tooltip' => 'Specifies the default method for determining the exact shelf, lot, and location from which to pick products. This method can be enforced at the product category level, with a fallback to parent locations if not set here.',
                     'cyclic-counting'               => 'Cyclic Counting',
@@ -187,16 +187,16 @@ return [
             ],
 
             'additional' => [
-                'title'  => 'Additional Information',
+                'title'  => '其他資料',
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'created-by'   => '建立者',
                     'created-at'   => '建立時間',
-                    'last-updated' => 'Last Updated',
+                    'last-updated' => '最後更新',
                 ],
             ],
         ],

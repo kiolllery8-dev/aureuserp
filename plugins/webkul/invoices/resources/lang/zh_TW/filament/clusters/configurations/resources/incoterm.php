@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'model-label' => 'Incoterm',
+    'model-label' => '貿易條件',
 
     'navigation' => [
-        'title' => 'Incoterms',
+        'title' => '貿易條件',
         'group' => 'Invoicing',
     ],
 ];

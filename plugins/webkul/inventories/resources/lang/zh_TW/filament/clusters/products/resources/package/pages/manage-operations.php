@@ -7,8 +7,8 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Internal Transfer created',
-                    'body'  => 'The internal transfer has been created成功.',
+                    'title' => 'Internal Transfer已建立',
+                    'body'  => 'The internal transfer has been已建立成功.',
                 ],
             ],
         ],

@@ -26,14 +26,14 @@ return [
         'filters' => [
             'is-completed' => 'Is Completed',
             'project'      => '專案',
-            'creator'      => 'Creator',
+            'creator'      => '建立者',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Project stage updated',
-                    'body'  => 'The project stage has been updated成功.',
+                    'title' => 'Project stage已更新',
+                    'body'  => 'The project stage has been已更新成功.',
                 ],
             ],
 
@@ -46,20 +46,20 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Project stage deleted',
-                    'body'  => 'The project stage has been deleted成功.',
+                    'title' => 'Project stage已刪除',
+                    'body'  => 'The project stage has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Project stage force deleted',
-                        'body'  => 'The project stage has been force deleted成功.',
+                        'title' => 'Project stage force已刪除',
+                        'body'  => 'The project stage has been force已刪除成功.',
                     ],
                     'error' => [
-                        'title' => 'Project Stage  could not be deleted',
-                        'body'  => 'The Project Stage  cannot be deleted because it is currently in use.',
+                        'title' => 'Project Stage  could not be已刪除',
+                        'body'  => 'The Project Stage  cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -75,15 +75,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Project stages deleted',
-                    'body'  => 'The project stages has been deleted成功.',
+                    'title' => 'Project stages已刪除',
+                    'body'  => 'The project stages has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Project stages force deleted',
-                    'body'  => 'The project stages has been force deleted成功.',
+                    'title' => 'Project stages force已刪除',
+                    'body'  => 'The project stages has been force已刪除成功.',
                 ],
             ],
         ],

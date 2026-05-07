@@ -21,9 +21,9 @@ return [
                 'title'  => '一般資料',
                 'fields' => [
                     'name'                  => '名稱',
-                    'schedule-name'         => 'Schedule Name',
+                    'schedule-name'         => '排程名稱',
                     'schedule-name-tooltip' => 'Please write descriptive working schedule name.',
-                    'timezone'              => 'Timezone',
+                    'timezone'              => '時區',
                     'timezone-tooltip'      => 'Please select the timezone for the working schedule.',
                     'company'               => '公司',
                 ],
@@ -34,7 +34,7 @@ return [
                 'fields' => [
                     'hours-per-day'                   => 'Hours Per Day',
                     'hours-per-day-suffix'            => 'Hours',
-                    'full-time-required-hours'        => 'Full Time Required Hours',
+                    'full-time-required-hours'        => 'Full時間 Required Hours',
                     'full-time-required-hours-suffix' => 'Hours Per Week',
                 ],
             ],
@@ -45,7 +45,7 @@ return [
                     'status'                     => '狀態',
                     'two-weeks-calendar'         => 'Two Weeks Calendar',
                     'two-weeks-calendar-tooltip' => 'Enable alternating two-week work schedule.',
-                    'flexible-hours'             => 'Flexible Hours',
+                    'flexible-hours'             => '彈性工時',
                     'flexible-hours-tooltip'     => 'Allow employees to have flexible work hours.',
                 ],
             ],
@@ -54,11 +54,11 @@ return [
 
     'table' => [
         'columns' => [
-            'id'             => 'ID',
-            'name'           => 'Schedule Name',
-            'timezone'       => 'Timezone',
+            'id'             => '編號',
+            'name'           => '排程名稱',
+            'timezone'       => '時區',
             'company'        => '公司',
-            'flexible-hours' => 'Flexible Hours',
+            'flexible-hours' => '彈性工時',
             'status'         => '狀態',
             'daily-hours'    => 'Daily Hours',
             'created-by'     => '建立者',
@@ -70,22 +70,22 @@ return [
             'company'                  => '公司',
             'is-active'                => '狀態',
             'two-week-calendar'        => 'Two Weeks Calendar',
-            'flexible-hours'           => 'Flexible Hours',
-            'timezone'                 => 'Timezone',
-            'name'                     => 'Schedule Name',
+            'flexible-hours'           => '彈性工時',
+            'timezone'                 => '時區',
+            'name'                     => '排程名稱',
             'attendance'               => '出勤',
             'created-by'               => '建立者',
             'daily-hours'              => 'Daily Hours',
-            'full-time-required-hours' => 'Full Time Required Hours',
+            'full-time-required-hours' => 'Full時間 Required Hours',
             'updated-at'               => '更新時間',
             'created-at'               => '建立時間',
         ],
 
         'groups' => [
-            'name'           => 'Schedule Name',
+            'name'           => '排程名稱',
             'status'         => '狀態',
-            'timezone'       => 'Timezone',
-            'flexible-hours' => 'Flexible Hours',
+            'timezone'       => '時區',
+            'flexible-hours' => '彈性工時',
             'daily-hours'    => 'Daily Hours',
             'created-by'     => '建立者',
             'created-at'     => '建立時間',
@@ -102,15 +102,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Calendar Plan deleted',
-                    'body'  => 'The calendar plan has been deleted成功.',
+                    'title' => 'Calendar Plan已刪除',
+                    'body'  => 'The calendar plan has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Calendar Plan force deleted',
-                    'body'  => 'The calendar plan has been force deleted成功.',
+                    'title' => 'Calendar Plan force已刪除',
+                    'body'  => 'The calendar plan has been force已刪除成功.',
                 ],
             ],
         ],
@@ -125,15 +125,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Calendar Plans deleted',
-                    'body'  => 'The calendar plans has been deleted成功.',
+                    'title' => 'Calendar Plans已刪除',
+                    'body'  => 'The calendar plans has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Calendar Plans force deleted',
-                    'body'  => 'The calendar plans has been force deleted成功.',
+                    'title' => 'Calendar Plans force已刪除',
+                    'body'  => 'The calendar plans has been force已刪除成功.',
                 ],
             ],
         ],
@@ -145,9 +145,9 @@ return [
                 'title'   => '一般資料',
                 'entries' => [
                     'name'                  => '名稱',
-                    'schedule-name'         => 'Schedule Name',
+                    'schedule-name'         => '排程名稱',
                     'schedule-name-tooltip' => 'Please write descriptive working schedule name.',
-                    'timezone'              => 'Timezone',
+                    'timezone'              => '時區',
                     'timezone-tooltip'      => 'Please select the timezone for the working schedule.',
                     'company'               => '公司',
                 ],
@@ -158,7 +158,7 @@ return [
                 'entries' => [
                     'hours-per-day'                   => 'Hours Per Day',
                     'hours-per-day-suffix'            => ' Hours',
-                    'full-time-required-hours'        => 'Full Time Required Hours',
+                    'full-time-required-hours'        => 'Full時間 Required Hours',
                     'full-time-required-hours-suffix' => ' Hours Per Week',
                 ],
             ],
@@ -169,7 +169,7 @@ return [
                     'status'                     => '狀態',
                     'two-weeks-calendar'         => 'Two Weeks Calendar',
                     'two-weeks-calendar-tooltip' => 'Enable alternating two-week work schedule.',
-                    'flexible-hours'             => 'Flexible Hours',
+                    'flexible-hours'             => '彈性工時',
                     'flexible-hours-tooltip'     => 'Allow employees to have flexible work hours.',
                 ],
             ],

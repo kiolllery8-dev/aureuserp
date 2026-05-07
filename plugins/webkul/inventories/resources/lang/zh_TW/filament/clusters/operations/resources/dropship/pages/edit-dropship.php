@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Dropship updated',
-        'body'  => 'The dropship has been updated成功.',
+        'title' => 'Dropship已更新',
+        'body'  => 'The dropship has been已更新成功.',
     ],
 
     'header-actions' => [
@@ -14,13 +14,13 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Dropship deleted',
-                    'body'  => 'The dropship has been deleted成功.',
+                    'title' => 'Dropship已刪除',
+                    'body'  => 'The dropship has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Dropship could not be deleted',
-                    'body'  => 'The dropship cannot be deleted because it is currently in use.',
+                    'title' => 'Dropship could not be已刪除',
+                    'body'  => 'The dropship cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

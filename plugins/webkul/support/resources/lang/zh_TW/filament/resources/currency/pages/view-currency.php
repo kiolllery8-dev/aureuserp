@@ -6,8 +6,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Currency deleted',
-                'body'  => 'The currency has been deleted成功.',
+                'title' => 'Currency已刪除',
+                'body'  => 'The currency has been已刪除成功.',
             ],
         ],
     ],

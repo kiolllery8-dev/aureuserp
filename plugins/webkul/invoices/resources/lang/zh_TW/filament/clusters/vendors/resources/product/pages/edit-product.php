@@ -2,27 +2,27 @@
 
 return [
     'notification' => [
-        'title' => 'Product updated',
-        'body'  => 'The product has been updated成功.',
+        'title' => 'Product已更新',
+        'body'  => 'The product has been已更新成功.',
     ],
 
     'header-actions' => [
         'update-quantity' => [
-            'label'                     => 'Update Quantity',
-            'modal-heading'             => 'Update Product Quantity',
+            'label'                     => 'Update數量',
+            'modal-heading'             => 'Update Product數量',
             'modal-submit-action-label' => '更新',
 
             'form' => [
                 'fields' => [
-                    'on-hand-qty' => 'On Hand Quantity',
+                    'on-hand-qty' => '現有數量',
                 ],
             ],
         ],
 
         'delete' => [
             'notification' => [
-                'title' => 'Product deleted',
-                'body'  => 'The product has been deleted成功.',
+                'title' => 'Product已刪除',
+                'body'  => 'The product has been已刪除成功.',
             ],
         ],
     ],

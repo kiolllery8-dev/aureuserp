@@ -9,7 +9,7 @@ return [
     'global-search' => [
         'name'            => '職位',
         'department'      => '部門',
-        'employment-type' => 'Employment Type',
+        'employment-type' => '雇用類型',
         'company'         => '公司',
         'created-by'      => '建立者',
     ],
@@ -17,7 +17,7 @@ return [
     'form' => [
         'sections' => [
             'employment-information' => [
-                'title' => 'Employment Information',
+                'title' => 'Employment資料',
 
                 'fields' => [
                     'job-position-title'         => 'Job Position Title',
@@ -25,12 +25,12 @@ return [
                     'department'                 => '部門',
                     'department-modal-title'     => 'Department Create',
                     'job-location'               => 'Job Location',
-                    'industry'                   => 'Industry',
+                    'industry'                   => '產業',
                     'company'                    => '公司',
-                    'employment-type'            => 'Employment Type',
+                    'employment-type'            => '雇用類型',
                     'interviewers'               => 'Interviewers',
                     'recruiter'                  => 'Recruiter',
-                    'manager'                    => 'Manager',
+                    'manager'                    => '主管',
                 ],
             ],
 
@@ -48,16 +48,16 @@ return [
 
                 'fields' => [
                     'recruitment-target' => 'Recruitment Target',
-                    'date-from'          => 'Date From',
-                    'date-to'            => 'Date To',
+                    'date-from'          => '開始日期',
+                    'date-to'            => '結束日期',
                     'expected-skills'    => 'Expected Skills',
-                    'employment-type'    => 'Employment Type',
+                    'employment-type'    => '雇用類型',
                     'status'             => '狀態',
                 ],
             ],
 
             'position-status' => [
-                'title' => 'Position Status',
+                'title' => 'Position狀態',
 
                 'fields' => [
                     'status' => '狀態',
@@ -68,7 +68,7 @@ return [
 
     'table' => [
         'columns' => [
-            'id'                 => 'ID',
+            'id'                 => '編號',
             'name'               => '職位',
             'department'         => '部門',
             'job-position'       => '職位',
@@ -83,7 +83,7 @@ return [
 
         'filters' => [
             'department'      => '部門',
-            'employment-type' => 'Employment Type',
+            'employment-type' => '雇用類型',
             'job-position'    => '職位',
             'company'         => '公司',
             'status'          => '狀態',
@@ -96,7 +96,7 @@ return [
             'job-position'    => '職位',
             'company'         => '公司',
             'department'      => '部門',
-            'employment-type' => 'Employment Type',
+            'employment-type' => '雇用類型',
             'created-by'      => '建立者',
             'created-at'      => '建立時間',
             'updated-at'      => '更新時間',
@@ -112,8 +112,8 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Job Position deleted',
-                    'body'  => 'The Job Position has been deleted成功.',
+                    'title' => 'Job Position已刪除',
+                    'body'  => 'The Job Position has been已刪除成功.',
                 ],
             ],
         ],
@@ -128,15 +128,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Job Positions deleted',
-                    'body'  => 'The Job Positions has been deleted成功.',
+                    'title' => 'Job Positions已刪除',
+                    'body'  => 'The Job Positions has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Job Positions force deleted',
-                    'body'  => 'The Job Positions has been force deleted成功.',
+                    'title' => 'Job Positions force已刪除',
+                    'body'  => 'The Job Positions has been force已刪除成功.',
                 ],
             ],
         ],
@@ -145,7 +145,7 @@ return [
             'create' => [
                 'notification' => [
                     'title' => '職位',
-                    'body'  => 'The Job Positions has been created成功.',
+                    'body'  => 'The Job Positions has been已建立成功.',
                 ],
             ],
         ],
@@ -154,16 +154,16 @@ return [
     'infolist' => [
         'sections' => [
             'employment-information' => [
-                'title' => 'Employment Information',
+                'title' => 'Employment資料',
 
                 'entries' => [
                     'job-position-title' => 'Job Position Title',
                     'department'         => '部門',
                     'company'            => '公司',
-                    'employment-type'    => 'Employment Type',
+                    'employment-type'    => '雇用類型',
                     'job-location'       => 'Job Location',
-                    'industry'           => 'Industry',
-                    'manager'            => 'Manager',
+                    'industry'           => '產業',
+                    'manager'            => '主管',
                     'recruiter'          => 'Recruiter',
                     'interviewers'       => 'Interviewers',
                 ],
@@ -182,13 +182,13 @@ return [
                 'entries' => [
                     'expected-employees' => 'Expected Employees',
                     'current-employees'  => 'Current Employees',
-                    'date-from'          => 'Date From',
-                    'date-to'            => 'Date To',
+                    'date-from'          => '開始日期',
+                    'date-to'            => '結束日期',
                     'recruitment-target' => 'Recruitment Target',
                 ],
             ],
             'position-status' => [
-                'title' => 'Position Status',
+                'title' => 'Position狀態',
 
                 'entries' => [
                     'status' => '狀態',

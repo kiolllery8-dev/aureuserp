@@ -17,7 +17,7 @@ return [
 
     'data_impact' => [
         'title'       => 'Data Impact',
-        'description' => 'The following database tables contain data that will be permanently deleted.',
+        'description' => 'The following database tables contain data that will be permanently已刪除.',
         'records'     => ':count records',
     ],
 

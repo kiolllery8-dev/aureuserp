@@ -3,7 +3,7 @@
 return [
     'tabs' => [
         'all'      => '全部',
-        'archived' => 'Archived',
+        'archived' => '已封存',
     ],
 
     'header-actions' => [
@@ -11,8 +11,8 @@ return [
             'label' => '新增Rule',
 
             'notification' => [
-                'title' => 'Rule created',
-                'body'  => 'The rule has been created成功.',
+                'title' => 'Rule已建立',
+                'body'  => 'The rule has been已建立成功.',
             ],
         ],
     ],

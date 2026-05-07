@@ -10,12 +10,12 @@ return [
         'sections' => [
             'fields' => [
                 'code'          => '代碼',
-                'account-name'  => 'Account Name',
+                'account-name'  => 'Account名稱',
                 'accounting'    => '會計',
-                'account-type'  => 'Account Type',
+                'account-type'  => '帳戶類型',
                 'default-taxes' => 'Default Taxes',
                 'tags'          => '標籤',
-                'journals'      => '日記帳',
+                'journals'      => '帳本',
                 'currency'      => '幣別',
                 'deprecated'    => 'Deprecated',
                 'reconcile'     => 'Allow Reconcile',
@@ -28,43 +28,43 @@ return [
     'table' => [
         'columns' => [
             'code'         => '代碼',
-            'account-name' => 'Account Name',
-            'account-type' => '科目',
+            'account-name' => 'Account名稱',
+            'account-type' => '帳戶',
             'currency'     => '幣別',
-            'journals'     => '日記帳',
+            'journals'     => '帳本',
             'reconcile'    => 'Allow Reconcile',
         ],
 
         'grouping' => [
-            'account-type' => 'Account Type',
+            'account-type' => '帳戶類型',
         ],
 
         'filters' => [
-            'account-type'     => 'Account Type',
+            'account-type'     => '帳戶類型',
             'allow-reconcile'  => 'Allow Reconcile',
             'currency'         => '幣別',
-            'account-journals' => '日記帳',
+            'account-journals' => '帳本',
             'non-trade'        => 'Non Trade',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Account updated',
-                    'body'  => 'The account has been updated成功.',
+                    'title' => 'Account已更新',
+                    'body'  => 'The account has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Account deleted',
-                        'body'  => 'The account has been deleted成功.',
+                        'title' => 'Account已刪除',
+                        'body'  => 'The account has been已刪除成功.',
                     ],
 
                     'error' => [
                         'title' => 'Account deletion失敗',
-                        'body'  => 'The account could not be deleted because it has associated journal items.',
+                        'body'  => 'The account could not be已刪除 because it has associated journal items.',
                     ],
                 ],
             ],
@@ -74,13 +74,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Accounts deleted',
-                        'body'  => 'The accounts has been deleted成功.',
+                        'title' => 'Accounts已刪除',
+                        'body'  => 'The accounts has been已刪除成功.',
                     ],
 
                     'error' => [
                         'title' => 'Accounts deletion失敗',
-                        'body'  => 'The accounts could not be deleted because they have associated journal items.',
+                        'body'  => 'The accounts could not be已刪除 because they have associated journal items.',
                     ],
                 ],
             ],
@@ -91,12 +91,12 @@ return [
         'sections' => [
             'entries' => [
                 'code'          => '代碼',
-                'account-name'  => 'Account Name',
+                'account-name'  => 'Account名稱',
                 'accounting'    => '會計',
-                'account-type'  => 'Account Type',
+                'account-type'  => '帳戶類型',
                 'default-taxes' => 'Default Taxes',
                 'tags'          => '標籤',
-                'journals'      => '日記帳',
+                'journals'      => '帳本',
                 'currency'      => '幣別',
                 'deprecated'    => 'Deprecated',
                 'reconcile'     => 'Reconcile',

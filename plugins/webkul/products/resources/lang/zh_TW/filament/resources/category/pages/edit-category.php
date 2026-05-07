@@ -2,21 +2,21 @@
 
 return [
     'notification' => [
-        'title' => 'Category updated',
-        'body'  => 'The category has been updated成功.',
+        'title' => 'Category已更新',
+        'body'  => 'The category has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Category deleted',
-                    'body'  => 'The category has been deleted成功.',
+                    'title' => 'Category已刪除',
+                    'body'  => 'The category has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Category could not be deleted',
-                    'body'  => 'The category cannot be deleted because it is currently in use.',
+                    'title' => 'Category could not be已刪除',
+                    'body'  => 'The category cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],
@@ -25,7 +25,7 @@ return [
     'save' => [
         'notification' => [
             'error' => [
-                'title' => 'Category updated失敗',
+                'title' => 'Category已更新失敗',
             ],
         ],
     ],

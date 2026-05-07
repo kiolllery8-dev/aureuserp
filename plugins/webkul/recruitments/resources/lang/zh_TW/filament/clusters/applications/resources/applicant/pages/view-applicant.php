@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Applicant deleted',
-                'body'  => 'The applicant has been deleted成功.',
+                'title' => 'Applicant已刪除',
+                'body'  => 'The applicant has been已刪除成功.',
             ],
         ],
 
@@ -25,8 +25,8 @@ return [
 
         'state' => [
             'notification' => [
-                'title' => 'Applicant state updated',
-                'body'  => 'The applicant state has been updated成功.',
+                'title' => 'Applicant state已更新',
+                'body'  => 'The applicant state has been已更新成功.',
             ],
         ],
     ],

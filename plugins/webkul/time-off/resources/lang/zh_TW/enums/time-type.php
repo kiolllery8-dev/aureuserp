@@ -2,5 +2,5 @@
 
 return [
     'leave' => 'Absence',
-    'other' => 'Worked Time',
+    'other' => 'Worked時間',
 ];

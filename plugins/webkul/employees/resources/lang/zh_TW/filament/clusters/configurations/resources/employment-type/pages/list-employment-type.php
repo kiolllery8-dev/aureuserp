@@ -3,11 +3,11 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增Employment Type',
+            'label' => '新增Employment類型',
 
             'notification' => [
-                'title' => 'Employment Type created',
-                'body'  => 'The employment type has been created成功.',
+                'title' => 'Employment類型已建立',
+                'body'  => 'The employment type has been已建立成功.',
             ],
         ],
     ],

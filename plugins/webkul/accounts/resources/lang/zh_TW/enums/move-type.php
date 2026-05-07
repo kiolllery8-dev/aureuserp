@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'entry'       => '分錄',
+    'entry'       => '帳目記錄',
     'out-invoice' => 'Customer Invoice',
     'out-refund'  => 'Customer Credit Note',
     'in-invoice'  => 'Vendor Bill',

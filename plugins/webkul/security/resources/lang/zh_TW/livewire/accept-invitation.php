@@ -7,7 +7,7 @@ return [
         ],
     ],
 
-    'title' => 'Register',
+    'title' => '註冊',
 
     'heading' => 'Sign up',
 
@@ -23,7 +23,7 @@ return [
     'form' => [
 
         'email' => [
-            'label' => 'Email address',
+            'label' => '電子郵件',
         ],
 
         'name' => [

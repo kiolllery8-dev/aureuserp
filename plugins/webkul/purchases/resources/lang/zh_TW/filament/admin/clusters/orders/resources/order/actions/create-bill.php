@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'label' => 'Create Bill',
+    'label' => '新增Bill',
 
     'action' => [
         'notification' => [
@@ -11,8 +11,8 @@ return [
             ],
 
             'success' => [
-                'title' => 'Bill created',
-                'body'  => 'The bill has been created成功.',
+                'title' => 'Bill已建立',
+                'body'  => 'The bill has been已建立成功.',
             ],
         ],
     ],

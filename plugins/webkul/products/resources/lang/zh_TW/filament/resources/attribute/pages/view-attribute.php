@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Attribute deleted',
-                'body'  => 'The attribute has been deleted成功.',
+                'title' => 'Attribute已刪除',
+                'body'  => 'The attribute has been已刪除成功.',
             ],
         ],
     ],

@@ -20,7 +20,7 @@ return [
             ],
 
             'terms-and-conditions' => [
-                'title'  => 'Terms & Conditions',
+                'title'  => '條款',
                 'fields' => [
                     'note-placeholder' => 'Write your terms and conditions for the quotations.',
                 ],
@@ -64,7 +64,7 @@ return [
         'groups'  => [
             'company' => '公司',
             'name'    => '名稱',
-            'journal' => '日記帳',
+            'journal' => '帳本',
         ],
         'filters' => [
             'created-by' => '建立者',
@@ -76,8 +76,8 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Quotation template deleted',
-                    'body'  => 'The quotation template has been deleted成功.',
+                    'title' => 'Quotation template已刪除',
+                    'body'  => 'The quotation template has been已刪除成功.',
                 ],
             ],
 
@@ -85,8 +85,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Quotation template deleted',
-                    'body'  => 'The quotation template has been deleted成功.',
+                    'title' => 'Quotation template已刪除',
+                    'body'  => 'The quotation template has been已刪除成功.',
                 ],
             ],
         ],
@@ -98,7 +98,7 @@ return [
                 'title' => '商品',
             ],
             'terms-and-conditions' => [
-                'title' => 'Terms & Conditions',
+                'title' => '條款',
             ],
         ],
         'sections' => [
@@ -114,9 +114,9 @@ return [
             'description'           => '描述',
             'quantity'              => '數量',
             'unit-price'            => '單價',
-            'section-name'          => 'Section Name',
+            'section-name'          => 'Section名稱',
             'note-title'            => 'Note Title',
-            'name'                  => 'Template Name',
+            'name'                  => 'Template名稱',
             'quotation-validity'    => 'Quotation Validity',
             'sale-journal'          => 'Sale Journal',
             'online-signature'      => 'Online Signature',

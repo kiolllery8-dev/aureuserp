@@ -2,5 +2,5 @@
 
 return [
     'previous-activity' => 'After Previous Activity Deadline',
-    'current-date'      => 'After Complete Date',
+    'current-date'      => 'After Complete日期',
 ];

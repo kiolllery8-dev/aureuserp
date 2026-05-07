@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Vendor Price Lists',
+        'title' => 'Vendor價格列表s',
     ],
 
     'form' => [
@@ -12,11 +12,11 @@ return [
 
                 'fields' => [
                     'vendor'                      => '供應商',
-                    'vendor-product-name'         => 'Vendor Product Name',
+                    'vendor-product-name'         => 'Vendor Product名稱',
                     'vendor-product-name-tooltip' => 'The vendor\'s product name will appear on the request for quotation. Leave it blank to use the internal product name.',
-                    'vendor-product-code'         => 'Vendor Product Code',
+                    'vendor-product-code'         => 'Vendor Product代碼',
                     'vendor-product-code-tooltip' => 'The vendor\'s product code will appear on the request for quotation. Leave it blank to use the internal code.',
-                    'delay'                       => 'Delivery Lead Time (Days)',
+                    'delay'                       => 'Delivery Lead時間 (Days)',
                     'delay-tooltip'               => 'The lead time (in days) from purchase order confirmation to product receipt in the warehouse. Used by the scheduler for automatic purchase order planning.',
                 ],
             ],
@@ -33,7 +33,7 @@ return [
                     'currency'           => '幣別',
                     'valid-from'         => 'Valid From',
                     'valid-to'           => 'Valid Until',
-                    'discount'           => 'Discount (%)',
+                    'discount'           => '折扣 (%)',
                     'company'            => '公司',
                 ],
             ],
@@ -43,16 +43,16 @@ return [
     'table' => [
         'columns' => [
             'vendor'              => '供應商',
-            'vendor-product-name' => 'Vendor Product Name',
-            'vendor-product-code' => 'Vendor Product Code',
-            'delay'               => 'Delivery Lead Time (Days)',
+            'vendor-product-name' => 'Vendor Product名稱',
+            'vendor-product-code' => 'Vendor Product代碼',
+            'delay'               => 'Delivery Lead時間 (Days)',
             'product'             => '商品',
             'quantity'            => '數量',
             'unit-price'          => '單價',
             'currency'            => '幣別',
             'valid-from'          => 'Valid From',
             'valid-to'            => 'Valid Until',
-            'discount'            => 'Discount (%)',
+            'discount'            => '折扣 (%)',
             'company'             => '公司',
             'created-at'          => '建立時間',
             'updated-at'          => '更新時間',
@@ -63,12 +63,12 @@ return [
             'product'       => 'Filter by Product',
             'currency'      => 'Filter by Currency',
             'company'       => 'Filter by Company',
-            'price-from'    => 'Minimum Price',
-            'price-to'      => 'Maximum Price',
-            'min-qty-from'  => 'Minimum Quantity From',
-            'min-qty-to'    => 'Minimum Quantity To',
-            'starts-from'   => 'Valid From Date',
-            'ends-before'   => 'Valid To Date',
+            'price-from'    => 'Minimum價格',
+            'price-to'      => 'Maximum價格',
+            'min-qty-from'  => 'Minimum數量 From',
+            'min-qty-to'    => 'Minimum數量 To',
+            'starts-from'   => 'Valid From日期',
+            'ends-before'   => 'Valid To日期',
             'created-from'  => 'Created From',
             'created-until' => 'Created Until',
         ],
@@ -84,13 +84,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Vendor Price deleted',
-                        'body'  => 'The vendor price has been deleted成功.',
+                        'title' => 'Vendor價格已刪除',
+                        'body'  => 'The vendor price has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Vendor Price could not be deleted',
-                        'body'  => 'The vendor price cannot be deleted because it is currently in use.',
+                        'title' => 'Vendor價格 could not be已刪除',
+                        'body'  => 'The vendor price cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -100,13 +100,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Vendor Prices deleted',
-                        'body'  => 'The vendor prices has been deleted成功.',
+                        'title' => 'Vendor價格s已刪除',
+                        'body'  => 'The vendor prices has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Vendor Prices could not be deleted',
-                        'body'  => 'The vendor prices cannot be deleted because they are currently in use.',
+                        'title' => 'Vendor價格s could not be已刪除',
+                        'body'  => 'The vendor prices cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],
@@ -120,22 +120,22 @@ return [
 
                 'entries' => [
                     'vendor'                      => '供應商',
-                    'vendor-product-name'         => 'Vendor Product Name',
+                    'vendor-product-name'         => 'Vendor Product名稱',
                     'vendor-product-name-tooltip' => 'The vendor\'s product name will appear on the request for quotation. Leave it blank to use the internal product name.',
-                    'vendor-product-code'         => 'Vendor Product Code',
+                    'vendor-product-code'         => 'Vendor Product代碼',
                     'vendor-product-code-tooltip' => 'The vendor\'s product code will appear on the request for quotation. Leave it blank to use the internal code.',
-                    'delay'                       => 'Delivery Lead Time (Days)',
+                    'delay'                       => 'Delivery Lead時間 (Days)',
                     'delay-tooltip'               => 'The lead time (in days) from purchase order confirmation to product receipt in the warehouse. Used by the scheduler for automatic purchase order planning.',
                 ],
             ],
 
             'record-information' => [
-                'title'  => 'Record Information',
+                'title'  => '紀錄資料',
 
                 'entries' => [
                     'created-by'   => '建立者',
                     'created-at'   => '建立時間',
-                    'last-updated' => 'Last Updated',
+                    'last-updated' => '最後更新',
                 ],
             ],
 
@@ -151,7 +151,7 @@ return [
                     'currency'           => '幣別',
                     'valid-from'         => 'Valid From',
                     'valid-to'           => 'Valid Until',
-                    'discount'           => 'Discount (%)',
+                    'discount'           => '折扣 (%)',
                     'company'            => '公司',
                 ],
             ],

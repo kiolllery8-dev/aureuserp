@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Journal Entry updated',
-        'body'  => 'The journal entry has been updated成功.',
+        'title' => 'Journal Entry已更新',
+        'body'  => 'The journal entry has been已更新成功.',
     ],
 ];

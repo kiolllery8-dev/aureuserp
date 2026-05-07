@@ -3,7 +3,7 @@
 return [
     'tabs' => [
         'my-posts' => 'My Posts',
-        'archived' => 'Archived',
+        'archived' => '已封存',
     ],
 
     'header-actions' => [
@@ -11,8 +11,8 @@ return [
             'label' => '新增Post',
 
             'notification' => [
-                'title' => 'Post created',
-                'body'  => 'The post has been created成功.',
+                'title' => 'Post已建立',
+                'body'  => 'The post has been已建立成功.',
             ],
         ],
     ],

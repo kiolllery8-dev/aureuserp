@@ -3,6 +3,6 @@
 return [
     'notification' => [
         'title' => 'Quotation Template Created',
-        'body'  => 'Quotation Template has been created成功.',
+        'body'  => 'Quotation Template has been已建立成功.',
     ],
 ];

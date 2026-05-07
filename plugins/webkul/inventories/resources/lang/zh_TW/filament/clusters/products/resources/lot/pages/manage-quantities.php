@@ -7,18 +7,18 @@ return [
         'columns' => [
             'product'          => '商品',
             'location'         => '位置',
-            'storage-category' => 'Storage Category',
+            'storage-category' => '儲存分類',
             'quantity'         => '數量',
-            'package'          => 'Package',
-            'on-hand'          => 'On Hand Quantity',
-            'unit'             => 'Unit',
+            'package'          => '包裝',
+            'on-hand'          => '現有數量',
+            'unit'             => '單位',
         ],
 
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Quantity deleted',
-                    'body'  => 'The quantity has been deleted成功.',
+                    'title' => 'Quantity已刪除',
+                    'body'  => 'The quantity has been已刪除成功.',
                 ],
             ],
         ],

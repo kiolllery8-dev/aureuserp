@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Order updated',
-        'body'  => 'The order has been updated成功.',
+        'title' => 'Order已更新',
+        'body'  => 'The order has been已更新成功.',
     ],
 
     'header-actions' => [
@@ -26,13 +26,13 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Order deleted',
-                    'body'  => 'The order has been deleted成功.',
+                    'title' => 'Order已刪除',
+                    'body'  => 'The order has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Order could not be deleted',
-                    'body'  => 'The order cannot be deleted because it is currently in use.',
+                    'title' => 'Order could not be已刪除',
+                    'body'  => 'The order cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

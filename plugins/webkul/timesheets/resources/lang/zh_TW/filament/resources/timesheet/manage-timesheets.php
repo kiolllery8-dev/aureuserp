@@ -3,17 +3,17 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => 'Add Timesheet',
+            'label' => '新增Timesheet',
 
             'notification' => [
-                'title' => 'Timesheet created',
-                'body'  => 'The timesheet has been created成功.',
+                'title' => 'Timesheet已建立',
+                'body'  => 'The timesheet has been已建立成功.',
             ],
         ],
     ],
 
     'tabs' => [
-        'all'           => 'All Timesheets',
-        'my-timesheets' => 'My Timesheets',
+        'all'           => 'All時間sheets',
+        'my-timesheets' => 'My時間sheets',
     ],
 ];

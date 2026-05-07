@@ -8,7 +8,7 @@ return [
 
         'form' => [
             'partners'    => '客戶',
-            'subject'     => 'Subject',
+            'subject'     => '主旨',
             'description' => '描述',
             'files'       => '附件',
         ],

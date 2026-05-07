@@ -20,7 +20,7 @@ return [
         'project'                => '專案',
         'task'                   => '任務',
         'description'            => '描述',
-        'time-spent'             => 'Time Spent',
+        'time-spent'             => '花費時間',
         'time-spent-helper-text' => 'Time spent in hours (Eg. 1.5 hours means 1 hour 30 minutes)',
     ],
 
@@ -31,7 +31,7 @@ return [
             'project'     => '專案',
             'task'        => '任務',
             'description' => '描述',
-            'time-spent'  => 'Time Spent',
+            'time-spent'  => '花費時間',
             'created-at'  => '建立時間',
             'updated-at'  => '更新時間',
         ],
@@ -41,30 +41,30 @@ return [
             'employee'   => 'Employee',
             'project'    => '專案',
             'task'       => '任務',
-            'creator'    => 'Creator',
+            'creator'    => '建立者',
         ],
 
         'filters' => [
-            'date-from'  => 'Date From',
+            'date-from'  => '開始日期',
             'date-until' => 'Date Until',
             'employee'   => 'Employee',
             'project'    => '專案',
             'task'       => '任務',
-            'creator'    => 'Creator',
+            'creator'    => '建立者',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Timesheet updated',
-                    'body'  => 'The timesheet has been updated成功.',
+                    'title' => 'Timesheet已更新',
+                    'body'  => 'The timesheet has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Timesheet deleted',
-                    'body'  => 'The timesheet has been deleted成功.',
+                    'title' => 'Timesheet已刪除',
+                    'body'  => 'The timesheet has been已刪除成功.',
                 ],
             ],
         ],
@@ -72,8 +72,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Timesheets deleted',
-                    'body'  => 'The timesheets has been deleted成功.',
+                    'title' => 'Timesheets已刪除',
+                    'body'  => 'The timesheets has been已刪除成功.',
                 ],
             ],
         ],

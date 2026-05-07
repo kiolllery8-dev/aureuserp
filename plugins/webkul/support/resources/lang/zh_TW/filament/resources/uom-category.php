@@ -28,7 +28,7 @@ return [
                 ],
 
                 'actions' => [
-                    'add' => 'Add Unit',
+                    'add' => '新增Unit',
                 ],
             ],
         ],
@@ -49,15 +49,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'UOM Category updated',
-                    'body'  => 'The UOM category has been updated成功.',
+                    'title' => 'UOM Category已更新',
+                    'body'  => 'The UOM category has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'UOM Category deleted',
-                    'body'  => 'The UOM category has been deleted成功.',
+                    'title' => 'UOM Category已刪除',
+                    'body'  => 'The UOM category has been已刪除成功.',
                 ],
             ],
         ],
@@ -65,8 +65,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'UOM Categories deleted',
-                    'body'  => 'The UOM categories has been deleted成功.',
+                    'title' => 'UOM Categories已刪除',
+                    'body'  => 'The UOM categories has been已刪除成功.',
                 ],
             ],
         ],

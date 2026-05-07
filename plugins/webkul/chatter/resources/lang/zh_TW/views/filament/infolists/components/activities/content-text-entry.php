@@ -5,7 +5,7 @@ return [
     'created-by'       => '建立者',
     'summary'          => '摘要',
     'due-date'         => '到期日',
-    'assigned-to'      => 'Assigned To',
+    'assigned-to'      => '指派給',
     'due-in-days'      => 'Due in :days days',
     'today'            => 'Today',
     'tomorrow'         => 'Tomorrow',

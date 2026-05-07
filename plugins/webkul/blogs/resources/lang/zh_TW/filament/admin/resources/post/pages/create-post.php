@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Post created',
-        'body'  => 'The post has been created成功.',
+        'title' => 'Post已建立',
+        'body'  => 'The post has been已建立成功.',
     ],
 ];

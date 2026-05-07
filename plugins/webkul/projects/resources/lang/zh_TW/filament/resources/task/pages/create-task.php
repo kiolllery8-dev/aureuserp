@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Task created',
-        'body'  => 'The task has been created成功.',
+        'title' => 'Task已建立',
+        'body'  => 'The task has been已建立成功.',
     ],
 ];

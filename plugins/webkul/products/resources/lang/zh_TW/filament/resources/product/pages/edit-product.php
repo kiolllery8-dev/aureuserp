@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Product updated',
-        'body'  => 'The product has been updated成功.',
+        'title' => 'Product已更新',
+        'body'  => 'The product has been已更新成功.',
     ],
 
     'header-actions' => [
@@ -28,8 +28,8 @@ return [
 
         'delete' => [
             'notification' => [
-                'title' => 'Product deleted',
-                'body'  => 'The product has been deleted成功.',
+                'title' => 'Product已刪除',
+                'body'  => 'The product has been已刪除成功.',
             ],
         ],
     ],

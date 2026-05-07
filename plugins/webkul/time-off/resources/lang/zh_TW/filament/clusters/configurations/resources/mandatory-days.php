@@ -14,14 +14,14 @@ return [
             'name'       => '名稱',
             'start-date' => '開始日期',
             'end-date'   => '結束日期',
-            'color'      => 'Color',
+            'color'      => '顏色',
         ],
     ],
 
     'table' => [
         'columns' => [
             'name'         => '名稱',
-            'company-name' => 'Company Name',
+            'company-name' => '公司名稱',
             'created-by'   => '建立者',
             'start-date'   => '開始日期',
             'end-date'     => '結束日期',
@@ -29,7 +29,7 @@ return [
 
         'filters' => [
             'name'         => '名稱',
-            'company-name' => 'Company Name',
+            'company-name' => '公司名稱',
             'created-by'   => '建立者',
             'start-date'   => '開始日期',
             'end-date'     => '結束日期',
@@ -37,7 +37,7 @@ return [
 
         'groups' => [
             'name'         => '名稱',
-            'company-name' => 'Company Name',
+            'company-name' => '公司名稱',
             'created-by'   => '建立者',
             'start-date'   => '開始日期',
             'end-date'     => '結束日期',
@@ -46,15 +46,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Mandatory day updated',
+                    'title' => 'Mandatory day已更新',
                     'body'  => 'The mandatory day has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Mandatory day deleted',
-                    'body'  => 'The mandatory day has been deleted成功.',
+                    'title' => 'Mandatory day已刪除',
+                    'body'  => 'The mandatory day has been已刪除成功.',
                 ],
             ],
         ],
@@ -62,8 +62,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Mandatory days deleted',
-                    'body'  => 'The mandatory days has been deleted成功.',
+                    'title' => 'Mandatory days已刪除',
+                    'body'  => 'The mandatory days has been已刪除成功.',
                 ],
             ],
         ],
@@ -74,7 +74,7 @@ return [
             'name'       => '名稱',
             'start-date' => '開始日期',
             'end-date'   => '結束日期',
-            'color'      => 'Color',
+            'color'      => '顏色',
         ],
     ],
 ];

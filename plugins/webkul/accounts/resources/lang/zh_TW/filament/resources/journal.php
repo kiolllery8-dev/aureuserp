@@ -4,18 +4,18 @@ return [
     'form' => [
         'tabs' => [
             'journal-entries' => [
-                'title' => '分錄',
+                'title' => '帳目記錄',
 
                 'field-set' => [
                     'accounting-information' => [
-                        'title'  => 'Accounting Information',
+                        'title'  => 'Accounting資料',
                         'fields' => [
                             'dedicated-credit-note-sequence' => 'Dedicated Credit Note Sequence',
                             'dedicated-payment-sequence'     => 'Dedicated Payment Sequence',
                             'sort-code-placeholder'          => 'Enter the journal code',
                             'sort-code'                      => 'Sort',
                             'currency'                       => '幣別',
-                            'color'                          => 'Color',
+                            'color'                          => '顏色',
                             'default-account'                => 'Default Account',
                             'profit-account'                 => 'Profit Account',
                             'loss-account'                   => 'Loss Account',
@@ -32,11 +32,11 @@ return [
 
             'incoming-payments' => [
                 'title'            => 'Incoming Payments',
-                'add-action-label' => 'Add Line',
+                'add-action-label' => '新增明細',
 
                 'fields' => [
-                    'payment-method'             => 'Payment Method',
-                    'display-name'               => 'Display Name',
+                    'payment-method'             => '付款方式',
+                    'display-name'               => 'Display名稱',
                     'account-number'             => 'Outstanding Receipts Accounts',
                     'relation-notes'             => 'Relation Notes',
                     'relation-notes-placeholder' => 'Enter any relation details',
@@ -45,11 +45,11 @@ return [
 
             'outgoing-payments' => [
                 'title'            => 'Outgoing Payments',
-                'add-action-label' => 'Add Line',
+                'add-action-label' => '新增明細',
 
                 'fields' => [
-                    'payment-method'             => 'Payment Method',
-                    'display-name'               => 'Display Name',
+                    'payment-method'             => '付款方式',
+                    'display-name'               => 'Display名稱',
                     'account-number'             => 'Outstanding Payments Accounts',
                     'relation-notes'             => 'Relation Notes',
                     'relation-notes-placeholder' => 'Enter any relation details',
@@ -64,7 +64,7 @@ return [
                     'control-access'         => 'Control Access',
                     'payment-communication'  => 'Payment Communication',
                     'auto-check-on-post'     => 'Auto Check on Post',
-                    'communication-type'     => 'Communication Type',
+                    'communication-type'     => 'Communication類型',
                     'communication-standard' => 'Communication Standard',
                 ],
             ],
@@ -95,13 +95,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Journal deleted',
-                        'body'  => 'The journal has been deleted成功.',
+                        'title' => 'Journal已刪除',
+                        'body'  => 'The journal has been已刪除成功.',
                     ],
 
                     'error' => [
                         'title' => 'Journal deletion失敗',
-                        'body'  => 'The journal cannot be deleted because it is currently in use.',
+                        'body'  => 'The journal cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -111,13 +111,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Journal deleted',
-                        'body'  => 'The journal has been deleted成功.',
+                        'title' => 'Journal已刪除',
+                        'body'  => 'The journal has been已刪除成功.',
                     ],
 
                     'error' => [
                         'title' => 'Journals deletion失敗',
-                        'body'  => 'The journals cannot be deleted because they are currently in use.',
+                        'body'  => 'The journals cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],
@@ -127,11 +127,11 @@ return [
     'infolist' => [
         'tabs' => [
             'journal-entries' => [
-                'title' => '分錄',
+                'title' => '帳目記錄',
 
                 'field-set' => [
                     'accounting-information' => [
-                        'title'   => 'Accounting Information',
+                        'title'   => 'Accounting資料',
 
                         'entries' => [
                             'dedicated-credit-note-sequence' => 'Dedicated Credit Note Sequence',
@@ -139,7 +139,7 @@ return [
                             'sort-code-placeholder'          => 'Enter the journal code',
                             'sort-code'                      => 'Sort',
                             'currency'                       => '幣別',
-                            'color'                          => 'Color',
+                            'color'                          => '顏色',
                             'default-account'                => 'Default Account',
                             'profit-account'                 => 'Profit Account',
                             'loss-account'                   => 'Loss Account',
@@ -161,8 +161,8 @@ return [
                 'title' => 'Incoming Payments',
 
                 'entries' => [
-                    'payment-method'             => 'Payment Method',
-                    'display-name'               => 'Display Name',
+                    'payment-method'             => '付款方式',
+                    'display-name'               => 'Display名稱',
                     'account-number'             => 'Outstanding Receipts Accounts',
                     'relation-notes'             => 'Relation Notes',
                     'relation-notes-placeholder' => 'Enter any relation details',
@@ -173,8 +173,8 @@ return [
                 'title' => 'Outgoing Payments',
 
                 'entries' => [
-                    'payment-method'             => 'Payment Method',
-                    'display-name'               => 'Display Name',
+                    'payment-method'             => '付款方式',
+                    'display-name'               => 'Display名稱',
                     'account-number'             => 'Outstanding Payments Accounts',
                     'relation-notes'             => 'Relation Notes',
                     'relation-notes-placeholder' => 'Enter any relation details',
@@ -198,7 +198,7 @@ return [
                     'title' => 'Payment Communication',
 
                     'entries' => [
-                        'communication-type'     => 'Communication Type',
+                        'communication-type'     => 'Communication類型',
                         'communication-standard' => 'Communication Standard',
                     ],
                 ],

@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => '分錄',
+    'title' => '帳目記錄',
 
     'navigation' => [
-        'title' => '分錄',
+        'title' => '帳目記錄',
     ],
 
     'record-sub-navigation' => [
@@ -12,10 +12,10 @@ return [
     ],
 
     'global-search' => [
-        'number'   => 'Number',
+        'number'   => '編號',
         'partner'  => '夥伴',
-        'date'     => 'Invoice Date',
-        'due-date' => 'Invoice Due Date',
+        'date'     => '開立日期',
+        'due-date' => 'Invoice Due日期',
     ],
 
     'form' => [
@@ -24,43 +24,43 @@ return [
                 'title'  => '一般',
 
                 'fields' => [
-                    'reference'       => '參考',
-                    'accounting-date' => 'Accounting Date',
-                    'journal'         => '日記帳',
+                    'reference'       => '參考編號',
+                    'accounting-date' => '入帳日期',
+                    'journal'         => '帳本',
                 ],
             ],
         ],
 
         'tabs' => [
             'lines' => [
-                'title' => '分錄項目',
+                'title' => '帳目明細',
 
                 'repeater' => [
                     'title'       => 'Items',
-                    'add-item'    => 'Add Item',
+                    'add-item'    => '新增Item',
 
                     'columns' => [
-                        'account'                  => '科目',
+                        'account'                  => '帳戶',
                         'partner'                  => '夥伴',
-                        'label'                    => 'Label',
+                        'label'                    => '標籤',
                         'amount-currency'          => 'Amount (Currency)',
                         'currency'                 => '幣別',
                         'taxes'                    => '稅',
-                        'debit'                    => 'Debit',
-                        'credit'                   => 'Credit',
-                        'discount-amount-currency' => 'Discount Amount (Currency)',
+                        'debit'                    => '借方',
+                        'credit'                   => '貸方',
+                        'discount-amount-currency' => 'Discount金額 (Currency)',
                     ],
 
                     'fields' => [
-                        'account'                  => '科目',
+                        'account'                  => '帳戶',
                         'partner'                  => '夥伴',
-                        'label'                    => 'Label',
+                        'label'                    => '標籤',
                         'amount-currency'          => 'Amount (Currency)',
                         'currency'                 => '幣別',
                         'taxes'                    => '稅',
-                        'debit'                    => 'Debit',
-                        'credit'                   => 'Credit',
-                        'discount-amount-currency' => 'Discount Amount (Currency)',
+                        'debit'                    => '借方',
+                        'credit'                   => '貸方',
+                        'discount-amount-currency' => 'Discount金額 (Currency)',
                     ],
                 ],
             ],
@@ -69,14 +69,14 @@ return [
                 'title'    => '其他資料',
 
                 'fields' => [
-                    'checked'         => 'Checked',
+                    'checked'         => '已核對',
                     'company'         => '公司',
-                    'fiscal-position' => '財務立場',
+                    'fiscal-position' => '稅務情境',
                 ],
             ],
 
             'term-and-conditions' => [
-                'title' => 'Term & Conditions',
+                'title' => '條款',
             ],
         ],
     ],
@@ -84,16 +84,16 @@ return [
     'table' => [
         'total'   => '總計',
         'columns' => [
-            'invoice-date' => 'Invoice Date',
+            'invoice-date' => '開立日期',
             'date'         => '日期',
-            'number'       => 'Number',
+            'number'       => '編號',
             'partner'      => '夥伴',
-            'reference'    => '參考',
-            'journal'      => '日記帳',
+            'reference'    => '參考編號',
+            'journal'      => '帳本',
             'company'      => '公司',
             'total'        => '總計',
             'state'        => '狀態',
-            'checked'      => 'Checked',
+            'checked'      => '已核對',
         ],
 
         'summarizers' => [
@@ -102,21 +102,21 @@ return [
 
         'groups' => [
             'partner'        => '夥伴',
-            'journal'        => '日記帳',
+            'journal'        => '帳本',
             'state'          => '狀態',
-            'payment-method' => 'Payment Method',
+            'payment-method' => '付款方式',
             'date'           => '日期',
-            'invoice-date'   => 'Invoice Date',
+            'invoice-date'   => '開立日期',
             'company'        => '公司',
         ],
 
         'filters' => [
-            'number'                       => 'Number',
-            'invoice-partner-display-name' => 'Invoice Partner Display Name',
-            'invoice-date'                 => 'Invoice Date',
-            'invoice-due-date'             => 'Invoice Due Date',
+            'number'                       => '編號',
+            'invoice-partner-display-name' => 'Invoice Partner Display名稱',
+            'invoice-date'                 => '開立日期',
+            'invoice-due-date'             => 'Invoice Due日期',
             'invoice-origin'               => 'Invoice Origin',
-            'reference'                    => '參考',
+            'reference'                    => '參考編號',
             'created-at'                   => '建立時間',
             'updated-at'                   => '更新時間',
         ],
@@ -124,8 +124,8 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Payment deleted',
-                    'body'  => 'The payment has been deleted成功.',
+                    'title' => 'Payment已刪除',
+                    'body'  => 'The payment has been已刪除成功.',
                 ],
             ],
         ],
@@ -133,8 +133,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Payments deleted',
-                    'body'  => 'The payments has been deleted成功.',
+                    'title' => 'Payments已刪除',
+                    'body'  => 'The payments has been已刪除成功.',
                 ],
             ],
         ],
@@ -151,27 +151,27 @@ return [
             'general' => [
                 'title'   => '一般',
                 'entries' => [
-                    'number'          => 'Number',
-                    'reference'       => '參考',
-                    'accounting-date' => 'Accounting Date',
-                    'journal'         => '日記帳',
+                    'number'          => '編號',
+                    'reference'       => '參考編號',
+                    'accounting-date' => '入帳日期',
+                    'journal'         => '帳本',
                 ],
             ],
         ],
 
         'tabs' => [
             'lines' => [
-                'title' => '分錄項目',
+                'title' => '帳目明細',
 
                 'repeater' => [
                     'entries' => [
-                        'account'  => '科目',
+                        'account'  => '帳戶',
                         'partner'  => '夥伴',
-                        'label'    => 'Label',
+                        'label'    => '標籤',
                         'currency' => '幣別',
                         'taxes'    => '稅',
-                        'debit'    => 'Debit',
-                        'credit'   => 'Credit',
+                        'debit'    => '借方',
+                        'credit'   => '貸方',
                     ],
                 ],
             ],
@@ -185,15 +185,15 @@ return [
 
                         'entries' => [
                             'company'         => '公司',
-                            'fiscal-position' => '財務立場',
-                            'checked'         => 'Checked',
+                            'fiscal-position' => '稅務情境',
+                            'checked'         => '已核對',
                         ],
                     ],
                 ],
             ],
 
             'term-and-conditions' => [
-                'title' => 'Term & Conditions',
+                'title' => '條款',
             ],
         ],
     ],

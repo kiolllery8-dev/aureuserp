@@ -6,8 +6,8 @@ return [
             'label' => '新增Milestone',
 
             'notification' => [
-                'title' => 'Milestone created',
-                'body'  => 'The milestone has been created成功.',
+                'title' => 'Milestone已建立',
+                'body'  => 'The milestone has been已建立成功.',
             ],
         ],
     ],

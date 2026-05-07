@@ -3,10 +3,10 @@
 return [
     'form' => [
         'name'    => '名稱',
-        'barcode' => 'Barcode',
+        'barcode' => '條碼',
         'product' => '商品',
         'routes'  => '路徑',
-        'qty'     => 'Qty',
+        'qty'     => '數量',
         'company' => '公司',
     ],
 
@@ -15,9 +15,9 @@ return [
             'name'       => '名稱',
             'product'    => '商品',
             'routes'     => '路徑',
-            'qty'        => 'Qty',
+            'qty'        => '數量',
             'company'    => '公司',
-            'barcode'    => 'Barcode',
+            'barcode'    => '條碼',
             'created-at' => '建立時間',
             'updated-at' => '更新時間',
         ],
@@ -43,13 +43,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Packaging deleted',
-                        'body'  => 'The packaging has been deleted成功.',
+                        'title' => 'Packaging已刪除',
+                        'body'  => 'The packaging has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Packaging could not be deleted',
-                        'body'  => 'The packaging cannot be deleted because it is currently in use.',
+                        'title' => 'Packaging could not be已刪除',
+                        'body'  => 'The packaging cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -63,13 +63,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Packagings deleted',
-                        'body'  => 'The packagings has been deleted成功.',
+                        'title' => 'Packagings已刪除',
+                        'body'  => 'The packagings has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Packagings could not be deleted',
-                        'body'  => 'The packagings cannot be deleted because they are currently in use.',
+                        'title' => 'Packagings could not be已刪除',
+                        'body'  => 'The packagings cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],
@@ -80,8 +80,8 @@ return [
                 'label' => '新增Packaging',
 
                 'notification' => [
-                    'title' => 'Packaging created',
-                    'body'  => 'The packaging has been created成功.',
+                    'title' => 'Packaging已建立',
+                    'body'  => 'The packaging has been已建立成功.',
                 ],
             ],
         ],
@@ -93,8 +93,8 @@ return [
                 'title' => '一般資料',
 
                 'entries' => [
-                    'name'    => 'Package Name',
-                    'barcode' => 'Barcode',
+                    'name'    => 'Package名稱',
+                    'barcode' => '條碼',
                     'product' => '商品',
                     'qty'     => '數量',
                 ],

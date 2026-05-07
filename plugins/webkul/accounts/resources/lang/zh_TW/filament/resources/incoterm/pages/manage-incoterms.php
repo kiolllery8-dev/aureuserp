@@ -3,8 +3,8 @@
 return [
     'header-actions' => [
         'notification' => [
-            'title' => 'Incoterm created',
-            'body'  => 'The incoterm has been created成功.',
+            'title' => 'Incoterm已建立',
+            'body'  => 'The incoterm has been已建立成功.',
         ],
     ],
 ];

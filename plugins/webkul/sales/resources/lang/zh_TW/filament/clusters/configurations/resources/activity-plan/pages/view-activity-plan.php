@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Activity Plan deleted',
-                'body'  => 'The activity plan has been deleted成功.',
+                'title' => '活動計畫已刪除',
+                'body'  => 'The activity plan has been已刪除成功.',
             ],
         ],
     ],

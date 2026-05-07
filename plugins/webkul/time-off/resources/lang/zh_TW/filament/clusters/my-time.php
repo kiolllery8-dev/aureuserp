@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'My Time',
+        'title' => 'My時間',
         'group' => '請假',
     ],
 ];

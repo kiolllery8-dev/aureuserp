@@ -30,8 +30,8 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Task stage updated',
-                    'body'  => 'The task stage has been updated成功.',
+                    'title' => 'Task stage已更新',
+                    'body'  => 'The task stage has been已更新成功.',
                 ],
             ],
 
@@ -44,20 +44,20 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Task stage deleted',
-                    'body'  => 'The task stage has been deleted成功.',
+                    'title' => 'Task stage已刪除',
+                    'body'  => 'The task stage has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Task stage force deleted',
-                        'body'  => 'The Task stage has been force deleted成功.',
+                        'title' => 'Task stage force已刪除',
+                        'body'  => 'The Task stage has been force已刪除成功.',
                     ],
                     'error' => [
-                        'title' => 'Task stage could not be deleted',
-                        'body'  => 'The Task stage cannot be deleted because it is currently in use.',
+                        'title' => 'Task stage could not be已刪除',
+                        'body'  => 'The Task stage cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -73,15 +73,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Task stages deleted',
-                    'body'  => 'The task stages has been deleted成功.',
+                    'title' => 'Task stages已刪除',
+                    'body'  => 'The task stages has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Task stages force deleted',
-                    'body'  => 'The task stages has been force deleted成功.',
+                    'title' => 'Task stages force已刪除',
+                    'body'  => 'The task stages has been force已刪除成功.',
                 ],
             ],
         ],

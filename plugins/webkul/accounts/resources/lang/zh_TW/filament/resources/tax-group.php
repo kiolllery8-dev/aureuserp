@@ -36,13 +36,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Tax Group deleted',
-                        'body'  => 'The tax group has been deleted成功.',
+                        'title' => 'Tax Group已刪除',
+                        'body'  => 'The tax group has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Tax Group could not be deleted',
-                        'body'  => 'The tax group cannot be deleted because it is currently in use.',
+                        'title' => 'Tax Group could not be已刪除',
+                        'body'  => 'The tax group cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -52,13 +52,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Tax Groups deleted',
-                        'body'  => 'The tax groups has been deleted成功.',
+                        'title' => 'Tax Groups已刪除',
+                        'body'  => 'The tax groups has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Tax Groups could not be deleted',
-                        'body'  => 'The tax groups cannot be deleted because they are currently in use.',
+                        'title' => 'Tax Groups could not be已刪除',
+                        'body'  => 'The tax groups cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],

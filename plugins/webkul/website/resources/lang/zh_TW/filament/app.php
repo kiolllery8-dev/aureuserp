@@ -8,12 +8,12 @@ return [
         ],
 
         'account' => [
-            'label' => 'My Account',
+            'label' => '我的帳號',
         ],
 
         'top' => [
-            'login'    => 'Login',
-            'register' => 'Register',
+            'login'    => '登入',
+            'register' => '註冊',
         ],
 
         'footer' => [
@@ -60,10 +60,10 @@ return [
         'home' => 'Home',
         'about-us' => 'About Us',
         'privacy-policy' => 'Privacy Policy',
-        'terms-conditions' => 'Terms & Conditions',
+        'terms-conditions' => '條款',
         'blog' => '部落格',
         'blogs' => '部落格',
-        'contact' => 'Contact',
+        'contact' => '聯絡人',
         'contact-us' => 'Contact Us',
     ],
 ];

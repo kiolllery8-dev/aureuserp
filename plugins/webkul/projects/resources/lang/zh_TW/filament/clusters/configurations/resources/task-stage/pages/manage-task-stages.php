@@ -6,14 +6,14 @@ return [
             'label' => '新增Task Stage',
 
             'notification' => [
-                'title' => 'Task stage created',
-                'body'  => 'The task stage has been created成功.',
+                'title' => 'Task stage已建立',
+                'body'  => 'The task stage has been已建立成功.',
             ],
         ],
     ],
 
     'tabs' => [
         'all'      => '全部',
-        'archived' => 'Archived',
+        'archived' => '已封存',
     ],
 ];

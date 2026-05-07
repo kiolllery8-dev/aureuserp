@@ -6,8 +6,8 @@ return [
             'label' => '新增Scrap',
 
             'notification' => [
-                'title' => 'Scrap created',
-                'body'  => 'The scrap has been created成功.',
+                'title' => 'Scrap已建立',
+                'body'  => 'The scrap has been已建立成功.',
             ],
         ],
     ],

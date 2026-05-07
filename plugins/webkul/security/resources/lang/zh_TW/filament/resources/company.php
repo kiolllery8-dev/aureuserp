@@ -15,54 +15,54 @@ return [
     'form' => [
         'sections' => [
             'company-information' => [
-                'title'  => 'Company Information',
+                'title'  => 'Company資料',
                 'fields' => [
-                    'name'                  => 'Company Name',
+                    'name'                  => '公司名稱',
                     'registration-number'   => 'Registration Number',
                     'company-id'            => 'Company ID',
-                    'tax-id'                => 'Tax ID',
+                    'tax-id'                => '統一編號',
                     'tax-id-tooltip'        => 'The Tax ID is a unique identifier for your company.',
                     'website'               => '網址',
                 ],
             ],
 
             'address-information' => [
-                'title'  => 'Address Information',
+                'title'  => '地址資料',
 
                 'fields' => [
-                    'street1'        => 'Street 1',
-                    'street2'        => 'Street 2',
+                    'street1'        => '地址 1',
+                    'street2'        => '地址 2',
                     'city'           => '城市',
                     'zipcode'        => '郵遞區號',
                     'country'        => '國家',
-                    'currency-name'  => 'Currency Name',
-                    'phone-code'     => 'Phone Code',
+                    'currency-name'  => '幣別名稱',
+                    'phone-code'     => '國碼',
                     'code'           => '代碼',
-                    'country-name'   => 'Country Name',
-                    'state-required' => 'State Required',
+                    'country-name'   => '國家名稱',
+                    'state-required' => '須填寫州/省',
                     'zip-required'   => 'Zip Required',
-                    'create-country' => 'Create Country',
+                    'create-country' => '新增國家',
                     'state'          => '狀態',
-                    'state-name'     => 'State Name',
-                    'state-code'     => 'State Code',
-                    'create-state'   => 'Create State',
+                    'state-name'     => '州/省名稱',
+                    'state-code'     => 'State代碼',
+                    'create-state'   => '新增州/省',
                 ],
             ],
 
             'additional-information' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
 
                 'fields' => [
-                    'default-currency'        => 'Default Currency',
-                    'currency-name'           => 'Currency Name',
-                    'currency-full-name'      => 'Currency Full Name',
-                    'currency-symbol'         => 'Currency Symbol',
+                    'default-currency'        => '預設幣別',
+                    'currency-name'           => '幣別名稱',
+                    'currency-full-name'      => 'Currency Full名稱',
+                    'currency-symbol'         => '幣別符號',
                     'currency-iso-numeric'    => 'Currency ISO Numeric',
                     'currency-decimal-places' => 'Currency Decimal Places',
                     'currency-rounding'       => 'Currency Rounding',
-                    'currency-status'         => 'Currency Status',
-                    'company-foundation-date' => 'Company Foundation Date',
-                    'currency-create'         => 'Create Currency',
+                    'currency-status'         => 'Currency狀態',
+                    'company-foundation-date' => 'Company Foundation日期',
+                    'currency-create'         => '新增幣別',
                     'status'                  => '狀態',
                 ],
             ],
@@ -71,16 +71,16 @@ return [
                 'title'  => 'Branding',
                 'fields' => [
                     'company-logo' => 'Company Logo',
-                    'color'        => 'Color',
+                    'color'        => '顏色',
                 ],
             ],
 
             'contact-information' => [
-                'title'  => 'Contact Information',
+                'title'  => '聯絡資料',
                 'fields' => [
-                    'email'  => 'Email Address',
-                    'phone'  => 'Phone Number',
-                    'mobile' => 'Phone Number',
+                    'email'  => '電子郵件',
+                    'phone'  => '電話號碼',
+                    'mobile' => '電話號碼',
                 ],
             ],
         ],
@@ -89,7 +89,7 @@ return [
     'table' => [
         'columns' => [
             'logo'         => 'Logo',
-            'company-name' => 'Company Name',
+            'company-name' => '公司名稱',
             'branches'     => '分公司',
             'email'        => '電子郵件',
             'city'         => '城市',
@@ -102,7 +102,7 @@ return [
         ],
 
         'groups' => [
-            'company-name' => 'Company Name',
+            'company-name' => '公司名稱',
             'city'         => '城市',
             'country'      => '國家',
             'state'        => '狀態',
@@ -129,11 +129,11 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Company deleted',
-                    'body'  => 'The company has been deleted成功.',
+                    'title' => 'Company已刪除',
+                    'body'  => 'The company has been已刪除成功.',
 
                     'default-company' => [
-                        'title' => 'Company cannot be deleted',
+                        'title' => 'Company cannot be已刪除',
                         'body'  => 'This company is set as the default company in 管理Users settings. Please change the default company before deleting.',
                     ],
                 ],
@@ -149,12 +149,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Company force deleted',
-                        'body'  => 'The company has been force deleted成功.',
+                        'title' => 'Company force已刪除',
+                        'body'  => 'The company has been force已刪除成功.',
                     ],
                     'error' => [
                         'title' => 'Unable to force delete company',
-                        'body'  => 'This company is associated with existing記錄s and cannot be deleted.',
+                        'body'  => 'This company is associated with existing記錄s and cannot be已刪除.',
                     ],
                 ],
             ],
@@ -170,18 +170,18 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Companies deleted',
-                    'body'  => 'The companies has been deleted成功.',
+                    'title' => 'Companies已刪除',
+                    'body'  => 'The companies has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Companies force deleted',
-                    'body'  => 'The companies has been force deleted成功.',
+                    'title' => 'Companies force已刪除',
+                    'body'  => 'The companies has been force已刪除成功.',
                     'error' => [
                         'title' => 'Unable to force delete companies',
-                        'body'  => 'One or more companies are associated with existing記錄s and cannot be deleted.',
+                        'body'  => 'One or more companies are associated with existing記錄s and cannot be已刪除.',
                     ],
                 ],
             ],
@@ -190,8 +190,8 @@ return [
         'empty-state-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Companies created',
-                    'body'  => 'The companies has been created成功.',
+                    'title' => 'Companies已建立',
+                    'body'  => 'The companies has been已建立成功.',
                 ],
             ],
         ],
@@ -200,54 +200,54 @@ return [
     'infolist' => [
         'sections' => [
             'company-information' => [
-                'title'   => 'Company Information',
+                'title'   => 'Company資料',
                 'entries' => [
-                    'name'                  => 'Company Name',
+                    'name'                  => '公司名稱',
                     'registration-number'   => 'Registration Number',
                     'company-id'            => 'Company ID',
-                    'tax-id'                => 'Tax ID',
+                    'tax-id'                => '統一編號',
                     'tax-id-tooltip'        => 'The Tax ID is a unique identifier for your company.',
                     'website'               => '網址',
                 ],
             ],
 
             'address-information' => [
-                'title'  => 'Address Information',
+                'title'  => '地址資料',
 
                 'entries' => [
-                    'street1'        => 'Street 1',
-                    'street2'        => 'Street 2',
+                    'street1'        => '地址 1',
+                    'street2'        => '地址 2',
                     'city'           => '城市',
                     'zipcode'        => '郵遞區號',
                     'country'        => '國家',
-                    'currency-name'  => 'Currency Name',
-                    'phone-code'     => 'Phone Code',
+                    'currency-name'  => '幣別名稱',
+                    'phone-code'     => '國碼',
                     'code'           => '代碼',
-                    'country-name'   => 'Country Name',
-                    'state-required' => 'State Required',
+                    'country-name'   => '國家名稱',
+                    'state-required' => '須填寫州/省',
                     'zip-required'   => 'Zip Required',
-                    'create-country' => 'Create Country',
+                    'create-country' => '新增國家',
                     'state'          => '狀態',
-                    'state-name'     => 'State Name',
-                    'state-code'     => 'State Code',
-                    'create-state'   => 'Create State',
+                    'state-name'     => '州/省名稱',
+                    'state-code'     => 'State代碼',
+                    'create-state'   => '新增州/省',
                 ],
             ],
 
             'additional-information' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
 
                 'entries' => [
-                    'default-currency'        => 'Default Currency',
-                    'currency-name'           => 'Currency Name',
-                    'currency-full-name'      => 'Currency Full Name',
-                    'currency-symbol'         => 'Currency Symbol',
+                    'default-currency'        => '預設幣別',
+                    'currency-name'           => '幣別名稱',
+                    'currency-full-name'      => 'Currency Full名稱',
+                    'currency-symbol'         => '幣別符號',
                     'currency-iso-numeric'    => 'Currency ISO Numeric',
                     'currency-decimal-places' => 'Currency Decimal Places',
                     'currency-rounding'       => 'Currency Rounding',
-                    'currency-status'         => 'Currency Status',
-                    'company-foundation-date' => 'Company Foundation Date',
-                    'currency-create'         => 'Create Currency',
+                    'currency-status'         => 'Currency狀態',
+                    'company-foundation-date' => 'Company Foundation日期',
+                    'currency-create'         => '新增幣別',
                     'status'                  => '狀態',
                 ],
             ],
@@ -256,16 +256,16 @@ return [
                 'title'   => 'Branding',
                 'entries' => [
                     'company-logo' => 'Company Logo',
-                    'color'        => 'Color',
+                    'color'        => '顏色',
                 ],
             ],
 
             'contact-information' => [
-                'title'   => 'Contact Information',
+                'title'   => '聯絡資料',
                 'entries' => [
-                    'email'  => 'Email Address',
-                    'phone'  => 'Phone Number',
-                    'mobile' => 'Phone Number',
+                    'email'  => '電子郵件',
+                    'phone'  => '電話號碼',
+                    'mobile' => '電話號碼',
                 ],
             ],
         ],

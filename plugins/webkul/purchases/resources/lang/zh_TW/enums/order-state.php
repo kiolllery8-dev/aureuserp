@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'draft'      => 'RFQ',
+    'draft'      => '詢價單',
     'sent'       => 'RFQ Sent',
     'to_approve' => '待核准',
     'purchase'   => '採購單',
-    'done'       => 'Locked',
+    'done'       => '已鎖定',
     'canceled'   => 'Canceled',
 ];

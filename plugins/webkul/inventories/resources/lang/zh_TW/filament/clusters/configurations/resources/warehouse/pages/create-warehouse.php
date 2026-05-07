@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Warehouse created',
-        'body'  => 'The warehouse has been created成功.',
+        'title' => 'Warehouse已建立',
+        'body'  => 'The warehouse has been已建立成功.',
     ],
 ];

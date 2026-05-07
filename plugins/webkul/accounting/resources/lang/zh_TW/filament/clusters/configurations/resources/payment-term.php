@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'model-label' => 'Payment Term',
+    'model-label' => '付款條件',
 
     'navigation' => [
-        'title' => 'Payment Terms',
+        'title' => '付款條件',
         'group' => 'Invoicing',
     ],
 ];

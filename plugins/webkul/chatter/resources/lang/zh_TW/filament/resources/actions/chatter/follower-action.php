@@ -3,14 +3,14 @@
     return [
         'setup' => [
             'title'               => 'Followers',
-            'submit-action-title' => 'Add Follower',
-            'tooltip'             => 'Add Follower',
+            'submit-action-title' => '新增Follower',
+            'tooltip'             => '新增Follower',
 
             'form' => [
                 'fields' => [
                     'recipients'  => 'Recipients',
                     'notify-user' => 'Notify User',
-                    'add-a-note'  => 'Add a note',
+                    'add-a-note'  => '新增a note',
                 ],
             ],
 

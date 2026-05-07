@@ -2,8 +2,8 @@
 
 return [
     'global-search' => [
-        'reference' => '參考',
-        'barcode'   => 'Barcode',
+        'reference' => '參考編號',
+        'barcode'   => '條碼',
     ],
 
     'form' => [
@@ -30,11 +30,11 @@ return [
 
                 'fieldsets' => [
                     'logistics' => [
-                        'title' => 'Logistics',
+                        'title' => '物流',
 
                         'fields' => [
-                            'weight' => 'Weight',
-                            'volume' => 'Volume',
+                            'weight' => '重量',
+                            'volume' => '體積',
                         ],
                     ],
                 ],
@@ -45,8 +45,8 @@ return [
 
                 'fields' => [
                     'type'      => '類型',
-                    'reference' => '參考',
-                    'barcode'   => 'Barcode',
+                    'reference' => '參考編號',
+                    'barcode'   => '條碼',
                     'category'  => '分類',
                     'company'   => '公司',
                 ],
@@ -71,19 +71,19 @@ return [
         'columns' => [
             'favorite'        => 'Favorite',
             'name'            => '名稱',
-            'variants'        => 'Variants',
+            'variants'        => '規格',
             'images'          => '圖片',
             'type'            => '類型',
-            'reference'       => '參考',
-            'responsible'     => 'Responsible',
-            'barcode'         => 'Barcode',
+            'reference'       => '參考編號',
+            'responsible'     => '負責人',
+            'barcode'         => '條碼',
             'category'        => '分類',
             'company'         => '公司',
             'price'           => '價格',
             'cost'            => '成本',
-            'on-hand'         => 'On Hand',
+            'on-hand'         => '現有',
             'tags'            => '標籤',
-            'deleted-at'      => 'Deleted At',
+            'deleted-at'      => '刪除時間',
             'created-at'      => '建立時間',
             'updated-at'      => '更新時間',
         ],
@@ -97,20 +97,20 @@ return [
         'filters' => [
             'name'        => '名稱',
             'type'        => '類型',
-            'reference'   => '參考',
-            'barcode'     => 'Barcode',
+            'reference'   => '參考編號',
+            'barcode'     => '條碼',
             'category'    => '分類',
             'company'     => '公司',
             'price'       => '價格',
             'cost'        => '成本',
             'is-favorite' => 'Is Favorite',
-            'weight'      => 'Weight',
-            'volume'      => 'Volume',
+            'weight'      => '重量',
+            'volume'      => '體積',
             'tags'        => '標籤',
-            'responsible' => 'Responsible',
+            'responsible' => '負責人',
             'created-at'  => '建立時間',
             'updated-at'  => '更新時間',
-            'creator'     => 'Creator',
+            'creator'     => '建立者',
         ],
 
         'actions' => [
@@ -123,21 +123,21 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Product deleted',
-                    'body'  => 'The product has been deleted成功.',
+                    'title' => 'Product已刪除',
+                    'body'  => 'The product has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Product force deleted',
-                        'body'  => 'The product has been force deleted成功.',
+                        'title' => 'Product force已刪除',
+                        'body'  => 'The product has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Product could not be deleted',
-                        'body'  => 'The product cannot be deleted because it is currently in use.',
+                        'title' => 'Product could not be已刪除',
+                        'body'  => 'The product cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -172,21 +172,21 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Products deleted',
-                    'body'  => 'The products has been deleted成功.',
+                    'title' => 'Products已刪除',
+                    'body'  => 'The products has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Products force deleted',
-                        'body'  => 'The products has been force deleted成功.',
+                        'title' => 'Products force已刪除',
+                        'body'  => 'The products has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Products could not be deleted',
-                        'body'  => 'The products cannot be deleted because they are currently in use.',
+                        'title' => 'Products could not be已刪除',
+                        'body'  => 'The products cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],
@@ -217,8 +217,8 @@ return [
 
                 'entries' => [
                     'type'      => '類型',
-                    'reference' => '參考',
-                    'barcode'   => 'Barcode',
+                    'reference' => '參考編號',
+                    'barcode'   => '條碼',
                     'category'  => '分類',
                     'company'   => '公司',
                 ],
@@ -238,18 +238,18 @@ return [
 
                 'fieldsets' => [
                     'logistics' => [
-                        'title' => 'Logistics',
+                        'title' => '物流',
 
                         'entries' => [
-                            'weight' => 'Weight',
-                            'volume' => 'Volume',
+                            'weight' => '重量',
+                            'volume' => '體積',
                         ],
                     ],
                 ],
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'created-at' => '建立時間',

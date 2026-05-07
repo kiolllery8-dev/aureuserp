@@ -15,7 +15,7 @@ return [
             'name-placeholder' => 'Enter the name of the public holiday',
             'date-from'        => '開始日期',
             'date-to'          => '結束日期',
-            'color'            => 'Color',
+            'color'            => '顏色',
             'calendar'         => 'Calendar',
         ],
     ],
@@ -23,7 +23,7 @@ return [
     'table' => [
         'columns' => [
             'name'         => '名稱',
-            'company-name' => 'Company Name',
+            'company-name' => '公司名稱',
             'calendar'     => 'Calendar',
             'created-by'   => '建立者',
             'date-from'    => '開始日期',
@@ -32,7 +32,7 @@ return [
 
         'filters' => [
             'name'         => '名稱',
-            'company-name' => 'Company Name',
+            'company-name' => '公司名稱',
             'created-by'   => '建立者',
             'date-from'    => '開始日期',
             'date-to'      => '結束日期',
@@ -42,7 +42,7 @@ return [
 
         'groups' => [
             'name'         => '名稱',
-            'company-name' => 'Company Name',
+            'company-name' => '公司名稱',
             'created-by'   => '建立者',
             'date-from'    => '開始日期',
             'date-to'      => '結束日期',
@@ -51,15 +51,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Public holiday updated',
+                    'title' => 'Public holiday已更新',
                     'body'  => 'The public holiday has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Public holiday deleted',
-                    'body'  => 'The public holiday has been deleted成功.',
+                    'title' => 'Public holiday已刪除',
+                    'body'  => 'The public holiday has been已刪除成功.',
                 ],
             ],
         ],
@@ -67,8 +67,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Public holidays deleted',
-                    'body'  => 'The public holidays has been deleted成功.',
+                    'title' => 'Public holidays已刪除',
+                    'body'  => 'The public holidays has been已刪除成功.',
                 ],
             ],
         ],
@@ -79,7 +79,7 @@ return [
             'name'      => '名稱',
             'date-from' => '開始日期',
             'date-to'   => '結束日期',
-            'color'     => 'Color',
+            'color'     => '顏色',
         ],
     ],
 ];

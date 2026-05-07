@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Fiscal position deleted',
-                'body'  => 'The fiscal position has been deleted成功.',
+                'title' => 'Fiscal position已刪除',
+                'body'  => 'The fiscal position has been已刪除成功.',
             ],
         ],
     ],

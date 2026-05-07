@@ -3,6 +3,6 @@
 return [
     'tabs' => [
         'all'      => '全部',
-        'archived' => 'Archived',
+        'archived' => '已封存',
     ],
 ];

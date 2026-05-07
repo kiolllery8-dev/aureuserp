@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Fiscal Position created',
-        'body'  => 'The fiscal position has been created成功.',
+        'title' => 'Fiscal Position已建立',
+        'body'  => 'The fiscal position has been已建立成功.',
     ],
 ];

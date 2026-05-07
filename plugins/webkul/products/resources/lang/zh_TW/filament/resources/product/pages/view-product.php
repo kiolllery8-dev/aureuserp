@@ -24,7 +24,7 @@ return [
         'delete' => [
             'notification' => [
                 'title' => 'Product Deleted',
-                'body'  => 'The product has been deleted成功.',
+                'body'  => 'The product has been已刪除成功.',
             ],
         ],
     ],

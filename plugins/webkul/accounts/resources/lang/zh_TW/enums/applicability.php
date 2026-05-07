@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'account'  => '科目',
+    'account'  => '帳戶',
     'taxes'    => '稅',
     'products' => '商品',
 ];

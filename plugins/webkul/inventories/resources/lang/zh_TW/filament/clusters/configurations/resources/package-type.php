@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Package Types',
+        'title' => 'Package類型s',
         'group' => '出貨',
     ],
 
@@ -13,9 +13,9 @@ return [
 
                 'fields' => [
                     'name'       => '名稱',
-                    'barcode'    => 'Barcode',
+                    'barcode'    => '條碼',
                     'company'    => '公司',
-                    'weight'     => 'Weight',
+                    'weight'     => '重量',
                     'max-weight' => 'Max Weight',
 
                     'fieldsets' => [
@@ -37,8 +37,8 @@ return [
     'table' => [
         'columns' => [
             'name'       => '名稱',
-            'barcode'    => 'Barcode',
-            'weight'     => 'Weight',
+            'barcode'    => '條碼',
+            'weight'     => '重量',
             'max-weight' => 'Max Weight',
             'width'      => 'Width',
             'height'     => 'Height',
@@ -55,8 +55,8 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Package Type deleted',
-                    'body'  => 'The package type has been deleted成功.',
+                    'title' => 'Package類型已刪除',
+                    'body'  => 'The package type has been已刪除成功.',
                 ],
             ],
         ],
@@ -64,8 +64,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Package Type deleted',
-                    'body'  => 'The package type has been deleted成功.',
+                    'title' => 'Package類型已刪除',
+                    'body'  => 'The package type has been已刪除成功.',
                 ],
             ],
         ],
@@ -89,20 +89,20 @@ return [
                     ],
                     'weight'     => 'Base Weight',
                     'max-weight' => 'Maximum Weight',
-                    'barcode'    => 'Barcode',
+                    'barcode'    => '條碼',
                     'company'    => '公司',
                     'created-at' => '建立時間',
-                    'updated-at' => 'Last Updated',
+                    'updated-at' => '最後更新',
                 ],
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'created-by'   => '建立者',
                     'created-at'   => '建立時間',
-                    'last-updated' => 'Last Updated',
+                    'last-updated' => '最後更新',
                 ],
             ],
         ],

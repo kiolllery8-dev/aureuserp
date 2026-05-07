@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Credit note deleted',
-                'body'  => 'Credit note has been deleted成功.',
+                'title' => 'Credit note已刪除',
+                'body'  => 'Credit note has been已刪除成功.',
             ],
         ],
 

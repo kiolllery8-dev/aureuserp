@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title'         => 'Reset password',
-    'heading'       => 'Reset password',
+    'title'         => '重設密碼',
+    'heading'       => '重設密碼',
     'notifications' => [
         'throttled' => [
             'title' => 'Too many attempts. Try again in :seconds seconds.',
@@ -11,7 +11,7 @@ return [
     ],
     'form' => [
         'email' => [
-            'label' => 'Email address',
+            'label' => '電子郵件',
         ],
         'password' => [
             'label'                => '新增password',
@@ -22,7 +22,7 @@ return [
         ],
         'actions' => [
             'reset' => [
-                'label' => 'Reset password',
+                'label' => '重設密碼',
             ],
         ],
     ],

@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Bill updated',
-        'body'  => 'The bill has been updated成功.',
+        'title' => 'Bill已更新',
+        'body'  => 'The bill has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Bill deleted',
-                'body'  => 'Bill has been deleted成功.',
+                'title' => 'Bill已刪除',
+                'body'  => 'Bill has been已刪除成功.',
             ],
         ],
 
@@ -20,7 +20,7 @@ return [
 
         'reverse' => [
             'label'         => '退款',
-            'modal-heading' => 'Create Refund',
+            'modal-heading' => '新增Refund',
         ],
     ],
 ];

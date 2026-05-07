@@ -25,21 +25,21 @@ return [
 
         'form' => [
             'fields' => [
-                'activity-plan' => 'Activity Plan',
-                'plan-date'     => 'Plan Date',
+                'activity-plan' => '活動計畫',
+                'plan-date'     => 'Plan日期',
                 'plan-summary'  => 'Plan Summary',
-                'activity-type' => 'Activity Type',
+                'activity-type' => '活動類型',
                 'due-date'      => '到期日',
                 'summary'       => '摘要',
-                'assigned-to'   => 'Assigned To',
+                'assigned-to'   => '指派給',
             ],
         ],
 
         'action' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Activity updated',
-                    'body'  => 'The activity has been updated成功.',
+                    'title' => 'Activity已更新',
+                    'body'  => 'The activity has been已更新成功.',
                 ],
             ],
         ],

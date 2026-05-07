@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Route updated',
-        'body'  => 'The route has been updated成功.',
+        'title' => 'Route已更新',
+        'body'  => 'The route has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Route deleted',
-                'body'  => 'The route has been deleted成功.',
+                'title' => 'Route已刪除',
+                'body'  => 'The route has been已刪除成功.',
             ],
         ],
     ],

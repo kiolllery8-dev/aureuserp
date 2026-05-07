@@ -12,8 +12,8 @@ return [
 
                 'actions' => [
                     'delete' => [
-                        'title' => 'File deleted',
-                        'body'  => 'File has been deleted成功.',
+                        'title' => 'File已刪除',
+                        'body'  => 'File has been已刪除成功.',
                     ],
                 ],
             ],

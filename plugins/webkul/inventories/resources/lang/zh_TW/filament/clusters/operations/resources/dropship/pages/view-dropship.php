@@ -10,12 +10,12 @@ return [
             'notification' => [
                 'success' => [
                     'title' => 'Dropship Deleted',
-                    'body'  => 'The dropship has been deleted成功.',
+                    'body'  => 'The dropship has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Dropship could not be deleted',
-                    'body'  => 'The dropship cannot be deleted because it is currently in use.',
+                    'title' => 'Dropship could not be已刪除',
+                    'body'  => 'The dropship cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

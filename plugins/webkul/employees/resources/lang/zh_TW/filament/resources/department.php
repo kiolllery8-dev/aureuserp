@@ -9,7 +9,7 @@ return [
     ],
 
     'global-search' => [
-        'department-manager' => 'Manager',
+        'department-manager' => '主管',
         'company'            => '公司',
     ],
 
@@ -20,17 +20,17 @@ return [
 
                 'fields' => [
                     'name'                => '名稱',
-                    'manager'             => 'Manager',
+                    'manager'             => '主管',
                     'parent-department'   => 'Parent Department',
                     'manager-placeholder' => 'Select Manager',
                     'company'             => '公司',
                     'company-placeholder' => 'Select Company',
-                    'color'               => 'Color',
+                    'color'               => '顏色',
                 ],
             ],
 
             'additional' => [
-                'title'       => 'Additional Information',
+                'title'       => '其他資料',
                 'description' => 'Additional information about this department.',
             ],
         ],
@@ -39,13 +39,13 @@ return [
     'table' => [
         'columns' => [
             'name'         => '名稱',
-            'manager-name' => 'Manager',
+            'manager-name' => '主管',
             'company-name' => '公司',
         ],
 
         'groups' => [
             'name'       => '名稱',
-            'manager'    => 'Manager',
+            'manager'    => '主管',
             'company'    => '公司',
             'updated-at' => '更新時間',
             'created-at' => '建立時間',
@@ -53,7 +53,7 @@ return [
 
         'filters' => [
             'name'         => '名稱',
-            'manager-name' => 'Manager',
+            'manager-name' => '主管',
             'company-name' => '公司',
             'updated-at'   => '更新時間',
             'created-at'   => '建立時間',
@@ -69,15 +69,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Department deleted',
-                    'body'  => 'The department has been deleted成功.',
+                    'title' => 'Department已刪除',
+                    'body'  => 'The department has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Department force deleted',
-                    'body'  => 'The department has been force deleted成功.',
+                    'title' => 'Department force已刪除',
+                    'body'  => 'The department has been force已刪除成功.',
                 ],
             ],
         ],
@@ -92,15 +92,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Departments deleted',
-                    'body'  => 'The departments has been deleted成功.',
+                    'title' => 'Departments已刪除',
+                    'body'  => 'The departments has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Departments force deleted',
-                    'body'  => 'The departments has been force deleted成功.',
+                    'title' => 'Departments force已刪除',
+                    'body'  => 'The departments has been force已刪除成功.',
                 ],
             ],
         ],
@@ -113,9 +113,9 @@ return [
 
                 'entries' => [
                     'name'            => '名稱',
-                    'manager'         => 'Manager',
+                    'manager'         => '主管',
                     'company'         => '公司',
-                    'color'           => 'Color',
+                    'color'           => '顏色',
                     'hierarchy-title' => 'Department Organization',
                 ],
             ],

@@ -2,21 +2,21 @@
 
 return [
     'columns' => [
-        'number'           => 'Number',
+        'number'           => '編號',
         'state'            => '狀態',
         'customer'         => '客戶',
-        'invoice-date'     => 'Invoice Date',
+        'invoice-date'     => '開立日期',
         'due-date'         => '到期日',
         'tax-excluded'     => 'Tax Excluded',
         'tax'              => '稅',
         'total'            => '總計',
         'amount-due'       => 'Amount Due',
         'payment-state'    => 'Payment State',
-        'checked'          => 'Checked',
-        'accounting-date'  => 'Accounting Date',
-        'source-document'  => 'Source Document',
-        'reference'        => '參考',
-        'sales-person'     => 'Sales Person',
+        'checked'          => '已核對',
+        'accounting-date'  => '入帳日期',
+        'source-document'  => '來源單據',
+        'reference'        => '參考編號',
+        'sales-person'     => '業務',
         'invoice-currency' => 'Invoice Currency',
     ],
 

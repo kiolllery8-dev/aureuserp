@@ -27,7 +27,7 @@ return [
             'allow-new-products' => 'Allow 新增Products',
             'max-weight'         => 'Max Weight',
             'company'            => '公司',
-            'deleted-at'         => 'Deleted At',
+            'deleted-at'         => '刪除時間',
             'created-at'         => '建立時間',
             'updated-at'         => '更新時間',
         ],
@@ -41,8 +41,8 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Storage Category deleted',
-                    'body'  => 'The storage category has been deleted成功.',
+                    'title' => 'Storage Category已刪除',
+                    'body'  => 'The storage category has been已刪除成功.',
                 ],
             ],
         ],
@@ -50,8 +50,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Storage Categories deleted',
-                    'body'  => 'The storage categories has been deleted成功.',
+                    'title' => 'Storage Categories已刪除',
+                    'body'  => 'The storage categories has been已刪除成功.',
                 ],
             ],
         ],
@@ -71,12 +71,12 @@ return [
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'created-by'   => '建立者',
                     'created-at'   => '建立時間',
-                    'last-updated' => 'Last Updated',
+                    'last-updated' => '最後更新',
                 ],
             ],
         ],

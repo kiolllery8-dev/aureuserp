@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Applicant created',
-        'body'  => 'The applicant has been created successf ully.',
+        'title' => 'Applicant已建立',
+        'body'  => 'The applicant has been已建立 successf ully.',
     ],
 
     'tabs' => [
@@ -12,7 +12,7 @@ return [
         'in-progress'            => '處理中',
         'hired'                  => 'Hired',
         'refused'                => 'Refused',
-        'archived'               => 'Archived',
+        'archived'               => '已封存',
         'blocked'                => 'Blocked',
         'directly-available'     => 'Directly Available',
         'created-recently'       => 'Created Recently',
@@ -23,7 +23,7 @@ return [
         'create-applicant' => [
             'label' => '新增Applicant',
 
-            'modal-title' => 'Create Applicant',
+            'modal-title' => '新增Applicant',
         ],
     ],
 ];

@@ -2,6 +2,6 @@
 
 return [
     'tabs' => [
-        'inventory-management' => 'Inventory Management',
+        'inventory-management' => '庫存管理',
     ],
 ];

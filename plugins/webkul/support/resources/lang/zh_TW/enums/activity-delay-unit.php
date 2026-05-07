@@ -3,6 +3,6 @@
 return [
     'minutes' => 'Minutes',
     'hours'   => 'Hours',
-    'days'    => 'Days',
+    'days'    => '天數',
     'weeks'   => 'Weeks',
 ];

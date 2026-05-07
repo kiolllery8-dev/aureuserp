@@ -6,11 +6,11 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => 'Add Sub Task',
+                'label' => '新增Sub Task',
 
                 'notification' => [
-                    'title' => 'Task created',
-                    'body'  => 'The task has been created成功.',
+                    'title' => 'Task已建立',
+                    'body'  => 'The task has been已建立成功.',
                 ],
             ],
         ],
@@ -25,15 +25,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Task deleted',
-                    'body'  => 'The task has been deleted成功.',
+                    'title' => 'Task已刪除',
+                    'body'  => 'The task has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Task force deleted',
-                    'body'  => 'The task has been force deleted成功.',
+                    'title' => 'Task force已刪除',
+                    'body'  => 'The task has been force已刪除成功.',
                 ],
             ],
         ],

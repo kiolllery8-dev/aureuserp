@@ -5,7 +5,7 @@ return [
         'notification' => [
             'delete' => [
                 'title' => '刪除Quotation',
-                'body'  => 'Quotation has been deleted成功.',
+                'body'  => 'Quotation has been已刪除成功.',
             ],
         ],
     ],

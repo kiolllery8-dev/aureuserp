@@ -5,12 +5,12 @@ return [
 
     'log-attributes' => [
         'state'             => '狀態',
-        'untaxed-amount'    => 'Untaxed Amount',
+        'untaxed-amount'    => '未稅金額',
         'partner-reference' => 'Vendor Reference',
-        'origin'            => 'Source Document',
+        'origin'            => '來源單據',
         'partner'           => '供應商',
-        'buyer'             => 'Buyer',
-        'payment-term'      => 'Payment Term',
-        'fiscal-position'   => '財務立場',
+        'buyer'             => '買家',
+        'payment-term'      => '付款條件',
+        'fiscal-position'   => '稅務情境',
     ],
 ];

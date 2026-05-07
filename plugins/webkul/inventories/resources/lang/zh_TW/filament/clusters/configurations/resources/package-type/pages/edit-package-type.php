@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Package Type updated',
-        'body'  => 'The package type has been updated成功.',
+        'title' => 'Package類型已更新',
+        'body'  => 'The package type has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Package Type deleted',
-                'body'  => 'The package type has been deleted成功.',
+                'title' => 'Package類型已刪除',
+                'body'  => 'The package type has been已刪除成功.',
             ],
         ],
     ],

@@ -2,8 +2,8 @@
 
 return [
     'notification' => [
-        'title' => 'Purchase Agreement updated',
-        'body'  => 'The purchase agreement has been updated成功.',
+        'title' => 'Purchase Agreement已更新',
+        'body'  => 'The purchase agreement has been已更新成功.',
     ],
 
     'header-actions' => [
@@ -31,8 +31,8 @@ return [
 
         'delete' => [
             'notification' => [
-                'title' => 'Purchase Agreement deleted',
-                'body'  => 'The purchase agreement has been deleted成功.',
+                'title' => 'Purchase Agreement已刪除',
+                'body'  => 'The purchase agreement has been已刪除成功.',
             ],
         ],
     ],

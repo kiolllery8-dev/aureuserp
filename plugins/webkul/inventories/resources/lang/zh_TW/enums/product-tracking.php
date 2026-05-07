@@ -3,5 +3,5 @@
 return [
     'serial' => 'By Unique Serial Number',
     'lot'    => 'By Lots',
-    'qty'    => 'By Quantity',
+    'qty'    => 'By數量',
 ];

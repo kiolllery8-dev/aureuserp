@@ -17,7 +17,7 @@ return [
 
         'actions' => [
             'manage-activity-types' => [
-                'label' => 'Activity Types',
+                'label' => 'Activity類型s',
             ],
         ],
     ],

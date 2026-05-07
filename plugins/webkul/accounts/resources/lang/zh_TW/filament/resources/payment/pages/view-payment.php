@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Payment deleted',
-                'body'  => 'The payment has been deleted成功.',
+                'title' => 'Payment已刪除',
+                'body'  => 'The payment has been已刪除成功.',
             ],
         ],
     ],

@@ -6,8 +6,8 @@ return [
             'label' => '新增Receipt',
 
             'notification' => [
-                'title' => 'Receipt created',
-                'body'  => 'The receipt has been created成功.',
+                'title' => 'Receipt已建立',
+                'body'  => 'The receipt has been已建立成功.',
             ],
         ],
     ],

@@ -32,8 +32,8 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Category updated',
-                    'body'  => 'The category has been updated成功.',
+                    'title' => 'Category已更新',
+                    'body'  => 'The category has been已更新成功.',
                 ],
             ],
 
@@ -46,20 +46,20 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Category deleted',
-                    'body'  => 'The category has been deleted成功.',
+                    'title' => 'Category已刪除',
+                    'body'  => 'The category has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Category force deleted',
-                        'body'  => 'The Category has been force deleted成功.',
+                        'title' => 'Category force已刪除',
+                        'body'  => 'The Category has been force已刪除成功.',
                     ],
                     'error' => [
-                        'title' => 'Category  could not be deleted',
-                        'body'  => 'The Category  cannot be deleted because it is currently in use.',
+                        'title' => 'Category  could not be已刪除',
+                        'body'  => 'The Category  cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -84,15 +84,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Categories deleted',
-                    'body'  => 'The categories has been deleted成功.',
+                    'title' => 'Categories已刪除',
+                    'body'  => 'The categories has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Categories force deleted',
-                    'body'  => 'The categories has been force deleted成功.',
+                    'title' => 'Categories force已刪除',
+                    'body'  => 'The categories has been force已刪除成功.',
                 ],
             ],
 

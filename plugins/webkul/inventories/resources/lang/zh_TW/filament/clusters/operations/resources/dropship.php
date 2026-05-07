@@ -16,13 +16,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Dropship deleted',
-                        'body'  => 'The dropship ras been deleted成功.',
+                        'title' => 'Dropship已刪除',
+                        'body'  => 'The dropship ras been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Dropship could not be deleted',
-                        'body'  => 'The dropship cannot be deleted because it is currently in use.',
+                        'title' => 'Dropship could not be已刪除',
+                        'body'  => 'The dropship cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -32,13 +32,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Dropships deleted',
-                        'body'  => 'The dropships has been deleted成功.',
+                        'title' => 'Dropships已刪除',
+                        'body'  => 'The dropships has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Dropships could not be deleted',
-                        'body'  => 'The dropships cannot be deleted because they are currently in use.',
+                        'title' => 'Dropships could not be已刪除',
+                        'body'  => 'The dropships cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],

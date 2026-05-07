@@ -6,6 +6,6 @@ return [
     ],
 
     'datasets' => [
-        'label' => 'Tasks created',
+        'label' => 'Tasks已建立',
     ],
 ];

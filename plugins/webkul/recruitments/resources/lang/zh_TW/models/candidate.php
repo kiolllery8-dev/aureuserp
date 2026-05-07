@@ -5,19 +5,19 @@ return [
 
     'log-attributes' => [
         'company'           => '公司',
-        'contact'           => 'Contact',
+        'contact'           => '聯絡人',
         'degree'            => 'Degree',
-        'manager'           => 'Manager',
+        'manager'           => '主管',
         'employee'          => 'Employee',
         'creator'           => '建立者',
         'phone'             => '電話',
         'email'             => '電子郵件',
         'email_cc'          => 'Email CC',
-        'name'              => 'Candidate Name',
+        'name'              => 'Candidate名稱',
         'email_from'        => 'Email From',
         'phone_raw'         => '電話',
         'linkedin_profile'  => 'LinkedIn Profile',
-        'availability_date' => 'Availability Date',
+        'availability_date' => 'Availability日期',
         'is_active'         => '狀態',
     ],
 ];

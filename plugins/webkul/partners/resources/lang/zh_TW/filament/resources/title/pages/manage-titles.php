@@ -6,8 +6,8 @@ return [
             'label' => '新增Title',
 
             'notification' => [
-                'title' => 'Title created',
-                'body'  => 'The title has been created成功.',
+                'title' => 'Title已建立',
+                'body'  => 'The title has been已建立成功.',
             ],
         ],
     ],

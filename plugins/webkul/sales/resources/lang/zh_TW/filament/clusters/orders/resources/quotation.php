@@ -9,7 +9,7 @@ return [
 
     'global-search' => [
         'customer'  => '客戶',
-        'reference' => '參考',
+        'reference' => '參考編號',
         'amount'    => '金額',
     ],
 
@@ -20,9 +20,9 @@ return [
                 'fields' => [
                     'customer'       => '客戶',
                     'expiration'     => 'Expiration',
-                    'quotation-date' => 'Quotation Date',
-                    'order-date'     => 'Order Date',
-                    'payment-term'   => 'Payment Term',
+                    'quotation-date' => '報價日期',
+                    'order-date'     => '訂單日期',
+                    'payment-term'   => '付款條件',
                 ],
             ],
         ],
@@ -34,7 +34,7 @@ return [
                 'repeater' => [
                     'products' => [
                         'title'       => '商品',
-                        'add-product' => 'Add Product',
+                        'add-product' => '新增商品',
 
                         'columns'     => [
                             'product'             => '商品',
@@ -42,18 +42,18 @@ return [
                             'product-simple'      => 'Product Simple',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
-                            'lead-time'           => 'Lead Time',
+                            'lead-time'           => 'Lead時間',
                             'qty-delivered'       => 'Delivered',
                             'qty-invoiced'        => 'Invoiced',
-                            'packaging-qty'       => 'Packaging Quantity',
-                            'packaging'           => 'Packaging',
+                            'packaging-qty'       => 'Packaging數量',
+                            'packaging'           => '包裝',
                             'unit-price'          => '單價',
                             'cost'                => '成本',
                             'margin'              => 'Margin',
                             'taxes'               => '稅',
                             'amount'              => '金額',
                             'margin-percentage'   => 'Margin (%)',
-                            'discount-percentage' => 'Discount (%)',
+                            'discount-percentage' => '折扣 (%)',
                         ],
 
                         'fields'      => [
@@ -62,23 +62,23 @@ return [
                             'product-simple'      => 'Product Simple',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
-                            'lead-time'           => 'Lead Time',
+                            'lead-time'           => 'Lead時間',
                             'qty-delivered'       => 'Quantity Delivered',
                             'qty-invoiced'        => 'Quantity Invoiced',
-                            'packaging-qty'       => 'Packaging Quantity',
-                            'packaging'           => 'Packaging',
+                            'packaging-qty'       => 'Packaging數量',
+                            'packaging'           => '包裝',
                             'unit-price'          => '單價',
                             'cost'                => '成本',
                             'margin'              => 'Margin',
                             'taxes'               => '稅',
                             'amount'              => '金額',
                             'margin-percentage'   => 'Margin (%)',
-                            'discount-percentage' => 'Discount (%)',
+                            'discount-percentage' => '折扣 (%)',
                         ],
 
                         'notifications' => [
                             'quantity-below-delivered' => [
-                                'title' => 'Cannot Reduce Quantity',
+                                'title' => 'Cannot Reduce數量',
                                 'body'  => 'You cannot reduce the quantity below the delivered quantity (:qty).',
                             ],
                         ],
@@ -86,14 +86,14 @@ return [
                         'delete-action' => [
                             'error' => [
                                 'title' => 'Cannot 刪除Product',
-                                'body'  => 'Products cannot be deleted from a confirmed sales order.',
+                                'body'  => 'Products cannot be已刪除 from a confirmed sales order.',
                             ],
                         ],
                     ],
 
                     'product-optional' => [
                         'title'       => 'Optional Products',
-                        'add-product' => 'Add Product',
+                        'add-product' => '新增商品',
 
                         'columns' => [
                             'product'             => '商品',
@@ -101,7 +101,7 @@ return [
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
                             'unit-price'          => '單價',
-                            'discount-percentage' => 'Discount (%)',
+                            'discount-percentage' => '折扣 (%)',
                         ],
 
                         'fields'      => [
@@ -110,11 +110,11 @@ return [
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
                             'unit-price'          => '單價',
-                            'discount-percentage' => 'Discount (%)',
+                            'discount-percentage' => '折扣 (%)',
 
                             'actions' => [
                                 'tooltip' => [
-                                    'add-order-line' => 'Add Order Line',
+                                    'add-order-line' => '新增Order Line',
                                 ],
 
                                 'notifications' => [
@@ -150,7 +150,7 @@ return [
                         'title' => '銷售',
 
                         'fields' => [
-                            'sales-person'       => 'Sales Person',
+                            'sales-person'       => '業務',
                             'customer-reference' => 'Customer Reference',
                             'tags'               => '標籤',
                         ],
@@ -159,22 +159,22 @@ return [
                     'shipping' => [
                         'title'  => 'Shipping',
                         'fields' => [
-                            'commitment-date' => 'Delivery Date',
+                            'commitment-date' => 'Delivery日期',
                         ],
                     ],
 
                     'tracking' => [
                         'title'  => 'Tracking',
                         'fields' => [
-                            'source-document' => 'Source Document',
+                            'source-document' => '來源單據',
                             'medium'          => '中',
-                            'source'          => 'Source',
+                            'source'          => '來源',
                             'campaign'        => 'Campaign',
                         ],
                     ],
 
                     'additional-information' => [
-                        'title' => 'Additional Information',
+                        'title' => '其他資料',
 
                         'fields' => [
                             'company'  => '公司',
@@ -185,38 +185,38 @@ return [
             ],
 
             'term-and-conditions' => [
-                'title' => 'Terms & Conditions',
+                'title' => '條款',
             ],
         ],
     ],
 
     'table' => [
         'columns' => [
-            'number'             => 'Number',
+            'number'             => '編號',
             'status'             => '狀態',
-            'invoice-status'     => 'Invoice Status',
-            'creation-date'      => 'Creation Date',
-            'commitment-date'    => 'Commitment Date',
-            'expected-date'      => 'Expected Date',
+            'invoice-status'     => 'Invoice狀態',
+            'creation-date'      => 'Creation日期',
+            'commitment-date'    => 'Commitment日期',
+            'expected-date'      => 'Expected日期',
             'customer'           => '客戶',
-            'sales-person'       => 'Sales Person',
-            'sales-team'         => 'Sales Team',
-            'untaxed-amount'     => 'Untaxed Amount',
+            'sales-person'       => '業務',
+            'sales-team'         => '業務團隊',
+            'untaxed-amount'     => '未稅金額',
             'amount-tax'         => 'Amount Tax',
-            'amount-total'       => 'Amount Total',
+            'amount-total'       => 'Amount總計',
             'customer-reference' => 'Customer Reference',
         ],
 
         'filters' => [
-            'sales-person'     => 'Sales Person',
+            'sales-person'     => '業務',
             'utm-source'       => 'UTM Source',
             'company'          => '公司',
             'customer'         => '客戶',
-            'journal'          => '日記帳',
+            'journal'          => '帳本',
             'invoice-address'  => 'Invoice Address',
             'shipping-address' => 'Shipping Address',
-            'fiscal-position'  => '財務立場',
-            'payment-term'     => 'Payment Term',
+            'fiscal-position'  => '稅務情境',
+            'payment-term'     => '付款條件',
             'currency'         => '幣別',
             'created-at'       => '建立時間',
             'updated-at'       => '更新時間',
@@ -224,14 +224,14 @@ return [
 
         'groups' => [
             'medium'          => '中',
-            'source'          => 'Source',
+            'source'          => '來源',
             'team'            => 'Team',
-            'sales-person'    => 'Sales Person',
+            'sales-person'    => '業務',
             'currency'        => '幣別',
             'company'         => '公司',
             'customer'        => '客戶',
-            'quotation-date'  => 'Quotation Date',
-            'commitment-date' => 'Commitment Date',
+            'quotation-date'  => '報價日期',
+            'commitment-date' => 'Commitment日期',
         ],
 
         'actions' => [
@@ -244,15 +244,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Quotation deleted',
-                    'body'  => 'The quotation has been deleted成功.',
+                    'title' => 'Quotation已刪除',
+                    'body'  => 'The quotation has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Quotation force deleted',
-                    'body'  => 'The quotation has been force deleted成功.',
+                    'title' => 'Quotation force已刪除',
+                    'body'  => 'The quotation has been force已刪除成功.',
                 ],
             ],
         ],
@@ -267,15 +267,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Quotations deleted',
-                    'body'  => 'The quotations has been deleted成功.',
+                    'title' => 'Quotations已刪除',
+                    'body'  => 'The quotations has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Quotations force deleted',
-                    'body'  => 'The quotations has been force deleted成功.',
+                    'title' => 'Quotations force已刪除',
+                    'body'  => 'The quotations has been force已刪除成功.',
                 ],
             ],
         ],
@@ -283,8 +283,8 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Quotations created',
-                    'body'  => 'The quotations has been created成功.',
+                    'title' => 'Quotations已建立',
+                    'body'  => 'The quotations has been已建立成功.',
                 ],
             ],
         ],
@@ -298,8 +298,8 @@ return [
                     'sale-order'     => '銷貨訂單',
                     'customer'       => '客戶',
                     'expiration'     => 'Expiration',
-                    'quotation-date' => 'Quotation Date',
-                    'payment-term'   => 'Payment Term',
+                    'quotation-date' => '報價日期',
+                    'payment-term'   => '付款條件',
                 ],
             ],
         ],
@@ -311,42 +311,42 @@ return [
                 'repeater' => [
                     'products' => [
                         'title'       => '商品',
-                        'add-product' => 'Add Product',
+                        'add-product' => '新增商品',
                         'entries'     => [
                             'product'             => '商品',
                             'product-variants'    => 'Product Variants',
                             'product-simple'      => 'Product Simple',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
-                            'lead-time'           => 'Lead Time',
-                            'packaging-qty'       => 'Packaging Quantity',
-                            'packaging'           => 'Packaging',
+                            'lead-time'           => 'Lead時間',
+                            'packaging-qty'       => 'Packaging數量',
+                            'packaging'           => '包裝',
                             'unit-price'          => '單價',
                             'cost'                => '成本',
                             'margin'              => 'Margin',
                             'taxes'               => '稅',
                             'amount'              => '金額',
                             'margin-percentage'   => 'Margin (%)',
-                            'discount-percentage' => 'Discount (%)',
-                            'sub-total'           => 'Sub Total',
+                            'discount-percentage' => '折扣 (%)',
+                            'sub-total'           => '小計',
                         ],
                     ],
 
                     'product-optional' => [
                         'title'       => 'Optional Products',
-                        'add-product' => 'Add Product',
+                        'add-product' => '新增商品',
                         'entries'     => [
                             'product'             => '商品',
                             'description'         => '描述',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
                             'unit-price'          => '單價',
-                            'discount-percentage' => 'Discount (%)',
-                            'sub-total'           => 'Sub Total',
+                            'discount-percentage' => '折扣 (%)',
+                            'sub-total'           => '小計',
 
                             'actions' => [
                                 'tooltip' => [
-                                    'add-order-line' => 'Add Order Line',
+                                    'add-order-line' => '新增Order Line',
                                 ],
 
                                 'notifications' => [
@@ -368,7 +368,7 @@ return [
                         'title' => '銷售',
 
                         'entries' => [
-                            'sales-person'       => 'Sales Person',
+                            'sales-person'       => '業務',
                             'customer-reference' => 'Customer Reference',
                             'tags'               => '標籤',
                         ],
@@ -377,22 +377,22 @@ return [
                     'shipping' => [
                         'title'   => 'Shipping',
                         'entries' => [
-                            'commitment-date' => 'Delivery Date',
+                            'commitment-date' => 'Delivery日期',
                         ],
                     ],
 
                     'tracking' => [
                         'title'   => 'Tracking',
                         'entries' => [
-                            'source-document' => 'Source Document',
+                            'source-document' => '來源單據',
                             'medium'          => '中',
-                            'source'          => 'Source',
+                            'source'          => '來源',
                             'campaign'        => 'Campaign',
                         ],
                     ],
 
                     'additional-information' => [
-                        'title' => 'Additional Information',
+                        'title' => '其他資料',
 
                         'entries' => [
                             'company'  => '公司',
@@ -403,7 +403,7 @@ return [
             ],
 
             'term-and-conditions' => [
-                'title' => 'Terms & Conditions',
+                'title' => '條款',
             ],
         ],
     ],

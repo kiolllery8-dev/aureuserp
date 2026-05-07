@@ -15,13 +15,13 @@ return [
                 'fields' => [
                     'vendor-credit-note' => 'Vendor Credit Note',
                     'vendor'             => '供應商',
-                    'bill-date'          => 'Bill Date',
+                    'bill-date'          => '進貨日期',
                     'bill-reference'     => 'Bill Reference',
-                    'accounting-date'    => 'Accounting Date',
-                    'payment-reference'  => 'Payment Reference',
+                    'accounting-date'    => '入帳日期',
+                    'payment-reference'  => '付款參考',
                     'recipient-bank'     => 'Recipient Bank',
                     'due-date'           => '到期日',
-                    'payment-term'       => 'Payment Term',
+                    'payment-term'       => '付款條件',
                 ],
             ],
         ],
@@ -33,16 +33,16 @@ return [
                 'repeater' => [
                     'products' => [
                         'title'       => '商品',
-                        'add-product' => 'Add Product',
+                        'add-product' => '新增商品',
 
                         'fields' => [
                             'product'             => '商品',
                             'quantity'            => '數量',
-                            'unit'                => 'Unit',
+                            'unit'                => '單位',
                             'taxes'               => '稅',
-                            'discount-percentage' => 'Discount Percentage',
+                            'discount-percentage' => '折扣百分比',
                             'unit-price'          => '單價',
-                            'sub-total'           => 'Sub Total',
+                            'sub-total'           => '小計',
                         ],
                     ],
                 ],
@@ -55,22 +55,22 @@ return [
                         'title' => '會計',
 
                         'fields' => [
-                            'incoterm'          => 'Incoterm',
-                            'incoterm-location' => 'Incoterm Location',
+                            'incoterm'          => '貿易條件',
+                            'incoterm-location' => '貿易條件地點',
                         ],
                     ],
 
                     'secured' => [
                         'title'  => 'Secured',
                         'fields' => [
-                            'payment-method' => 'Payment Method',
+                            'payment-method' => '付款方式',
                             'auto-post'      => 'Auto Post',
-                            'checked'        => 'Checked',
+                            'checked'        => '已核對',
                         ],
                     ],
 
                     'additional-information' => [
-                        'title'  => 'Additional Information',
+                        'title'  => '其他資料',
                         'fields' => [
                             'company'  => '公司',
                             'currency' => '幣別',
@@ -80,7 +80,7 @@ return [
             ],
 
             'term-and-conditions' => [
-                'title' => 'Term & Conditions',
+                'title' => '條款',
             ],
         ],
     ],
@@ -92,13 +92,13 @@ return [
                 'entries' => [
                     'vendor-invoice'    => 'Vendor Invoice',
                     'vendor'            => '供應商',
-                    'bill-date'         => 'Bill Date',
+                    'bill-date'         => '進貨日期',
                     'bill-reference'    => 'Bill Reference',
-                    'accounting-date'   => 'Accounting Date',
-                    'payment-reference' => 'Payment Reference',
+                    'accounting-date'   => '入帳日期',
+                    'payment-reference' => '付款參考',
                     'recipient-bank'    => 'Recipient Bank',
                     'due-date'          => '到期日',
-                    'payment-term'      => 'Payment Term',
+                    'payment-term'      => '付款條件',
                 ],
             ],
         ],
@@ -110,16 +110,16 @@ return [
                 'repeater' => [
                     'products' => [
                         'title'       => '商品',
-                        'add-product' => 'Add Product',
+                        'add-product' => '新增商品',
 
                         'entries' => [
                             'product'             => '商品',
                             'quantity'            => '數量',
-                            'unit'                => 'Unit',
+                            'unit'                => '單位',
                             'taxes'               => '稅',
-                            'discount-percentage' => 'Discount Percentage',
+                            'discount-percentage' => '折扣百分比',
                             'unit-price'          => '單價',
-                            'sub-total'           => 'Sub Total',
+                            'sub-total'           => '小計',
                         ],
                     ],
                 ],
@@ -132,22 +132,22 @@ return [
                         'title' => '會計',
 
                         'entries' => [
-                            'incoterm'          => 'Incoterm',
-                            'incoterm-location' => 'Incoterm Location',
+                            'incoterm'          => '貿易條件',
+                            'incoterm-location' => '貿易條件地點',
                         ],
                     ],
 
                     'secured' => [
                         'title'   => 'Secured',
                         'entries' => [
-                            'payment-method' => 'Payment Method',
+                            'payment-method' => '付款方式',
                             'auto-post'      => 'Auto Post',
-                            'checked'        => 'Checked',
+                            'checked'        => '已核對',
                         ],
                     ],
 
                     'additional-information' => [
-                        'title'   => 'Additional Information',
+                        'title'   => '其他資料',
                         'entries' => [
                             'company'  => '公司',
                             'currency' => '幣別',
@@ -157,7 +157,7 @@ return [
             ],
 
             'term-and-conditions' => [
-                'title' => 'Term & Conditions',
+                'title' => '條款',
             ],
         ],
     ],

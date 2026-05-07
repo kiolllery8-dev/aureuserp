@@ -11,7 +11,7 @@ return [
 
     'form' => [
         'fields' => [
-            'variants'                      => 'Variants',
+            'variants'                      => '規格',
             'variants-help'                 => 'Allow products to have multiple variants',
             'uom'                           => '計量單位',
             'uom-help'                      => 'Allow products to have a unit of measure',

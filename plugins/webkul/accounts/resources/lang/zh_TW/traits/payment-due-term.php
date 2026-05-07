@@ -2,36 +2,36 @@
 
 return [
     'form' => [
-        'value'                  => 'Value',
+        'value'                  => '值',
         'due'                    => 'Due',
         'delay-due'              => 'Delay Due',
-        'delay-type'             => 'Delay Type',
+        'delay-type'             => 'Delay類型',
         'days-on-the-next-month' => 'Days on the next month',
-        'days'                   => 'Days',
-        'payment-term'           => 'Payment Term',
+        'days'                   => '天數',
+        'payment-term'           => '付款條件',
     ],
 
     'table' => [
         'columns' => [
             'due'          => 'Due',
-            'value'        => 'Value',
-            'value-amount' => 'Value Amount',
+            'value'        => '值',
+            'value-amount' => 'Value金額',
             'after'        => 'After',
-            'delay-type'   => 'Delay Type',
+            'delay-type'   => 'Delay類型',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Payment Due Term updated',
-                    'body'  => 'The payment due term has been updated成功.',
+                    'title' => 'Payment Due Term已更新',
+                    'body'  => 'The payment due term has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Payment Due Term deleted',
-                    'body'  => 'The payment due term has been deleted成功.',
+                    'title' => 'Payment Due Term已刪除',
+                    'body'  => 'The payment due term has been已刪除成功.',
                 ],
             ],
         ],
@@ -39,8 +39,8 @@ return [
         'header-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Payment Due Term created',
-                    'body'  => 'The payment due term has been created成功.',
+                    'title' => 'Payment Due Term已建立',
+                    'body'  => 'The payment due term has been已建立成功.',
                 ],
             ],
         ],

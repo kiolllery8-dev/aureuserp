@@ -2,15 +2,15 @@
 
 return [
     'notification' => [
-        'title' => 'Quotation updated',
-        'body'  => 'The quotation has been updated成功.',
+        'title' => 'Quotation已更新',
+        'body'  => 'The quotation has been已更新成功.',
     ],
 
     'header-actions' => [
         'notification' => [
             'delete' => [
                 'title' => '刪除Quotation',
-                'body'  => 'Quotation has been deleted成功.',
+                'body'  => 'Quotation has been已刪除成功.',
             ],
         ],
     ],

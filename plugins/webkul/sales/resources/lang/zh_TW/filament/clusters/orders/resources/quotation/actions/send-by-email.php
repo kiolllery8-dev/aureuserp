@@ -13,7 +13,7 @@ return [
     'form' => [
         'fields' => [
             'partners'    => '夥伴',
-            'subject'     => 'Subject',
+            'subject'     => '主旨',
             'description' => '描述',
             'attachment'  => '附件',
         ],

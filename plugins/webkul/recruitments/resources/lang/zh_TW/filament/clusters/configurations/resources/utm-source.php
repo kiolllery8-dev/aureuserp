@@ -25,7 +25,7 @@ return [
 
     'table' => [
         'columns' => [
-            'id'         => 'ID',
+            'id'         => '編號',
             'name'       => '名稱',
             'status'     => '狀態',
             'created-by' => '建立者',
@@ -43,15 +43,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Source updated',
-                    'body'  => 'The source has been updated成功.',
+                    'title' => 'Source已更新',
+                    'body'  => 'The source has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Source deleted',
-                    'body'  => 'The source has been deleted成功.',
+                    'title' => 'Source已刪除',
+                    'body'  => 'The source has been已刪除成功.',
                 ],
             ],
         ],
@@ -59,8 +59,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Sources deleted',
-                    'body'  => 'The Sources has been deleted成功.',
+                    'title' => 'Sources已刪除',
+                    'body'  => 'The Sources has been已刪除成功.',
                 ],
             ],
         ],
@@ -68,8 +68,8 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Source created',
-                    'body'  => 'The source has been created成功.',
+                    'title' => 'Source已建立',
+                    'body'  => 'The source has been已建立成功.',
                 ],
             ],
         ],

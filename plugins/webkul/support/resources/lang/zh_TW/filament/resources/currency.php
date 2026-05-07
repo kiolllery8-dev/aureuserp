@@ -11,14 +11,14 @@ return [
     'form' => [
         'sections' => [
             'currency-details' => [
-                'title' => 'Currency Information',
+                'title' => 'Currency資料',
 
                 'fields' => [
-                    'name'         => 'Currency Name',
+                    'name'         => '幣別名稱',
                     'name-tooltip' => 'Enter the official currency name',
-                    'symbol'       => 'Currency Symbol',
-                    'full-name'    => 'Full Name',
-                    'iso-numeric'  => 'ISO Numeric Code',
+                    'symbol'       => '幣別符號',
+                    'full-name'    => '姓名',
+                    'iso-numeric'  => 'ISO Numeric代碼',
                 ],
             ],
 
@@ -50,7 +50,7 @@ return [
                     'currency-per-unit' => ':currency Per Unit',
                 ],
 
-                'add-rate'   => 'Add Rate',
+                'add-rate'   => '新增Rate',
                 'item-label' => 'Rate',
             ],
         ],
@@ -58,10 +58,10 @@ return [
 
     'table' => [
         'columns' => [
-            'name'           => 'Currency Name',
+            'name'           => '幣別名稱',
             'symbol'         => 'Symbol',
-            'full-name'      => 'Full Name',
-            'iso-numeric'    => 'ISO Code',
+            'full-name'      => '姓名',
+            'iso-numeric'    => 'ISO代碼',
             'decimal-places' => 'Decimal Places',
             'rounding'       => 'Rounding',
             'status'         => '狀態',
@@ -73,7 +73,7 @@ return [
             'name'           => '名稱',
             'status'         => '狀態',
             'decimal-places' => 'Decimal Places',
-            'creation-date'  => 'Creation Date',
+            'creation-date'  => 'Creation日期',
             'last-update'    => 'Last Update',
         ],
 
@@ -84,17 +84,17 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title'   => 'Currency deleted',
-                    'body'    => 'The currency has been deleted成功.',
+                    'title'   => 'Currency已刪除',
+                    'body'    => 'The currency has been已刪除成功.',
 
                     'success' => [
-                        'title' => 'Currency deleted',
-                        'body'  => 'The currency has been deleted成功.',
+                        'title' => 'Currency已刪除',
+                        'body'  => 'The currency has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Currency could not be deleted',
-                        'body'  => 'The currency cannot be deleted because it is currently in use.',
+                        'title' => 'Currency could not be已刪除',
+                        'body'  => 'The currency cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -103,8 +103,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Currencies deleted',
-                    'body'  => 'The currencies have been deleted成功.',
+                    'title' => 'Currencies已刪除',
+                    'body'  => 'The currencies have been已刪除成功.',
                 ],
             ],
         ],
@@ -113,13 +113,13 @@ return [
     'infolist' => [
         'sections' => [
             'currency-details' => [
-                'title' => 'Currency Information',
+                'title' => 'Currency資料',
 
                 'entries' => [
-                    'name'         => 'Currency Name',
-                    'symbol'       => 'Currency Symbol',
-                    'full-name'    => 'Full Name',
-                    'iso-numeric'  => 'ISO Numeric Code',
+                    'name'         => '幣別名稱',
+                    'symbol'       => '幣別符號',
+                    'full-name'    => '姓名',
+                    'iso-numeric'  => 'ISO Numeric代碼',
                 ],
             ],
 

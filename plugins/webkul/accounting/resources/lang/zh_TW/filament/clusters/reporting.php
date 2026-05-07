@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Reporting',
+        'title' => '報表',
         'group' => '會計',
     ],
     'pages' => [
@@ -17,7 +17,7 @@ return [
             ],
             'filters' => [
                 'date-range' => 'Date Range',
-                'journals'   => '日記帳',
+                'journals'   => '帳本',
             ],
             'content' => [
                 'sections' => [
@@ -84,7 +84,7 @@ return [
             ],
             'filters' => [
                 'date-range' => 'Date Range',
-                'journals'   => '日記帳',
+                'journals'   => '帳本',
             ],
             'content' => [
                 'sections' => [
@@ -112,7 +112,7 @@ return [
             ],
             'filters' => [
                 'date-range' => 'Date Range',
-                'journals'   => '日記帳',
+                'journals'   => '帳本',
             ],
         ],
         'trial-balance' => [
@@ -126,7 +126,7 @@ return [
             ],
             'filters' => [
                 'date-range' => 'Date Range',
-                'journals'   => '日記帳',
+                'journals'   => '帳本',
             ],
         ],
         'partner-ledger' => [
@@ -141,7 +141,7 @@ return [
             'filters' => [
                 'date-range' => 'Date Range',
                 'partners'   => '夥伴',
-                'journals'   => '日記帳',
+                'journals'   => '帳本',
             ],
         ],
         'aged-receivable' => [
@@ -157,12 +157,12 @@ return [
                 'as-of'         => 'As of',
                 'based-on'      => 'Based on',
                 'period-length' => 'Period Length (days)',
-                'journals'      => '日記帳',
+                'journals'      => '帳本',
                 'partners'      => '夥伴',
                 'entries'       => 'Entries',
                 'options'       => [
                     'due-date'       => '到期日',
-                    'invoice-date'   => 'Invoice Date',
+                    'invoice-date'   => '開立日期',
                     'days-30'        => '30 Days',
                     'days-60'        => '60 Days',
                     'days-90'        => '90 Days',
@@ -184,12 +184,12 @@ return [
                 'as-of'         => 'As of',
                 'based-on'      => 'Based on',
                 'period-length' => 'Period Length (days)',
-                'journals'      => '日記帳',
+                'journals'      => '帳本',
                 'partners'      => '夥伴',
                 'entries'       => 'Entries',
                 'options'       => [
                     'due-date'       => '到期日',
-                    'invoice-date'   => 'Invoice Date',
+                    'invoice-date'   => '開立日期',
                     'days-30'        => '30 Days',
                     'days-60'        => '60 Days',
                     'days-90'        => '90 Days',

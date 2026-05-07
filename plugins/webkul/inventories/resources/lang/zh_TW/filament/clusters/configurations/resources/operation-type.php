@@ -10,7 +10,7 @@ return [
         'sections' => [
             'general' => [
                 'fields' => [
-                    'operator-type'             => 'Operator Type',
+                    'operator-type'             => 'Operator類型',
                     'operator-type-placeholder' => 'eg. Receptions',
                 ],
             ],
@@ -29,16 +29,16 @@ return [
                 'title'  => '一般',
 
                 'fields' => [
-                    'operator-type'                      => 'Operator Type',
+                    'operator-type'                      => 'Operator類型',
                     'sequence-prefix'                    => 'Sequence Prefix',
                     'generate-shipping-labels'           => 'Generate Shipping Labels',
                     'warehouse'                          => '倉庫',
                     'show-reception-report'              => 'Show Reception Report at Validation',
                     'show-reception-report-hint-tooltip' => 'If selected, the system will automatically display the reception report upon validation, provided there are moves to allocate.',
                     'company'                            => '公司',
-                    'return-type'                        => 'Return Type',
-                    'create-backorder'                   => 'Create Backorder',
-                    'move-type'                          => 'Move Type',
+                    'return-type'                        => 'Return類型',
+                    'create-backorder'                   => '新增Backorder',
+                    'move-type'                          => 'Move類型',
                     'move-type-hint-tooltip'             => 'Unless defined by the source document, this will serve as the default picking policy for this operation type.',
                 ],
 
@@ -47,10 +47,10 @@ return [
                         'title'  => 'Lots/Serial Numbers',
 
                         'fields' => [
-                            'create-new'                => 'Create New',
+                            'create-new'                => '新增New',
                             'create-new-hint-tooltip'   => 'If selected, the system will assume you intend to create new Lots/Serial Numbers, allowing you to enter them in a text field.',
                             'use-existing'              => 'Use Existing',
-                            'use-existing-hint-tooltip' => 'If selected, you can choose the Lots/Serial Numbers or opt not to assign any. This allows stock to be created without a lot or without restrictions on the lot used.',
+                            'use-existing-hint-tooltip' => 'If selected, you can choose the Lots/Serial Numbers or opt not to assign any. This allows stock to be已建立 without a lot or without restrictions on the lot used.',
                         ],
                     ],
 
@@ -58,10 +58,10 @@ return [
                         'title'  => '位置',
 
                         'fields' => [
-                            'source-location'                   => 'Source Location',
+                            'source-location'                   => '從哪裡',
                             'source-location-hint-tooltip'      => 'This serves as the default source location when manually creating this operation. However, it can be changed later, and routes may assign a different default location.',
-                            'destination-location'              => 'Destination Location',
-                            'destination-location-hint-tooltip' => 'This is the default destination location for manually created operations. However, it can be modified later, and routes may assign a different default location.',
+                            'destination-location'              => '送到哪裡',
+                            'destination-location-hint-tooltip' => 'This is the default destination location for manually已建立 operations. However, it can be modified later, and routes may assign a different default location.',
                         ],
                     ],
 
@@ -125,7 +125,7 @@ return [
             'name'       => '名稱',
             'warehouse'  => '倉庫',
             'company'    => '公司',
-            'deleted-at' => 'Deleted At',
+            'deleted-at' => '刪除時間',
             'created-at' => '建立時間',
             'updated-at' => '更新時間',
         ],
@@ -146,28 +146,28 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Operation Type restored',
+                    'title' => 'Operation類型 restored',
                     'body'  => 'The operation type has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Operation Type deleted',
-                    'body'  => 'The operation type has been deleted成功.',
+                    'title' => 'Operation類型已刪除',
+                    'body'  => 'The operation type has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Operation Type force deleted',
-                        'body'  => 'The operation type has been force deleted成功.',
+                        'title' => 'Operation類型 force已刪除',
+                        'body'  => 'The operation type has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Operation Type could not be deleted',
-                        'body'  => 'The operation type cannot be deleted because it is currently in use.',
+                        'title' => 'Operation類型 could not be已刪除',
+                        'body'  => 'The operation type cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -176,28 +176,28 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Operation Types restored',
+                    'title' => 'Operation類型s restored',
                     'body'  => 'The operation types has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Operation Types deleted',
-                    'body'  => 'The operation types has been deleted成功.',
+                    'title' => 'Operation類型s已刪除',
+                    'body'  => 'The operation types has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Operations Types force deleted',
-                        'body'  => 'The operation types has been force deleted成功.',
+                        'title' => 'Operations類型s force已刪除',
+                        'body'  => 'The operation types has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Operations Types could not be deleted',
-                        'body'  => 'The operation types cannot be deleted because they are currently in use.',
+                        'title' => 'Operations類型s could not be已刪除',
+                        'body'  => 'The operation types cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],
@@ -205,7 +205,7 @@ return [
 
         'empty-actions' => [
             'create' => [
-                'label' => 'Create Operation Type',
+                'label' => '新增Operation類型',
             ],
         ],
     ],
@@ -221,12 +221,12 @@ return [
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'created-by'   => '建立者',
                     'created-at'   => '建立時間',
-                    'last-updated' => 'Last Updated',
+                    'last-updated' => '最後更新',
                 ],
             ],
         ],
@@ -237,15 +237,15 @@ return [
 
                 'entries' => [
                     'type'                       => '作業類型',
-                    'sequence_code'              => 'Sequence Code',
+                    'sequence_code'              => 'Sequence代碼',
                     'print_label'                => 'Print Label',
                     'warehouse'                  => '倉庫',
                     'reservation_method'         => 'Reservation Method',
                     'auto_show_reception_report' => 'Auto Show Reception Report',
                     'company'                    => '公司',
-                    'return_operation_type'      => 'Return Operation Type',
-                    'create_backorder'           => 'Create Backorder',
-                    'move_type'                  => 'Move Type',
+                    'return_operation_type'      => 'Return Operation類型',
+                    'create_backorder'           => '新增Backorder',
+                    'move_type'                  => 'Move類型',
                 ],
 
                 'fieldsets' => [
@@ -253,7 +253,7 @@ return [
                         'title' => '批號',
 
                         'entries' => [
-                            'use_create_lots'   => 'Use Create Lots',
+                            'use_create_lots'   => 'Use 新增Lots',
                             'use_existing_lots' => 'Use Existing Lots',
                         ],
                     ],
@@ -262,8 +262,8 @@ return [
                         'title' => '位置',
 
                         'entries' => [
-                            'source_location'      => 'Source Location',
-                            'destination_location' => 'Destination Location',
+                            'source_location'      => '從哪裡',
+                            'destination_location' => '送到哪裡',
                         ],
                     ],
                 ],

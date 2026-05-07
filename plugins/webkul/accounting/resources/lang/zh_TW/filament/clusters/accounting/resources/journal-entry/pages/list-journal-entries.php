@@ -9,7 +9,7 @@ return [
         'reversed'    => 'Reversed',
         'bank'        => '銀行',
         'cash'        => '現金',
-        'credit'      => 'Credit',
+        'credit'      => '貸方',
         'misc'        => 'Misc',
     ],
 ];

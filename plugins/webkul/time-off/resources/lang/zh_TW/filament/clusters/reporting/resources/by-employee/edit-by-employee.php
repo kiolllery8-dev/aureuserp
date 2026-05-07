@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Time Off deleted',
-                'body'  => 'The time off has been deleted成功.',
+                'title' => 'Time Off已刪除',
+                'body'  => 'The time off has been已刪除成功.',
             ],
         ],
     ],

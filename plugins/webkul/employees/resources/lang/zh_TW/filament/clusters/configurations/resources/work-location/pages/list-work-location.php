@@ -13,8 +13,8 @@ return [
             'label' => '新增Work Location',
 
             'notification' => [
-                'title' => 'Work Location created',
-                'body'  => 'The work location has been created成功.',
+                'title' => 'Work Location已建立',
+                'body'  => 'The work location has been已建立成功.',
             ],
         ],
     ],

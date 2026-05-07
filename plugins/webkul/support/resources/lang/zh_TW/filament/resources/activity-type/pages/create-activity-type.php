@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Activity Type created',
-        'body'  => 'The activity type has been created成功.',
+        'title' => 'Activity類型已建立',
+        'body'  => 'The activity type has been已建立成功.',
     ],
 ];

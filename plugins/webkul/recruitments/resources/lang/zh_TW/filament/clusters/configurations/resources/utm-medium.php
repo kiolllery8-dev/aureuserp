@@ -17,7 +17,7 @@ return [
 
     'table' => [
         'columns' => [
-            'id'         => 'ID',
+            'id'         => '編號',
             'name'       => '名稱',
             'created-by' => '建立者',
             'created-at' => '建立時間',
@@ -34,15 +34,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Medium updated',
-                    'body'  => 'The medium has been updated成功.',
+                    'title' => 'Medium已更新',
+                    'body'  => 'The medium has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Medium deleted',
-                    'body'  => 'The medium has been deleted成功.',
+                    'title' => 'Medium已刪除',
+                    'body'  => 'The medium has been已刪除成功.',
                 ],
             ],
         ],
@@ -50,8 +50,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Mediums deleted',
-                    'body'  => 'The Mediums has been deleted成功.',
+                    'title' => 'Mediums已刪除',
+                    'body'  => 'The Mediums has been已刪除成功.',
                 ],
             ],
         ],
@@ -59,8 +59,8 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Medium created',
-                    'body'  => 'The medium has been created成功.',
+                    'title' => 'Medium已建立',
+                    'body'  => 'The medium has been已建立成功.',
                 ],
             ],
         ],

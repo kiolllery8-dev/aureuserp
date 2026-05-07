@@ -12,7 +12,7 @@ return [
         'sections' => [
             'fields' => [
                 'name'       => '名稱',
-                'color'      => 'Color',
+                'color'      => '顏色',
                 'status'     => '狀態',
             ],
         ],
@@ -20,10 +20,10 @@ return [
 
     'table' => [
         'columns' => [
-            'id'         => 'ID',
+            'id'         => '編號',
             'name'       => '技能類別',
             'status'     => '狀態',
-            'color'      => 'Color',
+            'color'      => '顏色',
             'skills'     => '技能',
             'levels'     => 'Levels',
             'created-by' => '建立者',
@@ -42,7 +42,7 @@ return [
 
         'groups' => [
             'name'       => '技能類別',
-            'color'      => 'Color',
+            'color'      => '顏色',
             'status'     => '狀態',
             'created-by' => '建立者',
             'created-at' => '建立時間',
@@ -52,15 +52,15 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Skill Type restored',
-                    'body'  => 'The Skill Type has been restored成功.',
+                    'title' => 'Skill類型 restored',
+                    'body'  => 'The Skill類型 has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Skill Type deleted',
-                    'body'  => 'The Skill Type has been deleted成功.',
+                    'title' => 'Skill類型已刪除',
+                    'body'  => 'The Skill類型 has been已刪除成功.',
                 ],
             ],
         ],
@@ -68,22 +68,22 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Skill Types restored',
-                    'body'  => 'The Skill Types has been restored成功.',
+                    'title' => 'Skill類型s restored',
+                    'body'  => 'The Skill類型s has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Skill Types deleted',
-                    'body'  => 'The Skill Types has been deleted成功.',
+                    'title' => 'Skill類型s已刪除',
+                    'body'  => 'The Skill類型s has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Skill Types force deleted',
-                    'body'  => 'The Skill Types has been force deleted成功.',
+                    'title' => 'Skill類型s force已刪除',
+                    'body'  => 'The Skill類型s has been force已刪除成功.',
                 ],
             ],
         ],
@@ -92,7 +92,7 @@ return [
             'create' => [
                 'notification' => [
                     'title' => '技能類別',
-                    'body'  => 'The Skill Types has been created成功.',
+                    'body'  => 'The Skill類型s has been已建立成功.',
                 ],
             ],
         ],
@@ -102,7 +102,7 @@ return [
         'sections' => [
             'entries' => [
                 'name'   => '技能類別',
-                'color'  => 'Color',
+                'color'  => '顏色',
                 'status' => '狀態',
             ],
         ],

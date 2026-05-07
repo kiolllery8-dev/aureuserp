@@ -3,6 +3,6 @@
 return [
     'navigation' => [
         'title' => '組態設定',
-        'group' => 'Contact',
+        'group' => '聯絡人',
     ],
 ];

@@ -2,11 +2,11 @@
 
 return [
     'header-actions' => [
-        'new-leave-type' => '新增Leave Type',
+        'new-leave-type' => '新增Leave類型',
     ],
 
     'tabs' => [
         'all'      => '全部',
-        'archived' => 'Archived',
+        'archived' => '已封存',
     ],
 ];

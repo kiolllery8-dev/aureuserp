@@ -2,8 +2,8 @@
 
 return [
     'label'             => 'Validate',
-    'modal-heading'     => 'Create Back Order?',
-    'modal-description' => 'Create a backorder if the remaining products will be processed later. If not, do not generate a backorder.',
+    'modal-heading'     => '新增Back Order?',
+    'modal-description' => '新增a backorder if the remaining products will be processed later. If not, do not generate a backorder.',
 
     'extra-modal-footer-actions' => [
         'no-backorder' => [

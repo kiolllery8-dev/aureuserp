@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Candidate created',
-        'body'  => 'The candidate has been created成功.',
+        'title' => 'Candidate已建立',
+        'body'  => 'The candidate has been已建立成功.',
     ],
 ];

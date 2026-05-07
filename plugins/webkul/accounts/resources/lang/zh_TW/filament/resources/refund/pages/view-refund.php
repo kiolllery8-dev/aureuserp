@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Refund deleted',
-                'body'  => 'Refund has been deleted成功.',
+                'title' => 'Refund已刪除',
+                'body'  => 'Refund has been已刪除成功.',
             ],
         ],
     ],

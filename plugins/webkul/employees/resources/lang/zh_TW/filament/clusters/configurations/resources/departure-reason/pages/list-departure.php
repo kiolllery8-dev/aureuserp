@@ -6,8 +6,8 @@ return [
             'label' => '新增Departure Reason',
 
             'notification' => [
-                'title' => 'Departure Reason created',
-                'body'  => 'The departure reason has been created成功.',
+                'title' => 'Departure Reason已建立',
+                'body'  => 'The departure reason has been已建立成功.',
             ],
         ],
     ],

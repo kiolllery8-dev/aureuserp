@@ -10,7 +10,7 @@ return [
             'title'        => '編輯',
             'notification' => [
                 'title' => 'Time Off Updated',
-                'body'  => 'Time off request has been updated成功.',
+                'body'  => 'Time off request has been已更新成功.',
             ],
         ],
 
@@ -27,11 +27,11 @@ return [
     'header-actions' => [
         'create' => [
             'title'       => '新增Time Off',
-            'description' => 'Create Time Off Request',
+            'description' => '新增Time Off Request',
 
             'notification' => [
                 'title' => 'Time Off Created',
-                'body'  => 'Time off request has been created成功.',
+                'body'  => 'Time off request has been已建立成功.',
             ],
 
             'employee-not-found' => [
@@ -45,9 +45,9 @@ return [
 
     'form' => [
         'fields' => [
-            'time-off-type'     => 'Time Off Type',
-            'request-date-from' => 'Request Date From',
-            'request-date-to'   => 'Request Date To',
+            'time-off-type'     => '假別',
+            'request-date-from' => '申請開始日',
+            'request-date-to'   => '申請結束日',
             'period'            => 'Period',
             'half-day'          => 'Half Day',
             'requested-days'    => 'Requested (Days/Hours)',
@@ -57,9 +57,9 @@ return [
 
     'infolist' => [
         'entries' => [
-            'time-off-type'           => 'Time Off Type',
-            'request-date-from'       => 'Request Date From',
-            'request-date-to'         => 'Request Date To',
+            'time-off-type'           => '假別',
+            'request-date-from'       => '申請開始日',
+            'request-date-to'         => '申請結束日',
             'description'             => '描述',
             'description-placeholder' => 'No description provided',
             'duration'                => 'Duration',

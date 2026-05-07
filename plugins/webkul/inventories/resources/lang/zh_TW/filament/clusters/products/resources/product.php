@@ -19,7 +19,7 @@ return [
                             'track-inventory'              => 'Track Inventory',
                             'track-inventory-hint-tooltip' => 'A storable product is one that requires inventory management..',
                             'track-by'                     => 'Track By',
-                            'expiration-date'              => 'Expiration Date',
+                            'expiration-date'              => 'Expiration日期',
                             'expiration-date-hint-tooltip' => 'If selected, you can specify expiration dates for the product and its associated lot/serial numbers.',
                         ],
                     ],
@@ -34,14 +34,14 @@ return [
                     ],
 
                     'logistics' => [
-                        'title' => 'Logistics',
+                        'title' => '物流',
 
                         'fields' => [
-                            'responsible'              => 'Responsible',
+                            'responsible'              => '負責人',
                             'responsible-hint-tooltip' => 'Delivery lead time (in days) represents the promised duration between sales order confirmation and product delivery.',
-                            'weight'                   => 'Weight',
-                            'volume'                   => 'Volume',
-                            'sale-delay'               => 'Customer Lead Time (Days)',
+                            'weight'                   => '重量',
+                            'volume'                   => '體積',
+                            'sale-delay'               => 'Customer Lead時間 (Days)',
                             'sale-delay-hint-tooltip'  => 'Delivery lead time (in days) represents the promised duration between sales order confirmation and product delivery.',
                         ],
                     ],
@@ -50,13 +50,13 @@ return [
                         'title' => 'Traceability',
 
                         'fields' => [
-                            'expiration-date'               => 'Expiration Date (Days)',
+                            'expiration-date'               => 'Expiration日期 (Days)',
                             'expiration-date-hint-tooltip'  => 'If selected, you can set expiration dates for the product and its associated lot/serial numbers.',
-                            'best-before-date'              => 'Best Before Date (Days)',
+                            'best-before-date'              => 'Best Before日期 (Days)',
                             'best-before-date-hint-tooltip' => 'The number of days before the expiration date when the product begins to deteriorate, though it is still safe to use. This is calculated based on the lot/serial number.',
-                            'removal-date'                  => 'Removal Date (Days)',
+                            'removal-date'                  => 'Removal日期 (Days)',
                             'removal-date-hint-tooltip'     => 'The number of days before the expiration date when the product should be removed from stock. This is calculated based on the lot/serial number.',
-                            'alert-date'                    => 'Alert Date (Days)',
+                            'alert-date'                    => 'Alert日期 (Days)',
                             'alert-date-hint-tooltip'       => 'The number of days before the expiration date when an alert should be triggered for the lot/serial number. This is calculated based on the lot/serial number.',
                         ],
                     ],
@@ -84,7 +84,7 @@ return [
                         'entries' => [
                             'track-inventory' => 'Track Inventory',
                             'track-by'        => 'Track By',
-                            'expiration-date' => 'Expiration Date',
+                            'expiration-date' => 'Expiration日期',
                         ],
                     ],
 
@@ -97,13 +97,13 @@ return [
                     ],
 
                     'logistics' => [
-                        'title' => 'Logistics',
+                        'title' => '物流',
 
                         'entries' => [
-                            'responsible' => 'Responsible',
-                            'weight'      => 'Weight',
-                            'volume'      => 'Volume',
-                            'sale-delay'  => 'Customer Lead Time (Days)',
+                            'responsible' => '負責人',
+                            'weight'      => '重量',
+                            'volume'      => '體積',
+                            'sale-delay'  => 'Customer Lead時間 (Days)',
                         ],
                     ],
 
@@ -111,10 +111,10 @@ return [
                         'title' => 'Traceability',
 
                         'entries' => [
-                            'expiration-date'  => 'Expiration Date (Days)',
-                            'best-before-date' => 'Best Before Date (Days)',
-                            'removal-date'     => 'Removal Date (Days)',
-                            'alert-date'       => 'Alert Date (Days)',
+                            'expiration-date'  => 'Expiration日期 (Days)',
+                            'best-before-date' => 'Best Before日期 (Days)',
+                            'removal-date'     => 'Removal日期 (Days)',
+                            'alert-date'       => 'Alert日期 (Days)',
                         ],
                     ],
                 ],

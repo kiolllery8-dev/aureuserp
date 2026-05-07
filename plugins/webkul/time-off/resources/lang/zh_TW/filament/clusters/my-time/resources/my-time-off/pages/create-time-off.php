@@ -3,8 +3,8 @@
 return [
     'notification' => [
         'success' => [
-            'title' => 'Time Off created',
-            'body'  => 'The time off has been created成功.',
+            'title' => 'Time Off已建立',
+            'body'  => 'The time off has been已建立成功.',
         ],
 
         'overlap' => [

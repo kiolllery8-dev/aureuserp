@@ -4,14 +4,14 @@ return [
     'title'          => '銷貨訂單',
 
     'log-attributes' => [
-        'state'           => 'Order Status',
-        'locked'          => 'Locked',
+        'state'           => '訂單狀態',
+        'locked'          => '已鎖定',
         'amount-untaxed'  => 'Amount Untaxed',
-        'amount-total'    => 'Amount Total',
+        'amount-total'    => 'Amount總計',
         'partner'         => '客戶',
-        'sales-person'    => 'Sales Person',
-        'sales-team'      => 'Sales Team',
-        'payment-term'    => 'Payment Term',
-        'fiscal-position' => '財務立場',
+        'sales-person'    => '業務',
+        'sales-team'      => '業務團隊',
+        'payment-term'    => '付款條件',
+        'fiscal-position' => '稅務情境',
     ],
 ];

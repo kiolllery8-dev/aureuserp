@@ -11,7 +11,7 @@ return [
 
     'form' => [
         'fields' => [
-            'validity-suffix'         => 'days',
+            'validity-suffix'         => '天數',
             'validity'                => 'Default Quotation Validity',
             'validity-help'           => 'The default number of days a quotation is valid for.',
             'lock-confirm-sales'      => 'Lock Confirm Sales',

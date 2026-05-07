@@ -3,6 +3,6 @@
 return [
     'tabs' => [
         'my-orders' => 'My Orders',
-        'archived'  => 'Archived',
+        'archived'  => '已封存',
     ],
 ];

@@ -17,14 +17,14 @@ return [
     'form' => [
         'sections' => [
             'basic-information' => [
-                'title' => 'Basic Information',
+                'title' => 'Basic資料',
 
                 'fields' => [
-                    'full-name' => 'Full Name',
-                    'email'     => 'Email Address',
-                    'phone'     => 'Phone Number',
+                    'full-name' => '姓名',
+                    'email'     => '電子郵件',
+                    'phone'     => '電話號碼',
                     'linkedin'  => 'LinkedIn Profile',
-                    'contact'   => 'Contact',
+                    'contact'   => '聯絡人',
                 ],
             ],
 
@@ -35,8 +35,8 @@ return [
                     'company'           => '公司',
                     'degree'            => 'Degree',
                     'tags'              => '標籤',
-                    'manager'           => 'Manager',
-                    'availability-date' => 'Availability Date',
+                    'manager'           => '主管',
+                    'availability-date' => 'Availability日期',
 
                     'priority-options' => [
                         'low'    => '低',
@@ -68,27 +68,27 @@ return [
 
     'table' => [
         'columns' => [
-            'name'       => 'Full Name',
+            'name'       => '姓名',
             'tags'       => '標籤',
             'evaluation' => 'Evaluation',
         ],
 
         'filters' => [
             'company'      => '公司',
-            'partner-name' => 'Contact',
+            'partner-name' => '聯絡人',
             'degree'       => 'Degree',
-            'manager-name' => 'Manager',
+            'manager-name' => '主管',
         ],
 
         'groups' => [
-            'manager-name' => 'Manager',
+            'manager-name' => '主管',
         ],
 
         'actions' => [
             'delete' => [
                 'notification' => [
                     'title' => 'Candidate Deleted',
-                    'body'  => 'The candidates has been deleted成功.',
+                    'body'  => 'The candidates has been已刪除成功.',
                 ],
             ],
 
@@ -96,7 +96,7 @@ return [
                 'create' => [
                     'notification' => [
                         'title' => 'Candidate Created',
-                        'body'  => 'The candidates has been created成功.',
+                        'body'  => 'The candidates has been已建立成功.',
                     ],
                 ],
             ],
@@ -106,7 +106,7 @@ return [
             'delete' => [
                 'notification' => [
                     'title' => 'Candidates Deleted',
-                    'body'  => 'The candidates has been deleted成功.',
+                    'body'  => 'The candidates has been已刪除成功.',
                 ],
             ],
         ],
@@ -115,14 +115,14 @@ return [
     'infolist' => [
         'sections' => [
             'basic-information' => [
-                'title' => 'Basic Information',
+                'title' => 'Basic資料',
 
                 'entries' => [
-                    'full-name' => 'Full Name',
-                    'email'     => 'Email Address',
-                    'phone'     => 'Phone Number',
+                    'full-name' => '姓名',
+                    'email'     => '電子郵件',
+                    'phone'     => '電話號碼',
                     'linkedin'  => 'LinkedIn Profile',
-                    'contact'   => 'Contact',
+                    'contact'   => '聯絡人',
                 ],
             ],
 
@@ -133,8 +133,8 @@ return [
                     'company'           => '公司',
                     'degree'            => 'Degree',
                     'tags'              => '標籤',
-                    'manager'           => 'Manager',
-                    'availability-date' => 'Availability Date',
+                    'manager'           => '主管',
+                    'availability-date' => 'Availability日期',
 
                     'priority-options' => [
                         'low'    => '低',

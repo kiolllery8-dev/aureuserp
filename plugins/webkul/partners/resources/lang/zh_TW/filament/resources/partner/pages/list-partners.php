@@ -5,7 +5,7 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => 'Create Contact',
+            'label' => '新增Contact',
         ],
     ],
 
@@ -13,6 +13,6 @@ return [
         'individuals' => 'Individuals',
         'companies'   => '公司',
         'employees'   => '員工',
-        'archived'    => 'Archived',
+        'archived'    => '已封存',
     ],
 ];

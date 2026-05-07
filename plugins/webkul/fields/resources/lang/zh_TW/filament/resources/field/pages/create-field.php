@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Field created',
-        'body'  => 'The field has been created成功.',
+        'title' => 'Field已建立',
+        'body'  => 'The field has been已建立成功.',
     ],
 ];

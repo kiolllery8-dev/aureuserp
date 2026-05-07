@@ -11,10 +11,10 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => 'Add Product Capacity',
+                'label' => '新增Product Capacity',
 
                 'notification' => [
-                    'title' => 'Product Capacity created',
+                    'title' => 'Product Capacity已建立',
                     'body'  => 'The product capacity been added成功.',
                 ],
             ],
@@ -28,15 +28,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Product Capacity updated',
-                    'body'  => 'The product capacity has been updated成功.',
+                    'title' => 'Product Capacity已更新',
+                    'body'  => 'The product capacity has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Product Capacity deleted',
-                    'body'  => 'The product capacity has been deleted成功.',
+                    'title' => 'Product Capacity已刪除',
+                    'body'  => 'The product capacity has been已刪除成功.',
                 ],
             ],
         ],

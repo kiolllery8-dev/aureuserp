@@ -2,6 +2,6 @@
 
 return [
     'navigation' => [
-        'title' => 'Request for Quotation',
+        'title' => '詢價單',
     ],
 ];

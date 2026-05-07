@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'create' => [
             'notification' => [
-                'title' => 'Account created',
-                'body'  => 'The account has been created成功.',
+                'title' => 'Account已建立',
+                'body'  => 'The account has been已建立成功.',
             ],
         ],
     ],

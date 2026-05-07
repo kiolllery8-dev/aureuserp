@@ -11,8 +11,8 @@ return [
             'label' => '新增Lot / Serial Number',
 
             'notification' => [
-                'title' => 'Package created',
-                'body'  => 'The package has been created成功.',
+                'title' => 'Package已建立',
+                'body'  => 'The package has been已建立成功.',
             ],
         ],
     ],

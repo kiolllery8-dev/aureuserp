@@ -8,7 +8,7 @@ return [
 
     'filters-form' => [
         'project'    => '專案',
-        'assignees'  => 'Assignees',
+        'assignees'  => '指派對象',
         'tags'       => '標籤',
         'customer'   => '客戶',
         'start-date' => '開始日期',

@@ -4,9 +4,9 @@ return [
     'form' => [
         'factor-percent'    => 'Factor Percent',
         'factor-ratio'      => 'Factor Ratio',
-        'repartition-type'  => 'Repartition Type',
-        'document-type'     => 'Document Type',
-        'account'           => '科目',
+        'repartition-type'  => 'Repartition類型',
+        'document-type'     => 'Document類型',
+        'account'           => '帳戶',
         'tax'               => '稅',
         'tax-closing-entry' => 'Tax Closing Entry',
     ],
@@ -14,26 +14,26 @@ return [
     'table' => [
         'columns' => [
             'factor-percent'    => 'Factor Percent(%)',
-            'account'           => '科目',
+            'account'           => '帳戶',
             'tax'               => '稅',
             'company'           => '公司',
-            'repartition-type'  => 'Repartition Type',
-            'document-type'     => 'Document Type',
+            'repartition-type'  => 'Repartition類型',
+            'document-type'     => 'Document類型',
             'tax-closing-entry' => 'Tax Closing Entry',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Tax Partition updated',
-                    'body'  => 'The tax partition has been updated成功.',
+                    'title' => 'Tax Partition已更新',
+                    'body'  => 'The tax partition has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Tax Partition Term deleted',
-                    'body'  => 'The tax Partition term has been deleted成功.',
+                    'title' => 'Tax Partition Term已刪除',
+                    'body'  => 'The tax Partition term has been已刪除成功.',
                 ],
             ],
         ],
@@ -41,8 +41,8 @@ return [
         'header-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Tax Partition Term created',
-                    'body'  => 'The tax Partition term has been created成功.',
+                    'title' => 'Tax Partition Term已建立',
+                    'body'  => 'The tax Partition term has been已建立成功.',
                 ],
             ],
         ],

@@ -4,8 +4,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Company deleted',
-                'body'  => 'The company has been deleted成功.',
+                'title' => 'Company已刪除',
+                'body'  => 'The company has been已刪除成功.',
             ],
         ],
     ],

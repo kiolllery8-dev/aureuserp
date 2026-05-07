@@ -18,10 +18,10 @@ return [
             'route'             => '路徑',
             'vendor'            => '供應商',
             'trigger'           => 'Trigger',
-            'on-hand'           => 'On Hand',
+            'on-hand'           => '現有',
             'min'               => 'Min',
             'max'               => 'Max',
-            'multiple-quantity' => 'Multiple Quantity',
+            'multiple-quantity' => 'Multiple數量',
             'to-order'          => 'To Order',
             'uom'               => '計量單位',
             'company'           => '公司',
@@ -38,7 +38,7 @@ return [
 
         'header-actions' => [
             'create' => [
-                'label' => 'Add Replenishment',
+                'label' => '新增Replenishment',
 
                 'notification' => [
                     'title' => 'Replenishment added',
@@ -47,8 +47,8 @@ return [
 
                 'before' => [
                     'notification' => [
-                        'title' => 'Replenishment already exists',
-                        'body'  => 'A replenishment already exists for this configuration. Please update the existing replenishment instead.',
+                        'title' => 'Replenishment已存在',
+                        'body'  => 'A replenishment已存在 for this configuration. Please update the existing replenishment instead.',
                     ],
                 ],
             ],

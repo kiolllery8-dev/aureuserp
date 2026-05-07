@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Operation Type created',
-        'body'  => 'The operation type has been created成功.',
+        'title' => 'Operation類型已建立',
+        'body'  => 'The operation type has been已建立成功.',
     ],
 ];

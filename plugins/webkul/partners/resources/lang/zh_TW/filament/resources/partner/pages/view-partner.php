@@ -6,8 +6,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Contact deleted',
-                'body'  => 'The contact has been deleted成功.',
+                'title' => 'Contact已刪除',
+                'body'  => 'The contact has been已刪除成功.',
             ],
         ],
     ],

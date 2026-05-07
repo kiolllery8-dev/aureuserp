@@ -24,7 +24,7 @@ return [
                     'title-placeholder' => 'Task Title...',
                     'tags'              => '標籤',
                     'name'              => '名稱',
-                    'color'             => 'Color',
+                    'color'             => '顏色',
                     'description'       => '描述',
                     'project'           => '專案',
                     'status'            => '狀態',
@@ -34,7 +34,7 @@ return [
             ],
 
             'additional' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
             ],
 
             'settings' => [
@@ -48,7 +48,7 @@ return [
                     'deadline'                    => '截止日',
                     'is-completed'                => 'Is Completed',
                     'customer'                    => '客戶',
-                    'assignees'                   => 'Assignees',
+                    'assignees'                   => '指派對象',
                     'allocated-hours'             => 'Allocated Hours',
                     'allocated-hours-helper-text' => 'In hours (Eg. 1.5 hours means 1 hour 30 minutes)',
                 ],
@@ -58,7 +58,7 @@ return [
 
     'table' => [
         'columns' => [
-            'id'                  => 'ID',
+            'id'                  => '編號',
             'priority'            => '優先順序',
             'state'               => '狀態',
             'new-state'           => '新增State',
@@ -68,9 +68,9 @@ return [
             'project-placeholder' => 'Private Task',
             'milestone'           => '里程碑',
             'customer'            => '客戶',
-            'assignees'           => 'Assignees',
-            'allocated-time'      => 'Allocated Time',
-            'time-spent'          => 'Time Spent',
+            'assignees'           => '指派對象',
+            'allocated-time'      => 'Allocated時間',
+            'time-spent'          => '花費時間',
             'time-remaining'      => 'Time Remaining',
             'progress'            => 'Progress',
             'deadline'            => '截止日',
@@ -103,13 +103,13 @@ return [
             'deadline'          => '截止日',
             'created-at'        => '建立時間',
             'updated-at'        => '更新時間',
-            'assignees'         => 'Assignees',
+            'assignees'         => '指派對象',
             'customer'          => '客戶',
             'project'           => '專案',
             'stage'             => '階段',
             'milestone'         => '里程碑',
             'company'           => '公司',
-            'creator'           => 'Creator',
+            'creator'           => '建立者',
         ],
 
         'actions' => [
@@ -122,15 +122,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Task deleted',
-                    'body'  => 'The task has been deleted成功.',
+                    'title' => 'Task已刪除',
+                    'body'  => 'The task has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Task force deleted',
-                    'body'  => 'The task has been force deleted成功.',
+                    'title' => 'Task force已刪除',
+                    'body'  => 'The task has been force已刪除成功.',
                 ],
             ],
         ],
@@ -145,15 +145,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Tasks deleted',
-                    'body'  => 'The tasks has been deleted成功.',
+                    'title' => 'Tasks已刪除',
+                    'body'  => 'The tasks has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Tasks force deleted',
-                    'body'  => 'The tasks has been force deleted成功.',
+                    'title' => 'Tasks force已刪除',
+                    'body'  => 'The tasks has been force已刪除成功.',
                 ],
             ],
         ],
@@ -174,13 +174,13 @@ return [
             ],
 
             'project-information' => [
-                'title' => 'Project Information',
+                'title' => 'Project資料',
 
                 'entries' => [
                     'project'   => '專案',
                     'milestone' => '里程碑',
                     'customer'  => '客戶',
-                    'assignees' => 'Assignees',
+                    'assignees' => '指派對象',
                     'deadline'  => '截止日',
                     'stage'     => '階段',
                 ],
@@ -190,8 +190,8 @@ return [
                 'title' => 'Time Tracking',
 
                 'entries' => [
-                    'allocated-time'        => 'Allocated Time',
-                    'time-spent'            => 'Time Spent',
+                    'allocated-time'        => 'Allocated時間',
+                    'time-spent'            => '花費時間',
                     'time-spent-suffix'     => ' Hours',
                     'time-remaining'        => 'Time Remaining',
                     'time-remaining-suffix' => ' Hours',
@@ -200,21 +200,21 @@ return [
             ],
 
             'additional-information' => [
-                'title' => 'Additional Information',
+                'title' => '其他資料',
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'created-at'   => '建立時間',
                     'created-by'   => '建立者',
-                    'last-updated' => 'Last Updated',
+                    'last-updated' => '最後更新',
                 ],
             ],
 
             'statistics' => [
-                'title' => 'Statistics',
+                'title' => '統計',
 
                 'entries' => [
                     'sub-tasks'         => 'Sub Tasks',

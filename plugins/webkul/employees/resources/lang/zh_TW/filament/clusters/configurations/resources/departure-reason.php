@@ -23,7 +23,7 @@ return [
 
     'table' => [
         'columns' => [
-            'id'         => 'ID',
+            'id'         => '編號',
             'name'       => '名稱',
             'created-by' => '建立者',
             'created-at' => '建立時間',
@@ -41,15 +41,15 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Departure reason updated',
-                    'body'  => 'The departure reason has been updated成功.',
+                    'title' => 'Departure reason已更新',
+                    'body'  => 'The departure reason has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Departure reason deleted',
-                    'body'  => 'The departure reason has been deleted成功.',
+                    'title' => 'Departure reason已刪除',
+                    'body'  => 'The departure reason has been已刪除成功.',
                 ],
             ],
         ],
@@ -57,8 +57,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Departure reasons deleted',
-                    'body'  => 'The departure reasons has been deleted成功.',
+                    'title' => 'Departure reasons已刪除',
+                    'body'  => 'The departure reasons has been已刪除成功.',
                 ],
             ],
         ],
@@ -66,8 +66,8 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Departure reason created',
-                    'body'  => 'The departure reason has been created成功.',
+                    'title' => 'Departure reason已建立',
+                    'body'  => 'The departure reason has been已建立成功.',
                 ],
             ],
         ],

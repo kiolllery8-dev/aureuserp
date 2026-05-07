@@ -10,12 +10,12 @@ return [
             'notification' => [
                 'success' => [
                     'title' => 'Lot Deleted',
-                    'body'  => 'The lot has been deleted成功.',
+                    'body'  => 'The lot has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Lot could not be deleted',
-                    'body'  => 'The lot cannot be deleted because it is currently in use.',
+                    'title' => 'Lot could not be已刪除',
+                    'body'  => 'The lot cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

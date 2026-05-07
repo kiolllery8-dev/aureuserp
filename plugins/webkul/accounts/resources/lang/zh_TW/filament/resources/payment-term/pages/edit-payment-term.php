@@ -3,8 +3,8 @@
 return [
     'notification' => [
         'success' => [
-            'title' => 'Payment term updated',
-            'body'  => 'The payment term has been updated成功.',
+            'title' => 'Payment term已更新',
+            'body'  => 'The payment term has been已更新成功.',
         ],
 
         'validation-error' => [
@@ -16,8 +16,8 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Payment term deleted',
-                'body'  => 'The payment term has been deleted成功.',
+                'title' => 'Payment term已刪除',
+                'body'  => 'The payment term has been已刪除成功.',
             ],
         ],
     ],

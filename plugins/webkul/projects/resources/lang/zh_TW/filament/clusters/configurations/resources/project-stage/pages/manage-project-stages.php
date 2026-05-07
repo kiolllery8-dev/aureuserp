@@ -6,14 +6,14 @@ return [
             'label' => '新增Project Stage',
 
             'notification' => [
-                'title' => 'Project stage created',
-                'body'  => 'The project stage has been created成功.',
+                'title' => 'Project stage已建立',
+                'body'  => 'The project stage has been已建立成功.',
             ],
         ],
     ],
 
     'tabs' => [
         'all'      => '全部',
-        'archived' => 'Archived',
+        'archived' => '已封存',
     ],
 ];

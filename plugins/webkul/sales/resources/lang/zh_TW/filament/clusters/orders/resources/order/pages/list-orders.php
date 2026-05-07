@@ -5,6 +5,6 @@ return [
         'my-orders'  => 'My Orders',
         'to-invoice' => 'To Invoice',
         'up-selling' => 'Up Selling',
-        'archived'   => 'Archived',
+        'archived'   => '已封存',
     ],
 ];

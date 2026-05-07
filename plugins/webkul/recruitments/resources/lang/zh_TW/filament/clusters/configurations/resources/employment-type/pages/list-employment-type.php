@@ -3,7 +3,7 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增Employment Type',
+            'label' => '新增Employment類型',
         ],
     ],
 ];

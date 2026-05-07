@@ -7,7 +7,7 @@ return [
 
     'total-tasks'          => 'Total Tasks',
     'total-hours-spent'    => 'Total Hours Spent',
-    'total-time-remaining' => 'Total Time Remaining',
+    'total-time-remaining' => 'Total時間 Remaining',
 
     'increase' => 'increase',
     'decrease' => 'decrease',

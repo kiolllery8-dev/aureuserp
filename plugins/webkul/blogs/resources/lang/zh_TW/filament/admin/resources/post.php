@@ -42,7 +42,7 @@ return [
                     'category'     => '分類',
                     'tags'         => '標籤',
                     'name'         => '名稱',
-                    'color'        => 'Color',
+                    'color'        => '顏色',
                     'is-published' => 'Is Published',
                 ],
             ],
@@ -78,8 +78,8 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Post updated',
-                    'body'  => 'The post has been updated成功.',
+                    'title' => 'Post已更新',
+                    'body'  => 'The post has been已更新成功.',
                 ],
             ],
 
@@ -92,15 +92,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Post deleted',
-                    'body'  => 'The post has been deleted成功.',
+                    'title' => 'Post已刪除',
+                    'body'  => 'The post has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Post force deleted',
-                    'body'  => 'The post has been force deleted成功.',
+                    'title' => 'Post force已刪除',
+                    'body'  => 'The post has been force已刪除成功.',
                 ],
             ],
         ],
@@ -115,15 +115,15 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Posts deleted',
-                    'body'  => 'The posts has been deleted成功.',
+                    'title' => 'Posts已刪除',
+                    'body'  => 'The posts has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Posts force deleted',
-                    'body'  => 'The posts has been force deleted成功.',
+                    'title' => 'Posts force已刪除',
+                    'body'  => 'The posts has been force已刪除成功.',
                 ],
             ],
         ],
@@ -153,7 +153,7 @@ return [
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'author'          => '作者',
@@ -172,7 +172,7 @@ return [
                     'category'     => '分類',
                     'tags'         => '標籤',
                     'name'         => '名稱',
-                    'color'        => 'Color',
+                    'color'        => '顏色',
                     'is-published' => 'Is Published',
                 ],
             ],

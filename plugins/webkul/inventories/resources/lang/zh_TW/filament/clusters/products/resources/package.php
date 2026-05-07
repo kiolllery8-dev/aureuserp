@@ -8,7 +8,7 @@ return [
 
     'global-search' => [
         'name'         => '名稱',
-        'package-type' => 'Package Type',
+        'package-type' => '包裝類型',
         'location'     => '位置',
     ],
 
@@ -20,8 +20,8 @@ return [
                 'fields' => [
                     'name'             => '名稱',
                     'name-placeholder' => 'eg. PACK007',
-                    'package-type'     => 'Package Type',
-                    'pack-date'        => 'Pack Date',
+                    'package-type'     => '包裝類型',
+                    'pack-date'        => 'Pack日期',
                     'location'         => '位置',
                 ],
             ],
@@ -31,7 +31,7 @@ return [
     'table' => [
         'columns' => [
             'name'         => '名稱',
-            'package-type' => 'Package Type',
+            'package-type' => '包裝類型',
             'location'     => '位置',
             'company'      => '公司',
             'created-at'   => '建立時間',
@@ -39,15 +39,15 @@ return [
         ],
 
         'groups' => [
-            'package-type'   => 'Package Type',
+            'package-type'   => '包裝類型',
             'location'       => '位置',
             'created-at'     => '建立時間',
         ],
 
         'filters' => [
-            'package-type' => 'Package Type',
+            'package-type' => '包裝類型',
             'location'     => '位置',
-            'creator'      => 'Creator',
+            'creator'      => '建立者',
             'company'      => '公司',
         ],
 
@@ -55,13 +55,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Package deleted',
-                        'body'  => 'The package has been deleted成功.',
+                        'title' => 'Package已刪除',
+                        'body'  => 'The package has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Package could not be deleted',
-                        'body'  => 'The package cannot be deleted because it is currently in use.',
+                        'title' => 'Package could not be已刪除',
+                        'body'  => 'The package cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -79,13 +79,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Packages deleted',
-                        'body'  => 'The packages has been deleted成功.',
+                        'title' => 'Packages已刪除',
+                        'body'  => 'The packages has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Packages could not be deleted',
-                        'body'  => 'The packages cannot be deleted because they are currently in use.',
+                        'title' => 'Packages could not be已刪除',
+                        'body'  => 'The packages cannot be已刪除 because they are currently in use.',
                     ],
                 ],
             ],
@@ -98,23 +98,23 @@ return [
                 'title' => 'Package Details',
 
                 'entries' => [
-                    'name'         => 'Package Name',
-                    'package-type' => 'Package Type',
-                    'pack-date'    => 'Pack Date',
+                    'name'         => 'Package名稱',
+                    'package-type' => '包裝類型',
+                    'pack-date'    => 'Pack日期',
                     'location'     => '位置',
                     'company'      => '公司',
                     'created-at'   => '建立時間',
-                    'updated-at'   => 'Last Updated',
+                    'updated-at'   => '最後更新',
                 ],
             ],
 
             'record-information' => [
-                'title' => 'Record Information',
+                'title' => '紀錄資料',
 
                 'entries' => [
                     'created-by'   => '建立者',
                     'created-at'   => '建立時間',
-                    'last-updated' => 'Last Updated',
+                    'last-updated' => '最後更新',
                 ],
             ],
         ],

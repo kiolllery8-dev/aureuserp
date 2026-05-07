@@ -11,7 +11,7 @@ return [
         'purchase-templates' => 'Purchase Templates',
         'draft'              => '草稿',
         'done'               => '完成',
-        'archived'           => 'Archived',
+        'archived'           => '已封存',
     ],
 
     'header-actions' => [
@@ -19,8 +19,8 @@ return [
             'label' => '新增Purchase Agreement',
 
             'notification' => [
-                'title' => 'Purchase Agreement created',
-                'body'  => 'The purchase agreement has been created成功.',
+                'title' => 'Purchase Agreement已建立',
+                'body'  => 'The purchase agreement has been已建立成功.',
             ],
         ],
     ],

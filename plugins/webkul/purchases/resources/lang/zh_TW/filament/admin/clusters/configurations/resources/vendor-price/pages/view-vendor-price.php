@@ -2,20 +2,20 @@
 
 return [
     'navigation' => [
-        'title' => '檢視Vendor Price List',
+        'title' => '檢視Vendor價格列表',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Vendor Price deleted',
-                    'body'  => 'The vendor price has been deleted成功.',
+                    'title' => 'Vendor價格已刪除',
+                    'body'  => 'The vendor price has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Vendor Price could not be deleted',
-                    'body'  => 'The vendor price cannot be deleted because it is currently in use.',
+                    'title' => 'Vendor價格 could not be已刪除',
+                    'body'  => 'The vendor price cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

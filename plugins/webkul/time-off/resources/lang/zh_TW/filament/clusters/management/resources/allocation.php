@@ -11,21 +11,21 @@ return [
 
     'global-search' => [
         'employee'      => 'Employee',
-        'time-off-type' => 'Time Off Type',
-        'date-from'     => 'Date From',
-        'date-to'       => 'Date To',
+        'time-off-type' => '假別',
+        'date-from'     => '開始日期',
+        'date-to'       => '結束日期',
     ],
 
     'form' => [
         'fields' => [
             'name'                => '名稱',
-            'name-placeholder'    => 'Time Off Type (From validity start to validity end/no limit)',
-            'time-off-type'       => 'Time Off Type',
-            'employee-name'       => 'Employee Name',
-            'allocation-type'     => 'Allocation Type',
+            'name-placeholder'    => 'Time Off類型 (From validity start to validity end/no limit)',
+            'time-off-type'       => '假別',
+            'employee-name'       => '員工姓名',
+            'allocation-type'     => '假期分配類型',
             'validity-period'     => 'Validity Period',
-            'date-from'           => 'Date From',
-            'date-to'             => 'Date To',
+            'date-from'           => '開始日期',
+            'date-to'             => '結束日期',
             'date-to-placeholder' => 'No Limit',
             'allocation'          => '假期額度',
             'allocation-suffix'   => 'Number of Days',
@@ -36,16 +36,16 @@ return [
     'table' => [
         'columns' => [
             'employee-name'   => 'Employee',
-            'time-off-type'   => 'Time Off Type',
+            'time-off-type'   => '假別',
             'amount'          => '金額',
-            'allocation-type' => 'Allocation Type',
+            'allocation-type' => '假期分配類型',
             'status'          => '狀態',
         ],
 
         'groups' => [
-            'time-off-type'   => 'Time Off Type',
-            'employee-name'   => 'Employee Name',
-            'allocation-type' => 'Allocation Type',
+            'time-off-type'   => '假別',
+            'employee-name'   => '員工姓名',
+            'allocation-type' => '假期分配類型',
             'status'          => '狀態',
             'start-date'      => '開始日期',
         ],
@@ -64,8 +64,8 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Allocation deleted',
-                    'body'  => 'The allocation has been deleted成功.',
+                    'title' => 'Allocation已刪除',
+                    'body'  => 'The allocation has been已刪除成功.',
                 ],
             ],
 
@@ -81,8 +81,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Allocations deleted',
-                    'body'  => 'The allocations has been deleted成功.',
+                    'title' => 'Allocations已刪除',
+                    'body'  => 'The allocations has been已刪除成功.',
                 ],
             ],
         ],
@@ -94,21 +94,21 @@ return [
                 'title'   => 'Allocation Details',
                 'entries' => [
                     'name'                => '名稱',
-                    'time-off-type'       => 'Time Off Type',
-                    'allocation-type'     => 'Allocation Type',
+                    'time-off-type'       => '假別',
+                    'allocation-type'     => '假期分配類型',
                 ],
             ],
 
             'validity-period' => [
                 'title'   => 'Validity Period',
                 'entries' => [
-                    'date-from' => 'Date From',
-                    'date-to'   => 'Date To',
+                    'date-from' => '開始日期',
+                    'date-to'   => '結束日期',
                     'reason'    => 'Reason',
                 ],
             ],
             'allocation-status' => [
-                'title'   => 'Allocation Status',
+                'title'   => 'Allocation狀態',
                 'entries' => [
                     'date-to-placeholder' => 'No Limit',
                     'allocation'          => 'Number of Day(s)',
