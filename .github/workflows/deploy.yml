@@ -17,6 +17,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # storage 平時是 www-data 擁有，git reset 前先 chown 回 user 才不會 Permission denied
+          cat ~/.home-sudo-pass | sudo -S chown -R user:user /opt/erp/src
           cd /opt/erp/src
           git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/kiolllery8-dev/aureuserp.git"
           git fetch --all -q
