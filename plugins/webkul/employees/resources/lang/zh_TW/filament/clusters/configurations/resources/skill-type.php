@@ -52,15 +52,15 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Skill類型 restored',
-                    'body'  => 'The Skill類型 has been restored成功.',
+                    'title' => '技能類型 restored',
+                    'body'  => 'The 技能類型 has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Skill類型已刪除',
-                    'body'  => 'The Skill類型 has been已刪除成功.',
+                    'title' => '技能類型已刪除',
+                    'body'  => 'The 技能類型 has been已刪除成功.',
                 ],
             ],
         ],
@@ -68,22 +68,22 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Skill類型s restored',
-                    'body'  => 'The Skill類型s has been restored成功.',
+                    'title' => '技能類型s restored',
+                    'body'  => 'The 技能類型s has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Skill類型s已刪除',
-                    'body'  => 'The Skill類型s has been已刪除成功.',
+                    'title' => '技能類型s已刪除',
+                    'body'  => 'The 技能類型s has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Skill類型s force已刪除',
-                    'body'  => 'The Skill類型s has been force已刪除成功.',
+                    'title' => '技能類型s force已刪除',
+                    'body'  => 'The 技能類型s has been force已刪除成功.',
                 ],
             ],
         ],
@@ -92,7 +92,7 @@ return [
             'create' => [
                 'notification' => [
                     'title' => '技能類別',
-                    'body'  => 'The Skill類型s has been已建立成功.',
+                    'body'  => 'The 技能類型s has been已建立成功.',
                 ],
             ],
         ],

@@ -23,7 +23,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Skill已更新',
+                    'title' => '技能已更新',
                     'body'  => 'The skill has been已更新成功.',
                 ],
             ],
@@ -37,7 +37,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Skill已刪除',
+                    'title' => '技能已刪除',
                     'body'  => 'The skill has been已刪除成功.',
                 ],
             ],
@@ -46,7 +46,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Skills已刪除',
+                    'title' => '技能已刪除',
                     'body'  => 'The skills has been已刪除成功.',
                 ],
             ],

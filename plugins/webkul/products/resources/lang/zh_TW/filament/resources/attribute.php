@@ -53,7 +53,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Attribute已刪除',
+                    'title' => '屬性已刪除',
                     'body'  => 'The attribute has been已刪除成功.',
                 ],
             ],
@@ -83,7 +83,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Attributes已刪除',
+                    'title' => '屬性已刪除',
                     'body'  => 'The attributes has been已刪除成功.',
                 ],
             ],

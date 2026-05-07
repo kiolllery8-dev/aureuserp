@@ -5,7 +5,7 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Contact',
+            'label' => '新增聯絡人',
         ],
     ],
 

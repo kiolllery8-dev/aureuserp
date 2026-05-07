@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Tax已建立',
+        'title' => '稅已建立',
         'body'  => 'The tax has been已建立成功.',
     ],
 ];

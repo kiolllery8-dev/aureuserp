@@ -54,7 +54,7 @@ return [
                             'sales-person'       => '業務',
                             'payment-reference'  => '付款參考',
                             'recipient-bank'     => 'Recipient 銀行',
-                            'delivery-date'      => 'Delivery日期',
+                            'delivery-date'      => '出貨日期',
                         ],
                     ],
 
@@ -139,7 +139,7 @@ return [
                             'sales-person'       => '業務',
                             'payment-reference'  => '付款參考',
                             'recipient-bank'     => 'Recipient 銀行',
-                            'delivery-date'      => 'Delivery日期',
+                            'delivery-date'      => '出貨日期',
                         ],
                     ],
 

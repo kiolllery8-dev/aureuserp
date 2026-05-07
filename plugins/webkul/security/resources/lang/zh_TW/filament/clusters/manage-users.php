@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'breadcrumb' => '管理Users',
-    'title'      => '管理Users',
+    'breadcrumb' => '管理使用者',
+    'title'      => '管理使用者',
     'group'      => '一般',
 
     'navigation' => [
-        'label' => '管理Users',
+        'label' => '管理使用者',
     ],
 
     'form' => [

@@ -17,7 +17,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Industry已更新',
+                    'title' => '產業已更新',
                     'body'  => 'The industry has been已更新成功.',
                 ],
             ],
@@ -31,7 +31,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Industry已刪除',
+                    'title' => '產業已刪除',
                     'body'  => 'The industry has been已刪除成功.',
                 ],
             ],
@@ -54,7 +54,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Industries已刪除',
+                    'title' => '產業已刪除',
                     'body'  => 'The industries has been已刪除成功.',
                 ],
             ],

@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => '檢視Currency',
+    'title' => '檢視幣別',
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Currency已刪除',
+                'title' => '幣別已刪除',
                 'body'  => 'The currency has been已刪除成功.',
             ],
         ],

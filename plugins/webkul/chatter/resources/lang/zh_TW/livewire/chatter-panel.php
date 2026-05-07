@@ -21,7 +21,7 @@ return [
     ],
 
     'edit-activity' => [
-        'title' => '編輯Activity',
+        'title' => '編輯活動',
 
         'form' => [
             'fields' => [
@@ -38,7 +38,7 @@ return [
         'action' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Activity已更新',
+                    'title' => '活動已更新',
                     'body'  => 'The activity has been已更新成功.',
                 ],
             ],

@@ -8,7 +8,7 @@ return [
                 'type'         => '類型',
                 'name'         => '名稱',
                 'type'         => '類型',
-                'create-type'  => '新增Type',
+                'create-type'  => '新增類型',
                 'duration'     => 'Duration',
                 'start-date'   => '開始日期',
                 'end-date'     => '結束日期',
@@ -36,7 +36,7 @@ return [
         ],
 
         'header-actions' => [
-            'add-resume' => '新增Resume',
+            'add-resume' => '新增履歷',
         ],
 
         'filters' => [
@@ -73,7 +73,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Skills已刪除',
+                    'title' => '技能已刪除',
                     'body'  => 'The skills has been已刪除成功.',
                 ],
             ],

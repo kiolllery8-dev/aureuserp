@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理Products',
+    'title' => '管理商品',
 
     'form' => [
         'enable-variants'               => '規格',

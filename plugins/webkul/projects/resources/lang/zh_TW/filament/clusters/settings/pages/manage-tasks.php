@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理Tasks',
+    'title' => '管理任務',
 
     'form' => [
         'enable-project-stages'             => 'Enable 專案 階段',

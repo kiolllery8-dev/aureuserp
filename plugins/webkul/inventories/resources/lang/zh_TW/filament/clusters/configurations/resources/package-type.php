@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Package類型s',
+        'title' => '包裝類型s',
         'group' => '出貨',
     ],
 
@@ -55,7 +55,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Package類型已刪除',
+                    'title' => '包裝類型已刪除',
                     'body'  => 'The package type has been已刪除成功.',
                 ],
             ],
@@ -64,7 +64,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Package類型已刪除',
+                    'title' => '包裝類型已刪除',
                     'body'  => 'The package type has been已刪除成功.',
                 ],
             ],

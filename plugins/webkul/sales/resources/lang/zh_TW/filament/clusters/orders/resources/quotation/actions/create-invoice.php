@@ -1,15 +1,15 @@
 <?php
 
 return [
-    'title' => '新增Invoice',
+    'title' => '新增發票',
 
     'modal' => [
-        'heading' => '新增Invoice',
+        'heading' => '新增發票',
     ],
 
     'notification' => [
         'invoice-created' => [
-            'title' => 'Invoice已建立',
+            'title' => '發票已建立',
             'body'  => '發票 has been已建立成功.',
         ],
 
@@ -21,7 +21,7 @@ return [
 
     'form' => [
         'fields' => [
-            'create-invoice' => '新增Invoice',
+            'create-invoice' => '新增發票',
         ],
     ],
 ];

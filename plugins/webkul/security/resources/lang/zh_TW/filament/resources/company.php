@@ -15,7 +15,7 @@ return [
     'form' => [
         'sections' => [
             'company-information' => [
-                'title'  => 'Company資料',
+                'title'  => '公司資料',
                 'fields' => [
                     'name'                  => '公司名稱',
                     'registration-number'   => 'Registration 編號',
@@ -60,7 +60,7 @@ return [
                     'currency-iso-numeric'    => '幣別 ISO Numeric',
                     'currency-decimal-places' => '幣別 Decimal Places',
                     'currency-rounding'       => '幣別 Rounding',
-                    'currency-status'         => 'Currency狀態',
+                    'currency-status'         => '幣別狀態',
                     'company-foundation-date' => '公司 Foundation日期',
                     'currency-create'         => '新增幣別',
                     'status'                  => '狀態',
@@ -129,12 +129,12 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Company已刪除',
+                    'title' => '公司已刪除',
                     'body'  => 'The company has been已刪除成功.',
 
                     'default-company' => [
                         'title' => '公司 cannot be已刪除',
-                        'body'  => 'This company is set as the default company in 管理Users settings. Please change the default company before deleting.',
+                        'body'  => 'This company is set as the default company in 管理使用者 settings. Please change the default company before deleting.',
                     ],
                 ],
             ],
@@ -170,7 +170,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Companies已刪除',
+                    'title' => '公司已刪除',
                     'body'  => 'The companies has been已刪除成功.',
                 ],
             ],
@@ -190,7 +190,7 @@ return [
         'empty-state-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Companies已建立',
+                    'title' => '公司已建立',
                     'body'  => 'The companies has been已建立成功.',
                 ],
             ],
@@ -200,7 +200,7 @@ return [
     'infolist' => [
         'sections' => [
             'company-information' => [
-                'title'   => 'Company資料',
+                'title'   => '公司資料',
                 'entries' => [
                     'name'                  => '公司名稱',
                     'registration-number'   => 'Registration 編號',
@@ -245,7 +245,7 @@ return [
                     'currency-iso-numeric'    => '幣別 ISO Numeric',
                     'currency-decimal-places' => '幣別 Decimal Places',
                     'currency-rounding'       => '幣別 Rounding',
-                    'currency-status'         => 'Currency狀態',
+                    'currency-status'         => '幣別狀態',
                     'company-foundation-date' => '公司 Foundation日期',
                     'currency-create'         => '新增幣別',
                     'status'                  => '狀態',

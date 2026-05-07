@@ -3,7 +3,7 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增Company',
+            'label' => '新增公司',
         ],
     ],
 

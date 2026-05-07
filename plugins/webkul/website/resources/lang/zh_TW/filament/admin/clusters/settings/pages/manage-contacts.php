@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理Contacts',
+    'title' => '管理聯絡人',
 
     'form' => [
         'sections' => [

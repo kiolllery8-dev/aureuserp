@@ -17,7 +17,7 @@ return [
     'form' => [
         'sections' => [
             'fields' => [
-                'payment-type'          => 'Payment類型',
+                'payment-type'          => '付款類型',
                 'memo'                  => 'Memo',
                 'date'                  => '日期',
                 'amount'                => '金額',
@@ -74,7 +74,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Payment已刪除',
+                    'title' => '付款已刪除',
                     'body'  => 'The payment has been已刪除成功.',
                 ],
             ],
@@ -83,7 +83,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Payments已刪除',
+                    'title' => '付款已刪除',
                     'body'  => 'The payments has been已刪除成功.',
                 ],
             ],
@@ -99,12 +99,12 @@ return [
     'infolist' => [
         'sections' => [
             'payment-information' => [
-                'title'   => 'Payment資料',
+                'title'   => '付款資料',
                 'entries' => [
                     'state'                 => '狀態',
                     'vendor'                => '供應商',
                     'customer'              => '客戶',
-                    'payment-type'          => 'Payment類型',
+                    'payment-type'          => '付款類型',
                     'journal'               => '帳本',
                     'customer-bank-account' => '客戶 銀行 帳戶',
                     'vendor-bank-account'   => '供應商 銀行 帳戶',

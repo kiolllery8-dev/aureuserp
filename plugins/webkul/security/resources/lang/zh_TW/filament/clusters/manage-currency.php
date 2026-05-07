@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'breadcrumb' => '管理Currency',
-    'title'      => '管理Currency',
+    'breadcrumb' => '管理幣別',
+    'title'      => '管理幣別',
     'group'      => '一般',
 
     'navigation' => [
-        'label' => '管理Currency',
+        'label' => '管理幣別',
     ],
 
     'form' => [

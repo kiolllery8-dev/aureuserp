@@ -43,14 +43,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '帳戶 Tag已更新',
+                    'title' => '帳戶 標籤已更新',
                     'body'  => 'The account 標籤 has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '帳戶 Tag已刪除',
+                    'title' => '帳戶 標籤已刪除',
                     'body'  => 'The account 標籤 has been已刪除成功.',
                 ],
             ],
@@ -59,7 +59,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '帳戶 Tags已刪除',
+                    'title' => '帳戶 標籤已刪除',
                     'body'  => 'The account 標籤 has been已刪除成功.',
                 ],
             ],

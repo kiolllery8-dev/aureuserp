@@ -44,14 +44,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '訂單 Template Products已更新',
+                    'title' => '訂單 Template 商品已更新',
                     'body'  => 'The order template products has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '訂單 Template Products已刪除',
+                    'title' => '訂單 Template 商品已刪除',
                     'body'  => 'The order template products has been已刪除成功.',
                 ],
             ],
@@ -59,7 +59,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '訂單 Template Products已刪除',
+                    'title' => '訂單 Template 商品已刪除',
                     'body'  => 'The order template products has been已刪除成功.',
                 ],
             ],

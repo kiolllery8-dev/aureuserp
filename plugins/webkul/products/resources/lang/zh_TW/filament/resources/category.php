@@ -43,7 +43,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Category已刪除',
+                        'title' => '分類已刪除',
                         'body'  => 'The 分類 has been已刪除成功.',
                     ],
 
@@ -59,7 +59,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Categories已刪除',
+                        'title' => '分類已刪除',
                         'body'  => 'The categories has been已刪除成功.',
                     ],
 
@@ -80,7 +80,7 @@ return [
                 'entries' => [
                     'name'        => '名稱',
                     'parent'      => 'Parent 分類',
-                    'full_name'   => 'Full Category名稱',
+                    'full_name'   => 'Full 分類名稱',
                     'parent_path' => '分類 Path',
                 ],
             ],

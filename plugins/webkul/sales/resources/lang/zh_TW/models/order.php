@@ -7,7 +7,7 @@ return [
         'state'           => '訂單狀態',
         'locked'          => '已鎖定',
         'amount-untaxed'  => '金額 Untaxed',
-        'amount-total'    => 'Amount總計',
+        'amount-total'    => '金額總計',
         'partner'         => '客戶',
         'sales-person'    => '業務',
         'sales-team'      => '業務團隊',

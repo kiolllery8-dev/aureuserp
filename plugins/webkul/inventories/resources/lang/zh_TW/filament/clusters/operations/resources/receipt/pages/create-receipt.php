@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => '新增Receipt',
+    'title' => '新增進貨',
 
     'notification' => [
-        'title' => 'Receipt已建立',
+        'title' => '進貨已建立',
         'body'  => 'The receipt has been已建立成功.',
     ],
 ];

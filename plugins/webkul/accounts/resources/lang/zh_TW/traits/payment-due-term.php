@@ -23,14 +23,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '付款 Due Term已更新',
+                    'title' => '付款 Due 條件已更新',
                     'body'  => 'The payment due term has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '付款 Due Term已刪除',
+                    'title' => '付款 Due 條件已刪除',
                     'body'  => 'The payment due term has been已刪除成功.',
                 ],
             ],
@@ -39,7 +39,7 @@ return [
         'header-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => '付款 Due Term已建立',
+                    'title' => '付款 Due 條件已建立',
                     'body'  => 'The payment due term has been已建立成功.',
                 ],
             ],

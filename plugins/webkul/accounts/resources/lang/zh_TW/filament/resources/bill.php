@@ -148,7 +148,7 @@ return [
             'currency'                  => '幣別',
             'company'                   => '公司',
             'date'                      => '入帳日期',
-            'delivery-date'             => 'Delivery日期',
+            'delivery-date'             => '出貨日期',
             'amount-untaxed'            => '未稅金額',
             'amount-tax'                => '稅額',
             'amount-total'              => '總金額',
@@ -163,7 +163,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Payment已刪除',
+                    'title' => '付款已刪除',
                     'body'  => 'The payment has been已刪除成功.',
                 ],
             ],
@@ -172,7 +172,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Payments已刪除',
+                    'title' => '付款已刪除',
                     'body'  => 'The payments has been已刪除成功.',
                 ],
             ],

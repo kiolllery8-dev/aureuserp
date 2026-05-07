@@ -11,7 +11,7 @@ return [
     'form' => [
         'sections' => [
             'currency-details' => [
-                'title' => 'Currency資料',
+                'title' => '幣別資料',
 
                 'fields' => [
                     'name'         => '幣別名稱',
@@ -84,11 +84,11 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title'   => 'Currency已刪除',
+                    'title'   => '幣別已刪除',
                     'body'    => 'The currency has been已刪除成功.',
 
                     'success' => [
-                        'title' => 'Currency已刪除',
+                        'title' => '幣別已刪除',
                         'body'  => 'The currency has been已刪除成功.',
                     ],
 
@@ -103,7 +103,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Currencies已刪除',
+                    'title' => '幣別已刪除',
                     'body'  => 'The currencies have been已刪除成功.',
                 ],
             ],
@@ -113,7 +113,7 @@ return [
     'infolist' => [
         'sections' => [
             'currency-details' => [
-                'title' => 'Currency資料',
+                'title' => '幣別資料',
 
                 'entries' => [
                     'name'         => '幣別名稱',

@@ -5,7 +5,7 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Currency',
+            'label' => '新增幣別',
         ],
     ],
 

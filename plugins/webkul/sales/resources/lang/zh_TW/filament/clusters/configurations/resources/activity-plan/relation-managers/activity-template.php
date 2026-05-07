@@ -63,7 +63,7 @@ return [
 
         'filters' => [
             'activity-type'   => '活動類型',
-            'activity-status' => 'Activity狀態',
+            'activity-status' => '活動狀態',
             'has-delay'       => 'Has Delay',
         ],
 

@@ -21,14 +21,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Title已更新',
+                    'title' => '標題已更新',
                     'body'  => 'The 標題 has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Title已刪除',
+                    'title' => '標題已刪除',
                     'body'  => 'The title has been已刪除成功.',
                 ],
             ],
@@ -37,7 +37,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Titles已刪除',
+                    'title' => '標題已刪除',
                     'body'  => 'The titles has been已刪除成功.',
                 ],
             ],

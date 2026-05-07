@@ -13,7 +13,7 @@ return [
         'phone'             => '電話',
         'email'             => '電子郵件',
         'email_cc'          => '電子郵件 CC',
-        'name'              => 'Candidate名稱',
+        'name'              => '應徵者名稱',
         'email_from'        => '電子郵件 From',
         'phone_raw'         => '電話',
         'linkedin_profile'  => 'LinkedIn Profile',

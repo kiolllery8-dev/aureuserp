@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Tax已更新',
+        'title' => '稅已更新',
         'body'  => 'The tax has been已更新成功.',
     ],
 
@@ -10,7 +10,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Tax已刪除',
+                    'title' => '稅已刪除',
                     'body'  => 'The tax has been已刪除成功.',
                 ],
 

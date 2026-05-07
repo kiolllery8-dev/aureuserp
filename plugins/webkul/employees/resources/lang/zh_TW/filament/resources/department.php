@@ -69,7 +69,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Department已刪除',
+                    'title' => '部門已刪除',
                     'body'  => 'The department has been已刪除成功.',
                 ],
             ],
@@ -92,7 +92,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Departments已刪除',
+                    'title' => '部門已刪除',
                     'body'  => 'The departments has been已刪除成功.',
                 ],
             ],

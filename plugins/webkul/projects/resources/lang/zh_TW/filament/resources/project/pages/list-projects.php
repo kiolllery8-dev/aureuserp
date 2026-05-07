@@ -10,7 +10,7 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Project',
+            'label' => '新增專案',
         ],
     ],
 ];

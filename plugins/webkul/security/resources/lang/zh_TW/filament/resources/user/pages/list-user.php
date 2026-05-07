@@ -33,7 +33,7 @@ return [
         ],
 
         'create' => [
-            'label' => '新增User',
+            'label' => '新增使用者',
         ],
     ],
 ];

@@ -48,7 +48,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Bank已更新',
+                    'title' => '銀行已更新',
                     'body'  => 'The bank has been已更新成功.',
                 ],
             ],
@@ -62,7 +62,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Bank已刪除',
+                    'title' => '銀行已刪除',
                     'body'  => 'The bank has been已刪除成功.',
                 ],
             ],
@@ -85,7 +85,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Banks已刪除',
+                    'title' => '銀行已刪除',
                     'body'  => 'The banks has been已刪除成功.',
                 ],
             ],

@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => '管理Products',
+    'title' => '管理商品',
 
-    'breadcrumb' => '管理Products',
+    'breadcrumb' => '管理商品',
 
     'navigation' => [
-        'title' => '管理Products',
+        'title' => '管理商品',
     ],
 
     'form' => [

@@ -64,7 +64,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Page已更新',
+                    'title' => '頁面已更新',
                     'body'  => 'The page has been已更新成功.',
                 ],
             ],
@@ -78,7 +78,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Page已刪除',
+                    'title' => '頁面已刪除',
                     'body'  => 'The page has been已刪除成功.',
                 ],
             ],
@@ -101,7 +101,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Pages已刪除',
+                    'title' => '頁面已刪除',
                     'body'  => 'The pages has been已刪除成功.',
                 ],
             ],

@@ -8,10 +8,10 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Attribute',
+            'label' => '新增屬性',
 
             'notification' => [
-                'title' => 'Attribute已建立',
+                'title' => '屬性已建立',
                 'body'  => 'The attribute has been已建立成功.',
             ],
         ],

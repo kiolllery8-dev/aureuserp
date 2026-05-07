@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Invoice已建立',
+        'title' => '發票已建立',
         'body'  => 'The invoice has been已建立成功.',
     ],
 ];

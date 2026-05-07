@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Activity類型已更新',
+        'title' => '活動類型已更新',
         'body'  => 'The activity type has been已更新成功.',
     ],
 

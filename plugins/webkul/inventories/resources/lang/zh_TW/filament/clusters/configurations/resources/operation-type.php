@@ -146,14 +146,14 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Operation類型 restored',
+                    'title' => '作業類型 restored',
                     'body'  => 'The operation type has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Operation類型已刪除',
+                    'title' => '作業類型已刪除',
                     'body'  => 'The operation type has been已刪除成功.',
                 ],
             ],
@@ -161,12 +161,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Operation類型 force已刪除',
+                        'title' => '作業類型 force已刪除',
                         'body'  => 'The operation type has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Operation類型 could not be已刪除',
+                        'title' => '作業類型 could not be已刪除',
                         'body'  => 'The operation type cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -176,14 +176,14 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Operation類型s restored',
+                    'title' => '作業類型s restored',
                     'body'  => 'The operation types has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Operation類型s已刪除',
+                    'title' => '作業類型s已刪除',
                     'body'  => 'The operation types has been已刪除成功.',
                 ],
             ],
@@ -191,12 +191,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Operations類型s force已刪除',
+                        'title' => '作業類型s force已刪除',
                         'body'  => 'The operation types has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Operations類型s could not be已刪除',
+                        'title' => '作業類型s could not be已刪除',
                         'body'  => 'The operation types cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -205,7 +205,7 @@ return [
 
         'empty-actions' => [
             'create' => [
-                'label' => '新增Operation類型',
+                'label' => '新增作業類型',
             ],
         ],
     ],
@@ -243,7 +243,7 @@ return [
                     'reservation_method'         => 'Reservation 方式',
                     'auto_show_reception_report' => 'Auto Show Reception 報表',
                     'company'                    => '公司',
-                    'return_operation_type'      => 'Return Operation類型',
+                    'return_operation_type'      => 'Return 作業類型',
                     'create_backorder'           => '新增Backorder',
                     'move_type'                  => 'Move類型',
                 ],
@@ -253,7 +253,7 @@ return [
                         'title' => '批號',
 
                         'entries' => [
-                            'use_create_lots'   => 'Use 新增Lots',
+                            'use_create_lots'   => 'Use 新增批號',
                             'use_existing_lots' => 'Use Existing 批號',
                         ],
                     ],

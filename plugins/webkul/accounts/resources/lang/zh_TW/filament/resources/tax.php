@@ -5,7 +5,7 @@ return [
         'sections' => [
             'fields' => [
                 'name'            => '名稱',
-                'tax-type'        => 'Tax類型',
+                'tax-type'        => '稅類型',
                 'tax-computation' => '稅 Computation',
                 'tax-scope'       => '稅 Scope',
                 'status'          => '狀態',
@@ -53,13 +53,13 @@ return [
     'table' => [
         'columns' => [
             'name'                   => '名稱',
-            'amount-type'            => 'Amount類型',
+            'amount-type'            => '金額類型',
             'company'                => '公司',
             'tax-group'              => '稅務群組',
             'country'                => '國家',
-            'tax-type'               => 'Tax類型',
+            'tax-type'               => '稅類型',
             'tax-scope'              => '稅 Scope',
-            'amount-type'            => 'Amount類型',
+            'amount-type'            => '金額類型',
             'invoice-label'          => '發票 Label',
             'tax-exigibility'        => '稅 Exigibility',
             'price-include-override' => '價格 Include Override',
@@ -77,14 +77,14 @@ return [
             'created-by'   => '建立者',
             'type-tax-use' => '類型 稅 Use',
             'tax-scope'    => '稅 Scope',
-            'amount-type'  => 'Amount類型',
+            'amount-type'  => '金額類型',
         ],
 
         'actions' => [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Tax已刪除',
+                        'title' => '稅已刪除',
                         'body'  => 'The 稅 has been已刪除成功.',
                     ],
 
@@ -100,7 +100,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Taxes已刪除',
+                        'title' => '稅已刪除',
                         'body'  => 'The taxes has been已刪除成功.',
                     ],
 
@@ -135,7 +135,7 @@ return [
         'sections' => [
             'entries' => [
                 'name'            => '名稱',
-                'tax-type'        => 'Tax類型',
+                'tax-type'        => '稅類型',
                 'tax-computation' => '稅 Computation',
                 'tax-scope'       => '稅 Scope',
                 'status'          => '狀態',

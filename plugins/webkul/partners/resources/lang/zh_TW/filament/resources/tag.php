@@ -17,7 +17,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Tag已更新',
+                    'title' => '標籤已更新',
                     'body'  => 'The tag has been已更新成功.',
                 ],
             ],
@@ -31,7 +31,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Tag已刪除',
+                    'title' => '標籤已刪除',
                     'body'  => 'The tag has been已刪除成功.',
                 ],
             ],
@@ -54,7 +54,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Tags已刪除',
+                    'title' => '標籤已刪除',
                     'body'  => 'The tags has been已刪除成功.',
                 ],
             ],

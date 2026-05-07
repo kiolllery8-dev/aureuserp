@@ -8,10 +8,10 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Lot / Serial 編號',
+            'label' => '新增批號 / Serial 編號',
 
             'notification' => [
-                'title' => 'Package已建立',
+                'title' => '包裝已建立',
                 'body'  => 'The package has been已建立成功.',
             ],
         ],

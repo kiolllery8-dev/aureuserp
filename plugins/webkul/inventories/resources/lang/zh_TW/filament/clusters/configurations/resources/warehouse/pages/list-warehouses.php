@@ -8,10 +8,10 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Warehouse',
+            'label' => '新增倉庫',
 
             'notification' => [
-                'title' => 'Warehouse已建立',
+                'title' => '倉庫已建立',
                 'body'  => 'The warehouse has been已建立成功.',
             ],
         ],

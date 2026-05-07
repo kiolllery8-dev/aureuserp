@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Applicant已建立',
+        'title' => '應徵者已建立',
         'body'  => 'The applicant has been已建立 successf ully.',
     ],
 
@@ -21,9 +21,9 @@ return [
 
     'header-actions' => [
         'create-applicant' => [
-            'label' => '新增Applicant',
+            'label' => '新增應徵者',
 
-            'modal-title' => '新增Applicant',
+            'modal-title' => '新增應徵者',
         ],
     ],
 ];

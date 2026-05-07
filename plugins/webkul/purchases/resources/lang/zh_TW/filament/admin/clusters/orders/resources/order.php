@@ -79,7 +79,7 @@ return [
 
                         'delete-action' => [
                             'error' => [
-                                'title' => 'Cannot 刪除Product',
+                                'title' => 'Cannot 刪除商品',
                                 'body'  => '商品 cannot be已刪除 from a confirmed purchase order.',
                             ],
                         ],
@@ -92,7 +92,7 @@ return [
                     ],
 
                     'note' => [
-                        'title' => '新增Note',
+                        'title' => '新增備註',
 
                         'fields' => [],
                     ],
@@ -167,7 +167,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Order已刪除',
+                        'title' => '訂單已刪除',
                         'body'  => 'The order has been已刪除成功.',
                     ],
 
@@ -183,7 +183,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Orders已刪除',
+                        'title' => '訂單已刪除',
                         'body'  => 'The orders has been已刪除成功.',
                     ],
 
@@ -246,7 +246,7 @@ return [
                     ],
 
                     'note' => [
-                        'title' => '新增Note',
+                        'title' => '新增備註',
                     ],
                 ],
             ],

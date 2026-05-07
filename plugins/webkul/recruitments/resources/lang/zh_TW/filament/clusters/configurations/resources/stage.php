@@ -14,7 +14,7 @@ return [
                 'title' => '一般資料',
 
                 'fields' => [
-                    'stage-name'   => 'Stage名稱',
+                    'stage-name'   => '階段名稱',
                     'sort'         => 'Sequence 訂單',
                     'requirements' => 'Requirements',
                 ],
@@ -50,7 +50,7 @@ return [
     'table' => [
         'columns' => [
             'id'                 => '編號',
-            'name'               => 'Stage名稱',
+            'name'               => '階段名稱',
             'hired-stage'        => 'Hired 階段',
             'default-stage'      => '預設 階段',
             'folded'             => 'Folded',
@@ -61,7 +61,7 @@ return [
         ],
 
         'filters' => [
-            'name'         => 'Stage名稱',
+            'name'         => '階段名稱',
             'job-position' => '職位',
             'folded'       => 'Folded',
             'gray-label'   => 'Gray Label',
@@ -74,7 +74,7 @@ return [
 
         'groups' => [
             'job-position' => '職位',
-            'stage-name'   => 'Stage名稱',
+            'stage-name'   => '階段名稱',
             'folded'       => 'Folded',
             'gray-label'   => 'Gray Label',
             'red-label'    => 'Red Label',
@@ -88,7 +88,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Stages已刪除',
+                        'title' => '階段已刪除',
                         'body'  => 'The 階段 has been已刪除成功.',
                     ],
 
@@ -103,7 +103,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Stages已刪除',
+                    'title' => '階段已刪除',
                     'body'  => 'The 階段 has been已刪除成功.',
                 ],
             ],
@@ -111,7 +111,7 @@ return [
 
         'empty-state-actions' => [
             'create' => [
-                'label' => '新增Stage',
+                'label' => '新增階段',
             ],
         ],
     ],
@@ -122,7 +122,7 @@ return [
                 'title' => '一般資料',
 
                 'entries' => [
-                    'stage-name'   => 'Stage名稱',
+                    'stage-name'   => '階段名稱',
                     'sort'         => 'Sequence 訂單',
                     'requirements' => 'Requirements',
                 ],

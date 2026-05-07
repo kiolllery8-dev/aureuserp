@@ -12,10 +12,10 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Location',
+            'label' => '新增位置',
 
             'notification' => [
-                'title' => 'Location已建立',
+                'title' => '位置已建立',
                 'body'  => 'The location has been已建立成功.',
             ],
         ],

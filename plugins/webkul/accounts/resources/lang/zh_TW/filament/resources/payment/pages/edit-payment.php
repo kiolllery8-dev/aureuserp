@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Payment已更新',
+        'title' => '付款已更新',
         'body'  => 'The payment has been已更新成功.',
     ],
 ];

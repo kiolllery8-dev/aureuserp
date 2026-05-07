@@ -4,7 +4,7 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Applicant已刪除',
+                'title' => '應徵者已刪除',
                 'body'  => 'The applicant has been已刪除成功.',
             ],
         ],

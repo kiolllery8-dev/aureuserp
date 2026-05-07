@@ -16,7 +16,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Delivery已刪除',
+                        'title' => '出貨已刪除',
                         'body'  => 'The delivery ras been已刪除成功.',
                     ],
 
@@ -32,7 +32,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Deliveries已刪除',
+                        'title' => '出貨已刪除',
                         'body'  => 'The deliveries has been已刪除成功.',
                     ],
 

@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Vendor價格列表s',
+        'title' => '供應商價格列表s',
     ],
 
     'form' => [
@@ -12,11 +12,11 @@ return [
 
                 'fields' => [
                     'vendor'                      => '供應商',
-                    'vendor-product-name'         => '供應商 Product名稱',
+                    'vendor-product-name'         => '供應商 商品名稱',
                     'vendor-product-name-tooltip' => 'The vendor\'s product name will appear on the request for quotation. Leave it blank to use the internal product name.',
-                    'vendor-product-code'         => '供應商 Product代碼',
+                    'vendor-product-code'         => '供應商 商品代碼',
                     'vendor-product-code-tooltip' => 'The vendor\'s product code will appear on the request for quotation. Leave it blank to use the internal code.',
-                    'delay'                       => '出貨 Lead時間 (天數)',
+                    'delay'                       => '出貨 商機時間 (天數)',
                     'delay-tooltip'               => 'The lead time (in days) from purchase order confirmation to product receipt in the warehouse. Used by the scheduler for automatic purchase order planning.',
                 ],
             ],
@@ -43,9 +43,9 @@ return [
     'table' => [
         'columns' => [
             'vendor'              => '供應商',
-            'vendor-product-name' => '供應商 Product名稱',
-            'vendor-product-code' => '供應商 Product代碼',
-            'delay'               => '出貨 Lead時間 (天數)',
+            'vendor-product-name' => '供應商 商品名稱',
+            'vendor-product-code' => '供應商 商品代碼',
+            'delay'               => '出貨 商機時間 (天數)',
             'product'             => '商品',
             'quantity'            => '數量',
             'unit-price'          => '單價',
@@ -84,12 +84,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Vendor價格已刪除',
+                        'title' => '供應商價格已刪除',
                         'body'  => 'The vendor price has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Vendor價格 could not be已刪除',
+                        'title' => '供應商價格 could not be已刪除',
                         'body'  => 'The vendor price cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -100,12 +100,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Vendor價格s已刪除',
+                        'title' => '供應商價格s已刪除',
                         'body'  => 'The vendor prices has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Vendor價格s could not be已刪除',
+                        'title' => '供應商價格s could not be已刪除',
                         'body'  => 'The vendor prices cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -120,11 +120,11 @@ return [
 
                 'entries' => [
                     'vendor'                      => '供應商',
-                    'vendor-product-name'         => '供應商 Product名稱',
+                    'vendor-product-name'         => '供應商 商品名稱',
                     'vendor-product-name-tooltip' => 'The vendor\'s product name will appear on the request for quotation. Leave it blank to use the internal product name.',
-                    'vendor-product-code'         => '供應商 Product代碼',
+                    'vendor-product-code'         => '供應商 商品代碼',
                     'vendor-product-code-tooltip' => 'The vendor\'s product code will appear on the request for quotation. Leave it blank to use the internal code.',
-                    'delay'                       => '出貨 Lead時間 (天數)',
+                    'delay'                       => '出貨 商機時間 (天數)',
                     'delay-tooltip'               => 'The lead time (in days) from purchase order confirmation to product receipt in the warehouse. Used by the scheduler for automatic purchase order planning.',
                 ],
             ],

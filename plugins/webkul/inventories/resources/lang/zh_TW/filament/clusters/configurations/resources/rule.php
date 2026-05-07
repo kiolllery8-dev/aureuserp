@@ -36,7 +36,7 @@ return [
                 'fields' => [
                     'partner-address'              => '夥伴 地址',
                     'partner-address-hint-tooltip' => '地址 where goods should be delivered. 選填.',
-                    'lead-time'                    => 'Lead時間 (天數)',
+                    'lead-time'                    => '商機時間 (天數)',
                     'lead-time-hint-tooltip'       => 'The expected transfer date will be calculated using this lead time.',
                 ],
 
@@ -183,8 +183,8 @@ return [
                     'route'                => '路徑',
                     'company'              => '公司',
                     'partner-address'      => '夥伴 地址',
-                    'lead-time'            => 'Lead時間',
-                    'action-information'   => 'Action資料',
+                    'lead-time'            => '商機時間',
+                    'action-information'   => '動作資料',
                 ],
             ],
 

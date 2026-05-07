@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'breadcrumb' => '管理Activities',
-    'title'      => '管理Activities',
+    'breadcrumb' => '管理活動',
+    'title'      => '管理活動',
     'group'      => '一般',
 
     'navigation' => [
-        'label' => '管理Activities',
+        'label' => '管理活動',
     ],
 
     'form' => [
@@ -17,7 +17,7 @@ return [
 
         'actions' => [
             'manage-activity-types' => [
-                'label' => 'Activity類型s',
+                'label' => '活動類型s',
             ],
         ],
     ],

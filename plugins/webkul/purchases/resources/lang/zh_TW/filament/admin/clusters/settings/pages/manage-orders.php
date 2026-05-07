@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理Orders',
+    'title' => '管理訂單',
 
     'form' => [
         'enable-order-approval'                    => 'Purchase 訂單 Approval',

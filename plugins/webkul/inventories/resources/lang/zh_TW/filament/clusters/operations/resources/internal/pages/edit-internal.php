@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Internal Transfer已更新',
+        'title' => 'Internal 調撥已更新',
         'body'  => 'The internal transfer has been已更新成功.',
     ],
 
@@ -14,7 +14,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Internal Transfer已刪除',
+                    'title' => 'Internal 調撥已刪除',
                     'body'  => 'The internal transfer has been已刪除成功.',
                 ],
 

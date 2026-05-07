@@ -95,7 +95,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Journal已刪除',
+                        'title' => '帳本已刪除',
                         'body'  => 'The journal has been已刪除成功.',
                     ],
 
@@ -111,7 +111,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Journal已刪除',
+                        'title' => '帳本已刪除',
                         'body'  => 'The journal has been已刪除成功.',
                     ],
 

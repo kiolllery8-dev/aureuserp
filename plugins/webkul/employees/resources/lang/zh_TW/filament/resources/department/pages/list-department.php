@@ -7,7 +7,7 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Department',
+            'label' => '新增部門',
         ],
     ],
 ];

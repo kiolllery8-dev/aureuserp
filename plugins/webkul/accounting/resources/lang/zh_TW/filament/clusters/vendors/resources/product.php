@@ -120,7 +120,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Product已刪除',
+                    'title' => '商品已刪除',
                     'body'  => 'The product has been已刪除成功.',
                 ],
             ],
@@ -143,7 +143,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Products已刪除',
+                    'title' => '商品已刪除',
                     'body'  => 'The products has been已刪除成功.',
                 ],
             ],
@@ -228,7 +228,7 @@ return [
                             'responsible' => '負責人',
                             'weight'      => '重量',
                             'volume'      => '體積',
-                            'sale-delay'  => '客戶 Lead時間 (天數)',
+                            'sale-delay'  => '客戶 商機時間 (天數)',
                         ],
                     ],
 

@@ -12,7 +12,7 @@ return [
 
                 'actions' => [
                     'delete' => [
-                        'title' => 'File已刪除',
+                        'title' => '檔案已刪除',
                         'body'  => '檔案 has been已刪除成功.',
                     ],
                 ],

@@ -6,7 +6,7 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'title' => '新增Bank 帳戶',
+                'title' => '新增銀行 帳戶',
             ]
         ]
     ]

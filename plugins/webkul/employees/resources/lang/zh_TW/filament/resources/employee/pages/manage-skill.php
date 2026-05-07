@@ -2,6 +2,6 @@
 
 return [
     'navigation' => [
-        'title' => '管理Skills',
+        'title' => '管理技能',
     ],
 ];

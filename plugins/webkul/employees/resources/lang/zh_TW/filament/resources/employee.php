@@ -52,12 +52,12 @@ return [
             ],
 
             'private-information' => [
-                'title' => 'Private資料',
+                'title' => '私人資料',
 
                 'fields' => [
                     'country'                     => '國家',
                     'country-name'                => '國家名稱',
-                    'country-code'                => 'Country代碼',
+                    'country-code'                => '國家代碼',
                     'country-state-required'      => '須填寫州/省',
                     'country-zip-required'        => 'Zipcode 必填',
                     'create-country'              => '新增國家',
@@ -75,7 +75,7 @@ return [
                     'bank-account-number'         => '銀行 帳戶 編號',
                     'bank-account-holder-name'    => '銀行 帳戶 Holder名稱',
                     'bank'                        => '銀行',
-                    'create-bank'                 => '新增Bank',
+                    'create-bank'                 => '新增銀行',
                     'status'                      => '狀態',
                     'send-money'                  => 'Send Money',
                     'private-email'               => '私人 電子郵件',
@@ -84,10 +84,10 @@ return [
                     'bank-account-number'         => '銀行 帳戶 編號',
                     'bank-account-holder-name'    => '銀行 帳戶 Holder名稱',
                     'bank'                        => '銀行',
-                    'create-bank'                 => '新增Bank',
+                    'create-bank'                 => '新增銀行',
                     'bank-account'                => '銀行帳戶',
-                    'bank-name'                   => 'Bank名稱',
-                    'bank-code'                   => 'Bank代碼',
+                    'bank-name'                   => '銀行名稱',
+                    'bank-code'                   => '銀行代碼',
                     'bank-email'                  => '電子郵件',
                     'bank-phone-number'           => '電話號碼',
                     'bank-street-1'               => '地址 1',
@@ -100,7 +100,7 @@ return [
                     'bank-state'                  => '狀態',
                     'status'                      => '狀態',
                     'send-money'                  => 'Send Money',
-                    'create-bank-account'         => '新增Bank 帳戶',
+                    'create-bank-account'         => '新增銀行 帳戶',
                     'bank-account'                => '銀行帳戶',
                     'private-email'               => '私人 電子郵件',
                     'private-car-plate'           => '私人 Car Plate',
@@ -108,7 +108,7 @@ return [
                     'km-home-to-work'             => 'Km Home to Work',
                     'distance-unit'               => 'Distance 單位',
                     'emergency-contact'           => 'Emergency 聯絡人',
-                    'contact-name'                => 'Contact名稱',
+                    'contact-name'                => '聯絡人名稱',
                     'contact-phone'               => '聯絡人 電話',
                     'family-status'               => 'Family狀態',
                     'marital-status'              => 'Marital狀態',
@@ -153,7 +153,7 @@ return [
                     'fully-flexible-schedule'        => 'Fully Flexible Schedule',
                     'work-permit-scheduled-activity' => 'Work Permit Scheduled 活動',
                     'related-user'                   => 'Related 使用者',
-                    'create-user'                    => '新增User',
+                    'create-user'                    => '新增使用者',
                     'departure-reason'               => 'Departure Reason',
                     'departure-date'                 => 'Departure日期',
                     'departure-description'          => 'Departure 描述',
@@ -242,7 +242,7 @@ return [
             'country-of-birth'                => '國家 of Birth',
             'bank-account'                    => '銀行帳戶',
             'departure-reason'                => 'Departure Reason',
-            'employee-type'                   => 'Employee類型',
+            'employee-type'                   => '員工類型',
             'tags'                            => '標籤',
         ],
 
@@ -273,7 +273,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Employee已刪除',
+                    'title' => '員工已刪除',
                     'body'  => 'The employee has been已刪除成功.',
                 ],
             ],
@@ -282,7 +282,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Employees已刪除',
+                    'title' => '員工已刪除',
                     'body'  => 'The employees has been已刪除成功.',
                 ],
             ],
@@ -290,7 +290,7 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Employees已刪除',
+                        'title' => '員工已刪除',
                         'body'  => 'The employees has been已刪除成功.',
                     ],
 
@@ -339,7 +339,7 @@ return [
             ],
 
             'private-information' => [
-                'title' => 'Private資料',
+                'title' => '私人資料',
 
                 'entries' => [
                     'country'                     => '國家',
@@ -347,14 +347,14 @@ return [
                     'street-address'              => '街道地址',
                     'street-address-line-2'       => 'Street 地址 Line 2',
                     'city'                        => '城市',
-                    'post-code'                   => 'Post代碼',
+                    'post-code'                   => '文章代碼',
                     'private-contact'             => '私人 聯絡人',
                     'private-phone'               => '私人 電話',
                     'private-email'               => '私人 電子郵件',
                     'private-car-plate'           => '私人 Car Plate',
                     'distance-home-to-work'       => 'Distance Home to Work',
                     'emergency-contact'           => 'Emergency 聯絡人',
-                    'contact-name'                => 'Contact名稱',
+                    'contact-name'                => '聯絡人名稱',
                     'contact-phone'               => '聯絡人 電話',
                     'work-permit'                 => 'Work Permit',
                     'visa-number'                 => 'Visa 編號',

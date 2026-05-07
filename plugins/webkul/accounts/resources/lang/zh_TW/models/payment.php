@@ -5,8 +5,8 @@ return [
 
     'log-attributes' => [
         'date'              => '日期',
-        'payment-type'      => 'Payment類型',
-        'partner-type'      => 'Partner類型',
+        'payment-type'      => '付款類型',
+        'partner-type'      => '夥伴類型',
         'memo'              => 'Memo',
         'payment-reference' => '付款參考',
         'amount'            => '金額',

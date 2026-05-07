@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Order已更新',
+        'title' => '訂單已更新',
         'body'  => 'The order has been已更新成功.',
     ],
 
@@ -26,7 +26,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Order已刪除',
+                    'title' => '訂單已刪除',
                     'body'  => 'The order has been已刪除成功.',
                 ],
 

@@ -41,7 +41,7 @@ return [
                             'responsible-hint-tooltip' => '出貨 lead time (in days) represents the promised duration between sales order confirmation and product delivery.',
                             'weight'                   => '重量',
                             'volume'                   => '體積',
-                            'sale-delay'               => '客戶 Lead時間 (天數)',
+                            'sale-delay'               => '客戶 商機時間 (天數)',
                             'sale-delay-hint-tooltip'  => '出貨 lead time (in days) represents the promised duration between sales order confirmation and product delivery.',
                         ],
                     ],
@@ -103,7 +103,7 @@ return [
                             'responsible' => '負責人',
                             'weight'      => '重量',
                             'volume'      => '體積',
-                            'sale-delay'  => '客戶 Lead時間 (天數)',
+                            'sale-delay'  => '客戶 商機時間 (天數)',
                         ],
                     ],
 

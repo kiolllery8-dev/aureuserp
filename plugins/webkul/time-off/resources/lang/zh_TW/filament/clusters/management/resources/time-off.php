@@ -19,7 +19,7 @@ return [
     'form' => [
         'fields' => [
             'employee-name'     => '員工姓名',
-            'department-name'   => 'Department名稱',
+            'department-name'   => '部門名稱',
             'time-off-type'     => '假別',
             'date'              => '日期',
             'dates'             => '日期',
@@ -98,7 +98,7 @@ return [
     'infolist' => [
         'entries' => [
             'employee-name'     => '員工姓名',
-            'department-name'   => 'Department名稱',
+            'department-name'   => '部門名稱',
             'time-off-type'     => '假別',
             'date'              => '日期',
             'dates'             => '日期',

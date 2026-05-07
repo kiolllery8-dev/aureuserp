@@ -32,7 +32,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => '稅 Partition Term已刪除',
+                    'title' => '稅 Partition 條件已刪除',
                     'body'  => 'The tax Partition term has been已刪除成功.',
                 ],
             ],
@@ -41,7 +41,7 @@ return [
         'header-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => '稅 Partition Term已建立',
+                    'title' => '稅 Partition 條件已建立',
                     'body'  => 'The tax Partition term has been已建立成功.',
                 ],
             ],

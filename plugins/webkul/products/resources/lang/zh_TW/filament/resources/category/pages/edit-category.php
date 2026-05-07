@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Category已更新',
+        'title' => '分類已更新',
         'body'  => 'The category has been已更新成功.',
     ],
 
@@ -10,7 +10,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Category已刪除',
+                    'title' => '分類已刪除',
                     'body'  => 'The category has been已刪除成功.',
                 ],
 
@@ -25,7 +25,7 @@ return [
     'save' => [
         'notification' => [
             'error' => [
-                'title' => 'Category已更新失敗',
+                'title' => '分類已更新失敗',
             ],
         ],
     ],

@@ -30,7 +30,7 @@ return [
         'filters' => [
             'name'           => '名稱',
             'plugin'         => 'Plugin',
-            'activity-types' => 'Activity類型s',
+            'activity-types' => '活動類型s',
             'company'        => '公司',
             'department'     => '部門',
             'is-active'      => '狀態',

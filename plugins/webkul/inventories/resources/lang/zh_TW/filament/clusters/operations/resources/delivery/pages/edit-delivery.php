@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Delivery已更新',
+        'title' => '出貨已更新',
         'body'  => 'The delivery has been已更新成功.',
     ],
 
@@ -14,7 +14,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Delivery已刪除',
+                    'title' => '出貨已刪除',
                     'body'  => 'The delivery has been已刪除成功.',
                 ],
 

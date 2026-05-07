@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Receipt已更新',
+        'title' => '進貨已更新',
         'body'  => 'The receipt has been已更新成功.',
     ],
 
@@ -14,7 +14,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Receipt已刪除',
+                    'title' => '進貨已刪除',
                     'body'  => 'The receipt has been已刪除成功.',
                 ],
 

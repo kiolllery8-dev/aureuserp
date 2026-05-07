@@ -97,7 +97,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Contact已更新',
+                    'title' => '聯絡人已更新',
                     'body'  => 'The contact has been已更新成功.',
                 ],
             ],
@@ -111,7 +111,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Contact已刪除',
+                    'title' => '聯絡人已刪除',
                     'body'  => 'The contact has been已刪除成功.',
                 ],
             ],
@@ -141,7 +141,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Contacts已刪除',
+                    'title' => '聯絡人已刪除',
                     'body'  => 'The contacts has been已刪除成功.',
                 ],
             ],

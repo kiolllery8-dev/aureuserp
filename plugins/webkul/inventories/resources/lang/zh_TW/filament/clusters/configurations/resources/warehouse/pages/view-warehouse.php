@@ -4,7 +4,7 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Warehouse已刪除',
+                'title' => '倉庫已刪除',
                 'body'  => 'The warehouse has been已刪除成功.',
             ],
         ],

@@ -5,7 +5,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Category已刪除',
+                    'title' => '分類已刪除',
                     'body'  => 'The category has been已刪除成功.',
                 ],
 

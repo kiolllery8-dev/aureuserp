@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'label' => '新增Bill',
+    'label' => '新增進貨單',
 
     'action' => [
         'notification' => [
@@ -11,7 +11,7 @@ return [
             ],
 
             'success' => [
-                'title' => 'Bill已建立',
+                'title' => '進貨單已建立',
                 'body'  => 'The bill has been已建立成功.',
             ],
         ],

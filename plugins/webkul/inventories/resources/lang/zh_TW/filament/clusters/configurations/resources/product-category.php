@@ -35,7 +35,7 @@ return [
 
                         'entries' => [
                             'routes'     => '倉庫 路徑',
-                            'route_name' => 'Route名稱',
+                            'route_name' => '路徑名稱',
                         ],
                     ],
                 ],

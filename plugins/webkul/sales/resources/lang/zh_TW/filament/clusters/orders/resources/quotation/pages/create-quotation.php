@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Quotation已建立',
+        'title' => '報價單已建立',
         'body'  => 'The quotation has been已建立成功.',
     ],
 ];

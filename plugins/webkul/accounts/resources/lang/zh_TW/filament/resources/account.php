@@ -10,7 +10,7 @@ return [
         'sections' => [
             'fields' => [
                 'code'          => '代碼',
-                'account-name'  => 'Account名稱',
+                'account-name'  => '帳戶名稱',
                 'accounting'    => '會計',
                 'account-type'  => '帳戶類型',
                 'default-taxes' => '預設 稅',
@@ -28,7 +28,7 @@ return [
     'table' => [
         'columns' => [
             'code'         => '代碼',
-            'account-name' => 'Account名稱',
+            'account-name' => '帳戶名稱',
             'account-type' => '帳戶',
             'currency'     => '幣別',
             'journals'     => '帳本',
@@ -50,7 +50,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Account已更新',
+                    'title' => '帳戶已更新',
                     'body'  => 'The account has been已更新成功.',
                 ],
             ],
@@ -58,7 +58,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Account已刪除',
+                        'title' => '帳戶已刪除',
                         'body'  => 'The account has been已刪除成功.',
                     ],
 
@@ -74,7 +74,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Accounts已刪除',
+                        'title' => '帳戶已刪除',
                         'body'  => 'The accounts has been已刪除成功.',
                     ],
 
@@ -91,7 +91,7 @@ return [
         'sections' => [
             'entries' => [
                 'code'          => '代碼',
-                'account-name'  => 'Account名稱',
+                'account-name'  => '帳戶名稱',
                 'accounting'    => '會計',
                 'account-type'  => '帳戶類型',
                 'default-taxes' => '預設 稅',

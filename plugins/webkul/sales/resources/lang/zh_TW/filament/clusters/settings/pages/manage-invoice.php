@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => '管理Invoice',
+    'title' => '管理發票',
 
-    'breadcrumb' => '管理Invoice',
+    'breadcrumb' => '管理發票',
 
     'navigation' => [
-        'title' => '管理Invoice',
+        'title' => '管理發票',
     ],
 
     'form' => [

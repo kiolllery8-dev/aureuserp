@@ -57,7 +57,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Route已更新',
+                    'title' => '路徑已更新',
                     'body'  => 'The route has been已更新成功.',
                 ],
             ],
@@ -71,7 +71,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Route已刪除',
+                    'title' => '路徑已刪除',
                     'body'  => 'The route has been已刪除成功.',
                 ],
             ],
@@ -101,7 +101,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Routes已刪除',
+                    'title' => '路徑已刪除',
                     'body'  => 'The routes has been已刪除成功.',
                 ],
             ],

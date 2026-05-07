@@ -8,10 +8,10 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Page',
+            'label' => '新增頁面',
 
             'notification' => [
-                'title' => 'Page已建立',
+                'title' => '頁面已建立',
                 'body'  => 'The page has been已建立成功.',
             ],
         ],

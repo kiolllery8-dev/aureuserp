@@ -14,7 +14,7 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Task',
+            'label' => '新增任務',
         ],
     ],
 ];

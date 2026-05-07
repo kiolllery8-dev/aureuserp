@@ -7,7 +7,7 @@ return [
         'name'                  => '發票 參考編號',
         'reference'             => '參考編號',
         'date'                  => '開立日期',
-        'state'                 => 'Invoice狀態',
+        'state'                 => '發票狀態',
         'move-type'             => 'Move類型',
         'checked'               => '已核對',
         'payment-reference'     => '付款參考',

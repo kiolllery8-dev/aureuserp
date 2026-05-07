@@ -74,7 +74,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Warehouse已刪除',
+                    'title' => '倉庫已刪除',
                     'body'  => 'The warehouse has been已刪除成功.',
                 ],
             ],
@@ -104,7 +104,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Warehouses已刪除',
+                    'title' => '倉庫已刪除',
                     'body'  => 'The warehouses has been已刪除成功.',
                 ],
             ],
@@ -131,8 +131,8 @@ return [
                 'title' => '一般資料',
 
                 'entries' => [
-                    'name'    => 'Warehouse名稱',
-                    'code'    => 'Warehouse代碼',
+                    'name'    => '倉庫名稱',
+                    'code'    => '倉庫代碼',
                     'company' => '公司',
                     'address' => '地址',
                 ],

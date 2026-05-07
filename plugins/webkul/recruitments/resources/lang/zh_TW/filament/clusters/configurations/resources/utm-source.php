@@ -43,14 +43,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Source已更新',
+                    'title' => '來源已更新',
                     'body'  => 'The source has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Source已刪除',
+                    'title' => '來源已刪除',
                     'body'  => 'The source has been已刪除成功.',
                 ],
             ],
@@ -59,7 +59,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Sources已刪除',
+                    'title' => '來源已刪除',
                     'body'  => 'The 來源 has been已刪除成功.',
                 ],
             ],
@@ -68,7 +68,7 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Source已建立',
+                    'title' => '來源已建立',
                     'body'  => 'The source has been已建立成功.',
                 ],
             ],

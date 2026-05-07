@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Package已更新',
+        'title' => '包裝已更新',
         'body'  => 'The package has been已更新成功.',
     ],
 
@@ -24,7 +24,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Package已刪除',
+                    'title' => '包裝已刪除',
                     'body'  => 'The package has been已刪除成功.',
                 ],
 

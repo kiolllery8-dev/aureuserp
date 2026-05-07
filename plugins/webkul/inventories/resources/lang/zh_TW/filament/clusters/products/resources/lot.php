@@ -56,7 +56,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Lot已刪除',
+                        'title' => '批號已刪除',
                         'body'  => 'The lot has been已刪除成功.',
                     ],
 
@@ -76,7 +76,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Lots已刪除',
+                        'title' => '批號已刪除',
                         'body'  => 'The lots has been已刪除成功.',
                     ],
 
@@ -95,7 +95,7 @@ return [
                 'title' => '批號 Details',
 
                 'entries' => [
-                    'name'        => 'Lot名稱',
+                    'name'        => '批號名稱',
                     'product'     => '商品',
                     'reference'   => '參考編號',
                     'description' => '描述',

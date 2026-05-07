@@ -3,10 +3,10 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增Source',
+            'label' => '新增來源',
 
             'notification' => [
-                'title' => 'Source已建立',
+                'title' => '來源已建立',
                 'body'  => 'The source has been已建立成功.',
             ],
         ],

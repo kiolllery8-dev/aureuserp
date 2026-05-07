@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理Default 帳戶',
+    'title' => '管理預設 帳戶',
 
     'form' => [
         'exchange-difference-entries' => [

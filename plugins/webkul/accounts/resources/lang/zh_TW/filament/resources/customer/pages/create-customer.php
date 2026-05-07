@@ -1,5 +1,5 @@
 <?php
 
 return  [
-    'title' => '新增Customer',
+    'title' => '新增客戶',
 ];

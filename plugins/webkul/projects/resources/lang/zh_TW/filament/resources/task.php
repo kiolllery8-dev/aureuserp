@@ -122,7 +122,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Task已刪除',
+                    'title' => '任務已刪除',
                     'body'  => 'The task has been已刪除成功.',
                 ],
             ],
@@ -145,7 +145,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Tasks已刪除',
+                    'title' => '任務已刪除',
                     'body'  => 'The tasks has been已刪除成功.',
                 ],
             ],
@@ -174,7 +174,7 @@ return [
             ],
 
             'project-information' => [
-                'title' => 'Project資料',
+                'title' => '專案資料',
 
                 'entries' => [
                     'project'   => '專案',

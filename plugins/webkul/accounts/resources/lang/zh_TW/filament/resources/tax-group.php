@@ -36,7 +36,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '稅 Group已刪除',
+                        'title' => '稅 群組已刪除',
                         'body'  => 'The tax group has been已刪除成功.',
                     ],
 
@@ -52,7 +52,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '稅 Groups已刪除',
+                        'title' => '稅 群組已刪除',
                         'body'  => 'The tax groups has been已刪除成功.',
                     ],
 

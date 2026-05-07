@@ -28,7 +28,7 @@ return [
                 ],
 
                 'actions' => [
-                    'add' => '新增Unit',
+                    'add' => '新增單位',
                 ],
             ],
         ],
@@ -49,14 +49,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'UOM Category已更新',
+                    'title' => 'UOM 分類已更新',
                     'body'  => 'The UOM category has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'UOM Category已刪除',
+                    'title' => 'UOM 分類已刪除',
                     'body'  => 'The UOM category has been已刪除成功.',
                 ],
             ],
@@ -65,7 +65,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'UOM Categories已刪除',
+                    'title' => 'UOM 分類已刪除',
                     'body'  => 'The UOM categories has been已刪除成功.',
                 ],
             ],

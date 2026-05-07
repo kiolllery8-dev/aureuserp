@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理Taxes',
+    'title' => '管理稅',
 
     'form' => [
         'default-taxes' => [

@@ -93,7 +93,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'User已刪除',
+                    'title' => '使用者已刪除',
                     'body'  => 'The user has been已刪除成功.',
                     'error' => [
                         'title' => '使用者 Cannot Be Deleted',
@@ -120,7 +120,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Users已刪除',
+                    'title' => '使用者已刪除',
                     'body'  => 'The users has been已刪除成功.',
                 ],
             ],
@@ -140,7 +140,7 @@ return [
         'empty-state-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Users已建立',
+                    'title' => '使用者已建立',
                     'body'  => 'The users has been已建立成功.',
                 ],
             ],

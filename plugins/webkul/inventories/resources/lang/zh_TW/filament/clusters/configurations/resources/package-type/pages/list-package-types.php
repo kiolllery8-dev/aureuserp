@@ -3,10 +3,10 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增Package類型',
+            'label' => '新增包裝類型',
 
             'notification' => [
-                'title' => 'Package類型已建立',
+                'title' => '包裝類型已建立',
                 'body'  => 'The package type has been已建立成功.',
             ],
         ],

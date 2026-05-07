@@ -6,7 +6,7 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => '新增Location',
+                'label' => '新增位置',
 
                 'notification' => [
                     'title' => '位置 Created',

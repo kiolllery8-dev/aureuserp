@@ -5,7 +5,7 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Task',
+            'label' => '新增任務',
         ],
     ],
 
@@ -20,7 +20,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Task已刪除',
+                    'title' => '任務已刪除',
                     'body'  => 'The task has been已刪除成功.',
                 ],
             ],

@@ -3,7 +3,7 @@
 return [
     'header-actions' => [
         'create' => [
-            'title' => '新增Public Holiday',
+            'title' => '新增公開 Holiday',
 
             'notification' => [
                 'created' => [

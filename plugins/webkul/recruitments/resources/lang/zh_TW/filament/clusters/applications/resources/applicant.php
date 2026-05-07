@@ -73,11 +73,11 @@ return [
 
     'table' => [
         'columns' => [
-            'partner-name'       => 'Partner名稱',
+            'partner-name'       => '夥伴名稱',
             'applied-on'         => 'Applied On',
             'job-position'       => '職位',
             'stage'              => '階段',
-            'candidate-name'     => 'Candidate名稱',
+            'candidate-name'     => '應徵者名稱',
             'evaluation'         => 'Evaluation',
             'application-status' => 'Application狀態',
             'tags'               => '標籤',
@@ -119,7 +119,7 @@ return [
         'groups' => [
             'stage'          => '階段',
             'job-position'   => '職位',
-            'candidate-name' => 'Candidate名稱',
+            'candidate-name' => '應徵者名稱',
             'responsible'    => '負責人',
             'creation-date'  => 'Creation日期',
             'hired-date'     => 'Hired日期',
@@ -130,14 +130,14 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Employees已刪除',
+                    'title' => '員工已刪除',
                     'body'  => 'The employees has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => 'Employees已刪除',
+                    'title' => '員工已刪除',
                     'body'  => 'The employees has been已刪除成功.',
                 ],
             ],

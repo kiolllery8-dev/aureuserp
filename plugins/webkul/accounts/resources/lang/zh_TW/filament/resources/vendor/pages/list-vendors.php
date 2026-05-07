@@ -5,7 +5,7 @@ return  [
 
     'header-actions' => [
         'create' => [
-            'title' => '新增Vendor',
+            'title' => '新增供應商',
         ]
     ]
 ];

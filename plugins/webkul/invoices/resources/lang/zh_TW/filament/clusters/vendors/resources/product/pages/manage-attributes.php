@@ -13,10 +13,10 @@ return [
 
         'header-actions' => [
             'create' => [
-                'label' => '新增Attribute',
+                'label' => '新增屬性',
 
                 'notification' => [
-                    'title' => 'Attribute已建立',
+                    'title' => '屬性已建立',
                     'body'  => 'The attribute has been已建立成功.',
                 ],
             ],
@@ -30,14 +30,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Attribute已更新',
+                    'title' => '屬性已更新',
                     'body'  => 'The attribute has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Attribute已刪除',
+                    'title' => '屬性已刪除',
                     'body'  => 'The attribute has been已刪除成功.',
                 ],
             ],

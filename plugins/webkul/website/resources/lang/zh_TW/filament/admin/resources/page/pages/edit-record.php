@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Page已更新',
+        'title' => '頁面已更新',
         'body'  => 'The page has been已更新成功.',
     ],
 
@@ -20,14 +20,14 @@ return [
             'label' => '發佈',
 
             'notification' => [
-                'title' => 'Page已發佈',
+                'title' => '頁面已發佈',
                 'body'  => 'The page has been已發佈成功.',
             ],
         ],
 
         'delete' => [
             'notification' => [
-                'title' => 'Page已刪除',
+                'title' => '頁面已刪除',
                 'body'  => 'The page has been已刪除成功.',
             ],
         ],

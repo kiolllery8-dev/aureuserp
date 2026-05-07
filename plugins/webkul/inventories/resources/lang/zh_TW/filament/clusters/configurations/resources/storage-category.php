@@ -13,7 +13,7 @@ return [
 
                 'fields' => [
                     'name'               => '名稱',
-                    'allow-new-products' => 'Allow 新增Products',
+                    'allow-new-products' => 'Allow 新增商品',
                     'max-weight'         => 'Max 重量',
                     'company'            => '公司',
                 ],
@@ -24,7 +24,7 @@ return [
     'table' => [
         'columns' => [
             'name'               => '名稱',
-            'allow-new-products' => 'Allow 新增Products',
+            'allow-new-products' => 'Allow 新增商品',
             'max-weight'         => 'Max 重量',
             'company'            => '公司',
             'deleted-at'         => '刪除時間',
@@ -33,7 +33,7 @@ return [
         ],
 
         'groups' => [
-            'allow-new-products' => 'Allow 新增Products',
+            'allow-new-products' => 'Allow 新增商品',
             'created-at'         => '建立時間',
             'updated-at'         => '更新時間',
         ],
@@ -41,7 +41,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Storage Category已刪除',
+                    'title' => 'Storage 分類已刪除',
                     'body'  => 'The storage category has been已刪除成功.',
                 ],
             ],
@@ -50,7 +50,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Storage Categories已刪除',
+                    'title' => 'Storage 分類已刪除',
                     'body'  => 'The storage categories has been已刪除成功.',
                 ],
             ],
@@ -64,7 +64,7 @@ return [
 
                 'entries' => [
                     'name'               => '名稱',
-                    'allow-new-products' => 'Allow 新增Products',
+                    'allow-new-products' => 'Allow 新增商品',
                     'max-weight'         => 'Max 重量',
                     'company'            => '公司',
                 ],

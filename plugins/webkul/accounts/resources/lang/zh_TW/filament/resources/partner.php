@@ -69,8 +69,8 @@ return [
 
                         'fields' => [
                             'auto-post-bills' => 'Auto 文章 進貨單',
-                            'ignore-abnormal-invoice-amount' => 'Ignore Abnormal Invoice金額',
-                            'ignore-abnormal-invoice-date' => 'Ignore Abnormal Invoice日期',
+                            'ignore-abnormal-invoice-amount' => 'Ignore Abnormal 發票金額',
+                            'ignore-abnormal-invoice-date' => 'Ignore Abnormal 發票日期',
                         ],
                     ]
                 ],
@@ -145,8 +145,8 @@ return [
 
                         'entries' => [
                             'auto-post-bills' => 'Auto 文章 進貨單',
-                            'ignore-abnormal-invoice-amount' => 'Ignore Abnormal Invoice金額',
-                            'ignore-abnormal-invoice-date' => 'Ignore Abnormal Invoice日期',
+                            'ignore-abnormal-invoice-amount' => 'Ignore Abnormal 發票金額',
+                            'ignore-abnormal-invoice-date' => 'Ignore Abnormal 發票日期',
                         ],
                     ]
                 ],

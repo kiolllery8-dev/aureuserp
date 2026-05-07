@@ -5,7 +5,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Tax已刪除',
+                    'title' => '稅已刪除',
                     'body'  => 'The tax has been已刪除成功.',
                 ],
 

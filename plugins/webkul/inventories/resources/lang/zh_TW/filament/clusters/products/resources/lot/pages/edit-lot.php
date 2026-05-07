@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Lot已更新',
+        'title' => '批號已更新',
         'body'  => 'The lot has been已更新成功.',
     ],
 
@@ -14,7 +14,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Lot已刪除',
+                    'title' => '批號已刪除',
                     'body'  => 'The lot has been已刪除成功.',
                 ],
 

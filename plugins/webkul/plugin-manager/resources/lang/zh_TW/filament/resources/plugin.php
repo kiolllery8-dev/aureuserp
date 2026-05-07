@@ -24,7 +24,7 @@ return [
         'all_plugins'         => 'All Plugins',
         'installed'           => 'Installed',
         'not_installed'       => 'Not Installed',
-        'active_status'       => 'Active狀態',
+        'active_status'       => '啟用中狀態',
         'author'              => '作者',
         'webkul'              => 'Webkul',
         'third_party'         => 'Third Party',

@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'title' => '管理Operations',
+    'title' => '管理作業',
 
     'table' => [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Internal Transfer已建立',
+                    'title' => 'Internal 調撥已建立',
                     'body'  => 'The internal transfer has been已建立成功.',
                 ],
             ],

@@ -3,10 +3,10 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增Category',
+            'label' => '新增分類',
 
             'notification' => [
-                'title' => 'Category已建立',
+                'title' => '分類已建立',
                 'body'  => 'The category has been已建立成功.',
             ],
         ],

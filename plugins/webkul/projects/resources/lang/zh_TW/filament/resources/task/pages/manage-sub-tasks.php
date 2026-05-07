@@ -9,7 +9,7 @@ return [
                 'label' => '新增Sub 任務',
 
                 'notification' => [
-                    'title' => 'Task已建立',
+                    'title' => '任務已建立',
                     'body'  => 'The task has been已建立成功.',
                 ],
             ],
@@ -25,7 +25,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Task已刪除',
+                    'title' => '任務已刪除',
                     'body'  => 'The task has been已刪除成功.',
                 ],
             ],

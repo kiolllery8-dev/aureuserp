@@ -4,7 +4,7 @@ return [
     'update' => [
         'success' => [
             'notification' => [
-                'title' => 'Department已更新',
+                'title' => '部門已更新',
                 'body'  => 'The department has been已更新成功.',
             ],
         ],
@@ -20,7 +20,7 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Department已刪除',
+                'title' => '部門已刪除',
                 'body'  => 'The department has been已刪除成功.',
             ],
         ],

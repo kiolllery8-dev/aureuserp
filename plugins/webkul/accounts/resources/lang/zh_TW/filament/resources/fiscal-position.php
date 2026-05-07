@@ -56,7 +56,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '付款 Term已刪除',
+                    'title' => '付款 條件已刪除',
                     'body'  => 'The payment term has been已刪除成功.',
                 ],
             ],

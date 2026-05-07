@@ -6,7 +6,7 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => '新增Project Milestone',
+                'label' => '新增專案 Milestone',
 
                 'notification' => [
                     'title' => 'Milestone已建立',

@@ -55,7 +55,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Package已刪除',
+                        'title' => '包裝已刪除',
                         'body'  => 'The package has been已刪除成功.',
                     ],
 
@@ -79,7 +79,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Packages已刪除',
+                        'title' => '包裝已刪除',
                         'body'  => 'The packages has been已刪除成功.',
                     ],
 
@@ -98,7 +98,7 @@ return [
                 'title' => '包裝 Details',
 
                 'entries' => [
-                    'name'         => 'Package名稱',
+                    'name'         => '包裝名稱',
                     'package-type' => '包裝類型',
                     'pack-date'    => 'Pack日期',
                     'location'     => '位置',

@@ -8,7 +8,7 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Activity Plan',
+            'label' => '新增活動 Plan',
 
             'notification' => [
                 'title' => '活動 Plan已建立',

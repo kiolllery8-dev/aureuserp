@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理Operations',
+    'title' => '管理作業',
 
     'form' => [
         'enable-packages'                     => '包裝',

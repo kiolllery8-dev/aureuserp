@@ -59,7 +59,7 @@ return [
             'company-name'        => '公司',
             'time-off-approval'   => '請假 Approval',
             'requires-allocation' => 'Requires Allocation',
-            'time-type'           => 'Time類型',
+            'time-type'           => '時間類型',
             'request-unit'        => 'Request 單位',
             'created-by'          => '建立者',
         ],

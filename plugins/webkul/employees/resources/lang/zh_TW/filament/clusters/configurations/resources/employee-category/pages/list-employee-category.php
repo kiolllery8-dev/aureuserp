@@ -3,10 +3,10 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增Tag',
+            'label' => '新增標籤',
 
             'notification' => [
-                'title' => 'Tag已建立',
+                'title' => '標籤已建立',
                 'body'  => 'The tag has been已建立成功.',
             ],
         ],

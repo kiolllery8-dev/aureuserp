@@ -4,7 +4,7 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Invoice已刪除',
+                'title' => '發票已刪除',
                 'body'  => 'The invoice has been已刪除成功.',
             ],
         ],

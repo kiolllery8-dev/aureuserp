@@ -20,7 +20,7 @@ return [
     'header-actions' => [
         'update-quantity' => [
             'label'                     => 'Update數量',
-            'modal-heading'             => 'Update Product數量',
+            'modal-heading'             => 'Update 商品數量',
             'modal-submit-action-label' => '更新',
 
             'form' => [

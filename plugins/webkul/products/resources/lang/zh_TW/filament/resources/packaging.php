@@ -93,7 +93,7 @@ return [
                 'title' => '一般資料',
 
                 'entries' => [
-                    'name'    => 'Package名稱',
+                    'name'    => '包裝名稱',
                     'barcode' => '條碼',
                     'product' => '商品',
                     'qty'     => '數量',

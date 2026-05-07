@@ -56,7 +56,7 @@ return [
                 'order-date'            => '訂單日期',
                 'from'                  => 'From',
                 'confirmation-date'     => 'Confirmation日期',
-                'receipt-date'          => 'Receipt日期',
+                'receipt-date'          => '進貨日期',
                 'products'              => '商品',
                 'untaxed-amount'        => '未稅金額',
                 'tax-amount'            => '稅額',

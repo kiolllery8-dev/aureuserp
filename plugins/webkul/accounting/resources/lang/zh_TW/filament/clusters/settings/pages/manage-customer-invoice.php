@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理Customer 發票',
+    'title' => '管理客戶 發票',
 
     'form' => [
         'cash-rounding' => [

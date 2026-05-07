@@ -18,7 +18,7 @@ return [
 
                 'fields' => [
                     'name'             => '名稱',
-                    'name-placeholder' => 'Project名稱...',
+                    'name-placeholder' => '專案名稱...',
                     'description'      => '描述',
                 ],
             ],
@@ -107,7 +107,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Project已刪除',
+                    'title' => '專案已刪除',
                     'body'  => 'The project has been已刪除成功.',
                 ],
             ],
@@ -139,7 +139,7 @@ return [
 
                 'entries' => [
                     'name'             => '名稱',
-                    'name-placeholder' => 'Project名稱...',
+                    'name-placeholder' => '專案名稱...',
                     'description'      => '描述',
                 ],
             ],
@@ -150,7 +150,7 @@ return [
                 'entries' => [
                     'project-manager'        => '專案 主管',
                     'customer'               => '客戶',
-                    'project-timeline'       => 'Project時間line',
+                    'project-timeline'       => '專案時間line',
                     'allocated-hours'        => 'Allocated Hours',
                     'allocated-hours-suffix' => ' Hours',
                     'remaining-hours'        => 'Remaining Hours',

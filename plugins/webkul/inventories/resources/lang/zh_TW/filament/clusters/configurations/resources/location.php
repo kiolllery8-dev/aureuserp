@@ -24,7 +24,7 @@ return [
                 'title'  => '設定',
 
                 'fields' => [
-                    'location-type'                 => 'Location類型',
+                    'location-type'                 => '位置類型',
                     'company'                       => '公司',
                     'storage-category'              => '儲存分類',
                     'is-scrap'                      => 'Is a Scrap 位置?',
@@ -78,7 +78,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Location已更新',
+                    'title' => '位置已更新',
                     'body'  => 'The location has been已更新成功.',
                 ],
             ],
@@ -92,7 +92,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Location已刪除',
+                    'title' => '位置已刪除',
                     'body'  => 'The location has been已刪除成功.',
                 ],
             ],
@@ -126,7 +126,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Locations已刪除',
+                    'title' => '位置已刪除',
                     'body'  => 'The locations has been已刪除成功.',
                 ],
             ],
@@ -165,7 +165,7 @@ return [
                 'title'  => '設定',
 
                 'entries' => [
-                    'location-type'                 => 'Location類型',
+                    'location-type'                 => '位置類型',
                     'company'                       => '公司',
                     'storage-category'              => '儲存分類',
                     'is-scrap'                      => 'Is a Scrap 位置?',

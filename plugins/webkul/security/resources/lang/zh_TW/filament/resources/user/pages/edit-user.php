@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'User已更新',
+        'title' => '使用者已更新',
         'body'  => 'The user has been已更新成功.',
     ],
 
@@ -23,7 +23,7 @@ return [
 
         'delete' => [
             'notification' => [
-                'title' => 'User已刪除',
+                'title' => '使用者已刪除',
                 'body'  => 'The user has been已刪除成功.',
                 'error' => [
                     'title' => '使用者 Cannot Be Deleted',

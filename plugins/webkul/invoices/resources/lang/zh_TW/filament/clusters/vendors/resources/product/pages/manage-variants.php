@@ -18,14 +18,14 @@ return [
             'description'            => '描述',
             'time-spent'             => '花費時間',
             'time-spent-on-subtasks' => '時間 Spent on Subtasks',
-            'total-time-spent'       => 'Total時間 Spent',
+            'total-time-spent'       => '總計時間 Spent',
             'remaining-time'         => 'Remaining時間',
         ],
 
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Variant已刪除',
+                    'title' => '規格已刪除',
                     'body'  => 'The variant has been已刪除成功.',
                 ],
             ],

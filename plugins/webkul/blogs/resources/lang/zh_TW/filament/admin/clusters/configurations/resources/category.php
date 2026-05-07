@@ -32,7 +32,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Category已更新',
+                    'title' => '分類已更新',
                     'body'  => 'The category has been已更新成功.',
                 ],
             ],
@@ -46,7 +46,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Category已刪除',
+                    'title' => '分類已刪除',
                     'body'  => 'The category has been已刪除成功.',
                 ],
             ],
@@ -84,7 +84,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Categories已刪除',
+                    'title' => '分類已刪除',
                     'body'  => 'The categories has been已刪除成功.',
                 ],
             ],

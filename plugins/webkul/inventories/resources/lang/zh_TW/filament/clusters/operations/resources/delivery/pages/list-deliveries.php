@@ -3,10 +3,10 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增Delivery',
+            'label' => '新增出貨',
 
             'notification' => [
-                'title' => 'Delivery已建立',
+                'title' => '出貨已建立',
                 'body'  => 'The delivery has been已建立成功.',
             ],
         ],

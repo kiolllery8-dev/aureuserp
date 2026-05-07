@@ -8,10 +8,10 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Operation類型',
+            'label' => '新增作業類型',
 
             'notification' => [
-                'title' => 'Operation類型已建立',
+                'title' => '作業類型已建立',
                 'body'  => 'The operation type has been已建立成功.',
             ],
         ],

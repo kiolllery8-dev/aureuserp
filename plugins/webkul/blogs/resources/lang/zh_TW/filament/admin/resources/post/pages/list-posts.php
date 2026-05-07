@@ -8,10 +8,10 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Post',
+            'label' => '新增文章',
 
             'notification' => [
-                'title' => 'Post已建立',
+                'title' => '文章已建立',
                 'body'  => 'The post has been已建立成功.',
             ],
         ],

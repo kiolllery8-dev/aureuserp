@@ -6,10 +6,10 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => '新增Vendor價格',
+                'label' => '新增供應商價格',
 
                 'notification' => [
-                    'title' => 'Vendor價格已建立',
+                    'title' => '供應商價格已建立',
                     'body'  => 'The vendor price has been已建立成功.',
                 ],
             ],

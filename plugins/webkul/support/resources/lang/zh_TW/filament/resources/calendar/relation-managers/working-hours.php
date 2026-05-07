@@ -27,7 +27,7 @@ return [
             ],
 
             'date-information' => [
-                'title' => 'Date資料',
+                'title' => '日期資料',
 
                 'fields' => [
                     'starting-date' => 'Starting日期',
@@ -155,7 +155,7 @@ return [
             ],
 
             'date-information' => [
-                'title' => 'Date資料',
+                'title' => '日期資料',
 
                 'entries' => [
                     'starting-date' => 'Starting日期',

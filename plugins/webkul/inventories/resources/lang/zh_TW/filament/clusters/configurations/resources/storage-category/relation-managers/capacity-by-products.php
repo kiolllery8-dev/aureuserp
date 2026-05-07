@@ -11,7 +11,7 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => '新增Product Capacity',
+                'label' => '新增商品 Capacity',
 
                 'notification' => [
                     'title' => '商品 Capacity已建立',

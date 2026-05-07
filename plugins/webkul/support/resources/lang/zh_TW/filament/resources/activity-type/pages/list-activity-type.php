@@ -8,7 +8,7 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增Activity類型',
+            'label' => '新增活動類型',
         ],
     ],
 ];

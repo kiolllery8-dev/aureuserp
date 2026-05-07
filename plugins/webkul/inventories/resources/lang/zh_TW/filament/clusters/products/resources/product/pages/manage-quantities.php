@@ -36,7 +36,7 @@ return [
 
             'on-hand-before-state-updated' => [
                 'notification' => [
-                    'title' => 'Quantity已更新',
+                    'title' => '數量已更新',
                     'body'  => 'The quantity has been已更新成功.',
                 ],
             ],
@@ -44,7 +44,7 @@ return [
 
         'header-actions' => [
             'create' => [
-                'label' => '新增Quantity',
+                'label' => '新增數量',
 
                 'notification' => [
                     'title' => '數量 added',
@@ -53,7 +53,7 @@ return [
 
                 'before' => [
                     'notification' => [
-                        'title' => 'Quantity已存在',
+                        'title' => '數量已存在',
                         'body'  => 'Already has a quantity for the same configuration. Please update the quantity instead.',
                     ],
                 ],
@@ -63,7 +63,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Quantity已刪除',
+                    'title' => '數量已刪除',
                     'body'  => 'The quantity has been已刪除成功.',
                 ],
             ],

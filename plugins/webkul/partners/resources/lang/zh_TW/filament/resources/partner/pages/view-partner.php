@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => '檢視Contact',
+    'title' => '檢視聯絡人',
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Contact已刪除',
+                'title' => '聯絡人已刪除',
                 'body'  => 'The contact has been已刪除成功.',
             ],
         ],

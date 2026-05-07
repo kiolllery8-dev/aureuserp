@@ -6,10 +6,10 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => '新增Contact',
+                'label' => '新增聯絡人',
 
                 'notification' => [
-                    'title' => 'Contact已建立',
+                    'title' => '聯絡人已建立',
                     'body'  => 'The contact has been已建立成功.',
                 ],
             ],

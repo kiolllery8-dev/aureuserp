@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理Time',
+    'title' => '管理時間',
 
     'form' => [
         'enable-timesheets'             => 'Enable時間sheets',

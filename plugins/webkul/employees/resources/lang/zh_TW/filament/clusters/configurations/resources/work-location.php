@@ -11,7 +11,7 @@ return [
     'form' => [
         'name'            => '名稱',
         'company'         => '公司',
-        'location-type'   => 'Location類型',
+        'location-type'   => '位置類型',
         'location-number' => '位置 編號',
         'status'          => '狀態',
     ],
@@ -22,7 +22,7 @@ return [
             'name'            => '名稱',
             'status'          => '狀態',
             'company'         => '公司',
-            'location-type'   => 'Location類型',
+            'location-type'   => '位置類型',
             'location-number' => '位置 編號',
             'deleted-at'      => '刪除時間',
             'created-by'      => '建立者',
@@ -36,7 +36,7 @@ return [
             'created-by'      => '建立者',
             'company'         => '公司',
             'location-number' => '位置 編號',
-            'location-type'   => 'Location類型',
+            'location-type'   => '位置類型',
             'updated-at'      => '更新時間',
             'created-at'      => '建立時間',
         ],
@@ -44,7 +44,7 @@ return [
         'groups' => [
             'name'          => '名稱',
             'status'        => '狀態',
-            'location-type' => 'Location類型',
+            'location-type' => '位置類型',
             'company'       => '公司',
             'created-by'    => '建立者',
             'created-at'    => '建立時間',
@@ -54,7 +54,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Work Location已更新',
+                    'title' => 'Work 位置已更新',
                     'body'  => 'The work 位置 has been已更新成功.',
                 ],
             ],
@@ -68,7 +68,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Work Location已刪除',
+                    'title' => 'Work 位置已刪除',
                     'body'  => 'The work 位置 has been已刪除成功.',
                 ],
             ],
@@ -82,7 +82,7 @@ return [
 
             'empty-state' => [
                 'notification' => [
-                    'title' => 'Work Location已建立',
+                    'title' => 'Work 位置已建立',
                     'body'  => 'The Work 位置 has been已建立成功.',
                 ],
             ],
@@ -91,7 +91,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Work Locations已刪除',
+                    'title' => 'Work 位置已刪除',
                     'body'  => 'The work 位置 has been已刪除成功.',
                 ],
             ],
@@ -108,7 +108,7 @@ return [
     'infolist' => [
         'name'            => '名稱',
         'company'         => '公司',
-        'location-type'   => 'Location類型',
+        'location-type'   => '位置類型',
         'location-number' => '位置 編號',
         'status'          => '狀態',
     ],

@@ -42,7 +42,7 @@ return [
                             'product-simple'      => '商品 Simple',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
-                            'lead-time'           => 'Lead時間',
+                            'lead-time'           => '商機時間',
                             'qty-delivered'       => 'Delivered',
                             'qty-invoiced'        => 'Invoiced',
                             'packaging-qty'       => 'Packaging數量',
@@ -62,7 +62,7 @@ return [
                             'product-simple'      => '商品 Simple',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
-                            'lead-time'           => 'Lead時間',
+                            'lead-time'           => '商機時間',
                             'qty-delivered'       => '數量 Delivered',
                             'qty-invoiced'        => '數量 Invoiced',
                             'packaging-qty'       => 'Packaging數量',
@@ -85,7 +85,7 @@ return [
 
                         'delete-action' => [
                             'error' => [
-                                'title' => 'Cannot 刪除Product',
+                                'title' => 'Cannot 刪除商品',
                                 'body'  => '商品 cannot be已刪除 from a confirmed sales order.',
                             ],
                         ],
@@ -114,7 +114,7 @@ return [
 
                             'actions' => [
                                 'tooltip' => [
-                                    'add-order-line' => '新增Order Line',
+                                    'add-order-line' => '新增訂單 Line',
                                 ],
 
                                 'notifications' => [
@@ -159,7 +159,7 @@ return [
                     'shipping' => [
                         'title'  => 'Shipping',
                         'fields' => [
-                            'commitment-date' => 'Delivery日期',
+                            'commitment-date' => '出貨日期',
                         ],
                     ],
 
@@ -194,7 +194,7 @@ return [
         'columns' => [
             'number'             => '編號',
             'status'             => '狀態',
-            'invoice-status'     => 'Invoice狀態',
+            'invoice-status'     => '發票狀態',
             'creation-date'      => 'Creation日期',
             'commitment-date'    => 'Commitment日期',
             'expected-date'      => 'Expected日期',
@@ -203,7 +203,7 @@ return [
             'sales-team'         => '業務團隊',
             'untaxed-amount'     => '未稅金額',
             'amount-tax'         => '金額 稅',
-            'amount-total'       => 'Amount總計',
+            'amount-total'       => '金額總計',
             'customer-reference' => '客戶 參考編號',
         ],
 
@@ -244,7 +244,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Quotation已刪除',
+                    'title' => '報價單已刪除',
                     'body'  => 'The quotation has been已刪除成功.',
                 ],
             ],
@@ -267,7 +267,7 @@ return [
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Quotations已刪除',
+                    'title' => '報價單已刪除',
                     'body'  => 'The quotations has been已刪除成功.',
                 ],
             ],
@@ -283,7 +283,7 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Quotations已建立',
+                    'title' => '報價單已建立',
                     'body'  => 'The quotations has been已建立成功.',
                 ],
             ],
@@ -318,7 +318,7 @@ return [
                             'product-simple'      => '商品 Simple',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
-                            'lead-time'           => 'Lead時間',
+                            'lead-time'           => '商機時間',
                             'packaging-qty'       => 'Packaging數量',
                             'packaging'           => '包裝',
                             'unit-price'          => '單價',
@@ -346,7 +346,7 @@ return [
 
                             'actions' => [
                                 'tooltip' => [
-                                    'add-order-line' => '新增Order Line',
+                                    'add-order-line' => '新增訂單 Line',
                                 ],
 
                                 'notifications' => [
@@ -377,7 +377,7 @@ return [
                     'shipping' => [
                         'title'   => 'Shipping',
                         'entries' => [
-                            'commitment-date' => 'Delivery日期',
+                            'commitment-date' => '出貨日期',
                         ],
                     ],
 

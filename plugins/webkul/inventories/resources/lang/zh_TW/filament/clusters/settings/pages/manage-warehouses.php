@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理Warehouses',
+    'title' => '管理倉庫',
 
     'form' => [
         'enable-locations'                      => '位置',

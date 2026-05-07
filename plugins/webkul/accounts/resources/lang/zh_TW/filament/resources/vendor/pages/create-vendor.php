@@ -1,5 +1,5 @@
 <?php
 
 return  [
-    'title' => '新增Vendor',
+    'title' => '新增供應商',
 ];

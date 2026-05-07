@@ -27,33 +27,33 @@ return [
         ],
 
         'header-actions' => [
-            'add-skill' => '新增Skill',
+            'add-skill' => '新增技能',
         ],
 
         'filters' => [
             'activity-type'   => '活動類型',
-            'activity-status' => 'Activity狀態',
+            'activity-status' => '活動狀態',
             'has-delay'       => 'Has Delay',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Skill已更新',
+                    'title' => '技能已更新',
                     'body'  => 'The skill has been已更新成功.',
                 ],
             ],
 
             'create' => [
                 'notification' => [
-                    'title' => 'Skill已建立',
+                    'title' => '技能已建立',
                     'body'  => 'The skill has been已建立成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Skill已刪除',
+                    'title' => '技能已刪除',
                     'body'  => 'The skill has been已刪除成功.',
                 ],
             ],
@@ -62,7 +62,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Skills已刪除',
+                    'title' => '技能已刪除',
                     'body'  => 'The skills has been已刪除成功.',
                 ],
             ],

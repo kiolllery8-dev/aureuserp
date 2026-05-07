@@ -37,14 +37,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Tags已更新',
+                    'title' => '標籤已更新',
                     'body'  => 'The tags has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Tags已刪除',
+                    'title' => '標籤已刪除',
                     'body'  => 'The tags has been已刪除成功.',
                 ],
             ],
@@ -53,7 +53,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '應徵者 Categories已刪除',
+                    'title' => '應徵者 分類已刪除',
                     'body'  => 'The applicant 分類 has been已刪除成功.',
                 ],
             ],
@@ -62,7 +62,7 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => 'Tags已建立',
+                    'title' => '標籤已建立',
                     'body'  => 'The tags has been已建立成功.',
                 ],
             ],

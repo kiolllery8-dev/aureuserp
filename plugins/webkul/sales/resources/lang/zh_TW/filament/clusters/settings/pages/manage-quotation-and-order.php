@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => '管理Quotation & 訂單',
+    'title' => '管理報價單 & 訂單',
 
-    'breadcrumb' => '管理Quotation & 訂單',
+    'breadcrumb' => '管理報價單 & 訂單',
 
     'navigation' => [
-        'title' => '管理Quotation & 訂單',
+        'title' => '管理報價單 & 訂單',
     ],
 
     'form' => [

@@ -20,7 +20,7 @@ return [
                 'title' => '選項',
 
                 'fields' => [
-                    'add-option' => '新增Option',
+                    'add-option' => '新增選項',
                 ],
             ],
 
@@ -46,7 +46,7 @@ return [
                             'setting'     => '設定',
                             'value'       => '值',
                             'color'       => '顏色',
-                            'add-setting' => '新增Setting',
+                            'add-setting' => '新增設定',
 
                             'color-options' => [
                                 'danger'    => 'Danger',
@@ -298,7 +298,7 @@ return [
                         'close-on-date-selection' => 'Close on日期 Selection',
                         'default'                 => '預設值',
                         'disabled'                => '已停用',
-                        'disabled-dates'          => 'Disabled日期s',
+                        'disabled-dates'          => '停用日期s',
                         'display-format'          => 'Display Format',
                         'first-fay-of-week'       => 'First Day of Week',
                         'format'                  => 'Format',
@@ -355,12 +355,12 @@ return [
                     ],
 
                     'file' => [
-                        'accepted-file-types'                   => 'Accepted File類型s',
+                        'accepted-file-types'                   => 'Accepted 檔案類型s',
                         'append-files'                          => 'Append 檔案',
                         'deletable'                             => 'Deletable',
                         'directory'                             => 'Directory',
                         'downloadable'                          => 'Downloadable',
-                        'fetch-file-information'                => 'Fetch File資料',
+                        'fetch-file-information'                => 'Fetch 檔案資料',
                         'file-attachments-directory'            => '檔案 Attachments Directory',
                         'file-attachments-visibility'           => '檔案 Attachments Visibility',
                         'image'                                 => '圖片',
@@ -403,7 +403,7 @@ return [
                     'font-weight'   => 'Font 重量',
                     'icon-position' => 'Icon Position',
                     'size'          => 'Size',
-                    'add-setting'   => '新增Setting',
+                    'add-setting'   => '新增設定',
 
                     'color-options' => [
                         'danger'    => 'Danger',
@@ -492,8 +492,8 @@ return [
 
                     'datetime' => [
                         'date'              => '日期',
-                        'date-time'         => 'Date時間',
-                        'date-time-tooltip' => 'Date時間 Tooltip',
+                        'date-time'         => '日期時間',
+                        'date-time-tooltip' => '日期時間 Tooltip',
                         'since'             => 'Since',
                     ],
                 ],
@@ -509,7 +509,7 @@ return [
                     'font-weight'   => 'Font 重量',
                     'icon-position' => 'Icon Position',
                     'size'          => 'Size',
-                    'add-setting'   => '新增Setting',
+                    'add-setting'   => '新增設定',
 
                     'color-options' => [
                         'danger'    => 'Danger',
@@ -588,8 +588,8 @@ return [
 
                     'datetime' => [
                         'date'              => '日期',
-                        'date-time'         => 'Date時間',
-                        'date-time-tooltip' => 'Date時間 Tooltip',
+                        'date-time'         => '日期時間',
+                        'date-time-tooltip' => '日期時間 Tooltip',
                         'since'             => 'Since',
                     ],
 
@@ -644,7 +644,7 @@ return [
                         'radio'         => 'Radio',
                         'toggle'        => '切換',
                         'checkbox-list' => 'Checkbox列表',
-                        'datetime'      => 'Date時間 Picker',
+                        'datetime'      => '日期時間 Picker',
                         'editor'        => 'Rich Text Editor',
                         'markdown'      => 'Markdown Editor',
                         'color'         => '顏色 Picker',
@@ -697,7 +697,7 @@ return [
                 'radio'         => 'Radio',
                 'toggle'        => '切換',
                 'checkbox-list' => 'Checkbox列表',
-                'datetime'      => 'Date時間 Picker',
+                'datetime'      => '日期時間 Picker',
                 'editor'        => 'Rich Text Editor',
                 'markdown'      => 'Markdown Editor',
                 'color'         => '顏色 Picker',

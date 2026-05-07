@@ -24,14 +24,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '商品 Tag已更新',
+                    'title' => '商品 標籤已更新',
                     'body'  => 'The product 標籤 has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '商品 Tag已刪除',
+                    'title' => '商品 標籤已刪除',
                     'body'  => 'The product 標籤 has been已刪除成功.',
                 ],
             ],
@@ -39,7 +39,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '商品 Tag已刪除',
+                    'title' => '商品 標籤已刪除',
                     'body'  => 'The product 標籤 has been已刪除成功.',
                 ],
             ],
