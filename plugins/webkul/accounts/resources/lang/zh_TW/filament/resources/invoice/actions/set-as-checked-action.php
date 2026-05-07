@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'title' => 'Set as Checked',
+    'title' => '標記為已核對',
 ];

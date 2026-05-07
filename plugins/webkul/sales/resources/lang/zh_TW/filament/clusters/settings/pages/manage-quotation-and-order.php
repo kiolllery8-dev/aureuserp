@@ -1,21 +1,21 @@
 <?php
 
 return [
-    'title' => '管理報價單 & 訂單',
+    'title' => '管理Quotation & Order',
 
-    'breadcrumb' => '管理報價單 & 訂單',
+    'breadcrumb' => '管理Quotation & Order',
 
     'navigation' => [
-        'title' => '管理報價單 & 訂單',
+        'title' => '管理Quotation & Order',
     ],
 
     'form' => [
         'fields' => [
-            'validity-suffix'         => '天數',
-            'validity'                => '預設 報價單 Validity',
-            'validity-help'           => 'The default number of days a quotation is valid for.',
-            'lock-confirm-sales'      => 'Lock Confirm Sales',
-            'lock-confirm-sales-help' => 'If enabled, the sales order will be locked after confirmation.',
+            'validity-suffix'         => '日',
+            'validity'                => 'Default Quotation Validity',
+            'validity-help'           => '報價單預設有效天數。',
+            'lock-confirm-sales'      => '確認後鎖定銷售',
+            'lock-confirm-sales-help' => '啟用後，銷售訂單一旦確認即會鎖定。',
         ],
     ],
 ];

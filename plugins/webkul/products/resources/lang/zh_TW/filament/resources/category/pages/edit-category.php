@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => '分類已更新',
+        'title' => 'Category已更新',
         'body'  => 'The category has been已更新成功.',
     ],
 
@@ -10,12 +10,12 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => '分類已刪除',
+                    'title' => 'Category已刪除',
                     'body'  => 'The category has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => '分類 could not be已刪除',
+                    'title' => 'Category could not be已刪除',
                     'body'  => 'The category cannot be已刪除 because it is currently in use.',
                 ],
             ],
@@ -25,7 +25,7 @@ return [
     'save' => [
         'notification' => [
             'error' => [
-                'title' => '分類已更新失敗',
+                'title' => 'Category已更新失敗',
             ],
         ],
     ],

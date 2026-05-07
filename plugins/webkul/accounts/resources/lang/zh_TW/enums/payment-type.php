@@ -2,5 +2,5 @@
 
 return [
     'send'    => '傳送',
-    'receive' => 'Receive',
+    'receive' => '收款',
 ];

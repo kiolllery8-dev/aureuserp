@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => '供應商價格列表s',
+        'title' => 'Vendor價格列表s',
     ],
 
     'form' => [
@@ -12,24 +12,24 @@ return [
 
                 'fields' => [
                     'vendor'                      => '供應商',
-                    'vendor-product-name'         => '供應商 商品名稱',
+                    'vendor-product-name'         => 'Vendor Product名稱',
                     'vendor-product-name-tooltip' => 'The vendor\'s product name will appear on the request for quotation. Leave it blank to use the internal product name.',
-                    'vendor-product-code'         => '供應商 商品代碼',
+                    'vendor-product-code'         => 'Vendor Product代碼',
                     'vendor-product-code-tooltip' => 'The vendor\'s product code will appear on the request for quotation. Leave it blank to use the internal code.',
-                    'delay'                       => '出貨 商機時間 (天數)',
+                    'delay'                       => 'Delivery Lead時間 (Days)',
                     'delay-tooltip'               => 'The lead time (in days) from purchase order confirmation to product receipt in the warehouse. Used by the scheduler for automatic purchase order planning.',
                 ],
             ],
 
             'prices' => [
-                'title'  => '價格',
+                'title'  => 'Prices',
 
                 'fields' => [
                     'product'            => '商品',
                     'quantity'           => '數量',
-                    'quantity-tooltip'   => 'The minimum quantity required to purchase from this vendor to qualify for the specified price. This is expressed in the vendor\'s 商品 單位 of Measure or, if not set, the product\'s default unit of measure.',
+                    'quantity-tooltip'   => 'The minimum quantity required to purchase from this vendor to qualify for the specified price. This is expressed in the vendor\'s Product Unit of Measure or, if not set, the product\'s default unit of measure.',
                     'unit-price'         => '單價',
-                    'unit-price-tooltip' => 'The price per unit for this product from the vendor, expressed in the vendor’s 商品 單位 of Measure or, if not set, the product\'s default unit of measure.',
+                    'unit-price-tooltip' => 'The price per unit for this product from the vendor, expressed in the vendor’s Product Unit of Measure or, if not set, the product\'s default unit of measure.',
                     'currency'           => '幣別',
                     'valid-from'         => 'Valid From',
                     'valid-to'           => 'Valid Until',
@@ -43,9 +43,9 @@ return [
     'table' => [
         'columns' => [
             'vendor'              => '供應商',
-            'vendor-product-name' => '供應商 商品名稱',
-            'vendor-product-code' => '供應商 商品代碼',
-            'delay'               => '出貨 商機時間 (天數)',
+            'vendor-product-name' => 'Vendor Product名稱',
+            'vendor-product-code' => 'Vendor Product代碼',
+            'delay'               => 'Delivery Lead時間 (Days)',
             'product'             => '商品',
             'quantity'            => '數量',
             'unit-price'          => '單價',
@@ -59,18 +59,18 @@ return [
         ],
 
         'filters' => [
-            'vendor'        => 'Filter by 供應商',
-            'product'       => 'Filter by 商品',
-            'currency'      => 'Filter by 幣別',
-            'company'       => 'Filter by 公司',
+            'vendor'        => 'Filter by Vendor',
+            'product'       => 'Filter by Product',
+            'currency'      => 'Filter by Currency',
+            'company'       => 'Filter by Company',
             'price-from'    => 'Minimum價格',
             'price-to'      => 'Maximum價格',
             'min-qty-from'  => 'Minimum數量 From',
             'min-qty-to'    => 'Minimum數量 To',
             'starts-from'   => 'Valid From日期',
             'ends-before'   => 'Valid To日期',
-            'created-from'  => 'Created From',
-            'created-until' => 'Created Until',
+            'created-from'  => '建立自',
+            'created-until' => '建立至',
         ],
 
         'groups' => [
@@ -84,12 +84,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '供應商價格已刪除',
+                        'title' => 'Vendor價格已刪除',
                         'body'  => 'The vendor price has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '供應商價格 could not be已刪除',
+                        'title' => 'Vendor價格 could not be已刪除',
                         'body'  => 'The vendor price cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -100,12 +100,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '供應商價格s已刪除',
+                        'title' => 'Vendor價格s已刪除',
                         'body'  => 'The vendor prices has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '供應商價格s could not be已刪除',
+                        'title' => 'Vendor價格s could not be已刪除',
                         'body'  => 'The vendor prices cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -120,11 +120,11 @@ return [
 
                 'entries' => [
                     'vendor'                      => '供應商',
-                    'vendor-product-name'         => '供應商 商品名稱',
+                    'vendor-product-name'         => 'Vendor Product名稱',
                     'vendor-product-name-tooltip' => 'The vendor\'s product name will appear on the request for quotation. Leave it blank to use the internal product name.',
-                    'vendor-product-code'         => '供應商 商品代碼',
+                    'vendor-product-code'         => 'Vendor Product代碼',
                     'vendor-product-code-tooltip' => 'The vendor\'s product code will appear on the request for quotation. Leave it blank to use the internal code.',
-                    'delay'                       => '出貨 商機時間 (天數)',
+                    'delay'                       => 'Delivery Lead時間 (Days)',
                     'delay-tooltip'               => 'The lead time (in days) from purchase order confirmation to product receipt in the warehouse. Used by the scheduler for automatic purchase order planning.',
                 ],
             ],
@@ -140,14 +140,14 @@ return [
             ],
 
             'prices' => [
-                'title'  => '價格',
+                'title'  => 'Prices',
 
                 'entries' => [
                     'product'            => '商品',
                     'quantity'           => '數量',
-                    'quantity-tooltip'   => 'The minimum quantity required to purchase from this vendor to qualify for the specified price. This is expressed in the vendor\'s 商品 單位 of Measure or, if not set, the product\'s default unit of measure.',
+                    'quantity-tooltip'   => 'The minimum quantity required to purchase from this vendor to qualify for the specified price. This is expressed in the vendor\'s Product Unit of Measure or, if not set, the product\'s default unit of measure.',
                     'unit-price'         => '單價',
-                    'unit-price-tooltip' => 'The price per unit for this product from the vendor, expressed in the vendor’s 商品 單位 of Measure or, if not set, the product\'s default unit of measure.',
+                    'unit-price-tooltip' => 'The price per unit for this product from the vendor, expressed in the vendor’s Product Unit of Measure or, if not set, the product\'s default unit of measure.',
                     'currency'           => '幣別',
                     'valid-from'         => 'Valid From',
                     'valid-to'           => 'Valid Until',

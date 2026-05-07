@@ -10,12 +10,12 @@ return [
     'form' => [
         'sections' => [
             'skill-details' => [
-                'title' => '技能 Details',
+                'title' => 'Skill Details',
 
                 'fields' => [
-                    'employee'       => '員工',
+                    'employee'       => 'Employee',
                     'skill'          => '技能',
-                    'skill-level'    => 'Level',
+                    'skill-level'    => '等級',
                     'skill-type'     => '技能類別',
                 ],
             ],
@@ -33,9 +33,9 @@ return [
     'table' => [
         'columns' => [
             'id'              => '編號',
-            'employee'        => '員工',
+            'employee'        => 'Employee',
             'skill'           => '技能',
-            'skill-level'     => 'Level',
+            'skill-level'     => '等級',
             'skill-type'      => '技能類別',
             'user'            => '使用者',
             'proficiency'     => 'Proficiency',
@@ -44,9 +44,9 @@ return [
         ],
 
         'filters' => [
-            'employee'        => '員工',
+            'employee'        => 'Employee',
             'skill'           => '技能',
-            'skill-level'     => 'Level',
+            'skill-level'     => '等級',
             'skill-type'      => '技能類別',
             'user'            => '使用者',
             'created-by'      => '建立者',
@@ -55,7 +55,7 @@ return [
         ],
 
         'groups' => [
-            'employee'   => '員工',
+            'employee'   => 'Employee',
             'skill-type' => '技能類別',
         ],
     ],
@@ -63,12 +63,12 @@ return [
     'infolist' => [
         'sections' => [
             'skill-details' => [
-                'title' => '技能 Details',
+                'title' => 'Skill Details',
 
                 'entries' => [
-                    'employee'        => '員工',
+                    'employee'        => 'Employee',
                     'skill'           => '技能',
-                    'skill-level'     => 'Level',
+                    'skill-level'     => '等級',
                     'skill-type'      => '技能類別',
                 ],
             ],

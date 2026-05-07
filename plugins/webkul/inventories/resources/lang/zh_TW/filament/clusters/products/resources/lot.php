@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => '批號 / Serial 編號',
+        'title' => 'Lots / Serial Numbers',
         'group' => '庫存',
     ],
 
@@ -23,7 +23,7 @@ return [
                     'product-hint-tooltip'   => 'The product associated with this lot/serial number. It cannot be changed if it has already been moved.',
                     'reference'              => '參考編號',
                     'reference-hint-tooltip' => 'An internal reference number, if different from the manufacturer\'s lot/serial number.',
-                    'description'            => '描述',
+                    'description'            => '說明',
                 ],
             ],
         ],
@@ -56,12 +56,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '批號已刪除',
+                        'title' => 'Lot已刪除',
                         'body'  => 'The lot has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '批號 could not be已刪除',
+                        'title' => 'Lot could not be已刪除',
                         'body'  => 'The lot cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -70,18 +70,18 @@ return [
 
         'bulk-actions' => [
             'print' => [
-                'label' => 'Print Barcode',
+                'label' => '列印條碼',
             ],
 
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '批號已刪除',
+                        'title' => 'Lots已刪除',
                         'body'  => 'The lots has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '批號 could not be已刪除',
+                        'title' => 'Lots could not be已刪除',
                         'body'  => 'The lots cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -92,13 +92,13 @@ return [
     'infolist' => [
         'sections' => [
             'general' => [
-                'title' => '批號 Details',
+                'title' => 'Lot Details',
 
                 'entries' => [
-                    'name'        => '批號名稱',
+                    'name'        => 'Lot名稱',
                     'product'     => '商品',
                     'reference'   => '參考編號',
-                    'description' => '描述',
+                    'description' => '說明',
                     'on-hand-qty' => 'On-Hand數量',
                     'company'     => '公司',
                     'created-at'  => '建立時間',

@@ -3,15 +3,15 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增公司',
+            'label' => '新增Company',
         ],
     ],
 
     'tabs' => [
 
-        'all' => 'All 公司',
+        'all' => 'All Companies',
 
-        'archived' => '已封存 公司',
+        'archived' => 'Archived Companies',
 
     ],
 ];

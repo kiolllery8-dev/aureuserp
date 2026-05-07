@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'title' => 'Degrees',
+    'title' => '學位',
 
     'navigation' => [
-        'title' => 'Degrees',
-        'group' => 'Applications',
+        'title' => '學位',
+        'group' => '申請',
     ],
 
     'groups' => [
@@ -18,7 +18,7 @@ return [
     'form' => [
         'fields' => [
             'name'             => '名稱',
-            'name-placeholder' => 'Enter the name of the degree',
+            'name-placeholder' => '輸入學位名稱',
         ],
     ],
 
@@ -33,7 +33,7 @@ return [
 
         'filters' => [
             'name'       => '名稱',
-            'employee'   => '員工',
+            'employee'   => 'Employee',
             'created-by' => '建立者',
             'updated-at' => '更新時間',
             'created-at' => '建立時間',

@@ -2,16 +2,16 @@
 
 return [
     'notification' => [
-        'title' => '專案已更新',
+        'title' => 'Project已更新',
         'body'  => 'The project has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
-            'label' => '新增專案',
+            'label' => '新增Project',
 
             'notification' => [
-                'title' => '專案已更新',
+                'title' => 'Project已更新',
                 'body'  => 'The project has been已更新成功.',
             ],
         ],

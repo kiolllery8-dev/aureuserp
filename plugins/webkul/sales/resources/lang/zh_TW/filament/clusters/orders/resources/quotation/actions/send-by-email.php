@@ -1,20 +1,20 @@
 <?php
 
 return [
-    'title'        => 'Send By 電子郵件',
-    'resend-title' => 'Re-Send By 電子郵件',
+    'title'        => 'Send By Email',
+    'resend-title' => 'Re-Send By Email',
     'quotation'    => '報價單',
     'quotations'   => '報價單',
 
     'modal' => [
-        'heading' => 'Send 報價單 By 電子郵件',
+        'heading' => 'Send Quotation By Email',
     ],
 
     'form' => [
         'fields' => [
             'partners'    => '夥伴',
             'subject'     => '主旨',
-            'description' => '描述',
+            'description' => '說明',
             'attachment'  => '附件',
         ],
     ],
@@ -23,24 +23,24 @@ return [
         'notification' => [
             'email' => [
                 'no_recipients' => [
-                    'title' => 'No Recipients Selected',
+                    'title' => '未選收件人',
                     'body'  => 'Please select at least one partner to send quotations to.',
                 ],
 
                 'all_success' => [
-                    'title' => '報價單 已寄出!',
+                    'title' => 'Quotations Sent!',
                     'body'  => 'Your :plural have been成功 delivered to: :recipients',
                 ],
 
                 'all_failed' => [
-                    'title' => 'Unable to Send 報價單',
+                    'title' => 'Unable to Send Quotations',
                     'body'  => 'We encountered issues sending your quotations: :failures',
                 ],
 
                 'partial_success' => [
-                    'title'       => 'Some 報價單 已寄出',
-                    'sent_part'   => 'Successfully delivered to: :recipients',
-                    'failed_part' => 'Could not deliver to: :failures',
+                    'title'       => 'Some Quotations Sent',
+                    'sent_part'   => '已成功寄送給：:recipients',
+                    'failed_part' => '無法寄送至：:failures',
                 ],
 
                 'failure_item' => ':partner (:reason)',

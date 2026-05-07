@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'biggest-tax' => 'Modify tax amount',
-    'add-invoice' => '新增發票 Line',
+    'biggest-tax' => '修改稅額',
+    'add-invoice' => '新增Invoice Line',
 ];

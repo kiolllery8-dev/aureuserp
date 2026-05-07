@@ -3,10 +3,10 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增產業',
+            'label' => '新增Industry',
 
             'notification' => [
-                'title' => '產業已建立',
+                'title' => 'Industry已建立',
                 'body'  => 'The industry has been已建立成功.',
             ],
         ],

@@ -12,7 +12,7 @@ return [
                 'fields' => [
                     'attendance-name' => 'Attendance名稱',
                     'attendance-name' => 'Attendance名稱',
-                    'day-of-week'     => 'Day of Week',
+                    'day-of-week'     => '週幾',
                 ],
             ],
 
@@ -20,7 +20,7 @@ return [
                 'title' => 'Timing資料',
 
                 'fields' => [
-                    'day-period' => 'Day Periods',
+                    'day-period' => '時段',
                     'week-type'  => 'Week類型',
                     'work-from'  => 'Work From',
                     'work-to'    => 'Work To',
@@ -28,7 +28,7 @@ return [
             ],
 
             'date-information' => [
-                'title' => '日期資料',
+                'title' => 'Date資料',
 
                 'fields' => [
                     'starting-date' => 'Starting日期',
@@ -40,7 +40,7 @@ return [
                 'title' => '其他資料',
 
                 'fields' => [
-                    'durations-days' => 'Duration (天數)',
+                    'durations-days' => 'Duration (Days)',
                     'display-type'   => '顯示類型',
                 ],
             ],
@@ -50,8 +50,8 @@ return [
     'table' => [
         'columns' => [
             'name'          => 'Attendance名稱',
-            'day-of-week'   => 'Day of Week',
-            'day-period'    => 'Day Periods',
+            'day-of-week'   => '週幾',
+            'day-period'    => '時段',
             'work-from'     => 'Work From',
             'work-to'       => 'Work To',
             'starting-date' => 'Starting日期',
@@ -66,9 +66,9 @@ return [
             'activity-type' => '活動類型',
             'assignment'    => '指派',
             'assigned-to'   => '指派給',
-            'interval'      => 'Interval',
-            'delay-unit'    => 'Delay 單位',
-            'delay-from'    => 'Delay From',
+            'interval'      => '間隔',
+            'delay-unit'    => 'Delay Unit',
+            'delay-from'    => '延遲起始',
             'created-by'    => '建立者',
             'created-at'    => '建立時間',
             'updated-at'    => '更新時間',
@@ -76,7 +76,7 @@ return [
 
         'filters' => [
             'display-type' => '顯示類型',
-            'day-of-week'  => 'Day of Week',
+            'day-of-week'  => '週幾',
         ],
 
         'actions' => [
@@ -103,7 +103,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Working Hours restored',
+                    'title' => '工作時數已還原',
                     'body'  => 'The working hours has been restored成功.',
                 ],
             ],
@@ -140,7 +140,7 @@ return [
 
                 'entries' => [
                     'name'        => 'Attendance名稱',
-                    'day-of-week' => 'Day of Week',
+                    'day-of-week' => '週幾',
                 ],
             ],
 
@@ -148,7 +148,7 @@ return [
                 'title' => 'Timing資料',
 
                 'entries' => [
-                    'day-period' => 'Day Periods',
+                    'day-period' => '時段',
                     'week-type'  => 'Week類型',
                     'work-from'  => 'Work From',
                     'work-to'    => 'Work To',
@@ -156,7 +156,7 @@ return [
             ],
 
             'date-information' => [
-                'title' => '日期資料',
+                'title' => 'Date資料',
 
                 'entries' => [
                     'starting-date' => 'Starting日期',
@@ -168,7 +168,7 @@ return [
                 'title' => '其他資料',
 
                 'entries' => [
-                    'durations-days' => 'Duration (天數)',
+                    'durations-days' => 'Duration (Days)',
                     'display-type'   => '顯示類型',
                 ],
             ],

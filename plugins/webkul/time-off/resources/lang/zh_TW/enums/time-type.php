@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'leave' => 'Absence',
+    'leave' => '缺席',
     'other' => 'Worked時間',
 ];

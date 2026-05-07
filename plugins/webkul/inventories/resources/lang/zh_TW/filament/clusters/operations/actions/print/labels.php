@@ -1,27 +1,27 @@
 <?php
 
 return [
-    'label' => 'Labels',
+    'label' => '標籤',
 
     'form' => [
         'fields' => [
-            'type'          => '類型 Of Labels',
+            'type'          => 'Type Of Labels',
             'quantity'      => '數量',
-            'format'        => 'Format',
-            'layout'        => 'Layout Of Labels',
-            'quantity-type' => '數量 To Print',
+            'format'        => '格式',
+            'layout'        => '標籤排版',
+            'quantity-type' => 'Quantity To Print',
             'quantity'      => '數量',
 
             'quantity-type-options' => [
-                'operation' => '作業數量',
+                'operation' => 'Operation數量',
                 'custom'    => 'Custom數量',
-                'per-slot'  => 'One per lot/SN',
-                'per-unit'  => 'One per unit',
+                'per-slot'  => '每批次／序號一張',
+                'per-unit'  => '每件一張',
             ],
 
             'type-options' => [
-                'product' => '商品 Labels',
-                'lot'     => '批號/SN Labels',
+                'product' => 'Product Labels',
+                'lot'     => 'Lot/SN Labels',
             ],
 
             'format-options' => [

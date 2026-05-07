@@ -10,7 +10,7 @@ return [
     ],
 
     'global-search' => [
-        'employee'      => '員工',
+        'employee'      => 'Employee',
         'time-off-type' => '假別',
         'date-from'     => '開始日期',
         'date-to'       => '結束日期',
@@ -19,23 +19,23 @@ return [
     'form' => [
         'fields' => [
             'name'                => '名稱',
-            'name-placeholder'    => '請假類型 (From validity start to validity end/no limit)',
+            'name-placeholder'    => 'Time Off類型 (From validity start to validity end/no limit)',
             'time-off-type'       => '假別',
             'employee-name'       => '員工姓名',
             'allocation-type'     => '假期分配類型',
-            'validity-period'     => 'Validity Period',
+            'validity-period'     => '有效期間',
             'date-from'           => '開始日期',
             'date-to'             => '結束日期',
-            'date-to-placeholder' => 'No Limit',
+            'date-to-placeholder' => '無限制',
             'allocation'          => '假期額度',
-            'allocation-suffix'   => '編號 of 天數',
-            'reason'              => 'Reason',
+            'allocation-suffix'   => 'Number of Days',
+            'reason'              => '原因',
         ],
     ],
 
     'table' => [
         'columns' => [
-            'employee-name'   => '員工',
+            'employee-name'   => 'Employee',
             'time-off-type'   => '假別',
             'amount'          => '金額',
             'allocation-type' => '假期分配類型',
@@ -53,26 +53,26 @@ return [
         'actions' => [
             'approve' => [
                 'title' => [
-                    'validate' => 'Validate',
+                    'validate' => '驗證',
                     'approve'  => '核准',
                 ],
                 'notification' => [
-                    'title' => 'Allocation approved approved',
+                    'title' => '分配已核准',
                     'body'  => 'The allocation approved has been approved成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Allocation已刪除',
+                    'title' => '分配已刪除',
                     'body'  => 'The allocation has been已刪除成功.',
                 ],
             ],
 
             'refused' => [
-                'title'        => 'Refuse',
+                'title'        => '拒絕',
                 'notification' => [
-                    'title' => 'Allocation refused',
+                    'title' => '分配已拒絕',
                     'body'  => 'The allocation has been refused成功.',
                 ],
             ],
@@ -91,7 +91,7 @@ return [
     'infolist' => [
         'sections' => [
             'allocation-details' => [
-                'title'   => 'Allocation Details',
+                'title'   => '分配詳情',
                 'entries' => [
                     'name'                => '名稱',
                     'time-off-type'       => '假別',
@@ -100,18 +100,18 @@ return [
             ],
 
             'validity-period' => [
-                'title'   => 'Validity Period',
+                'title'   => '有效期間',
                 'entries' => [
                     'date-from' => '開始日期',
                     'date-to'   => '結束日期',
-                    'reason'    => 'Reason',
+                    'reason'    => '原因',
                 ],
             ],
             'allocation-status' => [
                 'title'   => 'Allocation狀態',
                 'entries' => [
-                    'date-to-placeholder' => 'No Limit',
-                    'allocation'          => '編號 of Day(s)',
+                    'date-to-placeholder' => '無限制',
+                    'allocation'          => 'Number of Day(s)',
                     'allocation-value'    => ':days number of days',
                     'state'               => '狀態',
                 ],

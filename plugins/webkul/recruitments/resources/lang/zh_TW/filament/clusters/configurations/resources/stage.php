@@ -14,23 +14,23 @@ return [
                 'title' => '一般資料',
 
                 'fields' => [
-                    'stage-name'   => '階段名稱',
-                    'sort'         => 'Sequence 訂單',
-                    'requirements' => 'Requirements',
+                    'stage-name'   => 'Stage名稱',
+                    'sort'         => 'Sequence Order',
+                    'requirements' => '需求',
                 ],
             ],
 
             'tooltips' => [
-                'title'       => 'Tooltips',
-                'description' => 'Define the custom label for application status.',
+                'title'       => '提示文字',
+                'description' => '為申請狀態定義自訂標籤。',
 
                 'fields' => [
-                    'gray-label'          => 'Gray Label',
-                    'gray-label-tooltip'  => 'The label for the gray status.',
-                    'red-label'           => 'Red Label',
-                    'red-label-tooltip'   => 'The label for the red status.',
-                    'green-label'         => 'Green Label',
-                    'green-label-tooltip' => 'The label for the green status.',
+                    'gray-label'          => '灰色標籤',
+                    'gray-label-tooltip'  => '灰色狀態的標籤。',
+                    'red-label'           => '紅色標籤',
+                    'red-label-tooltip'   => '紅色狀態的標籤。',
+                    'green-label'         => '綠色標籤',
+                    'green-label-tooltip' => '綠色狀態的標籤。',
                 ],
             ],
 
@@ -39,9 +39,9 @@ return [
 
                 'fields' => [
                     'job-positions' => '職位',
-                    'folded'        => 'Folded',
-                    'hired-stage'   => 'Hired 階段',
-                    'default-stage' => '預設 階段',
+                    'folded'        => '已收合',
+                    'hired-stage'   => 'Hired Stage',
+                    'default-stage' => 'Default Stage',
                 ],
             ],
         ],
@@ -50,10 +50,10 @@ return [
     'table' => [
         'columns' => [
             'id'                 => '編號',
-            'name'               => '階段名稱',
-            'hired-stage'        => 'Hired 階段',
-            'default-stage'      => '預設 階段',
-            'folded'             => 'Folded',
+            'name'               => 'Stage名稱',
+            'hired-stage'        => 'Hired Stage',
+            'default-stage'      => 'Default Stage',
+            'folded'             => '已收合',
             'job-positions'      => '職位',
             'created-by'         => '建立者',
             'created-at'         => '建立時間',
@@ -61,12 +61,12 @@ return [
         ],
 
         'filters' => [
-            'name'         => '階段名稱',
+            'name'         => 'Stage名稱',
             'job-position' => '職位',
-            'folded'       => 'Folded',
-            'gray-label'   => 'Gray Label',
-            'red-label'    => 'Red Label',
-            'green-label'  => 'Green Label',
+            'folded'       => '已收合',
+            'gray-label'   => '灰色標籤',
+            'red-label'    => '紅色標籤',
+            'green-label'  => '綠色標籤',
             'created-by'   => '建立者',
             'created-at'   => '建立時間',
             'updated-at'   => '更新時間',
@@ -74,11 +74,11 @@ return [
 
         'groups' => [
             'job-position' => '職位',
-            'stage-name'   => '階段名稱',
-            'folded'       => 'Folded',
-            'gray-label'   => 'Gray Label',
-            'red-label'    => 'Red Label',
-            'green-label'  => 'Green Label',
+            'stage-name'   => 'Stage名稱',
+            'folded'       => '已收合',
+            'gray-label'   => '灰色標籤',
+            'red-label'    => '紅色標籤',
+            'green-label'  => '綠色標籤',
             'created-by'   => '建立者',
             'created-at'   => '建立時間',
             'updated-at'   => '更新時間',
@@ -88,13 +88,13 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '階段已刪除',
-                        'body'  => 'The 階段 has been已刪除成功.',
+                        'title' => 'Stages已刪除',
+                        'body'  => 'The Stages has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '階段 could not be已刪除',
-                        'body'  => 'The 階段 cannot be已刪除 because it is currently in use.',
+                        'title' => 'Stages could not be已刪除',
+                        'body'  => 'The Stages cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -103,15 +103,15 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '階段已刪除',
-                    'body'  => 'The 階段 has been已刪除成功.',
+                    'title' => 'Stages已刪除',
+                    'body'  => 'The Stages has been已刪除成功.',
                 ],
             ],
         ],
 
         'empty-state-actions' => [
             'create' => [
-                'label' => '新增階段',
+                'label' => '新增Stage',
             ],
         ],
     ],
@@ -122,23 +122,23 @@ return [
                 'title' => '一般資料',
 
                 'entries' => [
-                    'stage-name'   => '階段名稱',
-                    'sort'         => 'Sequence 訂單',
-                    'requirements' => 'Requirements',
+                    'stage-name'   => 'Stage名稱',
+                    'sort'         => 'Sequence Order',
+                    'requirements' => '需求',
                 ],
             ],
 
             'tooltips' => [
-                'title'       => 'Tooltips',
-                'description' => 'Define the custom label for application status.',
+                'title'       => '提示文字',
+                'description' => '為申請狀態定義自訂標籤。',
 
                 'entries' => [
-                    'gray-label'          => 'Gray Label',
-                    'gray-label-tooltip'  => 'The label for the gray status.',
-                    'red-label'           => 'Red Label',
-                    'red-label-tooltip'   => 'The label for the red status.',
-                    'green-label'         => 'Green Label',
-                    'green-label-tooltip' => 'The label for the green status.',
+                    'gray-label'          => '灰色標籤',
+                    'gray-label-tooltip'  => '灰色狀態的標籤。',
+                    'red-label'           => '紅色標籤',
+                    'red-label-tooltip'   => '紅色狀態的標籤。',
+                    'green-label'         => '綠色標籤',
+                    'green-label-tooltip' => '綠色狀態的標籤。',
                 ],
             ],
 
@@ -147,9 +147,9 @@ return [
 
                 'entries' => [
                     'job-positions'      => '職位',
-                    'folded'             => 'Folded',
-                    'hired-stage'        => 'Hired 階段',
-                    'default-stage'      => '預設 階段',
+                    'folded'             => '已收合',
+                    'hired-stage'        => 'Hired Stage',
+                    'default-stage'      => 'Default Stage',
                 ],
             ],
         ],

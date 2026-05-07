@@ -6,10 +6,10 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => '新增位置',
+                'label' => '新增Location',
 
                 'notification' => [
-                    'title' => '位置 Created',
+                    'title' => 'Location Created',
                     'body'  => 'The location has been已建立.',
                 ],
             ],

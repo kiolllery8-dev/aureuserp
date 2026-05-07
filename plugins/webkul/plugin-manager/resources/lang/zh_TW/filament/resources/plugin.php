@@ -3,89 +3,89 @@
 return [
 
     'navigation' => [
-        'group' => 'Plugins',
+        'group' => '外掛',
     ],
 
-    'title' => 'Plugin',
+    'title' => '外掛',
 
     'table' => [
-        'version'             => 'Version',
-        'dependencies'        => 'Dependencies',
-        'dependencies_suffix' => ' Dependencies',
+        'version'             => '版本',
+        'dependencies'        => '相依套件',
+        'dependencies_suffix' => ' 相依套件',
     ],
 
     'status' => [
-        'installed'     => 'Installed',
-        'not_installed' => 'Not Installed',
+        'installed'     => '已安裝',
+        'not_installed' => '未安裝',
     ],
 
     'filters' => [
         'installation_status' => 'Installation狀態',
-        'all_plugins'         => 'All Plugins',
-        'installed'           => 'Installed',
-        'not_installed'       => 'Not Installed',
-        'active_status'       => '啟用中狀態',
+        'all_plugins'         => '所有外掛',
+        'installed'           => '已安裝',
+        'not_installed'       => '未安裝',
+        'active_status'       => 'Active狀態',
         'author'              => '作者',
         'webkul'              => 'Webkul',
-        'third_party'         => 'Third Party',
+        'third_party'         => '第三方',
     ],
 
     'actions' => [
         'install' => [
-            'title'       => 'Install',
+            'title'       => '安裝',
             'heading'     => 'Install Plugin :name',
             'description' => "Are you sure you want to install the ':name' plugin? This will run migrations and seeders.",
             'submit'      => 'Install Plugin',
         ],
         'uninstall' => [
-            'title'      => 'Uninstall',
-            'heading'    => 'Uninstall Plugin',
-            'submit'     => 'Uninstall Plugin',
+            'title'      => '解除安裝',
+            'heading'    => '解除安裝外掛',
+            'submit'     => '解除安裝外掛',
         ],
     ],
 
     'notifications' => [
         'installed' => [
-            'title' => 'Plugin Installed Successfully',
+            'title' => '外掛安裝成功',
             'body'  => "The ':name' plugin has been installed.",
         ],
         'installed-failed' => [
-            'title' => 'Installation Failed',
+            'title' => '安裝失敗',
         ],
         'uninstalled' => [
-            'title' => 'Plugin Uninstalled Successfully',
+            'title' => '外掛解除安裝成功',
             'body'  => "The ':name' plugin has been uninstalled.",
         ],
         'uninstalled-failed' => [
-            'title' => 'Uninstallation Failed',
+            'title' => '解除安裝失敗',
         ],
     ],
 
     'infolist' => [
         'section'  => [
             'plugin'       => ' Plugin資料',
-            'dependencies' => 'Dependencies',
+            'dependencies' => '相依套件',
         ],
         'name'         => 'Plugin名稱',
-        'version'      => 'Version',
-        'dependencies' => '必填 Plugins',
-        'dependents'   => 'Plugins That Depend On This',
+        'version'      => '版本',
+        'dependencies' => 'Required Plugins',
+        'dependents'   => '相依此外掛的外掛',
         'is_installed' => 'Installation狀態',
-        'license'      => 'License',
-        'summary'      => '描述',
+        'license'      => '授權',
+        'summary'      => '說明',
 
         'dependencies-repeater' => [
-            'title'        => '必填 Plugins',
+            'title'        => 'Required Plugins',
             'name'         => 'Plugin名稱',
-            'is_installed' => 'Installed',
-            'placeholder'  => 'No dependencies required',
+            'is_installed' => '已安裝',
+            'placeholder'  => '不需相依套件',
         ],
 
         'dependents-repeater' => [
-            'title'        => 'Plugins That Depend On This',
+            'title'        => '相依此外掛的外掛',
             'name'         => 'Plugin名稱',
-            'is_installed' => 'Installed',
-            'placeholder'  => 'No dependents',
+            'is_installed' => '已安裝',
+            'placeholder'  => '沒有相依者',
         ],
 
     ],

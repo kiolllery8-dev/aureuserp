@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'fixed'    => 'Fixed',
+    'fixed'    => '固定',
     'group'    => '群組',
-    'percent'  => 'Percent',
-    'division' => 'Division',
-    'code'     => 'Custom Formula',
+    'percent'  => '百分比',
+    'division' => '部門',
+    'code'     => '自訂公式',
 ];

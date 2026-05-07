@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'at-confirm' => 'At Confirm',
-    'manual'     => 'Manual',
+    'at-confirm' => '確認時',
+    'manual'     => '手動',
     'by-date'    => 'Before Scheduled日期',
 ];

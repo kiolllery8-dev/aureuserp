@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'hourly'    => 'Hourly',
-    'daily'     => 'Daily',
-    'weekly'    => 'Weekly',
-    'bimonthly' => 'Twice a month',
-    'monthly'   => 'Monthly',
-    'biyearly'  => 'Twice a year',
-    'yearly'    => 'Yearly',
+    'hourly'    => '按小時',
+    'daily'     => '按日',
+    'weekly'    => '按週',
+    'bimonthly' => '每月兩次',
+    'monthly'   => '按月',
+    'biyearly'  => '每年兩次',
+    'yearly'    => '按年',
 ];

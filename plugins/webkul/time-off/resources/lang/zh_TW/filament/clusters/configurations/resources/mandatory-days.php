@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => 'Mandatory 天數',
+    'title' => 'Mandatory Days',
 
-    'model-label' => 'Mandatory Day',
+    'model-label' => '強制日',
 
     'navigation' => [
-        'title' => 'Mandatory Holidays',
+        'title' => '強制假日',
     ],
 
     'form' => [

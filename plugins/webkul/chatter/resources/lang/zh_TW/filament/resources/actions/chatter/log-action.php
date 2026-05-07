@@ -2,29 +2,29 @@
 
 return [
     'setup' => [
-        'title'        => 'Log 備註',
-        'submit-title' => 'Log',
+        'title'        => '記錄備註',
+        'submit-title' => '記錄',
 
         'form' => [
             'fields' => [
-                'hide-subject'            => 'Hide 主旨',
-                'add-subject'             => '新增主旨',
+                'hide-subject'            => 'Hide Subject',
+                'add-subject'             => '新增Subject',
                 'subject'                 => '主旨',
                 'write-message-here'      => 'Write your message here',
-                'attachments-helper-text' => 'Max file size: 10MB. Allowed types: 圖片, PDF, Word, Excel, Text',
+                'attachments-helper-text' => 'Max file size: 10MB. Allowed types: Images, PDF, Word, Excel, Text',
             ],
         ],
 
         'actions' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Log 備註 added',
+                    'title' => 'Log Note added',
                     'body'  => 'Your log note added成功.',
                 ],
 
                 'error' => [
-                    'title' => 'Log add error',
-                    'body'  => 'Failed to add your log note',
+                    'title' => '新增記錄錯誤',
+                    'body'  => '新增記錄備註失敗',
                 ],
             ],
         ],

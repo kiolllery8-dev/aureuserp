@@ -2,20 +2,20 @@
 
 return [
     'global-search' => [
-        'zip-from' => 'Zip From',
-        'zip-to'   => 'Zip To',
+        'zip-from' => '郵遞區號（起）',
+        'zip-to'   => '郵遞區號（迄）',
         'name'     => '名稱',
     ],
 
     'form' => [
         'fields' => [
             'name'                   => '名稱',
-            'foreign-vat'            => 'Foreign VAT',
+            'foreign-vat'            => '外國 VAT',
             'country'                => '國家',
-            'country-group'          => '國家 群組',
-            'zip-from'               => 'Zip From',
-            'zip-to'                 => 'Zip To',
-            'detect-automatically'   => 'Detect Automatically',
+            'country-group'          => 'Country Group',
+            'zip-from'               => '郵遞區號（起）',
+            'zip-to'                 => '郵遞區號（迄）',
+            'detect-automatically'   => '自動偵測',
             'notes'                  => '備註',
             'company'                => '公司',
         ],
@@ -23,8 +23,8 @@ return [
             'account-mapping' => [
                 'table' => [
                     'columns' => [
-                        'source-account'      => '來源 帳戶',
-                        'destination-account' => 'Destination 帳戶',
+                        'source-account'      => 'Source Account',
+                        'destination-account' => 'Destination Account',
                     ],
                 ],
 
@@ -32,8 +32,8 @@ return [
             'tax-mapping' => [
                 'table' => [
                     'columns' => [
-                        'tax-source'      => '稅 來源',
-                        'tax-destination' => '稅 Destination',
+                        'tax-source'      => 'Tax Source',
+                        'tax-destination' => 'Tax Destination',
                     ],
                 ],
             ],
@@ -45,18 +45,18 @@ return [
             'name'                 => '名稱',
             'company'              => '公司',
             'country'              => '國家',
-            'country-group'        => '國家 群組',
+            'country-group'        => 'Country Group',
             'created-by'           => '建立者',
-            'zip-from'             => 'Zip From',
-            'zip-to'               => 'Zip To',
+            'zip-from'             => '郵遞區號（起）',
+            'zip-to'               => '郵遞區號（迄）',
             'status'               => '狀態',
-            'detect-automatically' => 'Detect Automatically',
+            'detect-automatically' => '自動偵測',
         ],
 
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '付款 條件已刪除',
+                    'title' => 'Payment Term已刪除',
                     'body'  => 'The payment term has been已刪除成功.',
                 ],
             ],
@@ -75,12 +75,12 @@ return [
     'infolist' => [
         'entries' => [
             'name'                 => '名稱',
-            'foreign-vat'          => 'Foreign VAT',
+            'foreign-vat'          => '外國 VAT',
             'country'              => '國家',
-            'country-group'        => '國家 群組',
-            'zip-from'             => 'Zip From',
-            'zip-to'               => 'Zip To',
-            'detect-automatically' => 'Detect Automatically',
+            'country-group'        => 'Country Group',
+            'zip-from'             => '郵遞區號（起）',
+            'zip-to'               => '郵遞區號（迄）',
+            'detect-automatically' => '自動偵測',
             'notes'                => '備註',
         ],
     ],

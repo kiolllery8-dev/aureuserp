@@ -5,13 +5,13 @@ return [
 
     'navigation' => [
         'title' => '標籤',
-        'group' => 'Applications',
+        'group' => '申請',
     ],
 
     'form' => [
         'fields' => [
             'name'             => '名稱',
-            'name-placeholder' => 'Enter the name of the tags',
+            'name-placeholder' => '輸入標籤名稱',
             'color'            => '顏色',
         ],
     ],
@@ -28,7 +28,7 @@ return [
 
         'filters' => [
             'name'       => '名稱',
-            'employee'   => '員工',
+            'employee'   => 'Employee',
             'created-by' => '建立者',
             'updated-at' => '更新時間',
             'created-at' => '建立時間',
@@ -37,14 +37,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '標籤已更新',
+                    'title' => 'Tags已更新',
                     'body'  => 'The tags has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '標籤已刪除',
+                    'title' => 'Tags已刪除',
                     'body'  => 'The tags has been已刪除成功.',
                 ],
             ],
@@ -53,8 +53,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '應徵者 分類已刪除',
-                    'body'  => 'The applicant 分類 has been已刪除成功.',
+                    'title' => 'Applicant Categories已刪除',
+                    'body'  => 'The applicant Categories has been已刪除成功.',
                 ],
             ],
         ],
@@ -62,7 +62,7 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => '標籤已建立',
+                    'title' => 'Tags已建立',
                     'body'  => 'The tags has been已建立成功.',
                 ],
             ],

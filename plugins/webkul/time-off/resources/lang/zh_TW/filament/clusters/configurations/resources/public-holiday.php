@@ -1,22 +1,22 @@
 <?php
 
 return [
-    'title' => '公開 Holidays',
+    'title' => 'Public Holidays',
 
-    'model-label' => '公開 holiday',
+    'model-label' => 'Public holiday',
 
     'navigation' => [
-        'title' => '公開 Holidays',
+        'title' => 'Public Holidays',
     ],
 
     'form' => [
         'fields' => [
             'name'             => '名稱',
-            'name-placeholder' => 'Enter the name of the public holiday',
+            'name-placeholder' => '輸入國定假日名稱',
             'date-from'        => '開始日期',
             'date-to'          => '結束日期',
             'color'            => '顏色',
-            'calendar'         => 'Calendar',
+            'calendar'         => '行事曆',
         ],
     ],
 
@@ -24,7 +24,7 @@ return [
         'columns' => [
             'name'         => '名稱',
             'company-name' => '公司名稱',
-            'calendar'     => 'Calendar',
+            'calendar'     => '行事曆',
             'created-by'   => '建立者',
             'date-from'    => '開始日期',
             'date-to'      => '結束日期',
@@ -51,14 +51,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '公開 holiday已更新',
+                    'title' => 'Public holiday已更新',
                     'body'  => 'The public holiday has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '公開 holiday已刪除',
+                    'title' => 'Public holiday已刪除',
                     'body'  => 'The public holiday has been已刪除成功.',
                 ],
             ],
@@ -67,7 +67,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '公開 holidays已刪除',
+                    'title' => 'Public holidays已刪除',
                     'body'  => 'The public holidays has been已刪除成功.',
                 ],
             ],

@@ -6,10 +6,10 @@ return [
         'posted'      => '已過帳',
         'sales'       => '銷售',
         'purchases'   => '採購',
-        'reversed'    => 'Reversed',
+        'reversed'    => '已沖銷',
         'bank'        => '銀行',
         'cash'        => '現金',
         'credit'      => '貸方',
-        'misc'        => 'Misc',
+        'misc'        => '其他',
     ],
 ];

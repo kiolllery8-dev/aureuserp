@@ -21,11 +21,11 @@ return [
 
                 'fields' => [
                     'title'             => '標題',
-                    'title-placeholder' => '任務 標題...',
+                    'title-placeholder' => 'Task Title...',
                     'tags'              => '標籤',
                     'name'              => '名稱',
                     'color'             => '顏色',
-                    'description'       => '描述',
+                    'description'       => '說明',
                     'project'           => '專案',
                     'status'            => '狀態',
                     'start_date'        => '開始日期',
@@ -46,11 +46,11 @@ return [
                     'milestone-hint-text'         => 'Automatically deliver your services upon reaching a milestone by linking it to a sales order item.',
                     'name'                        => '名稱',
                     'deadline'                    => '截止日',
-                    'is-completed'                => 'Is 已完成',
+                    'is-completed'                => 'Is Completed',
                     'customer'                    => '客戶',
                     'assignees'                   => '指派對象',
-                    'allocated-hours'             => 'Allocated Hours',
-                    'allocated-hours-helper-text' => 'In hours (Eg. 1.5 hours means 1 hour 30 minutes)',
+                    'allocated-hours'             => '分配工時',
+                    'allocated-hours-helper-text' => '單位：小時（例如 1.5 表示 1 小時 30 分鐘）',
                 ],
             ],
         ],
@@ -62,16 +62,16 @@ return [
             'priority'            => '優先順序',
             'state'               => '狀態',
             'new-state'           => '新增State',
-            'update-state'        => 'Update State',
+            'update-state'        => '更新狀態',
             'title'               => '標題',
             'project'             => '專案',
-            'project-placeholder' => '私人 任務',
+            'project-placeholder' => 'Private Task',
             'milestone'           => '里程碑',
             'customer'            => '客戶',
             'assignees'           => '指派對象',
             'allocated-time'      => 'Allocated時間',
-            'time-spent'          => '花費時間',
-            'time-remaining'      => '時間 Remaining',
+            'time-spent'          => '已花時間',
+            'time-remaining'      => 'Time Remaining',
             'progress'            => 'Progress',
             'deadline'            => '截止日',
             'tags'                => '標籤',
@@ -95,10 +95,10 @@ return [
             'high'              => '高',
             'state'             => '狀態',
             'tags'              => '標籤',
-            'allocated-hours'   => 'Allocated Hours',
-            'total-hours-spent' => '總計 Hours Spent',
-            'remaining-hours'   => 'Remaining Hours',
-            'overtime'          => 'Overtime',
+            'allocated-hours'   => '分配工時',
+            'total-hours-spent' => 'Total Hours Spent',
+            'remaining-hours'   => '剩餘工時',
+            'overtime'          => '加班',
             'progress'          => 'Progress',
             'deadline'          => '截止日',
             'created-at'        => '建立時間',
@@ -115,21 +115,21 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '任務 restored',
+                    'title' => 'Task restored',
                     'body'  => 'The task has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '任務已刪除',
+                    'title' => 'Task已刪除',
                     'body'  => 'The task has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '任務 force已刪除',
+                    'title' => 'Task force已刪除',
                     'body'  => 'The task has been force已刪除成功.',
                 ],
             ],
@@ -138,21 +138,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '任務 restored',
+                    'title' => 'Tasks restored',
                     'body'  => 'The tasks has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '任務已刪除',
+                    'title' => 'Tasks已刪除',
                     'body'  => 'The tasks has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '任務 force已刪除',
+                    'title' => 'Tasks force已刪除',
                     'body'  => 'The tasks has been force已刪除成功.',
                 ],
             ],
@@ -169,12 +169,12 @@ return [
                     'state'       => '狀態',
                     'tags'        => '標籤',
                     'priority'    => '優先順序',
-                    'description' => '描述',
+                    'description' => '說明',
                 ],
             ],
 
             'project-information' => [
-                'title' => '專案資料',
+                'title' => 'Project資料',
 
                 'entries' => [
                     'project'   => '專案',
@@ -187,14 +187,14 @@ return [
             ],
 
             'time-tracking' => [
-                'title' => '時間 Tracking',
+                'title' => 'Time Tracking',
 
                 'entries' => [
                     'allocated-time'        => 'Allocated時間',
-                    'time-spent'            => '花費時間',
-                    'time-spent-suffix'     => ' Hours',
-                    'time-remaining'        => '時間 Remaining',
-                    'time-remaining-suffix' => ' Hours',
+                    'time-spent'            => '已花時間',
+                    'time-spent-suffix'     => ' 小時',
+                    'time-remaining'        => 'Time Remaining',
+                    'time-remaining-suffix' => ' 小時',
                     'progress'              => 'Progress',
                 ],
             ],
@@ -217,8 +217,8 @@ return [
                 'title' => '統計',
 
                 'entries' => [
-                    'sub-tasks'         => 'Sub 任務',
-                    'timesheet-entries' => 'Timesheet Entries',
+                    'sub-tasks'         => 'Sub Tasks',
+                    'timesheet-entries' => '工時表項目',
                 ],
             ],
         ],

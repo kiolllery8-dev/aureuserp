@@ -5,5 +5,5 @@ return [
     'confirmed' => 'Waiting',
     'assigned'  => 'Ready',
     'done'      => '完成',
-    'canceled'  => 'Canceled',
+    'canceled'  => '已取消',
 ];

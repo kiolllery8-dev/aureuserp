@@ -15,9 +15,9 @@ return [
             'title'   => '狀態',
             'options' => [
                 'all'      => '全部',
-                'ongoing'  => 'Ongoing',
-                'hired'    => 'Hired',
-                'refused'  => 'Refused',
+                'ongoing'  => '進行中',
+                'hired'    => '已錄用',
+                'refused'  => '已拒絕',
                 'archived' => '已封存',
             ],
         ],

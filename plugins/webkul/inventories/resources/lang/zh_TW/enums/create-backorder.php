@@ -2,6 +2,6 @@
 
 return [
     'ask'    => 'Ask',
-    'always' => 'Always',
-    'never'  => 'Never',
+    'always' => '總是',
+    'never'  => '從未',
 ];

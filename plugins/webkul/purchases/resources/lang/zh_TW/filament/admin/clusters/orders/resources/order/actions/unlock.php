@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'label' => 'Unlock',
+    'label' => '解鎖',
 
     'action' => [
         'notification' => [
             'success' => [
-                'title' => '訂單 unlock',
+                'title' => 'Order unlock',
                 'body'  => 'The order has been unlock成功.',
             ],
         ],

@@ -43,11 +43,11 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'section' => 'Entities',
-    'resources' => 'Resources',
-    'widgets' => 'Widgets',
+    'section' => '實體',
+    'resources' => '資源',
+    'widgets' => '小工具',
     'pages' => '頁面',
-    'custom' => 'Custom Permissions',
+    'custom' => '自訂權限',
 
     /*
     |--------------------------------------------------------------------------
@@ -70,11 +70,11 @@ return [
         'update' => '更新',
         'delete' => '刪除',
         'delete_any' => '刪除Any',
-        'force_delete' => 'Force Delete',
+        'force_delete' => '強制刪除',
         'force_delete_any' => 'Force 刪除Any',
         'restore' => '還原',
-        'reorder' => 'Reorder',
-        'restore_any' => 'Restore Any',
-        'replicate' => 'Replicate',
+        'reorder' => '重新排序',
+        'restore_any' => '還原任何',
+        'replicate' => '複製',
     ],
 ];

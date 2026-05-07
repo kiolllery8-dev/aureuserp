@@ -5,7 +5,7 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增任務',
+            'label' => '新增Task',
         ],
     ],
 
@@ -13,21 +13,21 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '任務 restored',
+                    'title' => 'Task restored',
                     'body'  => 'The task has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '任務已刪除',
+                    'title' => 'Task已刪除',
                     'body'  => 'The task has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '任務 force已刪除',
+                    'title' => 'Task force已刪除',
                     'body'  => 'The task has been force已刪除成功.',
                 ],
             ],
@@ -35,11 +35,11 @@ return [
     ],
 
     'tabs' => [
-        'open-tasks'       => 'Open 任務',
-        'my-tasks'         => 'My 任務',
-        'unassigned-tasks' => 'Unassigned 任務',
-        'closed-tasks'     => '已關閉 任務',
-        'starred-tasks'    => 'Starred 任務',
-        'archived-tasks'   => '已封存 任務',
+        'open-tasks'       => 'Open Tasks',
+        'my-tasks'         => 'My Tasks',
+        'unassigned-tasks' => 'Unassigned Tasks',
+        'closed-tasks'     => 'Closed Tasks',
+        'starred-tasks'    => 'Starred Tasks',
+        'archived-tasks'   => 'Archived Tasks',
     ],
 ];

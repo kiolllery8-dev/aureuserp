@@ -23,21 +23,21 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '技能已更新',
+                    'title' => 'Skill已更新',
                     'body'  => 'The skill has been已更新成功.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => '技能 restored',
+                    'title' => 'Skill restored',
                     'body'  => 'The skill has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '技能已刪除',
+                    'title' => 'Skill已刪除',
                     'body'  => 'The skill has been已刪除成功.',
                 ],
             ],
@@ -46,21 +46,21 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '技能已刪除',
+                    'title' => 'Skills已刪除',
                     'body'  => 'The skills has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '技能 force已刪除',
+                    'title' => 'Skills force已刪除',
                     'body'  => 'The skills has been force已刪除成功.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => '技能 force restored',
+                    'title' => 'Skills force restored',
                     'body'  => 'The skills has been force restored成功.',
                 ],
             ],

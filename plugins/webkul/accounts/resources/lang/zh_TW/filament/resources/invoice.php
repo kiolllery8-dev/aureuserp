@@ -20,7 +20,7 @@ return [
                 'title'  => '一般',
 
                 'fields' => [
-                    'customer-invoice' => '客戶 發票',
+                    'customer-invoice' => 'Customer Invoice',
                     'customer'         => '客戶',
                     'invoice-date'     => '開立日期',
                     'due-date'         => '到期日',
@@ -33,7 +33,7 @@ return [
 
         'tabs' => [
             'invoice-lines' => [
-                'title' => '發票 Lines',
+                'title' => 'Invoice Lines',
 
                 'repeater' => [
                     'products' => [
@@ -71,11 +71,11 @@ return [
                         'title'  => '發票',
 
                         'fields' => [
-                            'customer-reference' => '客戶 參考編號',
+                            'customer-reference' => 'Customer Reference',
                             'sales-person'       => '業務',
                             'payment-reference'  => '付款參考',
-                            'recipient-bank'     => 'Recipient 銀行',
-                            'delivery-date'      => '出貨日期',
+                            'recipient-bank'     => 'Recipient Bank',
+                            'delivery-date'      => 'Delivery日期',
                         ],
                     ],
 
@@ -87,11 +87,11 @@ return [
                             'incoterm'                => '貿易條件',
                             'incoterm-location'       => '貿易條件地點',
                             'fiscal-position'         => '稅務情境',
-                            'fiscal-position-tooltip' => 'Fiscal positions are used to adapt taxes and accounts based on the customer location.',
-                            'cash-rounding'           => 'Cash Rounding 方式',
-                            'cash-rounding-tooltip'   => 'Specifies the smallest cash-payable unit of the currency.',
+                            'fiscal-position-tooltip' => '財務立場用於依客戶位置調整稅務與科目。',
+                            'cash-rounding'           => 'Cash Rounding Method',
+                            'cash-rounding-tooltip'   => '指定貨幣可現金支付的最小單位。',
                             'payment-method'          => '付款方式',
-                            'auto-post'               => 'Auto 文章',
+                            'auto-post'               => 'Auto Post',
                             'checked'                 => '已核對',
                         ],
                     ],
@@ -118,11 +118,11 @@ return [
             'source-document'  => '來源單據',
             'reference'        => '參考編號',
             'sales-person'     => '業務',
-            'tax-excluded'     => '稅 Excluded',
+            'tax-excluded'     => 'Tax Excluded',
             'tax'              => '稅',
             'total'            => '總計',
-            'amount-due'       => '金額 Due',
-            'invoice-currency' => '發票 幣別',
+            'amount-due'       => 'Amount Due',
+            'invoice-currency' => 'Invoice Currency',
         ],
 
         'summarizers' => [
@@ -131,12 +131,12 @@ return [
 
         'groups' => [
             'name'                         => '名稱',
-            'invoice-partner-display-name' => '發票 夥伴 Display名稱',
+            'invoice-partner-display-name' => 'Invoice Partner Display名稱',
             'invoice-date'                 => '開立日期',
             'checked'                      => '已核對',
             'date'                         => '日期',
-            'invoice-due-date'             => '發票 Due日期',
-            'invoice-origin'               => '發票 Origin',
+            'invoice-due-date'             => 'Invoice Due日期',
+            'invoice-origin'               => 'Invoice Origin',
             'sales-person'                 => '業務',
             'currency'                     => '幣別',
             'created-at'                   => '建立時間',
@@ -145,26 +145,26 @@ return [
 
         'filters' => [
             'number'                       => '編號',
-            'invoice-partner-display-name' => '發票 夥伴 Display名稱',
+            'invoice-partner-display-name' => 'Invoice Partner Display名稱',
             'invoice-date'                 => '開立日期',
-            'invoice-due-date'             => '發票 Due日期',
-            'invoice-origin'               => '發票 Origin',
+            'invoice-due-date'             => 'Invoice Due日期',
+            'invoice-origin'               => 'Invoice Origin',
             'reference'                    => '參考編號',
             'payment-reference'            => '付款參考',
-            'narration'                    => 'Narration',
+            'narration'                    => '說明',
             'partner'                      => '夥伴',
             'journal'                      => '帳本',
             'fiscal-position'              => '稅務情境',
             'currency'                     => '幣別',
             'company'                      => '公司',
             'date'                         => '入帳日期',
-            'delivery-date'                => '出貨日期',
+            'delivery-date'                => 'Delivery日期',
             'amount-untaxed'               => '未稅金額',
             'amount-tax'                   => '稅額',
             'amount-total'                 => '總金額',
-            'amount-residual'              => '金額 Due',
+            'amount-residual'              => 'Amount Due',
             'checked'                      => '已核對',
-            'posted-before'                => '已過帳 Before',
+            'posted-before'                => 'Posted Before',
             'is-move-sent'                 => '已寄出',
             'created-at'                   => '建立時間',
             'updated-at'                   => '更新時間',
@@ -173,7 +173,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '付款已刪除',
+                    'title' => 'Payment已刪除',
                     'body'  => 'The payment has been已刪除成功.',
                 ],
             ],
@@ -182,7 +182,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '付款已刪除',
+                    'title' => 'Payments已刪除',
                     'body'  => 'The payments has been已刪除成功.',
                 ],
             ],
@@ -200,7 +200,7 @@ return [
             'general' => [
                 'title'   => '一般',
                 'entries' => [
-                    'customer-invoice' => '客戶 發票',
+                    'customer-invoice' => 'Customer Invoice',
                     'customer'         => '客戶',
                     'invoice-date'     => '開立日期',
                     'due-date'         => '到期日',
@@ -213,7 +213,7 @@ return [
 
         'tabs' => [
             'invoice-lines' => [
-                'title' => '發票 Lines',
+                'title' => 'Invoice Lines',
 
                 'repeater' => [
                     'products' => [
@@ -239,11 +239,11 @@ return [
                         'title'   => '發票',
 
                         'entries' => [
-                            'customer-reference' => '客戶 參考編號',
+                            'customer-reference' => 'Customer Reference',
                             'sales-person'       => '業務',
                             'payment-reference'  => '付款參考',
-                            'recipient-bank'     => 'Recipient 銀行',
-                            'delivery-date'      => '出貨日期',
+                            'recipient-bank'     => 'Recipient Bank',
+                            'delivery-date'      => 'Delivery日期',
                         ],
                     ],
 
@@ -255,9 +255,9 @@ return [
                             'incoterm'          => '貿易條件',
                             'incoterm-location' => '貿易條件地點',
                             'payment-method'    => '付款方式',
-                            'cash-rounding'     => 'Cash Rounding 方式',
+                            'cash-rounding'     => 'Cash Rounding Method',
                             'fiscal-position'   => '稅務情境',
-                            'auto-post'         => 'Auto 文章',
+                            'auto-post'         => 'Auto Post',
                             'checked'           => '已核對',
                         ],
                     ],

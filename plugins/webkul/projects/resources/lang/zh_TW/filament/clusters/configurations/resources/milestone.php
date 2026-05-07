@@ -8,7 +8,7 @@ return [
     'form' => [
         'name'         => '名稱',
         'deadline'     => '截止日',
-        'is-completed' => 'Is 已完成',
+        'is-completed' => 'Is Completed',
         'project'      => '專案',
     ],
 
@@ -16,8 +16,8 @@ return [
         'columns' => [
             'name'         => '名稱',
             'deadline'     => '截止日',
-            'is-completed' => 'Is 已完成',
-            'completed-at' => '已完成 At',
+            'is-completed' => 'Is Completed',
+            'completed-at' => 'Completed At',
             'project'      => '專案',
             'creator'      => '建立者',
             'created-at'   => '建立時間',
@@ -26,13 +26,13 @@ return [
 
         'groups' => [
             'name'         => '名稱',
-            'is-completed' => 'Is 已完成',
+            'is-completed' => 'Is Completed',
             'project'      => '專案',
             'created-at'   => '建立時間',
         ],
 
         'filters' => [
-            'is-completed' => 'Is 已完成',
+            'is-completed' => 'Is Completed',
             'project'      => '專案',
             'creator'      => '建立者',
         ],
@@ -40,7 +40,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Milestone update',
+                    'title' => '里程碑已更新',
                     'body'  => 'The milestone has been update成功.',
                 ],
             ],

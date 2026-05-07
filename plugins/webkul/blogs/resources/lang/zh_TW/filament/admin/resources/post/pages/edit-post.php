@@ -2,16 +2,16 @@
 
 return [
     'notification' => [
-        'title' => '文章已更新',
+        'title' => 'Post已更新',
         'body'  => 'The post has been已更新成功.',
     ],
 
     'header-actions' => [
         'draft' => [
-            'label' => 'Set as 草稿',
+            'label' => 'Set as Draft',
 
             'notification' => [
-                'title' => '文章 set as draft',
+                'title' => 'Post set as draft',
                 'body'  => 'The post has been set as draft成功.',
             ],
         ],
@@ -20,14 +20,14 @@ return [
             'label' => '發佈',
 
             'notification' => [
-                'title' => '文章已發佈',
+                'title' => 'Post已發佈',
                 'body'  => 'The post has been已發佈成功.',
             ],
         ],
 
         'delete' => [
             'notification' => [
-                'title' => '文章已刪除',
+                'title' => 'Post已刪除',
                 'body'  => 'The post has been已刪除成功.',
             ],
         ],

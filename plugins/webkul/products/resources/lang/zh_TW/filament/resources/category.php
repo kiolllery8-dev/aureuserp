@@ -8,7 +8,7 @@ return [
 
                 'fields' => [
                     'name'             => '名稱',
-                    'name-placeholder' => 'eg. Lamps',
+                    'name-placeholder' => '例：檯燈',
                     'parent'           => '上層',
                 ],
             ],
@@ -19,7 +19,7 @@ return [
         'columns' => [
             'name'        => '名稱',
             'full-name'   => '姓名',
-            'parent-path' => 'Parent Path',
+            'parent-path' => '上層路徑',
             'parent'      => '上層',
             'creator'     => '建立者',
             'created-at'  => '建立時間',
@@ -43,12 +43,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '分類已刪除',
-                        'body'  => 'The 分類 has been已刪除成功.',
+                        'title' => 'Category已刪除',
+                        'body'  => 'The Category has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '分類 could not be已刪除',
+                        'title' => 'Category could not be已刪除',
                         'body'  => 'The category cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -59,12 +59,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '分類已刪除',
+                        'title' => 'Categories已刪除',
                         'body'  => 'The categories has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '分類 could not be已刪除',
+                        'title' => 'Categories could not be已刪除',
                         'body'  => 'The categories cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -79,9 +79,9 @@ return [
 
                 'entries' => [
                     'name'        => '名稱',
-                    'parent'      => 'Parent 分類',
-                    'full_name'   => 'Full 分類名稱',
-                    'parent_path' => '分類 Path',
+                    'parent'      => 'Parent Category',
+                    'full_name'   => 'Full Category名稱',
+                    'parent_path' => 'Category Path',
                 ],
             ],
 
@@ -91,7 +91,7 @@ return [
                 'entries' => [
                     'creator'    => '建立者',
                     'created_at' => '建立時間',
-                    'updated_at' => 'Last Updated At',
+                    'updated_at' => '最後更新時間',
                 ],
             ],
         ],

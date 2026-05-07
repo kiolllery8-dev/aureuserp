@@ -9,7 +9,7 @@ return [
 
     'form' => [
         'fieldset' => [
-            'title'  => 'Recipient',
+            'title'  => '收件人',
             'fields' => [
                 'reference'         => '參考編號',
                 'payment-reference' => '付款參考',

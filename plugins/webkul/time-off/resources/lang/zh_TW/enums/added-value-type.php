@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'days'  => '天數',
-    'hours' => 'Hours',
+    'days'  => '日',
+    'hours' => '小時',
 ];

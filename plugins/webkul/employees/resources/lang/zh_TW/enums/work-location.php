@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'home'   => 'Home',
-    'office' => 'Office',
+    'home'   => '首頁',
+    'office' => '辦公室',
     'other'  => '其他',
 ];

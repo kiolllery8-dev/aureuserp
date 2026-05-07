@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Packagings',
+        'title' => '包裝',
         'group' => '商品',
     ],
 ];

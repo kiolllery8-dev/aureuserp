@@ -3,6 +3,6 @@
 return [
     'incoming' => '進貨',
     'outgoing' => '出貨',
-    'internal' => 'Internal',
-    'dropship' => 'Dropship',
+    'internal' => '內部',
+    'dropship' => '代發',
 ];

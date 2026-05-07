@@ -8,7 +8,7 @@ return [
 
     'global-search' => [
         'partner' => '夥伴',
-        'origin'  => 'Origin',
+        'origin'  => '來源',
     ],
 
     'table' => [
@@ -16,12 +16,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '出貨已刪除',
+                        'title' => 'Delivery已刪除',
                         'body'  => 'The delivery ras been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '出貨 could not be已刪除',
+                        'title' => 'Delivery could not be已刪除',
                         'body'  => 'The delivery cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -32,12 +32,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '出貨已刪除',
+                        'title' => 'Deliveries已刪除',
                         'body'  => 'The deliveries has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '出貨 could not be已刪除',
+                        'title' => 'Deliveries could not be已刪除',
                         'body'  => 'The deliveries cannot be已刪除 because they are currently in use.',
                     ],
                 ],

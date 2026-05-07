@@ -6,9 +6,9 @@ return [
             'tables' => [
                 'table-views' => [
                     'title'          => 'Views',
-                    'favorite-views' => '最愛 Views',
-                    'saved-views'    => 'Saved Views',
-                    'preset-views'   => 'Preset Views',
+                    'favorite-views' => 'Favorite Views',
+                    'saved-views'    => '儲存的檢視',
+                    'preset-views'   => '預設檢視',
                 ],
             ],
         ],

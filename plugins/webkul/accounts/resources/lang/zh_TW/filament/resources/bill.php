@@ -19,13 +19,13 @@ return [
             'general' => [
                 'title'  => '一般',
                 'fields' => [
-                    'vendor-bill'       => '供應商 進貨單',
+                    'vendor-bill'       => 'Vendor Bill',
                     'vendor'            => '供應商',
                     'bill-date'         => '進貨日期',
-                    'bill-reference'    => '進貨單 參考編號',
+                    'bill-reference'    => 'Bill Reference',
                     'accounting-date'   => '入帳日期',
                     'payment-reference' => '付款參考',
-                    'recipient-bank'    => 'Recipient 銀行',
+                    'recipient-bank'    => 'Recipient Bank',
                     'due-date'          => '到期日',
                     'payment-term'      => '付款條件',
                     'journal'           => '帳本',
@@ -36,7 +36,7 @@ return [
 
         'tabs' => [
             'invoice-lines' => [
-                'title' => '發票 Lines',
+                'title' => 'Invoice Lines',
 
                 'repeater' => [
                     'products' => [
@@ -79,10 +79,10 @@ return [
                             'incoterm-location'       => '貿易條件地點',
                             'payment-method'          => '付款方式',
                             'fiscal-position'         => '稅務情境',
-                            'fiscal-position-tooltip' => 'Fiscal positions are used to adapt taxes and accounts based on the customer location.',
-                            'cash-rounding'           => 'Cash Rounding 方式',
-                            'cash-rounding-tooltip'   => 'Specifies the smallest cash-payable unit of the currency.',
-                            'auto-post'               => 'Auto 文章',
+                            'fiscal-position-tooltip' => '財務立場用於依客戶位置調整稅務與科目。',
+                            'cash-rounding'           => 'Cash Rounding Method',
+                            'cash-rounding-tooltip'   => '指定貨幣可現金支付的最小單位。',
+                            'auto-post'               => 'Auto Post',
                             'checked'                 => '已核對',
                         ],
                     ],
@@ -108,11 +108,11 @@ return [
             'source-document'  => '來源單據',
             'reference'        => '參考編號',
             'sales-person'     => '業務',
-            'tax-excluded'     => '稅 Excluded',
+            'tax-excluded'     => 'Tax Excluded',
             'tax'              => '稅',
             'total'            => '總計',
-            'amount-due'       => '金額 Due',
-            'bill-currency'    => '進貨單 幣別',
+            'amount-due'       => 'Amount Due',
+            'bill-currency'    => 'Bill Currency',
         ],
 
         'summarizers' => [
@@ -121,12 +121,12 @@ return [
 
         'groups' => [
             'name'                         => '名稱',
-            'bill-partner-display-name'    => '進貨單 夥伴 Display名稱',
+            'bill-partner-display-name'    => 'Bill Partner Display名稱',
             'bill-date'                    => '進貨日期',
             'checked'                      => '已核對',
             'date'                         => '日期',
-            'bill-due-date'                => '進貨單 Due日期',
-            'bill-origin'                  => '進貨單 Origin',
+            'bill-due-date'                => 'Bill Due日期',
+            'bill-origin'                  => 'Bill Origin',
             'sales-person'                 => '業務',
             'currency'                     => '幣別',
             'created-at'                   => '建立時間',
@@ -135,26 +135,26 @@ return [
 
         'filters' => [
             'number'                    => '編號',
-            'bill-partner-display-name' => '進貨單 夥伴 Display名稱',
+            'bill-partner-display-name' => 'Bill Partner Display名稱',
             'bill-date'                 => '進貨日期',
-            'bill-due-date'             => '進貨單 Due日期',
-            'bill-origin'               => '進貨單 Origin',
+            'bill-due-date'             => 'Bill Due日期',
+            'bill-origin'               => 'Bill Origin',
             'reference'                 => '參考編號',
             'payment-reference'         => '付款參考',
-            'narration'                 => 'Narration',
+            'narration'                 => '說明',
             'partner'                   => '夥伴',
             'journal'                   => '帳本',
             'fiscal-position'           => '稅務情境',
             'currency'                  => '幣別',
             'company'                   => '公司',
             'date'                      => '入帳日期',
-            'delivery-date'             => '出貨日期',
+            'delivery-date'             => 'Delivery日期',
             'amount-untaxed'            => '未稅金額',
             'amount-tax'                => '稅額',
             'amount-total'              => '總金額',
-            'amount-residual'           => '金額 Due',
+            'amount-residual'           => 'Amount Due',
             'checked'                   => '已核對',
-            'posted-before'             => '已過帳 Before',
+            'posted-before'             => 'Posted Before',
             'is-move-sent'              => '已寄出',
             'created-at'                => '建立時間',
             'updated-at'                => '更新時間',
@@ -163,7 +163,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '付款已刪除',
+                    'title' => 'Payment已刪除',
                     'body'  => 'The payment has been已刪除成功.',
                 ],
             ],
@@ -172,7 +172,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '付款已刪除',
+                    'title' => 'Payments已刪除',
                     'body'  => 'The payments has been已刪除成功.',
                 ],
             ],
@@ -191,13 +191,13 @@ return [
                 'title'   => '一般',
 
                 'entries' => [
-                    'vendor-invoice'    => '供應商 發票',
+                    'vendor-invoice'    => 'Vendor Invoice',
                     'vendor'            => '供應商',
                     'bill-date'         => '進貨日期',
-                    'bill-reference'    => '進貨單 參考編號',
+                    'bill-reference'    => 'Bill Reference',
                     'accounting-date'   => '入帳日期',
                     'payment-reference' => '付款參考',
-                    'recipient-bank'    => 'Recipient 銀行',
+                    'recipient-bank'    => 'Recipient Bank',
                     'due-date'          => '到期日',
                     'payment-term'      => '付款條件',
                     'journal'           => '帳本',
@@ -208,7 +208,7 @@ return [
 
         'tabs' => [
             'invoice-lines' => [
-                'title' => '發票 Lines',
+                'title' => 'Invoice Lines',
 
                 'repeater' => [
                     'products' => [
@@ -241,7 +241,7 @@ return [
                             'payment-method'    => '付款方式',
                             'checked'           => '已核對',
                             'fiscal-position'   => '稅務情境',
-                            'cash-rounding'     => 'Cash Rounding 方式',
+                            'cash-rounding'     => 'Cash Rounding Method',
                             'checked'           => '已核對',
                         ],
                     ],

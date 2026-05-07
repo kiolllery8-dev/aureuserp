@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'model-label' => 'Chart of 帳戶',
+    'model-label' => 'Chart of Account',
 
     'navigation' => [
         'title' => '帳戶分類表',

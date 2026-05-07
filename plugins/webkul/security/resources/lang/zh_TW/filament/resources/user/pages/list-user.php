@@ -2,38 +2,38 @@
 
 return [
     'tabs' => [
-        'all'      => 'All 使用者',
-        'archived' => '已封存 使用者',
+        'all'      => 'All Users',
+        'archived' => 'Archived Users',
     ],
 
     'header-actions' => [
         'invite' => [
-            'title' => 'Invite 使用者',
+            'title' => 'Invite User',
             'modal' => [
-                'submit-action-label' => 'Invite 使用者',
+                'submit-action-label' => 'Invite User',
             ],
             'form' => [
                 'email' => '電子郵件',
             ],
             'notification' => [
                 'success' => [
-                    'title' => '使用者 invited',
-                    'body'  => '使用者 has been invited成功',
+                    'title' => 'User invited',
+                    'body'  => 'User has been invited成功',
                 ],
                 'error' => [
-                    'title' => '使用者 Invitation Failed',
+                    'title' => 'User Invitation Failed',
                     'body'  => 'The system encountered an unexpected error while trying to send the user invitation.',
                 ],
 
                 'default-company-error' => [
-                    'title' => '預設 公司 Not Set',
+                    'title' => 'Default Company Not Set',
                     'body'  => 'Please set the default company from settings, before inviting a user.',
                 ],
             ],
         ],
 
         'create' => [
-            'label' => '新增使用者',
+            'label' => '新增User',
         ],
     ],
 ];

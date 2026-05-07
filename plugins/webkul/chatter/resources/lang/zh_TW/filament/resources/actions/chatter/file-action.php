@@ -3,17 +3,17 @@
 return [
     'setup' => [
         'title'   => '附件',
-        'tooltip' => 'Upload Attachments',
+        'tooltip' => '上傳附件',
 
         'form' => [
             'fields' => [
                 'files'                  => '檔案',
-                'attachment-helper-text' => 'Max file size: 10MB. Allowed types: 圖片, PDF, Word, Excel, Text',
+                'attachment-helper-text' => 'Max file size: 10MB. Allowed types: Images, PDF, Word, Excel, Text',
 
                 'actions' => [
                     'delete' => [
-                        'title' => '檔案已刪除',
-                        'body'  => '檔案 has been已刪除成功.',
+                        'title' => 'File已刪除',
+                        'body'  => 'File has been已刪除成功.',
                     ],
                 ],
             ],
@@ -22,7 +22,7 @@ return [
         'actions' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Attachments Uploaded',
+                    'title' => '附件已上傳',
                     'body'  => 'Attachments uploaded成功.',
                 ],
 
@@ -32,8 +32,8 @@ return [
                 ],
 
                 'error' => [
-                    'title' => 'Attachment upload error',
-                    'body'  => 'Failed to upload attachments ',
+                    'title' => '附件上傳錯誤',
+                    'body'  => '附件上傳失敗 ',
                 ],
             ],
         ],

@@ -10,7 +10,7 @@ return [
     ],
 
     'global-search' => [
-        'employee'      => '員工',
+        'employee'      => 'Employee',
         'time-off-type' => '假別',
         'date-from'     => '開始日期',
         'date-to'       => '結束日期',
@@ -19,17 +19,17 @@ return [
     'form' => [
         'fields' => [
             'employee-name'     => '員工姓名',
-            'department-name'   => '部門名稱',
+            'department-name'   => 'Department名稱',
             'time-off-type'     => '假別',
             'date'              => '日期',
-            'dates'             => '日期',
+            'dates'             => 'Dates',
             'request-date-from' => '申請開始日',
             'request-date-to'   => '申請結束日',
-            'description'       => '描述',
-            'period'            => 'Period',
-            'half-day'          => 'Half Day',
-            'requested-days'    => 'Requested (天數/Hours)',
-            'description'       => '描述',
+            'description'       => '說明',
+            'period'            => '期間',
+            'half-day'          => '半天',
+            'requested-days'    => 'Requested (Days/Hours)',
+            'description'       => '說明',
             'attachment'        => '附件',
             'day'               => ':day day',
             'days'              => ':days day(s)',
@@ -38,17 +38,17 @@ return [
 
     'table' => [
         'columns' => [
-            'employee-name'  => '員工',
+            'employee-name'  => 'Employee',
             'time-off-type'  => '假別',
-            'description'    => '描述',
+            'description'    => '說明',
             'date-from'      => '開始日期',
             'date-to'        => '結束日期',
-            'duration'       => 'Duration',
+            'duration'       => '持續時間',
             'status'         => '狀態',
         ],
 
         'groups' => [
-            'employee-name' => '員工',
+            'employee-name' => 'Employee',
             'time-off-type' => '假別',
             'status'        => '狀態',
             'start-date'    => '開始日期',
@@ -60,26 +60,26 @@ return [
         'actions' => [
             'approve' => [
                 'title' => [
-                    'validate' => 'Validate',
+                    'validate' => '驗證',
                     'approve'  => '核准',
                 ],
                 'notification' => [
-                    'title' => '請假 approved',
+                    'title' => 'Time Off approved',
                     'body'  => 'The time off has been approved成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '請假已刪除',
+                    'title' => 'Time Off已刪除',
                     'body'  => 'The time off has been已刪除成功.',
                 ],
             ],
 
             'refused' => [
-                'title'        => 'Refuse',
+                'title'        => '拒絕',
                 'notification' => [
-                    'title' => '請假 refused',
+                    'title' => 'Time Off refused',
                     'body'  => 'The time off has been refused成功.',
                 ],
             ],
@@ -88,7 +88,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '請假已刪除',
+                    'title' => 'Time Off已刪除',
                     'body'  => 'The time off has been已刪除成功.',
                 ],
             ],
@@ -98,16 +98,16 @@ return [
     'infolist' => [
         'entries' => [
             'employee-name'     => '員工姓名',
-            'department-name'   => '部門名稱',
+            'department-name'   => 'Department名稱',
             'time-off-type'     => '假別',
             'date'              => '日期',
-            'dates'             => '日期',
+            'dates'             => 'Dates',
             'request-date-from' => '申請開始日',
             'request-date-to'   => '申請結束日',
-            'description'       => '描述',
-            'period'            => 'Period',
-            'half-day'          => 'Half Day',
-            'requested-days'    => 'Requested (天數/Hours)',
+            'description'       => '說明',
+            'period'            => '期間',
+            'half-day'          => '半天',
+            'requested-days'    => 'Requested (Days/Hours)',
             'attachment'        => '附件',
             'day'               => ':day day',
             'days'              => ':days day(s)',

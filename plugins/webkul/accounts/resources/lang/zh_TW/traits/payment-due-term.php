@@ -3,34 +3,34 @@
 return [
     'form' => [
         'value'                  => '值',
-        'due'                    => 'Due',
-        'delay-due'              => 'Delay Due',
+        'due'                    => '到期',
+        'delay-due'              => '延遲到期',
         'delay-type'             => 'Delay類型',
-        'days-on-the-next-month' => '天數 on the next month',
-        'days'                   => '天數',
+        'days-on-the-next-month' => 'Days on the next month',
+        'days'                   => '日',
         'payment-term'           => '付款條件',
     ],
 
     'table' => [
         'columns' => [
-            'due'          => 'Due',
+            'due'          => '到期',
             'value'        => '值',
             'value-amount' => 'Value金額',
-            'after'        => 'After',
+            'after'        => '之後',
             'delay-type'   => 'Delay類型',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '付款 Due 條件已更新',
+                    'title' => 'Payment Due Term已更新',
                     'body'  => 'The payment due term has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '付款 Due 條件已刪除',
+                    'title' => 'Payment Due Term已刪除',
                     'body'  => 'The payment due term has been已刪除成功.',
                 ],
             ],
@@ -39,7 +39,7 @@ return [
         'header-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => '付款 Due 條件已建立',
+                    'title' => 'Payment Due Term已建立',
                     'body'  => 'The payment due term has been已建立成功.',
                 ],
             ],

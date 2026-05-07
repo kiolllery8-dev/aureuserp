@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Rules',
+    'title' => '規則',
 
     'table' => [
         'header-actions' => [

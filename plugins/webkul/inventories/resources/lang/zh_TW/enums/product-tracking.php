@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'serial' => 'By Unique Serial 編號',
-    'lot'    => 'By 批號',
+    'serial' => 'By Unique Serial Number',
+    'lot'    => 'By Lots',
     'qty'    => 'By數量',
 ];

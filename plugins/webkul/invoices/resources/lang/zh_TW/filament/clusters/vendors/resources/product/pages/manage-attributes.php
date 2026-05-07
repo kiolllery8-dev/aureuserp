@@ -5,7 +5,7 @@ return [
 
     'form' => [
         'attribute' => '屬性',
-        'values'    => 'Values',
+        'values'    => '值',
     ],
 
     'table' => [
@@ -13,10 +13,10 @@ return [
 
         'header-actions' => [
             'create' => [
-                'label' => '新增屬性',
+                'label' => '新增Attribute',
 
                 'notification' => [
-                    'title' => '屬性已建立',
+                    'title' => 'Attribute已建立',
                     'body'  => 'The attribute has been已建立成功.',
                 ],
             ],
@@ -24,20 +24,20 @@ return [
 
         'columns' => [
             'attribute' => '屬性',
-            'values'    => 'Values',
+            'values'    => '值',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '屬性已更新',
+                    'title' => 'Attribute已更新',
                     'body'  => 'The attribute has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '屬性已刪除',
+                    'title' => 'Attribute已刪除',
                     'body'  => 'The attribute has been已刪除成功.',
                 ],
             ],

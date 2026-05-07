@@ -2,9 +2,9 @@
 
 return [
     'tabs' => [
-        'my-orders'  => 'My 訂單',
-        'to-invoice' => 'To 發票',
-        'up-selling' => 'Up Selling',
+        'my-orders'  => 'My Orders',
+        'to-invoice' => 'To Invoice',
+        'up-selling' => '升級銷售',
         'archived'   => '已封存',
     ],
 ];

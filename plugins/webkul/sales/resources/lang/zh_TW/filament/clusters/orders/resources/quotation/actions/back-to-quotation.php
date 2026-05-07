@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => 'Set as 報價單',
+    'title' => 'Set as Quotation',
 
     'notification' => [
         'back-to-quotation' => [
-            'title' => 'Sale order set as 報價單',
-            'body'  => 'Sale order has been set as 報價單成功.',
+            'title' => 'Sale order set as Quotation',
+            'body'  => 'Sale order has been set as Quotation成功.',
         ],
     ],
 ];

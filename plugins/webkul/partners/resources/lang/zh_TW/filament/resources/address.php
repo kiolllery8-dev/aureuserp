@@ -21,10 +21,10 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => '新增地址',
+                'label' => '新增Address',
 
                 'notification' => [
-                    'title' => '地址已建立',
+                    'title' => 'Address已建立',
                     'body'  => 'The address has been已建立成功.',
                 ],
             ],
@@ -32,7 +32,7 @@ return [
 
         'columns' => [
             'type'    => '類型',
-            'name'    => '聯絡人名稱',
+            'name'    => 'Contact名稱',
             'address' => '地址',
             'city'    => '城市',
             'street1' => '地址 1',
@@ -45,14 +45,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '地址已更新',
+                    'title' => 'Address已更新',
                     'body'  => 'The address has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '地址已刪除',
+                    'title' => 'Address已刪除',
                     'body'  => 'The address has been已刪除成功.',
                 ],
             ],
@@ -61,7 +61,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '地址已刪除',
+                    'title' => 'Addresses已刪除',
                     'body'  => 'The addresses has been已刪除成功.',
                 ],
             ],

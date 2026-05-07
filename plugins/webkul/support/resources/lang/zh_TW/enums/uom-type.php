@@ -2,6 +2,6 @@
 
 return [
     'reference' => '參考編號',
-    'bigger'    => 'Bigger',
-    'smaller'   => 'Smaller',
+    'bigger'    => '較大',
+    'smaller'   => '較小',
 ];

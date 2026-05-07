@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'title' => '管理任務',
+    'title' => '管理Tasks',
 
     'form' => [
-        'enable-project-stages'             => 'Enable 專案 階段',
-        'enable-project-stages-helper-text' => 'Track the progress of your projects',
-        'configure-stages'                  => 'Configure 階段',
-        'enable-milestones'                 => 'Enable Milestones',
-        'enable-milestones-helper-text'     => 'Track major progress points that must be reached to achieve success',
+        'enable-project-stages'             => 'Enable Project Stages',
+        'enable-project-stages-helper-text' => '追蹤專案進度',
+        'configure-stages'                  => 'Configure Stages',
+        'enable-milestones'                 => '啟用里程碑',
+        'enable-milestones-helper-text'     => '追蹤達成成功所需的主要進度點',
     ],
 ];

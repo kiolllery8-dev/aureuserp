@@ -2,6 +2,6 @@
 
 return [
     'navigation' => [
-        'title' => '管理履歷',
+        'title' => '管理Resumes',
     ],
 ];

@@ -13,13 +13,13 @@ return [
             'general' => [
                 'title'  => '一般',
                 'fields' => [
-                    'vendor-credit-note' => '供應商 Credit 備註',
+                    'vendor-credit-note' => 'Vendor Credit Note',
                     'vendor'             => '供應商',
                     'bill-date'          => '進貨日期',
-                    'bill-reference'     => '進貨單 參考編號',
+                    'bill-reference'     => 'Bill Reference',
                     'accounting-date'    => '入帳日期',
                     'payment-reference'  => '付款參考',
-                    'recipient-bank'     => 'Recipient 銀行',
+                    'recipient-bank'     => 'Recipient Bank',
                     'due-date'           => '到期日',
                     'payment-term'       => '付款條件',
                 ],
@@ -28,7 +28,7 @@ return [
 
         'tabs' => [
             'invoice-lines' => [
-                'title' => '發票 Lines',
+                'title' => 'Invoice Lines',
 
                 'repeater' => [
                     'products' => [
@@ -61,10 +61,10 @@ return [
                     ],
 
                     'secured' => [
-                        'title'  => 'Secured',
+                        'title'  => '已確保',
                         'fields' => [
                             'payment-method' => '付款方式',
-                            'auto-post'      => 'Auto 文章',
+                            'auto-post'      => 'Auto Post',
                             'checked'        => '已核對',
                         ],
                     ],
@@ -90,13 +90,13 @@ return [
             'general' => [
                 'title'   => '一般',
                 'entries' => [
-                    'vendor-invoice'    => '供應商 發票',
+                    'vendor-invoice'    => 'Vendor Invoice',
                     'vendor'            => '供應商',
                     'bill-date'         => '進貨日期',
-                    'bill-reference'    => '進貨單 參考編號',
+                    'bill-reference'    => 'Bill Reference',
                     'accounting-date'   => '入帳日期',
                     'payment-reference' => '付款參考',
-                    'recipient-bank'    => 'Recipient 銀行',
+                    'recipient-bank'    => 'Recipient Bank',
                     'due-date'          => '到期日',
                     'payment-term'      => '付款條件',
                 ],
@@ -105,7 +105,7 @@ return [
 
         'tabs' => [
             'invoice-lines' => [
-                'title' => '發票 Lines',
+                'title' => 'Invoice Lines',
 
                 'repeater' => [
                     'products' => [
@@ -138,10 +138,10 @@ return [
                     ],
 
                     'secured' => [
-                        'title'   => 'Secured',
+                        'title'   => '已確保',
                         'entries' => [
                             'payment-method' => '付款方式',
-                            'auto-post'      => 'Auto 文章',
+                            'auto-post'      => 'Auto Post',
                             'checked'        => '已核對',
                         ],
                     ],

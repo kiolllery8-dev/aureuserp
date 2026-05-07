@@ -3,12 +3,12 @@
 return [
     'header-actions' => [
         'print' => [
-            'label' => 'Print Labels',
+            'label' => '列印標籤',
 
             'form' => [
                 'fields' => [
-                    'quantity' => '編號 of Labels',
-                    'format'   => 'Format',
+                    'quantity' => 'Number of Labels',
+                    'format'   => '格式',
 
                     'format-options' => [
                         'dymo'       => 'Dymo',
@@ -23,7 +23,7 @@ return [
 
         'delete' => [
             'notification' => [
-                'title' => '商品 Deleted',
+                'title' => 'Product Deleted',
                 'body'  => 'The product has been已刪除成功.',
             ],
         ],

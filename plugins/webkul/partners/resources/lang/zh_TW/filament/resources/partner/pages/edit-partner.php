@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'title' => '編輯聯絡人',
+    'title' => '編輯Contact',
 
     'notification' => [
-        'title' => '聯絡人已更新',
+        'title' => 'Contact已更新',
         'body'  => 'The contact has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => '聯絡人已刪除',
+                'title' => 'Contact已刪除',
                 'body'  => 'The contact has been已刪除成功.',
             ],
         ],

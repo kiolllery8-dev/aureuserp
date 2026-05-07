@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'manual'     => 'Manual',
-    'stock-move' => '庫存異動',
+    'manual'     => '手動',
+    'stock-move' => 'Stock Move',
 ];

@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'lock'   => 'Lock',
-    'unlock' => 'Unlock',
+    'lock'   => '鎖定',
+    'unlock' => '解鎖',
 ];

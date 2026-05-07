@@ -2,8 +2,8 @@
 
 return [
     'tabs' => [
-        'with-skill'    => 'With 技能',
-        'without-skill' => 'Without 技能',
+        'with-skill'    => 'With Skill',
+        'without-skill' => 'Without Skill',
         'archived'      => '已封存',
     ],
 ];

@@ -8,16 +8,16 @@ return [
 
     'header-actions' => [
         'validate' => [
-            'label' => 'Validate',
+            'label' => '驗證',
 
             'notification' => [
                 'warning' => [
-                    'title' => 'Insufficient stock',
+                    'title' => '庫存不足',
                     'body'  => 'The scrap has insufficient stock to validate.',
                 ],
 
                 'success' => [
-                    'title' => 'Scrap marked as done',
+                    'title' => '報廢已標記完成',
                     'body'  => 'The scrap has been marked as done成功.',
                 ],
             ],
@@ -26,7 +26,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Scrap已刪除',
+                    'title' => '報廢已刪除',
                     'body'  => 'The scrap has been已刪除成功.',
                 ],
 

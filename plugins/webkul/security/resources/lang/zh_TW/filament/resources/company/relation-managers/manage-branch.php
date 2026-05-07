@@ -12,19 +12,19 @@ return [
 
                         'fields' => [
                             'company-name'                => '公司名稱',
-                            'registration-number'         => 'Registration 編號',
+                            'registration-number'         => 'Registration Number',
                             'tax-id'                      => '統一編號',
-                            'tax-id-tooltip'              => 'The 稅 ID is a unique identifier for your company.',
+                            'tax-id-tooltip'              => 'The Tax ID is a unique identifier for your company.',
                             'color'                       => '顏色',
-                            'company-id'                  => '公司 ID',
-                            'company-id-tooltip'          => 'The 公司 ID is a unique identifier for your company.',
+                            'company-id'                  => 'Company ID',
+                            'company-id-tooltip'          => 'The Company ID is a unique identifier for your company.',
                         ],
                     ],
 
                     'branding' => [
-                        'title'  => 'Branding',
+                        'title'  => '品牌',
                         'fields' => [
-                            'branch-logo' => 'Branch Logo',
+                            'branch-logo' => '分公司標誌',
                         ],
                     ],
                 ],
@@ -48,7 +48,7 @@ return [
                             'country-code'           => '代碼',
                             'country-name'           => '國家名稱',
                             'country-state-required' => '須填寫州/省',
-                            'country-zip-required'   => 'Zip 必填',
+                            'country-zip-required'   => 'Zip Required',
                             'country-create'         => '新增國家',
                             'state'                  => '狀態',
                             'state-name'             => '州/省名稱',
@@ -64,14 +64,14 @@ return [
                         'fields' => [
                             'default-currency'        => '預設幣別',
                             'currency-name'           => '幣別名稱',
-                            'currency-full-name'      => '幣別 Full名稱',
+                            'currency-full-name'      => 'Currency Full名稱',
                             'currency-symbol'         => '幣別符號',
-                            'currency-iso-numeric'    => '幣別 ISO Numeric',
-                            'currency-decimal-places' => '幣別 Decimal Places',
-                            'currency-rounding'       => '幣別 Rounding',
-                            'currency-status'         => '幣別狀態',
+                            'currency-iso-numeric'    => 'Currency ISO Numeric',
+                            'currency-decimal-places' => 'Currency Decimal Places',
+                            'currency-rounding'       => 'Currency Rounding',
+                            'currency-status'         => 'Currency狀態',
                             'currency-create'         => '新增幣別',
-                            'company-foundation-date' => '公司 Foundation日期',
+                            'company-foundation-date' => 'Company Foundation日期',
                             'status'                  => '狀態',
                         ],
                     ],
@@ -98,7 +98,7 @@ return [
 
     'table' => [
         'columns' => [
-            'logo'                 => 'Logo',
+            'logo'                 => '標誌',
             'company-name'         => 'Branch名稱',
             'branches'             => '分公司',
             'email'                => '電子郵件',
@@ -123,7 +123,7 @@ return [
         ],
 
         'filters' => [
-            'trashed' => 'Trashed',
+            'trashed' => '已丟到垃圾桶',
             'status'  => '狀態',
             'country' => '國家',
         ],
@@ -154,7 +154,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Branch restored',
+                    'title' => '分公司已還原',
                     'body'  => 'The branch has been restored成功.',
                 ],
             ],
@@ -163,7 +163,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Branches restored',
+                    'title' => '分公司已還原',
                     'body'  => 'The branches has been restored成功.',
                 ],
             ],
@@ -195,16 +195,16 @@ return [
 
                         'entries' => [
                             'company-name'                => '公司名稱',
-                            'registration-number'         => 'Registration 編號',
-                            'registration-number-tooltip' => 'The 稅 ID is a unique identifier for your company.',
+                            'registration-number'         => 'Registration Number',
+                            'registration-number-tooltip' => 'The Tax ID is a unique identifier for your company.',
                             'color'                       => '顏色',
                         ],
                     ],
 
                     'branding' => [
-                        'title'   => 'Branding',
+                        'title'   => '品牌',
                         'entries' => [
-                            'branch-logo' => 'Branch Logo',
+                            'branch-logo' => '分公司標誌',
                         ],
                     ],
                 ],
@@ -228,7 +228,7 @@ return [
                             'country-code'           => '代碼',
                             'country-name'           => '國家名稱',
                             'country-state-required' => '須填寫州/省',
-                            'country-zip-required'   => 'Zip 必填',
+                            'country-zip-required'   => 'Zip Required',
                             'country-create'         => '新增國家',
                             'state'                  => '狀態',
                             'state-name'             => '州/省名稱',
@@ -244,14 +244,14 @@ return [
                         'entries' => [
                             'default-currency'        => '預設幣別',
                             'currency-name'           => '幣別名稱',
-                            'currency-full-name'      => '幣別 Full名稱',
+                            'currency-full-name'      => 'Currency Full名稱',
                             'currency-symbol'         => '幣別符號',
-                            'currency-iso-numeric'    => '幣別 ISO Numeric',
-                            'currency-decimal-places' => '幣別 Decimal Places',
-                            'currency-rounding'       => '幣別 Rounding',
-                            'currency-status'         => '幣別狀態',
+                            'currency-iso-numeric'    => 'Currency ISO Numeric',
+                            'currency-decimal-places' => 'Currency Decimal Places',
+                            'currency-rounding'       => 'Currency Rounding',
+                            'currency-status'         => 'Currency狀態',
                             'currency-create'         => '新增幣別',
-                            'company-foundation-date' => '公司 Foundation日期',
+                            'company-foundation-date' => 'Company Foundation日期',
                             'status'                  => '狀態',
                         ],
                     ],

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'male'   => 'Male',
-    'female' => 'Female',
+    'male'   => '男',
+    'female' => '女',
     'other'  => '其他',
 ];

@@ -13,9 +13,9 @@ return [
 
                 'fields' => [
                     'title'             => '標題',
-                    'title-placeholder' => '頁面 title ...',
-                    'slug'              => 'Slug',
-                    'content'           => 'Content',
+                    'title-placeholder' => 'Page title ...',
+                    'slug'              => '網址代稱',
+                    'content'           => '內容',
                 ],
             ],
 
@@ -23,9 +23,9 @@ return [
                 'title' => 'SEO',
 
                 'fields' => [
-                    'meta-title'       => 'Meta 標題',
-                    'meta-keywords'    => 'Meta Keywords',
-                    'meta-description' => 'Meta 描述',
+                    'meta-title'       => 'Meta Title',
+                    'meta-keywords'    => 'Meta 關鍵字',
+                    'meta-description' => 'Meta Description',
                 ],
             ],
 
@@ -33,8 +33,8 @@ return [
                 'title' => '設定',
 
                 'fields' => [
-                    'is-header-visible' => 'Is 顯示 Header Menu',
-                    'is-footer-visible' => 'Is 顯示 Footer Menu',
+                    'is-header-visible' => 'Is Visible Header Menu',
+                    'is-footer-visible' => 'Is Visible Footer Menu',
                 ],
             ],
         ],
@@ -43,11 +43,11 @@ return [
     'table' => [
         'columns' => [
             'title'             => '標題',
-            'slug'              => 'Slug',
+            'slug'              => '網址代稱',
             'creator'           => '建立者',
             'is-published'      => 'Is Published',
-            'is-header-visible' => 'Is 顯示 Header Menu',
-            'is-footer-visible' => 'Is 顯示 Footer Menu',
+            'is-header-visible' => 'Is Visible Header Menu',
+            'is-footer-visible' => 'Is Visible Footer Menu',
             'created-at'        => '建立時間',
             'updated-at'        => '更新時間',
         ],
@@ -64,28 +64,28 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '頁面已更新',
+                    'title' => 'Page已更新',
                     'body'  => 'The page has been已更新成功.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => '頁面 restored',
+                    'title' => 'Page restored',
                     'body'  => 'The page has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '頁面已刪除',
+                    'title' => 'Page已刪除',
                     'body'  => 'The page has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '頁面 force已刪除',
+                    'title' => 'Page force已刪除',
                     'body'  => 'The page has been force已刪除成功.',
                 ],
             ],
@@ -94,21 +94,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '頁面 restored',
+                    'title' => 'Pages restored',
                     'body'  => 'The pages has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '頁面已刪除',
+                    'title' => 'Pages已刪除',
                     'body'  => 'The pages has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '頁面 force已刪除',
+                    'title' => 'Pages force已刪除',
                     'body'  => 'The pages has been force已刪除成功.',
                 ],
             ],
@@ -122,9 +122,9 @@ return [
 
                 'entries' => [
                     'title'   => '標題',
-                    'slug'    => 'Slug',
-                    'content' => 'Content',
-                    'banner'  => 'Banner',
+                    'slug'    => '網址代稱',
+                    'content' => '內容',
+                    'banner'  => '橫幅',
                 ],
             ],
 
@@ -132,9 +132,9 @@ return [
                 'title' => 'SEO',
 
                 'entries' => [
-                    'meta-title'       => 'Meta 標題',
-                    'meta-keywords'    => 'Meta Keywords',
-                    'meta-description' => 'Meta 描述',
+                    'meta-title'       => 'Meta Title',
+                    'meta-keywords'    => 'Meta 關鍵字',
+                    'meta-description' => 'Meta Description',
                 ],
             ],
 
@@ -144,9 +144,9 @@ return [
                 'entries' => [
                     'author'          => '作者',
                     'created-by'      => '建立者',
-                    'published-at'    => 'Published At',
-                    'last-updated-by' => 'Last Updated By',
-                    'last-updated'    => 'Last Updated At',
+                    'published-at'    => '發佈時間',
+                    'last-updated-by' => '最後更新者',
+                    'last-updated'    => '最後更新時間',
                     'created-at'      => '建立時間',
                 ],
             ],
@@ -155,8 +155,8 @@ return [
                 'title' => '設定',
 
                 'entries' => [
-                    'is-header-visible' => 'Is 顯示 Header Menu',
-                    'is-footer-visible' => 'Is 顯示 Footer Menu',
+                    'is-header-visible' => 'Is Visible Header Menu',
+                    'is-footer-visible' => 'Is Visible Footer Menu',
                 ],
             ],
         ],

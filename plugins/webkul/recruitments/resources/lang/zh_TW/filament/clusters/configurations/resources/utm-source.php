@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'title' => '來源',
+    'title' => 'Sources',
 
     'navigation' => [
-        'title' => '來源',
-        'group' => 'UTMs',
+        'title' => 'Sources',
+        'group' => 'UTM',
     ],
 
     'groups' => [
@@ -18,7 +18,7 @@ return [
     'form' => [
         'fields' => [
             'name'             => '名稱',
-            'name-placeholder' => 'Enter the name of the source',
+            'name-placeholder' => '輸入來源名稱',
             'status'           => '狀態',
         ],
     ],
@@ -43,14 +43,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '來源已更新',
+                    'title' => 'Source已更新',
                     'body'  => 'The source has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '來源已刪除',
+                    'title' => 'Source已刪除',
                     'body'  => 'The source has been已刪除成功.',
                 ],
             ],
@@ -59,8 +59,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '來源已刪除',
-                    'body'  => 'The 來源 has been已刪除成功.',
+                    'title' => 'Sources已刪除',
+                    'body'  => 'The Sources has been已刪除成功.',
                 ],
             ],
         ],
@@ -68,7 +68,7 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => '來源已建立',
+                    'title' => 'Source已建立',
                     'body'  => 'The source has been已建立成功.',
                 ],
             ],

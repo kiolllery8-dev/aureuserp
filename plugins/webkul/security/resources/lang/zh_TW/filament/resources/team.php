@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Teams',
+    'title' => '團隊',
 
     'navigation' => [
-        'title' => 'Teams',
+        'title' => '團隊',
         'group' => '設定',
     ],
 
@@ -51,14 +51,14 @@ return [
             'entries' => [
                 'name'          => '名稱',
                 'job-title'     => '職稱',
-                'work-email'    => 'Work 電子郵件',
-                'work-mobile'   => 'Work 行動電話',
-                'work-phone'    => 'Work 電話',
+                'work-email'    => 'Work Email',
+                'work-mobile'   => 'Work Mobile',
+                'work-phone'    => 'Work Phone',
                 'manager'       => '主管',
                 'department'    => '部門',
                 'job-position'  => '職位',
-                'team-tags'     => 'Team 標籤',
-                'coach'         => 'Coach',
+                'team-tags'     => 'Team Tags',
+                'coach'         => '教練',
             ],
         ],
     ],

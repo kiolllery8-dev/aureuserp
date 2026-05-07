@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'regular' => 'Regular',
-    'accrual' => 'Accrual',
+    'regular' => '常規',
+    'accrual' => '累計',
 ];

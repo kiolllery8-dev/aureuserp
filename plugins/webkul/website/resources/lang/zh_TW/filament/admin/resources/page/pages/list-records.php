@@ -2,16 +2,16 @@
 
 return [
     'tabs' => [
-        'my-posts' => 'My 頁面',
+        'my-posts' => 'My Pages',
         'archived' => '已封存',
     ],
 
     'header-actions' => [
         'create' => [
-            'label' => '新增頁面',
+            'label' => '新增Page',
 
             'notification' => [
-                'title' => '頁面已建立',
+                'title' => 'Page已建立',
                 'body'  => 'The page has been已建立成功.',
             ],
         ],

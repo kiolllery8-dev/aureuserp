@@ -8,8 +8,8 @@ return [
     ],
 
     'form' => [
-        'biller'            => 'Biller',
-        'name'              => '供應商 Credit 備註',
+        'biller'            => '開立人',
+        'name'              => 'Vendor Credit Note',
         'name-placeholder'  => 'RBILL/2025/02/0001',
         'reference'         => '參考編號',
         'payment-reference' => '付款參考',

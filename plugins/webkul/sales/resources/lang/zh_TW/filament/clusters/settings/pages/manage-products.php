@@ -1,24 +1,24 @@
 <?php
 
 return [
-    'title' => '管理商品',
+    'title' => '管理Products',
 
-    'breadcrumb' => '管理商品',
+    'breadcrumb' => '管理Products',
 
     'navigation' => [
-        'title' => '管理商品',
+        'title' => '管理Products',
     ],
 
     'form' => [
         'fields' => [
             'variants'                      => '規格',
-            'variants-help'                 => 'Allow products to have multiple variants',
+            'variants-help'                 => '允許商品有多個款式',
             'uom'                           => '計量單位',
-            'uom-help'                      => 'Allow products to have a unit of measure',
-            'packagings'                    => 'Packagings',
-            'packagings-help'               => 'Allow products to have multiple packagings',
-            'deliver-content-by-email'      => 'Deliver Content by 電子郵件',
-            'deliver-content-by-email-help' => 'Allow products to deliver content by email',
+            'uom-help'                      => '允許商品設定計量單位',
+            'packagings'                    => '包裝',
+            'packagings-help'               => '允許商品有多種包裝',
+            'deliver-content-by-email'      => 'Deliver Content by Email',
+            'deliver-content-by-email-help' => '允許以電子郵件交付商品內容',
         ],
     ],
 ];

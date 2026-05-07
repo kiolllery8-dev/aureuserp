@@ -5,21 +5,21 @@ return [
         'label'   => '資產',
         'options' => [
             'receivable'  => '應收帳款',
-            'cash'        => '銀行 and Cash',
-            'current'     => 'Current Assets',
-            'non-current' => 'Non-current Assets',
-            'prepayments' => 'Prepayments',
-            'fixed'       => 'Fixed Assets',
+            'cash'        => 'Bank and Cash',
+            'current'     => '流動資產',
+            'non-current' => '非流動資產',
+            'prepayments' => '預付款',
+            'fixed'       => '固定資產',
         ],
     ],
 
     'liabilities' => [
-        'label'   => 'Liabilities',
+        'label'   => '負債',
         'options' => [
             'payable'     => '應付帳款',
-            'credit-card' => 'Credit Card',
-            'current'     => 'Current Liabilities',
-            'non-current' => 'Non-current Liabilities',
+            'credit-card' => '信用卡',
+            'current'     => '流動負債',
+            'non-current' => '非流動負債',
         ],
     ],
 
@@ -27,15 +27,15 @@ return [
         'label'   => '權益',
         'options' => [
             'equity'     => '權益',
-            'unaffected' => 'Current Year Earnings',
+            'unaffected' => '本年度盈餘',
         ],
     ],
 
     'income' => [
-        'label'   => 'Income',
+        'label'   => '收入',
         'options' => [
-            'income' => 'Income',
-            'other'  => 'Other Income',
+            'income' => '收入',
+            'other'  => '其他收入',
         ],
     ],
 
@@ -43,15 +43,15 @@ return [
         'label'   => '費用',
         'options' => [
             'expense'      => '費用',
-            'depreciation' => 'Depreciation',
-            'direct-cost'  => '成本 of Revenue',
+            'depreciation' => '折舊',
+            'direct-cost'  => 'Cost of Revenue',
         ],
     ],
 
     'off-balance' => [
-        'label'   => 'Off-Balance Sheet',
+        'label'   => '資產負債表外',
         'options' => [
-            'off-balance' => 'Off-Balance Sheet',
+            'off-balance' => '資產負債表外',
         ],
     ],
 ];

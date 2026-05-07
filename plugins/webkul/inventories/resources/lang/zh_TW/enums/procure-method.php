@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'make-to-stock' => 'Take From Stock',
-    'make-to-order' => 'Trigger Another Rule',
-    'mts-else-mto'  => 'Take From Stock, if unavailable, Trigger Another Rule',
+    'make-to-stock' => '從庫存取',
+    'make-to-order' => '觸發其他規則',
+    'mts-else-mto'  => '從庫存取，沒有時觸發其他規則',
 ];

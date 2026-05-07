@@ -15,7 +15,7 @@ return [
     ],
 
     'form' => [
-        'biller'            => 'Biller',
+        'biller'            => '開立人',
         'reference'         => '參考編號',
         'payment-reference' => '付款參考',
         'date'              => '日期',

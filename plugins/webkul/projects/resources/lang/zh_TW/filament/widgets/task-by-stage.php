@@ -2,10 +2,10 @@
 
 return [
     'heading' => [
-        'title' => '任務 by 階段',
+        'title' => 'Tasks by Stage',
     ],
 
     'datasets' => [
-        'label' => '任務已建立',
+        'label' => 'Tasks已建立',
     ],
 ];

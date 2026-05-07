@@ -3,11 +3,11 @@
 return [
     'header-actions' => [
         'create' => [
-            'title' => '新增公開 Holiday',
+            'title' => '新增Public Holiday',
 
             'notification' => [
                 'created' => [
-                    'title' => '公開 Holiday已建立',
+                    'title' => 'Public Holiday已建立',
                     'body'  => 'The public holiday has been已建立成功.',
                 ],
             ],

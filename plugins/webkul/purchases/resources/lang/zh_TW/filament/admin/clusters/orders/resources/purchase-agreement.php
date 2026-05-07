@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Purchase Agreements',
+        'title' => '採購合約',
         'group' => '採購',
     ],
 
@@ -22,7 +22,7 @@ return [
                     'valid-to'              => 'Valid Until',
                     'buyer'                 => '買家',
                     'reference'             => '參考編號',
-                    'reference-placeholder' => 'eg. PO/123',
+                    'reference-placeholder' => '例：PO/123',
                     'agreement-type'        => 'Agreement類型',
                     'company'               => '公司',
                     'currency'              => '幣別',
@@ -37,7 +37,7 @@ return [
                 'columns' => [
                     'product'    => '商品',
                     'quantity'   => '數量',
-                    'ordered'    => 'Ordered',
+                    'ordered'    => '已訂購',
                     'uom'        => '計量單位',
                     'unit-price' => '單價',
                 ],
@@ -45,7 +45,7 @@ return [
                 'fields' => [
                     'product'    => '商品',
                     'quantity'   => '數量',
-                    'ordered'    => 'Ordered',
+                    'ordered'    => '已訂購',
                     'uom'        => '計量單位',
                     'unit-price' => '單價',
                 ],
@@ -63,7 +63,7 @@ return [
 
     'table' => [
         'columns' => [
-            'agreement'      => 'Agreement',
+            'agreement'      => '合約',
             'vendor'         => '供應商',
             'agreement-type' => 'Agreement類型',
             'buyer'          => '買家',
@@ -83,7 +83,7 @@ return [
         ],
 
         'filters' => [
-            'agreement'      => 'Agreement',
+            'agreement'      => '合約',
             'vendor'         => '供應商',
             'agreement-type' => 'Agreement類型',
             'buyer'          => '買家',
@@ -99,14 +99,14 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Purchase Agreement已刪除',
+                    'title' => '採購合約已刪除',
                     'body'  => 'The purchase agreement has been已刪除成功.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Purchase Agreement restored',
+                    'title' => '採購合約已還原',
                     'body'  => 'The purchase agreement has been restored成功.',
                 ],
             ],
@@ -125,7 +125,7 @@ return [
 
                     'warning' => [
                         'title' => 'Purchase Agreement cannot be已刪除',
-                        'body'  => 'Only purchase agreements in 草稿 or 已取消 state can be已刪除.',
+                        'body'  => 'Only purchase agreements in Draft or Cancelled state can be已刪除.',
                     ],
                 ],
             ],
@@ -141,7 +141,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Purchase Agreements restored',
+                    'title' => '採購合約已還原',
                     'body'  => 'The purchase agreements has been restored成功.',
                 ],
             ],
@@ -160,7 +160,7 @@ return [
 
                     'warning' => [
                         'title' => 'Purchase Agreement cannot be已刪除',
-                        'body'  => 'Only purchase agreements in 草稿 or 已取消 state can be已刪除.',
+                        'body'  => 'Only purchase agreements in Draft or Cancelled state can be已刪除.',
                     ],
                 ],
             ],
@@ -178,7 +178,7 @@ return [
                     'valid-to'              => 'Valid Until',
                     'buyer'                 => '買家',
                     'reference'             => '參考編號',
-                    'reference-placeholder' => 'eg. PO/123',
+                    'reference-placeholder' => '例：PO/123',
                     'agreement-type'        => 'Agreement類型',
                     'company'               => '公司',
                     'currency'              => '幣別',
@@ -186,7 +186,7 @@ return [
             ],
 
             'metadata' => [
-                'title' => 'Metadata',
+                'title' => '中繼資料',
 
                 'entries' => [
                     'created-at' => '建立時間',
@@ -203,7 +203,7 @@ return [
                 'entries' => [
                     'product'    => '商品',
                     'quantity'   => '數量',
-                    'ordered'    => 'Ordered',
+                    'ordered'    => '已訂購',
                     'uom'        => '計量單位',
                     'unit-price' => '單價',
                 ],

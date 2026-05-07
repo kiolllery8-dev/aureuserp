@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => '報價單 Template Created',
-        'body'  => '報價單 Template has been已建立成功.',
+        'title' => 'Quotation Template Created',
+        'body'  => 'Quotation Template has been已建立成功.',
     ],
 ];

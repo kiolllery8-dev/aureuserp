@@ -2,6 +2,6 @@
 
 return [
     'tabs' => [
-        'credit-notes' => 'Credit 備註',
+        'credit-notes' => 'Credit Notes',
     ],
 ];

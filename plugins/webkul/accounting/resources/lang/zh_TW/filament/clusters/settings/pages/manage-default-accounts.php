@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'title' => '管理預設 帳戶',
+    'title' => '管理Default Accounts',
 
     'form' => [
         'exchange-difference-entries' => [
-            'label' => 'Exchange Difference Entries',
+            'label' => '匯差分錄',
 
             'fields' => [
                 'journal' => [
@@ -13,39 +13,39 @@ return [
                 ],
 
                 'gain' => [
-                    'label' => 'Gain',
+                    'label' => '收益',
                 ],
 
                 'loss' => [
-                    'label' => 'Loss',
+                    'label' => '損失',
                 ],
             ],
         ],
 
         'bank-transfer-and-payments' => [
-            'label' => '銀行 調撥 and 付款',
+            'label' => 'Bank Transfer and Payments',
 
             'fields' => [
                 'bank-suspense-account' => [
-                    'label' => '銀行 Suspense 帳戶',
+                    'label' => 'Bank Suspense Account',
                 ],
 
                 'transfer-account' => [
-                    'label' => '調撥 帳戶',
+                    'label' => 'Transfer Account',
                 ],
             ],
         ],
 
         'product-accounts' => [
-            'label' => '商品 帳戶',
+            'label' => 'Product Accounts',
 
             'fields' => [
                 'income-account' => [
-                    'label' => 'Income 帳戶',
+                    'label' => 'Income Account',
                 ],
 
                 'expense-account' => [
-                    'label' => 'Expense 帳戶',
+                    'label' => 'Expense Account',
                 ],
             ],
         ],

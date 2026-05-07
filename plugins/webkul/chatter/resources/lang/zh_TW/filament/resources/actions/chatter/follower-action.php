@@ -2,14 +2,14 @@
 
     return [
         'setup' => [
-            'title'               => 'Followers',
+            'title'               => '追蹤者',
             'submit-action-title' => '新增Follower',
             'tooltip'             => '新增Follower',
 
             'form' => [
                 'fields' => [
-                    'recipients'  => 'Recipients',
-                    'notify-user' => 'Notify 使用者',
+                    'recipients'  => '收件人',
+                    'notify-user' => 'Notify User',
                     'add-a-note'  => '新增a note',
                 ],
             ],
@@ -17,18 +17,18 @@
             'actions' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Follower Added',
-                        'body'  => 'Follower has been added Successfully.',
+                        'title' => '已新增追蹤者',
+                        'body'  => '追蹤者已成功新增。',
                     ],
 
                     'partial_message' => [
-                        'title'    => 'Message sent with a notice',
+                        'title'    => '訊息已寄出並通知',
                         'single'   => ':count follower was not notified due to missing email: :names',
                         'multiple' => ':count followers were not notified due to missing emails: :names',
                     ],
 
                     'error' => [
-                        'title' => 'Follower added error',
+                        'title' => '新增追蹤者錯誤',
                         'body'  => 'Failed to ":partner" as follower',
                     ],
                 ],

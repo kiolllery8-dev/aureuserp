@@ -13,8 +13,8 @@ return [
 
                 'fields' => [
                     'name'             => '名稱',
-                    'name-placeholder' => 'eg. T-shirt',
-                    'description'      => '描述',
+                    'name-placeholder' => '例：T 恤',
+                    'description'      => '說明',
                     'tags'             => '標籤',
                     'sales'            => '銷售',
                     'purchase'         => '採購',
@@ -22,9 +22,9 @@ return [
             ],
 
             'invoice-policy' => [
-                'title'            => '發票 Policy',
+                'title'            => 'Invoice Policy',
                 'ordered-policy'   => 'You can invoice goods before they are delivered.',
-                'delivered-policy' => '發票 after delivery, based on quantities delivered, not ordered.',
+                'delivered-policy' => 'Invoice after delivery, based on quantities delivered, not ordered.',
             ],
 
             'images' => [
@@ -44,7 +44,7 @@ return [
             ],
 
             'category-and-tags' => [
-                'title' => '分類 & 標籤',
+                'title' => 'Category & Tags',
 
                 'fields' => [
                     'category' => '分類',
@@ -53,7 +53,7 @@ return [
             ],
 
             'pricing' => [
-                'title' => 'Pricing',
+                'title' => '定價',
 
                 'fields' => [
                     'price' => '價格',
@@ -62,7 +62,7 @@ return [
             ],
 
             'additional' => [
-                'title' => 'Additional',
+                'title' => '額外',
             ],
         ],
     ],
@@ -100,7 +100,7 @@ return [
             'company'     => '公司',
             'price'       => '價格',
             'cost'        => '成本',
-            'is-favorite' => 'Is 最愛',
+            'is-favorite' => 'Is Favorite',
             'weight'      => '重量',
             'volume'      => '體積',
             'tags'        => '標籤',
@@ -113,21 +113,21 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '商品 restored',
+                    'title' => 'Product restored',
                     'body'  => 'The product has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '商品已刪除',
+                    'title' => 'Product已刪除',
                     'body'  => 'The product has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '商品 force已刪除',
+                    'title' => 'Product force已刪除',
                     'body'  => 'The product has been force已刪除成功.',
                 ],
             ],
@@ -136,21 +136,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '商品 restored',
+                    'title' => 'Products restored',
                     'body'  => 'The products has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '商品已刪除',
+                    'title' => 'Products已刪除',
                     'body'  => 'The products has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '商品 force已刪除',
+                    'title' => 'Products force已刪除',
                     'body'  => 'The products has been force已刪除成功.',
                 ],
             ],
@@ -164,8 +164,8 @@ return [
 
                 'entries' => [
                     'name'             => '名稱',
-                    'name-placeholder' => 'eg. T-shirt',
-                    'description'      => '描述',
+                    'name-placeholder' => '例：T 恤',
+                    'description'      => '說明',
                     'tags'             => '標籤',
                 ],
             ],
@@ -189,7 +189,7 @@ return [
             ],
 
             'pricing' => [
-                'title' => 'Pricing',
+                'title' => '定價',
 
                 'entries' => [
                     'price' => '價格',
@@ -204,11 +204,11 @@ return [
 
                 'fieldsets' => [
                     'tracking' => [
-                        'title' => 'Tracking',
+                        'title' => '追蹤',
 
                         'entries' => [
-                            'track-inventory' => 'Track Inventory',
-                            'track-by'        => 'Track By',
+                            'track-inventory' => '追蹤庫存',
+                            'track-by'        => '追蹤方式',
                             'expiration-date' => 'Expiration日期',
                         ],
                     ],
@@ -228,18 +228,18 @@ return [
                             'responsible' => '負責人',
                             'weight'      => '重量',
                             'volume'      => '體積',
-                            'sale-delay'  => '客戶 商機時間 (天數)',
+                            'sale-delay'  => 'Customer Lead時間 (Days)',
                         ],
                     ],
 
                     'traceability' => [
-                        'title' => 'Traceability',
+                        'title' => '追溯',
 
                         'entries' => [
-                            'expiration-date'  => 'Expiration日期 (天數)',
-                            'best-before-date' => 'Best Before日期 (天數)',
-                            'removal-date'     => 'Removal日期 (天數)',
-                            'alert-date'       => 'Alert日期 (天數)',
+                            'expiration-date'  => 'Expiration日期 (Days)',
+                            'best-before-date' => 'Best Before日期 (Days)',
+                            'removal-date'     => 'Removal日期 (Days)',
+                            'alert-date'       => 'Alert日期 (Days)',
                         ],
                     ],
                 ],

@@ -17,7 +17,7 @@ return [
             'label' => '電子郵件',
         ],
         'password' => [
-            'label' => 'Password',
+            'label' => '密碼',
         ],
         'remember' => [
             'label' => '記住我',
@@ -30,7 +30,7 @@ return [
     ],
     'actions' => [
         'register' => [
-            'before' => 'Don\'t have an account?',
+            'before' => '還沒有帳號？',
             'label'  => '新增account',
         ],
         'request_password_reset' => [

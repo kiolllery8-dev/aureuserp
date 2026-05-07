@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Capacity By 包裝',
+    'title' => 'Capacity By Packages',
 
     'form' => [
         'package-type' => '包裝類型',
@@ -11,10 +11,10 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => '新增包裝類型 Capacity',
+                'label' => '新增Package類型 Capacity',
 
                 'notification' => [
-                    'title' => '包裝類型 Capacity已建立',
+                    'title' => 'Package類型 Capacity已建立',
                     'body'  => 'The package type capacity been added成功.',
                 ],
             ],
@@ -28,14 +28,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '包裝類型 Capacity已更新',
+                    'title' => 'Package類型 Capacity已更新',
                     'body'  => 'The package type capacity has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '包裝類型 Capacity已刪除',
+                    'title' => 'Package類型 Capacity已刪除',
                     'body'  => 'The package type capacity has been已刪除成功.',
                 ],
             ],

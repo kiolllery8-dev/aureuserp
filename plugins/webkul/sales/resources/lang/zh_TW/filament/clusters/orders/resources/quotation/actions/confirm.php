@@ -5,13 +5,13 @@ return [
 
     'notification' => [
         'confirmed' => [
-            'title' => '報價單 confirmed',
-            'body'  => '報價單 has been confirmed and converted to sale成功.',
+            'title' => 'Quotation confirmed',
+            'body'  => 'Quotation has been confirmed and converted to sale成功.',
         ],
 
         'error' => [
             'title' => 'Error',
-            'body'  => 'An error occurred while confirming the quotation.',
+            'body'  => '確認報價時發生錯誤。',
         ],
     ],
 ];

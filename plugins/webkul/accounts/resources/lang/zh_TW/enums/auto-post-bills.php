@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'always' => 'Always',
-    'ask'    => 'Ask after 3 validations without edits',
-    'never'  => 'Never',
+    'always' => '總是',
+    'ask'    => '三次驗證未編輯後詢問',
+    'never'  => '從未',
 ];

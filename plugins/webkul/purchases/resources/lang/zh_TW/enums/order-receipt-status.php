@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'no'      => 'Noting To Receive',
+    'no'      => '無待收項目',
     'pending' => '待處理',
-    'partial' => 'Partially Received',
-    'full'    => 'Fully Received',
+    'partial' => '部分收到',
+    'full'    => '全數收到',
 ];

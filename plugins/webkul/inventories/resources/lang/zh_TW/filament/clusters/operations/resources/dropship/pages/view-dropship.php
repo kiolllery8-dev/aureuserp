@@ -9,7 +9,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Dropship Deleted',
+                    'title' => '代發已刪除',
                     'body'  => 'The dropship has been已刪除成功.',
                 ],
 

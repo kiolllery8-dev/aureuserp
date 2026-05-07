@@ -8,10 +8,10 @@ return [
     ],
 
     'global-search' => [
-        'email-from' => '電子郵件 From',
+        'email-from' => 'Email From',
         'phone'      => '電話',
         'company'    => '公司',
-        'degree'     => 'Degree',
+        'degree'     => '學位',
     ],
 
     'form' => [
@@ -23,17 +23,17 @@ return [
                     'full-name' => '姓名',
                     'email'     => '電子郵件',
                     'phone'     => '電話號碼',
-                    'linkedin'  => 'LinkedIn Profile',
+                    'linkedin'  => 'LinkedIn 檔案',
                     'contact'   => '聯絡人',
                 ],
             ],
 
             'additional-details' => [
-                'title' => 'Additional Details',
+                'title' => '額外詳情',
 
                 'fields' => [
                     'company'           => '公司',
-                    'degree'            => 'Degree',
+                    'degree'            => '學位',
                     'tags'              => '標籤',
                     'manager'           => '主管',
                     'availability-date' => 'Availability日期',
@@ -50,17 +50,17 @@ return [
                 'title' => '狀態',
 
                 'fields' => [
-                    'active'     => '啟用中',
-                    'evaluation' => 'Evaluation',
+                    'active'     => '啟用',
+                    'evaluation' => '評估',
                 ],
             ],
 
             'communication' => [
-                'title' => 'Communication',
+                'title' => '溝通',
 
                 'fields' => [
-                    'cc-email'      => 'CC 電子郵件',
-                    'email-bounced' => '電子郵件 Bounced',
+                    'cc-email'      => 'CC Email',
+                    'email-bounced' => 'Email Bounced',
                 ],
             ],
         ],
@@ -70,13 +70,13 @@ return [
         'columns' => [
             'name'       => '姓名',
             'tags'       => '標籤',
-            'evaluation' => 'Evaluation',
+            'evaluation' => '評估',
         ],
 
         'filters' => [
             'company'      => '公司',
             'partner-name' => '聯絡人',
-            'degree'       => 'Degree',
+            'degree'       => '學位',
             'manager-name' => '主管',
         ],
 
@@ -87,7 +87,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '應徵者 Deleted',
+                    'title' => 'Candidate Deleted',
                     'body'  => 'The candidates has been已刪除成功.',
                 ],
             ],
@@ -95,7 +95,7 @@ return [
             'empty-state-actions' => [
                 'create' => [
                     'notification' => [
-                        'title' => '應徵者 Created',
+                        'title' => 'Candidate Created',
                         'body'  => 'The candidates has been已建立成功.',
                     ],
                 ],
@@ -105,7 +105,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '應徵者 Deleted',
+                    'title' => 'Candidates Deleted',
                     'body'  => 'The candidates has been已刪除成功.',
                 ],
             ],
@@ -121,17 +121,17 @@ return [
                     'full-name' => '姓名',
                     'email'     => '電子郵件',
                     'phone'     => '電話號碼',
-                    'linkedin'  => 'LinkedIn Profile',
+                    'linkedin'  => 'LinkedIn 檔案',
                     'contact'   => '聯絡人',
                 ],
             ],
 
             'additional-details' => [
-                'title' => 'Additional Details',
+                'title' => '額外詳情',
 
                 'entries' => [
                     'company'           => '公司',
-                    'degree'            => 'Degree',
+                    'degree'            => '學位',
                     'tags'              => '標籤',
                     'manager'           => '主管',
                     'availability-date' => 'Availability日期',
@@ -148,17 +148,17 @@ return [
                 'title' => '狀態',
 
                 'entries' => [
-                    'active'     => '啟用中',
-                    'evaluation' => 'Evaluation',
+                    'active'     => '啟用',
+                    'evaluation' => '評估',
                 ],
             ],
 
             'communication' => [
-                'title' => 'Communication',
+                'title' => '溝通',
 
                 'entries' => [
-                    'cc-email'      => 'CC 電子郵件',
-                    'email-bounced' => '電子郵件 Bounced',
+                    'cc-email'      => 'CC Email',
+                    'email-bounced' => 'Email Bounced',
                 ],
             ],
         ],

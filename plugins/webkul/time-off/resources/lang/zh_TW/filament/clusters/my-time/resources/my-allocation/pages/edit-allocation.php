@@ -9,7 +9,7 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Allocation已刪除',
+                'title' => '分配已刪除',
                 'body'  => 'The allocation has been已刪除成功.',
             ],
         ],

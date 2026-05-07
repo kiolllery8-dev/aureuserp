@@ -6,7 +6,7 @@ return [
     'log-attributes' => [
         'state'             => '狀態',
         'untaxed-amount'    => '未稅金額',
-        'partner-reference' => '供應商 參考編號',
+        'partner-reference' => 'Vendor Reference',
         'origin'            => '來源單據',
         'partner'           => '供應商',
         'buyer'             => '買家',

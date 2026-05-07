@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => '訂單已更新',
+        'title' => 'Order已更新',
         'body'  => 'The order has been已更新成功.',
     ],
 
@@ -26,12 +26,12 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => '訂單已刪除',
+                    'title' => 'Order已刪除',
                     'body'  => 'The order has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => '訂單 could not be已刪除',
+                    'title' => 'Order could not be已刪除',
                     'body'  => 'The order cannot be已刪除 because it is currently in use.',
                 ],
             ],

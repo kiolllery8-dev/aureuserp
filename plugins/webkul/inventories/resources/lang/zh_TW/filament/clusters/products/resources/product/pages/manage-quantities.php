@@ -1,14 +1,14 @@
 <?php
 
 return [
-    'title' => '數量',
+    'title' => 'Quantities',
 
     'tabs' => [
-        'internal-locations' => 'Internal 位置',
-        'transit-locations'  => 'Transit 位置',
+        'internal-locations' => 'Internal Locations',
+        'transit-locations'  => 'Transit Locations',
         'on-hand'            => '現有',
-        'to-count'           => 'To Count',
-        'to-apply'           => 'To Apply',
+        'to-count'           => '待盤點',
+        'to-apply'           => '待套用',
     ],
 
     'form' => [
@@ -36,7 +36,7 @@ return [
 
             'on-hand-before-state-updated' => [
                 'notification' => [
-                    'title' => '數量已更新',
+                    'title' => 'Quantity已更新',
                     'body'  => 'The quantity has been已更新成功.',
                 ],
             ],
@@ -44,16 +44,16 @@ return [
 
         'header-actions' => [
             'create' => [
-                'label' => '新增數量',
+                'label' => '新增Quantity',
 
                 'notification' => [
-                    'title' => '數量 added',
+                    'title' => 'Quantity added',
                     'body'  => 'The quantity has been added成功.',
                 ],
 
                 'before' => [
                     'notification' => [
-                        'title' => '數量已存在',
+                        'title' => 'Quantity已存在',
                         'body'  => 'Already has a quantity for the same configuration. Please update the quantity instead.',
                     ],
                 ],
@@ -63,7 +63,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '數量已刪除',
+                    'title' => 'Quantity已刪除',
                     'body'  => 'The quantity has been已刪除成功.',
                 ],
             ],

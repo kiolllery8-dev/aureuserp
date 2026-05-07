@@ -4,9 +4,9 @@ return [
     'tabs' => [
         'sale'      => '銷售',
         'purchase'  => '採購',
-        'tax-scope' => '稅 Scope',
+        'tax-scope' => 'Tax Scope',
         'goods'     => '商品',
-        'active'    => '啟用中',
-        'in-active' => 'In active',
+        'active'    => '啟用',
+        'in-active' => '停用',
     ],
 ];

@@ -14,7 +14,7 @@ return [
             'destination-location' => '送到哪裡',
             'quantity'             => '數量',
             'state'                => '狀態',
-            'done-by'              => 'Done By',
+            'done-by'              => '完成者',
         ],
 
         'actions' => [

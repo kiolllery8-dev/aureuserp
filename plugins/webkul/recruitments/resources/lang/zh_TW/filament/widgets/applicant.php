@@ -2,11 +2,11 @@
 
 return [
     'heading' => [
-        'title' => '應徵者 總覽',
+        'title' => 'Applicant Overview',
     ],
 
-    'ongoing'  => 'Ongoing',
-    'hired'    => 'Hired',
-    'refused'  => 'Refused',
+    'ongoing'  => '進行中',
+    'hired'    => '已錄用',
+    'refused'  => '已拒絕',
     'archived' => '已封存',
 ];

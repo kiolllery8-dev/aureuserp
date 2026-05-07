@@ -4,7 +4,7 @@ return [
     'form' => [
         'sections' => [
             'activity-details' => [
-                'title' => '活動 Details',
+                'title' => 'Activity Details',
 
                 'fields' => [
                     'activity-type' => '活動類型',
@@ -18,7 +18,7 @@ return [
 
                 'fields' => [
                     'assignment' => '指派',
-                    'assignee'   => 'Assignee',
+                    'assignee'   => '受指派者',
                 ],
             ],
 
@@ -26,10 +26,10 @@ return [
                 'title' => 'Delay資料',
 
                 'fields' => [
-                    'delay-count'            => 'Delay Count',
-                    'delay-unit'             => 'Delay 單位',
-                    'delay-from'             => 'Delay From',
-                    'delay-from-helper-text' => '來源 of delay calculation',
+                    'delay-count'            => '延遲次數',
+                    'delay-unit'             => 'Delay Unit',
+                    'delay-from'             => '延遲起始',
+                    'delay-from-helper-text' => 'Source of delay calculation',
                 ],
             ],
         ],
@@ -41,9 +41,9 @@ return [
             'summary'       => '摘要',
             'assignment'    => '指派',
             'assigned-to'   => '指派給',
-            'interval'      => 'Interval',
-            'delay-unit'    => 'Delay 單位',
-            'delay-from'    => 'Delay From',
+            'interval'      => '間隔',
+            'delay-unit'    => 'Delay Unit',
+            'delay-from'    => '延遲起始',
             'created-by'    => '建立者',
             'created-at'    => '建立時間',
             'updated-at'    => '更新時間',
@@ -53,9 +53,9 @@ return [
             'activity-type' => '活動類型',
             'assignment'    => '指派',
             'assigned-to'   => '指派給',
-            'interval'      => 'Interval',
-            'delay-unit'    => 'Delay 單位',
-            'delay-from'    => 'Delay From',
+            'interval'      => '間隔',
+            'delay-unit'    => 'Delay Unit',
+            'delay-from'    => '延遲起始',
             'created-by'    => '建立者',
             'created-at'    => '建立時間',
             'updated-at'    => '更新時間',
@@ -63,21 +63,21 @@ return [
 
         'filters' => [
             'activity-type'   => '活動類型',
-            'activity-status' => '活動狀態',
-            'has-delay'       => 'Has Delay',
+            'activity-status' => 'Activity狀態',
+            'has-delay'       => '有延遲',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '活動 template已更新',
+                    'title' => 'Activity template已更新',
                     'body'  => 'The activity template has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '活動 template已刪除',
+                    'title' => 'Activity template已刪除',
                     'body'  => 'The activity template has been已刪除成功.',
                 ],
             ],
@@ -86,7 +86,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '活動 templates已刪除',
+                    'title' => 'Activity templates已刪除',
                     'body'  => 'The activity templates has been已刪除成功.',
                 ],
             ],

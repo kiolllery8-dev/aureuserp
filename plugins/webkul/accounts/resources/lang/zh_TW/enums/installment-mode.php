@@ -2,7 +2,7 @@
 
 return [
     'next'        => '下一步',
-    'overdue'     => 'Overdue',
+    'overdue'     => '逾期',
     'before-date' => 'Before日期',
-    'full'        => 'Full',
+    'full'        => '完整',
 ];

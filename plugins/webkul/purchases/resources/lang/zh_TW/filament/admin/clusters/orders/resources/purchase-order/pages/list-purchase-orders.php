@@ -6,18 +6,18 @@ return [
     ],
 
     'tabs' => [
-        'my-orders'      => 'My 訂單',
-        'starred'        => 'Starred',
-        'waiting-bills'  => 'Waiting 進貨單',
-        'received-bills' => '進貨單 Received',
+        'my-orders'      => 'My Orders',
+        'starred'        => '已加星標',
+        'waiting-bills'  => 'Waiting Bills',
+        'received-bills' => 'Bills Received',
     ],
 
     'header-actions' => [
         'create' => [
-            'label' => '新增訂單',
+            'label' => '新增Order',
 
             'notification' => [
-                'title' => '訂單已建立',
+                'title' => 'Order已建立',
                 'body'  => 'The order has been已建立成功.',
             ],
         ],

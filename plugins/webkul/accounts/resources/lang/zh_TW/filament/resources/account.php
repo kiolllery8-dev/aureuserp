@@ -10,15 +10,15 @@ return [
         'sections' => [
             'fields' => [
                 'code'          => '代碼',
-                'account-name'  => '帳戶名稱',
+                'account-name'  => 'Account名稱',
                 'accounting'    => '會計',
                 'account-type'  => '帳戶類型',
-                'default-taxes' => '預設 稅',
+                'default-taxes' => 'Default Taxes',
                 'tags'          => '標籤',
                 'journals'      => '帳本',
                 'currency'      => '幣別',
-                'deprecated'    => 'Deprecated',
-                'reconcile'     => 'Allow Reconcile',
+                'deprecated'    => '已停用',
+                'reconcile'     => '允許對帳',
                 'non-trade'     => 'Non Trade',
                 'companies'     => '公司',
             ],
@@ -28,11 +28,11 @@ return [
     'table' => [
         'columns' => [
             'code'         => '代碼',
-            'account-name' => '帳戶名稱',
+            'account-name' => 'Account名稱',
             'account-type' => '帳戶',
             'currency'     => '幣別',
             'journals'     => '帳本',
-            'reconcile'    => 'Allow Reconcile',
+            'reconcile'    => '允許對帳',
         ],
 
         'grouping' => [
@@ -41,7 +41,7 @@ return [
 
         'filters' => [
             'account-type'     => '帳戶類型',
-            'allow-reconcile'  => 'Allow Reconcile',
+            'allow-reconcile'  => '允許對帳',
             'currency'         => '幣別',
             'account-journals' => '帳本',
             'non-trade'        => 'Non Trade',
@@ -50,7 +50,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '帳戶已更新',
+                    'title' => 'Account已更新',
                     'body'  => 'The account has been已更新成功.',
                 ],
             ],
@@ -58,12 +58,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '帳戶已刪除',
+                        'title' => 'Account已刪除',
                         'body'  => 'The account has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '帳戶 deletion失敗',
+                        'title' => 'Account deletion失敗',
                         'body'  => 'The account could not be已刪除 because it has associated journal items.',
                     ],
                 ],
@@ -74,12 +74,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '帳戶已刪除',
+                        'title' => 'Accounts已刪除',
                         'body'  => 'The accounts has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '帳戶 deletion失敗',
+                        'title' => 'Accounts deletion失敗',
                         'body'  => 'The accounts could not be已刪除 because they have associated journal items.',
                     ],
                 ],
@@ -91,15 +91,15 @@ return [
         'sections' => [
             'entries' => [
                 'code'          => '代碼',
-                'account-name'  => '帳戶名稱',
+                'account-name'  => 'Account名稱',
                 'accounting'    => '會計',
                 'account-type'  => '帳戶類型',
-                'default-taxes' => '預設 稅',
+                'default-taxes' => 'Default Taxes',
                 'tags'          => '標籤',
                 'journals'      => '帳本',
                 'currency'      => '幣別',
-                'deprecated'    => 'Deprecated',
-                'reconcile'     => 'Reconcile',
+                'deprecated'    => '已停用',
+                'reconcile'     => '對帳',
                 'non-trade'     => 'Non Trade',
             ],
         ],

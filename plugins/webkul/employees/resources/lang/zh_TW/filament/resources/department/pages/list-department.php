@@ -2,12 +2,12 @@
 
 return [
     'tabs' => [
-        'archived-departments' => '已封存 部門',
+        'archived-departments' => 'Archived Departments',
     ],
 
     'header-actions' => [
         'create' => [
-            'label' => '新增部門',
+            'label' => '新增Department',
         ],
     ],
 ];

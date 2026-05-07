@@ -5,46 +5,46 @@ return [
         'sections' => [
             'fields' => [
                 'name'            => '名稱',
-                'tax-type'        => '稅類型',
-                'tax-computation' => '稅 Computation',
-                'tax-scope'       => '稅 Scope',
+                'tax-type'        => 'Tax類型',
+                'tax-computation' => 'Tax Computation',
+                'tax-scope'       => 'Tax Scope',
                 'status'          => '狀態',
                 'amount'          => '金額',
             ],
 
             'repeater' => [
                 'invoice-repartition-lines' => [
-                    'label' => '發票 Repartition Lines',
+                    'label' => 'Invoice Repartition Lines',
                 ],
 
                 'refund-repartition-lines' => [
-                    'label' => '退款 Repartition Lines',
+                    'label' => 'Refund Repartition Lines',
                 ],
 
                 'fields' => [
                     'type'           => '類型',
-                    'factor-percent' => 'Factor %',
+                    'factor-percent' => '因子 %',
                     'account'        => '帳戶',
                 ],
             ],
 
             'field-set' => [
                 'advanced-options' => [
-                    'title' => 'Advanced 選項',
+                    'title' => 'Advanced Options',
 
                     'fields' => [
-                        'invoice-label'       => '發票 label',
+                        'invoice-label'       => 'Invoice label',
                         'tax-group'           => '稅務群組',
                         'country'             => '國家',
                         'include-in-price'    => 'Included in價格',
-                        'include-base-amount' => 'Affect Base of Subsequent 稅',
-                        'is-base-affected'    => 'Base Affected by Previous 稅',
+                        'include-base-amount' => 'Affect Base of Subsequent Taxes',
+                        'is-base-affected'    => 'Base Affected by Previous Taxes',
                     ],
                 ],
 
                 'fields' => [
-                    'description' => '描述',
-                    'legal-notes' => 'Legal 備註',
+                    'description' => '說明',
+                    'legal-notes' => 'Legal Notes',
                 ],
             ],
         ],
@@ -53,20 +53,20 @@ return [
     'table' => [
         'columns' => [
             'name'                   => '名稱',
-            'amount-type'            => '金額類型',
+            'amount-type'            => 'Amount類型',
             'company'                => '公司',
             'tax-group'              => '稅務群組',
             'country'                => '國家',
-            'tax-type'               => '稅類型',
-            'tax-scope'              => '稅 Scope',
-            'amount-type'            => '金額類型',
-            'invoice-label'          => '發票 Label',
-            'tax-exigibility'        => '稅 Exigibility',
-            'price-include-override' => '價格 Include Override',
+            'tax-type'               => 'Tax類型',
+            'tax-scope'              => 'Tax Scope',
+            'amount-type'            => 'Amount類型',
+            'invoice-label'          => 'Invoice Label',
+            'tax-exigibility'        => 'Tax Exigibility',
+            'price-include-override' => 'Price Include Override',
             'amount'                 => '金額',
             'status'                 => '狀態',
-            'include-base-amount'    => 'Include Base金額',
-            'is-base-affected'       => 'Is Base Affected',
+            'include-base-amount'    => '含基準金額',
+            'is-base-affected'       => '是否影響基準',
         ],
 
         'groups' => [
@@ -75,21 +75,21 @@ return [
             'tax-group'    => '稅務群組',
             'country'      => '國家',
             'created-by'   => '建立者',
-            'type-tax-use' => '類型 稅 Use',
-            'tax-scope'    => '稅 Scope',
-            'amount-type'  => '金額類型',
+            'type-tax-use' => 'Type Tax Use',
+            'tax-scope'    => 'Tax Scope',
+            'amount-type'  => 'Amount類型',
         ],
 
         'actions' => [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '稅已刪除',
-                        'body'  => 'The 稅 has been已刪除成功.',
+                        'title' => 'Tax已刪除',
+                        'body'  => 'The Tax has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '稅 could not be已刪除',
+                        'title' => 'Tax could not be已刪除',
                         'body'  => 'The tax cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -100,12 +100,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '稅已刪除',
+                        'title' => 'Taxes已刪除',
                         'body'  => 'The taxes has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '稅 could not be已刪除',
+                        'title' => 'Taxes could not be已刪除',
                         'body'  => 'The taxes cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -116,7 +116,7 @@ return [
             'create' => [
                 'notifications' => [
                     'invalid-repartition-lines' => [
-                        'title' => 'Invalid Repartition Lines',
+                        'title' => '無效的分配行',
                     ],
                 ],
             ],
@@ -124,7 +124,7 @@ return [
             'edit' => [
                 'notifications' => [
                     'invalid-repartition-lines' => [
-                        'title' => 'Invalid Repartition Lines',
+                        'title' => '無效的分配行',
                     ],
                 ],
             ],
@@ -135,32 +135,32 @@ return [
         'sections' => [
             'entries' => [
                 'name'            => '名稱',
-                'tax-type'        => '稅類型',
-                'tax-computation' => '稅 Computation',
-                'tax-scope'       => '稅 Scope',
+                'tax-type'        => 'Tax類型',
+                'tax-computation' => 'Tax Computation',
+                'tax-scope'       => 'Tax Scope',
                 'status'          => '狀態',
                 'amount'          => '金額',
             ],
 
             'field-set' => [
                 'advanced-options' => [
-                    'title' => 'Advanced 選項',
+                    'title' => 'Advanced Options',
 
                     'entries' => [
-                        'invoice-label'       => '發票 label',
+                        'invoice-label'       => 'Invoice label',
                         'tax-group'           => '稅務群組',
                         'country'             => '國家',
-                        'include-in-price'    => 'Include in price',
-                        'include-base-amount' => 'Include base amount',
-                        'is-base-affected'    => 'Is base affected',
+                        'include-in-price'    => '含於價格',
+                        'include-base-amount' => '含基準金額',
+                        'is-base-affected'    => '是否影響基準',
                     ],
                 ],
 
                 'description-and-legal-notes' => [
-                    'title'   => '描述 & 發票 Legal 備註',
+                    'title'   => 'Description & Invoice Legal Notes',
                     'entries' => [
-                        'description' => '描述',
-                        'legal-notes' => 'Legal 備註',
+                        'description' => '說明',
+                        'legal-notes' => 'Legal Notes',
                     ],
                 ],
             ],

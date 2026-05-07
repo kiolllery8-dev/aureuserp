@@ -2,15 +2,15 @@
 
 return [
     'tabs' => [
-        'my-applicants'          => 'My 應徵者',
-        'un-assigned'            => 'Un Assigned',
+        'my-applicants'          => 'My Applicants',
+        'un-assigned'            => '未指派',
         'in-progress'            => '處理中',
-        'hired'                  => 'Hired',
-        'refused'                => 'Refused',
+        'hired'                  => '已錄用',
+        'refused'                => '已拒絕',
         'archived'               => '已封存',
         'blocked'                => 'Blocked',
-        'directly-available'     => 'Directly Available',
-        'created-recently'       => 'Created Recently',
-        'stage-updated-recently' => '階段 Updated Recently',
+        'directly-available'     => '立即可用',
+        'created-recently'       => '最近建立',
+        'stage-updated-recently' => 'Stage Updated Recently',
     ],
 ];

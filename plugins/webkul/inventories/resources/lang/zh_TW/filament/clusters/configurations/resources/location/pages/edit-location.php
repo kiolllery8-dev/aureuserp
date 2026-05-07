@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => '位置已更新',
+        'title' => 'Location已更新',
         'body'  => 'The location has been已更新成功.',
     ],
 
@@ -13,7 +13,7 @@ return [
 
         'delete' => [
             'notification' => [
-                'title' => '位置已刪除',
+                'title' => 'Location已刪除',
                 'body'  => 'The location has been已刪除成功.',
             ],
         ],

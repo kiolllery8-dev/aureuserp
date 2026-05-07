@@ -2,9 +2,9 @@
 
 return [
     'draft'      => '草稿',
-    'in-process' => 'In Process',
+    'in-process' => '處理中',
     'paid'       => '已付款',
-    'not-paid'   => 'Not 已付款',
-    'canceled'   => 'Canceled',
+    'not-paid'   => '未付款',
+    'canceled'   => '已取消',
     'rejected'   => '已拒絕',
 ];

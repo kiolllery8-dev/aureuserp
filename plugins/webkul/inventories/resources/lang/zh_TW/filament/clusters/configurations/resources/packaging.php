@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Packagings',
+        'title' => '包裝',
         'group' => '商品',
     ],
 
@@ -37,8 +37,8 @@ return [
                 'title' => 'Routing資料',
 
                 'entries' => [
-                    'routes'     => '倉庫 路徑',
-                    'route_name' => '路徑名稱',
+                    'routes'     => 'Warehouse Routes',
+                    'route_name' => 'Route名稱',
                 ],
             ],
         ],

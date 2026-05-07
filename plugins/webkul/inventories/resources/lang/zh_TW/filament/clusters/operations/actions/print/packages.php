@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'label' => '包裝',
+    'label' => 'Packages',
 ];

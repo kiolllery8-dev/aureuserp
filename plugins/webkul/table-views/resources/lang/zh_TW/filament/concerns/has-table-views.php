@@ -4,9 +4,9 @@ return [
     'title'                 => 'Views',
     'reset'                 => '重設',
     'default'               => '預設',
-    'apply-view'            => 'Apply View',
-    'add-to-favorites'      => '新增to 最愛',
-    'remove-from-favorites' => '移除from 最愛',
+    'apply-view'            => '套用檢視',
+    'add-to-favorites'      => '新增to Favorites',
+    'remove-from-favorites' => '移除from Favorites',
     'delete-view'           => '刪除View',
-    'replace-view'          => 'Replace View',
+    'replace-view'          => '取代檢視',
 ];

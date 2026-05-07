@@ -2,8 +2,8 @@
 
 return [
     'subject'          => '主旨',
-    'changes-made'     => 'Changes Made',
+    'changes-made'     => '已變更',
     'modified'         => 'The <b>:field</b> has been',
-    'preview'          => 'Preview',
+    'preview'          => '預覽',
     'download'         => '下載',
 ];

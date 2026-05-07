@@ -17,28 +17,28 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '產業已更新',
+                    'title' => 'Industry已更新',
                     'body'  => 'The industry has been已更新成功.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => '產業 restored',
+                    'title' => 'Industry restored',
                     'body'  => 'The industry has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '產業已刪除',
+                    'title' => 'Industry已刪除',
                     'body'  => 'The industry has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '產業 force已刪除',
+                    'title' => 'Industry force已刪除',
                     'body'  => 'The industry has been force已刪除成功.',
                 ],
             ],
@@ -47,21 +47,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '產業 restored',
+                    'title' => 'Industries restored',
                     'body'  => 'The industries has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '產業已刪除',
+                    'title' => 'Industries已刪除',
                     'body'  => 'The industries has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '產業 force已刪除',
+                    'title' => 'Industries force已刪除',
                     'body'  => 'The industries has been force已刪除成功.',
                 ],
             ],

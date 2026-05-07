@@ -2,6 +2,6 @@
 
 return [
     'default'  => '預設',
-    'included' => 'Included',
-    'excluded' => 'Excluded',
+    'included' => '含',
+    'excluded' => '排除',
 ];

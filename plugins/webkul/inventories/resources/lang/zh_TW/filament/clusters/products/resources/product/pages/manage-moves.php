@@ -4,11 +4,11 @@ return [
     'title' => 'IN/OUT',
 
     'tabs' => [
-        'todo'     => 'To Do',
+        'todo'     => '待辦',
         'done'     => '完成',
-        'incoming' => 'Incoming',
-        'outgoing' => 'Outgoing',
-        'internal' => 'Internal',
+        'incoming' => '進貨',
+        'outgoing' => '出貨',
+        'internal' => '內部',
     ],
 
     'table' => [
@@ -23,7 +23,7 @@ return [
             'quantity'             => '數量',
             'unit'                 => '單位',
             'state'                => '狀態',
-            'done-by'              => 'Done By',
+            'done-by'              => '完成者',
         ],
 
         'actions' => [

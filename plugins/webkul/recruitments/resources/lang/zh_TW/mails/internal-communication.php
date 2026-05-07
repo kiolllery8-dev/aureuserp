@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'breadcrumb'             => 'Internal Communication: You have been assigned to the 應徵者 :applicant.',
-    'greeting'               => 'Dear :interviewer,',
-    'assignment_message'     => 'You have been assigned to the 應徵者',
-    'internal_communication' => 'Internal communication:',
-    'internal_note'          => 'Replying will post an internal note. Followers won’t receive any email notification.',
-    'view_applicant'         => '檢視應徵者',
+    'breadcrumb'             => 'Internal Communication: You have been assigned to the Applicant :applicant.',
+    'greeting'               => '親愛的 :interviewer，',
+    'assignment_message'     => 'You have been assigned to the Applicant',
+    'internal_communication' => '內部訊息：',
+    'internal_note'          => '回覆會留下內部備註，追蹤者不會收到郵件通知。',
+    'view_applicant'         => '檢視Applicant',
 ];

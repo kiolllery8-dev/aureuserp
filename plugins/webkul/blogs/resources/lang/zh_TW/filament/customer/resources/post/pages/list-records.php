@@ -2,11 +2,11 @@
 
 return [
     'navigation' => [
-        'title' => 'Our Latest 文章',
+        'title' => 'Our Latest Posts',
     ],
 
     'empty' => [
-        'title' => 'No blog posts found',
-        'description' => 'Check back later for new content.',
+        'title' => '找不到文章',
+        'description' => '稍後再回來看新內容。',
     ],
 ];

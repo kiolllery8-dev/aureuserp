@@ -14,8 +14,8 @@ return [
 
     'form' => [
         'validation' => [
-            'cannot-remove-last-admin'   => 'Cannot remove the admin role from the last admin user.',
-            'first-user-must-be-admin'   => 'The first user in the system must be assigned an admin role.',
+            'cannot-remove-last-admin'   => '無法從最後一位管理者身上移除管理者角色。',
+            'first-user-must-be-admin'   => '系統中的第一位使用者必須擁有管理者角色。',
         ],
 
         'sections' => [
@@ -24,8 +24,8 @@ return [
                 'fields' => [
                     'name'                  => '名稱',
                     'email'                 => '電子郵件',
-                    'password'              => 'Password',
-                    'password-confirmation' => 'Password Confirmation',
+                    'password'              => '密碼',
+                    'password-confirmation' => '密碼確認',
                 ],
             ],
 
@@ -34,69 +34,69 @@ return [
                 'fields' => [
                     'roles'                                    => '角色',
                     'permissions'                              => '權限',
-                    'resource-permission'                      => 'Resource 權限',
+                    'resource-permission'                      => 'Resource Permission',
                     'resource-permission-self-change-disabled' => 'You cannot change your own resource permission. Ask another administrator to update it.',
-                    'teams'                                    => 'Teams',
+                    'teams'                                    => '團隊',
                 ],
             ],
 
             'avatar' => [
-                'title' => 'Avatar',
+                'title' => '頭像',
             ],
 
             'lang-and-status' => [
-                'title'  => '語言 &狀態',
+                'title'  => 'Language &狀態',
                 'fields' => [
-                    'language' => 'Preferred 語言',
+                    'language' => 'Preferred Language',
                     'status'   => '狀態',
                 ],
             ],
 
             'multi-company' => [
-                'title'             => 'Multi 公司',
-                'allowed-companies' => 'Allowed 公司',
-                'default-company'   => '預設 公司',
+                'title'             => 'Multi Company',
+                'allowed-companies' => 'Allowed Companies',
+                'default-company'   => 'Default Company',
             ],
         ],
     ],
 
     'table' => [
         'columns' => [
-            'avatar'              => 'Avatar',
+            'avatar'              => '頭像',
             'name'                => '名稱',
             'email'               => '電子郵件',
-            'teams'               => 'Teams',
+            'teams'               => '團隊',
             'role'                => '角色',
-            'resource-permission' => 'Resource 權限',
-            'default-company'     => '預設 公司',
-            'allowed-company'     => 'Allowed 公司',
+            'resource-permission' => 'Resource Permission',
+            'default-company'     => 'Default Company',
+            'allowed-company'     => 'Allowed Company',
             'created-by'          => '建立者',
             'created-at'          => '建立時間',
             'updated-at'          => '更新時間',
         ],
 
         'filters' => [
-            'resource-permission' => 'Resource 權限',
-            'teams'               => 'Teams',
+            'resource-permission' => 'Resource Permission',
+            'teams'               => '團隊',
             'roles'               => '角色',
-            'default-company'     => '預設 公司',
-            'allowed-companies'   => 'Allowed 公司',
+            'default-company'     => 'Default Company',
+            'allowed-companies'   => 'Allowed Companies',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '使用者 edited',
+                    'title' => 'User edited',
                     'body'  => 'The user has been edited成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '使用者已刪除',
+                    'title' => 'User已刪除',
                     'body'  => 'The user has been已刪除成功.',
                     'error' => [
-                        'title' => '使用者 Cannot Be Deleted',
+                        'title' => 'User Cannot Be Deleted',
                         'body'  => 'This is a default user or you cannot delete yourself.',
                     ],
                 ],
@@ -104,7 +104,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => '使用者 restored',
+                    'title' => 'User restored',
                     'body'  => 'The user has been restored成功.',
                 ],
             ],
@@ -113,24 +113,24 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '使用者 restored',
+                    'title' => 'Users restored',
                     'body'  => 'The users has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '使用者已刪除',
+                    'title' => 'Users已刪除',
                     'body'  => 'The users has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '使用者 force已刪除',
+                    'title' => 'Users force已刪除',
                     'body'  => 'The users has been force已刪除成功.',
                     'error' => [
-                        'title' => '使用者 could not be已刪除',
+                        'title' => 'User could not be已刪除',
                         'body'  => 'The user cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -140,7 +140,7 @@ return [
         'empty-state-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => '使用者已建立',
+                    'title' => 'Users已建立',
                     'body'  => 'The users has been已建立成功.',
                 ],
             ],
@@ -154,8 +154,8 @@ return [
                 'entries' => [
                     'name'                  => '名稱',
                     'email'                 => '電子郵件',
-                    'password'              => 'Password',
-                    'password-confirmation' => 'Password Confirmation',
+                    'password'              => '密碼',
+                    'password-confirmation' => '密碼確認',
                 ],
             ],
 
@@ -164,27 +164,27 @@ return [
                 'entries' => [
                     'roles'               => '角色',
                     'permissions'         => '權限',
-                    'resource-permission' => 'Resource 權限',
-                    'teams'               => 'Teams',
+                    'resource-permission' => 'Resource Permission',
+                    'teams'               => '團隊',
                 ],
             ],
 
             'avatar' => [
-                'title' => 'Avatar',
+                'title' => '頭像',
             ],
 
             'lang-and-status' => [
-                'title'   => '語言 &狀態',
+                'title'   => 'Language &狀態',
                 'entries' => [
-                    'language' => 'Preferred 語言',
+                    'language' => 'Preferred Language',
                     'status'   => '狀態',
                 ],
             ],
 
             'multi-company' => [
-                'title'             => 'Multi 公司',
-                'allowed-companies' => 'Allowed 公司',
-                'default-company'   => '預設 公司',
+                'title'             => 'Multi Company',
+                'allowed-companies' => 'Allowed Companies',
+                'default-company'   => 'Default Company',
             ],
         ],
     ],

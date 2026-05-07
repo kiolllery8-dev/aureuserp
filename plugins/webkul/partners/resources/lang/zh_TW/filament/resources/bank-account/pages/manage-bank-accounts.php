@@ -3,10 +3,10 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增銀行 帳戶',
+            'label' => '新增Bank Account',
 
             'notification' => [
-                'title' => '銀行 帳戶已建立',
+                'title' => 'Bank Account已建立',
                 'body'  => 'The bank account has been已建立成功.',
             ],
         ],

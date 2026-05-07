@@ -8,10 +8,10 @@ return [
 
     'header-actions' => [
         'create' => [
-            'label' => '新增技能類型',
+            'label' => '新增Skill類型',
 
             'notification' => [
-                'title' => '技能類型已建立',
+                'title' => 'Skill類型已建立',
                 'body'  => 'The skill type has been已建立成功.',
             ],
         ],

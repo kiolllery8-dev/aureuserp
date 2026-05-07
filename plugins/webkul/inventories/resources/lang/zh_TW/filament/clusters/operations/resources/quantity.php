@@ -2,8 +2,8 @@
 
 return [
     'navigation' => [
-        'title' => '數量',
-        'group' => 'Adjustments',
+        'title' => 'Quantities',
+        'group' => '調整',
     ],
 
     'form' => [
@@ -22,24 +22,24 @@ return [
         'columns' => [
             'location'           => '位置',
             'product'            => '商品',
-            'product-category'   => '商品 分類',
+            'product-category'   => 'Product Category',
             'lot'                => '批號 / 序號',
             'storage-category'   => '儲存分類',
             'available-quantity' => '可用數量',
             'quantity'           => '數量',
             'package'            => '包裝',
-            'last-counted-at'    => 'Last Counted At',
+            'last-counted-at'    => '最後盤點時間',
             'on-hand'            => '現有數量',
             'uom'                => '計量單位',
             'counted'            => 'Counted數量',
-            'difference'         => 'Difference',
+            'difference'         => '差異',
             'scheduled-at'       => '排定時間',
             'user'               => '使用者',
             'company'            => '公司',
 
             'on-hand-before-state-updated' => [
                 'notification' => [
-                    'title' => '數量已更新',
+                    'title' => 'Quantity已更新',
                     'body'  => 'The quantity has been已更新成功.',
                 ],
             ],
@@ -47,7 +47,7 @@ return [
 
         'groups' => [
             'product'          => '商品',
-            'product-category' => '商品 分類',
+            'product-category' => 'Product Category',
             'location'         => '位置',
             'storage-category' => '儲存分類',
             'lot'              => '批號 / 序號',
@@ -58,7 +58,7 @@ return [
         'filters' => [
             'product'             => '商品',
             'uom'                 => '計量單位',
-            'product-category'    => '商品 分類',
+            'product-category'    => 'Product Category',
             'location'            => '位置',
             'storage-category'    => '儲存分類',
             'lot'                 => '批號 / 序號',
@@ -66,7 +66,7 @@ return [
             'package'             => '包裝',
             'on-hand-quantity'    => '現有數量',
             'difference-quantity' => 'Difference數量',
-            'incoming-at'         => 'Incoming At',
+            'incoming-at'         => '進貨時間',
             'scheduled-at'        => '排定時間',
             'user'                => '使用者',
             'created-at'          => '建立時間',
@@ -77,16 +77,16 @@ return [
 
         'header-actions' => [
             'create' => [
-                'label' => '新增數量',
+                'label' => '新增Quantity',
 
                 'notification' => [
-                    'title' => '數量 added',
+                    'title' => 'Quantity added',
                     'body'  => 'The quantity has been added成功.',
                 ],
 
                 'before' => [
                     'notification' => [
-                        'title' => '數量已存在',
+                        'title' => 'Quantity已存在',
                         'body'  => 'A quantity已存在 for this configuration. Please update the existing quantity instead.',
                     ],
                 ],
@@ -98,16 +98,16 @@ return [
                 'label' => '套用',
 
                 'notification' => [
-                    'title' => '數量 changes applied',
+                    'title' => 'Quantity changes applied',
                     'body'  => 'The quantity changes has been applied成功.',
                 ],
             ],
 
             'clear' => [
-                'label' => 'Clear',
+                'label' => '清除',
 
                 'notification' => [
-                    'title' => '數量 changes cleared',
+                    'title' => 'Quantity changes cleared',
                     'body'  => 'The quantity changes have been cleared成功.',
                 ],
             ],

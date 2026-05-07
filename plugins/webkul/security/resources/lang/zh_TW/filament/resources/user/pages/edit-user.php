@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => '使用者已更新',
+        'title' => 'User已更新',
         'body'  => 'The user has been已更新成功.',
     ],
 
@@ -11,22 +11,22 @@ return [
             'label' => '變更密碼',
 
             'notification' => [
-                'title' => 'Password changed',
+                'title' => '密碼已變更',
                 'body'  => 'The password has been changed成功.',
             ],
 
             'form' => [
                 'new-password'         => '新增Password',
-                'confirm-new-password' => 'Confirm 新增Password',
+                'confirm-new-password' => '確認新密碼',
             ],
         ],
 
         'delete' => [
             'notification' => [
-                'title' => '使用者已刪除',
+                'title' => 'User已刪除',
                 'body'  => 'The user has been已刪除成功.',
                 'error' => [
-                    'title' => '使用者 Cannot Be Deleted',
+                    'title' => 'User Cannot Be Deleted',
                     'body'  => 'This is a default user or you cannot delete yourself.',
                 ],
             ],

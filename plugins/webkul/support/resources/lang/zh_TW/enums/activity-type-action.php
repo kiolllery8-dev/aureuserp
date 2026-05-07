@@ -2,8 +2,8 @@
 
 return [
     'none'        => '無',
-    'upload-file' => 'Upload 檔案',
+    'upload-file' => 'Upload File',
     'default'     => '預設',
-    'phone-call'  => '電話 Call',
-    'meeting'     => 'Meeting',
+    'phone-call'  => 'Phone Call',
+    'meeting'     => '會議',
 ];

@@ -2,8 +2,8 @@
 
 return [
     'navigation' => [
-        'title' => 'Scraps',
-        'group' => 'Adjustments',
+        'title' => '報廢',
+        'group' => '調整',
     ],
 
     'form' => [
@@ -16,13 +16,13 @@ return [
                     'package'              => '包裝',
                     'quantity'             => '數量',
                     'unit'                 => '計量單位',
-                    'lot'                  => '批號/Serial',
+                    'lot'                  => 'Lot/Serial',
                     'tags'                 => '標籤',
                     'name'                 => '名稱',
                     'color'                => '顏色',
-                    'owner'                => 'Owner',
+                    'owner'                => '擁有者',
                     'source-location'      => '從哪裡',
-                    'destination-location' => 'Scrap 位置',
+                    'destination-location' => 'Scrap Location',
                     'source-document'      => '來源單據',
                     'company'              => '公司',
                 ],
@@ -39,9 +39,9 @@ return [
             'quantity'        => '數量',
             'uom'             => '計量單位',
             'source-location' => '從哪裡',
-            'scrap-location'  => 'Scrap 位置',
+            'scrap-location'  => 'Scrap Location',
             'unit'            => '計量單位',
-            'lot'             => '批號/Serial',
+            'lot'             => 'Lot/Serial',
             'tags'            => '標籤',
             'state'           => '狀態',
         ],
@@ -49,23 +49,23 @@ return [
         'groups' => [
             'product'              => '商品',
             'source-location'      => '從哪裡',
-            'destination-location' => 'Scrap 位置',
+            'destination-location' => 'Scrap Location',
         ],
 
         'filters' => [
             'source-location'      => '從哪裡',
-            'destination-location' => 'Scrap 位置',
+            'destination-location' => 'Scrap Location',
             'product'              => '商品',
             'state'                => '狀態',
-            'product-category'     => '商品 分類',
+            'product-category'     => 'Product Category',
             'uom'                  => '計量單位',
-            'lot'                  => '批號/Serial',
+            'lot'                  => 'Lot/Serial',
             'package'              => '包裝',
             'tags'                 => '標籤',
             'company'              => '公司',
             'quantity'             => '數量',
             'creator'              => '建立者',
-            'closed-at'            => '已關閉 At',
+            'closed-at'            => 'Closed At',
             'created-at'           => '建立時間',
             'updated-at'           => '更新時間',
         ],
@@ -74,7 +74,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Scrap已刪除',
+                        'title' => '報廢已刪除',
                         'body'  => 'The scrap has been已刪除成功.',
                     ],
 
@@ -106,7 +106,7 @@ return [
     'infolist' => [
         'sections' => [
             'general' => [
-                'title' => 'Scrap Details',
+                'title' => '報廢詳情',
 
                 'entries' => [
                     'product'              => '商品',
@@ -114,7 +114,7 @@ return [
                     'lot'                  => '批號',
                     'tags'                 => '標籤',
                     'package'              => '包裝',
-                    'owner'                => 'Owner',
+                    'owner'                => '擁有者',
                     'source-location'      => '從哪裡',
                     'destination-location' => '送到哪裡',
                     'source-document'      => '來源單據',

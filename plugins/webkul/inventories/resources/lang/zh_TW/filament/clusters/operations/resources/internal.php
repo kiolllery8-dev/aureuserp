@@ -2,12 +2,12 @@
 
 return [
     'navigation' => [
-        'title' => 'Internal 調撥',
+        'title' => 'Internal Transfers',
         'group' => '調撥',
     ],
 
     'global-search' => [
-        'origin' => 'Origin',
+        'origin' => '來源',
     ],
 
     'table' => [
@@ -15,12 +15,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Internal 調撥已刪除',
+                        'title' => 'Internal Transfer已刪除',
                         'body'  => 'The internal transfer ras been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Internal 調撥 could not be已刪除',
+                        'title' => 'Internal Transfer could not be已刪除',
                         'body'  => 'The internal transfer cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -31,12 +31,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Internal 調撥已刪除',
+                        'title' => 'Internal Transfers已刪除',
                         'body'  => 'The internal transfers has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => 'Internal 調撥 could not be已刪除',
+                        'title' => 'Internal Transfers could not be已刪除',
                         'body'  => 'The internal transfers cannot be已刪除 because they are currently in use.',
                     ],
                 ],

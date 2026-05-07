@@ -11,11 +11,11 @@ return [
     'form' => [
         'sections' => [
             'currency-details' => [
-                'title' => '幣別資料',
+                'title' => 'Currency資料',
 
                 'fields' => [
                     'name'         => '幣別名稱',
-                    'name-tooltip' => 'Enter the official currency name',
+                    'name-tooltip' => '輸入官方貨幣名稱',
                     'symbol'       => '幣別符號',
                     'full-name'    => '姓名',
                     'iso-numeric'  => 'ISO Numeric代碼',
@@ -23,17 +23,17 @@ return [
             ],
 
             'format-information' => [
-                'title' => 'Format 組態設定',
+                'title' => 'Format Configuration',
 
                 'fields' => [
-                    'decimal-places'        => 'Decimal Places',
-                    'rounding'              => 'Rounding Precision',
-                    'rounding-helper-text'  => 'Set the rounding precision for currency calculations',
+                    'decimal-places'        => '小數位數',
+                    'rounding'              => '進位精度',
+                    'rounding-helper-text'  => '設定貨幣計算的進位精度',
                 ],
             ],
 
             'status-and-configuration-information' => [
-                'title' => '狀態 & 組態設定',
+                'title' => 'Status & Configuration',
 
                 'fields' => [
                     'status' => '狀態',
@@ -41,17 +41,17 @@ return [
             ],
 
             'rates' => [
-                'title'       => '幣別 Rates',
+                'title'       => 'Currency Rates',
                 'description' => '管理historic exchange rates for this currency relative to the base currency (USD).',
 
                 'fields' => [
                     'name'              => '日期',
-                    'unit-per-currency' => '單位 Per :currency',
+                    'unit-per-currency' => 'Unit Per :currency',
                     'currency-per-unit' => ':currency Per Unit',
                 ],
 
                 'add-rate'   => '新增Rate',
-                'item-label' => 'Rate',
+                'item-label' => '匯率',
             ],
         ],
     ],
@@ -59,11 +59,11 @@ return [
     'table' => [
         'columns' => [
             'name'           => '幣別名稱',
-            'symbol'         => 'Symbol',
+            'symbol'         => '符號',
             'full-name'      => '姓名',
             'iso-numeric'    => 'ISO代碼',
-            'decimal-places' => 'Decimal Places',
-            'rounding'       => 'Rounding',
+            'decimal-places' => '小數位數',
+            'rounding'       => '進位',
             'status'         => '狀態',
             'created-at'     => '建立時間',
             'updated-at'     => '更新時間',
@@ -72,9 +72,9 @@ return [
         'groups' => [
             'name'           => '名稱',
             'status'         => '狀態',
-            'decimal-places' => 'Decimal Places',
+            'decimal-places' => '小數位數',
             'creation-date'  => 'Creation日期',
-            'last-update'    => 'Last Update',
+            'last-update'    => '最後更新',
         ],
 
         'filters' => [
@@ -84,16 +84,16 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title'   => '幣別已刪除',
+                    'title'   => 'Currency已刪除',
                     'body'    => 'The currency has been已刪除成功.',
 
                     'success' => [
-                        'title' => '幣別已刪除',
+                        'title' => 'Currency已刪除',
                         'body'  => 'The currency has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '幣別 could not be已刪除',
+                        'title' => 'Currency could not be已刪除',
                         'body'  => 'The currency cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -103,7 +103,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '幣別已刪除',
+                    'title' => 'Currencies已刪除',
                     'body'  => 'The currencies have been已刪除成功.',
                 ],
             ],
@@ -113,7 +113,7 @@ return [
     'infolist' => [
         'sections' => [
             'currency-details' => [
-                'title' => '幣別資料',
+                'title' => 'Currency資料',
 
                 'entries' => [
                     'name'         => '幣別名稱',
@@ -124,16 +124,16 @@ return [
             ],
 
             'format-information' => [
-                'title' => 'Format 組態設定',
+                'title' => 'Format Configuration',
 
                 'entries' => [
-                    'decimal-places' => 'Decimal Places',
-                    'rounding'       => 'Rounding Precision',
+                    'decimal-places' => '小數位數',
+                    'rounding'       => '進位精度',
                 ],
             ],
 
             'status-and-configuration-information' => [
-                'title' => '狀態 & 組態設定',
+                'title' => 'Status & Configuration',
 
                 'entries' => [
                     'status' => '狀態',
@@ -141,11 +141,11 @@ return [
             ],
 
             'rates' => [
-                'title'       => '幣別 Rates',
+                'title'       => 'Currency Rates',
 
                 'entries' => [
                     'name'              => '日期',
-                    'unit-per-currency' => '單位 Per :currency',
+                    'unit-per-currency' => 'Unit Per :currency',
                     'currency-per-unit' => ':currency Per Unit',
                 ],
             ],

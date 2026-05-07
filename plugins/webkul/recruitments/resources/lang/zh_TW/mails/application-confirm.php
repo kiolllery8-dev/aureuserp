@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'breadcrumb'           => 'Your 應徵者',
-    'hello'                => 'Hello,',
+    'breadcrumb'           => 'Your Applicant',
+    'hello'                => '您好，',
     'application_received' => 'We confirm we成功 received your application for the job ":job_position" :company.',
     'response_soon'        => 'We will come back to you shortly.',
     'next_step_title'      => 'What is the next step?',

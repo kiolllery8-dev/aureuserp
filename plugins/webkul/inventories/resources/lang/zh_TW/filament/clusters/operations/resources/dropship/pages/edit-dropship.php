@@ -14,7 +14,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Dropship已刪除',
+                    'title' => '代發已刪除',
                     'body'  => 'The dropship has been已刪除成功.',
                 ],
 

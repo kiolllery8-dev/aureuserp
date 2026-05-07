@@ -2,17 +2,17 @@
 
 return [
     'one-step' => [
-        'name'        => 'One step',
-        'description' => 'Deliver (One step)',
+        'name'        => '一步驟',
+        'description' => '出貨（一步驟）',
     ],
 
     'two-steps' => [
-        'name'        => 'Two steps',
-        'description' => 'Pick then Deliver (Two steps)',
+        'name'        => '二步驟',
+        'description' => '揀貨再出貨（二步驟）',
     ],
 
     'three-steps' => [
-        'name'        => 'Three steps',
-        'description' => 'Pick, Pack, then Deliver (Three steps)',
+        'name'        => '三步驟',
+        'description' => '揀貨、裝箱、出貨（三步驟）',
     ],
 ];

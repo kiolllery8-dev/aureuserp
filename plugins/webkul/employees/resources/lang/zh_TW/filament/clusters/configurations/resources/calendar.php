@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'title' => 'Working Schedules',
+    'title' => '工作排程',
 
     'navigation' => [
-        'title' => 'Working Schedules',
-        'group' => '員工',
+        'title' => '工作排程',
+        'group' => 'Employee',
     ],
 
     'groups' => [
@@ -22,31 +22,31 @@ return [
                 'fields' => [
                     'name'                  => '名稱',
                     'schedule-name'         => '排程名稱',
-                    'schedule-name-tooltip' => 'Please write descriptive working schedule name.',
+                    'schedule-name-tooltip' => '請輸入有描述性的工作排程名稱。',
                     'timezone'              => '時區',
-                    'timezone-tooltip'      => 'Please select the timezone for the working schedule.',
+                    'timezone-tooltip'      => '請選擇工作排程的時區。',
                     'company'               => '公司',
                 ],
             ],
 
             'configuration' => [
-                'title'  => 'Work Hours 組態設定',
+                'title'  => 'Work Hours Configuration',
                 'fields' => [
-                    'hours-per-day'                   => 'Hours Per Day',
-                    'hours-per-day-suffix'            => 'Hours',
-                    'full-time-required-hours'        => 'Full時間 必填 Hours',
-                    'full-time-required-hours-suffix' => 'Hours Per Week',
+                    'hours-per-day'                   => '每日小時數',
+                    'hours-per-day-suffix'            => '小時',
+                    'full-time-required-hours'        => 'Full時間 Required Hours',
+                    'full-time-required-hours-suffix' => '每週工時',
                 ],
             ],
 
             'flexibility' => [
-                'title'  => 'Flexibility',
+                'title'  => '彈性',
                 'fields' => [
                     'status'                     => '狀態',
-                    'two-weeks-calendar'         => 'Two Weeks Calendar',
-                    'two-weeks-calendar-tooltip' => 'Enable alternating two-week work schedule.',
+                    'two-weeks-calendar'         => '雙週行事曆',
+                    'two-weeks-calendar-tooltip' => '啟用雙週交替工作排程。',
                     'flexible-hours'             => '彈性工時',
-                    'flexible-hours-tooltip'     => 'Allow employees to have flexible work hours.',
+                    'flexible-hours-tooltip'     => '允許員工彈性工時。',
                 ],
             ],
         ],
@@ -60,7 +60,7 @@ return [
             'company'        => '公司',
             'flexible-hours' => '彈性工時',
             'status'         => '狀態',
-            'daily-hours'    => 'Daily Hours',
+            'daily-hours'    => '每日工時',
             'created-by'     => '建立者',
             'created-at'     => '建立時間',
             'updated-at'     => '更新時間',
@@ -69,13 +69,13 @@ return [
         'filters' => [
             'company'           => '公司',
             'is-active'         => '狀態',
-            'two-week-calendar' => 'Two Weeks Calendar',
+            'two-week-calendar' => '雙週行事曆',
             'flexible-hours'    => '彈性工時',
             'timezone'          => '時區',
             'name'              => '排程名稱',
             'attendance'        => '出勤',
             'created-by'        => '建立者',
-            'daily-hours'       => 'Daily Hours',
+            'daily-hours'       => '每日工時',
             'updated-at'        => '更新時間',
             'created-at'        => '建立時間',
         ],
@@ -85,7 +85,7 @@ return [
             'status'         => '狀態',
             'timezone'       => '時區',
             'flexible-hours' => '彈性工時',
-            'daily-hours'    => 'Daily Hours',
+            'daily-hours'    => '每日工時',
             'created-by'     => '建立者',
             'created-at'     => '建立時間',
             'updated-at'     => '更新時間',
@@ -94,7 +94,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Calendar Plan restored',
+                    'title' => '行事曆計畫已還原',
                     'body'  => 'The calendar plan has been restored成功.',
                 ],
             ],
@@ -117,7 +117,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Calendar Plans restored',
+                    'title' => '行事曆計畫已還原',
                     'body'  => 'The calendar plans has been restored成功.',
                 ],
             ],
@@ -145,31 +145,31 @@ return [
                 'entries' => [
                     'name'                  => '名稱',
                     'schedule-name'         => '排程名稱',
-                    'schedule-name-tooltip' => 'Please write descriptive working schedule name.',
+                    'schedule-name-tooltip' => '請輸入有描述性的工作排程名稱。',
                     'timezone'              => '時區',
-                    'timezone-tooltip'      => 'Please select the timezone for the working schedule.',
+                    'timezone-tooltip'      => '請選擇工作排程的時區。',
                     'company'               => '公司',
                 ],
             ],
 
             'configuration' => [
-                'title'   => 'Work Hours 組態設定',
+                'title'   => 'Work Hours Configuration',
                 'entries' => [
-                    'hours-per-day'                   => 'Hours Per Day',
-                    'hours-per-day-suffix'            => ' Hours',
-                    'full-time-required-hours'        => 'Full時間 必填 Hours',
-                    'full-time-required-hours-suffix' => ' Hours Per Week',
+                    'hours-per-day'                   => '每日小時數',
+                    'hours-per-day-suffix'            => ' 小時',
+                    'full-time-required-hours'        => 'Full時間 Required Hours',
+                    'full-time-required-hours-suffix' => ' 每週工時',
                 ],
             ],
 
             'flexibility' => [
-                'title'   => 'Flexibility',
+                'title'   => '彈性',
                 'entries' => [
                     'status'                     => '狀態',
-                    'two-weeks-calendar'         => 'Two Weeks Calendar',
-                    'two-weeks-calendar-tooltip' => 'Enable alternating two-week work schedule.',
+                    'two-weeks-calendar'         => '雙週行事曆',
+                    'two-weeks-calendar-tooltip' => '啟用雙週交替工作排程。',
                     'flexible-hours'             => '彈性工時',
-                    'flexible-hours-tooltip'     => 'Allow employees to have flexible work hours.',
+                    'flexible-hours-tooltip'     => '允許員工彈性工時。',
                 ],
             ],
         ],

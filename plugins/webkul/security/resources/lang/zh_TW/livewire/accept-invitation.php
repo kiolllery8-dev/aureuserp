@@ -3,19 +3,19 @@
 return [
     'header' => [
         'sub-heading' => [
-            'accept-invitation' => 'Accept Invitation',
+            'accept-invitation' => '接受邀請',
         ],
     ],
 
     'title' => '註冊',
 
-    'heading' => 'Sign up',
+    'heading' => '註冊',
 
     'actions' => [
 
         'login' => [
-            'before' => 'or',
-            'label'  => 'sign in to your account',
+            'before' => '或',
+            'label'  => '登入您的帳戶',
         ],
 
     ],
@@ -31,18 +31,18 @@ return [
         ],
 
         'password' => [
-            'label'                => 'Password',
-            'validation_attribute' => 'password',
+            'label'                => '密碼',
+            'validation_attribute' => '密碼',
         ],
 
         'password_confirmation' => [
-            'label' => 'Confirm password',
+            'label' => '確認密碼',
         ],
 
         'actions' => [
 
             'register' => [
-                'label' => 'Sign up',
+                'label' => '註冊',
             ],
 
         ],

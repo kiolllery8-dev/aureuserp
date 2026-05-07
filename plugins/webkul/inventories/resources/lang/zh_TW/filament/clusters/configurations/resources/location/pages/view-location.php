@@ -8,7 +8,7 @@ return [
 
         'delete' => [
             'notification' => [
-                'title' => '位置已刪除',
+                'title' => 'Location已刪除',
                 'body'  => 'The location has been已刪除成功.',
             ],
         ],

@@ -1,5 +1,5 @@
 <?php
 
 return  [
-    'title' => '檢視供應商',
+    'title' => '檢視Vendor',
 ];

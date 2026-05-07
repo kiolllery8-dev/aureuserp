@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'on-demand' => 'Ask at launch',
-    'other'     => '預設 user',
-    'coach'     => 'Coach',
+    'on-demand' => '啟動時詢問',
+    'other'     => 'Default user',
+    'coach'     => '教練',
     'manager'   => '主管',
-    'employee'  => '員工',
+    'employee'  => 'Employee',
 ];

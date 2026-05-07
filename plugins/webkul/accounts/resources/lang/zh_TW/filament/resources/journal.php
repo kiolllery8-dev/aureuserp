@@ -10,62 +10,62 @@ return [
                     'accounting-information' => [
                         'title'  => 'Accounting資料',
                         'fields' => [
-                            'dedicated-credit-note-sequence' => 'Dedicated Credit 備註 Sequence',
-                            'dedicated-payment-sequence'     => 'Dedicated 付款 Sequence',
-                            'sort-code-placeholder'          => 'Enter the journal code',
-                            'sort-code'                      => 'Sort',
+                            'dedicated-credit-note-sequence' => 'Dedicated Credit Note Sequence',
+                            'dedicated-payment-sequence'     => 'Dedicated Payment Sequence',
+                            'sort-code-placeholder'          => '輸入日記帳代碼',
+                            'sort-code'                      => '排序',
                             'currency'                       => '幣別',
                             'color'                          => '顏色',
-                            'default-account'                => '預設 帳戶',
-                            'profit-account'                 => 'Profit 帳戶',
-                            'loss-account'                   => 'Loss 帳戶',
-                            'suspense-account'               => 'Suspense 帳戶',
+                            'default-account'                => 'Default Account',
+                            'profit-account'                 => 'Profit Account',
+                            'loss-account'                   => 'Loss Account',
+                            'suspense-account'               => 'Suspense Account',
                             'bank-account'                   => '銀行帳戶',
                         ],
                     ],
 
                     'bank-account-number' => [
-                        'title' => '銀行 帳戶 編號',
+                        'title' => 'Bank Account Number',
                     ],
                 ],
             ],
 
             'incoming-payments' => [
-                'title'            => 'Incoming 付款',
+                'title'            => 'Incoming Payments',
                 'add-action-label' => '新增明細',
 
                 'fields' => [
                     'payment-method'             => '付款方式',
                     'display-name'               => 'Display名稱',
-                    'account-number'             => 'Outstanding 進貨 帳戶',
-                    'relation-notes'             => 'Relation 備註',
-                    'relation-notes-placeholder' => 'Enter any relation details',
+                    'account-number'             => 'Outstanding Receipts Accounts',
+                    'relation-notes'             => 'Relation Notes',
+                    'relation-notes-placeholder' => '輸入任何關聯詳情',
                 ],
             ],
 
             'outgoing-payments' => [
-                'title'            => 'Outgoing 付款',
+                'title'            => 'Outgoing Payments',
                 'add-action-label' => '新增明細',
 
                 'fields' => [
                     'payment-method'             => '付款方式',
                     'display-name'               => 'Display名稱',
-                    'account-number'             => 'Outstanding 付款 帳戶',
-                    'relation-notes'             => 'Relation 備註',
-                    'relation-notes-placeholder' => 'Enter any relation details',
+                    'account-number'             => 'Outstanding Payments Accounts',
+                    'relation-notes'             => 'Relation Notes',
+                    'relation-notes-placeholder' => '輸入任何關聯詳情',
                 ],
             ],
 
             'advanced-settings' => [
-                'title'  => 'Advanced 設定',
+                'title'  => 'Advanced Settings',
 
                 'fields' => [
-                    'allowed-accounts'       => 'Allowed 帳戶',
-                    'control-access'         => 'Control Access',
-                    'payment-communication'  => '付款 Communication',
-                    'auto-check-on-post'     => 'Auto Check on 文章',
+                    'allowed-accounts'       => 'Allowed Accounts',
+                    'control-access'         => '存取控制',
+                    'payment-communication'  => 'Payment Communication',
+                    'auto-check-on-post'     => 'Auto Check on Post',
                     'communication-type'     => 'Communication類型',
-                    'communication-standard' => 'Communication Standard',
+                    'communication-standard' => '通訊標準',
                 ],
             ],
         ],
@@ -95,12 +95,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '帳本已刪除',
+                        'title' => 'Journal已刪除',
                         'body'  => 'The journal has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '帳本 deletion失敗',
+                        'title' => 'Journal deletion失敗',
                         'body'  => 'The journal cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -111,12 +111,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '帳本已刪除',
+                        'title' => 'Journal已刪除',
                         'body'  => 'The journal has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '帳本 deletion失敗',
+                        'title' => 'Journals deletion失敗',
                         'body'  => 'The journals cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -134,72 +134,72 @@ return [
                         'title'   => 'Accounting資料',
 
                         'entries' => [
-                            'dedicated-credit-note-sequence' => 'Dedicated Credit 備註 Sequence',
-                            'dedicated-payment-sequence'     => 'Dedicated 付款 Sequence',
-                            'sort-code-placeholder'          => 'Enter the journal code',
-                            'sort-code'                      => 'Sort',
+                            'dedicated-credit-note-sequence' => 'Dedicated Credit Note Sequence',
+                            'dedicated-payment-sequence'     => 'Dedicated Payment Sequence',
+                            'sort-code-placeholder'          => '輸入日記帳代碼',
+                            'sort-code'                      => '排序',
                             'currency'                       => '幣別',
                             'color'                          => '顏色',
-                            'default-account'                => '預設 帳戶',
-                            'profit-account'                 => 'Profit 帳戶',
-                            'loss-account'                   => 'Loss 帳戶',
-                            'suspense-account'               => 'Suspense 帳戶',
+                            'default-account'                => 'Default Account',
+                            'profit-account'                 => 'Profit Account',
+                            'loss-account'                   => 'Loss Account',
+                            'suspense-account'               => 'Suspense Account',
                         ],
                     ],
 
                     'bank-account-number' => [
-                        'title' => '銀行 帳戶 編號',
+                        'title' => 'Bank Account Number',
 
                         'entries' => [
-                            'account-number' => '帳戶 編號',
+                            'account-number' => 'Account Number',
                         ],
                     ],
                 ],
             ],
 
             'incoming-payments' => [
-                'title' => 'Incoming 付款',
+                'title' => 'Incoming Payments',
 
                 'entries' => [
                     'payment-method'             => '付款方式',
                     'display-name'               => 'Display名稱',
-                    'account-number'             => 'Outstanding 進貨 帳戶',
-                    'relation-notes'             => 'Relation 備註',
-                    'relation-notes-placeholder' => 'Enter any relation details',
+                    'account-number'             => 'Outstanding Receipts Accounts',
+                    'relation-notes'             => 'Relation Notes',
+                    'relation-notes-placeholder' => '輸入任何關聯詳情',
                 ],
             ],
 
             'outgoing-payments' => [
-                'title' => 'Outgoing 付款',
+                'title' => 'Outgoing Payments',
 
                 'entries' => [
                     'payment-method'             => '付款方式',
                     'display-name'               => 'Display名稱',
-                    'account-number'             => 'Outstanding 付款 帳戶',
-                    'relation-notes'             => 'Relation 備註',
-                    'relation-notes-placeholder' => 'Enter any relation details',
+                    'account-number'             => 'Outstanding Payments Accounts',
+                    'relation-notes'             => 'Relation Notes',
+                    'relation-notes-placeholder' => '輸入任何關聯詳情',
                 ],
             ],
 
             'advanced-settings' => [
-                'title'   => 'Advanced 設定',
+                'title'   => 'Advanced Settings',
 
                 'allowed-accounts' => [
-                    'title' => 'Allowed 帳戶',
+                    'title' => 'Allowed Accounts',
 
                     'entries' => [
-                        'allowed-accounts'       => 'Allowed 帳戶',
-                        'control-access'         => 'Control Access',
-                        'auto-check-on-post'     => 'Auto Check on 文章',
+                        'allowed-accounts'       => 'Allowed Accounts',
+                        'control-access'         => '存取控制',
+                        'auto-check-on-post'     => 'Auto Check on Post',
                     ],
                 ],
 
                 'payment-communication'  => [
-                    'title' => '付款 Communication',
+                    'title' => 'Payment Communication',
 
                     'entries' => [
                         'communication-type'     => 'Communication類型',
-                        'communication-standard' => 'Communication Standard',
+                        'communication-standard' => '通訊標準',
                     ],
                 ],
             ],

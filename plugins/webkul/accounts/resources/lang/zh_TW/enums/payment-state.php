@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'not-paid'         => 'Not paid',
-    'in-payment'       => 'In payment',
+    'not-paid'         => '未付款',
+    'in-payment'       => '付款中',
     'paid'             => '已付款',
     'partial'          => '部分',
-    'reversed'         => 'Reversed',
+    'reversed'         => '已沖銷',
     'blocked'          => 'Blocked',
-    'invoicing-legacy' => 'Invoicing legacy',
+    'invoicing-legacy' => '舊版發票',
 ];

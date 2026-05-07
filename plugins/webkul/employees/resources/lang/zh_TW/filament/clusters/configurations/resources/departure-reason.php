@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'title' => 'Departure Reasons',
+    'title' => '離職原因',
 
     'navigation' => [
-        'title' => 'Departure Reasons',
-        'group' => '員工',
+        'title' => '離職原因',
+        'group' => 'Employee',
     ],
 
     'groups' => [
@@ -32,7 +32,7 @@ return [
 
         'filters' => [
             'name'       => '名稱',
-            'employee'   => '員工',
+            'employee'   => 'Employee',
             'created-by' => '建立者',
             'updated-at' => '更新時間',
             'created-at' => '建立時間',

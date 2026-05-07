@@ -2,13 +2,13 @@
 
 return [
     'navigation' => [
-        'title' => 'Dropships',
+        'title' => '代發',
         'group' => '調撥',
     ],
 
     'global-search' => [
         'partner' => '夥伴',
-        'origin'  => 'Origin',
+        'origin'  => '來源',
     ],
 
     'table' => [
@@ -16,7 +16,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Dropship已刪除',
+                        'title' => '代發已刪除',
                         'body'  => 'The dropship ras been已刪除成功.',
                     ],
 

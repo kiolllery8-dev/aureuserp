@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'no-validation'                              => 'No Validation',
+    'no-validation'                              => '不驗證',
     'by-time-off-officer'                        => 'By時間 Off Officer',
-    'by-employees-approver'                      => 'By 員工\'s Approver',
-    'by-employees-approver-and-time-off-officer' => 'By 員工\'s Approver and時間 Off Officer',
+    'by-employees-approver'                      => 'By Employee\'s Approver',
+    'by-employees-approver-and-time-off-officer' => 'By Employee\'s Approver and時間 Off Officer',
 ];

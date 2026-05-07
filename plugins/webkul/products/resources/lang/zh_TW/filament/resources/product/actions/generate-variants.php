@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'label'        => 'Generate 規格',
+    'label'        => 'Generate Variants',
     'notification' => [
         'empty' => [
             'title' => 'No attributes found',
@@ -9,7 +9,7 @@ return [
         ],
 
         'success' => [
-            'title' => '規格 generated成功',
+            'title' => 'Variants generated成功',
             'body'  => 'All product variants have been generated.',
         ],
 

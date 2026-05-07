@@ -37,7 +37,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Incoterm restored',
+                    'title' => '國貿條款已還原',
                     'body'  => 'The incoterm has been restored成功.',
                 ],
             ],
@@ -46,7 +46,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Incoterms restored',
+                    'title' => '國貿條款已還原',
                     'body'  => 'The incoterms has been restored成功.',
                 ],
             ],

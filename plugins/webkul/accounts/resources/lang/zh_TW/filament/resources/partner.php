@@ -41,43 +41,43 @@ return [
             ],
 
             'invoicing' => [
-                'title'  => 'Invoicing',
+                'title'  => '開立發票',
 
                 'fieldsets' => [
                     'customer-invoices' => [
-                        'title' => '客戶 發票',
+                        'title' => 'Customer Invoices',
 
                         'fields' => [
-                            'invoice-sending-method'   => '發票 Sending 方式',
-                            'invoice-edi-format-store' => 'eInvoice Format',
-                            'peppol-eas'               => 'Peppol 地址',
-                            'endpoint'                 => 'Endpoint',
+                            'invoice-sending-method'   => 'Invoice Sending Method',
+                            'invoice-edi-format-store' => '電子發票格式',
+                            'peppol-eas'               => 'Peppol Address',
+                            'endpoint'                 => '端點',
                         ],
                     ],
 
                     'accounting-entries' => [
-                        'title' => 'Accounting Entries',
+                        'title' => '會計分錄',
 
                         'fields' => [
-                            'account-receivable' => '帳戶 Receivable',
-                            'account-payable'    => '帳戶 Payable',
+                            'account-receivable' => 'Account Receivable',
+                            'account-payable'    => 'Account Payable',
                         ],
                     ],
 
                     'automation' => [
-                        'title' => 'Automation',
+                        'title' => '自動化',
 
                         'fields' => [
-                            'auto-post-bills' => 'Auto 文章 進貨單',
-                            'ignore-abnormal-invoice-amount' => 'Ignore Abnormal 發票金額',
-                            'ignore-abnormal-invoice-date' => 'Ignore Abnormal 發票日期',
+                            'auto-post-bills' => 'Auto Post Bills',
+                            'ignore-abnormal-invoice-amount' => 'Ignore Abnormal Invoice金額',
+                            'ignore-abnormal-invoice-date' => 'Ignore Abnormal Invoice日期',
                         ],
                     ]
                 ],
             ],
 
             'internal-notes' => [
-                'title' => 'Internal 備註',
+                'title' => 'Internal Notes',
             ],
         ],
     ],
@@ -117,43 +117,43 @@ return [
             ],
 
             'invoicing' => [
-                'title'  => 'Invoicing',
+                'title'  => '開立發票',
 
                 'fieldsets' => [
                     'customer-invoices' => [
-                        'title' => '客戶 發票',
+                        'title' => 'Customer Invoices',
 
                         'entries' => [
-                            'invoice-sending-method'   => '發票 Sending 方式',
-                            'invoice-edi-format-store' => 'eInvoice Format',
-                            'peppol-eas'               => 'Peppol 地址',
-                            'endpoint'                 => 'Endpoint',
+                            'invoice-sending-method'   => 'Invoice Sending Method',
+                            'invoice-edi-format-store' => '電子發票格式',
+                            'peppol-eas'               => 'Peppol Address',
+                            'endpoint'                 => '端點',
                         ],
                     ],
 
                     'accounting-entries' => [
-                        'title' => 'Accounting Entries',
+                        'title' => '會計分錄',
 
                         'entries' => [
-                            'account-receivable' => '帳戶 Receivable',
-                            'account-payable'    => '帳戶 Payable',
+                            'account-receivable' => 'Account Receivable',
+                            'account-payable'    => 'Account Payable',
                         ],
                     ],
 
                     'automation' => [
-                        'title' => 'Automation',
+                        'title' => '自動化',
 
                         'entries' => [
-                            'auto-post-bills' => 'Auto 文章 進貨單',
-                            'ignore-abnormal-invoice-amount' => 'Ignore Abnormal 發票金額',
-                            'ignore-abnormal-invoice-date' => 'Ignore Abnormal 發票日期',
+                            'auto-post-bills' => 'Auto Post Bills',
+                            'ignore-abnormal-invoice-amount' => 'Ignore Abnormal Invoice金額',
+                            'ignore-abnormal-invoice-date' => 'Ignore Abnormal Invoice日期',
                         ],
                     ]
                 ],
             ],
 
             'internal-notes' => [
-                'title' => 'Internal 備註',
+                'title' => 'Internal Notes',
             ],
         ],
     ],

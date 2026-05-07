@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'single'   => 'Single',
-    'married'  => 'Married',
-    'divorced' => 'Divorced',
-    'widowed'  => 'Widowed',
+    'single'   => '未婚',
+    'married'  => '已婚',
+    'divorced' => '離婚',
+    'widowed'  => '喪偶',
 ];

@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'minutes' => 'Minutes',
-    'hours'   => 'Hours',
-    'days'    => '天數',
-    'weeks'   => 'Weeks',
+    'minutes' => '分鐘',
+    'hours'   => '小時',
+    'days'    => '日',
+    'weeks'   => '週',
 ];

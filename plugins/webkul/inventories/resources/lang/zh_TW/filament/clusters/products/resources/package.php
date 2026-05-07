@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => '包裝',
+        'title' => 'Packages',
         'group' => '庫存',
     ],
 
@@ -19,7 +19,7 @@ return [
 
                 'fields' => [
                     'name'             => '名稱',
-                    'name-placeholder' => 'eg. PACK007',
+                    'name-placeholder' => '例：PACK007',
                     'package-type'     => '包裝類型',
                     'pack-date'        => 'Pack日期',
                     'location'         => '位置',
@@ -55,12 +55,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '包裝已刪除',
+                        'title' => 'Package已刪除',
                         'body'  => 'The package has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '包裝 could not be已刪除',
+                        'title' => 'Package could not be已刪除',
                         'body'  => 'The package cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -69,22 +69,22 @@ return [
 
         'bulk-actions' => [
             'print-without-content' => [
-                'label' => 'Print Barcode',
+                'label' => '列印條碼',
             ],
 
             'print-with-content' => [
-                'label' => 'Print Barcode With Content',
+                'label' => '列印含內容條碼',
             ],
 
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '包裝已刪除',
+                        'title' => 'Packages已刪除',
                         'body'  => 'The packages has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '包裝 could not be已刪除',
+                        'title' => 'Packages could not be已刪除',
                         'body'  => 'The packages cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -95,10 +95,10 @@ return [
     'infolist' => [
         'sections' => [
             'general' => [
-                'title' => '包裝 Details',
+                'title' => 'Package Details',
 
                 'entries' => [
-                    'name'         => '包裝名稱',
+                    'name'         => 'Package名稱',
                     'package-type' => '包裝類型',
                     'pack-date'    => 'Pack日期',
                     'location'     => '位置',

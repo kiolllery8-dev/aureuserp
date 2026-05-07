@@ -7,20 +7,20 @@ return [
 
     'tabs' => [
         'my-purchases'    => '我的採購',
-        'starred'         => 'Starred',
+        'starred'         => '已加星標',
         'purchase-orders' => '採購單',
-        'orders'          => 'RFQs',
-        'draft-orders'    => '草稿 RFQs',
-        'waiting-orders'  => 'Waiting RFQs',
-        'late-orders'     => 'Late RFQs',
+        'orders'          => '報價邀請',
+        'draft-orders'    => 'Draft RFQs',
+        'waiting-orders'  => '等待中的報價邀請',
+        'late-orders'     => '逾期的報價邀請',
     ],
 
     'header-actions' => [
         'create' => [
-            'label' => '新增訂單',
+            'label' => '新增Order',
 
             'notification' => [
-                'title' => '訂單已建立',
+                'title' => 'Order已建立',
                 'body'  => 'The order has been已建立成功.',
             ],
         ],

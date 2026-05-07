@@ -17,7 +17,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '數量已刪除',
+                    'title' => 'Quantity已刪除',
                     'body'  => 'The quantity has been已刪除成功.',
                 ],
             ],

@@ -2,7 +2,7 @@
 
 return [
     'heading' => [
-        'title' => '請假 Requests',
+        'title' => 'Time Off Requests',
     ],
 
     'modal-actions' => [
@@ -12,7 +12,7 @@ return [
             'duration-display-with-weekend' => ':count working day (+ :weekend weekend day)|:count working days (+ :weekend weekend days)',
 
             'notification' => [
-                'title' => '請假 Updated',
+                'title' => 'Time Off Updated',
                 'body'  => 'Your time off request has been已更新成功.',
             ],
         ],
@@ -24,38 +24,38 @@ return [
 
     'config' => [
         'button-text' => [
-            'today' => 'Today',
-            'month' => 'Month',
-            'week'  => 'Week',
-            'list'  => 'List',
+            'today' => '今天',
+            'month' => '月',
+            'week'  => '週',
+            'list'  => '列表',
         ],
     ],
 
     'view-action' => [
         'title'       => '檢視',
-        'description' => '檢視請假 Request',
+        'description' => '檢視Time Off Request',
     ],
 
     'header-actions' => [
         'create' => [
-            'title'       => '新增請假',
-            'description' => '新增請假 Request',
+            'title'       => '新增Time Off',
+            'description' => '新增Time Off Request',
 
             'notification' => [
-                'title' => '請假 Created',
-                'body'  => '時間 off request has been已建立成功.',
+                'title' => 'Time Off Created',
+                'body'  => 'Time off request has been已建立成功.',
             ],
 
             'employee-not-found' => [
                 'notification' => [
-                    'title' => '員工 Not Found',
+                    'title' => 'Employee Not Found',
                     'body'  => 'Please add an employee to your profile before creating a time off request.',
                 ],
             ],
 
             'success' => [
                 'notification' => [
-                    'title' => '請假 Created',
+                    'title' => 'Time Off Created',
                     'body'  => 'Your time off request has been已建立成功.',
                 ],
             ],
@@ -63,7 +63,7 @@ return [
     ],
 
     'form' => [
-        'title'       => '請假 Request',
+        'title'       => 'Time Off Request',
         'description' => '新增or edit your time off request with the following details:',
 
         'fields' => [
@@ -72,28 +72,28 @@ return [
             'time-off-type-helper'      => 'Select the type of time off you are requesting.',
             'request-date-from'         => '申請開始日',
             'request-date-to'           => '申請結束日',
-            'period'                    => 'Period',
-            'half-day'                  => 'Half Day',
+            'period'                    => '期間',
+            'half-day'                  => '半天',
             'half-day-helper'           => 'Toggle for half-day leave.',
-            'requested-days'            => 'Requested (天數/Hours)',
-            'description'               => '描述',
+            'requested-days'            => 'Requested (Days/Hours)',
+            'description'               => '說明',
             'description-placeholder'   => 'No description provided',
             'description-helper'        => 'Provide a brief description of your time off request.',
-            'duration'                  => 'Duration',
+            'duration'                  => '持續時間',
             'please-select-dates'       => 'Please select the request date from and to.',
         ],
     ],
 
     'infolist' => [
-        'title'       => '請假 Details',
+        'title'       => 'Time Off Details',
         'description' => 'Here are the details of your time off request:',
         'entries'     => [
             'time-off-type'           => '假別',
             'request-date-from'       => '申請開始日',
             'request-date-to'         => '申請結束日',
-            'description'             => '描述',
+            'description'             => '說明',
             'description-placeholder' => 'No description provided',
-            'duration'                => 'Duration',
+            'duration'                => '持續時間',
             'status'                  => '狀態',
         ],
     ],

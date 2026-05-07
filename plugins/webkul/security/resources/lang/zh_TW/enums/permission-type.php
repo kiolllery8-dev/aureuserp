@@ -2,6 +2,6 @@
 
 return [
     'group'      => '群組',
-    'individual' => '個人',
-    'global'     => 'Global',
+    'individual' => 'Individual',
+    'global'     => '全域',
 ];

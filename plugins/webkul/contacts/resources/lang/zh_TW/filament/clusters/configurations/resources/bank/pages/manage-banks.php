@@ -3,10 +3,10 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增銀行',
+            'label' => '新增Bank',
 
             'notification' => [
-                'title' => '銀行已建立',
+                'title' => 'Bank已建立',
                 'body'  => 'The bank has been已建立成功.',
             ],
         ],

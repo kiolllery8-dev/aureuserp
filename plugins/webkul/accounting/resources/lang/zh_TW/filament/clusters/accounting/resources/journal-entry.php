@@ -15,7 +15,7 @@ return [
         'number'   => '編號',
         'partner'  => '夥伴',
         'date'     => '開立日期',
-        'due-date' => '發票 Due日期',
+        'due-date' => 'Invoice Due日期',
     ],
 
     'form' => [
@@ -36,31 +36,31 @@ return [
                 'title' => '帳目明細',
 
                 'repeater' => [
-                    'title'       => 'Items',
+                    'title'       => '項目',
                     'add-item'    => '新增Item',
 
                     'columns' => [
                         'account'                  => '帳戶',
                         'partner'                  => '夥伴',
                         'label'                    => '標籤',
-                        'amount-currency'          => '金額 (幣別)',
+                        'amount-currency'          => 'Amount (Currency)',
                         'currency'                 => '幣別',
                         'taxes'                    => '稅',
                         'debit'                    => '借方',
                         'credit'                   => '貸方',
-                        'discount-amount-currency' => 'Discount金額 (幣別)',
+                        'discount-amount-currency' => 'Discount金額 (Currency)',
                     ],
 
                     'fields' => [
                         'account'                  => '帳戶',
                         'partner'                  => '夥伴',
                         'label'                    => '標籤',
-                        'amount-currency'          => '金額 (幣別)',
+                        'amount-currency'          => 'Amount (Currency)',
                         'currency'                 => '幣別',
                         'taxes'                    => '稅',
                         'debit'                    => '借方',
                         'credit'                   => '貸方',
-                        'discount-amount-currency' => 'Discount金額 (幣別)',
+                        'discount-amount-currency' => 'Discount金額 (Currency)',
                     ],
                 ],
             ],
@@ -112,10 +112,10 @@ return [
 
         'filters' => [
             'number'                       => '編號',
-            'invoice-partner-display-name' => '發票 夥伴 Display名稱',
+            'invoice-partner-display-name' => 'Invoice Partner Display名稱',
             'invoice-date'                 => '開立日期',
-            'invoice-due-date'             => '發票 Due日期',
-            'invoice-origin'               => '發票 Origin',
+            'invoice-due-date'             => 'Invoice Due日期',
+            'invoice-origin'               => 'Invoice Origin',
             'reference'                    => '參考編號',
             'created-at'                   => '建立時間',
             'updated-at'                   => '更新時間',
@@ -124,7 +124,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '付款已刪除',
+                    'title' => 'Payment已刪除',
                     'body'  => 'The payment has been已刪除成功.',
                 ],
             ],
@@ -133,7 +133,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '付款已刪除',
+                    'title' => 'Payments已刪除',
                     'body'  => 'The payments has been已刪除成功.',
                 ],
             ],

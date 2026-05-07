@@ -5,10 +5,10 @@ return [
         'sections' => [
             'fields' => [
                 'payment-term'         => '付款條件',
-                'early-discount'       => 'Early Discount',
-                'discount-days-prefix' => 'if paid within',
-                'discount-days-suffix' => '天數',
-                'reduced-tax'          => 'Reduced tax',
+                'early-discount'       => '提早折扣',
+                'discount-days-prefix' => '若於此期間內付款',
+                'discount-days-suffix' => '日',
+                'reduced-tax'          => '減稅',
                 'note'                 => '備註',
                 'status'               => '狀態',
             ],
@@ -16,16 +16,16 @@ return [
 
         'tabs' => [
             'due-terms' => [
-                'title' => 'Due 條件',
+                'title' => 'Due Terms',
 
                 'repeater' => [
                     'due-terms' => [
                         'fields' => [
                             'value'                  => '值',
-                            'due'                    => 'Due',
+                            'due'                    => '到期',
                             'delay-type'             => 'Delay類型',
-                            'days-on-the-next-month' => '天數 on the next month',
-                            'days'                   => '天數',
+                            'days-on-the-next-month' => 'Days on the next month',
+                            'days'                   => '日',
                         ],
                     ],
                 ],
@@ -43,25 +43,25 @@ return [
 
         'groups' => [
             'company-name'        => '公司名稱',
-            'discount-days'       => 'Discount 天數',
-            'early-pay-discount'  => 'Early Pay Discount',
+            'discount-days'       => 'Discount Days',
+            'early-pay-discount'  => '提早付款折扣',
             'payment-term'        => '付款條件',
-            'display-on-invoice'  => 'Display on 發票',
-            'early-discount'      => 'Early Discount',
+            'display-on-invoice'  => 'Display on Invoice',
+            'early-discount'      => '提早折扣',
             'discount-percentage' => '折扣百分比',
         ],
 
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '付款 條件 restored',
+                    'title' => 'Payment Term restored',
                     'body'  => 'The payment term has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '付款 條件已刪除',
+                    'title' => 'Payment Term已刪除',
                     'body'  => 'The payment term has been已刪除成功.',
                 ],
             ],
@@ -69,12 +69,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '付款 條件 force已刪除',
+                        'title' => 'Payment Term force已刪除',
                         'body'  => 'The payment term has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '付款 條件 force deletion失敗',
+                        'title' => 'Payment Term force deletion失敗',
                         'body'  => 'The payment term could not be force已刪除 because it is associated journal entries.',
                     ],
                 ],
@@ -84,27 +84,27 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '付款 條件 restored',
-                    'body'  => 'The payment 條件 has been restored成功.',
+                    'title' => 'Payment Terms restored',
+                    'body'  => 'The payment Terms has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '付款 條件已刪除',
-                    'body'  => 'The payment 條件 has been已刪除成功.',
+                    'title' => 'Payment Terms已刪除',
+                    'body'  => 'The payment Terms has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '付款 條件 force已刪除',
-                        'body'  => 'The payment 條件 has been force已刪除成功.',
+                        'title' => 'Payment Terms force已刪除',
+                        'body'  => 'The payment Terms has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '付款 條件 force deletion失敗',
+                        'title' => 'Payment Terms force deletion失敗',
                         'body'  => 'The payment terms could not be force已刪除 because they have associated journal entries.',
                     ],
                 ],
@@ -116,11 +116,11 @@ return [
         'sections' => [
             'entries' => [
                 'payment-term'         => '付款條件',
-                'early-discount'       => 'Early Discount',
+                'early-discount'       => '提早折扣',
                 'discount-percentage'  => '折扣百分比',
-                'discount-days-prefix' => 'if paid within',
-                'discount-days-suffix' => '天數',
-                'reduced-tax'          => 'Reduced tax',
+                'discount-days-prefix' => '若於此期間內付款',
+                'discount-days-suffix' => '日',
+                'reduced-tax'          => '減稅',
                 'note'                 => '備註',
                 'status'               => '狀態',
             ],
@@ -128,16 +128,16 @@ return [
 
         'tabs' => [
             'due-terms' => [
-                'title' => 'Due 條件',
+                'title' => 'Due Terms',
 
                 'repeater' => [
                     'due-terms' => [
                         'entries' => [
                             'value'                  => '值',
-                            'due'                    => 'Due',
+                            'due'                    => '到期',
                             'delay-type'             => 'Delay類型',
-                            'days-on-the-next-month' => '天數 on the next month',
-                            'days'                   => '天數',
+                            'days-on-the-next-month' => 'Days on the next month',
+                            'days'                   => '日',
                         ],
                     ],
                 ],

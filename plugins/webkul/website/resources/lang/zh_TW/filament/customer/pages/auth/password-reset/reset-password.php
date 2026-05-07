@@ -15,10 +15,10 @@ return [
         ],
         'password' => [
             'label'                => '新增password',
-            'validation_attribute' => 'password',
+            'validation_attribute' => '密碼',
         ],
         'password_confirmation' => [
-            'label' => 'Confirm new password',
+            'label' => '確認新密碼',
         ],
         'actions' => [
             'reset' => [

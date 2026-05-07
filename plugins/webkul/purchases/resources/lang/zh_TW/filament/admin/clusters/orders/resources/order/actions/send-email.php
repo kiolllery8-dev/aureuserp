@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'label'        => 'Send By 電子郵件',
-    'resend-label' => 'Re-Send By 電子郵件',
+    'label'        => 'Send By Email',
+    'resend-label' => 'Re-Send By Email',
 
     'form' => [
         'fields' => [
-            'to'      => 'To',
+            'to'      => '至',
             'subject' => '主旨',
             'message' => 'Message',
         ],
@@ -15,7 +15,7 @@ return [
     'action' => [
         'notification' => [
             'success' => [
-                'title' => '電子郵件 sent',
+                'title' => 'Email sent',
                 'body'  => 'The email has been sent成功.',
             ],
         ],

@@ -21,17 +21,17 @@ return [
                 'fields' => [
                     'name'                => '名稱',
                     'manager'             => '主管',
-                    'parent-department'   => 'Parent 部門',
-                    'manager-placeholder' => 'Select 主管',
+                    'parent-department'   => 'Parent Department',
+                    'manager-placeholder' => 'Select Manager',
                     'company'             => '公司',
-                    'company-placeholder' => 'Select 公司',
+                    'company-placeholder' => 'Select Company',
                     'color'               => '顏色',
                 ],
             ],
 
             'additional' => [
                 'title'       => '其他資料',
-                'description' => 'Additional information about this department.',
+                'description' => '此部門的額外資訊。',
             ],
         ],
     ],
@@ -62,21 +62,21 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '部門 restored',
+                    'title' => 'Department restored',
                     'body'  => 'The department has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '部門已刪除',
+                    'title' => 'Department已刪除',
                     'body'  => 'The department has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '部門 force已刪除',
+                    'title' => 'Department force已刪除',
                     'body'  => 'The department has been force已刪除成功.',
                 ],
             ],
@@ -85,21 +85,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '部門 restored',
+                    'title' => 'Departments restored',
                     'body'  => 'The departments has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '部門已刪除',
+                    'title' => 'Departments已刪除',
                     'body'  => 'The departments has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '部門 force已刪除',
+                    'title' => 'Departments force已刪除',
                     'body'  => 'The departments has been force已刪除成功.',
                 ],
             ],
@@ -116,7 +116,7 @@ return [
                     'manager'         => '主管',
                     'company'         => '公司',
                     'color'           => '顏色',
-                    'hierarchy-title' => '部門 Organization',
+                    'hierarchy-title' => 'Department Organization',
                 ],
             ],
         ],

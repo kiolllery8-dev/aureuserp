@@ -29,7 +29,7 @@ return [
 
         'tabs' => [
             'order-line' => [
-                'title' => '訂單 Line',
+                'title' => 'Order Line',
 
                 'repeater' => [
                     'products' => [
@@ -38,41 +38,41 @@ return [
 
                         'columns'     => [
                             'product'             => '商品',
-                            'product-variants'    => '商品 規格',
-                            'product-simple'      => '商品 Simple',
+                            'product-variants'    => 'Product Variants',
+                            'product-simple'      => 'Product Simple',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
-                            'lead-time'           => '商機時間',
-                            'qty-delivered'       => 'Delivered',
-                            'qty-invoiced'        => 'Invoiced',
+                            'lead-time'           => 'Lead時間',
+                            'qty-delivered'       => '已交貨',
+                            'qty-invoiced'        => '已開立發票',
                             'packaging-qty'       => 'Packaging數量',
                             'packaging'           => '包裝',
                             'unit-price'          => '單價',
                             'cost'                => '成本',
-                            'margin'              => 'Margin',
+                            'margin'              => '毛利',
                             'taxes'               => '稅',
                             'amount'              => '金額',
-                            'margin-percentage'   => 'Margin (%)',
+                            'margin-percentage'   => '毛利（%）',
                             'discount-percentage' => '折扣 (%)',
                         ],
 
                         'fields'      => [
                             'product'             => '商品',
-                            'product-variants'    => '商品 規格',
-                            'product-simple'      => '商品 Simple',
+                            'product-variants'    => 'Product Variants',
+                            'product-simple'      => 'Product Simple',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
-                            'lead-time'           => '商機時間',
-                            'qty-delivered'       => '數量 Delivered',
-                            'qty-invoiced'        => '數量 Invoiced',
+                            'lead-time'           => 'Lead時間',
+                            'qty-delivered'       => 'Quantity Delivered',
+                            'qty-invoiced'        => 'Quantity Invoiced',
                             'packaging-qty'       => 'Packaging數量',
                             'packaging'           => '包裝',
                             'unit-price'          => '單價',
                             'cost'                => '成本',
-                            'margin'              => 'Margin',
+                            'margin'              => '毛利',
                             'taxes'               => '稅',
                             'amount'              => '金額',
-                            'margin-percentage'   => 'Margin (%)',
+                            'margin-percentage'   => '毛利（%）',
                             'discount-percentage' => '折扣 (%)',
                         ],
 
@@ -85,19 +85,19 @@ return [
 
                         'delete-action' => [
                             'error' => [
-                                'title' => 'Cannot 刪除商品',
-                                'body'  => '商品 cannot be已刪除 from a confirmed sales order.',
+                                'title' => 'Cannot 刪除Product',
+                                'body'  => 'Products cannot be已刪除 from a confirmed sales order.',
                             ],
                         ],
                     ],
 
                     'product-optional' => [
-                        'title'       => '選填 商品',
+                        'title'       => 'Optional Products',
                         'add-product' => '新增商品',
 
                         'columns' => [
                             'product'             => '商品',
-                            'description'         => '描述',
+                            'description'         => '說明',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
                             'unit-price'          => '單價',
@@ -106,7 +106,7 @@ return [
 
                         'fields'      => [
                             'product'             => '商品',
-                            'description'         => '描述',
+                            'description'         => '說明',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
                             'unit-price'          => '單價',
@@ -114,27 +114,27 @@ return [
 
                             'actions' => [
                                 'tooltip' => [
-                                    'add-order-line' => '新增訂單 Line',
+                                    'add-order-line' => '新增Order Line',
                                 ],
 
                                 'notifications' => [
                                     'product-added' => [
-                                        'title' => '商品 added',
+                                        'title' => 'Product added',
                                         'body'  => 'The product has been added成功.',
                                     ],
 
                                     'product-not-found' => [
-                                        'title' => '商品 Not Found',
+                                        'title' => 'Product Not Found',
                                     ],
 
                                     'product-already-exists' => [
-                                        'title' => '商品 Already Exists',
-                                        'body'  => 'This product is already in the order lines. Please update the existing line instead.',
+                                        'title' => 'Product Already Exists',
+                                        'body'  => '此商品已在訂單中，請直接更新既有項目。',
                                     ],
 
                                     'missing-product-data' => [
-                                        'title' => 'Missing 商品 Data',
-                                        'body'  => 'Unable to process the selected product.',
+                                        'title' => 'Missing Product Data',
+                                        'body'  => '無法處理所選商品。',
                                     ],
                                 ],
                             ],
@@ -151,25 +151,25 @@ return [
 
                         'fields' => [
                             'sales-person'       => '業務',
-                            'customer-reference' => '客戶 參考編號',
+                            'customer-reference' => 'Customer Reference',
                             'tags'               => '標籤',
                         ],
                     ],
 
                     'shipping' => [
-                        'title'  => 'Shipping',
+                        'title'  => '運送',
                         'fields' => [
-                            'commitment-date' => '出貨日期',
+                            'commitment-date' => 'Delivery日期',
                         ],
                     ],
 
                     'tracking' => [
-                        'title'  => 'Tracking',
+                        'title'  => '追蹤',
                         'fields' => [
                             'source-document' => '來源單據',
                             'medium'          => '中',
                             'source'          => '來源',
-                            'campaign'        => 'Campaign',
+                            'campaign'        => '行銷活動',
                         ],
                     ],
 
@@ -194,7 +194,7 @@ return [
         'columns' => [
             'number'             => '編號',
             'status'             => '狀態',
-            'invoice-status'     => '發票狀態',
+            'invoice-status'     => 'Invoice狀態',
             'creation-date'      => 'Creation日期',
             'commitment-date'    => 'Commitment日期',
             'expected-date'      => 'Expected日期',
@@ -202,19 +202,19 @@ return [
             'sales-person'       => '業務',
             'sales-team'         => '業務團隊',
             'untaxed-amount'     => '未稅金額',
-            'amount-tax'         => '金額 稅',
-            'amount-total'       => '金額總計',
-            'customer-reference' => '客戶 參考編號',
+            'amount-tax'         => 'Amount Tax',
+            'amount-total'       => 'Amount總計',
+            'customer-reference' => 'Customer Reference',
         ],
 
         'filters' => [
             'sales-person'     => '業務',
-            'utm-source'       => 'UTM 來源',
+            'utm-source'       => 'UTM Source',
             'company'          => '公司',
             'customer'         => '客戶',
             'journal'          => '帳本',
-            'invoice-address'  => '發票 地址',
-            'shipping-address' => 'Shipping 地址',
+            'invoice-address'  => 'Invoice Address',
+            'shipping-address' => 'Shipping Address',
             'fiscal-position'  => '稅務情境',
             'payment-term'     => '付款條件',
             'currency'         => '幣別',
@@ -225,7 +225,7 @@ return [
         'groups' => [
             'medium'          => '中',
             'source'          => '來源',
-            'team'            => 'Team',
+            'team'            => '團隊',
             'sales-person'    => '業務',
             'currency'        => '幣別',
             'company'         => '公司',
@@ -237,21 +237,21 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '報價單 restored',
+                    'title' => 'Quotation restored',
                     'body'  => 'The quotation has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '報價單已刪除',
+                    'title' => 'Quotation已刪除',
                     'body'  => 'The quotation has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '報價單 force已刪除',
+                    'title' => 'Quotation force已刪除',
                     'body'  => 'The quotation has been force已刪除成功.',
                 ],
             ],
@@ -260,21 +260,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '報價單 restored',
+                    'title' => 'Quotations restored',
                     'body'  => 'The quotations has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '報價單已刪除',
+                    'title' => 'Quotations已刪除',
                     'body'  => 'The quotations has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '報價單 force已刪除',
+                    'title' => 'Quotations force已刪除',
                     'body'  => 'The quotations has been force已刪除成功.',
                 ],
             ],
@@ -283,7 +283,7 @@ return [
         'empty-state-action' => [
             'create' => [
                 'notification' => [
-                    'title' => '報價單已建立',
+                    'title' => 'Quotations已建立',
                     'body'  => 'The quotations has been已建立成功.',
                 ],
             ],
@@ -306,7 +306,7 @@ return [
 
         'tabs' => [
             'order-line' => [
-                'title' => '訂單 Line',
+                'title' => 'Order Line',
 
                 'repeater' => [
                     'products' => [
@@ -314,30 +314,30 @@ return [
                         'add-product' => '新增商品',
                         'entries'     => [
                             'product'             => '商品',
-                            'product-variants'    => '商品 規格',
-                            'product-simple'      => '商品 Simple',
+                            'product-variants'    => 'Product Variants',
+                            'product-simple'      => 'Product Simple',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
-                            'lead-time'           => '商機時間',
+                            'lead-time'           => 'Lead時間',
                             'packaging-qty'       => 'Packaging數量',
                             'packaging'           => '包裝',
                             'unit-price'          => '單價',
                             'cost'                => '成本',
-                            'margin'              => 'Margin',
+                            'margin'              => '毛利',
                             'taxes'               => '稅',
                             'amount'              => '金額',
-                            'margin-percentage'   => 'Margin (%)',
+                            'margin-percentage'   => '毛利（%）',
                             'discount-percentage' => '折扣 (%)',
                             'sub-total'           => '小計',
                         ],
                     ],
 
                     'product-optional' => [
-                        'title'       => '選填 商品',
+                        'title'       => 'Optional Products',
                         'add-product' => '新增商品',
                         'entries'     => [
                             'product'             => '商品',
-                            'description'         => '描述',
+                            'description'         => '說明',
                             'quantity'            => '數量',
                             'uom'                 => '計量單位',
                             'unit-price'          => '單價',
@@ -346,12 +346,12 @@ return [
 
                             'actions' => [
                                 'tooltip' => [
-                                    'add-order-line' => '新增訂單 Line',
+                                    'add-order-line' => '新增Order Line',
                                 ],
 
                                 'notifications' => [
                                     'product-added' => [
-                                        'title' => '商品 added',
+                                        'title' => 'Product added',
                                         'body'  => 'The product has been added成功.',
                                     ],
                                 ],
@@ -369,25 +369,25 @@ return [
 
                         'entries' => [
                             'sales-person'       => '業務',
-                            'customer-reference' => '客戶 參考編號',
+                            'customer-reference' => 'Customer Reference',
                             'tags'               => '標籤',
                         ],
                     ],
 
                     'shipping' => [
-                        'title'   => 'Shipping',
+                        'title'   => '運送',
                         'entries' => [
-                            'commitment-date' => '出貨日期',
+                            'commitment-date' => 'Delivery日期',
                         ],
                     ],
 
                     'tracking' => [
-                        'title'   => 'Tracking',
+                        'title'   => '追蹤',
                         'entries' => [
                             'source-document' => '來源單據',
                             'medium'          => '中',
                             'source'          => '來源',
-                            'campaign'        => 'Campaign',
+                            'campaign'        => '行銷活動',
                         ],
                     ],
 

@@ -2,37 +2,37 @@
 
 return [
     'form' => [
-        'factor-percent'    => 'Factor Percent',
-        'factor-ratio'      => 'Factor Ratio',
+        'factor-percent'    => '因子百分比',
+        'factor-ratio'      => '因子比例',
         'repartition-type'  => 'Repartition類型',
         'document-type'     => 'Document類型',
         'account'           => '帳戶',
         'tax'               => '稅',
-        'tax-closing-entry' => '稅 Closing Entry',
+        'tax-closing-entry' => 'Tax Closing Entry',
     ],
 
     'table' => [
         'columns' => [
-            'factor-percent'    => 'Factor Percent(%)',
+            'factor-percent'    => '因子百分比（%）',
             'account'           => '帳戶',
             'tax'               => '稅',
             'company'           => '公司',
             'repartition-type'  => 'Repartition類型',
             'document-type'     => 'Document類型',
-            'tax-closing-entry' => '稅 Closing Entry',
+            'tax-closing-entry' => 'Tax Closing Entry',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '稅 Partition已更新',
+                    'title' => 'Tax Partition已更新',
                     'body'  => 'The tax partition has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '稅 Partition 條件已刪除',
+                    'title' => 'Tax Partition Term已刪除',
                     'body'  => 'The tax Partition term has been已刪除成功.',
                 ],
             ],
@@ -41,7 +41,7 @@ return [
         'header-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => '稅 Partition 條件已建立',
+                    'title' => 'Tax Partition Term已建立',
                     'body'  => 'The tax Partition term has been已建立成功.',
                 ],
             ],

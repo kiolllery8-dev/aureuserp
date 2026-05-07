@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Moves',
+    'title' => '移動',
 
     'table' => [
         'columns' => [
@@ -15,7 +15,7 @@ return [
             'quantity'             => '數量',
             'unit'                 => '單位',
             'state'                => '狀態',
-            'done-by'              => 'Done By',
+            'done-by'              => '完成者',
         ],
 
         'actions' => [

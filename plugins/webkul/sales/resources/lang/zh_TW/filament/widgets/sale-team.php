@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'heading' => 'Sales Team Performance',
+    'heading' => '銷售團隊績效',
 ];

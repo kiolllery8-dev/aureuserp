@@ -2,13 +2,13 @@
 
 return [
     'heading' => [
-        'title' => 'Stats 總覽',
+        'title' => 'Stats Overview',
     ],
 
-    'total-tasks'          => '總計 任務',
-    'total-hours-spent'    => '總計 Hours Spent',
-    'total-time-remaining' => '總計時間 Remaining',
+    'total-tasks'          => 'Total Tasks',
+    'total-hours-spent'    => 'Total Hours Spent',
+    'total-time-remaining' => 'Total時間 Remaining',
 
-    'increase' => 'increase',
-    'decrease' => 'decrease',
+    'increase' => '增加',
+    'decrease' => '減少',
 ];

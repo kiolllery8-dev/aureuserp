@@ -12,9 +12,9 @@ return [
     'form' => [
         'fields' => [
             'discount'      => '折扣',
-            'discount-help' => 'Enable discount on products.',
-            'margins'       => 'Margins',
-            'margins-help'  => 'Show margins on orders.',
+            'discount-help' => '啟用商品折扣。',
+            'margins'       => '毛利',
+            'margins-help'  => '顯示訂單毛利。',
         ],
     ],
 ];

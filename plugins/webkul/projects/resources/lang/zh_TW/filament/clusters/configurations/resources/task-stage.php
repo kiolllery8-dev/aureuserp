@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => '任務 階段',
+        'title' => 'Task Stages',
     ],
 
     'form' => [
@@ -30,21 +30,21 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '任務 stage已更新',
+                    'title' => 'Task stage已更新',
                     'body'  => 'The task stage has been已更新成功.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => '任務 stage restored',
+                    'title' => 'Task stage restored',
                     'body'  => 'The task stage has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '任務 stage已刪除',
+                    'title' => 'Task stage已刪除',
                     'body'  => 'The task stage has been已刪除成功.',
                 ],
             ],
@@ -52,12 +52,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '任務 stage force已刪除',
-                        'body'  => 'The 任務 stage has been force已刪除成功.',
+                        'title' => 'Task stage force已刪除',
+                        'body'  => 'The Task stage has been force已刪除成功.',
                     ],
                     'error' => [
-                        'title' => '任務 stage could not be已刪除',
-                        'body'  => 'The 任務 stage cannot be已刪除 because it is currently in use.',
+                        'title' => 'Task stage could not be已刪除',
+                        'body'  => 'The Task stage cannot be已刪除 because it is currently in use.',
                     ],
                 ],
             ],
@@ -66,21 +66,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '任務 stages restored',
+                    'title' => 'Task stages restored',
                     'body'  => 'The task stages has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '任務 stages已刪除',
+                    'title' => 'Task stages已刪除',
                     'body'  => 'The task stages has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '任務 stages force已刪除',
+                    'title' => 'Task stages force已刪除',
                     'body'  => 'The task stages has been force已刪除成功.',
                 ],
             ],

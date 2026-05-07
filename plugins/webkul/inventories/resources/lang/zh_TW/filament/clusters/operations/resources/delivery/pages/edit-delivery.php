@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => '出貨已更新',
+        'title' => 'Delivery已更新',
         'body'  => 'The delivery has been已更新成功.',
     ],
 
@@ -14,12 +14,12 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => '出貨已刪除',
+                    'title' => 'Delivery已刪除',
                     'body'  => 'The delivery has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => '出貨 could not be已刪除',
+                    'title' => 'Delivery could not be已刪除',
                     'body'  => 'The delivery cannot be已刪除 because it is currently in use.',
                 ],
             ],

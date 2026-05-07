@@ -3,28 +3,28 @@
 return [
     'form' => [
         'fields' => [
-            'tax-source'      => '稅 來源',
-            'tax-destination' => '稅 Destination',
+            'tax-source'      => 'Tax Source',
+            'tax-destination' => 'Tax Destination',
         ],
     ],
 
     'table' => [
         'columns' => [
-            'tax-source'      => '稅 來源',
-            'tax-destination' => '稅 Destination',
+            'tax-source'      => 'Tax Source',
+            'tax-destination' => 'Tax Destination',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '付款 Due 條件已更新',
+                    'title' => 'Payment Due Term已更新',
                     'body'  => 'The payment due term has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '付款 Due 條件已刪除',
+                    'title' => 'Payment Due Term已刪除',
                     'body'  => 'The payment due term has been已刪除成功.',
                 ],
             ],
@@ -33,7 +33,7 @@ return [
         'header-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => '付款 Due 條件已建立',
+                    'title' => 'Payment Due Term已建立',
                     'body'  => 'The payment due term has been已建立成功.',
                 ],
             ],
@@ -42,8 +42,8 @@ return [
 
     'infolist' => [
         'entries' => [
-            'tax-source'      => '稅 來源',
-            'tax-destination' => '稅 Destination',
+            'tax-source'      => 'Tax Source',
+            'tax-destination' => 'Tax Destination',
         ],
     ],
 ];

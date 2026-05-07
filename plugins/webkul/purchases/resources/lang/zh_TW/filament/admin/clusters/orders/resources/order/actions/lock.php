@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'label' => 'Lock',
+    'label' => '鎖定',
 
     'action' => [
         'notification' => [
             'success' => [
-                'title' => '訂單 locked',
+                'title' => 'Order locked',
                 'body'  => 'The order has been locked成功.',
             ],
         ],

@@ -1,15 +1,15 @@
 <?php
 
 return [
-    'title' => 'Print & Send',
+    'title' => '列印並寄送',
 
     'modal' => [
-        'title' => 'Preview 發票',
+        'title' => 'Preview Invoice',
 
         'form' => [
             'partners'    => '客戶',
             'subject'     => '主旨',
-            'description' => '描述',
+            'description' => '說明',
             'files'       => '附件',
         ],
 
@@ -21,8 +21,8 @@ return [
 
         'notification' => [
             'invoice-sent' => [
-                'title' => '發票 已寄出',
-                'body'  => '發票 has been sent成功.',
+                'title' => 'Invoice Sent',
+                'body'  => 'Invoice has been sent成功.',
             ],
         ],
     ],

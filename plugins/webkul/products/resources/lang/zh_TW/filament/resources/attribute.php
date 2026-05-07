@@ -46,14 +46,14 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '屬性 restored',
+                    'title' => 'Attribute restored',
                     'body'  => 'The attribute has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '屬性已刪除',
+                    'title' => 'Attribute已刪除',
                     'body'  => 'The attribute has been已刪除成功.',
                 ],
             ],
@@ -61,12 +61,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '屬性 force已刪除',
+                        'title' => 'Attribute force已刪除',
                         'body'  => 'The attribute has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '屬性 could not be已刪除',
+                        'title' => 'Attribute could not be已刪除',
                         'body'  => 'The attribute cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -76,14 +76,14 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '屬性 restored',
+                    'title' => 'Attributes restored',
                     'body'  => 'The attributes has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '屬性已刪除',
+                    'title' => 'Attributes已刪除',
                     'body'  => 'The attributes has been已刪除成功.',
                 ],
             ],
@@ -91,12 +91,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '屬性 force已刪除',
+                        'title' => 'Attributes force已刪除',
                         'body'  => 'The attributes has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '屬性 could not be已刪除',
+                        'title' => 'Attributes could not be已刪除',
                         'body'  => 'The attributes cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -121,7 +121,7 @@ return [
                 'entries' => [
                     'creator'    => '建立者',
                     'created_at' => '建立時間',
-                    'updated_at' => 'Last Updated At',
+                    'updated_at' => '最後更新時間',
                 ],
             ],
         ],

@@ -4,7 +4,7 @@ return [
     'header-actions' => [
         'create' => [
             'notification' => [
-                'title' => '帳戶已建立',
+                'title' => 'Account已建立',
                 'body'  => 'The account has been已建立成功.',
             ],
         ],
@@ -16,7 +16,7 @@ return [
         'equity'     => '權益',
         'assets'     => '資產',
         'liability'  => '負債',
-        'income'     => 'Income',
+        'income'     => '收入',
         'expenses'   => '費用',
     ],
 ];

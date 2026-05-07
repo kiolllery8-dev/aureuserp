@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'alert' => 'Alert',
+    'alert' => '提醒',
     'error' => 'Error',
 ];

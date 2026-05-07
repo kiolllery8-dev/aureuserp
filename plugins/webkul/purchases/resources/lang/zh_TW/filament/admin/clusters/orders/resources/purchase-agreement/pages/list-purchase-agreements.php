@@ -2,13 +2,13 @@
 
 return [
     'navigation' => [
-        'title' => 'Purchase Agreements',
+        'title' => '採購合約',
     ],
 
     'tabs' => [
-        'my-agreements'      => 'My Agreements',
-        'blanket-orders'     => 'Blanket 訂單',
-        'purchase-templates' => 'Purchase Templates',
+        'my-agreements'      => '我的合約',
+        'blanket-orders'     => 'Blanket Orders',
+        'purchase-templates' => '採購範本',
         'draft'              => '草稿',
         'done'               => '完成',
         'archived'           => '已封存',

@@ -35,7 +35,7 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'Packaging update',
+                    'title' => '包裝已更新',
                     'body'  => 'The packaging has been update成功.',
                 ],
             ],
@@ -93,7 +93,7 @@ return [
                 'title' => '一般資料',
 
                 'entries' => [
-                    'name'    => '包裝名稱',
+                    'name'    => 'Package名稱',
                     'barcode' => '條碼',
                     'product' => '商品',
                     'qty'     => '數量',
@@ -101,13 +101,13 @@ return [
             ],
 
             'organization' => [
-                'title' => 'Organization Details',
+                'title' => '組織詳情',
 
                 'entries' => [
                     'company'    => '公司',
                     'creator'    => '建立者',
                     'created_at' => '建立時間',
-                    'updated_at' => 'Last Updated At',
+                    'updated_at' => '最後更新時間',
                 ],
             ],
         ],

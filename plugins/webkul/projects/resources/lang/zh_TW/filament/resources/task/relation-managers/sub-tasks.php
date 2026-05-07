@@ -4,10 +4,10 @@ return [
     'table' => [
         'header-actions' => [
             'create' => [
-                'label' => '新增Sub 任務',
+                'label' => '新增Sub Task',
 
                 'notification' => [
-                    'title' => '任務已建立',
+                    'title' => 'Task已建立',
                     'body'  => 'The task has been已建立成功.',
                 ],
             ],
@@ -16,21 +16,21 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '任務 restored',
+                    'title' => 'Task restored',
                     'body'  => 'The task has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '任務已刪除',
+                    'title' => 'Task已刪除',
                     'body'  => 'The task has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '任務 force已刪除',
+                    'title' => 'Task force已刪除',
                     'body'  => 'The task has been force已刪除成功.',
                 ],
             ],

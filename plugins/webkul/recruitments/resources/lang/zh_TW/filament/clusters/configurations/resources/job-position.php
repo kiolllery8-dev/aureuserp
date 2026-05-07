@@ -20,37 +20,37 @@ return [
                 'title' => 'Employment資料',
 
                 'fields' => [
-                    'job-position-title'         => 'Job Position 標題',
-                    'job-position-title-tooltip' => 'Enter the official job position title',
+                    'job-position-title'         => 'Job Position Title',
+                    'job-position-title-tooltip' => '輸入官方職位名稱',
                     'department'                 => '部門',
-                    'department-modal-title'     => '部門 Create',
-                    'job-location'               => 'Job 位置',
+                    'department-modal-title'     => 'Department Create',
+                    'job-location'               => 'Job Location',
                     'industry'                   => '產業',
                     'company'                    => '公司',
                     'employment-type'            => '雇用類型',
-                    'interviewers'               => 'Interviewers',
-                    'recruiter'                  => 'Recruiter',
+                    'interviewers'               => '面試官',
+                    'recruiter'                  => '招募人員',
                     'manager'                    => '主管',
                 ],
             ],
 
             'job-description' => [
-                'title' => 'Job 描述',
+                'title' => 'Job Description',
 
                 'fields' => [
-                    'job-description'  => 'Job 描述',
-                    'job-requirements' => 'Job Requirements',
+                    'job-description'  => 'Job Description',
+                    'job-requirements' => '職位需求',
                 ],
             ],
 
             'workforce-planning' => [
-                'title' => 'Workforce Planning',
+                'title' => '人力規劃',
 
                 'fields' => [
-                    'recruitment-target' => 'Recruitment Target',
+                    'recruitment-target' => '招募目標',
                     'date-from'          => '開始日期',
                     'date-to'            => '結束日期',
-                    'expected-skills'    => 'Expected 技能',
+                    'expected-skills'    => 'Expected Skills',
                     'employment-type'    => '雇用類型',
                     'status'             => '狀態',
                 ],
@@ -73,8 +73,8 @@ return [
             'department'         => '部門',
             'job-position'       => '職位',
             'company'            => '公司',
-            'expected-employees' => 'Expected 員工',
-            'current-employees'  => 'Current 員工',
+            'expected-employees' => 'Expected Employees',
+            'current-employees'  => 'Current Employees',
             'status'             => '狀態',
             'created-by'         => '建立者',
             'created-at'         => '建立時間',
@@ -105,7 +105,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Job Position restored',
+                    'title' => '職位已還原',
                     'body'  => 'The Job Position has been restored成功.',
                 ],
             ],
@@ -121,7 +121,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Job Positions restored',
+                    'title' => '職位已還原',
                     'body'  => 'The Job Positions has been restored成功.',
                 ],
             ],
@@ -157,34 +157,34 @@ return [
                 'title' => 'Employment資料',
 
                 'entries' => [
-                    'job-position-title' => 'Job Position 標題',
+                    'job-position-title' => 'Job Position Title',
                     'department'         => '部門',
                     'company'            => '公司',
                     'employment-type'    => '雇用類型',
-                    'job-location'       => 'Job 位置',
+                    'job-location'       => 'Job Location',
                     'industry'           => '產業',
                     'manager'            => '主管',
-                    'recruiter'          => 'Recruiter',
-                    'interviewers'       => 'Interviewers',
+                    'recruiter'          => '招募人員',
+                    'interviewers'       => '面試官',
                 ],
             ],
             'job-description' => [
-                'title' => 'Job 描述',
+                'title' => 'Job Description',
 
                 'entries' => [
-                    'job-description'  => 'Job 描述',
-                    'job-requirements' => 'Job Requirements',
+                    'job-description'  => 'Job Description',
+                    'job-requirements' => '職位需求',
                 ],
             ],
             'work-planning' => [
-                'title' => 'Workforce Planning',
+                'title' => '人力規劃',
 
                 'entries' => [
-                    'expected-employees' => 'Expected 員工',
-                    'current-employees'  => 'Current 員工',
+                    'expected-employees' => 'Expected Employees',
+                    'current-employees'  => 'Current Employees',
                     'date-from'          => '開始日期',
                     'date-to'            => '結束日期',
-                    'recruitment-target' => 'Recruitment Target',
+                    'recruitment-target' => '招募目標',
                 ],
             ],
             'position-status' => [

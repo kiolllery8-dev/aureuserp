@@ -2,6 +2,6 @@
 
 return [
     'all'  => '全部',
-    'even' => 'Even',
-    'odd'  => 'Odd',
+    'even' => '雙',
+    'odd'  => '單',
 ];

@@ -13,8 +13,8 @@ return [
 
                 'fields' => [
                     'name'             => '名稱',
-                    'name-placeholder' => 'eg. T-shirt',
-                    'description'      => '描述',
+                    'name-placeholder' => '例：T 恤',
+                    'description'      => '說明',
                     'tags'             => '標籤',
                 ],
             ],
@@ -53,7 +53,7 @@ return [
             ],
 
             'pricing' => [
-                'title' => 'Pricing',
+                'title' => '定價',
 
                 'fields' => [
                     'price' => '價格',
@@ -62,14 +62,14 @@ return [
             ],
 
             'additional' => [
-                'title' => 'Additional',
+                'title' => '額外',
             ],
         ],
     ],
 
     'table' => [
         'columns' => [
-            'favorite'        => '最愛',
+            'favorite'        => 'Favorite',
             'name'            => '名稱',
             'variants'        => '規格',
             'images'          => '圖片',
@@ -103,7 +103,7 @@ return [
             'company'     => '公司',
             'price'       => '價格',
             'cost'        => '成本',
-            'is-favorite' => 'Is 最愛',
+            'is-favorite' => 'Is Favorite',
             'weight'      => '重量',
             'volume'      => '體積',
             'tags'        => '標籤',
@@ -116,14 +116,14 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '商品 restored',
+                    'title' => 'Product restored',
                     'body'  => 'The product has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '商品已刪除',
+                    'title' => 'Product已刪除',
                     'body'  => 'The product has been已刪除成功.',
                 ],
             ],
@@ -131,12 +131,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '商品 force已刪除',
+                        'title' => 'Product force已刪除',
                         'body'  => 'The product has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '商品 could not be已刪除',
+                        'title' => 'Product could not be已刪除',
                         'body'  => 'The product cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -145,12 +145,12 @@ return [
 
         'bulk-actions' => [
             'print' => [
-                'label' => 'Print Labels',
+                'label' => '列印標籤',
 
                 'form' => [
                     'fields' => [
-                        'quantity' => '編號 of Labels',
-                        'format'   => 'Format',
+                        'quantity' => 'Number of Labels',
+                        'format'   => '格式',
 
                         'format-options' => [
                             'dymo'       => 'Dymo',
@@ -165,14 +165,14 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => '商品 restored',
+                    'title' => 'Products restored',
                     'body'  => 'The products has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '商品已刪除',
+                    'title' => 'Products已刪除',
                     'body'  => 'The products has been已刪除成功.',
                 ],
             ],
@@ -180,12 +180,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '商品 force已刪除',
+                        'title' => 'Products force已刪除',
                         'body'  => 'The products has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '商品 could not be已刪除',
+                        'title' => 'Products could not be已刪除',
                         'body'  => 'The products cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -200,8 +200,8 @@ return [
 
                 'entries' => [
                     'name'             => '名稱',
-                    'name-placeholder' => 'eg. T-shirt',
-                    'description'      => '描述',
+                    'name-placeholder' => '例：T 恤',
+                    'description'      => '說明',
                     'tags'             => '標籤',
                 ],
             ],
@@ -225,7 +225,7 @@ return [
             ],
 
             'pricing' => [
-                'title' => 'Pricing',
+                'title' => '定價',
 
                 'entries' => [
                     'price' => '價格',

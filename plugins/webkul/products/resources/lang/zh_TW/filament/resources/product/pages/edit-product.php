@@ -2,18 +2,18 @@
 
 return [
     'notification' => [
-        'title' => '商品已更新',
+        'title' => 'Product已更新',
         'body'  => 'The product has been已更新成功.',
     ],
 
     'header-actions' => [
         'print' => [
-            'label' => 'Print Labels',
+            'label' => '列印標籤',
 
             'form' => [
                 'fields' => [
-                    'quantity' => '編號 of Labels',
-                    'format'   => 'Format',
+                    'quantity' => 'Number of Labels',
+                    'format'   => '格式',
 
                     'format-options' => [
                         'dymo'       => 'Dymo',
@@ -28,7 +28,7 @@ return [
 
         'delete' => [
             'notification' => [
-                'title' => '商品已刪除',
+                'title' => 'Product已刪除',
                 'body'  => 'The product has been已刪除成功.',
             ],
         ],

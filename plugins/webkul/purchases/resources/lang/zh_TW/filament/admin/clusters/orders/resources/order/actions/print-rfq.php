@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'label' => 'Print RFQ',
+    'label' => '列印報價邀請',
 ];

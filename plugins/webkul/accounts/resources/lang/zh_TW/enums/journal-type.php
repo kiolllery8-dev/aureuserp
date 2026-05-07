@@ -5,6 +5,6 @@ return [
     'purchase' => '採購',
     'cash'     => '現金',
     'bank'     => '銀行',
-    'credit'   => 'Credit Card',
-    'general'  => 'Miscellaneous',
+    'credit'   => '信用卡',
+    'general'  => '其他',
 ];

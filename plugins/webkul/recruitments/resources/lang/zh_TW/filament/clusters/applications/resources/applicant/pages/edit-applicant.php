@@ -1,47 +1,47 @@
 <?php
 
 return [
-    'create-employee' => '新增員工',
-    'goto-employee'   => 'Go to 員工',
+    'create-employee' => '新增Employee',
+    'goto-employee'   => '前往員工',
 
     'notification' => [
-        'title' => '應徵者已更新',
+        'title' => 'Applicant已更新',
         'body'  => 'The applicant has been已更新成功.',
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => '應徵者已刪除',
+                'title' => 'Applicant已刪除',
                 'body'  => 'The applicant has been已刪除成功.',
             ],
         ],
         'force-delete' => [
             'notification' => [
-                'title' => '應徵者已刪除',
+                'title' => 'Applicant已刪除',
                 'body'  => 'The applicant has been force已刪除成功.',
             ],
         ],
 
         'refuse' => [
-            'title'        => 'Refuse Reason',
+            'title'        => '拒絕原因',
             'notification' => [
-                'title' => '應徵者 refused',
+                'title' => 'Applicant refused',
                 'body'  => 'The applicant has been refused成功.',
             ],
         ],
 
         'reopen' => [
-            'title'        => 'Reopen 應徵者',
+            'title'        => 'Reopen Applicant',
             'notification' => [
-                'title' => '應徵者 reopened',
+                'title' => 'Applicant reopened',
                 'body'  => 'The applicant has been reopened成功.',
             ],
         ],
 
         'state' => [
             'notification' => [
-                'title' => '應徵者 state已更新',
+                'title' => 'Applicant state已更新',
                 'body'  => 'The applicant state has been已更新成功.',
             ],
         ],
@@ -56,7 +56,7 @@ return [
             'subject' => 'Your Job Application: :job_position',
         ],
         'interviewer-assigned' => [
-            'subject' => 'You have been assigned to the 應徵者 :applicant.',
+            'subject' => 'You have been assigned to the Applicant :applicant.',
         ],
     ],
 ];

@@ -17,7 +17,7 @@ return [
         ],
 
         'footer' => [
-            'home' => 'Home',
+            'home' => '首頁',
         ],
 
         'social' => [
@@ -35,35 +35,35 @@ return [
     ],
 
     'homepage' => [
-        'title' => 'Homepage',
-        'navigation_label' => 'Home',
+        'title' => '首頁',
+        'navigation_label' => '首頁',
     ],
 
     'footer' => [
         'description' => 'Designed to optimize and streamline business operations, Aureus ERP is suitable for enterprises of all sizes.',
         'description_2' => 'The platform emphasizes reporting for insights, security, localization flexibility, and integration with CRMs, BI tools, and APIs.',
-        'useful_links' => 'Useful Links',
-        'contact_us' => '聯絡人 Us',
-        'follow_us' => 'Follow Us',
-        'copyright' => 'Copyright',
-        'powered_by' => 'Powered by',
+        'useful_links' => '實用連結',
+        'contact_us' => 'Contact Us',
+        'follow_us' => '追蹤我們',
+        'copyright' => '版權',
+        'powered_by' => '技術支援',
     ],
 
     'pages' => [
         'about_us' => [
-            'title' => 'About Us',
-            'meta_title' => 'About Us',
+            'title' => '關於我們',
+            'meta_title' => '關於我們',
         ],
     ],
 
     'page_titles' => [
-        'home' => 'Home',
-        'about-us' => 'About Us',
-        'privacy-policy' => 'Privacy Policy',
+        'home' => '首頁',
+        'about-us' => '關於我們',
+        'privacy-policy' => '隱私政策',
         'terms-conditions' => '條款',
         'blog' => '部落格',
         'blogs' => '部落格',
         'contact' => '聯絡人',
-        'contact-us' => '聯絡人 Us',
+        'contact-us' => 'Contact Us',
     ],
 ];

@@ -11,7 +11,7 @@ return [
         'department'   => '部門',
         'manager'      => '主管',
         'company'      => '公司',
-        'plugin'       => 'Plugin',
+        'plugin'       => '外掛',
         'creator-name' => '建立者',
     ],
 
@@ -29,8 +29,8 @@ return [
 
         'filters' => [
             'name'           => '名稱',
-            'plugin'         => 'Plugin',
-            'activity-types' => '活動類型s',
+            'plugin'         => '外掛',
+            'activity-types' => 'Activity類型s',
             'company'        => '公司',
             'department'     => '部門',
             'is-active'      => '狀態',
@@ -49,7 +49,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '活動 Plan restored',
+                    'title' => 'Activity Plan restored',
                     'body'  => 'The activity plan has been restored成功.',
                 ],
             ],
@@ -63,7 +63,7 @@ return [
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '活動 Plan force已刪除',
+                    'title' => 'Activity Plan force已刪除',
                     'body'  => 'The activity plan has been force已刪除成功.',
                 ],
             ],
@@ -72,21 +72,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '活動 Plans restored',
+                    'title' => 'Activity Plans restored',
                     'body'  => 'The activity plans has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '活動 Plans已刪除',
+                    'title' => 'Activity Plans已刪除',
                     'body'  => 'The activity plans has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '活動 Plans force已刪除',
+                    'title' => 'Activity Plans force已刪除',
                     'body'  => 'The activity plans has been force已刪除成功.',
                 ],
             ],
@@ -95,7 +95,7 @@ return [
         'empty-state' => [
             'create' => [
                 'notification' => [
-                    'title' => '活動 Plan已建立',
+                    'title' => 'Activity Plan已建立',
                     'body'  => 'The activity plan has been已建立成功.',
                 ],
             ],

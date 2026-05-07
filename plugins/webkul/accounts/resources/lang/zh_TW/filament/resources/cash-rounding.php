@@ -4,31 +4,31 @@ return [
     'form' => [
         'fields' => [
             'name'               => '名稱',
-            'rounding-precision' => 'Rounding Precision',
-            'rounding-strategy'  => 'Rounding Strategy',
-            'profit-account'     => 'Profit 帳戶',
-            'loss-account'       => 'Loss 帳戶',
-            'rounding-method'    => 'Rounding 方式',
+            'rounding-precision' => '進位精度',
+            'rounding-strategy'  => '進位策略',
+            'profit-account'     => 'Profit Account',
+            'loss-account'       => 'Loss Account',
+            'rounding-method'    => 'Rounding Method',
         ],
     ],
 
     'table' => [
         'columns' => [
             'name'                 => '名稱',
-            'rounding-strategy'    => 'Rounding Strategy',
-            'rounding-method'      => 'Rounding 方式',
+            'rounding-strategy'    => '進位策略',
+            'rounding-method'      => 'Rounding Method',
             'created-by'           => '建立者',
-            'profit-account'       => 'Profit 帳戶',
-            'loss-account'         => 'Loss 帳戶',
+            'profit-account'       => 'Profit Account',
+            'loss-account'         => 'Loss Account',
         ],
 
         'groups' => [
             'name'              => '名稱',
-            'rounding-strategy' => 'Rounding Strategy',
-            'rounding-method'   => 'Rounding 方式',
+            'rounding-strategy' => '進位策略',
+            'rounding-method'   => 'Rounding Method',
             'created-by'        => '建立者',
-            'profit-account'    => 'Profit 帳戶',
-            'loss-account'      => 'Loss 帳戶',
+            'profit-account'    => 'Profit Account',
+            'loss-account'      => 'Loss Account',
         ],
 
         'actions' => [
@@ -53,11 +53,11 @@ return [
     'infolist' => [
         'entries' => [
             'name'               => '名稱',
-            'rounding-precision' => 'Rounding Precision',
-            'rounding-strategy'  => 'Rounding Strategy',
-            'profit-account'     => 'Profit 帳戶',
-            'loss-account'       => 'Loss 帳戶',
-            'rounding-method'    => 'Rounding 方式',
+            'rounding-precision' => '進位精度',
+            'rounding-strategy'  => '進位策略',
+            'profit-account'     => 'Profit Account',
+            'loss-account'       => 'Loss Account',
+            'rounding-method'    => 'Rounding Method',
         ],
     ],
 ];

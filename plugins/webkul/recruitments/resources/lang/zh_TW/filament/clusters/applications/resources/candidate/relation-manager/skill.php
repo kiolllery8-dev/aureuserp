@@ -16,7 +16,7 @@ return [
             'skill-type'    => '技能類別',
             'skill'         => '技能',
             'skill-level'   => '技能等級',
-            'level-percent' => 'Level Percent',
+            'level-percent' => '等級百分比',
             'created-by'    => '建立者',
             'user'          => '使用者',
             'created-at'    => '建立時間',
@@ -27,33 +27,33 @@ return [
         ],
 
         'header-actions' => [
-            'add-skill' => '新增技能',
+            'add-skill' => '新增Skill',
         ],
 
         'filters' => [
             'activity-type'   => '活動類型',
-            'activity-status' => '活動狀態',
-            'has-delay'       => 'Has Delay',
+            'activity-status' => 'Activity狀態',
+            'has-delay'       => '有延遲',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '技能已更新',
+                    'title' => 'Skill已更新',
                     'body'  => 'The skill has been已更新成功.',
                 ],
             ],
 
             'create' => [
                 'notification' => [
-                    'title' => '技能已建立',
+                    'title' => 'Skill已建立',
                     'body'  => 'The skill has been已建立成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '技能已刪除',
+                    'title' => 'Skill已刪除',
                     'body'  => 'The skill has been已刪除成功.',
                 ],
             ],
@@ -62,7 +62,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '技能已刪除',
+                    'title' => 'Skills已刪除',
                     'body'  => 'The skills has been已刪除成功.',
                 ],
             ],
@@ -74,7 +74,7 @@ return [
             'skill-type'    => '技能類別',
             'skill'         => '技能',
             'skill-level'   => '技能等級',
-            'level-percent' => 'Level Percent',
+            'level-percent' => '等級百分比',
         ],
     ],
 ];

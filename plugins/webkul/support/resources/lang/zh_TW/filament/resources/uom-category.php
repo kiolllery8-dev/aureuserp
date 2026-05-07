@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'group' => '設定',
-        'title' => 'UOM 分類',
+        'title' => 'UOM Categories',
     ],
 
     'form' => [
@@ -20,15 +20,15 @@ return [
                 'title' => '計量單位',
 
                 'fields' => [
-                    'uoms'     => '單位',
+                    'uoms'     => 'Units',
                     'type'     => '類型',
                     'name'     => '名稱',
-                    'factor'   => 'Factor',
-                    'rounding' => 'Rounding Precision',
+                    'factor'   => '因子',
+                    'rounding' => '進位精度',
                 ],
 
                 'actions' => [
-                    'add' => '新增單位',
+                    'add' => '新增Unit',
                 ],
             ],
         ],
@@ -37,7 +37,7 @@ return [
     'table' => [
         'columns' => [
             'name'       => '名稱',
-            'uoms-count' => '單位',
+            'uoms-count' => 'Units',
             'created-at' => '建立時間',
             'updated-at' => '更新時間',
         ],
@@ -49,14 +49,14 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'UOM 分類已更新',
+                    'title' => 'UOM Category已更新',
                     'body'  => 'The UOM category has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'UOM 分類已刪除',
+                    'title' => 'UOM Category已刪除',
                     'body'  => 'The UOM category has been已刪除成功.',
                 ],
             ],
@@ -65,7 +65,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'UOM 分類已刪除',
+                    'title' => 'UOM Categories已刪除',
                     'body'  => 'The UOM categories has been已刪除成功.',
                 ],
             ],

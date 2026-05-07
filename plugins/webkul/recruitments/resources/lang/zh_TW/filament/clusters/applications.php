@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Applications',
+        'title' => '申請',
         'group' => '招募',
     ],
 ];

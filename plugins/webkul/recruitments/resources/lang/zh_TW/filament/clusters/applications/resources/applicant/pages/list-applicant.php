@@ -2,28 +2,28 @@
 
 return [
     'notification' => [
-        'title' => '應徵者已建立',
+        'title' => 'Applicant已建立',
         'body'  => 'The applicant has been已建立 successf ully.',
     ],
 
     'tabs' => [
-        'my-applicants'          => 'My 應徵者',
-        'un-assigned'            => 'Un Assigned',
+        'my-applicants'          => 'My Applicants',
+        'un-assigned'            => '未指派',
         'in-progress'            => '處理中',
-        'hired'                  => 'Hired',
-        'refused'                => 'Refused',
+        'hired'                  => '已錄用',
+        'refused'                => '已拒絕',
         'archived'               => '已封存',
         'blocked'                => 'Blocked',
-        'directly-available'     => 'Directly Available',
-        'created-recently'       => 'Created Recently',
-        'stage-updated-recently' => '階段 Updated Recently',
+        'directly-available'     => '立即可用',
+        'created-recently'       => '最近建立',
+        'stage-updated-recently' => 'Stage Updated Recently',
     ],
 
     'header-actions' => [
         'create-applicant' => [
-            'label' => '新增應徵者',
+            'label' => '新增Applicant',
 
-            'modal-title' => '新增應徵者',
+            'modal-title' => '新增Applicant',
         ],
     ],
 ];

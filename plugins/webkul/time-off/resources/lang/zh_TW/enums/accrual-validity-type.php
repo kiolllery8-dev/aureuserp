@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'days'   => '天數',
-    'months' => 'Months',
+    'days'   => '日',
+    'months' => '月',
 ];

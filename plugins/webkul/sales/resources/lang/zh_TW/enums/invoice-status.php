@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'up-selling'  => 'Upselling Opportunity',
-    'invoiced'    => 'Fully Invoiced',
-    'to-invoice'  => 'To 發票',
-    'no'          => 'Nothing to 發票',
+    'up-selling'  => '升級機會',
+    'invoiced'    => '全數開立',
+    'to-invoice'  => 'To Invoice',
+    'no'          => 'Nothing to Invoice',
 ];

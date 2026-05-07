@@ -1,22 +1,22 @@
 <?php
 
 return [
-    'title' => 'Refuse Reason',
+    'title' => '拒絕原因',
 
     'navigation' => [
-        'title' => 'Refuse Reasons',
-        'group' => 'Applications',
+        'title' => '拒絕原因',
+        'group' => '申請',
     ],
 
     'form' => [
         'fields' => [
             'name'             => '名稱',
             'template'         => [
-                'title'                    => 'Template',
-                'applicant-refuse'         => '應徵者 Refuse',
-                'applicant-not-interested' => '應徵者 Not Interested',
+                'title'                    => '範本',
+                'applicant-refuse'         => 'Applicant Refuse',
+                'applicant-not-interested' => 'Applicant Not Interested',
             ],
-            'name-placeholder' => 'Enter the name of the refuse reason',
+            'name-placeholder' => '輸入拒絕原因名稱',
         ],
     ],
 
@@ -24,7 +24,7 @@ return [
         'columns' => [
             'id'         => '編號',
             'name'       => '名稱',
-            'template'   => 'Template',
+            'template'   => '範本',
             'created-by' => '建立者',
             'created-at' => '建立時間',
             'updated-at' => '更新時間',
@@ -32,7 +32,7 @@ return [
 
         'filters' => [
             'name'       => '名稱',
-            'employee'   => '員工',
+            'employee'   => 'Employee',
             'created-by' => '建立者',
             'updated-at' => '更新時間',
             'created-at' => '建立時間',
@@ -75,6 +75,6 @@ return [
 
     'infolist' => [
         'name'       => '名稱',
-        'template'   => 'Template',
+        'template'   => '範本',
     ],
 ];

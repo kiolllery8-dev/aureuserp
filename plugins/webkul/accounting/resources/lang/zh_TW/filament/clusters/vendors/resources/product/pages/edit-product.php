@@ -2,14 +2,14 @@
 
 return [
     'notification' => [
-        'title' => '商品已更新',
+        'title' => 'Product已更新',
         'body'  => 'The product has been已更新成功.',
     ],
 
     'header-actions' => [
         'update-quantity' => [
             'label'                     => 'Update數量',
-            'modal-heading'             => 'Update 商品數量',
+            'modal-heading'             => 'Update Product數量',
             'modal-submit-action-label' => '更新',
 
             'form' => [
@@ -21,7 +21,7 @@ return [
 
         'delete' => [
             'notification' => [
-                'title' => '商品已刪除',
+                'title' => 'Product已刪除',
                 'body'  => 'The product has been已刪除成功.',
             ],
         ],

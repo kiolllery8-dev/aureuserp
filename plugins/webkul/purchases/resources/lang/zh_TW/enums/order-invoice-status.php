@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'no'          => 'Noting To 進貨單',
-    'to-invoiced' => 'Waiting 進貨單',
-    'invoiced'    => 'Fully Billed',
+    'no'          => 'Noting To Bill',
+    'to-invoiced' => 'Waiting Bills',
+    'invoiced'    => '全數開立',
 ];

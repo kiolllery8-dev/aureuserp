@@ -3,7 +3,7 @@
 return [
     'no'        => '否',
     'at-date'   => 'At日期',
-    'monthly'   => 'Monthly',
-    'quarterly' => 'Quarterly',
-    'yearly'    => 'Yearly',
+    'monthly'   => '按月',
+    'quarterly' => '每季',
+    'yearly'    => '按年',
 ];

@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => '管理時間',
+    'title' => '管理Time',
 
     'form' => [
         'enable-timesheets'             => 'Enable時間sheets',
-        'enable-timesheets-helper-text' => 'Track time spent on projects and tasks',
+        'enable-timesheets-helper-text' => '追蹤專案與任務所花時間',
     ],
 ];

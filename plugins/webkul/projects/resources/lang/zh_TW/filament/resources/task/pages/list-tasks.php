@@ -2,19 +2,19 @@
 
 return [
     'tabs' => [
-        'open-tasks'       => 'Open 任務',
-        'my-tasks'         => 'My 任務',
-        'unassigned-tasks' => 'Unassigned 任務',
-        'private-tasks'    => '私人 任務',
-        'followed-tasks'   => 'Followed 任務',
-        'closed-tasks'     => '已關閉 任務',
-        'starred-tasks'    => 'Starred 任務',
-        'archived-tasks'   => '已封存 任務',
+        'open-tasks'       => 'Open Tasks',
+        'my-tasks'         => 'My Tasks',
+        'unassigned-tasks' => 'Unassigned Tasks',
+        'private-tasks'    => 'Private Tasks',
+        'followed-tasks'   => 'Followed Tasks',
+        'closed-tasks'     => 'Closed Tasks',
+        'starred-tasks'    => 'Starred Tasks',
+        'archived-tasks'   => 'Archived Tasks',
     ],
 
     'header-actions' => [
         'create' => [
-            'label' => '新增任務',
+            'label' => '新增Task',
         ],
     ],
 ];

@@ -8,7 +8,7 @@ return [
 
         'delete' => [
             'notification' => [
-                'title' => 'Purchase Agreement Deleted',
+                'title' => '採購合約已刪除',
                 'body'  => 'The purchase agreement has been已刪除成功.',
             ],
         ],

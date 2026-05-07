@@ -7,6 +7,6 @@ return [
         'purchases'     => '採購',
         'cash'          => '現金',
         'bank'          => '銀行',
-        'miscellaneous' => 'Miscellaneous',
+        'miscellaneous' => '其他',
     ],
 ];

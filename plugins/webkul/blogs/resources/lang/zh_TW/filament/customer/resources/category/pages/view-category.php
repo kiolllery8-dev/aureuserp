@@ -2,6 +2,6 @@
 
 return [
     'navigation' => [
-        'title' => 'Our Latest 文章',
+        'title' => 'Our Latest Posts',
     ],
 ];

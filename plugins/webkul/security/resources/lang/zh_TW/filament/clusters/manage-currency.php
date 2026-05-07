@@ -1,18 +1,18 @@
 <?php
 
 return [
-    'breadcrumb' => '管理幣別',
-    'title'      => '管理幣別',
+    'breadcrumb' => '管理Currency',
+    'title'      => '管理Currency',
     'group'      => '一般',
 
     'navigation' => [
-        'label' => '管理幣別',
+        'label' => '管理Currency',
     ],
 
     'form' => [
         'default-currency' => [
             'label'       => '預設幣別',
-            'helper-text' => 'The default currency used in the application.',
+            'helper-text' => '應用程式中使用的預設貨幣。',
         ],
     ],
 ];

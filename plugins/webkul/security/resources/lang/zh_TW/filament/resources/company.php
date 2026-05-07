@@ -15,13 +15,13 @@ return [
     'form' => [
         'sections' => [
             'company-information' => [
-                'title'  => '公司資料',
+                'title'  => 'Company資料',
                 'fields' => [
                     'name'                  => '公司名稱',
-                    'registration-number'   => 'Registration 編號',
-                    'company-id'            => '公司 ID',
+                    'registration-number'   => 'Registration Number',
+                    'company-id'            => 'Company ID',
                     'tax-id'                => '統一編號',
-                    'tax-id-tooltip'        => 'The 稅 ID is a unique identifier for your company.',
+                    'tax-id-tooltip'        => 'The Tax ID is a unique identifier for your company.',
                     'website'               => '網址',
                 ],
             ],
@@ -40,7 +40,7 @@ return [
                     'code'           => '代碼',
                     'country-name'   => '國家名稱',
                     'state-required' => '須填寫州/省',
-                    'zip-required'   => 'Zip 必填',
+                    'zip-required'   => 'Zip Required',
                     'create-country' => '新增國家',
                     'state'          => '狀態',
                     'state-name'     => '州/省名稱',
@@ -55,22 +55,22 @@ return [
                 'fields' => [
                     'default-currency'        => '預設幣別',
                     'currency-name'           => '幣別名稱',
-                    'currency-full-name'      => '幣別 Full名稱',
+                    'currency-full-name'      => 'Currency Full名稱',
                     'currency-symbol'         => '幣別符號',
-                    'currency-iso-numeric'    => '幣別 ISO Numeric',
-                    'currency-decimal-places' => '幣別 Decimal Places',
-                    'currency-rounding'       => '幣別 Rounding',
-                    'currency-status'         => '幣別狀態',
-                    'company-foundation-date' => '公司 Foundation日期',
+                    'currency-iso-numeric'    => 'Currency ISO Numeric',
+                    'currency-decimal-places' => 'Currency Decimal Places',
+                    'currency-rounding'       => 'Currency Rounding',
+                    'currency-status'         => 'Currency狀態',
+                    'company-foundation-date' => 'Company Foundation日期',
                     'currency-create'         => '新增幣別',
                     'status'                  => '狀態',
                 ],
             ],
 
             'branding' => [
-                'title'  => 'Branding',
+                'title'  => '品牌',
                 'fields' => [
-                    'company-logo' => '公司 Logo',
+                    'company-logo' => 'Company Logo',
                     'color'        => '顏色',
                 ],
             ],
@@ -88,7 +88,7 @@ return [
 
     'table' => [
         'columns' => [
-            'logo'         => 'Logo',
+            'logo'         => '標誌',
             'company-name' => '公司名稱',
             'branches'     => '分公司',
             'email'        => '電子郵件',
@@ -122,26 +122,26 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '公司 edited',
+                    'title' => 'Company edited',
                     'body'  => 'The company has been edited成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '公司已刪除',
+                    'title' => 'Company已刪除',
                     'body'  => 'The company has been已刪除成功.',
 
                     'default-company' => [
-                        'title' => '公司 cannot be已刪除',
-                        'body'  => 'This company is set as the default company in 管理使用者 settings. Please change the default company before deleting.',
+                        'title' => 'Company cannot be已刪除',
+                        'body'  => 'This company is set as the default company in 管理Users settings. Please change the default company before deleting.',
                     ],
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => '公司 restored',
+                    'title' => 'Company restored',
                     'body'  => 'The company has been restored成功.',
                 ],
             ],
@@ -149,7 +149,7 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '公司 force已刪除',
+                        'title' => 'Company force已刪除',
                         'body'  => 'The company has been force已刪除成功.',
                     ],
                     'error' => [
@@ -163,21 +163,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '公司 restored',
+                    'title' => 'Companies restored',
                     'body'  => 'The companies has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '公司已刪除',
+                    'title' => 'Companies已刪除',
                     'body'  => 'The companies has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '公司 force已刪除',
+                    'title' => 'Companies force已刪除',
                     'body'  => 'The companies has been force已刪除成功.',
                     'error' => [
                         'title' => 'Unable to force delete companies',
@@ -190,7 +190,7 @@ return [
         'empty-state-actions' => [
             'create' => [
                 'notification' => [
-                    'title' => '公司已建立',
+                    'title' => 'Companies已建立',
                     'body'  => 'The companies has been已建立成功.',
                 ],
             ],
@@ -200,13 +200,13 @@ return [
     'infolist' => [
         'sections' => [
             'company-information' => [
-                'title'   => '公司資料',
+                'title'   => 'Company資料',
                 'entries' => [
                     'name'                  => '公司名稱',
-                    'registration-number'   => 'Registration 編號',
-                    'company-id'            => '公司 ID',
+                    'registration-number'   => 'Registration Number',
+                    'company-id'            => 'Company ID',
                     'tax-id'                => '統一編號',
-                    'tax-id-tooltip'        => 'The 稅 ID is a unique identifier for your company.',
+                    'tax-id-tooltip'        => 'The Tax ID is a unique identifier for your company.',
                     'website'               => '網址',
                 ],
             ],
@@ -225,7 +225,7 @@ return [
                     'code'           => '代碼',
                     'country-name'   => '國家名稱',
                     'state-required' => '須填寫州/省',
-                    'zip-required'   => 'Zip 必填',
+                    'zip-required'   => 'Zip Required',
                     'create-country' => '新增國家',
                     'state'          => '狀態',
                     'state-name'     => '州/省名稱',
@@ -240,22 +240,22 @@ return [
                 'entries' => [
                     'default-currency'        => '預設幣別',
                     'currency-name'           => '幣別名稱',
-                    'currency-full-name'      => '幣別 Full名稱',
+                    'currency-full-name'      => 'Currency Full名稱',
                     'currency-symbol'         => '幣別符號',
-                    'currency-iso-numeric'    => '幣別 ISO Numeric',
-                    'currency-decimal-places' => '幣別 Decimal Places',
-                    'currency-rounding'       => '幣別 Rounding',
-                    'currency-status'         => '幣別狀態',
-                    'company-foundation-date' => '公司 Foundation日期',
+                    'currency-iso-numeric'    => 'Currency ISO Numeric',
+                    'currency-decimal-places' => 'Currency Decimal Places',
+                    'currency-rounding'       => 'Currency Rounding',
+                    'currency-status'         => 'Currency狀態',
+                    'company-foundation-date' => 'Company Foundation日期',
                     'currency-create'         => '新增幣別',
                     'status'                  => '狀態',
                 ],
             ],
 
             'branding' => [
-                'title'   => 'Branding',
+                'title'   => '品牌',
                 'entries' => [
-                    'company-logo' => '公司 Logo',
+                    'company-logo' => 'Company Logo',
                     'color'        => '顏色',
                 ],
             ],

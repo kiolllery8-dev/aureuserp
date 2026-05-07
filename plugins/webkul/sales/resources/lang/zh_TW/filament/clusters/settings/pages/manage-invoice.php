@@ -1,21 +1,21 @@
 <?php
 
 return [
-    'title' => '管理發票',
+    'title' => '管理Invoice',
 
-    'breadcrumb' => '管理發票',
+    'breadcrumb' => '管理Invoice',
 
     'navigation' => [
-        'title' => '管理發票',
+        'title' => '管理Invoice',
     ],
 
     'form' => [
         'invoice-policy' => [
-            'label'      => '發票 Policy',
-            'label-help' => 'Define how invoices are generated from sales orders.',
+            'label'      => 'Invoice Policy',
+            'label-help' => '定義銷售訂單如何產生發票。',
             'options'    => [
-                'order'    => 'Generate invoice based on ordered quantities',
-                'delivery' => 'Generate invoice based on delivered quantities',
+                'order'    => '依訂單數量產生發票',
+                'delivery' => '依出貨數量產生發票',
             ],
         ],
     ],

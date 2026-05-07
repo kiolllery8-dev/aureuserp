@@ -3,10 +3,10 @@
 return [
     'header-actions' => [
         'create' => [
-            'label' => '新增任務 階段',
+            'label' => '新增Task Stage',
 
             'notification' => [
-                'title' => '任務 stage已建立',
+                'title' => 'Task stage已建立',
                 'body'  => 'The task stage has been已建立成功.',
             ],
         ],

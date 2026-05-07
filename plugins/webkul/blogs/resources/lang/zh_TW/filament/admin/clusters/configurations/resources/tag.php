@@ -22,28 +22,28 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '標籤已更新',
+                    'title' => 'Tag已更新',
                     'body'  => 'The tag has been已更新成功.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => '標籤 restored',
+                    'title' => 'Tag restored',
                     'body'  => 'The tag has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '標籤已刪除',
+                    'title' => 'Tag已刪除',
                     'body'  => 'The tag has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '標籤 force已刪除',
+                    'title' => 'Tag force已刪除',
                     'body'  => 'The tag has been force已刪除成功.',
                 ],
             ],
@@ -52,21 +52,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '標籤 restored',
+                    'title' => 'Tags restored',
                     'body'  => 'The tags has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '標籤已刪除',
+                    'title' => 'Tags已刪除',
                     'body'  => 'The tags has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '標籤 force已刪除',
+                    'title' => 'Tags force已刪除',
                     'body'  => 'The tags has been force已刪除成功.',
                 ],
             ],

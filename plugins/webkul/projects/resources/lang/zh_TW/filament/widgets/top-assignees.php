@@ -2,7 +2,7 @@
 
 return [
     'heading' => [
-        'title' => 'Top Assignees',
+        'title' => '主要受指派者',
     ],
 
     'table-columns' => [

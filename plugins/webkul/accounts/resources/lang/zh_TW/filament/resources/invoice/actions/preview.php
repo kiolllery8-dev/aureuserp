@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Preview',
+    'title' => '預覽',
 
     'modal' => [
-        'title' => 'Preview 發票',
+        'title' => 'Preview Invoice',
 
         'action' => [
             'close' => [

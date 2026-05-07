@@ -17,11 +17,11 @@ return [
             'label' => '電子郵件',
         ],
         'password' => [
-            'label'                => 'Password',
-            'validation_attribute' => 'password',
+            'label'                => '密碼',
+            'validation_attribute' => '密碼',
         ],
         'password_confirmation' => [
-            'label' => 'Confirm password',
+            'label' => '確認密碼',
         ],
         'actions' => [
             'register' => [
@@ -31,7 +31,7 @@ return [
     ],
     'actions' => [
         'login' => [
-            'before' => 'Already have an account?',
+            'before' => '已經有帳號？',
             'label'  => '登入',
         ],
     ],

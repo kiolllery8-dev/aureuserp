@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => '新增出貨',
+    'title' => '新增Delivery',
 
     'notification' => [
-        'title' => '出貨已建立',
+        'title' => 'Delivery已建立',
         'body'  => 'The delivery has been已建立成功.',
     ],
 ];

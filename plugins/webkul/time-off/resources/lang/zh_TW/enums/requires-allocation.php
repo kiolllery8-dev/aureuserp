@@ -2,5 +2,5 @@
 
 return [
     'yes' => '是',
-    'no'  => 'No Limit',
+    'no'  => '無限制',
 ];

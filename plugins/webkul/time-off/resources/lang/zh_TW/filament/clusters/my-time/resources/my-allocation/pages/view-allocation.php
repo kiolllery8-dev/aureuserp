@@ -4,7 +4,7 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Allocation Deleted',
+                'title' => '分配已刪除',
                 'body'  => 'The allocation has been已刪除成功.',
             ],
         ],

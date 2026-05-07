@@ -2,8 +2,8 @@
 
 return [
     'navigation' => [
-        'title' => 'Replenishment',
-        'group' => 'Procurement',
+        'title' => '補貨',
+        'group' => '採購',
     ],
 
     'form' => [
@@ -17,12 +17,12 @@ return [
             'location'          => '位置',
             'route'             => '路徑',
             'vendor'            => '供應商',
-            'trigger'           => 'Trigger',
+            'trigger'           => '觸發',
             'on-hand'           => '現有',
-            'min'               => 'Min',
-            'max'               => 'Max',
+            'min'               => '最小',
+            'max'               => '最大',
             'multiple-quantity' => 'Multiple數量',
-            'to-order'          => 'To 訂單',
+            'to-order'          => 'To Order',
             'uom'               => '計量單位',
             'company'           => '公司',
         ],
@@ -41,7 +41,7 @@ return [
                 'label' => '新增Replenishment',
 
                 'notification' => [
-                    'title' => 'Replenishment added',
+                    'title' => '已新增補貨',
                     'body'  => 'The replenishment has been added成功.',
                 ],
 

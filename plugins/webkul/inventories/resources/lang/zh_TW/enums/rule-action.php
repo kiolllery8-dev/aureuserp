@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'pull'      => 'Pull From',
-    'push'      => 'Push To',
-    'pull-push' => 'Pull & Push',
-    'buy'       => 'Buy',
+    'pull'      => '拉取自',
+    'push'      => '推送至',
+    'pull-push' => '拉取與推送',
+    'buy'       => '採購',
 ];

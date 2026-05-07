@@ -8,7 +8,7 @@ return [
 
     'global-search' => [
         'partner' => '夥伴',
-        'origin'  => 'Origin',
+        'origin'  => '來源',
     ],
 
     'table' => [
@@ -16,12 +16,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '進貨已刪除',
+                        'title' => 'Receipt已刪除',
                         'body'  => 'The receipt ras been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '進貨 could not be已刪除',
+                        'title' => 'Receipt could not be已刪除',
                         'body'  => 'The receipt cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -32,12 +32,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '進貨已刪除',
+                        'title' => 'Receipts已刪除',
                         'body'  => 'The receipts has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '進貨 could not be已刪除',
+                        'title' => 'Receipts could not be已刪除',
                         'body'  => 'The receipts cannot be已刪除 because they are currently in use.',
                     ],
                 ],

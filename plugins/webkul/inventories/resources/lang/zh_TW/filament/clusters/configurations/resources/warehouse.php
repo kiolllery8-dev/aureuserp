@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'title' => '倉庫',
-        'group' => '倉庫 Management',
+        'group' => 'Warehouse Management',
     ],
 
     'form' => [
@@ -12,9 +12,9 @@ return [
                 'title'  => '一般',
                 'fields' => [
                     'name'               => '名稱',
-                    'name-placeholder'   => 'eg. Central 倉庫',
+                    'name-placeholder'   => 'eg. Central Warehouse',
                     'code'               => 'Short名稱',
-                    'code-placeholder'   => 'eg. CW',
+                    'code-placeholder'   => '例：CW',
                     'code-hint-tooltip'  => 'The short name serves as an identifier for the warehouse.',
                     'company'            => '公司',
                     'address'            => '地址',
@@ -25,14 +25,14 @@ return [
                 'title'  => '設定',
 
                 'fields' => [
-                    'shipment-management'              => 'Shipment Management',
-                    'incoming-shipments'               => 'Incoming Shipments',
-                    'incoming-shipments-hint-tooltip'  => '預設 incoming route to follow',
-                    'outgoing-shipments'               => 'Outgoing Shipments',
-                    'outgoing-shipments-hint-tooltip'  => '預設 outgoing route to follow',
-                    'resupply-management'              => 'Resupply Management',
-                    'resupply-management-hint-tooltip' => '路徑 will be automatically generated to resupply this warehouse from the selected warehouses.',
-                    'resupply-from'                    => 'Resupply From',
+                    'shipment-management'              => '出貨管理',
+                    'incoming-shipments'               => '收貨',
+                    'incoming-shipments-hint-tooltip'  => 'Default incoming route to follow',
+                    'outgoing-shipments'               => '出貨',
+                    'outgoing-shipments-hint-tooltip'  => 'Default outgoing route to follow',
+                    'resupply-management'              => '補貨管理',
+                    'resupply-management-hint-tooltip' => 'Routes will be automatically generated to resupply this warehouse from the selected warehouses.',
+                    'resupply-from'                    => '補貨來源',
                 ],
             ],
 
@@ -67,14 +67,14 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '倉庫 restored',
+                    'title' => 'Warehouse restored',
                     'body'  => 'The warehouse has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '倉庫已刪除',
+                    'title' => 'Warehouse已刪除',
                     'body'  => 'The warehouse has been已刪除成功.',
                 ],
             ],
@@ -82,12 +82,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '倉庫 force已刪除',
+                        'title' => 'Warehouse force已刪除',
                         'body'  => 'The warehouse has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '倉庫 could not be已刪除',
+                        'title' => 'Warehouse could not be已刪除',
                         'body'  => 'The warehouse cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -97,14 +97,14 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '倉庫 restored',
+                    'title' => 'Warehouses restored',
                     'body'  => 'The warehouses has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '倉庫已刪除',
+                    'title' => 'Warehouses已刪除',
                     'body'  => 'The warehouses has been已刪除成功.',
                 ],
             ],
@@ -112,12 +112,12 @@ return [
             'force-delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '倉庫 force已刪除',
+                        'title' => 'Warehouses force已刪除',
                         'body'  => 'The warehouses has been force已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '倉庫 could not be已刪除',
+                        'title' => 'Warehouses could not be已刪除',
                         'body'  => 'The warehouses cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -131,8 +131,8 @@ return [
                 'title' => '一般資料',
 
                 'entries' => [
-                    'name'    => '倉庫名稱',
-                    'code'    => '倉庫代碼',
+                    'name'    => 'Warehouse名稱',
+                    'code'    => 'Warehouse代碼',
                     'company' => '公司',
                     'address' => '地址',
                 ],
@@ -142,11 +142,11 @@ return [
                 'title' => '設定',
 
                 'entries' => [
-                    'shipment-management' => 'Shipment Management',
-                    'incoming-shipments'  => 'Incoming Shipments',
-                    'outgoing-shipments'  => 'Outgoing Shipments',
-                    'resupply-management' => 'Resupply Management',
-                    'resupply-from'       => 'Resupply From',
+                    'shipment-management' => '出貨管理',
+                    'incoming-shipments'  => '收貨',
+                    'outgoing-shipments'  => '出貨',
+                    'resupply-management' => '補貨管理',
+                    'resupply-from'       => '補貨來源',
                 ],
             ],
 

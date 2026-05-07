@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Sales Teams',
+    'title' => '銷售團隊',
 
     'navigation' => [
-        'title' => 'Sales Teams',
+        'title' => '銷售團隊',
     ],
 
     'form' => [
@@ -14,14 +14,14 @@ return [
                 'status'   => '狀態',
                 'fieldset' => [
                     'team-details' => [
-                        'title'  => 'Team Details',
+                        'title'  => '團隊詳情',
                         'fields' => [
-                            'team-leader'            => 'Team Leader',
+                            'team-leader'            => '團隊主管',
                             'company'                => '公司',
-                            'invoiced-target'        => 'Invoiced Target',
+                            'invoiced-target'        => '開立目標',
                             'invoiced-target-suffix' => '/ Month',
                             'color'                  => '顏色',
-                            'members'                => 'Members',
+                            'members'                => '成員',
                         ],
                     ],
                 ],
@@ -33,10 +33,10 @@ return [
         'columns' => [
             'id'              => '編號',
             'company'         => '公司',
-            'team-leader'     => 'Team Leader',
+            'team-leader'     => '團隊主管',
             'name'            => '名稱',
             'status'          => '狀態',
-            'invoiced-target' => 'Invoiced Target',
+            'invoiced-target' => '開立目標',
             'color'           => '顏色',
             'created-by'      => '建立者',
             'created-at'      => '建立時間',
@@ -45,7 +45,7 @@ return [
 
         'filters' => [
             'name'        => '名稱',
-            'team-leader' => 'Team Leader',
+            'team-leader' => '團隊主管',
             'company'     => '公司',
             'created-by'  => '建立者',
             'updated-at'  => '更新時間',
@@ -54,8 +54,8 @@ return [
 
         'groups' => [
             'name'        => '名稱',
-            'company'     => ' 公司',
-            'team-leader' => 'Team Leader',
+            'company'     => ' Company',
+            'team-leader' => '團隊主管',
             'created-at'  => '建立時間',
             'updated-at'  => '更新時間',
         ],
@@ -63,7 +63,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Sales Team restored',
+                    'title' => '銷售團隊已還原',
                     'body'  => 'The sales Team has been restored成功.',
                 ],
             ],
@@ -86,7 +86,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Sales Teams restored',
+                    'title' => '銷售團隊已還原',
                     'body'  => 'The sales Teams has been restored成功.',
                 ],
             ],
@@ -123,14 +123,14 @@ return [
                 'status'   => '狀態',
                 'fieldset' => [
                     'team-details' => [
-                        'title'   => 'Team Details',
+                        'title'   => '團隊詳情',
                         'entries' => [
-                            'team-leader'            => 'Team Leader',
+                            'team-leader'            => '團隊主管',
                             'company'                => '公司',
-                            'invoiced-target'        => 'Invoiced Target',
+                            'invoiced-target'        => '開立目標',
                             'invoiced-target-suffix' => '/ Month',
                             'color'                  => '顏色',
-                            'members'                => 'Members',
+                            'members'                => '成員',
                         ],
                     ],
                 ],

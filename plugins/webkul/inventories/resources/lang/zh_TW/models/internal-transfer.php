@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'title'          => 'Internal 調撥',
+    'title'          => 'Internal Transfer',
 ];

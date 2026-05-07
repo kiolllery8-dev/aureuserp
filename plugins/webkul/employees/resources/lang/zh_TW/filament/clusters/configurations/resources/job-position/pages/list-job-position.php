@@ -2,7 +2,7 @@
 
 return [
     'tabs' => [
-        'my-department' => 'My 部門',
+        'my-department' => 'My Department',
         'archived'      => '已封存',
     ],
 

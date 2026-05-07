@@ -5,7 +5,7 @@ return [
 
     'navigation' => [
         'title' => '技能類別',
-        'group' => '員工',
+        'group' => 'Employee',
     ],
 
     'form' => [
@@ -25,14 +25,14 @@ return [
             'status'     => '狀態',
             'color'      => '顏色',
             'skills'     => '技能',
-            'levels'     => 'Levels',
+            'levels'     => '等級',
             'created-by' => '建立者',
             'created-at' => '建立時間',
             'updated-at' => '更新時間',
         ],
 
         'filters' => [
-            'skill-levels' => '技能 Levels',
+            'skill-levels' => 'Skill Levels',
             'skills'       => '技能',
             'created-by'   => '建立者',
             'status'       => '狀態',
@@ -52,15 +52,15 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '技能類型 restored',
-                    'body'  => 'The 技能類型 has been restored成功.',
+                    'title' => 'Skill類型 restored',
+                    'body'  => 'The Skill類型 has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '技能類型已刪除',
-                    'body'  => 'The 技能類型 has been已刪除成功.',
+                    'title' => 'Skill類型已刪除',
+                    'body'  => 'The Skill類型 has been已刪除成功.',
                 ],
             ],
         ],
@@ -68,22 +68,22 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '技能類型s restored',
-                    'body'  => 'The 技能類型s has been restored成功.',
+                    'title' => 'Skill類型s restored',
+                    'body'  => 'The Skill類型s has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '技能類型s已刪除',
-                    'body'  => 'The 技能類型s has been已刪除成功.',
+                    'title' => 'Skill類型s已刪除',
+                    'body'  => 'The Skill類型s has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '技能類型s force已刪除',
-                    'body'  => 'The 技能類型s has been force已刪除成功.',
+                    'title' => 'Skill類型s force已刪除',
+                    'body'  => 'The Skill類型s has been force已刪除成功.',
                 ],
             ],
         ],
@@ -92,7 +92,7 @@ return [
             'create' => [
                 'notification' => [
                     'title' => '技能類別',
-                    'body'  => 'The 技能類型s has been已建立成功.',
+                    'body'  => 'The Skill類型s has been已建立成功.',
                 ],
             ],
         ],

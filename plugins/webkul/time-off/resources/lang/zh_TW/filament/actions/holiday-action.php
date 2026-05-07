@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'title' => 'Holidays',
+    'title' => '假日',
     'form'  => [
         'placeholders' => [
-            'public-holiday'    => '公開 Holidays',
-            'mandatory-holiday' => 'Mandatory Holidays',
+            'public-holiday'    => 'Public Holidays',
+            'mandatory-holiday' => '強制假日',
         ],
     ],
 ];

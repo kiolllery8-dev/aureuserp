@@ -2,6 +2,6 @@
 
 return [
     'navigation' => [
-        'title' => '管理Fiscal Position 稅',
+        'title' => '管理Fiscal Position Taxes',
     ],
 ];

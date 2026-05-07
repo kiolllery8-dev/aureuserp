@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'base' => 'Base',
-    'tax'  => 'of 稅',
+    'base' => '基準',
+    'tax'  => 'of Tax',
 ];

@@ -2,6 +2,6 @@
 
 return [
     'navigation' => [
-        'title' => '標題',
+        'title' => 'Titles',
     ],
 ];

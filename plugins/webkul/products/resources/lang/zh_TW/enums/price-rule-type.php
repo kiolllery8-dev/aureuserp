@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'percentage'   => 'Percentage',
-    'formula'      => 'Formula',
-    'fixed'        => 'Fixed',
+    'percentage'   => '百分比',
+    'formula'      => '公式',
+    'fixed'        => '固定',
 ];

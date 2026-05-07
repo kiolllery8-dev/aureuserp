@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'title'          => '員工',
+    'title'          => 'Employee',
 ];

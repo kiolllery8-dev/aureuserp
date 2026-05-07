@@ -15,13 +15,13 @@ return [
         ],
         'actions' => [
             'request' => [
-                'label' => 'Send reset link',
+                'label' => '寄送重設連結',
             ],
         ],
     ],
     'actions' => [
         'login' => [
-            'label' => 'Back to login',
+            'label' => '回到登入',
         ],
     ],
 ];

@@ -2,6 +2,6 @@
 
 return [
     'heading' => [
-        'title' => '任務 By State',
+        'title' => 'Tasks By State',
     ],
 ];

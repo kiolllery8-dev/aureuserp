@@ -1,5 +1,5 @@
 <?php
 
 return  [
-    'title' => '檢視客戶',
+    'title' => '檢視Customer',
 ];

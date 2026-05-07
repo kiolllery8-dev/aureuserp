@@ -1,30 +1,30 @@
 <?php
 
 return [
-    'label'             => 'Validate',
-    'modal-heading'     => '新增Back 訂單?',
+    'label'             => '驗證',
+    'modal-heading'     => '新增Back Order?',
     'modal-description' => '新增a backorder if the remaining products will be processed later. If not, do not generate a backorder.',
 
     'extra-modal-footer-actions' => [
         'no-backorder' => [
-            'label' => 'No Backorder',
+            'label' => '不接受缺貨訂單',
         ],
     ],
 
     'notification' => [
         'warning' => [
             'lines-missing' => [
-                'title' => 'No quantities are reserved',
+                'title' => '沒有保留數量',
                 'body'  => 'No quantities are reserved for the transfer.',
             ],
 
             'lot-missing' => [
-                'title' => 'Supply 批號/Serial 編號',
-                'body'  => 'You need to supply a 批號/Serial 編號 for products',
+                'title' => 'Supply Lot/Serial Number',
+                'body'  => 'You need to supply a Lot/Serial Number for products',
             ],
 
             'serial-qty' => [
-                'title' => 'Serial 編號 Already Assigned',
+                'title' => 'Serial Number Already Assigned',
                 'body'  => 'The serial number has already been assigned to another product.',
             ],
 

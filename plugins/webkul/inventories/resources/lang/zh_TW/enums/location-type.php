@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'supplier'   => '供應商 位置',
+    'supplier'   => 'Vendor Location',
     'view'       => '檢視',
-    'internal'   => 'Internal 位置',
-    'customer'   => '客戶 位置',
-    'inventory'  => 'Inventory Loss',
-    'production' => 'Production',
-    'transit'    => 'Transit 位置',
+    'internal'   => 'Internal Location',
+    'customer'   => 'Customer Location',
+    'inventory'  => '庫存損失',
+    'production' => '生產',
+    'transit'    => 'Transit Location',
 ];

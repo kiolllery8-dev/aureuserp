@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title'          => 'Purchase Agreement',
+    'title'          => '採購合約',
 
     'log-attributes' => [
         'state'     => '狀態',

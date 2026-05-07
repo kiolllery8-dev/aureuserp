@@ -2,12 +2,12 @@
 
 return [
     'preset-views' => [
-        'waiting-for-me'  => 'Waiting For Me',
-        'second-approval' => 'Second Approval',
+        'waiting-for-me'  => '等我處理',
+        'second-approval' => '第二核准',
         'approved'        => '已核准',
-        'currently-valid' => 'Currently Valid',
-        'my-team'         => 'My Team',
-        'my-department'   => 'My 部門',
-        'refused'         => 'Refused',
+        'currently-valid' => '目前有效',
+        'my-team'         => '我的團隊',
+        'my-department'   => 'My Department',
+        'refused'         => '已拒絕',
     ],
 ];

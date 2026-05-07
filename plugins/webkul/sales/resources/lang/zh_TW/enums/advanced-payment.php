@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'delivered'  => 'Regular invoice',
-    'percentage' => 'Down payment (percentage)',
-    'fixed'      => 'Down payment (fixed amount)',
+    'delivered'  => '一般發票',
+    'percentage' => '預付款（百分比）',
+    'fixed'      => '預付款（固定金額）',
 ];

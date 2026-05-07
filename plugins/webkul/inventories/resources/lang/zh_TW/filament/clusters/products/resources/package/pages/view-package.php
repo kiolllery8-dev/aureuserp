@@ -7,11 +7,11 @@ return [
 
             'actions' => [
                 'without-content' => [
-                    'label' => 'Print Barcode',
+                    'label' => '列印條碼',
                 ],
 
                 'with-content' => [
-                    'label' => 'Print Barcode With Content',
+                    'label' => '列印含內容條碼',
                 ],
             ],
         ],
@@ -19,12 +19,12 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => '包裝 Deleted',
+                    'title' => 'Package Deleted',
                     'body'  => 'The package has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => '包裝 could not be已刪除',
+                    'title' => 'Package could not be已刪除',
                     'body'  => 'The package cannot be已刪除 because it is currently in use.',
                 ],
             ],

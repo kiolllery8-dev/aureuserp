@@ -5,7 +5,7 @@ return [
 
     'placeholders' => [
         'no-record-found' => 'No記錄 found.',
-        'loading'         => 'Loading Chatter...',
+        'loading'         => '載入訊息中…',
     ],
 
     'activity-infolist' => [
@@ -13,7 +13,7 @@ return [
     ],
 
     'cancel-activity-plan-action' => [
-        'title' => 'Cancel 活動',
+        'title' => 'Cancel Activity',
     ],
 
     'delete-message-action' => [
@@ -21,13 +21,13 @@ return [
     ],
 
     'edit-activity' => [
-        'title' => '編輯活動',
+        'title' => '編輯Activity',
 
         'form' => [
             'fields' => [
                 'activity-plan' => '活動計畫',
                 'plan-date'     => 'Plan日期',
-                'plan-summary'  => 'Plan Summary',
+                'plan-summary'  => '計畫摘要',
                 'activity-type' => '活動類型',
                 'due-date'      => '到期日',
                 'summary'       => '摘要',
@@ -38,7 +38,7 @@ return [
         'action' => [
             'notification' => [
                 'success' => [
-                    'title' => '活動已更新',
+                    'title' => 'Activity已更新',
                     'body'  => 'The activity has been已更新成功.',
                 ],
             ],
@@ -46,26 +46,26 @@ return [
     ],
 
     'process-message' => [
-        'original-note' => '<br><div><span class="font-bold">Original 備註</span>: :body</div>',
-        'original-note' => '<br><div><span class="font-bold">Original 備註</span>: :body</div>',
+        'original-note' => '<br><div><span class="font-bold">Original Note</span>: :body</div>',
+        'original-note' => '<br><div><span class="font-bold">Original Note</span>: :body</div>',
         'feedback'      => '<div><span class="font-bold">Feedback</span>: <p>:feedback</p></div>',
     ],
 
     'mark-as-done' => [
-        'title' => 'Mark as done',
+        'title' => '標記為完成',
         'form'  => [
             'fields' => [
-                'feedback' => 'Feedback',
+                'feedback' => '回饋',
             ],
         ],
 
         'footer-actions' => [
-            'label' => 'Done & Schedule Next',
+            'label' => '完成並安排下一步',
 
             'actions' => [
                 'notification' => [
                     'mark-as-done' => [
-                        'title' => '活動 mark as done',
+                        'title' => 'Activity mark as done',
                         'body'  => 'The activity mark as done成功.',
                     ],
                 ],

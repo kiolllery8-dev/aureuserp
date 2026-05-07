@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Blog 文章',
+        'title' => 'Blog Posts',
         'group' => '網址',
     ],
 
@@ -17,11 +17,11 @@ return [
 
                 'fields' => [
                     'title'             => '標題',
-                    'sub-title'         => 'Sub 標題',
-                    'title-placeholder' => '文章 title ...',
-                    'slug'              => 'Slug',
-                    'content'           => 'Content',
-                    'banner'            => 'Banner',
+                    'sub-title'         => 'Sub Title',
+                    'title-placeholder' => 'Post title ...',
+                    'slug'              => '網址代稱',
+                    'content'           => '內容',
+                    'banner'            => '橫幅',
                 ],
             ],
 
@@ -29,9 +29,9 @@ return [
                 'title' => 'SEO',
 
                 'fields' => [
-                    'meta-title'       => 'Meta 標題',
-                    'meta-keywords'    => 'Meta Keywords',
-                    'meta-description' => 'Meta 描述',
+                    'meta-title'       => 'Meta Title',
+                    'meta-keywords'    => 'Meta 關鍵字',
+                    'meta-description' => 'Meta Description',
                 ],
             ],
 
@@ -52,7 +52,7 @@ return [
     'table' => [
         'columns' => [
             'title'        => '標題',
-            'slug'         => 'Slug',
+            'slug'         => '網址代稱',
             'author'       => '作者',
             'category'     => '分類',
             'creator'      => '建立者',
@@ -78,28 +78,28 @@ return [
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '文章已更新',
+                    'title' => 'Post已更新',
                     'body'  => 'The post has been已更新成功.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => '文章 restored',
+                    'title' => 'Post restored',
                     'body'  => 'The post has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '文章已刪除',
+                    'title' => 'Post已刪除',
                     'body'  => 'The post has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '文章 force已刪除',
+                    'title' => 'Post force已刪除',
                     'body'  => 'The post has been force已刪除成功.',
                 ],
             ],
@@ -108,21 +108,21 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => '文章 restored',
+                    'title' => 'Posts restored',
                     'body'  => 'The posts has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '文章已刪除',
+                    'title' => 'Posts已刪除',
                     'body'  => 'The posts has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '文章 force已刪除',
+                    'title' => 'Posts force已刪除',
                     'body'  => 'The posts has been force已刪除成功.',
                 ],
             ],
@@ -136,9 +136,9 @@ return [
 
                 'entries' => [
                     'title'   => '標題',
-                    'slug'    => 'Slug',
-                    'content' => 'Content',
-                    'banner'  => 'Banner',
+                    'slug'    => '網址代稱',
+                    'content' => '內容',
+                    'banner'  => '橫幅',
                 ],
             ],
 
@@ -146,9 +146,9 @@ return [
                 'title' => 'SEO',
 
                 'entries' => [
-                    'meta-title'       => 'Meta 標題',
-                    'meta-keywords'    => 'Meta Keywords',
-                    'meta-description' => 'Meta 描述',
+                    'meta-title'       => 'Meta Title',
+                    'meta-keywords'    => 'Meta 關鍵字',
+                    'meta-description' => 'Meta Description',
                 ],
             ],
 
@@ -158,9 +158,9 @@ return [
                 'entries' => [
                     'author'          => '作者',
                     'created-by'      => '建立者',
-                    'published-at'    => 'Published At',
-                    'last-updated-by' => 'Last Updated By',
-                    'last-updated'    => 'Last Updated At',
+                    'published-at'    => '發佈時間',
+                    'last-updated-by' => '最後更新者',
+                    'last-updated'    => '最後更新時間',
                     'created-at'      => '建立時間',
                 ],
             ],

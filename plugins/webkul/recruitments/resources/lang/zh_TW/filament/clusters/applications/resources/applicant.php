@@ -9,8 +9,8 @@ return [
 
     'global-search' => [
         'department' => '部門',
-        'work-email' => 'Work 電子郵件',
-        'work-phone' => 'Work 電話',
+        'work-email' => 'Work Email',
+        'work-phone' => 'Work Phone',
     ],
 
     'form' => [
@@ -19,16 +19,16 @@ return [
                 'title' => '一般資料',
 
                 'fields' => [
-                    'evaluation-good'           => 'Evaluation: Good',
-                    'evaluation-very-good'      => 'Evaluation: Very Good',
-                    'evaluation-very-excellent' => 'Evaluation: Very Excellent',
-                    'hired'                     => 'Hired',
-                    'candidate-name'            => '應徵者 name',
+                    'evaluation-good'           => '評估：好',
+                    'evaluation-very-good'      => '評估：很好',
+                    'evaluation-very-excellent' => '評估：極優',
+                    'hired'                     => '已錄用',
+                    'candidate-name'            => 'Candidate name',
                     'email'                     => 'Emails',
                     'phone'                     => '電話',
-                    'linkedin-profile'          => 'Linkedin Profile',
-                    'recruiter'                 => 'Recruiter',
-                    'interviewer'               => 'Interviewer',
+                    'linkedin-profile'          => 'LinkedIn 檔案',
+                    'recruiter'                 => '招募人員',
+                    'interviewer'               => '面試官',
                     'tags'                      => '標籤',
                     'notes'                     => '備註',
                     'hired-date'                => 'Hired日期',
@@ -37,10 +37,10 @@ return [
             ],
 
             'education-and-availability' => [
-                'title' => 'Education & Availability',
+                'title' => '學歷與可工作狀態',
 
                 'fields' => [
-                    'degree'            => 'Degree',
+                    'degree'            => '學位',
                     'availability-date' => 'Availability日期',
                 ],
             ],
@@ -50,18 +50,18 @@ return [
             ],
 
             'salary' => [
-                'title' => 'Expected & Proposed Salary',
+                'title' => '預期與提議薪資',
 
                 'fields' => [
-                    'expected-salary'       => 'Expected Salary',
-                    'salary-proposed-extra' => 'Other Benefit',
-                    'proposed-salary'       => 'Proposed Salary',
-                    'salary-expected-extra' => 'Other Benefit',
+                    'expected-salary'       => '預期薪資',
+                    'salary-proposed-extra' => '其他福利',
+                    'proposed-salary'       => '提議薪資',
+                    'salary-expected-extra' => '其他福利',
                 ],
             ],
 
             'source-and-medium' => [
-                'title' => '來源 & Medium',
+                'title' => 'Source & Medium',
 
                 'fields' => [
                     'source' => '來源',
@@ -73,22 +73,22 @@ return [
 
     'table' => [
         'columns' => [
-            'partner-name'       => '夥伴名稱',
-            'applied-on'         => 'Applied On',
+            'partner-name'       => 'Partner名稱',
+            'applied-on'         => '申請日期',
             'job-position'       => '職位',
             'stage'              => '階段',
-            'candidate-name'     => '應徵者名稱',
-            'evaluation'         => 'Evaluation',
+            'candidate-name'     => 'Candidate名稱',
+            'evaluation'         => '評估',
             'application-status' => 'Application狀態',
             'tags'               => '標籤',
-            'refuse-reason'      => 'Refuse Reason',
+            'refuse-reason'      => '拒絕原因',
             'email'              => '電子郵件',
-            'recruiter'          => 'Recruiter',
-            'interviewer'        => 'Interviewer',
+            'recruiter'          => '招募人員',
+            'interviewer'        => '面試官',
             'candidate-phone'    => '電話',
             'medium'             => '中',
             'source'             => '來源',
-            'salary-expected'    => 'Expected Salary',
+            'salary-expected'    => '預期薪資',
             'availability-date'  => 'Availability日期',
         ],
 
@@ -97,12 +97,12 @@ return [
             'medium'                  => '中',
             'candidate'               => '應徵者',
             'priority'                => '優先順序',
-            'salary-proposed-extra'   => 'Salary Proposed Extra',
-            'salary-expected-extra'   => 'Salary Expected Extra',
-            'applicant-notes'         => '應徵者 備註',
-            'create-date'             => 'Applied On',
+            'salary-proposed-extra'   => '額外提議薪資',
+            'salary-expected-extra'   => '額外預期薪資',
+            'applicant-notes'         => 'Applicant Notes',
+            'create-date'             => '申請日期',
             'date-closed'             => 'Hired日期',
-            'date-last-stage-updated' => 'Last 階段 Updated',
+            'date-last-stage-updated' => 'Last Stage Updated',
             'stage'                   => '階段',
             'job-position'            => '職位',
         ],
@@ -110,7 +110,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '應徵者 Deleted',
+                    'title' => 'Applicant Deleted',
                     'body'  => 'The applicant was成功已刪除.',
                 ],
             ],
@@ -119,32 +119,32 @@ return [
         'groups' => [
             'stage'          => '階段',
             'job-position'   => '職位',
-            'candidate-name' => '應徵者名稱',
+            'candidate-name' => 'Candidate名稱',
             'responsible'    => '負責人',
             'creation-date'  => 'Creation日期',
             'hired-date'     => 'Hired日期',
-            'last-stage'     => 'Last 階段',
-            'refuse-reason'  => 'Refuse Reason',
+            'last-stage'     => 'Last Stage',
+            'refuse-reason'  => '拒絕原因',
         ],
 
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '員工已刪除',
+                    'title' => 'Employees已刪除',
                     'body'  => 'The employees has been已刪除成功.',
                 ],
             ],
 
             'force-delete' => [
                 'notification' => [
-                    'title' => '員工已刪除',
+                    'title' => 'Employees已刪除',
                     'body'  => 'The employees has been已刪除成功.',
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => '員工 restored',
+                    'title' => 'Employees restored',
                     'body'  => 'The employees has been restored成功.',
                 ],
             ],
@@ -157,16 +157,16 @@ return [
                 'title' => '一般資料',
 
                 'entries' => [
-                    'evaluation-good'           => 'Evaluation: Good',
-                    'evaluation-very-good'      => 'Evaluation: Very Good',
-                    'evaluation-very-excellent' => 'Evaluation: Very Excellent',
-                    'hired'                     => 'Hired',
-                    'candidate-name'            => '應徵者 name',
+                    'evaluation-good'           => '評估：好',
+                    'evaluation-very-good'      => '評估：很好',
+                    'evaluation-very-excellent' => '評估：極優',
+                    'hired'                     => '已錄用',
+                    'candidate-name'            => 'Candidate name',
                     'email'                     => 'Emails',
                     'phone'                     => '電話',
-                    'linkedin-profile'          => 'Linkedin Profile',
-                    'recruiter'                 => 'Recruiter',
-                    'interviewer'               => 'Interviewer',
+                    'linkedin-profile'          => 'LinkedIn 檔案',
+                    'recruiter'                 => '招募人員',
+                    'interviewer'               => '面試官',
                     'tags'                      => '標籤',
                     'notes'                     => '備註',
                     'job-position'              => '職位',
@@ -174,10 +174,10 @@ return [
             ],
 
             'education-and-availability' => [
-                'title' => 'Education & Availability',
+                'title' => '學歷與可工作狀態',
 
                 'entries' => [
-                    'degree'            => 'Degree',
+                    'degree'            => '學位',
                     'availability-date' => 'Availability日期',
                 ],
             ],
@@ -187,18 +187,18 @@ return [
             ],
 
             'salary' => [
-                'title' => 'Expected & Proposed Salary',
+                'title' => '預期與提議薪資',
 
                 'entries' => [
-                    'expected-salary'       => 'Expected Salary',
-                    'salary-proposed-extra' => 'Other Benefit',
-                    'proposed-salary'       => 'Proposed Salary',
-                    'salary-expected-extra' => 'Other Benefit',
+                    'expected-salary'       => '預期薪資',
+                    'salary-proposed-extra' => '其他福利',
+                    'proposed-salary'       => '提議薪資',
+                    'salary-expected-extra' => '其他福利',
                 ],
             ],
 
             'source-and-medium' => [
-                'title' => '來源 & Medium',
+                'title' => 'Source & Medium',
 
                 'entries' => [
                     'source' => '來源',

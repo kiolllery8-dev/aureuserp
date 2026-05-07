@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'label' => 'Picking 作業',
+    'label' => 'Picking Operations',
 ];

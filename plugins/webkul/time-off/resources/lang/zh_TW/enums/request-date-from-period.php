@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'morning'   => 'Morning',
-    'afternoon' => 'Afternoon',
+    'morning'   => '上午',
+    'afternoon' => '下午',
 ];

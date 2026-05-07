@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => '進貨已更新',
+        'title' => 'Receipt已更新',
         'body'  => 'The receipt has been已更新成功.',
     ],
 
@@ -14,13 +14,13 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => '進貨已刪除',
+                    'title' => 'Receipt已刪除',
                     'body'  => 'The receipt has been已刪除成功.',
                 ],
 
                 'error' => [
-                    'title' => '進貨 could not be已刪除',
-                    'body'  => 'The 進貨 cannot be已刪除 because it is currently in use.',
+                    'title' => 'Receipt could not be已刪除',
+                    'body'  => 'The Receipt cannot be已刪除 because it is currently in use.',
                 ],
             ],
         ],

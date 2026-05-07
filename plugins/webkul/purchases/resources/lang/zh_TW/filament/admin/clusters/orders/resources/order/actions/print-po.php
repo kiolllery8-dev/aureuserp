@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'label' => 'Print PO',
+    'label' => '列印訂單',
 ];

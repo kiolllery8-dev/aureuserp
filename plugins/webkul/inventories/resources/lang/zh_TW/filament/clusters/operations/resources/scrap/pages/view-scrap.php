@@ -5,7 +5,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Scrap Deleted',
+                    'title' => '報廢已刪除',
                     'body'  => 'The scrap has been已刪除成功.',
                 ],
 

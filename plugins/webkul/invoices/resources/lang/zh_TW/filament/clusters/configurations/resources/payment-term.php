@@ -5,6 +5,6 @@ return [
 
     'navigation' => [
         'title' => '付款條件',
-        'group' => 'Invoicing',
+        'group' => '開立發票',
     ],
 ];

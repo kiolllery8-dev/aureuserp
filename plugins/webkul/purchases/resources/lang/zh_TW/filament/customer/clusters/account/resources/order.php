@@ -18,10 +18,10 @@ return [
 
             'actions' => [
                 'accept' => [
-                    'label' => 'Accept',
+                    'label' => '接受',
 
                     'notification' => [
-                        'title' => '報價單 Accepted',
+                        'title' => 'Quotation Accepted',
                         'body'  => 'The RFQ has been acknowledged成功.',
                     ],
 
@@ -31,10 +31,10 @@ return [
                 ],
 
                 'decline' => [
-                    'label' => 'Decline',
+                    'label' => '拒絕',
 
                     'notification' => [
-                        'title' => '報價單 Declined',
+                        'title' => 'Quotation Declined',
                         'body'  => 'The RFQ has been declined成功.',
                     ],
 
@@ -44,24 +44,24 @@ return [
                 ],
 
                 'print' => [
-                    'label' => 'Download/Print',
+                    'label' => '下載／列印',
                 ],
             ],
         ],
 
         'general' => [
             'entries' => [
-                'purchase-order'        => 'Purchase 訂單 #:id',
-                'quotation'             => 'Request for 報價單 #:id',
+                'purchase-order'        => 'Purchase Order #:id',
+                'quotation'             => 'Request for Quotation #:id',
                 'order-date'            => '訂單日期',
-                'from'                  => 'From',
+                'from'                  => '從',
                 'confirmation-date'     => 'Confirmation日期',
-                'receipt-date'          => '進貨日期',
+                'receipt-date'          => 'Receipt日期',
                 'products'              => '商品',
                 'untaxed-amount'        => '未稅金額',
                 'tax-amount'            => '稅額',
                 'total'                 => '總計',
-                'communication-history' => 'Communication History',
+                'communication-history' => '溝通歷史',
             ],
         ],
     ],

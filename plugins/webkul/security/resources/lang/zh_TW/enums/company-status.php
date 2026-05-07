@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'active'   => '啟用中',
+    'active'   => '啟用',
     'inactive' => '停用',
 ];

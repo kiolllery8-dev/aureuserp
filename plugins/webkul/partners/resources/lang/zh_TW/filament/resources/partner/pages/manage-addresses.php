@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'title' => '地址',
+    'title' => 'Addresses',
 ];

@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'title' => 'Mediums',
+    'title' => '媒介',
 
     'navigation' => [
-        'title' => 'Mediums',
-        'group' => 'UTMs',
+        'title' => '媒介',
+        'group' => 'UTM',
     ],
 
     'form' => [
         'fields' => [
             'name'             => '名稱',
-            'name-placeholder' => 'Enter the name of the medium',
+            'name-placeholder' => '輸入媒介名稱',
         ],
     ],
 

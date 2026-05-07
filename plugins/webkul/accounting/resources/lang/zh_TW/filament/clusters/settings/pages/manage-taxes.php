@@ -1,38 +1,38 @@
 <?php
 
 return [
-    'title' => '管理稅',
+    'title' => '管理Taxes',
 
     'form' => [
         'default-taxes' => [
-            'label'       => '預設 稅',
-            'helper-text' => '預設 will be applied on products if no tax is selected',
+            'label'       => 'Default Taxes',
+            'helper-text' => 'Default will be applied on products if no tax is selected',
         ],
 
         'sales-tax' => [
-            'label' => 'Sales 稅',
+            'label' => 'Sales Tax',
         ],
 
         'purchase-tax' => [
-            'label' => 'Purchase 稅',
+            'label' => 'Purchase Tax',
         ],
 
         'prices' => [
-            'label' => '價格',
+            'label' => 'Prices',
         ],
 
         'rounding-method' => [
-            'label'       => 'Rounding 方式',
-            'helper-text' => '方式 used to round tax amounts',
+            'label'       => 'Rounding Method',
+            'helper-text' => 'Method used to round tax amounts',
 
             'options' => [
-                'round-per-line' => 'Round Per Line',
-                'round-globally' => 'Round Globally',
+                'round-per-line' => '逐行進位',
+                'round-globally' => '整體進位',
             ],
         ],
 
         'fiscal-country' => [
-            'label' => 'Fiscal 國家',
+            'label' => 'Fiscal Country',
         ],
     ],
 ];

@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'title'      => 'Accrual Plan',
+    'title'      => '累計計畫',
     'navigation' => [
-        'title' => 'Accrual Plan',
+        'title' => '累計計畫',
     ],
 
     'form' => [
@@ -20,7 +20,7 @@ return [
     'table' => [
         'columns' => [
             'name'   => '名稱',
-            'levels' => 'Levels',
+            'levels' => '等級',
         ],
 
         'actions' => [
@@ -52,8 +52,8 @@ return [
             'is-based-on-worked-time' => 'Is Based on Worked時間',
             'accrued-gain-time'       => 'Accrued Gain時間',
             'carry-over-time'         => 'Carry Over時間',
-            'carry-over-day'          => 'Carry Over Day',
-            'carry-over-month'        => 'Carry Over Month',
+            'carry-over-day'          => '結轉日',
+            'carry-over-month'        => '結轉月',
         ],
     ],
 ];

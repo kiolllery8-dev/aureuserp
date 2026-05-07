@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => '角色 Updated',
+        'title' => 'Role Updated',
         'body'  => 'The role was已更新成功.',
     ],
 ];

@@ -13,7 +13,7 @@ return [
             'general' => [
                 'title'  => '一般',
                 'fields' => [
-                    'customer-invoice' => '客戶 Credit 備註',
+                    'customer-invoice' => 'Customer Credit Note',
                     'customer'         => '客戶',
                     'invoice-date'     => '開立日期',
                     'due-date'         => '到期日',
@@ -24,7 +24,7 @@ return [
 
         'tabs' => [
             'invoice-lines' => [
-                'title' => '發票 Lines',
+                'title' => 'Invoice Lines',
 
                 'repeater' => [
                     'products' => [
@@ -50,11 +50,11 @@ return [
                     'invoice' => [
                         'title'  => '發票',
                         'fields' => [
-                            'customer-reference' => '客戶 參考編號',
+                            'customer-reference' => 'Customer Reference',
                             'sales-person'       => '業務',
                             'payment-reference'  => '付款參考',
-                            'recipient-bank'     => 'Recipient 銀行',
-                            'delivery-date'      => '出貨日期',
+                            'recipient-bank'     => 'Recipient Bank',
+                            'delivery-date'      => 'Delivery日期',
                         ],
                     ],
 
@@ -65,7 +65,7 @@ return [
                             'incoterm'          => '貿易條件',
                             'incoterm-location' => '貿易條件地點',
                             'payment-method'    => '付款方式',
-                            'auto-post'         => 'Auto 文章',
+                            'auto-post'         => 'Auto Post',
                             'checked'           => '已核對',
                         ],
                     ],
@@ -79,9 +79,9 @@ return [
                     ],
 
                     'marketing' => [
-                        'title'  => 'Marketing',
+                        'title'  => '行銷',
                         'fields' => [
-                            'campaign' => 'Campaign',
+                            'campaign' => '行銷活動',
                             'medium'   => '中',
                             'source'   => '來源',
                         ],
@@ -100,7 +100,7 @@ return [
             'general' => [
                 'title'   => '一般',
                 'entries' => [
-                    'customer-invoice' => '客戶 Credit 備註',
+                    'customer-invoice' => 'Customer Credit Note',
                     'customer'         => '客戶',
                     'invoice-date'     => '開立日期',
                     'due-date'         => '到期日',
@@ -111,7 +111,7 @@ return [
 
         'tabs' => [
             'invoice-lines' => [
-                'title' => '發票 Lines',
+                'title' => 'Invoice Lines',
 
                 'repeater' => [
                     'products' => [
@@ -135,11 +135,11 @@ return [
                     'invoice' => [
                         'title'   => '發票',
                         'entries' => [
-                            'customer-reference' => '客戶 參考編號',
+                            'customer-reference' => 'Customer Reference',
                             'sales-person'       => '業務',
                             'payment-reference'  => '付款參考',
-                            'recipient-bank'     => 'Recipient 銀行',
-                            'delivery-date'      => '出貨日期',
+                            'recipient-bank'     => 'Recipient Bank',
+                            'delivery-date'      => 'Delivery日期',
                         ],
                     ],
 
@@ -150,7 +150,7 @@ return [
                             'incoterm'          => '貿易條件',
                             'incoterm-location' => '貿易條件地點',
                             'payment-method'    => '付款方式',
-                            'auto-post'         => 'Auto 文章',
+                            'auto-post'         => 'Auto Post',
                             'checked'           => '已核對',
                         ],
                     ],
@@ -164,9 +164,9 @@ return [
                     ],
 
                     'marketing' => [
-                        'title'   => 'Marketing',
+                        'title'   => '行銷',
                         'entries' => [
-                            'campaign' => 'Campaign',
+                            'campaign' => '行銷活動',
                             'medium'   => '中',
                             'source'   => '來源',
                         ],

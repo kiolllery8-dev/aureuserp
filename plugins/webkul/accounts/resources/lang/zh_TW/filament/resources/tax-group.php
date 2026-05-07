@@ -7,7 +7,7 @@ return [
                 'company'            => '公司',
                 'country'            => '國家',
                 'name'               => '名稱',
-                'preceding-subtotal' => 'Preceding Subtotal',
+                'preceding-subtotal' => '前一小計',
             ],
         ],
     ],
@@ -18,7 +18,7 @@ return [
             'country'            => '國家',
             'created-by'         => '建立者',
             'name'               => '名稱',
-            'preceding-subtotal' => 'Preceding Subtotal',
+            'preceding-subtotal' => '前一小計',
             'created-at'         => '建立時間',
             'updated-at'         => '更新時間',
         ],
@@ -36,12 +36,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '稅 群組已刪除',
+                        'title' => 'Tax Group已刪除',
                         'body'  => 'The tax group has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '稅 群組 could not be已刪除',
+                        'title' => 'Tax Group could not be已刪除',
                         'body'  => 'The tax group cannot be已刪除 because it is currently in use.',
                     ],
                 ],
@@ -52,12 +52,12 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => '稅 群組已刪除',
+                        'title' => 'Tax Groups已刪除',
                         'body'  => 'The tax groups has been已刪除成功.',
                     ],
 
                     'error' => [
-                        'title' => '稅 群組 could not be已刪除',
+                        'title' => 'Tax Groups could not be已刪除',
                         'body'  => 'The tax groups cannot be已刪除 because they are currently in use.',
                     ],
                 ],
@@ -71,7 +71,7 @@ return [
                 'company'            => '公司',
                 'country'            => '國家',
                 'name'               => '名稱',
-                'preceding-subtotal' => 'Preceding Subtotal',
+                'preceding-subtotal' => '前一小計',
             ],
         ],
     ],

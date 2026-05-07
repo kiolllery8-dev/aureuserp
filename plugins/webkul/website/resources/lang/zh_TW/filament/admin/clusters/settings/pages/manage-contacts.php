@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => '管理聯絡人',
+    'title' => '管理Contacts',
 
     'form' => [
         'sections' => [
@@ -15,7 +15,7 @@ return [
             ],
 
             'social-links' => [
-                'title' => 'Social Links',
+                'title' => '社群連結',
 
                 'fields' => [
                     'twitter'   => 'Twitter',

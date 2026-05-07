@@ -5,10 +5,10 @@ return [
         'fields' => [
             'color'         => '顏色',
             'country'       => '國家',
-            'applicability' => 'Applicability',
+            'applicability' => '適用性',
             'name'          => '名稱',
             'status'        => '狀態',
-            'tax-negate'    => '稅 Negate',
+            'tax-negate'    => 'Tax Negate',
         ],
     ],
 
@@ -17,10 +17,10 @@ return [
             'color'         => '顏色',
             'country'       => '國家',
             'created-by'    => '建立者',
-            'applicability' => 'Applicability',
+            'applicability' => '適用性',
             'name'          => '名稱',
             'status'        => '狀態',
-            'tax-negate'    => '稅 Negate',
+            'tax-negate'    => 'Tax Negate',
             'created-at'    => '建立時間',
             'updated-at'    => '更新時間',
             'deleted-at'    => '刪除時間',
@@ -28,30 +28,30 @@ return [
 
         'filters' => [
             'bank'           => '銀行',
-            'account-holder' => '帳戶 Holder',
+            'account-holder' => 'Account Holder',
             'creator'        => '建立者',
-            'can-send-money' => 'Can Send Money',
+            'can-send-money' => '可匯款',
         ],
 
         'groups' => [
             'country'       => '國家',
             'created-by'    => '建立者',
-            'applicability' => 'Applicability',
+            'applicability' => '適用性',
             'name'          => '名稱',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => '帳戶 標籤已更新',
-                    'body'  => 'The account 標籤 has been已更新成功.',
+                    'title' => 'Account Tag已更新',
+                    'body'  => 'The account Tag has been已更新成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => '帳戶 標籤已刪除',
-                    'body'  => 'The account 標籤 has been已刪除成功.',
+                    'title' => 'Account Tag已刪除',
+                    'body'  => 'The account Tag has been已刪除成功.',
                 ],
             ],
         ],
@@ -59,8 +59,8 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => '帳戶 標籤已刪除',
-                    'body'  => 'The account 標籤 has been已刪除成功.',
+                    'title' => 'Account Tags已刪除',
+                    'body'  => 'The account Tags has been已刪除成功.',
                 ],
             ],
         ],
@@ -70,10 +70,10 @@ return [
         'entries' => [
             'color'         => '顏色',
             'country'       => '國家',
-            'applicability' => 'Applicability',
+            'applicability' => '適用性',
             'name'          => '名稱',
             'status'        => '狀態',
-            'tax-negate'    => '稅 Negate',
+            'tax-negate'    => 'Tax Negate',
         ],
     ],
 ];

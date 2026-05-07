@@ -7,7 +7,7 @@ return [
         'notification' => [
             'error' => [
                 'invalid-state' => [
-                    'title' => '帳本 Entry State Invalid',
+                    'title' => 'Journal Entry State Invalid',
                     'body'  => 'Only posted or cancelled journal entries can be reset to draft.',
                 ],
             ],

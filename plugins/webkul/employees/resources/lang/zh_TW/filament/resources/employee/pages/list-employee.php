@@ -2,15 +2,15 @@
 
 return [
     'tabs' => [
-        'my-team'       => 'My Team',
-        'my-department' => 'My 部門',
+        'my-team'       => '我的團隊',
+        'my-department' => 'My Department',
         'archived'      => '已封存',
-        'newly-hired'   => 'Newly Hired',
+        'newly-hired'   => '新進',
     ],
 
     'header-actions' => [
         'create' => [
-            'label' => '新增員工',
+            'label' => '新增Employee',
         ],
     ],
 ];

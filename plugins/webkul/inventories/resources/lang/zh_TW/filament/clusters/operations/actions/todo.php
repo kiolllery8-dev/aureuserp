@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'label' => 'Mark as Todo',
+    'label' => '標記為待辦',
 
     'notification' => [
         'warning' => [
-            'title' => '進貨 has no moves',
+            'title' => 'Receipt has no moves',
             'body'  => 'The receipt has no moves to mark as todo.',
         ],
 
         'success' => [
-            'title' => '進貨 marked as todo',
+            'title' => 'Receipt marked as todo',
             'body'  => 'The receipt has been marked as todo成功.',
         ],
     ],

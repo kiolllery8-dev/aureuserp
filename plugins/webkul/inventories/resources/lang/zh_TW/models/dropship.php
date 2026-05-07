@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'title'          => 'Dropship',
+    'title'          => '代發',
 ];
