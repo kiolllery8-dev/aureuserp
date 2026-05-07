@@ -15,7 +15,7 @@ return [
         ],
 
         'preview' => [
-            'modal-heading' => 'Preview Refund',
+            'modal-heading' => '預覽退款',
         ],
     ],
 ];

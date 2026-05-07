@@ -9,7 +9,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Internal Transfer Deleted',
+                    'title' => '內部移轉已刪除',
                     'body'  => 'The internal transfer has been已刪除成功.',
                 ],
 

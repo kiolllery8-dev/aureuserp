@@ -8,17 +8,17 @@ return [
             'warning' => [
                 'receipts' => [
                     'title' => '無法取消訂單',
-                    'body'  => 'The order cannot be canceled since they have receipts that are already done.',
+                    'body'  => '訂單無法取消，因為有已完成的收貨。',
                 ],
 
                 'bills' => [
                     'title' => '無法取消訂單',
-                    'body'  => 'The order cannot be canceled. You must first cancel their related vendor bills.',
+                    'body'  => '訂單無法取消，請先取消相關供應商帳單。',
                 ],
             ],
 
             'success' => [
-                'title' => 'Order canceled',
+                'title' => '訂單已取消',
                 'body'  => 'The order has been canceled成功.',
             ],
         ],

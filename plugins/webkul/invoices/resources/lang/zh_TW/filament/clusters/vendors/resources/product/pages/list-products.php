@@ -4,7 +4,7 @@ return [
     'tabs' => [
         'goods'                => '商品',
         'services'             => '服務',
-        'favorites'            => 'Favorites',
+        'favorites'            => '我的最愛',
         'archived'             => '已封存',
     ],
 

@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'title' => '規則',
-        'group' => 'Warehouse Management',
+        'group' => '倉庫管理',
     ],
 
     'form' => [
@@ -18,13 +18,13 @@ return [
                     'source-location'             => '從哪裡',
                     'destination-location'        => '送到哪裡',
                     'supply-method'               => 'Supply Method',
-                    'supply-method-hint-tooltip'  => 'Take From Stock: Products are sourced directly from the available stock in the source location.<br/>Trigger Another Rule: The system ignores available stock and searches for a stock rule to replenish the source location.<br/>Take From Stock, if Unavailable, Trigger Another Rule: Products are first taken from available stock. If none is available, the system applies a stock rule to bring products into the source location.',
+                    'supply-method-hint-tooltip'  => '從庫存取：直接從來源位置現有庫存取貨。<br/>觸發其他規則：系統忽略現有庫存，改尋找補貨規則。<br/>從庫存取，沒有時觸發其他規則：先從現有庫存取，沒有再套用補貨規則。',
                     'automatic-move'              => 'Automatic Move',
-                    'automatic-move-hint-tooltip' => 'Manual Operation: Creates a separate stock move after the current one.<br/>Automatic No Step Added: Directly replaces the location in the original move without adding an extra step.',
+                    'automatic-move-hint-tooltip' => '手動作業：在目前移動後建立另一筆庫存移動。<br/>自動，未新增步驟：直接取代原有移動的位置而不另加步驟。',
 
                     'action-information' => [
-                        'pull' => 'When products are required in <b>:sourceLocation</b>, :operation is generated from <b>:destinationLocation</b> to meet the demand.',
-                        'push' => 'When products reach <b>:sourceLocation</b>,</br><b>:operation</b> is generated to transfer them to <b>:destinationLocation</b>.',
+                        'pull' => '當 <b>:sourceLocation</b> 需要商品時，從 <b>:destinationLocation</b> 產生 :operation 以滿足需求。',
+                        'push' => '當商品到達 <b>:sourceLocation</b>，</br>產生 <b>:operation</b> 將其轉至 <b>:destinationLocation</b>。',
                         'buy'  => 'When products are needed in <b>:destinationLocation</b>, a request for quotation is已建立 to fulfill the need.',
                     ],
                 ],
@@ -34,10 +34,10 @@ return [
                 'title'  => '設定',
 
                 'fields' => [
-                    'partner-address'              => 'Partner Address',
-                    'partner-address-hint-tooltip' => 'Address where goods should be delivered. Optional.',
+                    'partner-address'              => '夥伴地址',
+                    'partner-address-hint-tooltip' => '商品的送達地址（選填）。',
                     'lead-time'                    => 'Lead時間 (Days)',
-                    'lead-time-hint-tooltip'       => 'The expected transfer date will be calculated using this lead time.',
+                    'lead-time-hint-tooltip'       => '預計移轉日會用這個前置時間計算。',
                 ],
 
                 'fieldsets' => [
@@ -54,10 +54,10 @@ return [
                         'title'  => '傳遞',
 
                         'fields' => [
-                            'propagation-procurement-group'              => 'Propagation of Procurement Group',
+                            'propagation-procurement-group'              => '採購群組傳遞',
                             'propagation-procurement-group-hint-tooltip' => 'If selected, canceling the move已建立 by this rule will also cancel the subsequent move.',
                             'cancel-next-move'                           => '取消下一步移動',
-                            'warehouse-to-propagate'                     => 'Warehouse to Propagate',
+                            'warehouse-to-propagate'                     => '傳遞的倉庫',
                             'warehouse-to-propagate-hint-tooltip'        => 'The warehouse assigned to the已建立 move or procurement, which may differ from the warehouse this rule applies to (e.g., for resupply rules from another warehouse).',
                         ],
                     ],
@@ -170,8 +170,8 @@ return [
                 'title' => '規則詳情',
 
                 'description' => [
-                    'pull' => 'When products are required in <b>:sourceLocation</b>, <b>:operation</b> is generated from <b>:destinationLocation</b> to meet the demand.',
-                    'push' => 'When products reach in <b>:sourceLocation</b>, <b>:operation</b> is generated to transfer them to <b>:destinationLocation</b>.',
+                    'pull' => '當 <b>:sourceLocation</b> 需要商品時，從 <b>:destinationLocation</b> 產生 <b>:operation</b> 以滿足需求。',
+                    'push' => '當商品到達 <b>:sourceLocation</b>，產生 <b>:operation</b> 將其轉至 <b>:destinationLocation</b>。',
                 ],
 
                 'entries' => [
@@ -182,7 +182,7 @@ return [
                     'destination-location' => '送到哪裡',
                     'route'                => '路徑',
                     'company'              => '公司',
-                    'partner-address'      => 'Partner Address',
+                    'partner-address'      => '夥伴地址',
                     'lead-time'            => 'Lead時間',
                     'action-information'   => 'Action資料',
                 ],

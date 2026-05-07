@@ -5,7 +5,7 @@ return [
 
     'navigation' => [
         'title' => '標籤',
-        'group' => 'Employee',
+        'group' => '員工',
     ],
 
     'groups' => [

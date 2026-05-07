@@ -4,7 +4,7 @@ return [
     'form' => [
         'sections' => [
             'activity-details' => [
-                'title' => 'Activity Details',
+                'title' => '活動詳情',
 
                 'fields' => [
                     'activity-type' => '活動類型',
@@ -27,9 +27,9 @@ return [
 
                 'fields' => [
                     'delay-count'            => '延遲次數',
-                    'delay-unit'             => 'Delay Unit',
+                    'delay-unit'             => '延遲單位',
                     'delay-from'             => '延遲起始',
-                    'delay-from-helper-text' => 'Source of delay calculation',
+                    'delay-from-helper-text' => '延遲計算來源',
                 ],
             ],
         ],
@@ -42,7 +42,7 @@ return [
             'assignment'    => '指派',
             'assigned-to'   => '指派給',
             'interval'      => '間隔',
-            'delay-unit'    => 'Delay Unit',
+            'delay-unit'    => '延遲單位',
             'delay-from'    => '延遲起始',
             'created-by'    => '建立者',
             'created-at'    => '建立時間',
@@ -54,7 +54,7 @@ return [
             'assignment'    => '指派',
             'assigned-to'   => '指派給',
             'interval'      => '間隔',
-            'delay-unit'    => 'Delay Unit',
+            'delay-unit'    => '延遲單位',
             'delay-from'    => '延遲起始',
             'created-by'    => '建立者',
             'created-at'    => '建立時間',
@@ -103,7 +103,7 @@ return [
     'infolist' => [
         'sections' => [
             'activity-details' => [
-                'title' => 'Activity Details',
+                'title' => '活動詳情',
 
                 'entries' => [
                     'activity-type' => '活動類型',
@@ -125,9 +125,9 @@ return [
 
                 'entries' => [
                     'delay-count'            => '延遲次數',
-                    'delay-unit'             => 'Delay Unit',
+                    'delay-unit'             => '延遲單位',
                     'delay-from'             => '延遲起始',
-                    'delay-from-helper-text' => 'Source of delay calculation',
+                    'delay-from-helper-text' => '延遲計算來源',
                 ],
             ],
         ],

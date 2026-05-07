@@ -1,41 +1,41 @@
 <?php
 
 return [
-    'stats-overview' => 'Stats Overview',
+    'stats-overview' => '統計概覽',
 
     'total-pages' => [
-        'title' => 'Total Pages',
+        'title' => '頁面總數',
 
-        'description' => 'Total number of pages in the system',
+        'description' => '系統頁面總數',
     ],
 
     'total-pages-publish' => [
-        'title' => 'Total Publish Pages',
+        'title' => '已發佈頁面總數',
 
-        'description' => 'Total number of publish pages in the system',
+        'description' => '系統已發佈頁面總數',
     ],
 
     'total-pages-draft' => [
-        'title' => 'Total Draft Pages',
+        'title' => '草稿頁面總數',
 
-        'description' => 'Total number of draft pages in the system',
+        'description' => '系統草稿頁面總數',
     ],
 
     'total-blogs' => [
-        'title' => 'Total Blogs',
+        'title' => '文章總數',
 
-        'description' => 'Total number of blogs in the system',
+        'description' => '系統文章總數',
     ],
 
     'total-blogs-publish' => [
-        'title' => 'Total Publish Blogs',
+        'title' => '已發佈文章總數',
 
-        'description' => 'Total number of publish blogs in the system',
+        'description' => '系統已發佈文章總數',
     ],
 
     'total-blogs-draft' => [
-        'title' => 'Total Draft Blogs',
+        'title' => '草稿文章總數',
 
-        'description' => 'Total number of draft blogs in the system',
+        'description' => '系統草稿文章總數',
     ],
 ];

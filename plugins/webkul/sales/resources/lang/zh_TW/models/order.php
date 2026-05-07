@@ -6,7 +6,7 @@ return [
     'log-attributes' => [
         'state'           => '訂單狀態',
         'locked'          => '已鎖定',
-        'amount-untaxed'  => 'Amount Untaxed',
+        'amount-untaxed'  => '未稅金額',
         'amount-total'    => 'Amount總計',
         'partner'         => '客戶',
         'sales-person'    => '業務',

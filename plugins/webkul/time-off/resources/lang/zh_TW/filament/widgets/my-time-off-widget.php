@@ -2,12 +2,12 @@
 
 return [
     'heading' => [
-        'title' => 'Time Off Analysis',
+        'title' => '請假分析',
     ],
 
     'stats' => [
-        'pending-requests'  => 'Pending Requests',
-        'valid-until'       => 'Valid until :date',
-        'time-off-requests' => 'Time Off Requests',
+        'pending-requests'  => '待處理申請',
+        'valid-until'       => '有效至 :date',
+        'time-off-requests' => '請假申請',
     ],
 ];

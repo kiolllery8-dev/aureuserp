@@ -13,7 +13,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Task restored',
+                    'title' => '任務已還原',
                     'body'  => 'The task has been restored成功.',
                 ],
             ],
@@ -35,11 +35,11 @@ return [
     ],
 
     'tabs' => [
-        'open-tasks'       => 'Open Tasks',
-        'my-tasks'         => 'My Tasks',
-        'unassigned-tasks' => 'Unassigned Tasks',
-        'closed-tasks'     => 'Closed Tasks',
-        'starred-tasks'    => 'Starred Tasks',
-        'archived-tasks'   => 'Archived Tasks',
+        'open-tasks'       => '進行中的任務',
+        'my-tasks'         => '我的任務',
+        'unassigned-tasks' => '未指派任務',
+        'closed-tasks'     => '已關閉任務',
+        'starred-tasks'    => '已加星標任務',
+        'archived-tasks'   => '已封存任務',
     ],
 ];

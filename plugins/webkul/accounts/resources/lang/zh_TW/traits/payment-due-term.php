@@ -6,7 +6,7 @@ return [
         'due'                    => '到期',
         'delay-due'              => '延遲到期',
         'delay-type'             => 'Delay類型',
-        'days-on-the-next-month' => 'Days on the next month',
+        'days-on-the-next-month' => '次月日期',
         'days'                   => '日',
         'payment-term'           => '付款條件',
     ],

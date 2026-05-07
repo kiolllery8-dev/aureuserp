@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'mark-as-sent'   => 'Mark as Sent',
-    'unmark-as-sent' => 'Unmark as Sent',
+    'mark-as-sent'   => '標記為已寄出',
+    'unmark-as-sent' => '取消標記為已寄出',
 ];

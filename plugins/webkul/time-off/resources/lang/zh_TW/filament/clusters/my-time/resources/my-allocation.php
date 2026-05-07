@@ -20,7 +20,7 @@ return [
             'date-to'             => '結束日期',
             'date-to-placeholder' => '無限制',
             'allocation'          => '假期額度',
-            'allocation-suffix'   => 'Number of Days',
+            'allocation-suffix'   => '天數',
             'reason'              => '原因',
         ],
     ],
@@ -102,7 +102,7 @@ return [
                 'title'   => 'Allocation狀態',
                 'entries' => [
                     'date-to-placeholder' => '無限制',
-                    'allocation'          => 'Number of Day(s)',
+                    'allocation'          => '天數',
                     'allocation-value'    => ':days number of days',
                     'state'               => '狀態',
                 ],

@@ -17,7 +17,7 @@ return [
                     'name'                => '活動類型',
                     'name-tooltip'        => '輸入官方活動類型名稱',
                     'action'              => '動作',
-                    'default-user'        => 'Default User',
+                    'default-user'        => '預設使用者',
                     'summary'             => '摘要',
                     'note'                => '備註',
                 ],
@@ -28,9 +28,9 @@ return [
 
                 'fields' => [
                     'delay-count'            => '延遲次數',
-                    'delay-unit'             => 'Delay Unit',
+                    'delay-unit'             => '延遲單位',
                     'delay-form'             => '延遲表單',
-                    'delay-form-helper-text' => 'Source of delay calculation',
+                    'delay-form-helper-text' => '延遲計算來源',
                 ],
             ],
 
@@ -47,11 +47,11 @@ return [
             ],
 
             'status-and-configuration-information' => [
-                'title' => 'Status & Configuration',
+                'title' => '狀態與設定',
 
                 'fields' => [
                     'status'               => '狀態',
-                    'keep-done-activities' => 'Keep Done Activities',
+                    'keep-done-activities' => '保留已完成活動',
                 ],
             ],
         ],
@@ -71,15 +71,15 @@ return [
 
         'groups' => [
             'name'             => '名稱',
-            'action-category'  => 'Action Category',
+            'action-category'  => '動作類別',
             'status'           => '狀態',
             'delay-count'      => '延遲次數',
-            'delay-unit'       => 'Delay Unit',
-            'delay-source'     => 'Delay Source',
-            'associated-model' => 'Associated Model',
+            'delay-unit'       => '延遲單位',
+            'delay-source'     => '延遲來源',
+            'associated-model' => '關聯模型',
             'chaining-type'    => 'Chaining類型',
             'decoration-type'  => 'Decoration類型',
-            'default-user'     => 'Default User',
+            'default-user'     => '預設使用者',
             'creation-date'    => 'Creation日期',
             'last-update'      => '最後更新',
         ],
@@ -93,7 +93,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Activity type restored',
+                    'title' => '活動類型已還原',
                     'body'  => 'The activity type has been restored成功.',
                 ],
             ],
@@ -122,7 +122,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Activity types restored',
+                    'title' => '活動類型已還原',
                     'body'  => 'The activity types has been restored成功.',
                 ],
             ],
@@ -152,7 +152,7 @@ return [
                     'name'                => '活動類型',
                     'name-tooltip'        => '輸入官方活動類型名稱',
                     'action'              => '動作',
-                    'default-user'        => 'Default User',
+                    'default-user'        => '預設使用者',
                     'plugin'              => '外掛',
                     'summary'             => '摘要',
                     'note'                => '備註',
@@ -164,9 +164,9 @@ return [
 
                 'entries' => [
                     'delay-count'            => '延遲次數',
-                    'delay-unit'             => 'Delay Unit',
+                    'delay-unit'             => '延遲單位',
                     'delay-form'             => '延遲表單',
-                    'delay-form-helper-text' => 'Source of delay calculation',
+                    'delay-form-helper-text' => '延遲計算來源',
                 ],
             ],
 
@@ -183,11 +183,11 @@ return [
             ],
 
             'status-and-configuration-information' => [
-                'title' => 'Status & Configuration',
+                'title' => '狀態與設定',
 
                 'entries' => [
                     'status'               => '狀態',
-                    'keep-done-activities' => 'Keep Done Activities',
+                    'keep-done-activities' => '保留已完成活動',
                 ],
             ],
         ],

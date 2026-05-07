@@ -16,7 +16,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Receipt已刪除',
+                        'title' => '收貨已刪除',
                         'body'  => 'The receipt ras been已刪除成功.',
                     ],
 

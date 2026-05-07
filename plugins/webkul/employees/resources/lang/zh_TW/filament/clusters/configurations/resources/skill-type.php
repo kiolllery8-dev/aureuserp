@@ -5,7 +5,7 @@ return [
 
     'navigation' => [
         'title' => '技能類別',
-        'group' => 'Employee',
+        'group' => '員工',
     ],
 
     'form' => [
@@ -32,7 +32,7 @@ return [
         ],
 
         'filters' => [
-            'skill-levels' => 'Skill Levels',
+            'skill-levels' => '技能等級',
             'skills'       => '技能',
             'created-by'   => '建立者',
             'status'       => '狀態',

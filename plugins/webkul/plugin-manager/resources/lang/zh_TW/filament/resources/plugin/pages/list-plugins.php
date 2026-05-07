@@ -16,18 +16,18 @@ return [
         'sync' => [
             'label'                     => '同步可用外掛',
             'modal-heading'             => '同步外掛',
-            'modal-description'         => 'This will scan and register any new plugins found.',
+            'modal-description'         => '將掃描並註冊找到的新外掛。',
             'modal-submit-action-label' => '同步外掛',
 
             'notification' => [
                 'success' => [
                     'title' => '外掛同步成功',
-                    'body'  => 'Found and synced :count new plugin(s).',
+                    'body'  => '已找到並同步 :count 個新外掛。',
                 ],
 
                 'error' => [
                     'title' => '外掛同步失敗',
-                    'body'  => 'An error (:error) occurred while syncing plugins. Please try again.',
+                    'body'  => '同步外掛時發生錯誤（:error），請重試。',
                 ],
             ],
         ],

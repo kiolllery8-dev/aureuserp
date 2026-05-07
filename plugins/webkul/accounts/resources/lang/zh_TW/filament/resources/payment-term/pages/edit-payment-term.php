@@ -9,7 +9,7 @@ return [
 
         'validation-error' => [
             'title' => '驗證錯誤',
-            'body'  => 'The Due Term must have at least one percent line and the sum of the percent must be 100%.',
+            'body'  => '到期條件至少需一個百分比行，且總和需為 100%。',
         ],
     ],
 

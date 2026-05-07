@@ -16,7 +16,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Task restored',
+                    'title' => '任務已還原',
                     'body'  => 'The task has been restored成功.',
                 ],
             ],

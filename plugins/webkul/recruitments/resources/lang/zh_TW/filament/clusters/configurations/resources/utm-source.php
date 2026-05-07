@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Sources',
+    'title' => '來源',
 
     'navigation' => [
-        'title' => 'Sources',
+        'title' => '來源',
         'group' => 'UTM',
     ],
 

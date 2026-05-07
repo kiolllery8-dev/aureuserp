@@ -6,7 +6,7 @@ return [
     'action' => [
         'notification' => [
             'success' => [
-                'title' => 'Order locked',
+                'title' => '訂單已鎖定',
                 'body'  => 'The order has been locked成功.',
             ],
         ],

@@ -23,29 +23,29 @@ return [
         ],
 
         'bank-transfer-and-payments' => [
-            'label' => 'Bank Transfer and Payments',
+            'label' => '銀行轉帳與付款',
 
             'fields' => [
                 'bank-suspense-account' => [
-                    'label' => 'Bank Suspense Account',
+                    'label' => '銀行暫掛科目',
                 ],
 
                 'transfer-account' => [
-                    'label' => 'Transfer Account',
+                    'label' => '轉帳科目',
                 ],
             ],
         ],
 
         'product-accounts' => [
-            'label' => 'Product Accounts',
+            'label' => '商品科目',
 
             'fields' => [
                 'income-account' => [
-                    'label' => 'Income Account',
+                    'label' => '收入科目',
                 ],
 
                 'expense-account' => [
-                    'label' => 'Expense Account',
+                    'label' => '費用科目',
                 ],
             ],
         ],

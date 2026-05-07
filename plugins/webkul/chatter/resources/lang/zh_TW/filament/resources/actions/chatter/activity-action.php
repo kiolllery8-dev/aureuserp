@@ -2,7 +2,7 @@
 
 return [
     'setup' => [
-        'title'               => 'Schedule Activity',
+        'title'               => '排程活動',
         'submit-action-title' => '排程',
 
         'form' => [
@@ -21,18 +21,18 @@ return [
         'actions' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Activity Created',
+                    'title' => '活動已建立',
                     'body'  => 'The activity has been已建立.',
                 ],
 
                 'warning'  => [
-                    'title' => 'No new files',
-                    'body'  => 'All files have already been uploaded.',
+                    'title' => '沒有新檔案',
+                    'body'  => '所有檔案都已上傳。',
                 ],
 
                 'error' => [
                     'title' => 'Activity creation失敗',
-                    'body'  => 'Failed to create activity ',
+                    'body'  => '建立活動失敗 ',
                 ],
             ],
         ],

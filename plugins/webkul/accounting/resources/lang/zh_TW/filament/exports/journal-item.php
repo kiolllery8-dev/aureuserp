@@ -15,8 +15,8 @@ return [
         'currency'         => '幣別',
         'company'          => '公司',
         'status'           => '狀態',
-        'amount-currency'  => 'Amount Currency',
-        'amount-residual'  => 'Amount Residual',
+        'amount-currency'  => '金額幣別',
+        'amount-residual'  => '餘額',
         'reconciled'       => '已核對',
         'due-date'         => '到期日',
     ],
@@ -27,7 +27,7 @@ return [
     ],
 
     'notification' => [
-        'completed' => 'Your journal item export has completed and :count row(s) exported.',
+        'completed' => '日記帳項目匯出完成，共 :count 列。',
         'failed'    => ':count row(s) failed to export.',
     ],
 ];

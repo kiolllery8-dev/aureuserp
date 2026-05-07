@@ -7,7 +7,7 @@ return [
         'name'                 => '名稱',
         'full_name'            => '姓名',
         'parent_path'          => '上層路徑',
-        'parent'               => 'Parent Category',
+        'parent'               => '上層分類',
         'creator'              => '建立者',
     ],
 ];

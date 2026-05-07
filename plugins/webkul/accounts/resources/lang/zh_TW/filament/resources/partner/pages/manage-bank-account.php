@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Bank Accounts',
+    'title' => '銀行帳戶',
 
     'table' => [
         'header-actions' => [

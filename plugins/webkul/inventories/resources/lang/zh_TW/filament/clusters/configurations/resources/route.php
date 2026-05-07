@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'title' => '路徑',
-        'group' => 'Warehouse Management',
+        'group' => '倉庫管理',
     ],
 
     'form' => [
@@ -20,17 +20,17 @@ return [
 
             'applicable-on' => [
                 'title'       => '適用於',
-                'description' => 'Choose the locations where this route can be applied.',
+                'description' => '選擇此路線可套用的位置。',
 
                 'fields' => [
                     'products'                        => '商品',
-                    'products-hint-tooltip'           => 'If selected, this route will be available for selection on the product.',
-                    'product-categories'              => 'Product Categories',
-                    'product-categories-hint-tooltip' => 'If selected, this route will be available for selection on the product category.',
+                    'products-hint-tooltip'           => '啟用後，此路線可在商品上選擇。',
+                    'product-categories'              => '商品分類',
+                    'product-categories-hint-tooltip' => '啟用後，此路線可在商品分類上選擇。',
                     'warehouses'                      => '倉庫',
-                    'warehouses-hint-tooltip'         => 'When a warehouse is assigned to this route, it will be considered the default route for products moving through that warehouse.',
+                    'warehouses-hint-tooltip'         => '倉庫指派此路線後，會作為該倉庫商品移動的預設路線。',
                     'packaging'                       => '包裝',
-                    'packaging-hint-tooltip'          => 'If selected, this route will be available for selection on the packaging.',
+                    'packaging-hint-tooltip'          => '啟用後，此路線可在包裝上選擇。',
                 ],
             ],
         ],
@@ -136,17 +136,17 @@ return [
 
             'applicable-on' => [
                 'title'       => '適用於',
-                'description' => 'Select the places where this route can be selected.',
+                'description' => '選擇此路線可使用的地方。',
 
                 'entries' => [
                     'products'                        => '商品',
-                    'products-hint-tooltip'           => 'If selected, this route will be available for selection on the product.',
-                    'product-categories'              => 'Product Categories',
-                    'product-categories-hint-tooltip' => 'If selected, this route will be available for selection on the product category.',
+                    'products-hint-tooltip'           => '啟用後，此路線可在商品上選擇。',
+                    'product-categories'              => '商品分類',
+                    'product-categories-hint-tooltip' => '啟用後，此路線可在商品分類上選擇。',
                     'warehouses'                      => '倉庫',
-                    'warehouses-hint-tooltip'         => 'When a warehouse is assigned to this route, it will be considered the default route for products moving through that warehouse.',
+                    'warehouses-hint-tooltip'         => '倉庫指派此路線後，會作為該倉庫商品移動的預設路線。',
                     'packaging'                       => '包裝',
-                    'packaging-hint-tooltip'          => 'If selected, this route will be available for selection on the packaging.',
+                    'packaging-hint-tooltip'          => '啟用後，此路線可在包裝上選擇。',
                 ],
             ],
 

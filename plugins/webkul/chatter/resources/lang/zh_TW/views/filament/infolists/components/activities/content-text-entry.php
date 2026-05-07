@@ -6,7 +6,7 @@ return [
     'summary'          => '摘要',
     'due-date'         => '到期日',
     'assigned-to'      => '指派給',
-    'due-in-days'      => 'Due in :days days',
+    'due-in-days'      => '於 :days 天內到期',
     'today'            => '今天',
     'tomorrow'         => '明天',
     'one-day-overdue'  => '逾期 1 天',

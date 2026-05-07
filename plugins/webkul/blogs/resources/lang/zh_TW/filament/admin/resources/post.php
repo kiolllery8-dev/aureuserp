@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Blog Posts',
+        'title' => '文章',
         'group' => '網址',
     ],
 
@@ -17,8 +17,8 @@ return [
 
                 'fields' => [
                     'title'             => '標題',
-                    'sub-title'         => 'Sub Title',
-                    'title-placeholder' => 'Post title ...',
+                    'sub-title'         => '副標題',
+                    'title-placeholder' => '文章標題…',
                     'slug'              => '網址代稱',
                     'content'           => '內容',
                     'banner'            => '橫幅',
@@ -85,7 +85,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Post restored',
+                    'title' => '文章已還原',
                     'body'  => 'The post has been restored成功.',
                 ],
             ],
@@ -108,7 +108,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Posts restored',
+                    'title' => '文章已還原',
                     'body'  => 'The posts has been restored成功.',
                 ],
             ],

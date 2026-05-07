@@ -8,7 +8,7 @@ return [
         'form' => [
             'fields' => [
                 'files'                  => '檔案',
-                'attachment-helper-text' => 'Max file size: 10MB. Allowed types: Images, PDF, Word, Excel, Text',
+                'attachment-helper-text' => '最大檔案 10MB，允許類型：圖片、PDF、Word、Excel、文字',
 
                 'actions' => [
                     'delete' => [
@@ -27,8 +27,8 @@ return [
                 ],
 
                 'warning'  => [
-                    'title' => 'No new files',
-                    'body'  => 'All files have already been uploaded.',
+                    'title' => '沒有新檔案',
+                    'body'  => '所有檔案都已上傳。',
                 ],
 
                 'error' => [

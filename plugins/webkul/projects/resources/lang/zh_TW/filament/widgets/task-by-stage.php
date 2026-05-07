@@ -2,7 +2,7 @@
 
 return [
     'heading' => [
-        'title' => 'Tasks by Stage',
+        'title' => '依階段分類任務',
     ],
 
     'datasets' => [

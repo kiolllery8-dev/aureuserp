@@ -12,7 +12,7 @@ return [
                 'fields' => [
                     'name'              => '名稱',
                     'code'              => '代碼',
-                    'code-helper-text'  => 'Code must start with a letter or underscore, and can only contain letters, numbers, and underscores.',
+                    'code-helper-text'  => '代碼必須以字母或底線開頭，只能包含字母、數字、底線。',
                 ],
             ],
 
@@ -25,7 +25,7 @@ return [
             ],
 
             'form-settings' => [
-                'title' => 'Form Settings',
+                'title' => '表單設定',
 
                 'field-sets' => [
                     'validations' => [
@@ -40,10 +40,10 @@ return [
                     ],
 
                     'additional-settings' => [
-                        'title' => 'Additional Settings',
+                        'title' => '其他設定',
 
                         'fields' => [
-                            'setting'     => 'Setting',
+                            'setting'     => '設定',
                             'value'       => '值',
                             'color'       => '顏色',
                             'add-setting' => '新增Setting',
@@ -94,14 +94,14 @@ return [
                         'prohibited-if'        => '若…則禁止',
                         'prohibited-unless'    => '除非…否則禁止',
                         'prohibits'            => '禁止',
-                        'required'             => 'Required',
-                        'required-if'          => 'Required If',
-                        'required-if-accepted' => 'Required If Accepted',
-                        'required-unless'      => 'Required Unless',
-                        'required-with'        => 'Required With',
-                        'required-with-all'    => 'Required With All',
-                        'required-without'     => 'Required Without',
-                        'required-without-all' => 'Required Without All',
+                        'required'             => '必填',
+                        'required-if'          => '若…則必填',
+                        'required-if-accepted' => '若接受則必填',
+                        'required-unless'      => '除非…否則必填',
+                        'required-with'        => '與…一起必填',
+                        'required-with-all'    => '與所有…一起必填',
+                        'required-without'     => '若無…則必填',
+                        'required-without-all' => '若皆無…則必填',
                         'rules'                => '自訂規則',
                         'unique'               => '唯一',
                     ],
@@ -118,7 +118,7 @@ return [
                         'ipv4'              => 'IPv4',
                         'ipv6'              => 'IPv6',
                         'length'            => '長度',
-                        'mac-address'       => 'MAC Address',
+                        'mac-address'       => 'MAC 位址',
                         'max-length'        => '最大長度',
                         'min-length'        => '最小長度',
                         'regex'             => '正規式',
@@ -179,7 +179,7 @@ return [
                     ],
 
                     'color' => [
-                        'hex-color' => 'Hex Color',
+                        'hex-color' => 'Hex 顏色',
                     ],
                 ],
 
@@ -200,12 +200,12 @@ return [
                         'placeholder'       => '預設提示',
                         'prefix'            => '前綴',
                         'prefix-icon'       => '前置圖示',
-                        'prefix-icon-color' => 'Prefix Icon Color',
+                        'prefix-icon-color' => '前置圖示顏色',
                         'read-only'         => '唯讀',
                         'step'              => '步進',
                         'suffix'            => '後綴',
                         'suffix-icon'       => '後置圖示',
-                        'suffix-icon-color' => 'Suffix Icon Color',
+                        'suffix-icon-color' => '後置圖示顏色',
                     ],
 
                     'textarea' => [
@@ -234,7 +234,7 @@ return [
                         'id'                        => '編號',
                         'loading-message'           => '載入訊息',
                         'no-search-results-message' => 'No Search Results Message',
-                        'options-limit'             => 'Options Limit',
+                        'options-limit'             => '選項上限',
                         'preload'                   => '預先載入',
                         'searchable'                => '可搜尋',
                         'search-debounce'           => '搜尋延遲',
@@ -271,9 +271,9 @@ return [
                         'hint-color'  => '提示顏色',
                         'hint-icon'   => '提示圖示',
                         'id'          => '編號',
-                        'off-color'   => 'Off Color',
+                        'off-color'   => '關閉顏色',
                         'off-icon'    => '關閉圖示',
-                        'on-color'    => 'On Color',
+                        'on-color'    => '開啟顏色',
                         'on-icon'     => '開啟圖示',
                     ],
 
@@ -356,33 +356,33 @@ return [
 
                     'file' => [
                         'accepted-file-types'                   => 'Accepted File類型s',
-                        'append-files'                          => 'Append Files',
+                        'append-files'                          => '附加檔案',
                         'deletable'                             => '可刪除',
                         'directory'                             => '目錄',
                         'downloadable'                          => '可下載',
                         'fetch-file-information'                => 'Fetch File資料',
-                        'file-attachments-directory'            => 'File Attachments Directory',
-                        'file-attachments-visibility'           => 'File Attachments Visibility',
+                        'file-attachments-directory'            => '附件目錄',
+                        'file-attachments-visibility'           => '附件可見度',
                         'image'                                 => '圖片',
-                        'image-crop-aspect-ratio'               => 'Image Crop Aspect Ratio',
-                        'image-editor'                          => 'Image Editor',
-                        'image-editor-aspect-ratios'            => 'Image Editor Aspect Ratios',
-                        'image-editor-empty-fill-color'         => 'Image Editor Empty Fill Color',
-                        'image-editor-mode'                     => 'Image Editor Mode',
-                        'image-preview-height'                  => 'Image Preview Height',
-                        'image-resize-mode'                     => 'Image Resize Mode',
-                        'image-resize-target-height'            => 'Image Resize Target Height',
-                        'image-resize-target-width'             => 'Image Resize Target Width',
+                        'image-crop-aspect-ratio'               => '影像裁切比例',
+                        'image-editor'                          => '影像編輯器',
+                        'image-editor-aspect-ratios'            => '影像編輯比例',
+                        'image-editor-empty-fill-color'         => '影像編輯空白填色',
+                        'image-editor-mode'                     => '影像編輯模式',
+                        'image-preview-height'                  => '影像預覽高度',
+                        'image-resize-mode'                     => '影像調整模式',
+                        'image-resize-target-height'            => '影像調整目標高度',
+                        'image-resize-target-width'             => '影像調整目標寬度',
                         'loading-indicator-position'            => '載入指示位置',
-                        'move-files'                            => 'Move Files',
+                        'move-files'                            => '移動檔案',
                         'openable'                              => '可開啟',
-                        'orient-images-from-exif'               => 'Orient Images from EXIF',
+                        'orient-images-from-exif'               => '依 EXIF 調整影像方向',
                         'panel-aspect-ratio'                    => '面板長寬比',
                         'panel-layout'                          => '面板佈局',
                         'previewable'                           => '可預覽',
                         'remove-uploaded-file-button-position'  => '移除Uploaded File Button Position',
                         'reorderable'                           => '可重新排序',
-                        'store-files'                           => 'Store Files',
+                        'store-files'                           => '儲存檔案',
                         'upload-button-position'                => '上傳按鈕位置',
                         'uploading-message'                     => '上傳中訊息',
                         'upload-progress-indicator-position'    => '上傳進度位置',
@@ -392,15 +392,15 @@ return [
             ],
 
             'table-settings' => [
-                'title' => 'Table Settings',
+                'title' => '表格設定',
 
                 'fields' => [
                     'use-in-table'  => '在表格中使用',
-                    'setting'       => 'Setting',
+                    'setting'       => '設定',
                     'value'         => '值',
                     'color'         => '顏色',
                     'alignment'     => '對齊',
-                    'font-weight'   => 'Font Weight',
+                    'font-weight'   => '字重',
                     'icon-position' => '圖示位置',
                     'size'          => '大小',
                     'add-setting'   => '新增Setting',
@@ -463,7 +463,7 @@ return [
                         'groupable'              => '可群組化',
                         'grow'                   => '延展',
                         'icon'                   => '圖示',
-                        'icon-color'             => 'Icon Color',
+                        'icon-color'             => '圖示顏色',
                         'icon-position'          => '圖示位置',
                         'label'                  => '標籤',
                         'limit'                  => '限制',
@@ -500,13 +500,13 @@ return [
             ],
 
             'infolist-settings' => [
-                'title' => 'Infolist Settings',
+                'title' => '資訊清單設定',
 
                 'fields' => [
-                    'setting'       => 'Setting',
+                    'setting'       => '設定',
                     'value'         => '值',
                     'color'         => '顏色',
-                    'font-weight'   => 'Font Weight',
+                    'font-weight'   => '字重',
                     'icon-position' => '圖示位置',
                     'size'          => '大小',
                     'add-setting'   => '新增Setting',
@@ -559,7 +559,7 @@ return [
                         'groupable'              => '可群組化',
                         'grow'                   => '延展',
                         'icon'                   => '圖示',
-                        'icon-color'             => 'Icon Color',
+                        'icon-color'             => '圖示顏色',
                         'icon-position'          => '圖示位置',
                         'label'                  => '標籤',
                         'limit'                  => '限制',
@@ -613,16 +613,16 @@ return [
                         'boolean'     => '布林值',
                         'false-icon'  => '否的圖示',
                         'true-icon'   => '是的圖示',
-                        'true-color'  => 'True Color',
-                        'false-color' => 'False Color',
+                        'true-color'  => '為真顏色',
+                        'false-color' => '為假顏色',
                     ],
 
                     'toggle' => [
                         'boolean'     => '布林值',
                         'false-icon'  => '否的圖示',
                         'true-icon'   => '是的圖示',
-                        'true-color'  => 'True Color',
-                        'false-color' => 'False Color',
+                        'true-color'  => '為真顏色',
+                        'false-color' => '為假顏色',
                     ],
                 ],
             ],
@@ -634,7 +634,7 @@ return [
                     'type'           => '類型',
                     'input-type'     => 'Input類型',
                     'is-multiselect' => '可複選',
-                    'sort-order'     => 'Sort Order',
+                    'sort-order'     => '排序',
 
                     'type-options' => [
                         'text'          => '文字輸入',
@@ -647,7 +647,7 @@ return [
                         'datetime'      => 'Date時間 Picker',
                         'editor'        => '富文本編輯器',
                         'markdown'      => 'Markdown 編輯器',
-                        'color'         => 'Color Picker',
+                        'color'         => '顏色選擇器',
                     ],
 
                     'input-type-options' => [
@@ -700,7 +700,7 @@ return [
                 'datetime'      => 'Date時間 Picker',
                 'editor'        => '富文本編輯器',
                 'markdown'      => 'Markdown 編輯器',
-                'color'         => 'Color Picker',
+                'color'         => '顏色選擇器',
             ],
         ],
 

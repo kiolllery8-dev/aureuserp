@@ -3,7 +3,7 @@
 return [
     'tabs' => [
         'all'      => '全部',
-        'internal' => 'Internal Locations',
+        'internal' => '內部位置',
     ],
 
     'header-actions' => [

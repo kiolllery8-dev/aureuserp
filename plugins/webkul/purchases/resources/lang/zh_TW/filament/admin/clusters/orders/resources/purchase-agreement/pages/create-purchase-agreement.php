@@ -9,7 +9,7 @@ return [
     ],
 
     'confirmation' => [
-        'heading' => 'Similar confirmed agreement exists',
-        'description' => 'This vendor already has a confirmed purchase agreement that is not closed or canceled. Do you want to continue creating this purchase agreement?',
+        'heading' => '已有類似的已確認合約',
+        'description' => '此供應商已有未關閉或取消的採購合約，仍要建立嗎？',
     ],
 ];

@@ -22,9 +22,9 @@ return [
             ],
 
             'invoice-policy' => [
-                'title'            => 'Invoice Policy',
-                'ordered-policy'   => 'You can invoice goods before they are delivered.',
-                'delivered-policy' => 'Invoice after delivery, based on quantities delivered, not ordered.',
+                'title'            => '發票政策',
+                'ordered-policy'   => '可在出貨前開立發票。',
+                'delivered-policy' => '出貨後依出貨數量開立發票，而非訂購數量。',
             ],
 
             'images' => [
@@ -44,7 +44,7 @@ return [
             ],
 
             'category-and-tags' => [
-                'title' => 'Category & Tags',
+                'title' => '分類與標籤',
 
                 'fields' => [
                     'category' => '分類',
@@ -100,7 +100,7 @@ return [
             'company'     => '公司',
             'price'       => '價格',
             'cost'        => '成本',
-            'is-favorite' => 'Is Favorite',
+            'is-favorite' => '我的最愛',
             'weight'      => '重量',
             'volume'      => '體積',
             'tags'        => '標籤',
@@ -113,14 +113,14 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Product restored',
+                    'title' => '商品已還原',
                     'body'  => 'The product has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Product已刪除',
+                    'title' => '商品已刪除',
                     'body'  => 'The product has been已刪除成功.',
                 ],
             ],
@@ -136,7 +136,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Products restored',
+                    'title' => '商品已還原',
                     'body'  => 'The products has been restored成功.',
                 ],
             ],

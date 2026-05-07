@@ -9,7 +9,7 @@
             'form' => [
                 'fields' => [
                     'recipients'  => '收件人',
-                    'notify-user' => 'Notify User',
+                    'notify-user' => '通知使用者',
                     'add-a-note'  => '新增a note',
                 ],
             ],
@@ -29,12 +29,12 @@
 
                     'error' => [
                         'title' => '新增追蹤者錯誤',
-                        'body'  => 'Failed to ":partner" as follower',
+                        'body'  => '無法將 ":partner" 加為追蹤者',
                     ],
                 ],
 
                 'mail' => [
-                    'subject' => 'Invitation to follow :model: :department',
+                    'subject' => '邀請追蹤 :model：:department',
                 ],
             ],
         ],

@@ -12,7 +12,7 @@ return [
 
             'form' => [
                 'fields' => [
-                    'quantity' => 'Number of Labels',
+                    'quantity' => '標籤數量',
                     'format'   => '格式',
 
                     'format-options' => [
@@ -28,7 +28,7 @@ return [
 
         'delete' => [
             'notification' => [
-                'title' => 'Product已刪除',
+                'title' => '商品已刪除',
                 'body'  => 'The product has been已刪除成功.',
             ],
         ],

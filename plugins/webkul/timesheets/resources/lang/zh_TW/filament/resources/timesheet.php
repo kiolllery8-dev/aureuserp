@@ -16,18 +16,18 @@ return [
 
     'form' => [
         'date'                   => '日期',
-        'employee'               => 'Employee',
+        'employee'               => '員工',
         'project'                => '專案',
         'task'                   => '任務',
         'description'            => '說明',
         'time-spent'             => '已花時間',
-        'time-spent-helper-text' => 'Time spent in hours (Eg. 1.5 hours means 1 hour 30 minutes)',
+        'time-spent-helper-text' => '已花費時間，單位：小時（例如 1.5 表示 1 小時 30 分鐘）',
     ],
 
     'table' => [
         'columns' => [
             'date'        => '日期',
-            'employee'    => 'Employee',
+            'employee'    => '員工',
             'project'     => '專案',
             'task'        => '任務',
             'description' => '說明',
@@ -38,7 +38,7 @@ return [
 
         'groups' => [
             'date'       => '日期',
-            'employee'   => 'Employee',
+            'employee'   => '員工',
             'project'    => '專案',
             'task'       => '任務',
             'creator'    => '建立者',
@@ -46,8 +46,8 @@ return [
 
         'filters' => [
             'date-from'  => '開始日期',
-            'date-until' => 'Date Until',
-            'employee'   => 'Employee',
+            'date-until' => '截止日期',
+            'employee'   => '員工',
             'project'    => '專案',
             'task'       => '任務',
             'creator'    => '建立者',

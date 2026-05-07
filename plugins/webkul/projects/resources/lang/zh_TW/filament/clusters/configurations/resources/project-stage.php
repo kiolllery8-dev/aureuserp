@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Project Stages',
+        'title' => '專案階段',
     ],
 
     'form' => [
@@ -18,13 +18,13 @@ return [
 
         'groups' => [
             'name'         => '名稱',
-            'is-completed' => 'Is Completed',
+            'is-completed' => '已完成',
             'project'      => '專案',
             'created-at'   => '建立時間',
         ],
 
         'filters' => [
-            'is-completed' => 'Is Completed',
+            'is-completed' => '已完成',
             'project'      => '專案',
             'creator'      => '建立者',
         ],
@@ -39,7 +39,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Project stage restored',
+                    'title' => '專案階段已還原',
                     'body'  => 'The project stage has been restored成功.',
                 ],
             ],
@@ -68,7 +68,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Project stages restored',
+                    'title' => '專案階段已還原',
                     'body'  => 'The project stages has been restored成功.',
                 ],
             ],

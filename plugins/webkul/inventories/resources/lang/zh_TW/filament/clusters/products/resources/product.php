@@ -17,10 +17,10 @@ return [
 
                         'fields' => [
                             'track-inventory'              => '追蹤庫存',
-                            'track-inventory-hint-tooltip' => 'A storable product is one that requires inventory management..',
+                            'track-inventory-hint-tooltip' => '可存放商品為需要庫存管理的商品。',
                             'track-by'                     => '追蹤方式',
                             'expiration-date'              => 'Expiration日期',
-                            'expiration-date-hint-tooltip' => 'If selected, you can specify expiration dates for the product and its associated lot/serial numbers.',
+                            'expiration-date-hint-tooltip' => '啟用後可指定商品與批次／序號的到期日。',
                         ],
                     ],
 
@@ -29,7 +29,7 @@ return [
 
                         'fields' => [
                             'routes'              => '路徑',
-                            'routes-hint-tooltip' => 'Based on the installed modules, this setting allows you to define the product\'s route, such as purchasing, manufacturing, or replenishing on order.',
+                            'routes-hint-tooltip' => '依已安裝的模組，此設定可定義商品路線，如採購、製造、依單補貨。',
                         ],
                     ],
 
@@ -38,11 +38,11 @@ return [
 
                         'fields' => [
                             'responsible'              => '負責人',
-                            'responsible-hint-tooltip' => 'Delivery lead time (in days) represents the promised duration between sales order confirmation and product delivery.',
+                            'responsible-hint-tooltip' => '送貨前置時間（天）表示銷售訂單確認到出貨的承諾時間。',
                             'weight'                   => '重量',
                             'volume'                   => '體積',
                             'sale-delay'               => 'Customer Lead時間 (Days)',
-                            'sale-delay-hint-tooltip'  => 'Delivery lead time (in days) represents the promised duration between sales order confirmation and product delivery.',
+                            'sale-delay-hint-tooltip'  => '送貨前置時間（天）表示銷售訂單確認到出貨的承諾時間。',
                         ],
                     ],
 
@@ -51,13 +51,13 @@ return [
 
                         'fields' => [
                             'expiration-date'               => 'Expiration日期 (Days)',
-                            'expiration-date-hint-tooltip'  => 'If selected, you can set expiration dates for the product and its associated lot/serial numbers.',
+                            'expiration-date-hint-tooltip'  => '啟用後可設定商品與批次／序號的到期日。',
                             'best-before-date'              => 'Best Before日期 (Days)',
-                            'best-before-date-hint-tooltip' => 'The number of days before the expiration date when the product begins to deteriorate, though it is still safe to use. This is calculated based on the lot/serial number.',
+                            'best-before-date-hint-tooltip' => '在到期日前幾天商品開始劣化但仍可安全使用，依批次／序號計算。',
                             'removal-date'                  => 'Removal日期 (Days)',
-                            'removal-date-hint-tooltip'     => 'The number of days before the expiration date when the product should be removed from stock. This is calculated based on the lot/serial number.',
+                            'removal-date-hint-tooltip'     => '在到期日前幾天該下架商品，依批次／序號計算。',
                             'alert-date'                    => 'Alert日期 (Days)',
-                            'alert-date-hint-tooltip'       => 'The number of days before the expiration date when an alert should be triggered for the lot/serial number. This is calculated based on the lot/serial number.',
+                            'alert-date-hint-tooltip'       => '在到期日前幾天為批次／序號觸發提醒，依批次／序號計算。',
                         ],
                     ],
                 ],

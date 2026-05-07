@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'title' => '作業類型',
-        'group' => 'Warehouse Management',
+        'group' => '倉庫管理',
     ],
 
     'form' => [
@@ -17,7 +17,7 @@ return [
 
             'applicable-on' => [
                 'title'       => '適用於',
-                'description' => 'Select the places where this route can be selected.',
+                'description' => '選擇此路線可使用的地方。',
 
                 'fields' => [
                 ],
@@ -33,22 +33,22 @@ return [
                     'sequence-prefix'                    => '序號前綴',
                     'generate-shipping-labels'           => '產生出貨標籤',
                     'warehouse'                          => '倉庫',
-                    'show-reception-report'              => 'Show Reception Report at Validation',
-                    'show-reception-report-hint-tooltip' => 'If selected, the system will automatically display the reception report upon validation, provided there are moves to allocate.',
+                    'show-reception-report'              => '驗證時顯示收貨報告',
+                    'show-reception-report-hint-tooltip' => '啟用後，驗證時若有可分配的移動，系統會自動顯示收貨報告。',
                     'company'                            => '公司',
                     'return-type'                        => 'Return類型',
                     'create-backorder'                   => '新增Backorder',
                     'move-type'                          => 'Move類型',
-                    'move-type-hint-tooltip'             => 'Unless defined by the source document, this will serve as the default picking policy for this operation type.',
+                    'move-type-hint-tooltip'             => '除非來源文件另有定義，否則此為此作業類型的預設揀貨政策。',
                 ],
 
                 'fieldsets' => [
                     'lots' => [
-                        'title'  => 'Lots/Serial Numbers',
+                        'title'  => '批次／序號',
 
                         'fields' => [
                             'create-new'                => '新增New',
-                            'create-new-hint-tooltip'   => 'If selected, the system will assume you intend to create new Lots/Serial Numbers, allowing you to enter them in a text field.',
+                            'create-new-hint-tooltip'   => '啟用後，系統假設您想建立新批次／序號，可在文字欄位中輸入。',
                             'use-existing'              => '使用既有',
                             'use-existing-hint-tooltip' => 'If selected, you can choose the Lots/Serial Numbers or opt not to assign any. This allows stock to be已建立 without a lot or without restrictions on the lot used.',
                         ],
@@ -59,18 +59,18 @@ return [
 
                         'fields' => [
                             'source-location'                   => '從哪裡',
-                            'source-location-hint-tooltip'      => 'This serves as the default source location when manually creating this operation. However, it can be changed later, and routes may assign a different default location.',
+                            'source-location-hint-tooltip'      => '手動建立此作業時，此處為預設來源位置；之後可變更，且路線可能指定其他預設位置。',
                             'destination-location'              => '送到哪裡',
                             'destination-location-hint-tooltip' => 'This is the default destination location for manually已建立 operations. However, it can be modified later, and routes may assign a different default location.',
                         ],
                     ],
 
                     'packages' => [
-                        'title'  => 'Packages',
+                        'title'  => '包裝',
 
                         'fields' => [
-                            'show-entire-package'              => 'Move Entire Package',
-                            'show-entire-package-hint-tooltip' => 'If selected, you can move entire packages.',
+                            'show-entire-package'              => '移動整個包裝',
+                            'show-entire-package-hint-tooltip' => '啟用後可移動整個包裝。',
                         ],
                     ],
                 ],
@@ -84,26 +84,26 @@ return [
                         'title'  => '驗證時列印',
 
                         'fields' => [
-                            'delivery-slip'              => 'Delivery Slip',
-                            'delivery-slip-hint-tooltip' => 'If selected, the system will automatically print the delivery slip when the picking is validated.',
+                            'delivery-slip'              => '出貨單',
+                            'delivery-slip-hint-tooltip' => '啟用後，揀貨驗證時會自動列印出貨單。',
 
                             'return-slip'              => '退貨單',
-                            'return-slip-hint-tooltip' => 'If selected, the system will automatically print the return slip when the picking is validated.',
+                            'return-slip-hint-tooltip' => '啟用後，揀貨驗證時會自動列印退貨單。',
 
-                            'product-labels'              => 'Product Labels',
-                            'product-labels-hint-tooltip' => 'If selected, the system will automatically print the product labels when the picking is validated.',
+                            'product-labels'              => '商品標籤',
+                            'product-labels-hint-tooltip' => '啟用後，揀貨驗證時會自動列印商品標籤。',
 
-                            'lots-labels'              => 'Lot/SN Labels',
-                            'lots-labels-hint-tooltip' => 'If selected, the system will automatically print the lot/serial number labels when the picking is validated.',
+                            'lots-labels'              => '批次／序號標籤',
+                            'lots-labels-hint-tooltip' => '啟用後，揀貨驗證時會自動列印批次／序號標籤。',
 
-                            'reception-report'              => 'Reception Report',
-                            'reception-report-hint-tooltip' => 'If selected, the system will automatically print the reception report when the picking is validated and contains assigned moves.',
+                            'reception-report'              => '收貨報告',
+                            'reception-report-hint-tooltip' => '啟用後，揀貨驗證且有指派移動時，自動列印收貨報告。',
 
-                            'reception-report-labels'              => 'Reception Report Labels',
-                            'reception-report-labels-hint-tooltip' => 'If selected, the system will automatically print the reception report labels when the picking is validated.',
+                            'reception-report-labels'              => '收貨報告標籤',
+                            'reception-report-labels-hint-tooltip' => '啟用後，揀貨驗證時自動列印收貨報告標籤。',
 
-                            'package-content'              => 'Package Content',
-                            'package-content-hint-tooltip' => 'If selected, the system will automatically print the package details and their contents when the picking is validated.',
+                            'package-content'              => '包裝內容',
+                            'package-content-hint-tooltip' => '啟用後，揀貨驗證時自動列印包裝詳情與內容。',
                         ],
                     ],
 
@@ -111,8 +111,8 @@ return [
                         'title'  => '「裝箱」時列印',
 
                         'fields' => [
-                            'package-label'              => 'Package Label',
-                            'package-label-hint-tooltip' => 'If selected, the system will automatically print the package label when the "Put in Pack" button is used.',
+                            'package-label'              => '包裝標籤',
+                            'package-label-hint-tooltip' => '啟用後，按「裝箱」鈕時自動列印包裝標籤。',
                         ],
                     ],
                 ],
@@ -240,8 +240,8 @@ return [
                     'sequence_code'              => 'Sequence代碼',
                     'print_label'                => '列印標籤',
                     'warehouse'                  => '倉庫',
-                    'reservation_method'         => 'Reservation Method',
-                    'auto_show_reception_report' => 'Auto Show Reception Report',
+                    'reservation_method'         => '預留方式',
+                    'auto_show_reception_report' => '自動顯示收貨報告',
                     'company'                    => '公司',
                     'return_operation_type'      => 'Return Operation類型',
                     'create_backorder'           => '新增Backorder',
@@ -254,7 +254,7 @@ return [
 
                         'entries' => [
                             'use_create_lots'   => 'Use 新增Lots',
-                            'use_existing_lots' => 'Use Existing Lots',
+                            'use_existing_lots' => '使用既有批次',
                         ],
                     ],
 
@@ -276,13 +276,13 @@ return [
                         'title' => '驗證時列印',
 
                         'entries' => [
-                            'auto_print_delivery_slip'           => 'Auto Print Delivery Slip',
+                            'auto_print_delivery_slip'           => '自動列印出貨單',
                             'auto_print_return_slip'             => '自動列印退貨單',
-                            'auto_print_product_labels'          => 'Auto Print Product Labels',
-                            'auto_print_lot_labels'              => 'Auto Print Lot Labels',
-                            'auto_print_reception_report'        => 'Auto Print Reception Report',
-                            'auto_print_reception_report_labels' => 'Auto Print Reception Report Labels',
-                            'auto_print_packages'                => 'Auto Print Packages',
+                            'auto_print_product_labels'          => '自動列印商品標籤',
+                            'auto_print_lot_labels'              => '自動列印批次標籤',
+                            'auto_print_reception_report'        => '自動列印收貨報告',
+                            'auto_print_reception_report_labels' => '自動列印收貨報告標籤',
+                            'auto_print_packages'                => '自動列印包裝',
                         ],
                     ],
 
@@ -290,7 +290,7 @@ return [
                         'title' => '包裝時列印',
 
                         'entries' => [
-                            'auto_print_package_label' => 'Auto Print Package Label',
+                            'auto_print_package_label' => '自動列印包裝標籤',
                         ],
                     ],
                 ],

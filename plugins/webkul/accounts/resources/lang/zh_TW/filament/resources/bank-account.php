@@ -2,12 +2,12 @@
 
 return [
     'navigation' => [
-        'title' => 'Bank Accounts',
+        'title' => '銀行帳戶',
         'group' => '銀行',
     ],
 
     'form' => [
-        'account-number'     => 'Account Number',
+        'account-number'     => '帳號',
         'bank'               => [
             'title'    => '銀行',
             'sections' => [
@@ -38,14 +38,14 @@ return [
             ],
         ],
 
-        'account-holder'     => 'Account Holder',
+        'account-holder'     => '帳戶持有人',
     ],
 
     'table' => [
         'columns' => [
-            'account-number' => 'Account Number',
+            'account-number' => '帳號',
             'bank'           => '銀行',
-            'account-holder' => 'Account Holder',
+            'account-holder' => '帳戶持有人',
             'send-money'     => '可匯款',
             'created-at'     => '建立時間',
             'updated-at'     => '更新時間',
@@ -54,7 +54,7 @@ return [
 
         'filters' => [
             'bank'           => '銀行',
-            'account-holder' => 'Account Holder',
+            'account-holder' => '帳戶持有人',
             'creator'        => '建立者',
             'can-send-money' => '可匯款',
         ],
@@ -75,7 +75,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Bank account restored',
+                    'title' => '銀行帳戶已還原',
                     'body'  => 'The bank account has been restored成功.',
                 ],
             ],
@@ -98,7 +98,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Bank accounts restored',
+                    'title' => '銀行帳戶已還原',
                     'body'  => 'The bank accounts has been restored成功.',
                 ],
             ],

@@ -8,10 +8,10 @@ return [
 
     'header-actions' => [
         'draft' => [
-            'label' => 'Set as Draft',
+            'label' => '設為草稿',
 
             'notification' => [
-                'title' => 'Page set as draft',
+                'title' => '頁面已設為草稿',
                 'body'  => 'The page has been set as draft成功.',
             ],
         ],

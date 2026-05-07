@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Quotation Template',
+    'title' => '報價範本',
 
     'navigation' => [
-        'title'  => 'Quotation Template',
+        'title'  => '報價範本',
         'group'  => '銷貨訂單',
     ],
 
@@ -22,7 +22,7 @@ return [
             'terms-and-conditions' => [
                 'title'  => '條款',
                 'fields' => [
-                    'note-placeholder' => 'Write your terms and conditions for the quotations.',
+                    'note-placeholder' => '撰寫報價的條款與條件。',
                 ],
             ],
         ],
@@ -33,17 +33,17 @@ return [
 
                 'fields' => [
                     'name'               => '名稱',
-                    'quotation-validity' => 'Quotation Validity',
-                    'sale-journal'       => 'Sale Journal',
+                    'quotation-validity' => '報價有效期',
+                    'sale-journal'       => '銷售日記帳',
                 ],
             ],
 
             'signature-and-payment' => [
-                'title' => 'Signature & Payments',
+                'title' => '簽名與付款',
 
                 'fields' => [
                     'online-signature'      => '線上簽名',
-                    'online-payment'        => 'Online Payment',
+                    'online-payment'        => '線上付款',
                     'prepayment-percentage' => '預付百分比',
                 ],
             ],
@@ -55,10 +55,10 @@ return [
             'created-by'            => '建立者',
             'company'               => '公司',
             'name'                  => '名稱',
-            'number-of-days'        => 'Number of days',
-            'journal'               => 'Sale Journal',
-            'signature-required'    => 'Signature Required',
-            'payment-required'      => 'Payment Required',
+            'number-of-days'        => '天數',
+            'journal'               => '銷售日記帳',
+            'signature-required'    => '需要簽名',
+            'payment-required'      => '需要付款',
             'prepayment-percentage' => '預付百分比',
         ],
         'groups'  => [
@@ -106,7 +106,7 @@ return [
                 'title' => '一般資料',
             ],
             'signature_and_payment' => [
-                'title' => 'Signature & Payment',
+                'title' => '簽名與付款',
             ],
         ],
         'entries' => [
@@ -115,12 +115,12 @@ return [
             'quantity'              => '數量',
             'unit-price'            => '單價',
             'section-name'          => 'Section名稱',
-            'note-title'            => 'Note Title',
+            'note-title'            => '備註標題',
             'name'                  => 'Template名稱',
-            'quotation-validity'    => 'Quotation Validity',
-            'sale-journal'          => 'Sale Journal',
+            'quotation-validity'    => '報價有效期',
+            'sale-journal'          => '銷售日記帳',
             'online-signature'      => '線上簽名',
-            'online-payment'        => 'Online Payment',
+            'online-payment'        => '線上付款',
             'prepayment-percentage' => '預付百分比',
         ],
     ],

@@ -4,7 +4,7 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Product Deleted',
+                'title' => '商品已刪除',
                 'body'  => 'The product has been已刪除成功.',
             ],
         ],

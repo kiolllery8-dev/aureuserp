@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'title' => '倉庫',
-        'group' => 'Warehouse Management',
+        'group' => '倉庫管理',
     ],
 
     'form' => [
@@ -12,10 +12,10 @@ return [
                 'title'  => '一般',
                 'fields' => [
                     'name'               => '名稱',
-                    'name-placeholder'   => 'eg. Central Warehouse',
+                    'name-placeholder'   => '例：中央倉',
                     'code'               => 'Short名稱',
                     'code-placeholder'   => '例：CW',
-                    'code-hint-tooltip'  => 'The short name serves as an identifier for the warehouse.',
+                    'code-hint-tooltip'  => '簡稱作為倉庫識別。',
                     'company'            => '公司',
                     'address'            => '地址',
                 ],
@@ -27,11 +27,11 @@ return [
                 'fields' => [
                     'shipment-management'              => '出貨管理',
                     'incoming-shipments'               => '收貨',
-                    'incoming-shipments-hint-tooltip'  => 'Default incoming route to follow',
+                    'incoming-shipments-hint-tooltip'  => '預設進貨路線',
                     'outgoing-shipments'               => '出貨',
-                    'outgoing-shipments-hint-tooltip'  => 'Default outgoing route to follow',
+                    'outgoing-shipments-hint-tooltip'  => '預設出貨路線',
                     'resupply-management'              => '補貨管理',
-                    'resupply-management-hint-tooltip' => 'Routes will be automatically generated to resupply this warehouse from the selected warehouses.',
+                    'resupply-management-hint-tooltip' => '將自動產生路線，從所選倉庫補貨給此倉庫。',
                     'resupply-from'                    => '補貨來源',
                 ],
             ],
@@ -67,7 +67,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Warehouse restored',
+                    'title' => '倉庫已還原',
                     'body'  => 'The warehouse has been restored成功.',
                 ],
             ],
@@ -97,7 +97,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Warehouses restored',
+                    'title' => '倉庫已還原',
                     'body'  => 'The warehouses has been restored成功.',
                 ],
             ],

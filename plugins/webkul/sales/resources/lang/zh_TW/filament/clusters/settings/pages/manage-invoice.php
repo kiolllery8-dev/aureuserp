@@ -11,7 +11,7 @@ return [
 
     'form' => [
         'invoice-policy' => [
-            'label'      => 'Invoice Policy',
+            'label'      => '發票政策',
             'label-help' => '定義銷售訂單如何產生發票。',
             'options'    => [
                 'order'    => '依訂單數量產生發票',

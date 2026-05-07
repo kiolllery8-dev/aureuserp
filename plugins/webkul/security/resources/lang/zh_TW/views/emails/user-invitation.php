@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'body'           => 'You have been invited to join :app </br></br>To accept the invitation - click on the button below and create an account:',
+    'body'           => '您已受邀加入 :app </br></br>要接受邀請，請點下方按鈕並建立帳號：',
     'create-account' => '新增Account',
-    'discard-email'  => 'If you did not expect to receive an invitation to this team, you may discard this email.',
+    'discard-email'  => '如果您沒有預期收到此團隊的邀請，可以略過此信件。',
 ];

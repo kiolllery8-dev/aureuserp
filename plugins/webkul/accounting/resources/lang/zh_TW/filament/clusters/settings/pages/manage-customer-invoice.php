@@ -10,7 +10,7 @@ return [
         ],
 
         'incoterm' => [
-            'label' => 'Default Incoterm',
+            'label' => '預設國貿條款',
         ],
     ],
 ];

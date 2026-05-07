@@ -41,21 +41,21 @@ return [
             'description' => '管理employees, attendance, time-off requests, and recruitment processes efficiently.',
         ],
         'projects' => [
-            'title' => 'Project Management',
+            'title' => '專案管理',
             'description' => '用整合式專案管理工具按時規劃、追蹤、交付專案。',
         ],
     ],
     
     'stats' => [
         'modules' => '整合模組',
-        'users' => 'Active Users',
+        'users' => '活躍使用者',
         'transactions' => '每日交易',
         'uptime' => '系統可用度',
     ],
     
     'cta' => [
         'title' => '準備好讓事業升級了嗎？',
-        'description' => 'Join thousands of businesses that trust AureusERP for their daily operations.',
+        'description' => '加入數千家信任 AureusERP 處理日常營運的企業。',
         'button' => '開始免費試用',
     ],
     
@@ -64,8 +64,8 @@ return [
         'powered_by' => '由 Laravel 提供技術支援',
         'links' => [
             'privacy' => '隱私政策',
-            'terms' => 'Terms of Service',
-            'contact' => 'Contact Us',
+            'terms' => '服務條款',
+            'contact' => '聯絡我們',
         ],
     ],
 ];

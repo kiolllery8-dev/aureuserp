@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Lots / Serial Numbers',
+        'title' => '批次／序號',
         'group' => '庫存',
     ],
 
@@ -20,9 +20,9 @@ return [
                     'name'                   => '名稱',
                     'name-placeholder'       => 'e.g. LOT/0001/20121',
                     'product'                => '商品',
-                    'product-hint-tooltip'   => 'The product associated with this lot/serial number. It cannot be changed if it has already been moved.',
+                    'product-hint-tooltip'   => '與此批次／序號關聯的商品。若已移動則無法變更。',
                     'reference'              => '參考編號',
-                    'reference-hint-tooltip' => 'An internal reference number, if different from the manufacturer\'s lot/serial number.',
+                    'reference-hint-tooltip' => '內部參考號（若與製造商的批次／序號不同）。',
                     'description'            => '說明',
                 ],
             ],
@@ -56,7 +56,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Lot已刪除',
+                        'title' => '批次已刪除',
                         'body'  => 'The lot has been已刪除成功.',
                     ],
 
@@ -92,7 +92,7 @@ return [
     'infolist' => [
         'sections' => [
             'general' => [
-                'title' => 'Lot Details',
+                'title' => '批次詳情',
 
                 'entries' => [
                     'name'        => 'Lot名稱',

@@ -12,13 +12,13 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Applicant已刪除',
+                'title' => '應徵者已刪除',
                 'body'  => 'The applicant has been已刪除成功.',
             ],
         ],
         'force-delete' => [
             'notification' => [
-                'title' => 'Applicant已刪除',
+                'title' => '應徵者已刪除',
                 'body'  => 'The applicant has been force已刪除成功.',
             ],
         ],
@@ -26,15 +26,15 @@ return [
         'refuse' => [
             'title'        => '拒絕原因',
             'notification' => [
-                'title' => 'Applicant refused',
+                'title' => '應徵者已拒絕',
                 'body'  => 'The applicant has been refused成功.',
             ],
         ],
 
         'reopen' => [
-            'title'        => 'Reopen Applicant',
+            'title'        => '重啟應徵者',
             'notification' => [
-                'title' => 'Applicant reopened',
+                'title' => '應徵者已重啟',
                 'body'  => 'The applicant has been reopened成功.',
             ],
         ],
@@ -49,14 +49,14 @@ return [
 
     'mail' => [
         'application-refused' => [
-            'subject' => 'Your Job Application: :application',
+            'subject' => '您的應徵：:application',
         ],
 
         'application-confirm' => [
-            'subject' => 'Your Job Application: :job_position',
+            'subject' => '您的應徵：:job_position',
         ],
         'interviewer-assigned' => [
-            'subject' => 'You have been assigned to the Applicant :applicant.',
+            'subject' => '您已被指派處理應徵者 :applicant。',
         ],
     ],
 ];

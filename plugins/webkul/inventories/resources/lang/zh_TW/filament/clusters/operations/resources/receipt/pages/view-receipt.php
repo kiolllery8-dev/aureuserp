@@ -9,7 +9,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Receipt Deleted',
+                    'title' => '收貨已刪除',
                     'body'  => 'The receipt has been已刪除成功.',
                 ],
 

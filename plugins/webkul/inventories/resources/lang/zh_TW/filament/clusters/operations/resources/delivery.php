@@ -16,7 +16,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Delivery已刪除',
+                        'title' => '出貨已刪除',
                         'body'  => 'The delivery ras been已刪除成功.',
                     ],
 

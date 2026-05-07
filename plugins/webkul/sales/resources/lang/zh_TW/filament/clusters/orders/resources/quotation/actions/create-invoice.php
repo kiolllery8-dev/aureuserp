@@ -14,8 +14,8 @@ return [
         ],
 
         'no-invoiceable-lines' => [
-            'title' => 'No invoiceable lines',
-            'body'  => 'There is no invoiceable line, please make sure that a quantity has been received.',
+            'title' => '沒有可開立發票的項目',
+            'body'  => '沒有可開立發票的項目，請確認已收貨數量。',
         ],
     ],
 

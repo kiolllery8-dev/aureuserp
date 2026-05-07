@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'label' => 'Delivery Slip',
+    'label' => '出貨單',
 ];

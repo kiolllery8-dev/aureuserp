@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'title' => 'Quantities',
+    'title' => '數量',
 
     'tabs' => [
-        'internal-locations' => 'Internal Locations',
-        'transit-locations'  => 'Transit Locations',
+        'internal-locations' => '內部位置',
+        'transit-locations'  => '中轉位置',
         'on-hand'            => '現有',
         'to-count'           => '待盤點',
         'to-apply'           => '待套用',
@@ -47,14 +47,14 @@ return [
                 'label' => '新增Quantity',
 
                 'notification' => [
-                    'title' => 'Quantity added',
+                    'title' => '已新增數量',
                     'body'  => 'The quantity has been added成功.',
                 ],
 
                 'before' => [
                     'notification' => [
                         'title' => 'Quantity已存在',
-                        'body'  => 'Already has a quantity for the same configuration. Please update the quantity instead.',
+                        'body'  => '相同設定已有數量，請改更新數量。',
                     ],
                 ],
             ],

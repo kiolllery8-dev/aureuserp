@@ -8,7 +8,7 @@ return [
     ],
 
     'global-search' => [
-        'email-from' => 'Email From',
+        'email-from' => '寄件者',
         'phone'      => '電話',
         'company'    => '公司',
         'degree'     => '學位',
@@ -59,8 +59,8 @@ return [
                 'title' => '溝通',
 
                 'fields' => [
-                    'cc-email'      => 'CC Email',
-                    'email-bounced' => 'Email Bounced',
+                    'cc-email'      => '副本電子郵件',
+                    'email-bounced' => '電子郵件退信',
                 ],
             ],
         ],
@@ -87,7 +87,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Candidate Deleted',
+                    'title' => '候選人已刪除',
                     'body'  => 'The candidates has been已刪除成功.',
                 ],
             ],
@@ -95,7 +95,7 @@ return [
             'empty-state-actions' => [
                 'create' => [
                     'notification' => [
-                        'title' => 'Candidate Created',
+                        'title' => '候選人已建立',
                         'body'  => 'The candidates has been已建立成功.',
                     ],
                 ],
@@ -105,7 +105,7 @@ return [
         'bulk-actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Candidates Deleted',
+                    'title' => '候選人已刪除',
                     'body'  => 'The candidates has been已刪除成功.',
                 ],
             ],
@@ -157,8 +157,8 @@ return [
                 'title' => '溝通',
 
                 'entries' => [
-                    'cc-email'      => 'CC Email',
-                    'email-bounced' => 'Email Bounced',
+                    'cc-email'      => '副本電子郵件',
+                    'email-bounced' => '電子郵件退信',
                 ],
             ],
         ],

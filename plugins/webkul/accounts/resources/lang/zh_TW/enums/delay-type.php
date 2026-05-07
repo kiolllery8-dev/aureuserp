@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'days-after'                   => 'Days After',
-    'days-after-end-of-month'      => 'Days After End of Month',
-    'days-after-end-of-next-month' => 'Days After End of Next Month',
-    'days-end-of-month-no-the'     => 'Days End of Month No The',
+    'days-after'                   => '之後天數',
+    'days-after-end-of-month'      => '月底後天數',
+    'days-after-end-of-next-month' => '次月月底後天數',
+    'days-end-of-month-no-the'     => '月底天數',
 ];

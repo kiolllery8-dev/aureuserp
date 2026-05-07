@@ -2,7 +2,7 @@
 
 return [
     'draft'      => '詢價單',
-    'sent'       => 'RFQ Sent',
+    'sent'       => '報價邀請已寄出',
     'to_approve' => '待核准',
     'purchase'   => '採購單',
     'done'       => '已鎖定',

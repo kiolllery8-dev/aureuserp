@@ -8,7 +8,7 @@ return [
             'applicability' => '適用性',
             'name'          => '名稱',
             'status'        => '狀態',
-            'tax-negate'    => 'Tax Negate',
+            'tax-negate'    => '稅務反向',
         ],
     ],
 
@@ -20,7 +20,7 @@ return [
             'applicability' => '適用性',
             'name'          => '名稱',
             'status'        => '狀態',
-            'tax-negate'    => 'Tax Negate',
+            'tax-negate'    => '稅務反向',
             'created-at'    => '建立時間',
             'updated-at'    => '更新時間',
             'deleted-at'    => '刪除時間',
@@ -28,7 +28,7 @@ return [
 
         'filters' => [
             'bank'           => '銀行',
-            'account-holder' => 'Account Holder',
+            'account-holder' => '帳戶持有人',
             'creator'        => '建立者',
             'can-send-money' => '可匯款',
         ],
@@ -73,7 +73,7 @@ return [
             'applicability' => '適用性',
             'name'          => '名稱',
             'status'        => '狀態',
-            'tax-negate'    => 'Tax Negate',
+            'tax-negate'    => '稅務反向',
         ],
     ],
 ];

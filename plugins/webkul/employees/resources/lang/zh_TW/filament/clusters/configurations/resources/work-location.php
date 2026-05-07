@@ -1,18 +1,18 @@
 <?php
 
 return [
-    'title' => 'Work Locations',
+    'title' => '工作地點',
 
     'navigation' => [
-        'title' => 'Work Locations',
-        'group' => 'Employee',
+        'title' => '工作地點',
+        'group' => '員工',
     ],
 
     'form' => [
         'name'            => '名稱',
         'company'         => '公司',
         'location-type'   => 'Location類型',
-        'location-number' => 'Location Number',
+        'location-number' => '位置號碼',
         'status'          => '狀態',
     ],
 
@@ -23,7 +23,7 @@ return [
             'status'          => '狀態',
             'company'         => '公司',
             'location-type'   => 'Location類型',
-            'location-number' => 'Location Number',
+            'location-number' => '位置號碼',
             'deleted-at'      => '刪除時間',
             'created-by'      => '建立者',
             'created-at'      => '建立時間',
@@ -35,7 +35,7 @@ return [
             'status'          => '狀態',
             'created-by'      => '建立者',
             'company'         => '公司',
-            'location-number' => 'Location Number',
+            'location-number' => '位置號碼',
             'location-type'   => 'Location類型',
             'updated-at'      => '更新時間',
             'created-at'      => '建立時間',
@@ -61,7 +61,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Work Location restored',
+                    'title' => '工作地點已還原',
                     'body'  => 'The work Location has been restored成功.',
                 ],
             ],
@@ -109,7 +109,7 @@ return [
         'name'            => '名稱',
         'company'         => '公司',
         'location-type'   => 'Location類型',
-        'location-number' => 'Location Number',
+        'location-number' => '位置號碼',
         'status'          => '狀態',
     ],
 ];

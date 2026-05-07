@@ -46,7 +46,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Attribute restored',
+                    'title' => '屬性已還原',
                     'body'  => 'The attribute has been restored成功.',
                 ],
             ],
@@ -76,7 +76,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Attributes restored',
+                    'title' => '屬性已還原',
                     'body'  => 'The attributes has been restored成功.',
                 ],
             ],

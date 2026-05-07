@@ -24,7 +24,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Industry restored',
+                    'title' => '產業已還原',
                     'body'  => 'The industry has been restored成功.',
                 ],
             ],
@@ -47,7 +47,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Industries restored',
+                    'title' => '產業已還原',
                     'body'  => 'The industries has been restored成功.',
                 ],
             ],

@@ -6,7 +6,7 @@ return [
     'tabs' => [
         'trigger-manual'    => '手動觸發',
         'trigger-automatic' => '自動觸發',
-        'to-order'          => 'To Order',
+        'to-order'          => '待訂購',
         'not-snoozed'       => '未延後',
     ],
 ];

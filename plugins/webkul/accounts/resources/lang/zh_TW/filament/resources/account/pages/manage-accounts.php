@@ -11,8 +11,8 @@ return [
     ],
 
     'tabs' => [
-        'receivable' => '應收帳款',
-        'payable'    => '應付帳款',
+        'receivable' => '應收',
+        'payable'    => '應付',
         'equity'     => '權益',
         'assets'     => '資產',
         'liability'  => '負債',

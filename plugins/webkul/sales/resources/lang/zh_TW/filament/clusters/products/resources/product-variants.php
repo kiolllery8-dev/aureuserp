@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Product variants',
+    'title' => '商品款式',
 
     'navigation' => [
-        'title' => 'Product variants',
+        'title' => '商品款式',
         'group' => '庫存',
     ],
 ];

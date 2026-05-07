@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Task Stages',
+        'title' => '任務階段',
     ],
 
     'form' => [
@@ -37,7 +37,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Task stage restored',
+                    'title' => '任務階段已還原',
                     'body'  => 'The task stage has been restored成功.',
                 ],
             ],
@@ -66,7 +66,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Task stages restored',
+                    'title' => '任務階段已還原',
                     'body'  => 'The task stages has been restored成功.',
                 ],
             ],

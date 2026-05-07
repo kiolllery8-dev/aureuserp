@@ -4,7 +4,7 @@ return [
     'title' => '列印並寄送',
 
     'modal' => [
-        'title' => 'Preview Invoice',
+        'title' => '預覽發票',
 
         'form' => [
             'partners'    => '客戶',
@@ -21,7 +21,7 @@ return [
 
         'notification' => [
             'invoice-sent' => [
-                'title' => 'Invoice Sent',
+                'title' => '發票已寄出',
                 'body'  => 'Invoice has been sent成功.',
             ],
         ],

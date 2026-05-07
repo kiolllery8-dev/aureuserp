@@ -13,7 +13,7 @@ return [
 
                 'fields' => [
                     'title'             => '標題',
-                    'title-placeholder' => 'Page title ...',
+                    'title-placeholder' => '頁面標題…',
                     'slug'              => '網址代稱',
                     'content'           => '內容',
                 ],
@@ -33,8 +33,8 @@ return [
                 'title' => '設定',
 
                 'fields' => [
-                    'is-header-visible' => 'Is Visible Header Menu',
-                    'is-footer-visible' => 'Is Visible Footer Menu',
+                    'is-header-visible' => '顯示於頁首選單',
+                    'is-footer-visible' => '顯示於頁尾選單',
                 ],
             ],
         ],
@@ -46,8 +46,8 @@ return [
             'slug'              => '網址代稱',
             'creator'           => '建立者',
             'is-published'      => 'Is Published',
-            'is-header-visible' => 'Is Visible Header Menu',
-            'is-footer-visible' => 'Is Visible Footer Menu',
+            'is-header-visible' => '顯示於頁首選單',
+            'is-footer-visible' => '顯示於頁尾選單',
             'created-at'        => '建立時間',
             'updated-at'        => '更新時間',
         ],
@@ -71,7 +71,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Page restored',
+                    'title' => '頁面已還原',
                     'body'  => 'The page has been restored成功.',
                 ],
             ],
@@ -94,7 +94,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Pages restored',
+                    'title' => '頁面已還原',
                     'body'  => 'The pages has been restored成功.',
                 ],
             ],
@@ -155,8 +155,8 @@ return [
                 'title' => '設定',
 
                 'entries' => [
-                    'is-header-visible' => 'Is Visible Header Menu',
-                    'is-footer-visible' => 'Is Visible Footer Menu',
+                    'is-header-visible' => '顯示於頁首選單',
+                    'is-footer-visible' => '顯示於頁尾選單',
                 ],
             ],
         ],

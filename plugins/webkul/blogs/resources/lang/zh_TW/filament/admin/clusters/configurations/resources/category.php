@@ -9,15 +9,15 @@ return [
     'form' => [
         'fields' => [
             'name'             => '名稱',
-            'name-placeholder' => 'Category title ...',
-            'sub-title'        => 'Sub Title',
+            'name-placeholder' => '分類標題…',
+            'sub-title'        => '副標題',
         ],
     ],
 
     'table' => [
         'columns' => [
             'name'       => '名稱',
-            'sub-title'  => 'Sub Title',
+            'sub-title'  => '副標題',
             'posts'      => '文章',
             'created-at' => '建立時間',
         ],
@@ -39,7 +39,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Category restored',
+                    'title' => '分類已還原',
                     'body'  => 'The category has been restored成功.',
                 ],
             ],
@@ -67,17 +67,17 @@ return [
             'force-delete-error' => [
                 'notification' => [
                     'title' => '無法刪除分類',
-                    'body'  => 'You cannot delete this category as it is associated with some posts.',
+                    'body'  => '此分類與部分文章有關聯，無法刪除。',
                 ],
 
-                'exception' => 'You cannot force delete this category as it is associated with some posts.',
+                'exception' => '此分類與部分文章有關聯，無法強制刪除。',
             ],
         ],
 
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Categories restored',
+                    'title' => '分類已還原',
                     'body'  => 'The categories has been restored成功.',
                 ],
             ],
@@ -99,7 +99,7 @@ return [
             'force-delete-error' => [
                 'notification' => [
                     'title' => '無法刪除分類',
-                    'body'  => 'You cannot delete this category as it is associated with some posts.',
+                    'body'  => '此分類與部分文章有關聯，無法刪除。',
                 ],
             ],
         ],

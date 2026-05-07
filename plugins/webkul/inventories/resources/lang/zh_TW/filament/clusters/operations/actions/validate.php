@@ -19,12 +19,12 @@ return [
             ],
 
             'lot-missing' => [
-                'title' => 'Supply Lot/Serial Number',
-                'body'  => 'You need to supply a Lot/Serial Number for products',
+                'title' => '供應批次／序號',
+                'body'  => '需要為商品提供批次／序號',
             ],
 
             'serial-qty' => [
-                'title' => 'Serial Number Already Assigned',
+                'title' => '序號已被指派',
                 'body'  => 'The serial number has already been assigned to another product.',
             ],
 

@@ -8,7 +8,7 @@ return [
             'rounding-strategy'  => '進位策略',
             'profit-account'     => 'Profit Account',
             'loss-account'       => 'Loss Account',
-            'rounding-method'    => 'Rounding Method',
+            'rounding-method'    => '進位方式',
         ],
     ],
 
@@ -16,7 +16,7 @@ return [
         'columns' => [
             'name'                 => '名稱',
             'rounding-strategy'    => '進位策略',
-            'rounding-method'      => 'Rounding Method',
+            'rounding-method'      => '進位方式',
             'created-by'           => '建立者',
             'profit-account'       => 'Profit Account',
             'loss-account'         => 'Loss Account',
@@ -25,7 +25,7 @@ return [
         'groups' => [
             'name'              => '名稱',
             'rounding-strategy' => '進位策略',
-            'rounding-method'   => 'Rounding Method',
+            'rounding-method'   => '進位方式',
             'created-by'        => '建立者',
             'profit-account'    => 'Profit Account',
             'loss-account'      => 'Loss Account',
@@ -57,7 +57,7 @@ return [
             'rounding-strategy'  => '進位策略',
             'profit-account'     => 'Profit Account',
             'loss-account'       => 'Loss Account',
-            'rounding-method'    => 'Rounding Method',
+            'rounding-method'    => '進位方式',
         ],
     ],
 ];

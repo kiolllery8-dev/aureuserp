@@ -9,7 +9,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Lot Deleted',
+                    'title' => '批次已刪除',
                     'body'  => 'The lot has been已刪除成功.',
                 ],
 

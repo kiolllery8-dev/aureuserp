@@ -1,12 +1,12 @@
 <?php
 
 return [
-    'title' => 'Public Holidays',
+    'title' => '國定假日',
 
-    'model-label' => 'Public holiday',
+    'model-label' => '國定假日',
 
     'navigation' => [
-        'title' => 'Public Holidays',
+        'title' => '國定假日',
     ],
 
     'form' => [

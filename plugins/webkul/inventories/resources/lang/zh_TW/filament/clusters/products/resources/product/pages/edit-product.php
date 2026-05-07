@@ -6,12 +6,12 @@ return [
             'error' => [
                 'tracking-update' => [
                     'title' => 'Error updating tracking',
-                    'body'  => 'You can not change the inventory tracking of a product that was already used.',
+                    'body'  => '已使用過的商品無法變更庫存追蹤方式。',
                 ],
 
                 'track-by-update' => [
                     'title' => 'Error updating tracking',
-                    'body'  => 'You have product(s) in stock that have no lot/serial number. You can assign lot/serial numbers by doing an inventory adjustment.',
+                    'body'  => '庫存中有商品沒有批次／序號，可透過盤點調整指派。',
                 ],
             ],
         ],

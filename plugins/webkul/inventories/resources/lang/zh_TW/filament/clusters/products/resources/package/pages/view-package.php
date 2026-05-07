@@ -19,7 +19,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Package Deleted',
+                    'title' => '包裝已刪除',
                     'body'  => 'The package has been已刪除成功.',
                 ],
 

@@ -5,7 +5,7 @@ return [
 
     'navigation' => [
         'title' => '工作排程',
-        'group' => 'Employee',
+        'group' => '員工',
     ],
 
     'groups' => [
@@ -30,7 +30,7 @@ return [
             ],
 
             'configuration' => [
-                'title'  => 'Work Hours Configuration',
+                'title'  => '工時設定',
                 'fields' => [
                     'hours-per-day'                   => '每日小時數',
                     'hours-per-day-suffix'            => '小時',
@@ -154,7 +154,7 @@ return [
             ],
 
             'configuration' => [
-                'title'   => 'Work Hours Configuration',
+                'title'   => '工時設定',
                 'entries' => [
                     'hours-per-day'                   => '每日小時數',
                     'hours-per-day-suffix'            => ' 小時',

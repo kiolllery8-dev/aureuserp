@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'label'        => 'Send By Email',
-    'resend-label' => 'Re-Send By Email',
+    'label'        => '以電子郵件寄送',
+    'resend-label' => '重新以電子郵件寄送',
 
     'form' => [
         'fields' => [
@@ -15,7 +15,7 @@ return [
     'action' => [
         'notification' => [
             'success' => [
-                'title' => 'Email sent',
+                'title' => '電子郵件已寄出',
                 'body'  => 'The email has been sent成功.',
             ],
         ],

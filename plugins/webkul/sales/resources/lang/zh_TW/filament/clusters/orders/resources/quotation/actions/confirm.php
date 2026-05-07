@@ -5,7 +5,7 @@ return [
 
     'notification' => [
         'confirmed' => [
-            'title' => 'Quotation confirmed',
+            'title' => '報價已確認',
             'body'  => 'Quotation has been confirmed and converted to sale成功.',
         ],
 

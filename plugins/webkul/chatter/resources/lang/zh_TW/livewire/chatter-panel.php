@@ -13,7 +13,7 @@ return [
     ],
 
     'cancel-activity-plan-action' => [
-        'title' => 'Cancel Activity',
+        'title' => '取消活動',
     ],
 
     'delete-message-action' => [
@@ -46,9 +46,9 @@ return [
     ],
 
     'process-message' => [
-        'original-note' => '<br><div><span class="font-bold">Original Note</span>: :body</div>',
-        'original-note' => '<br><div><span class="font-bold">Original Note</span>: :body</div>',
-        'feedback'      => '<div><span class="font-bold">Feedback</span>: <p>:feedback</p></div>',
+        'original-note' => '<br><div><span class="font-bold">原備註</span>：:body</div>',
+        'original-note' => '<br><div><span class="font-bold">原備註</span>：:body</div>',
+        'feedback'      => '<div><span class="font-bold">回饋</span>：<p>:feedback</p></div>',
     ],
 
     'mark-as-done' => [
@@ -65,7 +65,7 @@ return [
             'actions' => [
                 'notification' => [
                     'mark-as-done' => [
-                        'title' => 'Activity mark as done',
+                        'title' => '活動已標記完成',
                         'body'  => 'The activity mark as done成功.',
                     ],
                 ],

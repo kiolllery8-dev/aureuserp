@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'model-label' => 'Chart of Account',
+    'model-label' => '會計科目表',
 
     'navigation' => [
         'title' => '帳戶分類表',

@@ -2,7 +2,7 @@
 
 return [
     'tabs' => [
-        'my-posts' => 'My Pages',
+        'my-posts' => '我的頁面',
         'archived' => '已封存',
     ],
 

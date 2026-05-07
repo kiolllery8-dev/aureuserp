@@ -14,12 +14,12 @@ return [
                     'name'                => '標題',
                     'approval'            => '核准',
                     'requires-allocation' => '需要分配',
-                    'employee-requests'   => 'Employee Requests',
-                    'display-option'      => 'Display Option',
+                    'employee-requests'   => '員工請求',
+                    'display-option'      => '顯示選項',
                 ],
             ],
             'display-option' => [
-                'title'  => 'Display Option',
+                'title'  => '顯示選項',
                 'fields' => [
                     'color' => '顏色',
                 ],
@@ -30,7 +30,7 @@ return [
                 'fields' => [
                     'notified-time-off-officers'          => 'Notified時間 Off Officers',
                     'take-time-off-in'                    => 'Take時間 Off In',
-                    'public-holiday-included'             => 'Public Holiday Included',
+                    'public-holiday-included'             => '包含國定假日',
                     'allow-to-attach-supporting-document' => '允許附加證明文件',
                     'show-on-dashboard'                   => '顯示於儀表板',
                     'allow-negative-cap'                  => '允許負值',
@@ -48,19 +48,19 @@ return [
             'company-name'              => '公司',
             'color'                     => '顏色',
             'notified-time-officers'    => 'Notified時間 Officers',
-            'time-off-approval'         => 'Time Off Approval',
+            'time-off-approval'         => '請假核准',
             'requires-allocation'       => '需要分配',
             'allocation-approval'       => '分配核准',
-            'employee-request'          => 'Employee Request',
+            'employee-request'          => '員工請求',
         ],
 
         'filters' => [
             'name'                => '名稱',
             'company-name'        => '公司',
-            'time-off-approval'   => 'Time Off Approval',
+            'time-off-approval'   => '請假核准',
             'requires-allocation' => '需要分配',
             'time-type'           => 'Time類型',
-            'request-unit'        => 'Request Unit',
+            'request-unit'        => '申請單位',
             'created-by'          => '建立者',
         ],
 
@@ -117,12 +117,12 @@ return [
                     'name'                => '標題',
                     'approval'            => '核准',
                     'requires-allocation' => '需要分配',
-                    'employee-requests'   => 'Employee Requests',
-                    'display-option'      => 'Display Option',
+                    'employee-requests'   => '員工請求',
+                    'display-option'      => '顯示選項',
                 ],
             ],
             'display-option' => [
-                'title'   => 'Display Option',
+                'title'   => '顯示選項',
                 'entries' => [
                     'color' => '顏色',
                 ],
@@ -133,7 +133,7 @@ return [
                 'entries' => [
                     'notified-time-off-officers'          => 'Notified時間 Off Officers',
                     'take-time-off-in'                    => 'Take時間 Off In',
-                    'public-holiday-included'             => 'Public Holiday Included',
+                    'public-holiday-included'             => '包含國定假日',
                     'allow-to-attach-supporting-document' => '允許附加證明文件',
                     'show-on-dashboard'                   => '顯示於儀表板',
                     'kind-off-time'                       => 'Kind of時間',

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Capacity By Packages',
+    'title' => '依包裝容量',
 
     'form' => [
         'package-type' => '包裝類型',

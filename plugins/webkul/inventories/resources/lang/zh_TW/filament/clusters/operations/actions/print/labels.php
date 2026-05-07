@@ -5,11 +5,11 @@ return [
 
     'form' => [
         'fields' => [
-            'type'          => 'Type Of Labels',
+            'type'          => '標籤類型',
             'quantity'      => '數量',
             'format'        => '格式',
             'layout'        => '標籤排版',
-            'quantity-type' => 'Quantity To Print',
+            'quantity-type' => '列印數量',
             'quantity'      => '數量',
 
             'quantity-type-options' => [
@@ -20,8 +20,8 @@ return [
             ],
 
             'type-options' => [
-                'product' => 'Product Labels',
-                'lot'     => 'Lot/SN Labels',
+                'product' => '商品標籤',
+                'lot'     => '批次／序號標籤',
             ],
 
             'format-options' => [

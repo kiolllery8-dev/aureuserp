@@ -10,7 +10,7 @@ return [
         ],
 
         'preview' => [
-            'modal-heading' => 'Preview Credit Note',
+            'modal-heading' => '預覽退貨單',
         ],
     ],
 ];

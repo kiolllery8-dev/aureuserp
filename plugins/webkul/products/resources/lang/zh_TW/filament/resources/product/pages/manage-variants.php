@@ -5,22 +5,22 @@ return [
 
     'form' => [
         'date'                   => '日期',
-        'employee'               => 'Employee',
+        'employee'               => '員工',
         'description'            => '說明',
         'time-spent'             => '已花時間',
-        'time-spent-helper-text' => 'Time spent in hours (Eg. 1.5 hours means 1 hour 30 minutes)',
+        'time-spent-helper-text' => '已花費時間，單位：小時（例如 1.5 表示 1 小時 30 分鐘）',
     ],
 
     'table' => [
         'columns' => [
             'date'                   => '日期',
-            'employee'               => 'Employee',
+            'employee'               => '員工',
             'description'            => '說明',
             'time-spent'             => '已花時間',
-            'time-spent-on-subtasks' => 'Time Spent on Subtasks',
+            'time-spent-on-subtasks' => '子任務花費時間',
             'total-time-spent'       => 'Total時間 Spent',
             'remaining-time'         => 'Remaining時間',
-            'variant-values'         => 'Variant Values',
+            'variant-values'         => '款式值',
         ],
 
         'actions' => [
@@ -38,7 +38,7 @@ return [
 
                         'form' => [
                             'fields' => [
-                                'quantity' => 'Number of Labels',
+                                'quantity' => '標籤數量',
                                 'format'   => '格式',
 
                                 'format-options' => [

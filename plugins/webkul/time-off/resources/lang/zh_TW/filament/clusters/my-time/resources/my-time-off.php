@@ -13,13 +13,13 @@ return [
         'fields' => [
             'time-off-type'     => '假別',
             'date'              => '日期',
-            'dates'             => 'Dates',
+            'dates'             => '日期',
             'request-date-from' => '申請開始日',
             'request-date-to'   => '申請結束日',
             'description'       => '說明',
             'period'            => '期間',
             'half-day'          => '半天',
-            'requested-days'    => 'Requested (Days/Hours)',
+            'requested-days'    => '已申請（日／時）',
             'description'       => '說明',
             'attachment'        => '附件',
             'day'               => ':day day',
@@ -29,7 +29,7 @@ return [
 
     'table' => [
         'columns' => [
-            'employee-name'  => 'Employee',
+            'employee-name'  => '員工',
             'time-off-type'  => '假別',
             'description'    => '說明',
             'date-from'      => '開始日期',
@@ -39,7 +39,7 @@ return [
         ],
 
         'groups' => [
-            'employee-name' => 'Employee',
+            'employee-name' => '員工',
             'time-off-type' => '假別',
             'status'        => '狀態',
             'start-date'    => '開始日期',
@@ -55,14 +55,14 @@ return [
                     'approve'  => '核准',
                 ],
                 'notification' => [
-                    'title' => 'Time Off approved',
+                    'title' => '請假已核准',
                     'body'  => 'The time off has been approved成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Time Off已刪除',
+                    'title' => '請假已刪除',
                     'body'  => 'The time off has been已刪除成功.',
                 ],
             ],
@@ -70,7 +70,7 @@ return [
             'refused' => [
                 'title'        => '拒絕',
                 'notification' => [
-                    'title' => 'Time Off refused',
+                    'title' => '請假已拒絕',
                     'body'  => 'The time off has been refused成功.',
                 ],
             ],
@@ -90,13 +90,13 @@ return [
         'entries' => [
             'time-off-type'     => '假別',
             'date'              => '日期',
-            'dates'             => 'Dates',
+            'dates'             => '日期',
             'request-date-from' => '申請開始日',
             'request-date-to'   => '申請結束日',
             'description'       => '說明',
             'period'            => '期間',
             'half-day'          => '半天',
-            'requested-days'    => 'Requested (Days/Hours)',
+            'requested-days'    => '已申請（日／時）',
             'description'       => '說明',
             'attachment'        => '附件',
             'day'               => ':day day',

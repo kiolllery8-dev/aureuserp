@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'included' => 'On Early Payment',
+    'included' => '提早付款時',
     'excluded' => '從未',
-    'mixed'    => 'Always (Upon Invoice)',
+    'mixed'    => '總是（開立時）',
 ];

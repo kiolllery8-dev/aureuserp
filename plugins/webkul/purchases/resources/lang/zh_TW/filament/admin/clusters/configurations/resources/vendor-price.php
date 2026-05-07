@@ -13,21 +13,21 @@ return [
                 'fields' => [
                     'vendor'                      => '供應商',
                     'vendor-product-name'         => 'Vendor Product名稱',
-                    'vendor-product-name-tooltip' => 'The vendor\'s product name will appear on the request for quotation. Leave it blank to use the internal product name.',
+                    'vendor-product-name-tooltip' => '供應商商品名稱會出現在報價邀請上，留空則用內部商品名稱。',
                     'vendor-product-code'         => 'Vendor Product代碼',
-                    'vendor-product-code-tooltip' => 'The vendor\'s product code will appear on the request for quotation. Leave it blank to use the internal code.',
+                    'vendor-product-code-tooltip' => '供應商商品代碼會出現在報價邀請上，留空則用內部代碼。',
                     'delay'                       => 'Delivery Lead時間 (Days)',
-                    'delay-tooltip'               => 'The lead time (in days) from purchase order confirmation to product receipt in the warehouse. Used by the scheduler for automatic purchase order planning.',
+                    'delay-tooltip'               => '從採購訂單確認到倉庫收到商品的前置時間（天），排程器用此自動規劃採購。',
                 ],
             ],
 
             'prices' => [
-                'title'  => 'Prices',
+                'title'  => '價格',
 
                 'fields' => [
                     'product'            => '商品',
                     'quantity'           => '數量',
-                    'quantity-tooltip'   => 'The minimum quantity required to purchase from this vendor to qualify for the specified price. This is expressed in the vendor\'s Product Unit of Measure or, if not set, the product\'s default unit of measure.',
+                    'quantity-tooltip'   => '向此供應商採購要享有指定價格的最低數量。以供應商的商品單位表示，未設定則用商品預設單位。',
                     'unit-price'         => '單價',
                     'unit-price-tooltip' => 'The price per unit for this product from the vendor, expressed in the vendor’s Product Unit of Measure or, if not set, the product\'s default unit of measure.',
                     'currency'           => '幣別',
@@ -59,10 +59,10 @@ return [
         ],
 
         'filters' => [
-            'vendor'        => 'Filter by Vendor',
-            'product'       => 'Filter by Product',
-            'currency'      => 'Filter by Currency',
-            'company'       => 'Filter by Company',
+            'vendor'        => '依供應商篩選',
+            'product'       => '依商品篩選',
+            'currency'      => '依幣別篩選',
+            'company'       => '依公司篩選',
             'price-from'    => 'Minimum價格',
             'price-to'      => 'Maximum價格',
             'min-qty-from'  => 'Minimum數量 From',
@@ -121,11 +121,11 @@ return [
                 'entries' => [
                     'vendor'                      => '供應商',
                     'vendor-product-name'         => 'Vendor Product名稱',
-                    'vendor-product-name-tooltip' => 'The vendor\'s product name will appear on the request for quotation. Leave it blank to use the internal product name.',
+                    'vendor-product-name-tooltip' => '供應商商品名稱會出現在報價邀請上，留空則用內部商品名稱。',
                     'vendor-product-code'         => 'Vendor Product代碼',
-                    'vendor-product-code-tooltip' => 'The vendor\'s product code will appear on the request for quotation. Leave it blank to use the internal code.',
+                    'vendor-product-code-tooltip' => '供應商商品代碼會出現在報價邀請上，留空則用內部代碼。',
                     'delay'                       => 'Delivery Lead時間 (Days)',
-                    'delay-tooltip'               => 'The lead time (in days) from purchase order confirmation to product receipt in the warehouse. Used by the scheduler for automatic purchase order planning.',
+                    'delay-tooltip'               => '從採購訂單確認到倉庫收到商品的前置時間（天），排程器用此自動規劃採購。',
                 ],
             ],
 
@@ -140,12 +140,12 @@ return [
             ],
 
             'prices' => [
-                'title'  => 'Prices',
+                'title'  => '價格',
 
                 'entries' => [
                     'product'            => '商品',
                     'quantity'           => '數量',
-                    'quantity-tooltip'   => 'The minimum quantity required to purchase from this vendor to qualify for the specified price. This is expressed in the vendor\'s Product Unit of Measure or, if not set, the product\'s default unit of measure.',
+                    'quantity-tooltip'   => '向此供應商採購要享有指定價格的最低數量。以供應商的商品單位表示，未設定則用商品預設單位。',
                     'unit-price'         => '單價',
                     'unit-price-tooltip' => 'The price per unit for this product from the vendor, expressed in the vendor’s Product Unit of Measure or, if not set, the product\'s default unit of measure.',
                     'currency'           => '幣別',

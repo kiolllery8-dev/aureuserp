@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'top-10-authors-count-by-blog-count' => 'Top 10 Authors by Blog Counts',
+    'top-10-authors-count-by-blog-count' => '依文章數前 10 位作者',
 
     'published-blogs-by-month' => '每月發佈文章',
 
-    'blogs-published-vs-draft' => 'Blogs: Published vs Draft',
+    'blogs-published-vs-draft' => '文章：已發佈 vs 草稿',
 
-    'blogs-by-category' => 'Blogs by Category',
+    'blogs-by-category' => '依分類文章',
 
     'recent-10-blogs' => '最近 10 篇文章',
 
-    'top-5-categories-with-most-blogs' => 'Top 5 Categories with Most Blogs',
+    'top-5-categories-with-most-blogs' => '文章最多的 5 個分類',
 
     'published' => '已發佈',
 
@@ -27,7 +27,7 @@ return [
 
     'category' => '分類',
 
-    'number-of-blogs' => 'Number of Blogs',
+    'number-of-blogs' => '文章數',
 
     'no-data-available' => '無可用資料',
 ];

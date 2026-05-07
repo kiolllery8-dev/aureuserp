@@ -28,7 +28,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Tag restored',
+                    'title' => '標籤已還原',
                     'body'  => 'The tag has been restored成功.',
                 ],
             ],
@@ -51,7 +51,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Tags restored',
+                    'title' => '標籤已還原',
                     'body'  => 'The tags has been restored成功.',
                 ],
             ],

@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Internal Transfers',
+        'title' => '內部移轉',
         'group' => '調撥',
     ],
 
@@ -15,7 +15,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Internal Transfer已刪除',
+                        'title' => '內部移轉已刪除',
                         'body'  => 'The internal transfer ras been已刪除成功.',
                     ],
 

@@ -9,8 +9,8 @@ return [
         'icon'                  => '圖示',
         'add-to-favorites'      => '新增To Favorites',
         'add-to-favorites-help' => '新增this filter to your favorites',
-        'make-public'           => 'Make Public',
-        'make-public-help'      => 'Make this filter available to all users',
+        'make-public'           => '設為公開',
+        'make-public-help'      => '讓所有使用者都能用這個篩選',
         'options'               => [
             'danger'  => '危險',
             'gray'    => '灰色',

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'label' => 'Send PO By Email',
+    'label' => '以電子郵件寄送訂單',
 
     'form' => [
         'fields' => [
@@ -14,7 +14,7 @@ return [
     'action' => [
         'notification' => [
             'success' => [
-                'title' => 'Email sent',
+                'title' => '電子郵件已寄出',
                 'body'  => 'The email has been sent成功.',
             ],
         ],

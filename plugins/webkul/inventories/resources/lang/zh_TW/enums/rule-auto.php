@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'manual'      => 'Manual Operation',
+    'manual'      => '手動作業',
     'transparent' => '自動，未新增步驟',
 ];

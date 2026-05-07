@@ -2,22 +2,22 @@
 
 return [
     'notification' => [
-        'title'              => 'Time Off已更新',
+        'title'              => '請假已更新',
         'body'               => 'The time off has been已更新成功.',
         'action_not_allowed' => [
-            'title' => 'Action Not Allowed',
-            'body'  => 'You cannot modify this leave request as it is in a locked state.',
+            'title' => '不允許此動作',
+            'body'  => '此請假申請已鎖定，無法修改。',
         ],
         'overlap' => [
             'title' => '請假時間重疊',
-            'body'  => 'The selected leave dates overlap with an existing request. Please choose different dates.',
+            'body'  => '所選假期日期與既有申請重疊，請改選其他日期。',
         ],
     ],
 
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Time Off已刪除',
+                'title' => '請假已刪除',
                 'body'  => 'The time off has been已刪除成功.',
             ],
         ],

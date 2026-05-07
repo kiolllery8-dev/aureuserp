@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'previous-activity' => 'After Previous Activity Deadline',
+    'previous-activity' => '前一活動截止後',
     'current-date'      => 'After Complete日期',
 ];

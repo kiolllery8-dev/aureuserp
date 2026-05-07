@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Our Latest Posts',
+        'title' => '最新文章',
     ],
 
     'empty' => [

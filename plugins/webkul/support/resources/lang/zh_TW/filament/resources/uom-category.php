@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'group' => '設定',
-        'title' => 'UOM Categories',
+        'title' => '單位分類',
     ],
 
     'form' => [

@@ -9,7 +9,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Order Deleted',
+                    'title' => '訂單已刪除',
                     'body'  => 'The order has been已刪除成功.',
                 ],
 

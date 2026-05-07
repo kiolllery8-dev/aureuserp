@@ -9,63 +9,63 @@ return [
         'balance-sheet' => [
             'navigation' => [
                 'title' => '資產負債表',
-                'group' => 'Statement Reports',
+                'group' => '明細報表',
             ],
             'actions' => [
                 'export-excel' => '匯出 Excel',
                 'export-pdf'   => '匯出 PDF',
             ],
             'filters' => [
-                'date-range' => 'Date Range',
+                'date-range' => '日期範圍',
                 'journals'   => '帳本',
             ],
             'content' => [
                 'sections' => [
                     'assets' => [
                         'title'       => '資產',
-                        'total-label' => 'Total ASSETS',
+                        'total-label' => '總資產',
                         'subsections' => [
                             'current-assets' => [
                                 'title'       => '流動資產',
-                                'total-label' => 'Total Current Assets',
+                                'total-label' => '總流動資產',
                             ],
                             'fixed-assets' => [
                                 'title'       => '固定資產',
-                                'total-label' => 'Total Fixed Assets',
+                                'total-label' => '總固定資產',
                             ],
                             'non-current-assets' => [
                                 'title'       => '非流動資產',
-                                'total-label' => 'Total Non-current Assets',
+                                'total-label' => '總非流動資產',
                             ],
                         ],
                     ],
                     'liabilities' => [
                         'title'       => '負債',
-                        'total-label' => 'Total LIABILITIES',
+                        'total-label' => '總負債',
                         'subsections' => [
                             'current-liabilities' => [
                                 'title'       => '流動負債',
-                                'total-label' => 'Total Current Liabilities',
+                                'total-label' => '總流動負債',
                             ],
                             'non-current-liabilities' => [
                                 'title'       => '非流動負債',
-                                'total-label' => 'Total Non-current Liabilities',
+                                'total-label' => '總非流動負債',
                             ],
                         ],
                     ],
                     'equity' => [
                         'title'       => '權益',
-                        'total-label' => 'Total EQUITY',
+                        'total-label' => '總權益',
                         'subsections' => [
                             'unallocated-earnings' => [
                                 'title'          => '未分配盈餘',
                                 'current-year'   => '本年度未分配盈餘',
                                 'previous-years' => '前年度未分配盈餘',
-                                'total-label'    => 'Total Unallocated Earnings',
+                                'total-label'    => '總未分配盈餘',
                             ],
                             'retained-earnings' => [
                                 'title'       => '保留盈餘',
-                                'total-label' => 'Total Retained Earnings',
+                                'total-label' => '總保留盈餘',
                             ],
                         ],
                     ],
@@ -76,26 +76,26 @@ return [
         'profit-loss' => [
             'navigation' => [
                 'title' => '損益表',
-                'group' => 'Statement Reports',
+                'group' => '明細報表',
             ],
             'actions' => [
                 'export-excel' => '匯出 Excel',
                 'export-pdf'   => '匯出 PDF',
             ],
             'filters' => [
-                'date-range' => 'Date Range',
+                'date-range' => '日期範圍',
                 'journals'   => '帳本',
             ],
             'content' => [
                 'sections' => [
                     'revenue' => [
                         'title'         => '收入',
-                        'total-label'   => 'Total Revenue',
+                        'total-label'   => '總收入',
                         'empty-message' => 'No revenue accounts with transactions in this period',
                     ],
                     'expenses' => [
                         'title'         => '費用',
-                        'total-label'   => 'Total Expenses',
+                        'total-label'   => '總費用',
                         'empty-message' => 'No expense accounts with transactions in this period',
                     ],
                 ],
@@ -104,42 +104,42 @@ return [
         'general-ledger' => [
             'navigation' => [
                 'title' => '總分類帳',
-                'group' => 'Audit Reports',
+                'group' => '稽核報表',
             ],
             'actions' => [
                 'export-excel' => '匯出 Excel',
                 'export-pdf'   => '匯出 PDF',
             ],
             'filters' => [
-                'date-range' => 'Date Range',
+                'date-range' => '日期範圍',
                 'journals'   => '帳本',
             ],
         ],
         'trial-balance' => [
             'navigation' => [
                 'title' => '試算表',
-                'group' => 'Audit Reports',
+                'group' => '稽核報表',
             ],
             'actions' => [
                 'export-excel' => '匯出 Excel',
                 'export-pdf'   => '匯出 PDF',
             ],
             'filters' => [
-                'date-range' => 'Date Range',
+                'date-range' => '日期範圍',
                 'journals'   => '帳本',
             ],
         ],
         'partner-ledger' => [
             'navigation' => [
-                'title' => 'Partner Ledger',
-                'group' => 'Partner Reports',
+                'title' => '夥伴帳冊',
+                'group' => '夥伴報表',
             ],
             'actions' => [
                 'export-excel' => '匯出 Excel',
                 'export-pdf'   => '匯出 PDF',
             ],
             'filters' => [
-                'date-range' => 'Date Range',
+                'date-range' => '日期範圍',
                 'partners'   => '夥伴',
                 'journals'   => '帳本',
             ],
@@ -147,7 +147,7 @@ return [
         'aged-receivable' => [
             'navigation' => [
                 'title' => '應收帳款帳齡',
-                'group' => 'Partner Reports',
+                'group' => '夥伴報表',
             ],
             'actions' => [
                 'export-excel' => '匯出 Excel',
@@ -163,10 +163,10 @@ return [
                 'options'       => [
                     'due-date'       => '到期日',
                     'invoice-date'   => '開立日期',
-                    'days-30'        => '30 Days',
-                    'days-60'        => '60 Days',
-                    'days-90'        => '90 Days',
-                    'posted-entries' => 'Posted Entries',
+                    'days-30'        => '30 天',
+                    'days-60'        => '60 天',
+                    'days-90'        => '90 天',
+                    'posted-entries' => '已過帳分錄',
                     'all-entries'    => '所有分錄',
                 ],
             ],
@@ -174,7 +174,7 @@ return [
         'aged-payable' => [
             'navigation' => [
                 'title' => '應付帳款帳齡',
-                'group' => 'Partner Reports',
+                'group' => '夥伴報表',
             ],
             'actions' => [
                 'export-excel' => '匯出 Excel',
@@ -190,10 +190,10 @@ return [
                 'options'       => [
                     'due-date'       => '到期日',
                     'invoice-date'   => '開立日期',
-                    'days-30'        => '30 Days',
-                    'days-60'        => '60 Days',
-                    'days-90'        => '90 Days',
-                    'posted-entries' => 'Posted Entries',
+                    'days-30'        => '30 天',
+                    'days-60'        => '60 天',
+                    'days-90'        => '90 天',
+                    'posted-entries' => '已過帳分錄',
                     'all-entries'    => '所有分錄',
                 ],
             ],

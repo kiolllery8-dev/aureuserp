@@ -52,8 +52,8 @@ return [
     'notifications' => [
 
         'throttled' => [
-            'title' => 'Too many registration attempts',
-            'body'  => 'Please try again in :seconds seconds.',
+            'title' => '註冊嘗試過多',
+            'body'  => '請在 :seconds 秒後重試。',
         ],
 
     ],

@@ -7,7 +7,7 @@ return [
     ],
 
     'tabs' => [
-        'my-applicants'          => 'My Applicants',
+        'my-applicants'          => '我的應徵者',
         'un-assigned'            => '未指派',
         'in-progress'            => '處理中',
         'hired'                  => '已錄用',
@@ -16,7 +16,7 @@ return [
         'blocked'                => 'Blocked',
         'directly-available'     => '立即可用',
         'created-recently'       => '最近建立',
-        'stage-updated-recently' => 'Stage Updated Recently',
+        'stage-updated-recently' => '階段最近更新',
     ],
 
     'header-actions' => [

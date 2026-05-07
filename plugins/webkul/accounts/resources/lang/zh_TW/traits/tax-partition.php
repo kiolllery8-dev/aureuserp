@@ -8,7 +8,7 @@ return [
         'document-type'     => 'Document類型',
         'account'           => '帳戶',
         'tax'               => '稅',
-        'tax-closing-entry' => 'Tax Closing Entry',
+        'tax-closing-entry' => '稅務結轉分錄',
     ],
 
     'table' => [
@@ -19,7 +19,7 @@ return [
             'company'           => '公司',
             'repartition-type'  => 'Repartition類型',
             'document-type'     => 'Document類型',
-            'tax-closing-entry' => 'Tax Closing Entry',
+            'tax-closing-entry' => '稅務結轉分錄',
         ],
 
         'actions' => [

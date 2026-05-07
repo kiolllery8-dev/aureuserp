@@ -37,7 +37,7 @@ return [
                 'title' => 'Routing資料',
 
                 'entries' => [
-                    'routes'     => 'Warehouse Routes',
+                    'routes'     => '倉庫路線',
                     'route_name' => 'Route名稱',
                 ],
             ],

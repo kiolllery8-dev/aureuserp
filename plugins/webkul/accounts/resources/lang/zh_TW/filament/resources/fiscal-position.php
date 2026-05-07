@@ -12,7 +12,7 @@ return [
             'name'                   => '名稱',
             'foreign-vat'            => '外國 VAT',
             'country'                => '國家',
-            'country-group'          => 'Country Group',
+            'country-group'          => '國家群組',
             'zip-from'               => '郵遞區號（起）',
             'zip-to'                 => '郵遞區號（迄）',
             'detect-automatically'   => '自動偵測',
@@ -23,8 +23,8 @@ return [
             'account-mapping' => [
                 'table' => [
                     'columns' => [
-                        'source-account'      => 'Source Account',
-                        'destination-account' => 'Destination Account',
+                        'source-account'      => '來源科目',
+                        'destination-account' => '目的科目',
                     ],
                 ],
 
@@ -32,8 +32,8 @@ return [
             'tax-mapping' => [
                 'table' => [
                     'columns' => [
-                        'tax-source'      => 'Tax Source',
-                        'tax-destination' => 'Tax Destination',
+                        'tax-source'      => '稅務來源',
+                        'tax-destination' => '稅務目的地',
                     ],
                 ],
             ],
@@ -45,7 +45,7 @@ return [
             'name'                 => '名稱',
             'company'              => '公司',
             'country'              => '國家',
-            'country-group'        => 'Country Group',
+            'country-group'        => '國家群組',
             'created-by'           => '建立者',
             'zip-from'             => '郵遞區號（起）',
             'zip-to'               => '郵遞區號（迄）',
@@ -77,7 +77,7 @@ return [
             'name'                 => '名稱',
             'foreign-vat'          => '外國 VAT',
             'country'              => '國家',
-            'country-group'        => 'Country Group',
+            'country-group'        => '國家群組',
             'zip-from'             => '郵遞區號（起）',
             'zip-to'               => '郵遞區號（迄）',
             'detect-automatically' => '自動偵測',

@@ -8,8 +8,8 @@ return [
     'tabs' => [
         'my-orders'      => 'My Orders',
         'starred'        => '已加星標',
-        'waiting-bills'  => 'Waiting Bills',
-        'received-bills' => 'Bills Received',
+        'waiting-bills'  => '等待帳單',
+        'received-bills' => '已收帳單',
     ],
 
     'header-actions' => [

@@ -6,5 +6,5 @@ return [
     'xrechnung' => 'XRechnung',
     'nlcius'    => 'NLCIUS',
     'ubl_a_nz'  => 'UBL BIS Billing 3 (Australia/新增Zealand)',
-    'ubl_sg'    => 'UBL BIS Billing 3 (Singapore)',
+    'ubl_sg'    => 'UBL BIS Billing 3（新加坡）',
 ];

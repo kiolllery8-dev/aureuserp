@@ -20,7 +20,7 @@ return [
     ],
 
     'notification' => [
-        'completed' => 'Your journal entry export has completed and :count row(s) exported.',
+        'completed' => '日記帳分錄匯出完成，共 :count 列。',
         'failed'    => ':count row(s) failed to export.',
     ],
 ];

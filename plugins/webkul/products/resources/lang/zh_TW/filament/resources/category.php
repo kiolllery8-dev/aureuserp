@@ -79,9 +79,9 @@ return [
 
                 'entries' => [
                     'name'        => '名稱',
-                    'parent'      => 'Parent Category',
+                    'parent'      => '上層分類',
                     'full_name'   => 'Full Category名稱',
-                    'parent_path' => 'Category Path',
+                    'parent_path' => '分類路徑',
                 ],
             ],
 

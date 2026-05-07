@@ -2,6 +2,6 @@
 
 return [
     'open'    => '未結',
-    'partner' => 'Base on Partner',
-    'invoice' => 'Base on Invoice',
+    'partner' => '依夥伴',
+    'invoice' => '依發票',
 ];

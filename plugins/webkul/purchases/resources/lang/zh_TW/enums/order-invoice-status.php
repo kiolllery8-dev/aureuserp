@@ -2,6 +2,6 @@
 
 return [
     'no'          => 'Noting To Bill',
-    'to-invoiced' => 'Waiting Bills',
+    'to-invoiced' => '等待帳單',
     'invoiced'    => '全數開立',
 ];

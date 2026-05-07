@@ -34,8 +34,8 @@ return [
                 'fields' => [
                     'roles'                                    => '角色',
                     'permissions'                              => '權限',
-                    'resource-permission'                      => 'Resource Permission',
-                    'resource-permission-self-change-disabled' => 'You cannot change your own resource permission. Ask another administrator to update it.',
+                    'resource-permission'                      => '資源權限',
+                    'resource-permission-self-change-disabled' => '您不能變更自己的資源權限，請其他管理者協助。',
                     'teams'                                    => '團隊',
                 ],
             ],
@@ -47,15 +47,15 @@ return [
             'lang-and-status' => [
                 'title'  => 'Language &狀態',
                 'fields' => [
-                    'language' => 'Preferred Language',
+                    'language' => '偏好語言',
                     'status'   => '狀態',
                 ],
             ],
 
             'multi-company' => [
-                'title'             => 'Multi Company',
-                'allowed-companies' => 'Allowed Companies',
-                'default-company'   => 'Default Company',
+                'title'             => '多公司',
+                'allowed-companies' => '允許的公司',
+                'default-company'   => '預設公司',
             ],
         ],
     ],
@@ -67,26 +67,26 @@ return [
             'email'               => '電子郵件',
             'teams'               => '團隊',
             'role'                => '角色',
-            'resource-permission' => 'Resource Permission',
-            'default-company'     => 'Default Company',
-            'allowed-company'     => 'Allowed Company',
+            'resource-permission' => '資源權限',
+            'default-company'     => '預設公司',
+            'allowed-company'     => '允許的公司',
             'created-by'          => '建立者',
             'created-at'          => '建立時間',
             'updated-at'          => '更新時間',
         ],
 
         'filters' => [
-            'resource-permission' => 'Resource Permission',
+            'resource-permission' => '資源權限',
             'teams'               => '團隊',
             'roles'               => '角色',
-            'default-company'     => 'Default Company',
-            'allowed-companies'   => 'Allowed Companies',
+            'default-company'     => '預設公司',
+            'allowed-companies'   => '允許的公司',
         ],
 
         'actions' => [
             'edit' => [
                 'notification' => [
-                    'title' => 'User edited',
+                    'title' => '使用者已編輯',
                     'body'  => 'The user has been edited成功.',
                 ],
             ],
@@ -96,15 +96,15 @@ return [
                     'title' => 'User已刪除',
                     'body'  => 'The user has been已刪除成功.',
                     'error' => [
-                        'title' => 'User Cannot Be Deleted',
-                        'body'  => 'This is a default user or you cannot delete yourself.',
+                        'title' => '使用者無法刪除',
+                        'body'  => '這是預設使用者，或您不能刪除自己。',
                     ],
                 ],
             ],
 
             'restore' => [
                 'notification' => [
-                    'title' => 'User restored',
+                    'title' => '使用者已還原',
                     'body'  => 'The user has been restored成功.',
                 ],
             ],
@@ -113,7 +113,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Users restored',
+                    'title' => '使用者已還原',
                     'body'  => 'The users has been restored成功.',
                 ],
             ],
@@ -164,7 +164,7 @@ return [
                 'entries' => [
                     'roles'               => '角色',
                     'permissions'         => '權限',
-                    'resource-permission' => 'Resource Permission',
+                    'resource-permission' => '資源權限',
                     'teams'               => '團隊',
                 ],
             ],
@@ -176,15 +176,15 @@ return [
             'lang-and-status' => [
                 'title'   => 'Language &狀態',
                 'entries' => [
-                    'language' => 'Preferred Language',
+                    'language' => '偏好語言',
                     'status'   => '狀態',
                 ],
             ],
 
             'multi-company' => [
-                'title'             => 'Multi Company',
-                'allowed-companies' => 'Allowed Companies',
-                'default-company'   => 'Default Company',
+                'title'             => '多公司',
+                'allowed-companies' => '允許的公司',
+                'default-company'   => '預設公司',
             ],
         ],
     ],

@@ -2,14 +2,14 @@
 
 return [
     'heading' => [
-        'title' => 'Time Off Overview',
+        'title' => '請假概覽',
     ],
 
     'modal-actions' => [
         'edit' => [
             'title'        => '編輯',
             'notification' => [
-                'title' => 'Time Off Updated',
+                'title' => '請假已更新',
                 'body'  => 'Time off request has been已更新成功.',
             ],
         ],
@@ -30,14 +30,14 @@ return [
             'description' => '新增Time Off Request',
 
             'notification' => [
-                'title' => 'Time Off Created',
+                'title' => '請假已建立',
                 'body'  => 'Time off request has been已建立成功.',
             ],
 
             'employee-not-found' => [
                 'notification' => [
-                    'title' => 'Employee Not Found',
-                    'body'  => 'Please add an employee to your profile before creating a time off request.',
+                    'title' => '找不到員工',
+                    'body'  => '建立請假申請前，請先在個人資料中新增員工。',
                 ],
             ],
         ],
@@ -50,7 +50,7 @@ return [
             'request-date-to'   => '申請結束日',
             'period'            => '期間',
             'half-day'          => '半天',
-            'requested-days'    => 'Requested (Days/Hours)',
+            'requested-days'    => '已申請（日／時）',
             'description'       => '說明',
         ],
     ],

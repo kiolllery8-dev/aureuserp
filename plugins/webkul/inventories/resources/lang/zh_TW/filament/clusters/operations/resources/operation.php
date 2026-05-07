@@ -19,7 +19,7 @@ return [
                 'fields' => [
                     'receive-from'         => '收貨自',
                     'contact'              => '聯絡人',
-                    'delivery-address'     => 'Delivery Address',
+                    'delivery-address'     => '送貨地址',
                     'operation-type'       => '作業類型',
                     'source-location'      => '從哪裡',
                     'destination-location' => '送到哪裡',
@@ -33,7 +33,7 @@ return [
 
                 'columns' => [
                     'product'        => '商品',
-                    'final-location' => 'Final Location',
+                    'final-location' => '最終位置',
                     'description'    => '說明',
                     'scheduled-at'   => '排定時間',
                     'deadline'       => '截止日',
@@ -46,7 +46,7 @@ return [
 
                 'fields' => [
                     'product'        => '商品',
-                    'final-location' => 'Final Location',
+                    'final-location' => '最終位置',
                     'description'    => '說明',
                     'scheduled-at'   => '排定時間',
                     'deadline'       => '截止日',
@@ -61,7 +61,7 @@ return [
                         'add-line'      => '新增明細',
 
                         'fields' => [
-                            'lot'       => 'Lot/Serial Number',
+                            'lot'       => '批次／序號',
                             'pick-from' => '揀貨自',
                             'location'  => '存放至',
                             'package'   => 'Destination Package',
@@ -78,11 +78,11 @@ return [
                 'fields' => [
                     'responsible'                  => '負責人',
                     'shipping-policy'              => '運送政策',
-                    'shipping-policy-hint-tooltip' => 'It defines whether goods should be delivered partially or all at once.',
+                    'shipping-policy-hint-tooltip' => '定義商品要分批還是一次出齊。',
                     'scheduled-at'                 => '排定時間',
-                    'scheduled-at-hint-tooltip'    => 'The scheduled time for processing the first part of the shipment. Manually setting a value here will apply it as the expected date for all stock moves.',
+                    'scheduled-at-hint-tooltip'    => '處理出貨第一部分的排程時間。手動設定後會套用為所有庫存移動的預期日期。',
                     'source-document'              => '來源單據',
-                    'source-document-hint-tooltip' => 'Reference of the document',
+                    'source-document-hint-tooltip' => '文件參考',
                 ],
             ],
 
@@ -98,7 +98,7 @@ return [
 
     'table' => [
         'columns' => [
-            'favorite'        => 'Favorite',
+            'favorite'        => '我的最愛',
             'reference'       => '參考編號',
             'from'            => '從',
             'to'              => '至',
@@ -106,7 +106,7 @@ return [
             'responsible'     => '負責人',
             'scheduled-at'    => '排定時間',
             'deadline'        => '截止日',
-            'closed-at'       => 'Closed At',
+            'closed-at'       => '關閉時間',
             'source-document' => '來源單據',
             'operation-type'  => '作業類型',
             'company'         => '公司',
@@ -134,7 +134,7 @@ return [
             'destination-location' => '送到哪裡',
             'deadline'             => '截止日',
             'scheduled-at'         => '排定時間',
-            'closed-at'            => 'Closed At',
+            'closed-at'            => '關閉時間',
             'created-at'           => '建立時間',
             'updated-at'           => '更新時間',
             'company'              => '公司',
@@ -160,7 +160,7 @@ return [
                 'title'   => '作業',
                 'entries' => [
                     'product'        => '商品',
-                    'final-location' => 'Final Location',
+                    'final-location' => '最終位置',
                     'description'    => '說明',
                     'scheduled-at'   => '排定時間',
                     'deadline'       => '截止日',
@@ -188,7 +188,7 @@ return [
 
     'tabs' => [
         'todo'     => '待辦',
-        'my'       => 'My Transfers',
+        'my'       => '我的移轉',
         'starred'  => '已加星標',
         'draft'    => '草稿',
         'waiting'  => 'Waiting',

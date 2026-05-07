@@ -1,21 +1,21 @@
 <?php
 
 return [
-    'title'          => 'Operation',
+    'title'          => '作業',
 
     'log-attributes' => [
         'name'                         => '名稱',
         'origin'                       => '來源',
         'move_type'                    => 'Move類型',
         'state'                        => '狀態',
-        'is_favorite'                  => 'Favorite',
+        'is_favorite'                  => '我的最愛',
         'description'                  => '說明',
         'has_deadline_issue'           => '有截止日問題',
         'is_printed'                   => '已列印',
         'is_locked'                    => '已鎖定',
         'deadline'                     => '截止日',
         'scheduled_at'                 => '排定時間',
-        'closed_at'                    => 'Closed At',
+        'closed_at'                    => '關閉時間',
         'user'                         => '使用者',
         'owner'                        => '擁有者',
         'operation-type'               => '作業類型',

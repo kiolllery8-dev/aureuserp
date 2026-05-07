@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Capacity By Products',
+    'title' => '依商品容量',
 
     'form' => [
         'product' => '商品',

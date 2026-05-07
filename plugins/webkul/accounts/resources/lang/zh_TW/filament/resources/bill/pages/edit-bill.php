@@ -15,7 +15,7 @@ return [
         ],
 
         'preview' => [
-            'modal-heading' => 'Preview Bill',
+            'modal-heading' => '預覽帳單',
         ],
 
         'reverse' => [

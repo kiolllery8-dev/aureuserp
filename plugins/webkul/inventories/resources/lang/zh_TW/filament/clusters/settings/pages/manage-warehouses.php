@@ -6,17 +6,17 @@ return [
     'form' => [
         'enable-locations'                      => '位置',
         'enable-locations-helper-text'          => '追蹤商品在倉庫的位置',
-        'configure-locations'                   => 'Configure Locations',
-        'enable-multi-steps-routes'             => 'Multi Steps Routes',
+        'configure-locations'                   => '設定位置',
+        'enable-multi-steps-routes'             => '多步驟路線',
         'enable-multi-steps-routes-helper-text' => '用自己的路線管理商品在倉庫間移動',
-        'configure-routes'                      => 'Configure Warehouse Routes',
+        'configure-routes'                      => '設定倉庫路線',
     ],
 
     'before-save' => [
         'notification' => [
             'warning' => [
                 'title' => '多倉庫',
-                'body'  => 'You can\'t deactivate the multi-location if you have more than one warehouse.',
+                'body'  => '若有多於一個倉庫，無法停用多位置。',
             ],
         ],
     ],

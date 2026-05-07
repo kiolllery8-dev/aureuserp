@@ -15,7 +15,7 @@ return [
 
                 'fields' => [
                     'stage-name'   => 'Stage名稱',
-                    'sort'         => 'Sequence Order',
+                    'sort'         => '順序',
                     'requirements' => '需求',
                 ],
             ],
@@ -40,8 +40,8 @@ return [
                 'fields' => [
                     'job-positions' => '職位',
                     'folded'        => '已收合',
-                    'hired-stage'   => 'Hired Stage',
-                    'default-stage' => 'Default Stage',
+                    'hired-stage'   => '錄用階段',
+                    'default-stage' => '預設階段',
                 ],
             ],
         ],
@@ -51,8 +51,8 @@ return [
         'columns' => [
             'id'                 => '編號',
             'name'               => 'Stage名稱',
-            'hired-stage'        => 'Hired Stage',
-            'default-stage'      => 'Default Stage',
+            'hired-stage'        => '錄用階段',
+            'default-stage'      => '預設階段',
             'folded'             => '已收合',
             'job-positions'      => '職位',
             'created-by'         => '建立者',
@@ -123,7 +123,7 @@ return [
 
                 'entries' => [
                     'stage-name'   => 'Stage名稱',
-                    'sort'         => 'Sequence Order',
+                    'sort'         => '順序',
                     'requirements' => '需求',
                 ],
             ],
@@ -148,8 +148,8 @@ return [
                 'entries' => [
                     'job-positions'      => '職位',
                     'folded'             => '已收合',
-                    'hired-stage'        => 'Hired Stage',
-                    'default-stage'      => 'Default Stage',
+                    'hired-stage'        => '錄用階段',
+                    'default-stage'      => '預設階段',
                 ],
             ],
         ],

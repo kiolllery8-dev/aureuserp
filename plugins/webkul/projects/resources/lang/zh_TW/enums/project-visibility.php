@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'private'  => 'Private',
+    'private'  => '私人',
     'internal' => '內部',
-    'public'   => 'Public',
+    'public'   => '公開',
 ];

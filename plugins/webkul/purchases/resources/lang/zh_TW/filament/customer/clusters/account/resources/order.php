@@ -21,7 +21,7 @@ return [
                     'label' => '接受',
 
                     'notification' => [
-                        'title' => 'Quotation Accepted',
+                        'title' => '報價已接受',
                         'body'  => 'The RFQ has been acknowledged成功.',
                     ],
 
@@ -34,7 +34,7 @@ return [
                     'label' => '拒絕',
 
                     'notification' => [
-                        'title' => 'Quotation Declined',
+                        'title' => '報價已拒絕',
                         'body'  => 'The RFQ has been declined成功.',
                     ],
 
@@ -51,8 +51,8 @@ return [
 
         'general' => [
             'entries' => [
-                'purchase-order'        => 'Purchase Order #:id',
-                'quotation'             => 'Request for Quotation #:id',
+                'purchase-order'        => '採購訂單 #:id',
+                'quotation'             => '報價邀請 #:id',
                 'order-date'            => '訂單日期',
                 'from'                  => '從',
                 'confirmation-date'     => 'Confirmation日期',

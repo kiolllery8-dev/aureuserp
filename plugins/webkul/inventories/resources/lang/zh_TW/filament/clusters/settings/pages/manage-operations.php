@@ -4,12 +4,12 @@ return [
     'title' => '管理Operations',
 
     'form' => [
-        'enable-packages'                     => 'Packages',
+        'enable-packages'                     => '包裝',
         'enable-packages-helper-text'         => '把商品打包（如包裹、箱）並追蹤',
-        'configure-packages'                  => 'Configure Packages',
+        'configure-packages'                  => '設定包裝',
         'enable-warnings'                     => '警告',
         'enable-warnings-helper-text'         => '為夥伴設定資訊或阻擋型警告',
-        'enable-reception-report'             => 'Reception Report',
+        'enable-reception-report'             => '收貨報告',
         'enable-reception-report-helper-text' => '檢視and allocate received quantities.',
         'annual-inventory-day'                => '年度盤點日',
         'annual-inventory-day-helper-text'    => '進行年度盤點的日期',

@@ -3,15 +3,15 @@
 return [
     'form' => [
         'fields' => [
-            'tax-source'      => 'Tax Source',
-            'tax-destination' => 'Tax Destination',
+            'tax-source'      => '稅務來源',
+            'tax-destination' => '稅務目的地',
         ],
     ],
 
     'table' => [
         'columns' => [
-            'tax-source'      => 'Tax Source',
-            'tax-destination' => 'Tax Destination',
+            'tax-source'      => '稅務來源',
+            'tax-destination' => '稅務目的地',
         ],
 
         'actions' => [
@@ -42,8 +42,8 @@ return [
 
     'infolist' => [
         'entries' => [
-            'tax-source'      => 'Tax Source',
-            'tax-destination' => 'Tax Destination',
+            'tax-source'      => '稅務來源',
+            'tax-destination' => '稅務目的地',
         ],
     ],
 ];

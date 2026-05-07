@@ -2,11 +2,11 @@
 
 return [
     'heading' => [
-        'title' => 'Stats Overview',
+        'title' => '統計概覽',
     ],
 
-    'total-tasks'          => 'Total Tasks',
-    'total-hours-spent'    => 'Total Hours Spent',
+    'total-tasks'          => '總任務',
+    'total-hours-spent'    => '總花費工時',
     'total-time-remaining' => 'Total時間 Remaining',
 
     'increase' => '增加',

@@ -4,13 +4,13 @@ return [
 
     'uninstall' => [
         'title'   => '解除安裝確認',
-        'message' => 'Are you sure you want to uninstall the :name plugin?',
-        'warning' => '⚠️ This action cannot be undone and will permanently delete data.',
+        'message' => '確定要解除安裝外掛 :name 嗎？',
+        'warning' => '⚠️ 此動作無法復原，會永久刪除資料。',
     ],
 
     'dependents' => [
         'title'         => '相依外掛',
-        'description'   => 'These plugins depend on this one and will also be uninstalled.',
+        'description'   => '下列外掛相依於此，會一併解除安裝。',
         'installed'     => '已安裝',
         'not_installed' => '未安裝',
     ],

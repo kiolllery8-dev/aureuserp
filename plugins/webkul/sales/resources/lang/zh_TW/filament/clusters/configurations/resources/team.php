@@ -54,7 +54,7 @@ return [
 
         'groups' => [
             'name'        => '名稱',
-            'company'     => ' Company',
+            'company'     => ' 公司',
             'team-leader' => '團隊主管',
             'created-at'  => '建立時間',
             'updated-at'  => '更新時間',

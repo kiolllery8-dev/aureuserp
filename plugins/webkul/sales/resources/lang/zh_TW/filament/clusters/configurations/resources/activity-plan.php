@@ -54,7 +54,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Activity Plan restored',
+                    'title' => '活動計畫已還原',
                     'body'  => 'The activity plan has been restored成功.',
                 ],
             ],
@@ -77,7 +77,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Activity Plans restored',
+                    'title' => '活動計畫已還原',
                     'body'  => 'The activity plans has been restored成功.',
                 ],
             ],

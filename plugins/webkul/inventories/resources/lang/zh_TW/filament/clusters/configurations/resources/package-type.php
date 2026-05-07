@@ -16,7 +16,7 @@ return [
                     'barcode'    => '條碼',
                     'company'    => '公司',
                     'weight'     => '重量',
-                    'max-weight' => 'Max Weight',
+                    'max-weight' => '最大重量',
 
                     'fieldsets' => [
                         'size' => [
@@ -39,7 +39,7 @@ return [
             'name'       => '名稱',
             'barcode'    => '條碼',
             'weight'     => '重量',
-            'max-weight' => 'Max Weight',
+            'max-weight' => '最大重量',
             'width'      => '寬度',
             'height'     => '高度',
             'length'     => '長度',
@@ -79,7 +79,7 @@ return [
                     'name'      => '名稱',
                     'fieldsets' => [
                         'size' => [
-                            'title'   => 'Package Dimensions',
+                            'title'   => '包裝尺寸',
                             'entries' => [
                                 'length' => '長度',
                                 'width'  => '寬度',
@@ -87,8 +87,8 @@ return [
                             ],
                         ],
                     ],
-                    'weight'     => 'Base Weight',
-                    'max-weight' => 'Maximum Weight',
+                    'weight'     => '基礎重量',
+                    'max-weight' => '最大重量',
                     'barcode'    => '條碼',
                     'company'    => '公司',
                     'created-at' => '建立時間',

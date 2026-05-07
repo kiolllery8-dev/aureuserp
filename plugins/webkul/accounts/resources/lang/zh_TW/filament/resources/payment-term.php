@@ -16,7 +16,7 @@ return [
 
         'tabs' => [
             'due-terms' => [
-                'title' => 'Due Terms',
+                'title' => '到期條件',
 
                 'repeater' => [
                     'due-terms' => [
@@ -24,7 +24,7 @@ return [
                             'value'                  => '值',
                             'due'                    => '到期',
                             'delay-type'             => 'Delay類型',
-                            'days-on-the-next-month' => 'Days on the next month',
+                            'days-on-the-next-month' => '次月日期',
                             'days'                   => '日',
                         ],
                     ],
@@ -43,10 +43,10 @@ return [
 
         'groups' => [
             'company-name'        => '公司名稱',
-            'discount-days'       => 'Discount Days',
+            'discount-days'       => '折扣天數',
             'early-pay-discount'  => '提早付款折扣',
             'payment-term'        => '付款條件',
-            'display-on-invoice'  => 'Display on Invoice',
+            'display-on-invoice'  => '顯示於發票',
             'early-discount'      => '提早折扣',
             'discount-percentage' => '折扣百分比',
         ],
@@ -54,7 +54,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Payment Term restored',
+                    'title' => '付款條件已還原',
                     'body'  => 'The payment term has been restored成功.',
                 ],
             ],
@@ -84,7 +84,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Payment Terms restored',
+                    'title' => '付款條件已還原',
                     'body'  => 'The payment Terms has been restored成功.',
                 ],
             ],
@@ -128,7 +128,7 @@ return [
 
         'tabs' => [
             'due-terms' => [
-                'title' => 'Due Terms',
+                'title' => '到期條件',
 
                 'repeater' => [
                     'due-terms' => [
@@ -136,7 +136,7 @@ return [
                             'value'                  => '值',
                             'due'                    => '到期',
                             'delay-type'             => 'Delay類型',
-                            'days-on-the-next-month' => 'Days on the next month',
+                            'days-on-the-next-month' => '次月日期',
                             'days'                   => '日',
                         ],
                     ],

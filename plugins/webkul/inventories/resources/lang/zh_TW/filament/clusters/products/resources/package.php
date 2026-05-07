@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => 'Packages',
+        'title' => '包裝',
         'group' => '庫存',
     ],
 
@@ -55,7 +55,7 @@ return [
             'delete' => [
                 'notification' => [
                     'success' => [
-                        'title' => 'Package已刪除',
+                        'title' => '包裝已刪除',
                         'body'  => 'The package has been已刪除成功.',
                     ],
 
@@ -95,7 +95,7 @@ return [
     'infolist' => [
         'sections' => [
             'general' => [
-                'title' => 'Package Details',
+                'title' => '包裝詳情',
 
                 'entries' => [
                     'name'         => 'Package名稱',

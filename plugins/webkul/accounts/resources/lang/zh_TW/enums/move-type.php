@@ -2,10 +2,10 @@
 
 return [
     'entry'       => '帳目記錄',
-    'out-invoice' => 'Customer Invoice',
-    'out-refund'  => 'Customer Credit Note',
-    'in-invoice'  => 'Vendor Bill',
-    'in-refund'   => 'Vendor Credit Note',
-    'out-receipt' => 'Sales Receipt',
-    'in-receipt'  => 'Purchase Receipt',
+    'out-invoice' => '客戶發票',
+    'out-refund'  => '客戶退貨單',
+    'in-invoice'  => '供應商帳單',
+    'in-refund'   => '供應商退貨單',
+    'out-receipt' => '銷售收據',
+    'in-receipt'  => '進貨收據',
 ];

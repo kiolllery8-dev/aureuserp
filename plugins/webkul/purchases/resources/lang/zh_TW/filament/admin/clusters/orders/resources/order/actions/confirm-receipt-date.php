@@ -6,7 +6,7 @@ return [
     'action' => [
         'notification' => [
             'success' => [
-                'title' => 'Order confirmed receipt date',
+                'title' => '訂單確認收貨日期',
                 'body'  => 'The order has been confirmed receipt date成功.',
             ],
         ],

@@ -3,11 +3,11 @@
 return [
     'breadcrumb'        => 'Application狀態 for :applicant',
     'greeting'          => '您好，',
-    'thank-you-message' => 'Thank you for your interest in joining the <b>:company</b> team.',
-    'future-endeavors'  => 'We wanted to let you know that, although your resume is competitive, our hiring team reviewed your application and <b>did not select it for further consideration</b>.',
+    'thank-you-message' => '感謝您有意加入 <b>:company</b> 團隊。',
+    'future-endeavors'  => '雖然您的履歷具備競爭力，但經過審閱，我們的招募團隊<b>未選擇您進入下一階段</b>。',
     'admin-details'     => [
         'name'  => '-- <br><strong>:name</strong>',
-        'email' => 'Email: :email',
-        'phone' => 'Phone: :phone',
+        'email' => '電子郵件：:email',
+        'phone' => '電話：:phone',
     ],
 ];

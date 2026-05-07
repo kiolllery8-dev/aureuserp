@@ -3,13 +3,13 @@
 return [
     'notification' => [
         'success' => [
-            'title' => 'Time Off已建立',
+            'title' => '請假已建立',
             'body'  => 'The time off has been已建立成功.',
         ],
 
         'overlap' => [
             'title' => '請假時間重疊',
-            'body'  => 'The selected leave dates overlap with an existing request. Please choose different dates.',
+            'body'  => '所選假期日期與既有申請重疊，請改選其他日期。',
         ],
 
         'warning' => [
@@ -19,17 +19,17 @@ return [
 
         'invalid_half_day_leave' => [
             'title' => '無效請假申請',
-            'body'  => '半天休假只能申請當天。',
+            'body'  => '半天假只能申請當天。',
         ],
 
         'leave_request_denied_no_allocation' => [
             'title' => '請假申請已拒絕',
-            'body'  => 'You do not have any allocated leave for :leaveType.',
+            'body'  => '您沒有 :leaveType 的可用假數。',
         ],
 
         'leave_request_denied_insufficient_balance' => [
             'title' => '請假申請已拒絕',
-            'body'  => 'Insufficient leave balance. You have :available_balance day(s) available. Requested: :requested_days day(s).',
+            'body'  => '假數不足。可用 :available_balance 天，申請 :requested_days 天。',
         ],
     ],
 ];

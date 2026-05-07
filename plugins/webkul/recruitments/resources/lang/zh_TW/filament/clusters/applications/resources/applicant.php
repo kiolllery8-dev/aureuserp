@@ -9,8 +9,8 @@ return [
 
     'global-search' => [
         'department' => '部門',
-        'work-email' => 'Work Email',
-        'work-phone' => 'Work Phone',
+        'work-email' => '工作電子郵件',
+        'work-phone' => '工作電話',
     ],
 
     'form' => [
@@ -23,7 +23,7 @@ return [
                     'evaluation-very-good'      => '評估：很好',
                     'evaluation-very-excellent' => '評估：極優',
                     'hired'                     => '已錄用',
-                    'candidate-name'            => 'Candidate name',
+                    'candidate-name'            => '候選人姓名',
                     'email'                     => 'Emails',
                     'phone'                     => '電話',
                     'linkedin-profile'          => 'LinkedIn 檔案',
@@ -61,7 +61,7 @@ return [
             ],
 
             'source-and-medium' => [
-                'title' => 'Source & Medium',
+                'title' => '來源與媒介',
 
                 'fields' => [
                     'source' => '來源',
@@ -77,7 +77,7 @@ return [
             'applied-on'         => '申請日期',
             'job-position'       => '職位',
             'stage'              => '階段',
-            'candidate-name'     => 'Candidate名稱',
+            'candidate-name'     => '候選人姓名',
             'evaluation'         => '評估',
             'application-status' => 'Application狀態',
             'tags'               => '標籤',
@@ -99,10 +99,10 @@ return [
             'priority'                => '優先順序',
             'salary-proposed-extra'   => '額外提議薪資',
             'salary-expected-extra'   => '額外預期薪資',
-            'applicant-notes'         => 'Applicant Notes',
+            'applicant-notes'         => '應徵者備註',
             'create-date'             => '申請日期',
             'date-closed'             => 'Hired日期',
-            'date-last-stage-updated' => 'Last Stage Updated',
+            'date-last-stage-updated' => '最後階段更新',
             'stage'                   => '階段',
             'job-position'            => '職位',
         ],
@@ -110,7 +110,7 @@ return [
         'actions' => [
             'delete' => [
                 'notification' => [
-                    'title' => 'Applicant Deleted',
+                    'title' => '應徵者已刪除',
                     'body'  => 'The applicant was成功已刪除.',
                 ],
             ],
@@ -119,11 +119,11 @@ return [
         'groups' => [
             'stage'          => '階段',
             'job-position'   => '職位',
-            'candidate-name' => 'Candidate名稱',
+            'candidate-name' => '候選人姓名',
             'responsible'    => '負責人',
             'creation-date'  => 'Creation日期',
             'hired-date'     => 'Hired日期',
-            'last-stage'     => 'Last Stage',
+            'last-stage'     => '最後階段',
             'refuse-reason'  => '拒絕原因',
         ],
 
@@ -144,7 +144,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Employees restored',
+                    'title' => '員工已還原',
                     'body'  => 'The employees has been restored成功.',
                 ],
             ],
@@ -161,7 +161,7 @@ return [
                     'evaluation-very-good'      => '評估：很好',
                     'evaluation-very-excellent' => '評估：極優',
                     'hired'                     => '已錄用',
-                    'candidate-name'            => 'Candidate name',
+                    'candidate-name'            => '候選人姓名',
                     'email'                     => 'Emails',
                     'phone'                     => '電話',
                     'linkedin-profile'          => 'LinkedIn 檔案',
@@ -198,7 +198,7 @@ return [
             ],
 
             'source-and-medium' => [
-                'title' => 'Source & Medium',
+                'title' => '來源與媒介',
 
                 'entries' => [
                     'source' => '來源',

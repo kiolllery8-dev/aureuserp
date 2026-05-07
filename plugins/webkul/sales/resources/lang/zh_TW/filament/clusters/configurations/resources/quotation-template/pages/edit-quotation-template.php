@@ -2,7 +2,7 @@
 
 return [
     'notification' => [
-        'title' => 'Quotation Template Updated',
+        'title' => '報價範本已更新',
         'body'  => 'Quotation Template has been已更新成功.',
     ],
 

@@ -13,8 +13,8 @@ return [
             'name'             => '名稱',
             'template'         => [
                 'title'                    => '範本',
-                'applicant-refuse'         => 'Applicant Refuse',
-                'applicant-not-interested' => 'Applicant Not Interested',
+                'applicant-refuse'         => '應徵者拒絕',
+                'applicant-not-interested' => '應徵者沒興趣',
             ],
             'name-placeholder' => '輸入拒絕原因名稱',
         ],
@@ -32,7 +32,7 @@ return [
 
         'filters' => [
             'name'       => '名稱',
-            'employee'   => 'Employee',
+            'employee'   => '員工',
             'created-by' => '建立者',
             'updated-at' => '更新時間',
             'created-at' => '建立時間',

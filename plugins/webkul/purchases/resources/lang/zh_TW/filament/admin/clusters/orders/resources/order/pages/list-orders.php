@@ -10,7 +10,7 @@ return [
         'starred'         => '已加星標',
         'purchase-orders' => '採購單',
         'orders'          => '報價邀請',
-        'draft-orders'    => 'Draft RFQs',
+        'draft-orders'    => '草稿報價邀請',
         'waiting-orders'  => '等待中的報價邀請',
         'late-orders'     => '逾期的報價邀請',
     ],

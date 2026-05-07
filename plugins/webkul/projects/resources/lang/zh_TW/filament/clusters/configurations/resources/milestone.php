@@ -8,7 +8,7 @@ return [
     'form' => [
         'name'         => '名稱',
         'deadline'     => '截止日',
-        'is-completed' => 'Is Completed',
+        'is-completed' => '已完成',
         'project'      => '專案',
     ],
 
@@ -16,8 +16,8 @@ return [
         'columns' => [
             'name'         => '名稱',
             'deadline'     => '截止日',
-            'is-completed' => 'Is Completed',
-            'completed-at' => 'Completed At',
+            'is-completed' => '已完成',
+            'completed-at' => '完成時間',
             'project'      => '專案',
             'creator'      => '建立者',
             'created-at'   => '建立時間',
@@ -26,13 +26,13 @@ return [
 
         'groups' => [
             'name'         => '名稱',
-            'is-completed' => 'Is Completed',
+            'is-completed' => '已完成',
             'project'      => '專案',
             'created-at'   => '建立時間',
         ],
 
         'filters' => [
-            'is-completed' => 'Is Completed',
+            'is-completed' => '已完成',
             'project'      => '專案',
             'creator'      => '建立者',
         ],

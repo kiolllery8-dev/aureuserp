@@ -69,7 +69,7 @@ return [
 
     'table' => [
         'columns' => [
-            'favorite'        => 'Favorite',
+            'favorite'        => '我的最愛',
             'name'            => '名稱',
             'variants'        => '規格',
             'images'          => '圖片',
@@ -103,7 +103,7 @@ return [
             'company'     => '公司',
             'price'       => '價格',
             'cost'        => '成本',
-            'is-favorite' => 'Is Favorite',
+            'is-favorite' => '我的最愛',
             'weight'      => '重量',
             'volume'      => '體積',
             'tags'        => '標籤',
@@ -116,14 +116,14 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Product restored',
+                    'title' => '商品已還原',
                     'body'  => 'The product has been restored成功.',
                 ],
             ],
 
             'delete' => [
                 'notification' => [
-                    'title' => 'Product已刪除',
+                    'title' => '商品已刪除',
                     'body'  => 'The product has been已刪除成功.',
                 ],
             ],
@@ -149,7 +149,7 @@ return [
 
                 'form' => [
                     'fields' => [
-                        'quantity' => 'Number of Labels',
+                        'quantity' => '標籤數量',
                         'format'   => '格式',
 
                         'format-options' => [
@@ -165,7 +165,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Products restored',
+                    'title' => '商品已還原',
                     'body'  => 'The products has been restored成功.',
                 ],
             ],

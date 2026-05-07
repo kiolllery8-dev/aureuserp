@@ -23,7 +23,7 @@ return [
             ],
 
             'format-information' => [
-                'title' => 'Format Configuration',
+                'title' => '格式設定',
 
                 'fields' => [
                     'decimal-places'        => '小數位數',
@@ -33,7 +33,7 @@ return [
             ],
 
             'status-and-configuration-information' => [
-                'title' => 'Status & Configuration',
+                'title' => '狀態與設定',
 
                 'fields' => [
                     'status' => '狀態',
@@ -41,12 +41,12 @@ return [
             ],
 
             'rates' => [
-                'title'       => 'Currency Rates',
+                'title'       => '貨幣匯率',
                 'description' => '管理historic exchange rates for this currency relative to the base currency (USD).',
 
                 'fields' => [
                     'name'              => '日期',
-                    'unit-per-currency' => 'Unit Per :currency',
+                    'unit-per-currency' => '每 :currency 單位',
                     'currency-per-unit' => ':currency Per Unit',
                 ],
 
@@ -124,7 +124,7 @@ return [
             ],
 
             'format-information' => [
-                'title' => 'Format Configuration',
+                'title' => '格式設定',
 
                 'entries' => [
                     'decimal-places' => '小數位數',
@@ -133,7 +133,7 @@ return [
             ],
 
             'status-and-configuration-information' => [
-                'title' => 'Status & Configuration',
+                'title' => '狀態與設定',
 
                 'entries' => [
                     'status' => '狀態',
@@ -141,11 +141,11 @@ return [
             ],
 
             'rates' => [
-                'title'       => 'Currency Rates',
+                'title'       => '貨幣匯率',
 
                 'entries' => [
                     'name'              => '日期',
-                    'unit-per-currency' => 'Unit Per :currency',
+                    'unit-per-currency' => '每 :currency 單位',
                     'currency-per-unit' => ':currency Per Unit',
                 ],
             ],

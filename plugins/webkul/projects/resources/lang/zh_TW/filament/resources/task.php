@@ -21,7 +21,7 @@ return [
 
                 'fields' => [
                     'title'             => '標題',
-                    'title-placeholder' => 'Task Title...',
+                    'title-placeholder' => '任務標題…',
                     'tags'              => '標籤',
                     'name'              => '名稱',
                     'color'             => '顏色',
@@ -46,7 +46,7 @@ return [
                     'milestone-hint-text'         => 'Automatically deliver your services upon reaching a milestone by linking it to a sales order item.',
                     'name'                        => '名稱',
                     'deadline'                    => '截止日',
-                    'is-completed'                => 'Is Completed',
+                    'is-completed'                => '已完成',
                     'customer'                    => '客戶',
                     'assignees'                   => '指派對象',
                     'allocated-hours'             => '分配工時',
@@ -65,13 +65,13 @@ return [
             'update-state'        => '更新狀態',
             'title'               => '標題',
             'project'             => '專案',
-            'project-placeholder' => 'Private Task',
+            'project-placeholder' => '私人任務',
             'milestone'           => '里程碑',
             'customer'            => '客戶',
             'assignees'           => '指派對象',
             'allocated-time'      => 'Allocated時間',
             'time-spent'          => '已花時間',
-            'time-remaining'      => 'Time Remaining',
+            'time-remaining'      => '剩餘時間',
             'progress'            => 'Progress',
             'deadline'            => '截止日',
             'tags'                => '標籤',
@@ -96,7 +96,7 @@ return [
             'state'             => '狀態',
             'tags'              => '標籤',
             'allocated-hours'   => '分配工時',
-            'total-hours-spent' => 'Total Hours Spent',
+            'total-hours-spent' => '總花費工時',
             'remaining-hours'   => '剩餘工時',
             'overtime'          => '加班',
             'progress'          => 'Progress',
@@ -115,7 +115,7 @@ return [
         'actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Task restored',
+                    'title' => '任務已還原',
                     'body'  => 'The task has been restored成功.',
                 ],
             ],
@@ -138,7 +138,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Tasks restored',
+                    'title' => '任務已還原',
                     'body'  => 'The tasks has been restored成功.',
                 ],
             ],
@@ -187,13 +187,13 @@ return [
             ],
 
             'time-tracking' => [
-                'title' => 'Time Tracking',
+                'title' => '工時追蹤',
 
                 'entries' => [
                     'allocated-time'        => 'Allocated時間',
                     'time-spent'            => '已花時間',
                     'time-spent-suffix'     => ' 小時',
-                    'time-remaining'        => 'Time Remaining',
+                    'time-remaining'        => '剩餘時間',
                     'time-remaining-suffix' => ' 小時',
                     'progress'              => 'Progress',
                 ],
@@ -217,7 +217,7 @@ return [
                 'title' => '統計',
 
                 'entries' => [
-                    'sub-tasks'         => 'Sub Tasks',
+                    'sub-tasks'         => '子任務',
                     'timesheet-entries' => '工時表項目',
                 ],
             ],

@@ -4,14 +4,14 @@ return [
     'form' => [
         'name'          => '名稱',
         'level'         => '等級',
-        'default-level' => 'Default Level',
+        'default-level' => '預設等級',
     ],
 
     'table' => [
         'columns' => [
             'name'          => '名稱',
             'level'         => '等級',
-            'default-level' => 'Default Level',
+            'default-level' => '預設等級',
             'created-at'    => '建立時間',
             'updated-at'    => '更新時間',
         ],
@@ -41,7 +41,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Skill Level restored',
+                    'title' => '技能等級已還原',
                     'body'  => 'The skill level has been restored成功.',
                 ],
             ],
@@ -71,7 +71,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Skill Levels force restored',
+                    'title' => '技能等級已強制還原',
                     'body'  => 'The skills has been force restored成功.',
                 ],
             ],
@@ -82,7 +82,7 @@ return [
         'entries' => [
             'name'          => '名稱',
             'level'         => '等級',
-            'default-level' => 'Default Level',
+            'default-level' => '預設等級',
         ],
     ],
 ];

@@ -3,6 +3,6 @@
 return [
     'navigation' => [
         'title' => '銀行',
-        'group' => 'Bank Accounts',
+        'group' => '銀行帳戶',
     ],
 ];

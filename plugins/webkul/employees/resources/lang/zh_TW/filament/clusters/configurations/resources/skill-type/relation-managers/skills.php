@@ -30,7 +30,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Skill restored',
+                    'title' => '技能已還原',
                     'body'  => 'The skill has been restored成功.',
                 ],
             ],
@@ -60,7 +60,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Skills force restored',
+                    'title' => '技能已強制還原',
                     'body'  => 'The skills has been force restored成功.',
                 ],
             ],

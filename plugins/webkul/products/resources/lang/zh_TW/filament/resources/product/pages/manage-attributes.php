@@ -9,7 +9,7 @@ return [
     ],
 
     'table' => [
-        'description' => 'Warning: adding or deleting attributes will delete and recreate existing variants and lead to the loss of their possible customizations.',
+        'description' => '警告：新增或刪除屬性會刪除並重建既有款式，可能導致原先客製化的設定遺失。',
 
         'header-actions' => [
             'create' => [

@@ -13,7 +13,7 @@ return [
             'general' => [
                 'title'  => '一般',
                 'fields' => [
-                    'customer-invoice' => 'Customer Credit Note',
+                    'customer-invoice' => '客戶退貨單',
                     'customer'         => '客戶',
                     'invoice-date'     => '開立日期',
                     'due-date'         => '到期日',
@@ -24,7 +24,7 @@ return [
 
         'tabs' => [
             'invoice-lines' => [
-                'title' => 'Invoice Lines',
+                'title' => '發票項目',
 
                 'repeater' => [
                     'products' => [
@@ -50,10 +50,10 @@ return [
                     'invoice' => [
                         'title'  => '發票',
                         'fields' => [
-                            'customer-reference' => 'Customer Reference',
+                            'customer-reference' => '客戶參考',
                             'sales-person'       => '業務',
                             'payment-reference'  => '付款參考',
-                            'recipient-bank'     => 'Recipient Bank',
+                            'recipient-bank'     => '收款銀行',
                             'delivery-date'      => 'Delivery日期',
                         ],
                     ],
@@ -65,7 +65,7 @@ return [
                             'incoterm'          => '貿易條件',
                             'incoterm-location' => '貿易條件地點',
                             'payment-method'    => '付款方式',
-                            'auto-post'         => 'Auto Post',
+                            'auto-post'         => '自動過帳',
                             'checked'           => '已核對',
                         ],
                     ],
@@ -100,7 +100,7 @@ return [
             'general' => [
                 'title'   => '一般',
                 'entries' => [
-                    'customer-invoice' => 'Customer Credit Note',
+                    'customer-invoice' => '客戶退貨單',
                     'customer'         => '客戶',
                     'invoice-date'     => '開立日期',
                     'due-date'         => '到期日',
@@ -111,7 +111,7 @@ return [
 
         'tabs' => [
             'invoice-lines' => [
-                'title' => 'Invoice Lines',
+                'title' => '發票項目',
 
                 'repeater' => [
                     'products' => [
@@ -135,10 +135,10 @@ return [
                     'invoice' => [
                         'title'   => '發票',
                         'entries' => [
-                            'customer-reference' => 'Customer Reference',
+                            'customer-reference' => '客戶參考',
                             'sales-person'       => '業務',
                             'payment-reference'  => '付款參考',
-                            'recipient-bank'     => 'Recipient Bank',
+                            'recipient-bank'     => '收款銀行',
                             'delivery-date'      => 'Delivery日期',
                         ],
                     ],
@@ -150,7 +150,7 @@ return [
                             'incoterm'          => '貿易條件',
                             'incoterm-location' => '貿易條件地點',
                             'payment-method'    => '付款方式',
-                            'auto-post'         => 'Auto Post',
+                            'auto-post'         => '自動過帳',
                             'checked'           => '已核對',
                         ],
                     ],

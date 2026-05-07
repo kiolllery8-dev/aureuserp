@@ -10,10 +10,10 @@ return [
     'form' => [
         'sections' => [
             'skill-details' => [
-                'title' => 'Skill Details',
+                'title' => '技能詳情',
 
                 'fields' => [
-                    'employee'       => 'Employee',
+                    'employee'       => '員工',
                     'skill'          => '技能',
                     'skill-level'    => '等級',
                     'skill-type'     => '技能類別',
@@ -33,7 +33,7 @@ return [
     'table' => [
         'columns' => [
             'id'              => '編號',
-            'employee'        => 'Employee',
+            'employee'        => '員工',
             'skill'           => '技能',
             'skill-level'     => '等級',
             'skill-type'      => '技能類別',
@@ -44,7 +44,7 @@ return [
         ],
 
         'filters' => [
-            'employee'        => 'Employee',
+            'employee'        => '員工',
             'skill'           => '技能',
             'skill-level'     => '等級',
             'skill-type'      => '技能類別',
@@ -55,7 +55,7 @@ return [
         ],
 
         'groups' => [
-            'employee'   => 'Employee',
+            'employee'   => '員工',
             'skill-type' => '技能類別',
         ],
     ],
@@ -63,10 +63,10 @@ return [
     'infolist' => [
         'sections' => [
             'skill-details' => [
-                'title' => 'Skill Details',
+                'title' => '技能詳情',
 
                 'entries' => [
-                    'employee'        => 'Employee',
+                    'employee'        => '員工',
                     'skill'           => '技能',
                     'skill-level'     => '等級',
                     'skill-type'      => '技能類別',

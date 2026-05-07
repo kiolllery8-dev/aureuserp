@@ -6,19 +6,19 @@ return [
             'fields' => [
                 'name'            => '名稱',
                 'tax-type'        => 'Tax類型',
-                'tax-computation' => 'Tax Computation',
-                'tax-scope'       => 'Tax Scope',
+                'tax-computation' => '稅務計算',
+                'tax-scope'       => '稅務範圍',
                 'status'          => '狀態',
                 'amount'          => '金額',
             ],
 
             'repeater' => [
                 'invoice-repartition-lines' => [
-                    'label' => 'Invoice Repartition Lines',
+                    'label' => '發票分配行',
                 ],
 
                 'refund-repartition-lines' => [
-                    'label' => 'Refund Repartition Lines',
+                    'label' => '退款分配行',
                 ],
 
                 'fields' => [
@@ -30,21 +30,21 @@ return [
 
             'field-set' => [
                 'advanced-options' => [
-                    'title' => 'Advanced Options',
+                    'title' => '進階選項',
 
                     'fields' => [
-                        'invoice-label'       => 'Invoice label',
+                        'invoice-label'       => '發票標籤',
                         'tax-group'           => '稅務群組',
                         'country'             => '國家',
                         'include-in-price'    => 'Included in價格',
-                        'include-base-amount' => 'Affect Base of Subsequent Taxes',
-                        'is-base-affected'    => 'Base Affected by Previous Taxes',
+                        'include-base-amount' => '影響後續稅的基準',
+                        'is-base-affected'    => '基準受先前稅影響',
                     ],
                 ],
 
                 'fields' => [
                     'description' => '說明',
-                    'legal-notes' => 'Legal Notes',
+                    'legal-notes' => '法律備註',
                 ],
             ],
         ],
@@ -58,11 +58,11 @@ return [
             'tax-group'              => '稅務群組',
             'country'                => '國家',
             'tax-type'               => 'Tax類型',
-            'tax-scope'              => 'Tax Scope',
+            'tax-scope'              => '稅務範圍',
             'amount-type'            => 'Amount類型',
-            'invoice-label'          => 'Invoice Label',
-            'tax-exigibility'        => 'Tax Exigibility',
-            'price-include-override' => 'Price Include Override',
+            'invoice-label'          => '發票標籤',
+            'tax-exigibility'        => '稅務時點',
+            'price-include-override' => '覆寫含稅價',
             'amount'                 => '金額',
             'status'                 => '狀態',
             'include-base-amount'    => '含基準金額',
@@ -75,8 +75,8 @@ return [
             'tax-group'    => '稅務群組',
             'country'      => '國家',
             'created-by'   => '建立者',
-            'type-tax-use' => 'Type Tax Use',
-            'tax-scope'    => 'Tax Scope',
+            'type-tax-use' => '稅務用途類型',
+            'tax-scope'    => '稅務範圍',
             'amount-type'  => 'Amount類型',
         ],
 
@@ -136,18 +136,18 @@ return [
             'entries' => [
                 'name'            => '名稱',
                 'tax-type'        => 'Tax類型',
-                'tax-computation' => 'Tax Computation',
-                'tax-scope'       => 'Tax Scope',
+                'tax-computation' => '稅務計算',
+                'tax-scope'       => '稅務範圍',
                 'status'          => '狀態',
                 'amount'          => '金額',
             ],
 
             'field-set' => [
                 'advanced-options' => [
-                    'title' => 'Advanced Options',
+                    'title' => '進階選項',
 
                     'entries' => [
-                        'invoice-label'       => 'Invoice label',
+                        'invoice-label'       => '發票標籤',
                         'tax-group'           => '稅務群組',
                         'country'             => '國家',
                         'include-in-price'    => '含於價格',
@@ -157,10 +157,10 @@ return [
                 ],
 
                 'description-and-legal-notes' => [
-                    'title'   => 'Description & Invoice Legal Notes',
+                    'title'   => '說明與發票法律備註',
                     'entries' => [
                         'description' => '說明',
-                        'legal-notes' => 'Legal Notes',
+                        'legal-notes' => '法律備註',
                     ],
                 ],
             ],

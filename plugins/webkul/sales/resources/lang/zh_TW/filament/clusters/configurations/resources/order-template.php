@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'title' => 'Order Template Products',
+    'title' => '訂單範本商品',
 
     'navigation' => [
-        'title' => 'Order Template Products',
+        'title' => '訂單範本商品',
         'group' => '銷貨訂單',
     ],
 
@@ -15,10 +15,10 @@ return [
     'form' => [
         'fields' => [
             'sort'           => '排序',
-            'order-template' => 'Order Template',
+            'order-template' => '訂單範本',
             'company'        => '公司',
             'product'        => '商品',
-            'product-uom'    => 'Product UOM',
+            'product-uom'    => '商品單位',
             'creator'        => '建立者',
             'display-type'   => '顯示類型',
             'name'           => '名稱',
@@ -29,10 +29,10 @@ return [
     'table' => [
         'columns' => [
             'sort'           => '排序',
-            'order-template' => 'Order Template',
+            'order-template' => '訂單範本',
             'company'        => '公司',
             'product'        => '商品',
-            'product-uom'    => 'Product UOM',
+            'product-uom'    => '商品單位',
             'created-by'     => '建立者',
             'display-type'   => '顯示類型',
             'name'           => '名稱',
@@ -68,11 +68,11 @@ return [
 
     'infolist' => [
         'entries' => [
-            'sort'           => 'Sort Order',
-            'order-template' => 'Order Template',
+            'sort'           => '排序',
+            'order-template' => '訂單範本',
             'company'        => '公司',
             'product'        => '商品',
-            'product-uom'    => 'Product UOM',
+            'product-uom'    => '商品單位',
             'display-type'   => '顯示類型',
             'name'           => '名稱',
             'quantity'       => '數量',

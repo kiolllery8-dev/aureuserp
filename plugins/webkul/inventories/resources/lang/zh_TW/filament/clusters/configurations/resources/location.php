@@ -3,7 +3,7 @@
 return [
     'navigation' => [
         'title' => '位置',
-        'group' => 'Warehouse Management',
+        'group' => '倉庫管理',
     ],
 
     'form' => [
@@ -14,9 +14,9 @@ return [
                 'fields' => [
                     'location'                     => '位置',
                     'location-placeholder'         => '例：備品庫存',
-                    'parent-location'              => 'Parent Location',
-                    'parent-location-hint-tooltip' => 'The main location that encompasses this location. For example, the \'Dispatch Zone\' is part of the \'Gate 1\' parent location.',
-                    'external-notes'               => 'External Notes',
+                    'parent-location'              => '上層位置',
+                    'parent-location-hint-tooltip' => '包含此位置的主位置。例如「派送區」是上層位置「Gate 1」的一部分。',
+                    'external-notes'               => '外部備註',
                 ],
             ],
 
@@ -27,21 +27,21 @@ return [
                     'location-type'                 => 'Location類型',
                     'company'                       => '公司',
                     'storage-category'              => '儲存分類',
-                    'is-scrap'                      => 'Is a Scrap Location?',
-                    'is-scrap-hint-tooltip'         => 'Select this checkbox to designate this location for storing scrapped or damaged goods.',
-                    'is-dock'                       => 'Is a Dock Location?',
-                    'is-dock-hint-tooltip'          => 'Select this checkbox to designate this location for storing goods that are ready for shipment.',
-                    'is-replenish'                  => 'Is a Replenish Location?',
-                    'is-replenish-hint-tooltip'     => 'Enable this function to retrieve all quantities needed for replenishment at this location.',
+                    'is-scrap'                      => '是否為報廢位置？',
+                    'is-scrap-hint-tooltip'         => '勾選此項以指定此位置存放報廢或受損商品。',
+                    'is-dock'                       => '是否為碼頭位置？',
+                    'is-dock-hint-tooltip'          => '勾選此項以指定此位置存放待出貨商品。',
+                    'is-replenish'                  => '是否為補貨位置？',
+                    'is-replenish-hint-tooltip'     => '啟用此功能以取得此位置補貨所需的所有數量。',
                     'logistics'                     => '物流',
                     'removal-strategy'              => '移出策略',
-                    'removal-strategy-hint-tooltip' => 'Specifies the default method for determining the exact shelf, lot, and location from which to pick products. This method can be enforced at the product category level, with a fallback to parent locations if not set here.',
+                    'removal-strategy-hint-tooltip' => '指定揀貨時決定貨架、批次、位置的預設方式。可於商品分類層級強制套用，若此處未設定則回退至上層位置。',
                     'cyclic-counting'               => '循環盤點',
                     'inventory-frequency'           => '盤點頻率',
                     'last-inventory'                => '上次盤點',
-                    'last-inventory-hint-tooltip'   => 'Date of the last inventory at this location.',
+                    'last-inventory-hint-tooltip'   => '此位置最後盤點日期。',
                     'next-expected'                 => '下次預期',
-                    'next-expected-hint-tooltip'    => 'Date for next planned inventory based on cyclic schedule.',
+                    'next-expected-hint-tooltip'    => '依循環排程的下次預定盤點日。',
                 ],
             ],
 
@@ -85,7 +85,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Location restored',
+                    'title' => '位置已還原',
                     'body'  => 'The location has been restored成功.',
                 ],
             ],
@@ -119,7 +119,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Locations restored',
+                    'title' => '位置已還原',
                     'body'  => 'The locations has been restored成功.',
                 ],
             ],
@@ -155,9 +155,9 @@ return [
                 'entries' => [
                     'location'                     => '位置',
                     'location-placeholder'         => '例：備品庫存',
-                    'parent-location'              => 'Parent Location',
-                    'parent-location-hint-tooltip' => 'The main location that encompasses this location. For example, the \'Dispatch Zone\' is part of the \'Gate 1\' parent location.',
-                    'external-notes'               => 'External Notes',
+                    'parent-location'              => '上層位置',
+                    'parent-location-hint-tooltip' => '包含此位置的主位置。例如「派送區」是上層位置「Gate 1」的一部分。',
+                    'external-notes'               => '外部備註',
                 ],
             ],
 
@@ -168,21 +168,21 @@ return [
                     'location-type'                 => 'Location類型',
                     'company'                       => '公司',
                     'storage-category'              => '儲存分類',
-                    'is-scrap'                      => 'Is a Scrap Location?',
-                    'is-scrap-hint-tooltip'         => 'Select this checkbox to designate this location for storing scrapped or damaged goods.',
-                    'is-dock'                       => 'Is a Dock Location?',
-                    'is-dock-hint-tooltip'          => 'Select this checkbox to designate this location for storing goods that are ready for shipment.',
-                    'is-replenish'                  => 'Is a Replenish Location?',
-                    'is-replenish-hint-tooltip'     => 'Enable this function to retrieve all quantities needed for replenishment at this location.',
+                    'is-scrap'                      => '是否為報廢位置？',
+                    'is-scrap-hint-tooltip'         => '勾選此項以指定此位置存放報廢或受損商品。',
+                    'is-dock'                       => '是否為碼頭位置？',
+                    'is-dock-hint-tooltip'          => '勾選此項以指定此位置存放待出貨商品。',
+                    'is-replenish'                  => '是否為補貨位置？',
+                    'is-replenish-hint-tooltip'     => '啟用此功能以取得此位置補貨所需的所有數量。',
                     'logistics'                     => '物流',
                     'removal-strategy'              => '移出策略',
-                    'removal-strategy-hint-tooltip' => 'Specifies the default method for determining the exact shelf, lot, and location from which to pick products. This method can be enforced at the product category level, with a fallback to parent locations if not set here.',
+                    'removal-strategy-hint-tooltip' => '指定揀貨時決定貨架、批次、位置的預設方式。可於商品分類層級強制套用，若此處未設定則回退至上層位置。',
                     'cyclic-counting'               => '循環盤點',
                     'inventory-frequency'           => '盤點頻率',
                     'last-inventory'                => '上次盤點',
-                    'last-inventory-hint-tooltip'   => 'Date of the last inventory at this location.',
+                    'last-inventory-hint-tooltip'   => '此位置最後盤點日期。',
                     'next-expected'                 => '下次預期',
-                    'next-expected-hint-tooltip'    => 'Date for next planned inventory based on cyclic schedule.',
+                    'next-expected-hint-tooltip'    => '依循環排程的下次預定盤點日。',
                 ],
             ],
 

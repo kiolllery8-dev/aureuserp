@@ -8,8 +8,8 @@ return [
     ],
     'notifications' => [
         'throttled' => [
-            'title' => 'Too many attempts. Try again in :seconds seconds.',
-            'body'  => 'Please wait :seconds seconds (:minutes minutes) before trying again.',
+            'title' => '嘗試過多，請於 :seconds 秒後重試。',
+            'body'  => '請等待 :seconds 秒（:minutes 分鐘）後再試。',
         ],
     ],
     'form' => [

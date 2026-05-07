@@ -4,8 +4,8 @@ return [
     'assets' => [
         'label'   => '資產',
         'options' => [
-            'receivable'  => '應收帳款',
-            'cash'        => 'Bank and Cash',
+            'receivable'  => '應收',
+            'cash'        => '銀行與現金',
             'current'     => '流動資產',
             'non-current' => '非流動資產',
             'prepayments' => '預付款',
@@ -16,7 +16,7 @@ return [
     'liabilities' => [
         'label'   => '負債',
         'options' => [
-            'payable'     => '應付帳款',
+            'payable'     => '應付',
             'credit-card' => '信用卡',
             'current'     => '流動負債',
             'non-current' => '非流動負債',
@@ -44,7 +44,7 @@ return [
         'options' => [
             'expense'      => '費用',
             'depreciation' => '折舊',
-            'direct-cost'  => 'Cost of Revenue',
+            'direct-cost'  => '營業成本',
         ],
     ],
 

@@ -7,7 +7,7 @@ return [
     'header-actions' => [
         'delete' => [
             'notification' => [
-                'title' => 'Candidate已刪除',
+                'title' => '候選人已刪除',
                 'body'  => 'The candidate has been已刪除成功.',
             ],
         ],

@@ -8,7 +8,7 @@ return [
             'deleted'      => 'The :model was已刪除',
             'soft-deleted' => 'The :model was soft已刪除',
             'hard-deleted' => 'The :model was permanently已刪除',
-            'restored'     => 'The :model was restored',
+            'restored'     => ':model 已還原',
         ],
     ],
 ];

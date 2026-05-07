@@ -55,7 +55,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Bank restored',
+                    'title' => '銀行已還原',
                     'body'  => 'The bank has been restored成功.',
                 ],
             ],
@@ -78,7 +78,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Banks restored',
+                    'title' => '銀行已還原',
                     'body'  => 'The banks has been restored成功.',
                 ],
             ],

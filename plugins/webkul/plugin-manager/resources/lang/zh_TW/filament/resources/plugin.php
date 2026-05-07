@@ -33,9 +33,9 @@ return [
     'actions' => [
         'install' => [
             'title'       => '安裝',
-            'heading'     => 'Install Plugin :name',
-            'description' => "Are you sure you want to install the ':name' plugin? This will run migrations and seeders.",
-            'submit'      => 'Install Plugin',
+            'heading'     => '安裝外掛 :name',
+            'description' => "確定要安裝外掛「:name」嗎？將會執行 migrations 與 seeders。",
+            'submit'      => '安裝外掛',
         ],
         'uninstall' => [
             'title'      => '解除安裝',
@@ -47,14 +47,14 @@ return [
     'notifications' => [
         'installed' => [
             'title' => '外掛安裝成功',
-            'body'  => "The ':name' plugin has been installed.",
+            'body'  => "外掛「:name」已安裝。",
         ],
         'installed-failed' => [
             'title' => '安裝失敗',
         ],
         'uninstalled' => [
             'title' => '外掛解除安裝成功',
-            'body'  => "The ':name' plugin has been uninstalled.",
+            'body'  => "外掛「:name」已解除安裝。",
         ],
         'uninstalled-failed' => [
             'title' => '解除安裝失敗',
@@ -68,14 +68,14 @@ return [
         ],
         'name'         => 'Plugin名稱',
         'version'      => '版本',
-        'dependencies' => 'Required Plugins',
+        'dependencies' => '必要外掛',
         'dependents'   => '相依此外掛的外掛',
         'is_installed' => 'Installation狀態',
         'license'      => '授權',
         'summary'      => '說明',
 
         'dependencies-repeater' => [
-            'title'        => 'Required Plugins',
+            'title'        => '必要外掛',
             'name'         => 'Plugin名稱',
             'is_installed' => '已安裝',
             'placeholder'  => '不需相依套件',

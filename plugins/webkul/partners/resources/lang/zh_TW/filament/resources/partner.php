@@ -18,7 +18,7 @@ return [
                     'company'    => '公司',
                     'avatar'     => '頭像',
                     'tax-id'     => '統一編號',
-            'tax-id-helper' => '8-digit company tax ID, or Taiwan ID number',
+            'tax-id-helper' => '8 碼統一編號或身分證號',
                     'job-title'  => '職稱',
                     'phone'      => '電話',
                     'mobile'     => '行動電話',
@@ -55,7 +55,7 @@ return [
                 'fields' => [
                     'responsible'           => '負責人',
                     'responsible-hint-text' => 'This is internal salesperson responsible for this customer',
-                    'company-id'            => 'Company ID',
+                    'company-id'            => '公司識別碼',
                     'company-id-hint-text'  => 'The company\'s registry number, used if different from the Tax ID. It必須唯一 among all partners within the same country.',
                     'reference'             => '參考編號',
                     'industry'              => '產業',
@@ -88,7 +88,7 @@ return [
             'mobile'           => '行動電話',
             'job-title'        => '職稱',
             'website'          => '網址',
-            'company-registry' => 'Company Registry',
+            'company-registry' => '公司登記號碼',
             'responsible'      => '負責人',
             'reference'        => '參考編號',
             'parent'           => '上層',
@@ -108,7 +108,7 @@ return [
 
             'restore' => [
                 'notification' => [
-                    'title' => 'Contact restored',
+                    'title' => '聯絡人已還原',
                     'body'  => 'The contact has been restored成功.',
                 ],
             ],
@@ -138,7 +138,7 @@ return [
         'bulk-actions' => [
             'restore' => [
                 'notification' => [
-                    'title' => 'Contacts restored',
+                    'title' => '聯絡人已還原',
                     'body'  => 'The contacts has been restored成功.',
                 ],
             ],
@@ -210,7 +210,7 @@ return [
                 'fields' => [
                     'responsible'           => '負責人',
                     'responsible-hint-text' => 'This is internal salesperson responsible for this customer',
-                    'company-id'            => 'Company ID',
+                    'company-id'            => '公司識別碼',
                     'company-id-hint-text'  => 'The registry number of the company. Use it if it is different from the Tax ID. It必須唯一 across all partners of a same country',
                     'reference'             => '參考編號',
                     'industry'              => '產業',

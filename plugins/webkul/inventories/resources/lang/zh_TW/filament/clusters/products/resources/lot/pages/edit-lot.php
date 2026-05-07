@@ -14,7 +14,7 @@ return [
         'delete' => [
             'notification' => [
                 'success' => [
-                    'title' => 'Lot已刪除',
+                    'title' => '批次已刪除',
                     'body'  => 'The lot has been已刪除成功.',
                 ],
 

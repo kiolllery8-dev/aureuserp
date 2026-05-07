@@ -4,7 +4,7 @@ return [
     'title' => '貸項通知單',
 
     'navigation' => [
-        'title' => 'Credit Notes',
+        'title' => '退貨單',
     ],
 
     'global-search' => [

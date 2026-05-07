@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'stats-overview' => 'Stats Overview',
+    'stats-overview' => '統計概覽',
 
     'from-date' => '起始日期',
 
@@ -9,5 +9,5 @@ return [
 
     'author' => '作者',
 
-    'all-author' => 'All Author',
+    'all-author' => '所有作者',
 ];
