@@ -412,6 +412,38 @@ class InvoiceResource extends Resource
                                 RichEditor::make('narration')
                                     ->hiddenLabel(),
                             ]),
+                        Tab::make('台灣發票')
+                            ->icon('heroicon-o-receipt-percent')
+                            ->schema([
+                                \Filament\Forms\Components\TextInput::make('tw_invoice_track')
+                                    ->label('字軌號碼')
+                                    ->placeholder('例：AB-12345678')
+                                    ->helperText('字軌（2 碼英文）+ 號碼（8 碼數字）')
+                                    ->maxLength(32),
+                                \Filament\Forms\Components\Select::make('tw_invoice_type')
+                                    ->label('發票類型')
+                                    ->options([
+                                        'duplicate'   => '二聯式（給個人消費者）',
+                                        'triplicate'  => '三聯式（給有統編公司）',
+                                        'electronic'  => '電子發票',
+                                    ])
+                                    ->native(false)
+                                    ->placeholder('請選發票類型'),
+                                \Filament\Forms\Components\TextInput::make('tw_buyer_tax_id')
+                                    ->label('買方統一編號')
+                                    ->placeholder('8 碼數字（三聯式必填）')
+                                    ->helperText('三聯式或電子發票 B2B 必填')
+                                    ->rule(['nullable', 'regex:/^[0-9]{8}$/'])
+                                    ->validationMessages([
+                                        'regex' => '買方統一編號須為 8 碼數字',
+                                    ])
+                                    ->maxLength(16),
+                                \Filament\Forms\Components\DatePicker::make('tw_invoice_date')
+                                    ->label('發票開立日期')
+                                    ->displayFormat('Y-m-d')
+                                    ->native(false),
+                            ])
+                            ->columns(2),
                     ]),
             ])
             ->columns(1);
