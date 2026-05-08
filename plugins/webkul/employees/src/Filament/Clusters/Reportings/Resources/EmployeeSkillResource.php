@@ -30,7 +30,7 @@ class EmployeeSkillResource extends Resource
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-academic-cap';
 
-    protected static ?string $pluralModelLabel = 'Skills';
+    protected static ?string $pluralModelLabel = '技能';
 
     protected static ?string $cluster = Reportings::class;
     public static function table(Table $table): Table
