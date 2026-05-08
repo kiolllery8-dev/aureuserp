@@ -55,10 +55,17 @@ class AdminPanelProvider extends PanelProvider
                     ->label(fn() => Auth::user()?->name)
                     ->url(fn(): string => Profile::getUrl()),
             ])
+            ->resources([
+                // 會計科目 — 獨立應用程式（獨立頂層 navigation）
+                \App\Filament\Resources\ChartOfAccountsResource::class,
+            ])
             ->navigationGroups([
                 NavigationGroup::make()
                     ->label(__('admin.navigation.dashboard'))
                     ->icon('icon-dashboard'),
+                NavigationGroup::make()
+                    ->label('會計科目（COA）')
+                    ->icon('heroicon-o-rectangle-stack'),
                 NavigationGroup::make()
                     ->label(__('admin.navigation.contact'))
                     ->icon('icon-contacts'),
