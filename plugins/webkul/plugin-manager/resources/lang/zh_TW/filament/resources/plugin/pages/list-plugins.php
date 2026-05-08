@@ -2,7 +2,7 @@
 
 return [
     'navigation' => [
-        'title' => '外掛',
+        'title' => '功能',
     ],
 
     'tabs' => [
@@ -14,20 +14,20 @@ return [
 
     'header-actions' => [
         'sync' => [
-            'label'                     => '同步可用外掛',
-            'modal-heading'             => '同步外掛',
-            'modal-description'         => '將掃描並註冊找到的新外掛。',
-            'modal-submit-action-label' => '同步外掛',
+            'label'                     => '同步可用功能',
+            'modal-heading'             => '同步功能',
+            'modal-description'         => '將掃描並註冊找到的新功能。',
+            'modal-submit-action-label' => '同步功能',
 
             'notification' => [
                 'success' => [
-                    'title' => '外掛同步成功',
-                    'body'  => '已找到並同步 :count 個新外掛。',
+                    'title' => '功能同步成功',
+                    'body'  => '已找到並同步 :count 個新功能。',
                 ],
 
                 'error' => [
-                    'title' => '外掛同步失敗',
-                    'body'  => '同步外掛時發生錯誤（:error），請重試。',
+                    'title' => '功能同步失敗',
+                    'body'  => '同步功能時發生錯誤（:error），請重試。',
                 ],
             ],
         ],

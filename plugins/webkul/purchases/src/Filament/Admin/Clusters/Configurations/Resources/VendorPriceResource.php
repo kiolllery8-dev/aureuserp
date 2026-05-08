@@ -49,12 +49,6 @@ class VendorPriceResource extends Resource
     protected static ?int $navigationSort = 10;
 
     protected static ?string $cluster = Configurations::class;
-
-    public static function getNavigationLabel(): string
-    {
-        return __('purchases::filament/admin/clusters/configurations/resources/vendor-price.navigation.title');
-    }
-
     public static function form(Schema $schema): Schema
     {
         return $schema

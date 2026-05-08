@@ -27,22 +27,15 @@ class MyTimeOffResource extends Resource
 
     protected static ?string $model = Leave::class;
 
+    protected static ?string $pluralModelLabel = '我的請假';
+
+    protected static ?string $modelLabel = '我的請假';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-lifebuoy';
 
     protected static ?int $navigationSort = 2;
 
     protected static ?string $cluster = MyTime::class;
-
-    public static function getModelLabel(): string
-    {
-        return __('time-off::filament/clusters/my-time/resources/my-time-off.model-label');
-    }
-
-    public static function getNavigationLabel(): string
-    {
-        return __('time-off::filament/clusters/my-time/resources/my-time-off.navigation.title');
-    }
-
     public static function form(Schema $schema): Schema
     {
         return $schema->components((new self)->getFormSchema());

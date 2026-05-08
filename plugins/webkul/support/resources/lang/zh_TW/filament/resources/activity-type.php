@@ -153,7 +153,7 @@ return [
                     'name-tooltip'        => '輸入官方活動類型名稱',
                     'action'              => '動作',
                     'default-user'        => '預設使用者',
-                    'plugin'              => '外掛',
+                    'plugin'              => '功能',
                     'summary'             => '摘要',
                     'note'                => '備註',
                 ],

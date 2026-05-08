@@ -14,7 +14,7 @@ return [
         'time-off'    => '請假',
         'recruitment' => '招募',
         'website'     => '網址',
-        'plugin'      => '外掛',
+        'plugin'      => '功能',
         'setting'     => '設定',
     ],
 ];

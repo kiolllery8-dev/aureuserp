@@ -38,12 +38,6 @@ class BankResource extends Resource
     {
         return __('support::filament/resources/bank.navigation.group');
     }
-
-    public static function getNavigationLabel(): string
-    {
-        return __('support::filament/resources/bank.navigation.title');
-    }
-
     public static function form(Schema $schema): Schema
     {
         return $schema

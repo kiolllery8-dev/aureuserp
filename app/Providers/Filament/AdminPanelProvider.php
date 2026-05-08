@@ -55,10 +55,6 @@ class AdminPanelProvider extends PanelProvider
                     ->label(fn() => Auth::user()?->name)
                     ->url(fn(): string => Profile::getUrl()),
             ])
-            ->renderHook(
-                PanelsRenderHook::USER_MENU_BEFORE,
-                fn (): string => view('filament.components.language-switcher')->render(),
-            )
             ->navigationGroups([
                 NavigationGroup::make()
                     ->label(__('admin.navigation.dashboard'))

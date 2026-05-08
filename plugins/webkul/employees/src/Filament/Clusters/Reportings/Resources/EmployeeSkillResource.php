@@ -26,22 +26,13 @@ class EmployeeSkillResource extends Resource
 {
     protected static ?string $model = EmployeeSkill::class;
 
+    protected static ?string $modelLabel = '技能';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-academic-cap';
 
     protected static ?string $pluralModelLabel = 'Skills';
 
     protected static ?string $cluster = Reportings::class;
-
-    public static function getModelLabel(): string
-    {
-        return __('employees::filament/clusters/reportings/resources/employee-skill.title');
-    }
-
-    public static function getNavigationLabel(): string
-    {
-        return __('employees::filament/clusters/reportings/resources/employee-skill.navigation.title');
-    }
-
     public static function table(Table $table): Table
     {
         return $table

@@ -27,12 +27,6 @@ class IndustryResource extends Resource
     protected static ?string $pluralModelLabel = '產業';
 
     protected static bool $shouldRegisterNavigation = false;
-
-    public static function getNavigationLabel(): string
-    {
-        return __('partners::filament/resources/industry.navigation.title');
-    }
-
     public static function form(Schema $schema): Schema
     {
         return $schema

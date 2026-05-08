@@ -33,7 +33,7 @@ return [
 
         'filters' => [
             'name'           => '名稱',
-            'plugin'         => '外掛',
+            'plugin'         => '功能',
             'activity-types' => 'Activity類型s',
             'company'        => '公司',
             'department'     => '部門',

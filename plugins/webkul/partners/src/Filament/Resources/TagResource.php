@@ -29,12 +29,6 @@ class TagResource extends Resource
     protected static ?string $pluralModelLabel = '標籤';
 
     protected static bool $shouldRegisterNavigation = false;
-
-    public static function getNavigationLabel(): string
-    {
-        return __('partners::filament/resources/tag.navigation.title');
-    }
-
     public static function form(Schema $schema): Schema
     {
         return $schema

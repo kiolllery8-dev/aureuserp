@@ -11,7 +11,7 @@ return [
         'department'   => '部門',
         'manager'      => '主管',
         'company'      => '公司',
-        'plugin'       => '外掛',
+        'plugin'       => '功能',
         'creator-name' => '建立者',
     ],
 
@@ -29,7 +29,7 @@ return [
 
         'filters' => [
             'name'           => '名稱',
-            'plugin'         => '外掛',
+            'plugin'         => '功能',
             'activity-types' => 'Activity類型s',
             'company'        => '公司',
             'department'     => '部門',

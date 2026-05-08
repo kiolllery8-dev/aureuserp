@@ -52,12 +52,6 @@ class PackageTypeResource extends Resource
     {
         return __('inventories::filament/clusters/configurations/resources/package-type.navigation.group');
     }
-
-    public static function getNavigationLabel(): string
-    {
-        return __('inventories::filament/clusters/configurations/resources/package-type.navigation.title');
-    }
-
     public static function isDiscovered(): bool
     {
         if (app()->runningInConsole()) {

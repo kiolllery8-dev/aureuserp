@@ -30,23 +30,15 @@ class EmploymentTypeResource extends Resource
 {
     protected static ?string $model = EmploymentType::class;
 
+    protected static ?string $pluralModelLabel = '雇用類型';
+
+    protected static ?string $modelLabel = '雇用類型';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-cube-transparent';
-
-    public static function getModelLabel(): string
-    {
-        return __('employees::filament/clusters/configurations/resources/employment-type.title');
-    }
-
     public static function getNavigationGroup(): string
     {
         return __('employees::filament/clusters/configurations/resources/employment-type.navigation.group');
     }
-
-    public static function getNavigationLabel(): string
-    {
-        return __('employees::filament/clusters/configurations/resources/employment-type.navigation.title');
-    }
-
     protected static ?string $cluster = Configurations::class;
 
     public static function form(Schema $schema): Schema

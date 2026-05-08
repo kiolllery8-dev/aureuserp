@@ -14,17 +14,15 @@ class ActivityTypeResource extends BaseActivityTypeResource
 {
     protected static ?string $model = ActivityType::class;
 
+    protected static ?string $pluralModelLabel = '活動類型';
+
+    protected static ?string $modelLabel = '活動類型';
+
     protected static bool $shouldRegisterNavigation = true;
 
     protected static ?int $navigationSort = 2;
 
     protected static ?string $cluster = Configuration::class;
-
-    public static function getModelLabel(): string
-    {
-        return __('Activity Type');
-    }
-
     public static function getNavigationGroup(): ?string
     {
         return __('Activities');

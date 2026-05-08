@@ -4,13 +4,13 @@ return [
 
     'uninstall' => [
         'title'   => '解除安裝確認',
-        'message' => '確定要解除安裝外掛 :name 嗎？',
+        'message' => '確定要解除安裝功能 :name 嗎？',
         'warning' => '⚠️ 此動作無法復原，會永久刪除資料。',
     ],
 
     'dependents' => [
-        'title'         => '相依外掛',
-        'description'   => '下列外掛相依於此，會一併解除安裝。',
+        'title'         => '相依功能',
+        'description'   => '下列功能相依於此，會一併解除安裝。',
         'installed'     => '已安裝',
         'not_installed' => '未安裝',
     ],

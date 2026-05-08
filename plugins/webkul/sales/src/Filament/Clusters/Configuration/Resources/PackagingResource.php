@@ -37,12 +37,6 @@ class PackagingResource extends BasePackagingResource
     {
         return __('Packagings');
     }
-
-    public static function getNavigationLabel(): string
-    {
-        return __('Products');
-    }
-
     public static function getPages(): array
     {
         return [
