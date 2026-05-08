@@ -4,331 +4,296 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <style type="text/css">
         body {
-            font-family: 'Helvetica', 'Arial', sans-serif;
-            font-size: 14px;
-            color: #333333;
-            line-height: 1.6;
+            font-family: 'sun-extb', 'Arial', sans-serif;
+            font-size: 13px;
+            color: #222;
+            line-height: 1.5;
             margin: 0;
         }
-
         .agreement {
             margin-bottom: 50px;
             page-break-after: always;
         }
-
         .agreement:last-child {
             page-break-after: auto;
         }
-
-        .header {
+        .invoice-title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 12px;
+            border: 3px double #b8860b;
+            padding: 12px 0;
+            color: #b8860b;
+            margin-bottom: 6px;
+        }
+        .invoice-subtitle {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 18px;
+        }
+        .meta-table {
             width: 100%;
-            margin-bottom: 30px;
-        }
-
-        .company-info {
-            width: 50%;
-            float: left;
-        }
-
-        .vendor-info {
-            width: 45%;
-            float: right;
-            text-align: right;
-            border-left: 2px solid #f0f0f0;
-            padding-left: 20px;
-        }
-
-        .clearfix {
-            clear: both;
-        }
-
-        .agreement-title {
-            font-size: 24px;
-            color: #1a4587;
-            margin: 25px 0;
-            padding: 15px 0;
-            border-bottom: 2px solid #1a4587;
-        }
-
-        .details-table {
-            width: 100%;
-            margin: 20px 0;
             border-collapse: collapse;
+            margin-bottom: 16px;
         }
-
-        .details-table td {
-            padding: 10px;
+        .meta-table td {
+            padding: 6px 10px;
+            border: 1px solid #999;
             vertical-align: top;
         }
-
+        .meta-table .label {
+            background: #f5e8c0;
+            font-weight: bold;
+            width: 80px;
+            white-space: nowrap;
+        }
         .items-table {
             width: 100%;
             border-collapse: collapse;
-            margin: 30px 0;
+            margin: 16px 0 8px 0;
         }
-
         .items-table th {
-            background: #1a4587;
-            color: white;
-            padding: 12px;
-            text-align: left;
-        }
-
-        .items-table td {
-            padding: 12px;
-            border-bottom: 1px solid #e9ecef;
-        }
-
-        .items-table tr:nth-child(even) {
-            background: #f8f9fa;
-        }
-
-        .summary {
-            width: 100%;
-            display: inline-block;
-        }
-        .summary table {
-            float: right;
-            width: 250px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            white-space: nowrap;
-        }
-        .summary table.rtl {
-            width: 280px;
-        }
-        .summary table.rtl {
-            margin-right: 480px;
-        }
-        .summary table td {
-            padding: 5px 10px;
-        }
-        .summary table td:nth-child(2) {
+            background: #f5e8c0;
+            border: 1px solid #999;
+            padding: 8px 10px;
             text-align: center;
+            font-weight: bold;
         }
-        .summary table td:nth-child(3) {
+        .items-table td {
+            border: 1px solid #999;
+            padding: 8px 10px;
+        }
+        .items-table .num { text-align: right; font-family: 'Consolas', 'Courier New', monospace; }
+        .items-table .ctr { text-align: center; }
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 0;
+        }
+        .summary-table td {
+            border: 1px solid #999;
+            padding: 8px 12px;
+        }
+        .summary-table .label {
+            background: #f5e8c0;
             text-align: right;
+            font-weight: bold;
+            width: 130px;
         }
-
-        .payment-info {
-            clear: both;
-            margin-top: 20px;
-            padding: 20px;
-            border-radius: 8px;
+        .summary-table .amount {
+            text-align: right;
+            font-family: 'Consolas', 'Courier New', monospace;
+            width: 160px;
         }
-
-        .payment-info-title {
-            font-weight: 600;
-            margin-bottom: 10px;
+        .summary-table .total .label,
+        .summary-table .total .amount {
+            background: #b8860b;
+            color: white;
+            font-size: 16px;
+        }
+        .signatures {
+            margin-top: 24px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .signatures td {
+            width: 33%;
+            border: 1px solid #999;
+            height: 60px;
+            text-align: center;
+            padding: 6px;
+            vertical-align: top;
+        }
+        .signatures .label {
+            font-weight: bold;
+            color: #555;
+        }
+        .footer-note {
+            margin-top: 18px;
+            font-size: 11px;
+            color: #888;
+            text-align: center;
         }
     </style>
 </head>
-
 <body>
-    <div class="agreement">
-        <!-- Header Section -->
-        <div class="header">
-            <!-- Company Address -->
-            <div class="company-info">
-                <div style="font-size: 28px; color: #1a4587; margin-bottom: 10px;">{{ $record->company->name }}</div>
+@php
+    // 計算金額：含稅總額、未稅小計、稅額
+    $amountUntaxed = $record->amount_untaxed ?? 0;
+    $amountTax = $record->amount_tax ?? 0;
+    $amountTotal = $record->amount_total ?? 0;
+    $totalDiscount = $record->total_discount ?? 0;
 
-                @if ($record->company->partner)
-                    <div>
-                        {{ $record->company->partner->street1 }}
+    // 中文大寫金額
+    if (! function_exists('twNumToChinese')) {
+        function twNumToChinese($num) {
+            $num = (int) round($num);
+            if ($num == 0) return '零元整';
+            $digits = ['零','壹','貳','參','肆','伍','陸','柒','捌','玖'];
+            $units  = ['','拾','佰','仟','萬','拾','佰','仟','億','拾','佰','仟'];
+            $str = (string) abs($num);
+            $len = strlen($str);
+            $result = '';
+            for ($i = 0; $i < $len; $i++) {
+                $d = (int) $str[$i];
+                $u = $units[$len - 1 - $i];
+                if ($d === 0) {
+                    if (in_array($u, ['萬','億'])) $result .= $u;
+                    elseif (substr($result, -2) !== '零') $result .= '零';
+                } else {
+                    $result .= $digits[$d] . $u;
+                }
+            }
+            $result = preg_replace('/零+/u', '零', $result);
+            $result = rtrim($result, '零');
+            return $result . '元整';
+        }
+    }
 
-                        @if ($record->company->partner->street2)
-                            ,{{ $record->company->partner->street2 }}
+    // 字軌 + 流水號（從 record 拉，不存在就用 invoice number）
+    $invoiceTrack = $record->l10n_tw_invoice_track ?? null;
+    $invoiceNumber = $record->l10n_tw_invoice_number ?? null;
+    $buyerTaxId = $record->l10n_tw_buyer_tax_id ?? ($record->partner->company_registry ?? '');
+    $invoiceType = $record->l10n_tw_invoice_type ?? '三聯式';
+
+    $sellerCompany = $record->company;
+    $sellerTaxId = $sellerCompany->tax_id ?? '';
+    $buyer = $record->partner;
+@endphp
+
+<div class="agreement">
+    <!-- Title -->
+    <div class="invoice-title">統 一 發 票</div>
+    <div class="invoice-subtitle">{{ $invoiceType }}　{{ $record->invoice_date ? \Carbon\Carbon::parse($record->invoice_date)->format('中華民國 Y 年 m 月 d 日') : '' }}</div>
+
+    <!-- Meta：字軌、發票號碼、買賣方資訊 -->
+    <table class="meta-table">
+        <tr>
+            <td class="label">字　軌</td>
+            <td>{{ $invoiceTrack ?: '——' }}</td>
+            <td class="label">發票號碼</td>
+            <td>{{ $invoiceNumber ?: $record->name }}</td>
+        </tr>
+        <tr>
+            <td class="label">賣方營業人</td>
+            <td>{{ $sellerCompany->name }}</td>
+            <td class="label">統一編號</td>
+            <td>{{ $sellerTaxId }}</td>
+        </tr>
+        <tr>
+            <td class="label">賣方地址</td>
+            <td colspan="3">
+                @if($sellerCompany->partner)
+                    {{ $sellerCompany->partner->zip ?? '' }}
+                    @if($sellerCompany->partner->state){{ $sellerCompany->partner->state->name }}@endif
+                    {{ $sellerCompany->partner->city ?? '' }}{{ $sellerCompany->partner->street1 ?? '' }}
+                    @if($sellerCompany->partner->street2),{{ $sellerCompany->partner->street2 }}@endif
+                @endif
+                @if($sellerCompany->phone)　電話：{{ $sellerCompany->phone }}@endif
+            </td>
+        </tr>
+        <tr>
+            <td class="label">買受人</td>
+            <td>{{ $buyer->name }}</td>
+            <td class="label">統一編號</td>
+            <td>{{ $buyerTaxId ?: '（個人）' }}</td>
+        </tr>
+        <tr>
+            <td class="label">買方地址</td>
+            <td colspan="3">
+                {{ $buyer->zip ?? '' }}
+                @if($buyer->state){{ $buyer->state->name }}@endif
+                {{ $buyer->city ?? '' }}{{ $buyer->street1 ?? '' }}
+                @if($buyer->street2),{{ $buyer->street2 }}@endif
+                @if($buyer->phone)　電話：{{ $buyer->phone }}@endif
+            </td>
+        </tr>
+    </table>
+
+    <!-- 品項明細 -->
+    @if (! $record->invoiceLines->isEmpty())
+        <table class="items-table">
+            <thead>
+                <tr>
+                    <th style="width:32px;">序</th>
+                    <th>品名 / 規格</th>
+                    <th style="width:60px;">數量</th>
+                    @if (app(\Webkul\Product\Settings\ProductSettings::class)->enable_uom)
+                        <th style="width:60px;">單位</th>
+                    @endif
+                    <th style="width:80px;">單價</th>
+                    <th style="width:100px;">金額</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach ($record->invoiceLines as $i => $item)
+                    <tr>
+                        <td class="ctr">{{ $i + 1 }}</td>
+                        <td>{{ $item->product?->name ?? $item->name ?? '' }}</td>
+                        <td class="num">{{ number_format($item->quantity, 0) }}</td>
+                        @if (app(\Webkul\Product\Settings\ProductSettings::class)->enable_uom)
+                            <td class="ctr">{{ $item->product?->uom?->name ?? '' }}</td>
                         @endif
-                    </div>
-
-                    <div>
-                        {{ $record->company->partner->city }},
-
-                        @if ($record->company->partner->state)
-                            {{ $record->company->partner->state->name }},
-                        @endif
-
-                        {{ $record->company->partner->zip }}
-                    </div>
-
-                    @if ($record->company->partner->country)
-                        <div>
-                            {{ $record->company->partner->country->name }}
-                        </div>
-                    @endif
-
-                    @if ($record->company->email)
-                        <div>
-                            Email:
-                            {{ $record->company->email }}
-                        </div>
-                    @endif
-
-                    @if ($record->company->phone)
-                        <div>
-                            Phone:
-                            {{ $record->company->phone }}
-                        </div>
-                    @endif
-                @endif
-            </div>
-
-            <!-- Customer Address -->
-            <div class="vendor-info">
-                <div>{{ $record->partner->name }}</div>
-
-                <div>
-                    {{ $record->partner->street1 }}
-
-                    @if ($record->partner->street2)
-                        ,{{ $record->partner->street2 }}
-                    @endif
-                </div>
-
-                <div>
-                    {{ $record->partner->city }},
-
-                    @if ($record->partner->state)
-                        {{ $record->partner->state->name }},
-                    @endif
-
-                    {{ $record->partner->zip }}
-                </div>
-
-                @if ($record->partner->country)
-                    <div>
-                        {{ $record->partner->country->name }}
-                    </div>
-                @endif
-
-                @if ($record->partner->email)
-                    <div>
-                        Email:
-                        {{ $record->partner->email }}
-                    </div>
-                @endif
-
-                @if ($record->partner->phone)
-                    <div>
-                        Phone:
-                        {{ $record->partner->phone }}
-                    </div>
-                @endif
-            </div>
-
-            <div class="clearfix"></div>
-        </div>
-
-        <!-- Agreement Title -->
-        <div class="agreement-title">
-            Invoice ID #{{ $record->name }}
-        </div>
-
-        <!-- Details Table -->
-        <table class="details-table">
-            <tr>
-                @if ($record->invoice_date)
-                    <td width="33%">
-                        <strong>Invoice Date</strong><br>
-                        {{ $record->invoice_date }}
-                    </td>
-                @endif
-
-                @if ($record->ref)
-                    <td width="33%">
-                        <strong>Source</strong><br>
-                        {{ $record->ref }}
-                    </td>
-                @endif
-
-                @if ($record->invoice_date_due)
-                    <td width="33%">
-                        <strong>Due Date</strong><br>
-                        {{ $record->invoice_date_due?->format('Y-m-d') }}
-                    </td>
-                @endif
-            </tr>
+                        <td class="num">{{ number_format($item->price_unit, 0) }}</td>
+                        <td class="num">{{ number_format($item->price_subtotal ?? ($item->quantity * $item->price_unit), 0) }}</td>
+                    </tr>
+                @endforeach
+                @for($i = $record->invoiceLines->count(); $i < 8; $i++)
+                    <tr>
+                        <td class="ctr">{{ $i + 1 }}</td>
+                        <td>&nbsp;</td><td>&nbsp;</td>
+                        @if (app(\Webkul\Product\Settings\ProductSettings::class)->enable_uom)<td>&nbsp;</td>@endif
+                        <td>&nbsp;</td><td>&nbsp;</td>
+                    </tr>
+                @endfor
+            </tbody>
         </table>
+    @endif
 
-        <!-- Items Table -->
-        @if (! $record->invoiceLines->isEmpty())
-            <table class="items-table">
-                <thead>
-                    <tr>
-                        <th>Product</th>
-                        <th>Quantity</th>
-
-                        @if (app(\Webkul\Product\Settings\ProductSettings::class)->enable_uom)
-                            <th>Unit</th>
-                        @endif
-
-                        <th>Unit Price</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    @foreach ($record->invoiceLines as $item)
-                    <tr>
-                        <td>{{ $item->product->name }}</td>
-                        <td>{{ number_format($item->quantity) }}</td>
-
-                        @if (app(\Webkul\Product\Settings\ProductSettings::class)->enable_uom)
-                            <td>{{ $item->product->uom->name }}</td>
-                        @endif
-
-                        <td>{{ money($item->price_unit, $record->currency->name) }}</td>
-                    </tr>
-                    @endforeach
-                </tbody>
-            </table>
+    <!-- 金額彙總（台灣三聯式格式） -->
+    <table class="summary-table">
+        <tr>
+            <td class="label">銷售額合計</td>
+            <td class="amount">{{ number_format($amountUntaxed, 0) }}</td>
+            <td class="label">營業稅 5%</td>
+            <td class="amount">{{ number_format($amountTax, 0) }}</td>
+        </tr>
+        @if($totalDiscount > 0)
+        <tr>
+            <td class="label">折扣</td>
+            <td class="amount" colspan="3">-{{ number_format($totalDiscount, 0) }}</td>
+        </tr>
         @endif
+        <tr class="total">
+            <td class="label">總計（含稅）</td>
+            <td class="amount" colspan="3">NT$ {{ number_format($amountTotal, 0) }}</td>
+        </tr>
+        <tr>
+            <td class="label">總計大寫</td>
+            <td colspan="3">{{ twNumToChinese($amountTotal) }}</td>
+        </tr>
+    </table>
 
-        <div class="summary">
-            <table class="ltr">
-                <tbody>
-                    <tr>
-                        <td>Subtotal</td>
-                        <td>-</td>
-                        <td>{{ money($record->amount_untaxed, $record->currency->name) }}</td>
-                    </tr>
-                    <tr>
-                        <td>Tax</td>
-                        <td>-</td>
-                        <td>{{ money($record->amount_tax, $record->currency->name) }}</td>
-                    </tr>
-                    <tr>
-                        <td>Discount</td>
-                        <td>-</td>
-                        <td>-{{ money($record->total_discount, $record->currency->name) }}</td>
-                    </tr>
-                    <tr>
-                        <td style="border-top: 1px solid #FFFFFF;">
-                            <b>Grand Total</b>
-                        </td>
-                        <td style="border-top: 1px solid #FFFFFF;">-</td>
-                        <td style="border-top: 1px solid #FFFFFF;">
-                            <b>{{ money($record->amount_total, $record->currency->name) }}</b>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+    <!-- 簽章 -->
+    <table class="signatures">
+        <tr>
+            <td>
+                <div class="label">營業人蓋用統一發票專用章</div>
+            </td>
+            <td>
+                <div class="label">經手人</div>
+            </td>
+            <td>
+                <div class="label">買方簽收</div>
+            </td>
+        </tr>
+    </table>
 
-        <!-- Payment Information Section -->
-        @if ($record->name)
-            <div class="payment-info">
-                <div class="payment-info-title">Payment Information</div>
-                <div>
-                    Payment Communication: {{ $record->name }}
-                    @if ($record?->partnerBank?->bank?->name || $record?->partnerBank?->account_number)
-                        <br>
-                        <span>on this account details:</span>
-                        {{ $record?->partnerBank?->bank?->name ?? 'N/A' }}
-                        ({{ $record?->partnerBank?->account_number ?? 'N/A' }})
-                    @endif
-                </div>
-            </div>
-        @endif
+    <div class="footer-note">
+        本發票依加值型及非加值型營業稅法規定開立。如有疑問，請洽 {{ $sellerCompany->phone ?? $sellerCompany->email ?? '本公司' }}。
     </div>
+</div>
 </body>
 </html>
