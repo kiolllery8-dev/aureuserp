@@ -2,6 +2,7 @@
 
 return [
     App\Providers\AppServiceProvider::class,
+    App\Providers\FilamentModelLabelsServiceProvider::class,
     App\Providers\Filament\AdminPanelProvider::class,
     App\Providers\Filament\CustomerPanelProvider::class,
     Webkul\Accounting\AccountingServiceProvider::class,
