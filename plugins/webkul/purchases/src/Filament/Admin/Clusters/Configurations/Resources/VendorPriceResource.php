@@ -40,6 +40,10 @@ class VendorPriceResource extends Resource
 {
     protected static ?string $model = ProductSupplier::class;
 
+    protected static ?string $modelLabel = '商品供應商';
+
+    protected static ?string $pluralModelLabel = '商品供應商';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-archive-box';
 
     protected static ?int $navigationSort = 10;

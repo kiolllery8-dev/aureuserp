@@ -64,6 +64,10 @@ class ScrapResource extends Resource
 {
     protected static ?string $model = Scrap::class;
 
+    protected static ?string $modelLabel = '報廢';
+
+    protected static ?string $pluralModelLabel = '報廢';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-trash';
 
     protected static ?int $navigationSort = 5;

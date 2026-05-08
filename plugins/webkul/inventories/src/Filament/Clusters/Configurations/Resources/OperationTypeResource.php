@@ -62,6 +62,10 @@ class OperationTypeResource extends Resource
 {
     protected static ?string $model = OperationType::class;
 
+    protected static ?string $modelLabel = '作業類型';
+
+    protected static ?string $pluralModelLabel = '作業類型';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-queue-list';
 
     protected static ?int $navigationSort = 3;

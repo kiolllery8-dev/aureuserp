@@ -23,6 +23,10 @@ class TeamResource extends Resource
 
     protected static ?string $model = Team::class;
 
+    protected static ?string $modelLabel = '團隊';
+
+    protected static ?string $pluralModelLabel = '團隊';
+
     protected static ?int $navigationSort = 3;
 
     public static function getNavigationLabel(): string

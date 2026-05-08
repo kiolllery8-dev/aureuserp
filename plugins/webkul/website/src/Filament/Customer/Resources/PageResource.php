@@ -10,6 +10,10 @@ class PageResource extends Resource
 {
     protected static ?string $model = Page::class;
 
+    protected static ?string $modelLabel = '頁面';
+
+    protected static ?string $pluralModelLabel = '頁面';
+
     protected static ?string $recordRouteKeyName = 'slug';
 
     protected static bool $shouldRegisterNavigation = false;

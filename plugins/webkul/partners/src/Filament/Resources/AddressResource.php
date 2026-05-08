@@ -26,6 +26,10 @@ class AddressResource extends Resource
 {
     protected static ?string $model = Address::class;
 
+    protected static ?string $modelLabel = '地址';
+
+    protected static ?string $pluralModelLabel = '地址';
+
     protected static bool $shouldRegisterNavigation = false;
 
     public static function form(Schema $schema): Schema

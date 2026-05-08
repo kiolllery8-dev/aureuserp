@@ -53,6 +53,10 @@ class JournalResource extends Resource
 {
     protected static ?string $model = Journal::class;
 
+    protected static ?string $modelLabel = '日記帳';
+
+    protected static ?string $pluralModelLabel = '日記帳';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-book-open';
 
     protected static bool $shouldRegisterNavigation = false;

@@ -34,6 +34,10 @@ class PackagingResource extends Resource
 {
     protected static ?string $model = Packaging::class;
 
+    protected static ?string $modelLabel = '包裝';
+
+    protected static ?string $pluralModelLabel = '包裝';
+
     protected static bool $shouldRegisterNavigation = false;
 
     public static function form(Schema $schema): Schema

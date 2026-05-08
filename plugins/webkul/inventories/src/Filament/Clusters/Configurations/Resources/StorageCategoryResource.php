@@ -40,6 +40,10 @@ class StorageCategoryResource extends Resource
 {
     protected static ?string $model = StorageCategory::class;
 
+    protected static ?string $modelLabel = '儲位分類';
+
+    protected static ?string $pluralModelLabel = '儲位分類';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-folder';
 
     protected static ?int $navigationSort = 4;

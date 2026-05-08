@@ -17,6 +17,10 @@ class ProductResource extends BaseProductResource
 {
     protected static ?string $model = Product::class;
 
+    protected static ?string $modelLabel = '商品';
+
+    protected static ?string $pluralModelLabel = '商品';
+
     protected static ?string $cluster = Customers::class;
 
     protected static bool $shouldRegisterNavigation = true;

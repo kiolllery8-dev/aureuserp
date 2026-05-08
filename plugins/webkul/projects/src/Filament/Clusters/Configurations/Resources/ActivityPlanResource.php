@@ -36,6 +36,10 @@ class ActivityPlanResource extends Resource
 {
     protected static ?string $model = ActivityPlan::class;
 
+    protected static ?string $modelLabel = '活動計畫';
+
+    protected static ?string $pluralModelLabel = '活動計畫';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-briefcase';
 
     protected static ?int $navigationSort = 5;

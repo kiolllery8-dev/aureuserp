@@ -45,6 +45,10 @@ class PageResource extends Resource
 {
     protected static ?string $model = PageModel::class;
 
+    protected static ?string $modelLabel = '頁面';
+
+    protected static ?string $pluralModelLabel = '頁面';
+
     protected static ?string $slug = 'website/pages';
 
     protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;

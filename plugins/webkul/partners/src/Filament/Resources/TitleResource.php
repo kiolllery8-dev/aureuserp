@@ -17,6 +17,10 @@ class TitleResource extends Resource
 {
     protected static ?string $model = Title::class;
 
+    protected static ?string $modelLabel = '稱謂';
+
+    protected static ?string $pluralModelLabel = '稱謂';
+
     protected static bool $shouldRegisterNavigation = false;
 
     public static function form(Schema $schema): Schema

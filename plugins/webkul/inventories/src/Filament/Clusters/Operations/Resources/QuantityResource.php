@@ -44,6 +44,10 @@ class QuantityResource extends Resource
 {
     protected static ?string $model = ProductQuantity::class;
 
+    protected static ?string $modelLabel = '商品數量';
+
+    protected static ?string $pluralModelLabel = '商品數量';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-arrows-up-down';
 
     protected static ?int $navigationSort = 4;

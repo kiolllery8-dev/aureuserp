@@ -32,6 +32,10 @@ class TimesheetResource extends Resource
 {
     protected static ?string $model = Timesheet::class;
 
+    protected static ?string $modelLabel = '工時表';
+
+    protected static ?string $pluralModelLabel = '工時表';
+
     public static function getNavigationLabel(): string
     {
         return __('timesheets::filament/resources/timesheet.navigation.title');

@@ -23,6 +23,10 @@ class UOMCategoryResource extends Resource
 {
     protected static ?string $model = UOMCategory::class;
 
+    protected static ?string $modelLabel = '單位分類';
+
+    protected static ?string $pluralModelLabel = '單位分類';
+
     protected static bool $shouldRegisterNavigation = false;
 
     public static function getNavigationGroup(): string

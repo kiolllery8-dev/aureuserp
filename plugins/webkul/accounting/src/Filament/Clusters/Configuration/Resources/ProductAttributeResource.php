@@ -14,6 +14,10 @@ class ProductAttributeResource extends AttributeResource
 {
     protected static ?string $model = Attribute::class;
 
+    protected static ?string $modelLabel = '屬性';
+
+    protected static ?string $pluralModelLabel = '屬性';
+
     protected static bool $shouldRegisterNavigation = true;
 
     protected static ?int $navigationSort = 10;

@@ -34,6 +34,10 @@ class PackageTypeResource extends Resource
 {
     protected static ?string $model = PackageType::class;
 
+    protected static ?string $modelLabel = '包裝類型';
+
+    protected static ?string $pluralModelLabel = '包裝類型';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-archive-box';
 
     protected static ?int $navigationSort = 10;

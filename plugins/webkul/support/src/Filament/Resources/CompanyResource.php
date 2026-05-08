@@ -50,6 +50,10 @@ class CompanyResource extends Resource
 
     protected static ?string $model = Company::class;
 
+    protected static ?string $modelLabel = '公司';
+
+    protected static ?string $pluralModelLabel = '公司';
+
     protected static bool $isGloballySearchable = false;
 
     protected static ?string $recordTitleAttribute = 'name';

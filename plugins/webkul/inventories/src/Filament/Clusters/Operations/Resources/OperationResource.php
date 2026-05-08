@@ -74,6 +74,10 @@ class OperationResource extends Resource
 
     protected static ?string $model = Operation::class;
 
+    protected static ?string $modelLabel = '作業';
+
+    protected static ?string $pluralModelLabel = '作業';
+
     protected static bool $shouldRegisterNavigation = false;
 
     protected static bool $isGloballySearchable = false;

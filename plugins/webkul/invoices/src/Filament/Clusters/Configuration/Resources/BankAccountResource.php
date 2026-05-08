@@ -11,6 +11,10 @@ class BankAccountResource extends BaseBankAccountResource
 {
     protected static ?string $model = BankAccount::class;
 
+    protected static ?string $modelLabel = '銀行帳戶';
+
+    protected static ?string $pluralModelLabel = '銀行帳戶';
+
     protected static bool $shouldRegisterNavigation = true;
 
     protected static ?int $navigationSort = 1;

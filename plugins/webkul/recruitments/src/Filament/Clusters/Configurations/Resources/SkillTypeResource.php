@@ -13,6 +13,10 @@ class SkillTypeResource extends BaseSkillTypeResource
 {
     protected static ?string $model = SkillType::class;
 
+    protected static ?string $modelLabel = '技能類型';
+
+    protected static ?string $pluralModelLabel = '技能類型';
+
     protected static ?string $cluster = Configurations::class;
 
     public static function getNavigationGroup(): string

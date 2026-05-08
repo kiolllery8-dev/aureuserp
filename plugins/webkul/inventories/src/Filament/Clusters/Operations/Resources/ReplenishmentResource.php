@@ -19,6 +19,10 @@ class ReplenishmentResource extends Resource
 {
     protected static ?string $model = OrderPoint::class;
 
+    protected static ?string $modelLabel = '訂貨點';
+
+    protected static ?string $pluralModelLabel = '訂貨點';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-arrows-up-down';
 
     protected static ?int $navigationSort = 4;

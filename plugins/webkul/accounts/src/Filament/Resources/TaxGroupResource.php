@@ -31,6 +31,10 @@ class TaxGroupResource extends Resource
 {
     protected static ?string $model = TaxGroup::class;
 
+    protected static ?string $modelLabel = '稅務群組';
+
+    protected static ?string $pluralModelLabel = '稅務群組';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-group';
 
     protected static bool $shouldRegisterNavigation = false;

@@ -41,6 +41,10 @@ class FiscalPositionResource extends Resource
 {
     protected static ?string $model = FiscalPosition::class;
 
+    protected static ?string $modelLabel = '財務立場';
+
+    protected static ?string $pluralModelLabel = '財務立場';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-arrow-uturn-left';
 
     protected static bool $shouldRegisterNavigation = false;

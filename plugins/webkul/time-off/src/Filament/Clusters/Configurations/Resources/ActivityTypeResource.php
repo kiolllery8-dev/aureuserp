@@ -15,6 +15,10 @@ class ActivityTypeResource extends BaseActivityTypeResource
 {
     protected static ?string $model = ActivityType::class;
 
+    protected static ?string $modelLabel = '活動類型';
+
+    protected static ?string $pluralModelLabel = '活動類型';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-clock';
 
     protected static bool $shouldRegisterNavigation = true;

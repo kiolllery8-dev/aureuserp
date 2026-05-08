@@ -49,6 +49,10 @@ class PostResource extends Resource
 {
     protected static ?string $model = Post::class;
 
+    protected static ?string $modelLabel = '文章';
+
+    protected static ?string $pluralModelLabel = '文章';
+
     protected static ?string $slug = 'website/posts';
 
     protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;

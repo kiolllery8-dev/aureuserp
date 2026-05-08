@@ -11,6 +11,10 @@ class IndustryResource extends BaseIndustryResource
 {
     protected static ?string $model = Industry::class;
 
+    protected static ?string $modelLabel = '產業';
+
+    protected static ?string $pluralModelLabel = '產業';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-building-office';
 
     protected static bool $shouldRegisterNavigation = true;

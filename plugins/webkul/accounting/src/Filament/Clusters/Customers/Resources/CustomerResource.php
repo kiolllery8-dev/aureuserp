@@ -18,6 +18,10 @@ class CustomerResource extends BaseCustomerResource
 {
     protected static ?string $model = Customer::class;
 
+    protected static ?string $modelLabel = '客戶';
+
+    protected static ?string $pluralModelLabel = '客戶';
+
     protected static bool $shouldRegisterNavigation = true;
 
     protected static bool $isGloballySearchable = true;

@@ -20,6 +20,10 @@ class PartnerResource extends BasePartnerResource
 {
     protected static ?string $model = Partner::class;
 
+    protected static ?string $modelLabel = '聯絡人';
+
+    protected static ?string $pluralModelLabel = '聯絡人';
+
     protected static ?string $slug = 'website/contacts';
 
     protected static bool $shouldRegisterNavigation = true;

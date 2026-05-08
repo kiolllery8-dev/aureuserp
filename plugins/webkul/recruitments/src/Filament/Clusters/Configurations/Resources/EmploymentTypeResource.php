@@ -11,6 +11,10 @@ class EmploymentTypeResource extends BaseEmploymentTypeResource
 {
     protected static ?string $model = EmploymentType::class;
 
+    protected static ?string $modelLabel = '雇用類型';
+
+    protected static ?string $pluralModelLabel = '雇用類型';
+
     protected static ?int $navigationSort = 2;
 
     protected static ?string $cluster = Configurations::class;

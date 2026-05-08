@@ -27,6 +27,10 @@ class OrderResource extends Resource
 {
     protected static ?string $model = Order::class;
 
+    protected static ?string $modelLabel = '訂單';
+
+    protected static ?string $pluralModelLabel = '訂單';
+
     protected static bool $shouldRegisterNavigation = false;
 
     protected static ?string $cluster = Account::class;

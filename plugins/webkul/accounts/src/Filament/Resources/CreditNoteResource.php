@@ -16,6 +16,10 @@ class CreditNoteResource extends InvoiceResource
 {
     protected static ?string $model = CreditNote::class;
 
+    protected static ?string $modelLabel = '退貨單';
+
+    protected static ?string $pluralModelLabel = '退貨單';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-credit-card';
 
     public static function getPages(): array

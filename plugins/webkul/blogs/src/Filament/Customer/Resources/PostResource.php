@@ -14,6 +14,10 @@ class PostResource extends Resource
 
     protected static ?string $model = Post::class;
 
+    protected static ?string $modelLabel = '文章';
+
+    protected static ?string $pluralModelLabel = '文章';
+
     protected static ?string $recordRouteKeyName = 'slug';
 
     protected static ?string $recordTitleAttribute = 'title';

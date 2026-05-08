@@ -15,6 +15,10 @@ class RefundResource extends BillResource
 {
     protected static ?string $model = Refund::class;
 
+    protected static ?string $modelLabel = '退款';
+
+    protected static ?string $pluralModelLabel = '退款';
+
     protected static bool $shouldRegisterNavigation = false;
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-credit-card';

@@ -53,6 +53,10 @@ class RouteResource extends Resource
 {
     protected static ?string $model = Route::class;
 
+    protected static ?string $modelLabel = '路線';
+
+    protected static ?string $pluralModelLabel = '路線';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-arrow-path';
 
     protected static ?int $navigationSort = 3;

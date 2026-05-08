@@ -27,6 +27,10 @@ class ProductResource extends BaseProductResource
 {
     protected static ?string $model = Product::class;
 
+    protected static ?string $modelLabel = '商品';
+
+    protected static ?string $pluralModelLabel = '商品';
+
     protected static bool $shouldRegisterNavigation = false;
 
     public static function form(Schema $schema): Schema

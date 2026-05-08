@@ -55,6 +55,10 @@ class PaymentTermResource extends Resource
 {
     protected static ?string $model = PaymentTerm::class;
 
+    protected static ?string $modelLabel = '付款條件';
+
+    protected static ?string $pluralModelLabel = '付款條件';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-currency-dollar';
 
     protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Start;

@@ -24,6 +24,10 @@ class TagResource extends Resource
 {
     protected static ?string $model = Tag::class;
 
+    protected static ?string $modelLabel = '標籤';
+
+    protected static ?string $pluralModelLabel = '標籤';
+
     protected static bool $shouldRegisterNavigation = false;
 
     public static function getNavigationLabel(): string

@@ -93,6 +93,10 @@ class InvoiceResource extends Resource
 
     protected static ?string $model = Invoice::class;
 
+    protected static ?string $modelLabel = '發票';
+
+    protected static ?string $pluralModelLabel = '發票';
+
     protected static ?string $recordTitleAttribute = 'name';
 
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-receipt-percent';

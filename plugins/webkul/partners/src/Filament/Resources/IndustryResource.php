@@ -22,6 +22,10 @@ class IndustryResource extends Resource
 {
     protected static ?string $model = Industry::class;
 
+    protected static ?string $modelLabel = '產業';
+
+    protected static ?string $pluralModelLabel = '產業';
+
     protected static bool $shouldRegisterNavigation = false;
 
     public static function getNavigationLabel(): string

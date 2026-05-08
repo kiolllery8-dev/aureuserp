@@ -23,6 +23,10 @@ class PackagingResource extends BasePackagingResource
 {
     protected static ?string $model = Packaging::class;
 
+    protected static ?string $modelLabel = '包裝';
+
+    protected static ?string $pluralModelLabel = '包裝';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-gift';
 
     protected static bool $shouldRegisterNavigation = true;

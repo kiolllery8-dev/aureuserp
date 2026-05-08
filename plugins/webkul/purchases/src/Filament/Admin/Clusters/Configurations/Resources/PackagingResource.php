@@ -19,6 +19,10 @@ class PackagingResource extends BasePackagingResource
 
     protected static ?string $model = Packaging::class;
 
+    protected static ?string $modelLabel = '包裝';
+
+    protected static ?string $pluralModelLabel = '包裝';
+
     protected static ?string $cluster = Configurations::class;
 
     protected static ?string $recordTitleAttribute = 'name';

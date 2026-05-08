@@ -56,6 +56,10 @@ class LocationResource extends Resource
 {
     protected static ?string $model = Location::class;
 
+    protected static ?string $modelLabel = '位置';
+
+    protected static ?string $pluralModelLabel = '位置';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-map-pin';
 
     protected static ?int $navigationSort = 2;

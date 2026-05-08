@@ -56,6 +56,10 @@ class JobPositionResource extends Resource
 {
     protected static ?string $model = JobPosition::class;
 
+    protected static ?string $modelLabel = '職位';
+
+    protected static ?string $pluralModelLabel = '職位';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-briefcase';
 
     protected static ?int $navigationSort = 2;

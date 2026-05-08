@@ -29,6 +29,10 @@ class BankAccountResource extends Resource
 {
     protected static ?string $model = BankAccount::class;
 
+    protected static ?string $modelLabel = '銀行帳戶';
+
+    protected static ?string $pluralModelLabel = '銀行帳戶';
+
     protected static bool $shouldRegisterNavigation = false;
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-banknotes';

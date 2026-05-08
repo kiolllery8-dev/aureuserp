@@ -19,6 +19,10 @@ class DepartmentResource extends BaseDepartmentResource
 {
     protected static ?string $model = Department::class;
 
+    protected static ?string $modelLabel = '部門';
+
+    protected static ?string $pluralModelLabel = '部門';
+
     protected static ?string $cluster = Configurations::class;
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-building-office-2';

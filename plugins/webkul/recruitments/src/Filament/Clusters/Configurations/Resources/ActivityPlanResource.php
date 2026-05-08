@@ -34,6 +34,10 @@ class ActivityPlanResource extends BaseActivityPlanResource
 {
     protected static ?string $model = ActivityPlan::class;
 
+    protected static ?string $modelLabel = '活動計畫';
+
+    protected static ?string $pluralModelLabel = '活動計畫';
+
     protected static ?string $cluster = Configurations::class;
 
     public static function getNavigationGroup(): string

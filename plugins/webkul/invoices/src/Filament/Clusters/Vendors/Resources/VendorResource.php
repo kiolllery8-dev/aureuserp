@@ -20,6 +20,10 @@ class VendorResource extends BaseVendorResource
 {
     protected static ?string $model = Vendor::class;
 
+    protected static ?string $modelLabel = '供應商';
+
+    protected static ?string $pluralModelLabel = '供應商';
+
     protected static ?string $slug = '';
 
     protected static bool $shouldRegisterNavigation = true;

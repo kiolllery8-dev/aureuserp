@@ -50,6 +50,10 @@ class PaymentResource extends Resource
 {
     protected static ?string $model = Payment::class;
 
+    protected static ?string $modelLabel = '付款';
+
+    protected static ?string $pluralModelLabel = '付款';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-banknotes';
 
     protected static bool $shouldRegisterNavigation = false;

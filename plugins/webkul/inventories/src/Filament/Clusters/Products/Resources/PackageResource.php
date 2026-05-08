@@ -47,6 +47,10 @@ class PackageResource extends Resource
 {
     protected static ?string $model = Package::class;
 
+    protected static ?string $modelLabel = '包裝';
+
+    protected static ?string $pluralModelLabel = '包裝';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-cube';
 
     protected static ?string $cluster = Products::class;

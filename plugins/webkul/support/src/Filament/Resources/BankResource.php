@@ -28,6 +28,10 @@ class BankResource extends Resource
 {
     protected static ?string $model = Bank::class;
 
+    protected static ?string $modelLabel = '銀行';
+
+    protected static ?string $pluralModelLabel = '銀行';
+
     protected static bool $shouldRegisterNavigation = false;
 
     public static function getNavigationGroup(): string

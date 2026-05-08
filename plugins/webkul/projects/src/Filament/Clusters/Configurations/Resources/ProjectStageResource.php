@@ -29,6 +29,10 @@ class ProjectStageResource extends Resource
 {
     protected static ?string $model = ProjectStage::class;
 
+    protected static ?string $modelLabel = '專案階段';
+
+    protected static ?string $pluralModelLabel = '專案階段';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-squares-2x2';
 
     protected static ?int $navigationSort = 1;

@@ -90,6 +90,10 @@ class BillResource extends Resource
 {
     protected static ?string $model = Bill::class;
 
+    protected static ?string $modelLabel = '進貨單';
+
+    protected static ?string $pluralModelLabel = '進貨單';
+
     protected static ?string $recordTitleAttribute = 'name';
 
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-rectangle-stack';

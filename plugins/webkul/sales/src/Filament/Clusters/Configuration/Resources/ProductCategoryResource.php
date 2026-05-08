@@ -16,6 +16,10 @@ class ProductCategoryResource extends BaseProductCategoryResource
 {
     protected static ?string $model = Category::class;
 
+    protected static ?string $modelLabel = '分類';
+
+    protected static ?string $pluralModelLabel = '分類';
+
     protected static ?string $cluster = Configuration::class;
 
     protected static ?int $navigationSort = 3;

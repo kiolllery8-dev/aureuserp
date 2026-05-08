@@ -18,6 +18,10 @@ class ProductCategoryResource extends BaseProductCategoryResource
 {
     protected static ?string $model = Category::class;
 
+    protected static ?string $modelLabel = '分類';
+
+    protected static ?string $pluralModelLabel = '分類';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-folder';
 
     protected static bool $shouldRegisterNavigation = true;

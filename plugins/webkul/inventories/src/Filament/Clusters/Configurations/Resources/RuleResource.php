@@ -53,6 +53,10 @@ class RuleResource extends Resource
 {
     protected static ?string $model = Rule::class;
 
+    protected static ?string $modelLabel = '規則';
+
+    protected static ?string $pluralModelLabel = '規則';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-clipboard-document-check';
 
     protected static ?int $navigationSort = 4;

@@ -81,6 +81,10 @@ class TaskResource extends Resource
 
     protected static ?string $model = Task::class;
 
+    protected static ?string $modelLabel = '任務';
+
+    protected static ?string $pluralModelLabel = '任務';
+
     protected static ?string $slug = 'project/tasks';
 
     protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;

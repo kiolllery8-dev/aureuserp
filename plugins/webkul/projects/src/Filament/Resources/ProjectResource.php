@@ -74,6 +74,10 @@ class ProjectResource extends Resource
 
     protected static ?string $model = Project::class;
 
+    protected static ?string $modelLabel = '專案';
+
+    protected static ?string $pluralModelLabel = '專案';
+
     protected static ?string $slug = 'project/projects';
 
     protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;

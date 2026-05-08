@@ -62,6 +62,10 @@ class ProductResource extends Resource
 {
     protected static ?string $model = Product::class;
 
+    protected static ?string $modelLabel = '商品';
+
+    protected static ?string $pluralModelLabel = '商品';
+
     protected static bool $shouldRegisterNavigation = false;
 
     protected static ?string $recordTitleAttribute = 'name';

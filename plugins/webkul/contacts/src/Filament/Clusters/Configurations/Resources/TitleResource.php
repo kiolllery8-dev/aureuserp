@@ -11,6 +11,10 @@ class TitleResource extends BaseTitleResource
 {
     protected static ?string $model = Title::class;
 
+    protected static ?string $modelLabel = '稱謂';
+
+    protected static ?string $pluralModelLabel = '稱謂';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-academic-cap';
 
     protected static bool $shouldRegisterNavigation = true;

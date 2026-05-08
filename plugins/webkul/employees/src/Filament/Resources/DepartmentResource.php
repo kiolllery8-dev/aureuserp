@@ -53,6 +53,10 @@ class DepartmentResource extends Resource
 
     protected static ?string $model = Department::class;
 
+    protected static ?string $modelLabel = '部門';
+
+    protected static ?string $pluralModelLabel = '部門';
+
     protected static ?\Filament\Pages\Enums\SubNavigationPosition $subNavigationPosition = SubNavigationPosition::Top;
 
     protected static ?string $recordTitleAttribute = 'name';

@@ -27,6 +27,10 @@ class IncotermResource extends Resource
 {
     protected static ?string $model = Incoterm::class;
 
+    protected static ?string $modelLabel = '國貿條款';
+
+    protected static ?string $pluralModelLabel = '國貿條款';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-globe-alt';
 
     protected static bool $shouldRegisterNavigation = false;

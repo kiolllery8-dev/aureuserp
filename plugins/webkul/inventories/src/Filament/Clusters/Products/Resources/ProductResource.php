@@ -41,6 +41,10 @@ class ProductResource extends BaseProductResource
 
     protected static ?string $model = Product::class;
 
+    protected static ?string $modelLabel = '商品';
+
+    protected static ?string $pluralModelLabel = '商品';
+
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-shopping-bag';
 
     protected static bool $shouldRegisterNavigation = true;

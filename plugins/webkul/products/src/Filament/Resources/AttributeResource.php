@@ -39,6 +39,10 @@ class AttributeResource extends Resource
 {
     protected static ?string $model = Attribute::class;
 
+    protected static ?string $modelLabel = '屬性';
+
+    protected static ?string $pluralModelLabel = '屬性';
+
     protected static string|BackedEnum|null $navigationIcon = 'heroicon-o-swatch';
 
     protected static bool $shouldRegisterNavigation = false;
