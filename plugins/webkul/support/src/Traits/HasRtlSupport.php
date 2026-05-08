@@ -15,14 +15,16 @@ trait HasRtlSupport
     {
         LanguageSwitch::configureUsing(function (LanguageSwitch $switch) {
             $switch
-                ->locales(['en', 'ar'])
+                ->locales(['zh_TW', 'en', 'ar'])
                 ->labels([
-                    'en' => 'English',
-                    'ar' => 'العربية',
+                    'zh_TW' => '繁體中文',
+                    'en'    => 'English',
+                    'ar'    => 'العربية',
                 ])
                 ->flags([
-                    'en' => asset('flags/en.svg'),
-                    'ar' => asset('flags/ar.svg'),
+                    'zh_TW' => asset('flags/tw.svg'),
+                    'en'    => asset('flags/en.svg'),
+                    'ar'    => asset('flags/ar.svg'),
                 ])
                 ->circular();
         });
