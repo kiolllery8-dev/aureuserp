@@ -66,12 +66,23 @@ class PartnerResource extends Resource
 
     public static function getModelLabel(): string
     {
-        return __('partners::filament/resources/partner.model-label');
+        // 根據子類別實際的 model 決定顯示文字。
+        // CustomerResource / VendorResource 都繼承自 PartnerResource，
+        // 但他們應該顯示「客戶」/「供應商」，不是「聯絡人」。
+        return match (class_basename(static::getModel())) {
+            'Customer' => '客戶',
+            'Vendor' => '供應商',
+            default => __('partners::filament/resources/partner.model-label'),
+        };
     }
 
     public static function getPluralModelLabel(): string
     {
-        return __('partners::filament/resources/partner.plural-model-label');
+        return match (class_basename(static::getModel())) {
+            'Customer' => '客戶',
+            'Vendor' => '供應商',
+            default => __('partners::filament/resources/partner.plural-model-label'),
+        };
     }
 
     public static function getGloballySearchableAttributes(): array
